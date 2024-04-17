@@ -5,8 +5,8 @@ import arxiv
 from openai import OpenAI
 
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
+# OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+# openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
 query_dict = {
     "連合学習": '(abs:"federated learning" OR abs:"VFL" OR abs:"HFL" OR abs:"FL")',
@@ -79,14 +79,14 @@ SYSTEM = """
 def get_summary(result: arxiv.Result):
     text = f"Title: {result.title}\nAbstract: {result.summary}"
 
-    response = openai_client.chat.completions.create(
-        model="gpt-4-turbo",
-        messages=[
-            {"role": "system", "content": SYSTEM},
-            {"role": "user", "content": text},
-        ],
-    )
-    return response
+    # response = openai_client.chat.completions.create(
+    #     model="gpt-4-turbo",
+    #     messages=[
+    #         {"role": "system", "content": SYSTEM},
+    #         {"role": "user", "content": text},
+    #     ],
+    # )
+    # return response
 
 
 def get_header(paper: arxiv.Result):

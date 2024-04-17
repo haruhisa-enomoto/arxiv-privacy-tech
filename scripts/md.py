@@ -60,6 +60,7 @@ for topic_en, data in weekly_papers.items():
         md_output = [
             "---",
             f"title: {topic_ja} ({week_start} ~ {week_end})",
+            f"date: {week_start}",
             "---\n",
             (
                 f"{topic_ja}に関する論文まとめ ({week_start} ~ {week_end})"

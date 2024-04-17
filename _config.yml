@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Haruhisa Enomoto"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "R&D in [Acompany](https://acompany.tech/)"
+  bio              : "R&D in [**Acompany**](https://acompany.tech/)"
   location         : "Acompany, Japan"
   email            :
   links:

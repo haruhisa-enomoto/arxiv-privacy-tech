@@ -1,0 +1,32 @@
+# main links
+main:
+  - title: All
+    url: /all/
+  - title: MPC
+    url: /mpc/
+  - title: SD
+    url: /sd/
+  - title: FL
+    url: /fl/
+  - title: DP
+    url: /dp/
+  - title: HE
+    url: /he/
+  - title: PETs
+    url: /pets/
+  - title: SSI/DID/VC
+    url: /ssi/
+  - title: FTL
+    url: /ftl/
+
+
+    # 
+# - [秘密計算](../mpc/)
+# - [合成データ](../sd/)
+# - [差分プライバシー](../dp/)
+# - [準同型暗号](../he/)
+# - [連合学習](../fl/)
+# - [連合転移学習](../ftl/)
+# - [PETs](../pets/)
+# - [SSI/DID/VC](../ssi/)
+# - [全て](../all/)

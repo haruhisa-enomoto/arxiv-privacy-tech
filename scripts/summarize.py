@@ -4,9 +4,6 @@ import arxiv
 from openai import OpenAI
 
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
-
 SYSTEM = """
 # 指示
 - 与えられたタイトルとアブストに対して、日本語で重要なポイントを簡潔にまとめ、箇条書き(最大4個)で要約してください
@@ -33,6 +30,9 @@ SYSTEM = """
 
 
 def get_summary(result: arxiv.Result) -> str:
+    OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+    openai_client = OpenAI(api_key=OPENAI_API_KEY)
+
     print(f"Getting summary for {result.entry_id}")
     text = f"Title: {result.title}\nAbstract: {result.summary}"
 

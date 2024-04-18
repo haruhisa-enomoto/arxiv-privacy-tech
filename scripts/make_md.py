@@ -12,7 +12,15 @@ latest_json_path = Path("_data/latest_papers.json")
 latest_papers = parse_json(latest_json_path)
 
 
-def make_md_segment(paper: PaperInfo) -> str:
+def make_md_segment(paper: PaperInfo, from_home: bool = False) -> str:
+    if from_home:
+        topic_str = ", ".join(
+            [f"[{topic}]({topic_ja_to_en[topic]})" for topic in paper.topics]
+        )
+    else:
+        topic_str = ", ".join(
+            [f"[{topic}](../../{topic_ja_to_en[topic]})" for topic in paper.topics]
+        )
     return f"""
 - - -
 
@@ -26,7 +34,7 @@ def make_md_segment(paper: PaperInfo) -> str:
 
 {f"**Comment:** {paper.comment}" if paper.comment else ""}
 
-**トピック:** {', '.join([f"[{topic}]({topic_ja_to_en[topic]})" for topic in paper.topics])}, **カテゴリ:** {', '.join(paper.categories)}, **投稿日時:** {paper.published.strftime('%Y-%m-%d %H:%M')}
+**トピック:** {topic_str}, **カテゴリ:** {', '.join(paper.categories)}, **投稿日時:** {paper.published.strftime('%Y-%m-%d %H:%M')}
 """
 
 

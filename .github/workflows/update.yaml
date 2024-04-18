@@ -2,7 +2,7 @@ name: Update Repository Files
 
 on:
   # schedule:
-  #   - cron: '0 0 * * *'  # 毎日午前0時に実行
+    - cron: '15 * * * *'  # 毎日午前0時に実行
     workflow_dispatch
 
 

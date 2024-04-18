@@ -388,6 +388,18 @@ defaults:
       share: false
       related: false
       show_date: true
+  - scope:
+      path: ""
+      type: zkp
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
 
 
 collections:
@@ -416,6 +428,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   sd:
+    output: true
+    permalink: /:collection/:path/
+  zkp:
     output: true
     permalink: /:collection/:path/
 

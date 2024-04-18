@@ -12,6 +12,8 @@ main:
     url: /dp/
   - title: HE
     url: /he/
+  - title: ZKP
+    url: /zkp/
   - title: PETs
     url: /pets/
   - title: SSI/DID/VC

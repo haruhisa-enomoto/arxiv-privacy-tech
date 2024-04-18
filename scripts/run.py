@@ -148,6 +148,9 @@ if __name__ == "__main__":
                 new_results.append(result)
 
     print(f"Found {len(new_results)} new papers in total")
+    if not new_results:
+        print("No new papers to summarize.")
+        exit()
 
     new_info_list = [get_paper_info(result) for result in new_results]
     paper_info_list = current_info_list + new_info_list

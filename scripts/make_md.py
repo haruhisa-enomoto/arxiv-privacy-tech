@@ -15,7 +15,7 @@ latest_papers = parse_json(latest_json_path)
 def make_md_segment(paper: PaperInfo, from_home: bool = False) -> str:
     if from_home:
         topic_str = ", ".join(
-            [f"[{topic}]({topic_ja_to_en[topic]})" for topic in paper.topics]
+            [f"[{topic}](/{topic_ja_to_en[topic]})" for topic in paper.topics]
         )
     else:
         topic_str = ", ".join(
@@ -140,7 +140,7 @@ To be written.
 
 ## 最新更新分
 
-更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}
+更新: {datetime.now().isoformat()}
 """
 
 

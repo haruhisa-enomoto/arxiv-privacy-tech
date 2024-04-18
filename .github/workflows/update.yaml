@@ -29,8 +29,8 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: python scripts/run.py
     
-    - name: Create md file
-      run: python scripts/create_md.py
+    - name: Create md files from json
+      run: python scripts/make_md.py
 
     - name: Commit and push if necessary
       run: |

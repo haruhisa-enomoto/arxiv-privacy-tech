@@ -2,8 +2,7 @@ name: Update Repository Files
 
 on:
   schedule:
-    - cron: '20 * * * *'  # 毎日午前0時に実行
-
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 
@@ -28,6 +27,8 @@ jobs:
     - name: Fetch arxiv and summarize with GPT-4
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
       run: python scripts/run.py
     
     - name: Create md files from json

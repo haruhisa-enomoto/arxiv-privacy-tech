@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 import arxiv
 from summarize import get_summary
+from post_to_slack import post_paper_to_slack
 
 
 @dataclass
@@ -158,4 +159,7 @@ if __name__ == "__main__":
     new_info_list.sort(key=lambda x: x.published, reverse=True)
     dump_info_list(paper_info_list, json_file)
     dump_info_list(new_info_list, latest_json_file)
+    print("Posting to Slack...")
+    for paper in new_info_list:
+        post_paper_to_slack(paper)
     print("Done")

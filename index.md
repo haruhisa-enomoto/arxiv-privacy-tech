@@ -26,259 +26,208 @@ To be written.
 
 ## 最新更新分
 
-更新: 2024-04-18T11:26:13.430334
+更新: 2024-04-19T05:09:46.930782
 
 - - -
 
-### [Private federated discovery of out-of-vocabulary words for Gboard](http://arxiv.org/abs/2404.11607)
+### [KDk: A Defense Mechanism Against Label Inference Attacks in Vertical Federated Learning](http://arxiv.org/abs/2404.12369)
 
-**Gboardのためのプライベート連合による語彙外単語の発見**
+**垂直連合学習におけるラベル推論攻撃防御機構 KDk**
 
-Ziteng Sun, Peter Kairouz, Haicheng Sun, Adria Gascon, Ananda Theertha Suresh
+Marco Arazzi, Serena Nicolazzo, Antonino Nocera
 
-- Gboard言語モデルの語彙強化は、頻繁にタイプされる語彙外の単語をユーザーデバイスで発見することで達成される
-- ユーザー入力データの機密性を考慮し、強固なプライバシー保護が必要とされる
-- 新たに開発された語彙外単語発見アルゴリズムは、プライベート連合学習の最新技術を活用し、局所差分プライバシー保証を提供
-- 匿名集計により、最終的に発表された単語は中央差分プライバシーの基準を満たしており、特に米国英語ではプライバシー保護基準が設定されている
+- 垂直連合学習（VFL）では、標本のラベルが集約サーバーを除く全参加者から秘匿される
+- サーバーから返される勾配情報を利用して、敵は限られた補助ラベルのみで秘密のラベルを推測可能である
+- KDkフレームワークは知識蒸留とk-匿名性を組み合わせてVFLのラベル推論攻撃に対する防御機制を提供
+- 提案手法ではラベル推論攻撃の効果を60%以上削減しつつ、VFL全体の正確性はほぼ変わらないことが示された
 
 
 
-**トピック:** [差分プライバシー](../../dp), **カテゴリ:** cs.DS, **投稿日時:** 2024-04-17 17:55
-
-- - -
-
-### [FedPFT: Federated Proxy Fine-Tuning of Foundation Models](http://arxiv.org/abs/2404.11536)
-
-**FedPFT: Foundation Modelsの連合代理ファインチューニング**
-
-Zhaopeng Peng, Xiaoliang Fan, Yufan Chen, Zheng Wang, Shirui Pan, Chenglu Wen, Ruisheng Zhang, Cheng Wang
-
-- Foundation Modelsを下流タスクに適応させるために、連合学習を用いるアプローチがデータプライバシー保護とFM価値保持に有効である
-- 既存のメソッドでは、FMをサブセクションに割り当てることで不十分なチューニングと勾配の誤差蓄積が発生し、最適でないパフォーマンスをもたらす
-- 本論文では、FedPFTを提案し、FMの下流タスク適応を向上させるために、レイヤー別圧縮手法を用いたサブ-FM構成モジュールと、2段階の蒸留（レイヤーレベルおよびニューロンレベル）を行うサブ-FM調整モジュールを採用
-- 7つの一般的なデータセット（テキスト4つ、ビジョン3つ）での実験結果がFedPFTの優位性を示す
-
-**Comment:** Accepted by IJCAI'24
-
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-04-17 16:30
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-04-18 17:51
 
 - - -
 
-### [A Federated Learning Approach to Privacy Preserving Offensive Language Identification](http://arxiv.org/abs/2404.11470)
+### [Inverse Neural Rendering for Explainable Multi-Object Tracking](http://arxiv.org/abs/2404.12359)
 
-**連合学習を用いたプライバシー保護型攻撃的言語識別のアプローチ**
+**逆ニューラルレンダリングによる説明可能なマルチオブジェクト追跡**
 
-Marcos Zampieri, Damith Premasiri, Tharindu Ranasinghe
+Julian Ost, Tanushree Banerjee, Mario Bijelic, Felix Heide
 
-- オンラインでの攻撃的言語の拡散はソーシャルメディアにとって重要な問題である
-- 攻撃的言語を識別するための従来のモデルは、大量のデータを中央サーバーに保存しているが、プライバシーの問題が大きく残っている
-- 連合学習（FL）を用いた分散型アーキテクチャーを提案し、ユーザーのプライバシーを保護しながら攻撃的言語を識別
-- 提案されたモデル融合アプローチは、英語の4つの公開ベンチマークデータセット（AHSD, HASOC, HateXplain, OLID）で従来の基準を上回るパフォーマンスを示す同时，进行了英语与西班牙语的跨语言实验
+- 既存のネットワークは異なるデータセット間での一般化に苦労するが、本研究ではRGBカメラからの3Dマルチオブジェクト追跡を逆レンダリング問題として再構成する
+- 事前訓練された3Dオブジェクト表現の潜在空間を最適化し、入力画像内のオブジェクトインスタンスを最もよく表す潜在変数を回収する
+- 本手法では形状と外観の特性を自然に切り離す生成的潜在空間の画像損失を最適化する
+- 合成データからのみ生成的事前学習を行い、nuScenesおよびWaymoデータセットを使用してカメラに基づく3D追跡の一般化とスケーリング能力を検証する
 
-**Comment:** Accepted to TRAC 2024 (Fourth Workshop on Threat, Aggression and   Cyberbullying) at LREC-COLING 2024 (The 2024 Joint International Conference   on Computational Linguistics, Language Resources and Evaluation)
 
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.CL, cs.LG, **投稿日時:** 2024-04-17 15:23
 
-- - -
-
-### [Real-Time Trajectory Synthesis with Local Differential Privacy](http://arxiv.org/abs/2404.11450)
-
-**リアルタイム軌道合成と局所差分プライバシー**
-
-Yujia Hu, Yuntao Du, Zhikun Zhang, Ziquan Fang, Lu Chen, Kai Zheng, Yunjun Gao
-
-- ユーザーのトラジェクトリデータに局所差分プライバシーを適用し、プライバシーを保護しながらデータを共有
-- 既存の方法は軌道ストリームの空間的-時間的コンテキスト情報を無視してしまう問題点が存在
-- RetraSynフレームワークを提案し、リアルタイムでのトラジェクトリ合成を実現し、移動パターンに基づいた合成データの利用性を向上
-- 実世界および合成データセットを用いたテストで、提案フレームワークの優越性と多才性を実証
-
-**Comment:** Accepted by ICDE 2024. Code is available at:   https://github.com/ZJU-DAILY/RetraSyn
-
-**トピック:** [差分プライバシー](../../dp), **カテゴリ:** cs.DB, cs.CR, **投稿日時:** 2024-04-17 14:55
+**トピック:** [合成データ](../../sd), **カテゴリ:** cs.CV, cs.GR, cs.RO, **投稿日時:** 2024-04-18 17:37
 
 - - -
 
-### [What-if Analysis Framework for Digital Twins in 6G Wireless Network Management](http://arxiv.org/abs/2404.11394)
+### [FedEval-LLM: Federated Evaluation of Large Language Models on Downstream Tasks with Collective Wisdom](http://arxiv.org/abs/2404.12273)
 
-**6Gワイヤレスネットワーク管理のためのデジタルツインによるWhat-if分析フレームワーク**
+**FedEval-LLM: 大規模言語モデルのダウンストリームタスクでの連合評価における集合知**
 
-Elif Ak, Berk Canberk, Vishal Sharma, Octavia A. Dobre, Trung Q. Duong
+Yuanqin He, Yan Kang, Lixin Fan, Qiang Yang
 
-- デジタルツインネットワーク（DTN）をNS-3で実装した物理ツイン層と、機械学習及び強化学習を利用したサービス層で構成
-- キャリア感度閾値と無線ネットワークの送信電力制御を最適化
-- 条件付き表型GAN（CTGAN）を用いた合成データ生成により、様々なネットワークシナリオを模倣
-- 通信のスループット、遅延、パケットロス、カバレッジの4つのネットワークパフォーマンス指標の評価を含む
+- 大規模言語モデル（LLM）を連合学習（FL）に統合するには、評価方法に関する新たな課題が存在する
+- 従来の評価方法は限られた適切な答えのみをカバーし、LLMの生成タスクでの性能を正確に反映できない
+- FedEval-LLMは、ラベル付きテストセットや外部ツールに依存せずに、LLMのダウンストリームタスクでの性能を信頼性高く測定するためのフレームワークを提案する
+- 実験結果は、この評価モデルがダウンストリームタスクにおける評価能力を大幅に改善し、人間の好みとRougeLスコアとの強い一致を示す
 
-**Comment:** 6 pages, 3 figures, 1 table conference
+**Comment:** In Progress
 
-**トピック:** [合成データ](../../sd), **カテゴリ:** cs.NI, **投稿日時:** 2024-04-17 13:55
-
-- - -
-
-### [Enhancing Data Privacy In Wireless Sensor Networks: Investigating Techniques And Protocols To Protect Privacy Of Data Transmitted Over Wireless Sensor Networks In Critical Applications Of Healthcare And National Security](http://arxiv.org/abs/2404.11388)
-
-**ワイヤレスセンサーネットワークにおけるデータプライバシーの強化：保健医療と国家安全保障の重要アプリケーションにおけるデータ送信のプライバシー保護のための技術とプロトコルの調査**
-
-Akinsola Ahmed, Ejiofor Oluomachi, Akinde Abdullah, Njoku Tochukwu
-
-- ワイヤレスセンサーネットワーク(WSN)は、健康管理、国家安全、緊急対応、インフラ監視など多岐にわたるアプリケーションに利用されている
-- データプライバシーを守るために、暗号化技術、認証メカニズム、匿名化技術、アクセス制御メカニズムが重視されている
-- ヘルスケアと国家安全の文脈でのデータプライバシーに関連する脆弱性や課題が指摘され、規制遵守や倫理的考慮、社会経済的要因が強調された
-- プライバシー保護技術の採用を理解するために「イノベーションの普及理論」が紹介され、有効なセキュリティソリューションの事例が検討された
-
-
-
-**トピック:** [PETs](../../pets), **カテゴリ:** cs.CR, cs.NI, **投稿日時:** 2024-04-17 13:48
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.AI, cs.CL, cs.LG, **投稿日時:** 2024-04-18 15:46
 
 - - -
 
-### [S3PHER: Secure and Searchable System for Patient-driven HEalth data shaRing](http://arxiv.org/abs/2404.11372)
+### [Aligning Actions and Walking to LLM-Generated Textual Descriptions](http://arxiv.org/abs/2404.12192)
 
-**S3PHER: 患者主導の健康データ共有のためのセキュアで検索可能なシステム**
+**LLMを用いて行動とウォーキングパターンのテキスト記述を調整する**
 
-Ivan Costa, Ivone Amorim, Eva Maia, Pedro Barbosa, Isabel Praca
+Radu Chivereanu, Adrian Cosma, Andy Catruna, Razvan Rughinis, Emilian Radoi
 
-- 健康データ共有のための既存のシステムは、プライバシー、機密保持、同意管理といったセキュリティ要件を完全に満たしていない
-- S3PHERは、どのデータが誰に、いつアクセスされるかを患者自身がコントロールできる新しい健康データ共有アプローチを提案
-- このシステムは、準同型暗号を利用して、医療従事者が患者の文書にプライベートに検索アクセスできるようにし、エンドツーエンドのプライバシーを保証
-- 実際のデータセットにおけるテストは、実行時間が有望であることを示し、エンドツーエンドのデプロイメントと使用例分析を通じてS3PHERの実用性と利点が確認された
+- 大規模言語モデル（LLM）を使用して、行動認識と歩行シーケンスの検索のために、動作シーケンスに富んだテキスト記述を生成
+- BABEL-60データセットの行動をテキストで記述し、動作シーケンスと言語表現を整合させる
+- DenseGaitデータセットを用い、衣服選択や履物による歩行スタイルの変動を捉えたテキスト記述を生成
+- LLMの能力を活用し、構造化された動きの属性を増大させ、マルチモーダル表現を整合する方法を示す
 
-**Comment:** 20 pages, 1 figure, 2 tables in the appendix
+**Comment:** Accepted at 2nd Workshop on Learning with Few or without Annotated   Face, Body and Gesture Data
 
-**トピック:** [準同型暗号](../../he), **カテゴリ:** cs.CR, E.3; H.3.1; H.3.2; H.3.3, **投稿日時:** 2024-04-17 13:31
-
-- - -
-
-### [CAGE: Causality-Aware Shapley Value for Global Explanations](http://arxiv.org/abs/2404.11208)
-
-**CAGE: 因果関係を考慮したShapley値によるグローバル説明**
-
-Nils Ole Breuer, Andreas Sauter, Majid Mohammadi, Erman Acar
-
-- AIの決定が透明で説明可能であることが重要とされる中、XAI（説明可能なAI）分野が人気を博している
-- 従来のShapley値に基づく方法は特徴の独立性を仮定しており、特徴間の因果関係を見落としていた
-- CAGEは特徴の因果関係を尊重する新しいサンプリング手法を提案し、グローバルな説明に因果知識を組み込む
-- 合成データと実世界のデータによる評価で、従来の方法より直感的で忠実な説明が可能とされた
-
-
-
-**トピック:** [合成データ](../../sd), **カテゴリ:** cs.AI, **投稿日時:** 2024-04-17 09:43
+**トピック:** [合成データ](../../sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-04-18 13:56
 
 - - -
 
-### [Synthesizing Realistic Data for Table Recognition](http://arxiv.org/abs/2404.11100)
+### [Privacy-Preserving UCB Decision Process Verification via zk-SNARKs](http://arxiv.org/abs/2404.12186)
 
-**表認識のための現実的なデータの合成**
+**プライバシー保護を目的としたUCB意思決定プロセスのzk-SNARKsを用いた検証**
 
-Qiyu Hou, Jun Wang, Meixuan Qiao, Lujun Tian
+Xikun Jiang, He Lyu, Chenhao Ying, Yibin Xu, Boris Düdder, Yuan Luo
 
-- 既存の自動表データアノテーション方法やランダムな表データ合成手法の限界を克服するために、表認識専用のアノテーションデータの合成方法を提案
-- 複雑な表の構造と内容を利用して、対象ドメインの本物のスタイルを密接に再現する表を効率的に作成
-- 中国の金融告示から得られた表の実際の構造と内容を活用し、この分野で初の広範囲な表アノテーションデータセットを開発し、ディープラーニングベースの表認識モデルを訓練
-- 合成手法を用いて、英語の金融告示から抽出されたFinTabNetデータセットに複雑性を加え、複数のセルが交差する表の割合を増加させた結果、特に複数のセルが交差する表の認識性能が向上することを実証
-
-**Comment:** ICDAR 2024
-
-**トピック:** [合成データ](../../sd), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-04-17 06:36
-
-- - -
-
-### [Lightweight Unsupervised Federated Learning with Pretrained Vision Language Model](http://arxiv.org/abs/2404.11046)
-
-**軽量かつ教師なし連合学習の新手法: 事前学習された視覚言語モデルの活用**
-
-Hao Yan, Yuhong Guo
-
-- 連合学習は、個々のクライアントが孤立したデータからプライバシーを保護しつつ共同モデルを学習することを目指す
-- 提案手法は、事前に学習された視覚言語モデル（例: CLIP）を使用して、ラベルがないデータに対して軽量なモデル訓練と通信を行う
-- ゼロショット予測能力を利用して、固定された画像エンコーダー上で線形分類器のみを訓練することにより、擬似ラベルを洗練
-- 各クライアント内のデータ不均衡に対処するため、クラスバランスの取れたテキスト特徴サンプリング戦略により合成データを生成し、ローカルトレーニングをサポートする
+- 機械学習のプライバシー保護と検証可能性のバランスを取るために、ゼロ知識証明(zk-SNARKs)を活用した新しいアルゴリズムzkUCBを導入
+- zkUCBは訓練データとアルゴリズムパラメータの機密性を保護しながら、透明なUCB意思決定プロセスを実現
+- 実験により、zkUCBは情報量の減少に貢献する量子化ビットの適切な使用により性能が向上することが示された
+- zkUCBの証明サイズと検証時間は、実行ステップに比例してスケールし、データセキュリティと運用効率のバランスを効果的に取る
 
 
 
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.AI, cs.CV, cs.LG, **投稿日時:** 2024-04-17 03:42
+**トピック:** [ゼロ知識証明](../../zkp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-04-18 13:49
 
 - - -
 
-### [Approximate Wireless Communication for Lossy Gradient Updates in IoT Federated Learning](http://arxiv.org/abs/2404.11035)
+### [One-Shot Sequential Federated Learning for Non-IID Data by Enhancing Local Model Diversity](http://arxiv.org/abs/2404.12130)
 
-**IoT環境における連合学習のための効率的な近似無線通信手法**
+**非IIDデータに対するワンショット連続連合学習の向上のためのローカルモデル多様性強化**
 
-Xiang Ma, Haijian Sun, Rose Qingyang Hu, Yi Qian
+Naibo Wang, Yuchen Deng, Wenjie Feng, Shichen Fan, Jianwei Yin, See-Kiong Ng
 
-- IoTデバイス向けに特化した連合学習のパラメータ伝送のための無線通信手法を提案
-- 従来のエラー訂正コードや再送信を避けながら、機械学習の勾配の近似値を効率的に伝送
-- 受信側の勾配値を特定の範囲内に制限する新しい受信ビットマスキング方法を導入
-- シミュレーションにより、提案手法がFL性能のランダムビットエラーを有効に軽減し、従来の方法に比べて通信時間を50%削減することを実証
-
-**Comment:** submitted to IEEE journals for publication
-
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.IT, cs.DC, cs.NI, math.IT, **投稿日時:** 2024-04-17 03:23
-
-- - -
-
-### [FedFa: A Fully Asynchronous Training Paradigm for Federated Learning](http://arxiv.org/abs/2404.11015)
-
-**FedFa: 連合学習のための完全非同期訓練パラダイム**
-
-Haotian Xu, Zhaorui Zhang, Sheng Di, Benben Liu, Alharthi Khalid, Jiannong Cao
-
-- 連合学習ではFedAvgが基本的なパラメータ更新戦略として使用され、異なるクライアント間のデータの非均質性の影響を排除して収束を保証
-- トレーニング中の各通信ラウンドの同期化による待ち時間が、トレーニングの速度を遅らせる問題がある
-- 提案された完全非同期トレーニングパラダイム「FedFa」は、サーバー上のバッファされた結果を使用することで完全に待ち時間を排除し、モデルの収束を保証
-- 実験結果によると、FedFaは最新の同期および半同期戦略よりも6倍までトレーニング性能を改善し、IIDおよびNon-IIDシナリオの両方で高精度を維持
+- 伝統的な連合学習は、高い通信と計算コストに悩まされるが、ワンショットおよびシーケンシャル連合学習はこれを軽減する新しいパラダイムとして登場
+- ローカルモデルの多様性を利用するため、各クライアントに多様なモデルを持つローカルモデルプールを導入し、モデル多様性をさらに強化するための二つの距離測定法を提案
+- 提案するフレームワークは通信コストを抑えつつ世界的なモデルの性能を向上させる
+- 広範な実験により、提案方法は従来のワンショット並列連合学習方法より優れた性能を示し、特にCIFAR-10データセットでラベルスキューとドメインシフトのタスクで6％以上の精度向上を実現
 
 
 
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-04-17 02:46
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.CV, cs.DC, **投稿日時:** 2024-04-18 12:31
 
 - - -
 
-### [Personalized Federated Learning via Stacking](http://arxiv.org/abs/2404.10957)
+### [FedMID: A Data-Free Method for Using Intermediate Outputs as a Defense Mechanism Against Poisoning Attacks in Federated Learning](http://arxiv.org/abs/2404.11905)
 
-**パーソナライズド連合学習のためのスタッキング手法**
+**FedMID: 連合学習における中間出力を使用したデータフリーな防御メカニズム**
 
-Emilio Cantu-Cervini
+Sungwon Han, Hyeonho Song, Sungwon Park, Meeyoung Cha
 
-- 既存の連合学習は単一のグローバルモデルを共同で訓練するのに対し、パーソナライズド連合学習は個々のクライアントデータに合わせた複数のモデルを作成する
-- 新たなパーソナライズ手法として、スタッキングされた一般化を用いたモデルが提案され、各クライアントがプライバシーを保護されたモデルを他のクライアントと直接共有する
-- この手法は様々なプライバシー保護技術やモデルタイプへの対応が可能であり、横断的、ハイブリッド、垂直的に分割された連合に適用可能
-- 評価を通じて、我々の方法が異なるデータの不均一性シナリオにおいて有効であることを示す
+- 連合学習では、参加者のローカルなアップデートを組合せることでグローバルモデルを作成するが、これが毒物攻撃の影響を受けやすい
+- 従来の防御戦略はユークリッド空間上の投影によるベクトルに依存していたが、これはローカルモデルの機能性や構造を正確に表現できず、パフォーマンスに不整合が生じていた
+- 新たに提案されたFedMIDは、中間出力に基づいたローカルモデルの機能マッピングを使用して毒物攻撃に対抗
+- この防御メカニズムは様々な計算条件と高度な攻撃シナリオ下での堅牢性を示し、データに敏感な参加者間の安全な協力を可能にする
 
 
 
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.CR, cs.DC, **投稿日時:** 2024-04-16 23:47
-
-- - -
-
-### [Cognitive-Motor Integration in Assessing Bimanual Motor Skills](http://arxiv.org/abs/2404.10889)
-
-**認知運動統合による両手運動技能の評価**
-
-Erim Yanik, Xavier Intes, Suvranu De
-
-- 従来の両手運動技能評価は主観的判断や運動行動のみに焦点を当て、認知プロセスを見落としていた
-- この研究では、認知的意思決定と運動実行の両方を分析・統合するために深層ニューラルネットワーク(DNN)を活用
-- 腹腔鏡手術スキルの評価において、動画キャプチャと非侵襲的近赤外線分光法(fNIRS)を用いて神経活動を測定
-- 従来の単一方法よりも精度高く専門家レベルを分類し、FLS行動パフォーマンススコアを予測
-
-**Comment:** 12 pages, 3 figures, 2 tables
-
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.AI, **投稿日時:** 2024-04-16 20:20
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-04-18 05:10
 
 - - -
 
-### [Unsupervised Speaker Diarization in Distributed IoT Networks Using Federated Learning](http://arxiv.org/abs/2404.10842)
+### [FCNCP: A Coupled Nonnegative CANDECOMP/PARAFAC Decomposition Based on Federated Learning](http://arxiv.org/abs/2404.11890)
 
-**分散IoTネットワークにおける教師なし話者識別のための連合学習の利用**
+**FCNCP: 脳科学データのための連合学習に基づく非負結合テンソル分解**
 
-Amit Kumar Bhuyan, Hrishikesh Dutta, Subir Biswas
+Yukai Cai, Hang Liu, Xiulin Wang, Hongjin Li, Ziyi Wang, Chuanshuai Yang, Fengyu Cong
 
-- 連合学習を用いて、大規模な音声データベースを必要とせずに会話参加者を識別する効率的なフレームワークを提案
-- 話者の埋め込みのコサイン類似性に依存した、教師なしオンライン更新メカニズムを導入
-- ホテリングのt二乗統計とベイズ情報基準を使用した非監督セグメント技術により、話者変更検出を改善
-- 非IID音声データでも高い効果を示し、セグメンテーション段階での誤検出と見逃し検出の削減に成功
+- 脳科学において、プライバシーの問題や行政手続きの規制などにより、サーバー間でのデータ共有が困難になっている
+- 新たに提案されたFCNCPアルゴリズムは、連合学習を用いて異なるサーバー上のデータ間での結合制約を確立し、高次元データの分析と処理を可能にする
+- シミュレーション実験により、FCNCPアルゴリズムが安定かつ一貫した分解結果をもたらすことが確認された
+- FCNCPを用いて収集されたERPテンソルデータの分析結果は、認知神経科学の関連研究と一致し、重要な隠れた情報の保存が可能であることが示された
 
-**Comment:** 11 pages, 7 figures, 1 table
 
-**トピック:** [連合学習](../../fl), **カテゴリ:** cs.SD, cs.LG, eess.AS, **投稿日時:** 2024-04-16 18:40
+
+**トピック:** [連合学習](../../fl), **カテゴリ:** math.NA, cs.LG, cs.NA, **投稿日時:** 2024-04-18 04:30
+
+- - -
+
+### [The Dog Walking Theory: Rethinking Convergence in Federated Learning](http://arxiv.org/abs/2404.11888)
+
+**連合学環境における収束に関する新理論：ドッグウォーキング理論**
+
+Kun Zhai, Yifeng Gao, Xingjun Ma, Difan Zou, Guangnan Ye, Yu-Gang Jiang
+
+- 連合学習は多様なクライアントがプライベートデータを共有せずにグローバルモデルを訓練する手法であるが、非独立同分布（non-IID）データにおいて収束問題を抱えている
+- ドッグウォーキング理論は、公園を横切りながら複数の犬を散歩させるドッグウォーカーのプロセスを連合学習にたとえ、クライアントの探索を導く「リーシュ（リード）」の概念を提案
+- 新しい連合学習アルゴリズム「FedWalk」が提案され、サーバー側で簡単に収束するタスクを用いてクライアントのローカルトレーニングをガイドする
+- 実験結果から、FedWalkは独立同分布（IID）および非独立同分布（non-IID）データにおいて最先端の連合学習手法よりも優れていることが示された
+
+
+
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-04-18 04:25
+
+- - -
+
+### [Cross-model Mutual Learning for Exemplar-based Medical Image Segmentation](http://arxiv.org/abs/2404.11812)
+
+**医用画像のセグメンテーションのためのクロスモデル相互学習**
+
+Qing En, Yuhong Guo
+
+- 医用画像セグメンテーションには通常、密度の高いアノテーションが必要だが、この作業は時間がかかり専門技術が必要
+- CMEMSフレームワークは、異なる粒度でのモデル間の一貫性を強化することで、補完情報の学習を促進
+- 弱い摂動と強い摂動が加えられた画像を用いて、高信頼度の擬似ラベルを生成し、モデル間で予測を監督
+- 実験結果から、限定的な教師ありデータを用いても、CMEMSは最先端のセグメンテーション手法より優れた性能を示した
+
+**Comment:** AISTATS 2024
+
+**トピック:** [合成データ](../../sd), **カテゴリ:** cs.CV, cs.AI, **投稿日時:** 2024-04-18 00:18
+
+- - -
+
+### [Improved Generalization Bounds for Communication Efficient Federated Learning](http://arxiv.org/abs/2404.11754)
+
+**通信効率の良い連合学習のための一般化境界の改善**
+
+Peyman Gholami, Hulya Seferoglu
+
+- ローカルクライアントの一般化とデータ分布の異質性を考慮して、ワンラウンド連合学習のためのより厳密な一般化境界を示した
+- Rラウンド連合学習での一般化境界とローカル更新（ローカルSGDs）の数との関係を特定
+- 一般化境界と表現学習解析を基に、特に非iidシナリオで、より一般化可能なモデルの構築に向けて、集約の頻度を減らすことが効果的であることを示した
+- 一般化境界と表現学習解析に基づく新しいアルゴリズム「FedALS（連合学習と適応的ローカルステップ）」を設計し、モデルの異なる部分に異なる集約頻度を適用して通信コストを削減
+
+
+
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-04-17 21:17
+
+- - -
+
+### [A Secure and Trustworthy Network Architecture for Federated Learning Healthcare Applications](http://arxiv.org/abs/2404.11698)
+
+**連合学習（FL）を用いた医療用アプリケーションのための安全で信頼性のあるネットワークアーキテクチャ**
+
+Antonio Boiano, Marco Di Gennaro, Luca Barbieri, Michele Carminati, Monica Nicoli, Alessandro Redondi, Stefano Savazzi, Albert Sund Aillet, Diogo Reis Santos, Luigi Serio
+
+- 連合学習は、医療などのプライバシーが重視される分野で有望な手法として登場
+- TRUSTrokeプロジェクトは、脳梗塞の予測を支援するためにFLを使用
+- 提案されたアーキテクチャは、中央パラメータサーバーを持つクライアント-サーバーモデルを採用し、臨床環境でのFLプロセスの実装に柔軟なソリューションを提供するDockerベースのデザインを導入
+- 通信プロトコル（HTTPまたはMQTT）の違いがFLネットワークの運用に与える影響を分析し、FLシナリオに適しているためMQTTが選ばれた
+
+
+
+**トピック:** [連合学習](../../fl), **カテゴリ:** cs.AI, cs.DC, **投稿日時:** 2024-04-17 18:55

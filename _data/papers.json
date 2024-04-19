@@ -1,5 +1,271 @@
 [
   {
+    "url": "http://arxiv.org/abs/2404.12369",
+    "title": "KDk: A Defense Mechanism Against Label Inference Attacks in Vertical Federated Learning",
+    "japanese_title": "垂直連合学習におけるラベル推論攻撃防御機構 KDk",
+    "authors": [
+      "Marco Arazzi",
+      "Serena Nicolazzo",
+      "Antonino Nocera"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 垂直連合学習（VFL）では、標本のラベルが集約サーバーを除く全参加者から秘匿される\n- サーバーから返される勾配情報を利用して、敵は限られた補助ラベルのみで秘密のラベルを推測可能である\n- KDkフレームワークは知識蒸留とk-匿名性を組み合わせてVFLのラベル推論攻撃に対する防御機制を提供\n- 提案手法ではラベル推論攻撃の効果を60%以上削減しつつ、VFL全体の正確性はほぼ変わらないことが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T17:51:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.12359",
+    "title": "Inverse Neural Rendering for Explainable Multi-Object Tracking",
+    "japanese_title": "逆ニューラルレンダリングによる説明可能なマルチオブジェクト追跡",
+    "authors": [
+      "Julian Ost",
+      "Tanushree Banerjee",
+      "Mario Bijelic",
+      "Felix Heide"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR",
+      "cs.RO"
+    ],
+    "comment": "",
+    "summary": "- 既存のネットワークは異なるデータセット間での一般化に苦労するが、本研究ではRGBカメラからの3Dマルチオブジェクト追跡を逆レンダリング問題として再構成する\n- 事前訓練された3Dオブジェクト表現の潜在空間を最適化し、入力画像内のオブジェクトインスタンスを最もよく表す潜在変数を回収する\n- 本手法では形状と外観の特性を自然に切り離す生成的潜在空間の画像損失を最適化する\n- 合成データからのみ生成的事前学習を行い、nuScenesおよびWaymoデータセットを使用してカメラに基づく3D追跡の一般化とスケーリング能力を検証する",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-18T17:37:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.12273",
+    "title": "FedEval-LLM: Federated Evaluation of Large Language Models on Downstream Tasks with Collective Wisdom",
+    "japanese_title": "FedEval-LLM: 大規模言語モデルのダウンストリームタスクでの連合評価における集合知",
+    "authors": [
+      "Yuanqin He",
+      "Yan Kang",
+      "Lixin Fan",
+      "Qiang Yang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "In Progress",
+    "summary": "- 大規模言語モデル（LLM）を連合学習（FL）に統合するには、評価方法に関する新たな課題が存在する\n- 従来の評価方法は限られた適切な答えのみをカバーし、LLMの生成タスクでの性能を正確に反映できない\n- FedEval-LLMは、ラベル付きテストセットや外部ツールに依存せずに、LLMのダウンストリームタスクでの性能を信頼性高く測定するためのフレームワークを提案する\n- 実験結果は、この評価モデルがダウンストリームタスクにおける評価能力を大幅に改善し、人間の好みとRougeLスコアとの強い一致を示す",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T15:46:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.12192",
+    "title": "Aligning Actions and Walking to LLM-Generated Textual Descriptions",
+    "japanese_title": "LLMを用いて行動とウォーキングパターンのテキスト記述を調整する",
+    "authors": [
+      "Radu Chivereanu",
+      "Adrian Cosma",
+      "Andy Catruna",
+      "Razvan Rughinis",
+      "Emilian Radoi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Accepted at 2nd Workshop on Learning with Few or without Annotated   Face, Body and Gesture Data",
+    "summary": "- 大規模言語モデル（LLM）を使用して、行動認識と歩行シーケンスの検索のために、動作シーケンスに富んだテキスト記述を生成\n- BABEL-60データセットの行動をテキストで記述し、動作シーケンスと言語表現を整合させる\n- DenseGaitデータセットを用い、衣服選択や履物による歩行スタイルの変動を捉えたテキスト記述を生成\n- LLMの能力を活用し、構造化された動きの属性を増大させ、マルチモーダル表現を整合する方法を示す",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-18T13:56:03+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.12186",
+    "title": "Privacy-Preserving UCB Decision Process Verification via zk-SNARKs",
+    "japanese_title": "プライバシー保護を目的としたUCB意思決定プロセスのzk-SNARKsを用いた検証",
+    "authors": [
+      "Xikun Jiang",
+      "He Lyu",
+      "Chenhao Ying",
+      "Yibin Xu",
+      "Boris Düdder",
+      "Yuan Luo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 機械学習のプライバシー保護と検証可能性のバランスを取るために、ゼロ知識証明(zk-SNARKs)を活用した新しいアルゴリズムzkUCBを導入\n- zkUCBは訓練データとアルゴリズムパラメータの機密性を保護しながら、透明なUCB意思決定プロセスを実現\n- 実験により、zkUCBは情報量の減少に貢献する量子化ビットの適切な使用により性能が向上することが示された\n- zkUCBの証明サイズと検証時間は、実行ステップに比例してスケールし、データセキュリティと運用効率のバランスを効果的に取る",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-04-18T13:49:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.12130",
+    "title": "One-Shot Sequential Federated Learning for Non-IID Data by Enhancing Local Model Diversity",
+    "japanese_title": "非IIDデータに対するワンショット連続連合学習の向上のためのローカルモデル多様性強化",
+    "authors": [
+      "Naibo Wang",
+      "Yuchen Deng",
+      "Wenjie Feng",
+      "Shichen Fan",
+      "Jianwei Yin",
+      "See-Kiong Ng"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 伝統的な連合学習は、高い通信と計算コストに悩まされるが、ワンショットおよびシーケンシャル連合学習はこれを軽減する新しいパラダイムとして登場\n- ローカルモデルの多様性を利用するため、各クライアントに多様なモデルを持つローカルモデルプールを導入し、モデル多様性をさらに強化するための二つの距離測定法を提案\n- 提案するフレームワークは通信コストを抑えつつ世界的なモデルの性能を向上させる\n- 広範な実験により、提案方法は従来のワンショット並列連合学習方法より優れた性能を示し、特にCIFAR-10データセットでラベルスキューとドメインシフトのタスクで6％以上の精度向上を実現",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T12:31:48+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11905",
+    "title": "FedMID: A Data-Free Method for Using Intermediate Outputs as a Defense Mechanism Against Poisoning Attacks in Federated Learning",
+    "japanese_title": "FedMID: 連合学習における中間出力を使用したデータフリーな防御メカニズム",
+    "authors": [
+      "Sungwon Han",
+      "Hyeonho Song",
+      "Sungwon Park",
+      "Meeyoung Cha"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習では、参加者のローカルなアップデートを組合せることでグローバルモデルを作成するが、これが毒物攻撃の影響を受けやすい\n- 従来の防御戦略はユークリッド空間上の投影によるベクトルに依存していたが、これはローカルモデルの機能性や構造を正確に表現できず、パフォーマンスに不整合が生じていた\n- 新たに提案されたFedMIDは、中間出力に基づいたローカルモデルの機能マッピングを使用して毒物攻撃に対抗\n- この防御メカニズムは様々な計算条件と高度な攻撃シナリオ下での堅牢性を示し、データに敏感な参加者間の安全な協力を可能にする",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T05:10:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11890",
+    "title": "FCNCP: A Coupled Nonnegative CANDECOMP/PARAFAC Decomposition Based on Federated Learning",
+    "japanese_title": "FCNCP: 脳科学データのための連合学習に基づく非負結合テンソル分解",
+    "authors": [
+      "Yukai Cai",
+      "Hang Liu",
+      "Xiulin Wang",
+      "Hongjin Li",
+      "Ziyi Wang",
+      "Chuanshuai Yang",
+      "Fengyu Cong"
+    ],
+    "categories": [
+      "math.NA",
+      "cs.LG",
+      "cs.NA"
+    ],
+    "comment": "",
+    "summary": "- 脳科学において、プライバシーの問題や行政手続きの規制などにより、サーバー間でのデータ共有が困難になっている\n- 新たに提案されたFCNCPアルゴリズムは、連合学習を用いて異なるサーバー上のデータ間での結合制約を確立し、高次元データの分析と処理を可能にする\n- シミュレーション実験により、FCNCPアルゴリズムが安定かつ一貫した分解結果をもたらすことが確認された\n- FCNCPを用いて収集されたERPテンソルデータの分析結果は、認知神経科学の関連研究と一致し、重要な隠れた情報の保存が可能であることが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T04:30:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11888",
+    "title": "The Dog Walking Theory: Rethinking Convergence in Federated Learning",
+    "japanese_title": "連合学環境における収束に関する新理論：ドッグウォーキング理論",
+    "authors": [
+      "Kun Zhai",
+      "Yifeng Gao",
+      "Xingjun Ma",
+      "Difan Zou",
+      "Guangnan Ye",
+      "Yu-Gang Jiang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は多様なクライアントがプライベートデータを共有せずにグローバルモデルを訓練する手法であるが、非独立同分布（non-IID）データにおいて収束問題を抱えている\n- ドッグウォーキング理論は、公園を横切りながら複数の犬を散歩させるドッグウォーカーのプロセスを連合学習にたとえ、クライアントの探索を導く「リーシュ（リード）」の概念を提案\n- 新しい連合学習アルゴリズム「FedWalk」が提案され、サーバー側で簡単に収束するタスクを用いてクライアントのローカルトレーニングをガイドする\n- 実験結果から、FedWalkは独立同分布（IID）および非独立同分布（non-IID）データにおいて最先端の連合学習手法よりも優れていることが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-18T04:25:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11812",
+    "title": "Cross-model Mutual Learning for Exemplar-based Medical Image Segmentation",
+    "japanese_title": "医用画像のセグメンテーションのためのクロスモデル相互学習",
+    "authors": [
+      "Qing En",
+      "Yuhong Guo"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "comment": "AISTATS 2024",
+    "summary": "- 医用画像セグメンテーションには通常、密度の高いアノテーションが必要だが、この作業は時間がかかり専門技術が必要\n- CMEMSフレームワークは、異なる粒度でのモデル間の一貫性を強化することで、補完情報の学習を促進\n- 弱い摂動と強い摂動が加えられた画像を用いて、高信頼度の擬似ラベルを生成し、モデル間で予測を監督\n- 実験結果から、限定的な教師ありデータを用いても、CMEMSは最先端のセグメンテーション手法より優れた性能を示した",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-18T00:18:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11754",
+    "title": "Improved Generalization Bounds for Communication Efficient Federated Learning",
+    "japanese_title": "通信効率の良い連合学習のための一般化境界の改善",
+    "authors": [
+      "Peyman Gholami",
+      "Hulya Seferoglu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- ローカルクライアントの一般化とデータ分布の異質性を考慮して、ワンラウンド連合学習のためのより厳密な一般化境界を示した\n- Rラウンド連合学習での一般化境界とローカル更新（ローカルSGDs）の数との関係を特定\n- 一般化境界と表現学習解析を基に、特に非iidシナリオで、より一般化可能なモデルの構築に向けて、集約の頻度を減らすことが効果的であることを示した\n- 一般化境界と表現学習解析に基づく新しいアルゴリズム「FedALS（連合学習と適応的ローカルステップ）」を設計し、モデルの異なる部分に異なる集約頻度を適用して通信コストを削減",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-17T21:17:48+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.11698",
+    "title": "A Secure and Trustworthy Network Architecture for Federated Learning Healthcare Applications",
+    "japanese_title": "連合学習（FL）を用いた医療用アプリケーションのための安全で信頼性のあるネットワークアーキテクチャ",
+    "authors": [
+      "Antonio Boiano",
+      "Marco Di Gennaro",
+      "Luca Barbieri",
+      "Michele Carminati",
+      "Monica Nicoli",
+      "Alessandro Redondi",
+      "Stefano Savazzi",
+      "Albert Sund Aillet",
+      "Diogo Reis Santos",
+      "Luigi Serio"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は、医療などのプライバシーが重視される分野で有望な手法として登場\n- TRUSTrokeプロジェクトは、脳梗塞の予測を支援するためにFLを使用\n- 提案されたアーキテクチャは、中央パラメータサーバーを持つクライアント-サーバーモデルを採用し、臨床環境でのFLプロセスの実装に柔軟なソリューションを提供するDockerベースのデザインを導入\n- 通信プロトコル（HTTPまたはMQTT）の違いがFLネットワークの運用に与える影響を分析し、FLシナリオに適しているためMQTTが選ばれた",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-17T18:55:41+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.11607",
     "title": "Private federated discovery of out-of-vocabulary words for Gboard",
     "japanese_title": "Gboardのためのプライベート連合による語彙外単語の発見",

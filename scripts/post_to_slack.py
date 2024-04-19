@@ -38,5 +38,5 @@ def post_paper_to_slack(paper: PaperInfo):
 
     slack_client = WebClient(token=SLACK_TOKEN)
     slack_client.chat_postMessage(
-        channel=SLACK_CHANNEL_ID, text=make_slack_message(paper), unfurl_links=True
+        channel=SLACK_CHANNEL_ID, text=make_slack_message(paper), unfurl_links=False
     )

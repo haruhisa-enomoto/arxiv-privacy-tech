@@ -1,4 +1,3 @@
-import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -12,8 +11,8 @@ latest_json_path = Path("_data/latest_papers.json")
 latest_papers = parse_json(latest_json_path)
 
 
-def make_md_segment(paper: PaperInfo, from_home: bool = False) -> str:
-    if from_home:
+def make_md_segment(paper: PaperInfo, on_home: bool = False) -> str:
+    if on_home:
         topic_str = ", ".join(
             [f"[{topic}](/{topic_ja_to_en[topic]})" for topic in paper.topics]
         )
@@ -145,7 +144,7 @@ To be written.
 
 
 for paper in latest_papers:
-    index_md += make_md_segment(paper)
+    index_md += make_md_segment(paper, on_home=True)
 
 index_file = Path("index.md")
 

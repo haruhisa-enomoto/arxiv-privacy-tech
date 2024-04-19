@@ -2,25 +2,11 @@ import datetime as dt
 import json
 import re
 from pathlib import Path
-from dataclasses import dataclass
 
 import arxiv
-from summarize import get_summary
+from paper_info import PaperInfo, dump_info_list, parse_json
 from post_to_slack import post_paper_to_slack
-
-
-@dataclass
-class PaperInfo:
-    url: str
-    authors: list[str]
-    categories: list[str]
-    comment: str
-    summary: str
-    title: str
-    japanese_title: str
-    topics: list[str]
-    published: dt.datetime
-
+from summarize import get_summary
 
 json_file = Path("_data/papers.json")
 latest_json_file = Path("_data/latest_papers.json")
@@ -40,28 +26,6 @@ query_dict = {
 GENRE = 'AND (cat:"cs.AI" OR cat:"cs.AR" OR cat:"cs.CC" OR cat:"cs.CE" OR cat:"cs.CG" OR cat:"cs.CL" OR cat:"cs.CR" OR cat:"cs.CV" OR cat:"cs.CY" OR cat:"cs.DB" OR cat:"cs.DC" OR cat:"cs.DL" OR cat:"cs.DM" OR cat:"cs.DS" OR cat:"cs.ET" OR cat:"cs.FL" OR cat:"cs.GL" OR cat:"cs.GR" OR cat:"cs.GT" OR cat:"cs.HC" OR cat:"cs.IR" OR cat:"cs.IT" OR cat:"cs.LG" OR cat:"cs.LO" OR cat:"cs.MA" OR cat:"cs.MM" OR cat:"cs.MS" OR cat:"cs.NA" OR cat:"cs.NE" OR cat:"cs.NI" OR cat:"cs.OH" OR cat:"cs.OS" OR cat:"cs.PF" OR cat:"cs.PL" OR cat:"cs.RO" OR cat:"cs.SC" OR cat:"cs.SD" OR cat:"cs.SE" OR cat:"cs.SI" OR cat:"cs.SY" OR cat:"stats.ML")'
 
 N_DAYS = 5
-
-
-def dump_info_list(paper_info_list: list[PaperInfo], json_file: Path):
-    paper_info_json_list = [
-        paper_info_to_json(paper_info) for paper_info in paper_info_list
-    ]
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(paper_info_json_list, f, ensure_ascii=False, indent=2)
-
-
-def paper_info_to_json(paper_info: PaperInfo) -> dict:
-    return {
-        "url": paper_info.url,
-        "title": paper_info.title,
-        "japanese_title": paper_info.japanese_title,
-        "authors": paper_info.authors,
-        "categories": paper_info.categories,
-        "comment": paper_info.comment,
-        "summary": paper_info.summary,
-        "topics": paper_info.topics,
-        "published": paper_info.published.isoformat(),
-    }
 
 
 def get_paper_info(paper: arxiv.Result):
@@ -90,25 +54,6 @@ def get_paper_info(paper: arxiv.Result):
         summary=summary,
         published=published,
     )
-
-
-def parse_json(json_file: Path) -> list[PaperInfo]:
-    with json_file.open("r", encoding="utf-8") as f:
-        paper_info_json_list = json.load(f)
-    return [
-        PaperInfo(
-            url=paper_info["url"],
-            authors=paper_info["authors"],
-            categories=paper_info["categories"],
-            comment=paper_info["comment"],
-            summary=paper_info["summary"],
-            title=paper_info["title"],
-            japanese_title=paper_info["japanese_title"],
-            topics=paper_info["topics"],
-            published=dt.datetime.fromisoformat(paper_info["published"]),
-        )
-        for paper_info in paper_info_json_list
-    ]
 
 
 if __name__ == "__main__":

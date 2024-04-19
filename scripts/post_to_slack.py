@@ -1,7 +1,7 @@
 import os
 import re
 
-from run import PaperInfo
+from paper_info import PaperInfo
 from slack_sdk import WebClient
 
 

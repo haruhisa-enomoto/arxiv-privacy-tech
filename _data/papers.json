@@ -1,5 +1,280 @@
 [
   {
+    "url": "http://arxiv.org/abs/2404.15100",
+    "title": "Multimodal Large Language Model is a Human-Aligned Annotator for Text-to-Image Generation",
+    "japanese_title": "多モーダル大規模言語モデルを利用した人間と整合性を持つテキストから画像への生成アノテータ",
+    "authors": [
+      "Xun Wu",
+      "Shaohan Huang",
+      "Furu Wei"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.MM"
+    ],
+    "comment": "",
+    "summary": "- 人間の好みのデータセットを活用してテキストから画像への生成モデルの整合性を高めることが示された\n- 多様な好みの側面を捉える高品質で細かい好みのデータセットVisionPreferを構築\n- VisionPreferを通じた報酬モデルVP-Scoreを訓練し、生成モデルのトレーニングに指導\n- VisionPreferは画像の審美性や合成画像生成におけるテキストと画像の整合性を大幅に向上させた",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-23T14:53:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15042",
+    "title": "Leverage Variational Graph Representation For Model Poisoning on Federated Learning",
+    "japanese_title": "連合学環境でのモデル毒物攻撃に対する変分グラフ表現の利用",
+    "authors": [
+      "Kai Li",
+      "Xin Yuan",
+      "Jingjing Zheng",
+      "Wei Ni",
+      "Falko Dressler",
+      "Abbas Jamalipour"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "12 pages, 8 figures, 2 tables",
+    "summary": "- 新しい型のモデル毒物（MP）攻撃が連合学習（FL）に対して提案され、この攻撃は教育データにアクセスせずに善良なローカルモデルだけを利用\n- 変分グラフオートエンコーダー（VGAE）を用いて、グラフの構造情報を取得し、敵対的に悪意のあるローカルモデルを生成\n- 提案されたVGAE-MP攻撃は効果的でありながら、既存の防御機構による検出が困難\n- 実験により、連合学習の精度が徐々に低下し、既存の防御メカニズムでは攻撃を検出できないことが確認された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T13:43:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15035",
+    "title": "Near-Universally-Optimal Differentially Private Minimum Spanning Trees",
+    "japanese_title": "差分プライバシーにおけるほぼ普遍的に最適な最小全域木",
+    "authors": [
+      "Richard Hladík",
+      "Jakub Tětek"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーの目標を達成するために、滑らかな感度や提案-テスト-解放、逆感度メカニズムなどの技術が開発された\n- 本研究では、差分プライバシーで初めて、最小全域木の近似リリースに対する簡単な差分プライバシー機構が、$\\ell_1$ 近傍関係における普遍的最適性の観点から近似的に最適であることを実証\n- 既存の機構が最悪の場合の近似最適性のみが知られていた\n- さらに、$\\ell_\\infty$ 近傍関係においては最適ではなかったため、多項式時間で実行可能な指数メカニズムを用い、$\\ell_1$ および $\\ell_\\infty$ 近傍関係の両方で普遍的に近似的に最適になることを示した",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-04-23T13:39:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15033",
+    "title": "IPAD: Industrial Process Anomaly Detection Dataset",
+    "japanese_title": "IPAD: 産業プロセス異常検出データセット",
+    "authors": [
+      "Jinfan Liu",
+      "Yichao Yan",
+      "Junjie Li",
+      "Weiming Zhao",
+      "Pengzhi Chu",
+      "Xingdong Sheng",
+      "Yunhui Liu",
+      "Xiaokang Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 産業シーンでのビデオ異常検出（VAD）は、プライバシーとセキュリティの問題から特化したデータセットや方法が不足している\n- 新たに提案されたIPADデータセットは、産業シナリオに特化し、16種の産業機器を含む合成および実世界のビデオ6時間以上を含む\n- データセットは産業プロセスの主要特徴である周期性を注釈し、周期情報を解析するための周期メモリモジュールとスライディングウィンドウ検査メカニズムを導入\n- LoRAアダプターを活用して、合成データで訓練されたモデルを実世界シナリオに効果的に移行する方法を探求",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-23T13:38:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14983",
+    "title": "Zero-Knowledge Location Privacy via Accurate Floating Point SNARKs",
+    "japanese_title": "ゼロ知識位置プライバシーによる正確な浮動小数点SNARKs",
+    "authors": [
+      "Jens Ernstberger",
+      "Chengru Zhang",
+      "Luca Ciprian",
+      "Philipp Jovanovic",
+      "Sebastian Steinhorst"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- ゼロ知識位置プライバシー(ZKLP)を導入し、ユーザーが正確な位置を明かすことなく、特定の地理的領域内にいることを第三者に証明できるようにする\n- ZKLPは、用途に応じて異なる粒度のカスタマイゼーションをサポート\n- 浮動小数点算術のIEEE 754標準に完全準拠した初のゼロ知識証明(ZKP)回路を導入\n- プライバシーを保護するピアツーピア接近度テストプロトコルを構築し、AliceとBobが他の位置情報を公開することなく距離を確認できるプロトコルを実現",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-04-23T12:38:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14933",
+    "title": "Fin-Fed-OD: Federated Outlier Detection on Financial Tabular Data",
+    "japanese_title": "Fin-Fed-OD: 金融表データにおけるフェデレーション型外れ値検出",
+    "authors": [
+      "Dayananda Herurkar",
+      "Sebastian Palacio",
+      "Ahmed Anwar",
+      "Joern Hees",
+      "Andreas Dengel"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 実世界の動的かつ未知の異常分布による課題を克服するために、開かれた世界を前提とした堅牢な方法が求められている\n- この研究では、データの機密性を損なうことなく個々の組織内での外れ値検出を向上させる方法を提案している\n- 提案手法は表現学習と連合学習技術を活用し、未知の異常の検出を改善している\n- モデルのパラメータのみが組織間で共有されるため、データプライバシーが保護される",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T11:22:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14819",
+    "title": "Bathymetric Surveying with Imaging Sonar Using Neural Volume Rendering",
+    "japanese_title": "神経体積レンダリングを使用したイメージングソナーによる水深測量",
+    "authors": [
+      "Yiping Xie",
+      "Giancarlo Troni",
+      "Nils Bore",
+      "John Folkesson"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "",
+    "summary": "- 従来の教師あり学習やラムバート反射に基づく表面レンダリングを超越した自己教師ありフレームワークを提案\n- 高解像度な海底ハイトマップを神経パラメトリック多解像度ハッシュ符号化スキームで表現し、階層的サンプリング技術を用いてボリュームレンダリング\n- 水平および垂直のビームパターンをモデル化し、それを水深測定と共に推定\n- シミュレーションおよびリモート操作型潜水艇(ROV)による現場データで評価し、従来手法よりも優れた成績を示す",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T08:13:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14811",
+    "title": "FLARE: A New Federated Learning Framework with Adjustable Learning Rates over Resource-Constrained Wireless Networks",
+    "japanese_title": "FLARE: リソース制約のある無線ネットワーク上で学習率を調整可能な新しい連合学習フレームワーク",
+    "authors": [
+      "Bingnan Xiao",
+      "Jingjing Zhang",
+      "Wei Ni",
+      "Xin Wang"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- FLAREフレームワークでは、各デバイスが瞬間的な計算力に応じて個々の学習率とローカルトレーニングの反復回数を調整可能\n- 非i.i.d.データセットと計算能力の不均衡が存在する一般的な設定の下で、非凸モデルに対するFLAREの収束上界が厳格に確立された\n- チャネルの異質性を活用するために、FLAREのスケジューリングを最適化し、新たな貪欲法によるデバイスの選択とバイナリサーチを用いた帯域幅の割り当てが行われる\n- 提案されたスケジューリングポリシーにより、FLAREはテスト精度でベースラインを上回り、収束が大幅に速くなることが実験で示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T07:48:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14772",
+    "title": "Simulating Task-Oriented Dialogues with State Transition Graphs and Large Language Models",
+    "japanese_title": "状態遷移グラフと大規模言語モデルを用いたタスク指向対話のシミュレーション",
+    "authors": [
+      "Chris Samarinas",
+      "Pracha Promthaw",
+      "Atharva Nijasure",
+      "Hansi Zeng",
+      "Julian Killingback",
+      "Hamed Zamani"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- SynTODは、意図分類、スロット充填、対話型質問応答等の複雑なタスクを扱うタスク指向対話システムの開発のための新しい合成データ生成手法である\n- 状態遷移グラフを使用してTODシステムの望ましい振る舞いを定義し、大規模言語モデルを使用したランダムウォークと応答シミュレーションにより構造化された多様な会話を生成\n- グラフ誘導の応答シミュレーションは、意図分類とスロット充填、応答の関連性において大幅な改善をもたらす\n- 研究用にデータセット、モデル、コードを公開し、特定のドメインのTODシステムの迅速な開発と評価への道を開く",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-23T06:23:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14754",
+    "title": "Skip the Benchmark: Generating System-Level High-Level Synthesis Data using Generative Machine Learning",
+    "japanese_title": "ベンチマークを飛ばして、生成機械学習を使ったシステムレベルの高水準合成データを生成する",
+    "authors": [
+      "Yuchao Liao",
+      "Tosiron Adegbija",
+      "Roman Lysecky",
+      "Ravi Tandon"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.AR"
+    ],
+    "comment": "Accepted at Great Lakes Symposium on VLSI 2024 (GLSVLSI 24)",
+    "summary": "- 高水準合成（HLS）設計空間探索（DSE）は、HLSプロセス中のパレート最適なハードウェアソリューションを効率的に探るために広く受け入れられている手法である\n- 既存のHLSベンチマークを使ったデータ生成は専門知識と時間が必要であり、実行が困難である\n- 本論文では、バリエーショナルオートエンコーダと生成敵対ネットワークを用いた新しいアプローチ「Vaegan」を提案し、それにより合成データを生成する\n- Vaeganは効果的に合成HLSデータを生成し、そのデータは元のデータの分布に密接に一致することが示された",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-23T05:32:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14664",
+    "title": "Employing Layerwised Unsupervised Learning to Lessen Data and Loss Requirements in Forward-Forward Algorithms",
+    "japanese_title": "レイヤーごとの教師なし学習を利用して、フォワード-フォワードアルゴリズムのデータと損失の要件を軽減する",
+    "authors": [
+      "Taewook Hwang",
+      "Hyein Seo",
+      "Sangkeun Jung"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "8 pages, 6 figures",
+    "summary": "- 従来のバックプロパゲーションを使用したディープラーニングモデルの制約を克服するため、フォワード-フォワードアルゴリズムが使用されている\n- フォワード-フォワードアルゴリズムは特殊な入力と損失関数を要求するが、教師なし学習モデルを用いることでこれらの制限が克服される\n- 教師なしのフォワード-フォワードアルゴリズムにより、さまざまなデータセットやタスクでの安定した学習と活用が可能となる\n- 連合学習のような分散学習環境でも、このアプローチにより実用的な応用が期待される",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T01:49:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14634",
+    "title": "UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues",
+    "japanese_title": "UPose3D: 確信度を考慮した3次元人間ポーズ推定のためのクロスビューと時間的手がかりの活用",
+    "authors": [
+      "Vandad Davoodnia",
+      "Saeed Ghorbani",
+      "Marc-André Carbonneau",
+      "Alexandre Messier",
+      "Ali Etemad"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "18 pages, 12 figures",
+    "summary": "- UPose3Dは、直接的な3Dアノテーションを必要とせず、既存のポーズ推定フレームワークのロバストさと柔軟性を向上させる\n- 一枚の画像からの2Dキーポイント推定器の予測を時間的およびクロスビュー情報を活用して精細化するポーズコンパイラモジュールを核とする\n- 新しいクロスビュー融合戦略は任意のカメラ数に拡張可能であり、合成データ生成戦略により多様なアクター、シーン、視点でも一般化を実現\n- 2Dキーポイント推定器とポーズコンパイラモジュールの予測確信度を活用して、異常値やノイズデータに強いロバスト性を提供し、分布外設定での最先端のパフォーマンスを実現",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-23T00:18:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14507",
+    "title": "Align Your Steps: Optimizing Sampling Schedules in Diffusion Models",
+    "japanese_title": "サンプリングスケジュールを最適化：拡散モデルにおけるステップの調整",
+    "authors": [
+      "Amirmojtaba Sabour",
+      "Sanja Fidler",
+      "Karsten Kreis"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "Project page:   https://research.nvidia.com/labs/toronto-ai/AlignYourSteps/",
+    "summary": "- 拡散モデル（DM）は視覚領域で最先端の生成モデルとして確立しているが、サンプリング速度が遅いという問題がある\n- 本研究では初めて、DMのサンプリングスケジュールを最適化する一般的かつ原理的な方法「Align Your Steps」を提案\n- 非同期計算を活用して、異なるソルバー、訓練済みDM、データセットに特化した最適なスケジュールを見つける\n- 提案手法は、画像、動画、2Dおもちゃデータの合成ベンチマークで評価され、従来の手作りスケジュールをほぼ全ての実験で上回る成果を示す",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-22T18:18:41+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.14389",
     "title": "Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction",
     "japanese_title": "連合学習を用いた無線トラフィック予測に対する攻撃",
@@ -552,6 +827,27 @@
       "連合学習"
     ],
     "published": "2024-04-20T08:23:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.14445",
+    "title": "A Multi-Faceted Evaluation Framework for Assessing Synthetic Data Generated by Large Language Models",
+    "japanese_title": "大規模言語モデルにより生成された合成データを評価する多面的評価フレームワーク",
+    "authors": [
+      "Yefeng Yuan",
+      "Yuhong Liu",
+      "Liang Cheng"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "comment": "10 pages, 1 figure, 4 tables",
+    "summary": "- 大規模言語モデルの発展により、特に製品レビューなどの構造化された表形式で合成データの生産が進展\n- 合成データの生成においてプライバシー漏洩の懸念が存在し、評価フレームワークの欠如が指摘されている\n- SynEvalというオープンソースの評価フレームワークを新たに導入し、合成データの忠実度、有用性、プライバシー保護を評価\n- ChatGPT、Claude、Llamaにより生成された合成製品レビューデータにSynEvalを適用し、評価指標間のトレードオフを明らかにする",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-20T08:08:28+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.13288",
@@ -2713,6 +3009,26 @@
       "差分プライバシー"
     ],
     "published": "2024-04-12T04:14:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15182",
+    "title": "FLoRA: Enhancing Vision-Language Models with Parameter-Efficient Federated Learning",
+    "japanese_title": "FLoRA: 機械学習を用いた視覚言語モデルの改良",
+    "authors": [
+      "Duy Phuong Nguyen",
+      "J. Pablo Munoz",
+      "Ali Jannesari"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "10 pages, 11 figures",
+    "summary": "- CLIPモデルを含む視覚言語モデル（VLM）は、画像キャプションから多様な検索エンジンへと幅広い応用範囲を持つ\n- VLMの従来のトレーニングは巨大なデータセットを必要とし、プライバシー保護とデータガバナンスの問題がある\n- 本稿では連合学習とパラメータ効率の良い LoRA(低ランク適応)を利用してVLMをトレーニングする新たな手法を提案\n- 提案された方法は、トレーニング時間を最大34.72倍高速化し、メモリ使用量を2.47倍削減する",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-12T00:36:43+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.08135",

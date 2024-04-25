@@ -1,5 +1,93 @@
 [
   {
+    "url": "http://arxiv.org/abs/2404.15611",
+    "title": "PoisonedFL: Model Poisoning Attacks to Federated Learning via Multi-Round Consistency",
+    "japanese_title": "連合学習における多ラウンド一貫性を利用したモデル毒攻撃: PoisonedFL",
+    "authors": [
+      "Yueqi Xie",
+      "Minghong Fang",
+      "Neil Zhenqiang Gong"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 既存のモデル毒攻撃は、防御策が施された場合の効果が限定的であり、モデル更新やクライアントの訓練データの知識が必要であった\n- PoisonedFLは、悪意のあるクライアント間で複数ラウンドに渡る一貫したモデル更新を行い、正規クライアントに関する知識は不要\n- PoisonedFLは、最先端の8つの防御策を突破し、他の7つのモデル毒攻撃よりも優れた性能を示した\n- この研究は、連合学習システムのロバスト性が従来考えられていたよりも低いことを示し、新たな防御機構の開発の必要性を強調している",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-24T03:02:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15598",
+    "title": "Federated Learning with Only Positive Labels by Exploring Label Correlations",
+    "japanese_title": "連合学習におけるポジティブラベルのみを用いたラベル相関の探索",
+    "authors": [
+      "Xuming An",
+      "Dui Wang",
+      "Li Shen",
+      "Yong Luo",
+      "Han Hu",
+      "Bo Du",
+      "Yonggang Wen",
+      "Dacheng Tao"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "To be published in IEEE Transactions on Neural Networks and Learning   Systems",
+    "summary": "- 連合学習は複数ユーザーのデータをプライバシーを保持しながら共同でモデル学習を行うものである\n- クライアントが単一クラスラベルに対してのみポジティブなデータを提供する場合には、通常のアプローチでは性能が落ちる\n- 本研究では、クラスの埋め込み学習においてラベル間の相関を推定し、モデル訓練を改善する新しい方法（FedALC）を提案\n- 通信の負担を減らし、安全性を向上させるため、サーバーとクライアント間でのクラス埋め込みの交換を一度きりに制限するバリアントを導入",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-24T02:22:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15585",
+    "title": "Brain Storm Optimization Based Swarm Learning for Diabetic Retinopathy Image Classification",
+    "japanese_title": "脳嵐最適化とスワーム学習を活用した糖尿病網膜症画像分類",
+    "authors": [
+      "Liang Qu",
+      "Cunze Wang",
+      "Yuhui Shi"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.IV"
+    ],
+    "comment": "",
+    "summary": "- 医療分野のデータプライバシーを保持しつつ、モデルの有用性を維持するために連合学習が用いられる\n- スワーム学習はブロックチェーン技術を用いてサーバーなしでクライアント間のパラメータを直接交換\n- 従来のスワーム学習の課題である計算負荷を解決するために脳嵐最適化アルゴリズムを統合\n- 提案手法は糖尿病網膜症の画像分類データセットでの実験を通じて有効性が検証された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-24T01:37:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15503",
+    "title": "FedGreen: Carbon-aware Federated Learning with Model Size Adaptation",
+    "japanese_title": "FedGreen: モデルサイズ適応によるカーボン意識型連合学習",
+    "authors": [
+      "Ali Abbasi",
+      "Fan Dong",
+      "Xin Wang",
+      "Henry Leung",
+      "Jiayu Zhou",
+      "Steve Drew"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- FL（連合学習）は、クライアントが分散している状態でもモデルを構築できる協力的なフレームワークとして提供されており、本研究ではFLプロセスのカーボン排出量を調査\n- 地理的な位置や使用する電力源の違いによって、異なるカーボンフットプリントを示す可能性があり、適応的な計算と通信によってローカルモデルを訓練することでカーボン排出量を削減する機会が提供される\n- FedGreenというカーボン意識型のFLアプローチを提案し、Ordered Dropoutというモデル圧縮技術を用いて、クライアントのカーボンプロファイルと位置に基づいて適応的なモデルサイズを共有することで効率的なモデル訓練を行う\n- 実践的な研究により、FedGreenは最新の技術と比較してFLのカーボンフットプリントを大幅に削減できることが示され、同時に競争力のあるモデル精度を維持している",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T20:37:26+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.15100",
     "title": "Multimodal Large Language Model is a Human-Aligned Annotator for Text-to-Image Generation",
     "japanese_title": "多モーダル大規模言語モデルを利用した人間と整合性を持つテキストから画像への生成アノテータ",
@@ -127,6 +215,56 @@
       "連合学習"
     ],
     "published": "2024-04-23T11:22:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15384",
+    "title": "FL-TAC: Enhanced Fine-Tuning in Federated Learning via Low-Rank, Task-Specific Adapter Clustering",
+    "japanese_title": "FL-TAC: 連合学習による低ランク・タスク特有アダプタクラスタリングを用いたファインチューニングの拡張",
+    "authors": [
+      "Siqi Ping",
+      "Yuzhu Mao",
+      "Yang Liu",
+      "Xiao-Ping Zhang",
+      "Wenbo Ding"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- ファインチューニングにおける高品質なタスク特有データの収集が困難であるため、大規模事前学習モデルの性能が限定されている\n- 連合学習は、大規模クライアント間でのファインチューニングを可能にするが、事前学習モデルの大きさにより通信コストが問題となっている\n- 本研究では、クライアント側で各タスクに対して低ランクアダプタを学習し、類似のアダプタ群をサーバー側でクラスタリングすることでタスク特有アグリゲーションを達成\n- GLUEやCIFAR-10/100など、様々な言語・視覚タスクにおいて広範な実験を実施し、FLトレーニングプロセスを通じたタスク特有アダプタの進化を明らかにし、低ランクのタスク特有アダプタクラスタリング方法の有効性を確認",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T10:50:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.15381",
+    "title": "Advances and Open Challenges in Federated Learning with Foundation Models",
+    "japanese_title": "連合学習と基盤モデルの進展と課題",
+    "authors": [
+      "Chao Ren",
+      "Han Yu",
+      "Hongyi Peng",
+      "Xiaoli Tang",
+      "Anran Li",
+      "Yulan Gao",
+      "Alysa Ziying Tan",
+      "Bo Zhao",
+      "Xiaoxiao Li",
+      "Zengxiang Li",
+      "Qiang Yang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "Survey of Federated Foundation Models (FedFM)",
+    "summary": "- 連合学習（FL）と基盤モデル（FMs）を組み合わせることで、AIのプライバシー保護、データの分散化、計算効率が向上\n- 連合基盤モデル（FedFM）の新たな方法論、課題、未来の方向性について詳述し、多段階の分類法を提案\n- 計算の複雑性、プライバシー、貢献評価、通信効率という主要な課題を深掘り\n- 量子コンピューティングが訓練、推論、最適化、データ暗号化プロセスの革新に寄与する可能性を強調",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-23T09:44:58+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.14819",

@@ -1,5 +1,175 @@
 [
   {
+    "url": "http://arxiv.org/abs/2404.17466",
+    "title": "FTL: Transfer Learning Nonlinear Plasma Dynamic Transitions in Low Dimensional Embeddings via Deep Neural Networks",
+    "japanese_title": "FTL: ディープニューラルネットワークによる低次元埋め込みでの非線形プラズマ動的遷移の転移学習",
+    "authors": [
+      "Zhe Bai",
+      "Xishuo Wei",
+      "William Tang",
+      "Leonid Oliker",
+      "Zhihong Lin",
+      "Samuel Williams"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "cs.LG",
+      "physics.plasm-ph",
+      "76W05, 68T45",
+      "J.2; I.2.10"
+    ],
+    "comment": "18 pages, 10 figures",
+    "summary": "- 高次元の動的挙動、特に融合プラズマシステムの研究にディープラーニングアルゴリズムが新たな方法を提供\n- FTLモデルは限られた非線形シミュレーションデータから学習して非線形のキンクモード構造を再構築することに成功\n- 学習済みのニューラルエンコーダ・デコーダネットワークを用いて、非線形ダイナミクスを効果的に捉える\n- 低次元埋め込みを通じて、複雑なシステムの固有のダイナミクスを保ちながら、重要な構造を抽出",
+    "topics": [
+      "連合転移学習"
+    ],
+    "published": "2024-04-26T15:08:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17399",
+    "title": "Evaluations of Machine Learning Privacy Defenses are Misleading",
+    "japanese_title": "機械学習のプライバシー防御評価は誤解を招く",
+    "authors": [
+      "Michael Aerni",
+      "Jie Zhang",
+      "Florian Tramèr"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 実証的な機械学習プライバシー防御は、高い効用を達成し現実的な敵に抵抗するため、差分プライバシーの証明可能な保証を放棄している\n- 会員推定攻撃に基づく既存の実証的プライバシー評価に重大な欠陥があり、誤解を招く結論につながる\n- これらの評価は、最も脆弱なサンプルのプライバシー漏洩を特定できず、弱い攻撃を使用し、実用的な差分プライバシー基準との比較を避けている\n- 5つのケーススタディから、以前の評価はプライバシー漏洩を大幅に過小評価しており、私たちのより強力な評価では実証的防御は高効用なDP-SGD基準と競合しないことがわかった",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-04-26T13:21:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17271",
+    "title": "To democratize research with sensitive data, we should make synthetic data more accessible",
+    "japanese_title": "敏感データの研究を民主化するために、合成データをよりアクセスしやすくすべき",
+    "authors": [
+      "Erik-Jan van Kesteren"
+    ],
+    "categories": [
+      "stat.OT",
+      "cs.CY"
+    ],
+    "comment": "4 pages, 2 figures",
+    "summary": "- 合成データは30年以上に渡り敏感データのアクセス解決策として期待されてきた\n- 合成データの広範な採用はまだ遠い未来の夢である\n- データサイエンス研究コミュニティは合成手法の開発から、利用可能なツールの開発や教育、小規模ケーススタディの公開に焦点をシフトすべき\n- これにより、合成データをプライバシーを強化する技術として広く普及させることが可能になる",
+    "topics": [
+      "合成データ",
+      "PETs"
+    ],
+    "published": "2024-04-26T09:18:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17251",
+    "title": "Camera Motion Estimation from RGB-D-Inertial Scene Flow",
+    "japanese_title": "RGB-D-慣性センサーデータを用いたカメラモーション推定",
+    "authors": [
+      "Samuel Cerezo",
+      "Javier Civera"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Accepted to CVPR2024 Workshop on Visual Odometry and Computer Vision   Applications",
+    "summary": "- RGB-D画像と慣性データを統合し、新しいカメラモーション推定法を提案\n- センサーデータの融合を通じて、カメラの動きと慣性測定ユニットの状態を正確に推定\n- マルチフレーム最適化または古いデータの消去という柔軟な操作が可能\n- ICL-NUIMの合成データとOpenLORIS-Sceneの実データを用いた評価で、精度向上を確認",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-26T08:42:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17225",
+    "title": "Enhancing Privacy and Security of Autonomous UAV Navigation",
+    "japanese_title": "自律型無人航空機（UAV）のナビゲーションのプライバシーとセキュリティの強化",
+    "authors": [
+      "Vatsal Aggarwal",
+      "Arjun Ramesh Kaushik",
+      "Charanjit Jutla",
+      "Nalini Ratha"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "comment": "",
+    "summary": "- 自律型UAVは防衛、法執行、災害対応、製品配達に欠かせないツールである\n- 通信ネットワークや深層学習モデルを通じた敵対的な攻撃に対して脆弱性がある\n- 積分学習（RL）と準同型暗号（FHE）を組み合わせた新しいアプローチを提案し、UAVの安全な自律ナビゲーションを実現\n- 提案手法は暗号化された入力画像に対する推論を行うFHEを利用し、パフォーマンスの損失をほぼ無視できるレベルでセキュリティとプライバシーを保証する",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-04-26T07:54:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17147",
+    "title": "On the Federated Learning Framework for Cooperative Perception",
+    "japanese_title": "連合学習フレームワークを用いた協調知覚に関する研究",
+    "authors": [
+      "Zhenrong Zhang",
+      "Jianan Liu",
+      "Xi Zhou",
+      "Tao Huang",
+      "Qing-Long Han",
+      "Jingxin Liu",
+      "Hongbin Liu"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 協調知覚は将来の交通システムの効率と安全性を向上させるために必要であり、車両間の広範なデータ共有がプライバシーの問題を引き起こす\n- 連合学習はデータのプライバシーを保ちながら協力的な知覚、意思決定、計画を可能にするが、データの異質性による課題が存在する\n- 特定の協調知覚用の連合学習フレームワークとして、FedDWAアルゴリズムとDALoss関数を導入し、クライアントごとの重み付けと損失関数でモデルの収束とデータ異質性への対応を改善\n- BEVトランスフォーマーモデルを用いたOpenV2VおよびFedBEVTデータセットの厳密なテストにより、交差オーバーユニオンの平均値が顕著に向上し、交通部門での協力的学習解決策の効率と堅牢性を向上",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-26T04:34:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.17063",
+    "title": "WheelPose: Data Synthesis Techniques to Improve Pose Estimation Performance on Wheelchair Users",
+    "japanese_title": "WheelPose: 車椅子使用者のポーズ推定性能向上のためのデータ合成技術",
+    "authors": [
+      "William Huang",
+      "Sam Ghahremani",
+      "Siyou Pei",
+      "Yang Zhang"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CV"
+    ],
+    "comment": "Published for ACM CHI 2024. For source files, see   https://github.com/hilab-open-source/wheelpose",
+    "summary": "- 既存のポーズ推定モデルは、訓練データにおける車椅子使用者の表現不足により性能が低下している\n- モーションキャプチャデータとUnityゲームエンジンでシミュレートされた動作生成を用いて、車椅子使用者の合成データを生成する設定可能なパイプラインを提供\n- 生成されたデータセットは人間の評価者によって現実的と認識され、多様性があり、既存のポーズ推定モデルを微調整することで検出と推定の性能が向上した\n- 今後の研究のために、全てのコードとデータセット生成に使用した設定可能なUnity環境をオープンソースとして提供",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-25T22:17:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.16918",
+    "title": "On-the-fly Data Augmentation for Forecasting with Deep Learning",
+    "japanese_title": "ディープラーニングを用いた予測のためのオンザフライデータ拡張について",
+    "authors": [
+      "Vitor Cerqueira",
+      "Moisés Santos",
+      "Yassine Baghoussi",
+      "Carlos Soares"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 既存のデータ拡張手法はモデル訓練前に一度だけデータセットを増強し、その効果に限界がある\n- OnDATは訓練と検証中にデータ拡張を行うことで、常に変化する拡張データセットをモデルに提供\n- このプロセスはデータ空間の探索を促進し、過学習を減少させ、予測性能の向上が期待される\n- 提案手法は8つのベンチマークデータセットを使用し、既存のデータ拡張戦略と比較して優れた予測性能を示す",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-25T17:16:13+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.16638",
     "title": "Privacy-Preserving Statistical Data Generation: Application to Sepsis Detection",
     "japanese_title": "プライバシー保護型統計データ生成：敗血症検出への応用",

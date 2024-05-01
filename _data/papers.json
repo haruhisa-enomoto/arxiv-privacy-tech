@@ -1,5 +1,171 @@
 [
   {
+    "url": "http://arxiv.org/abs/2404.19754",
+    "title": "Succinct arguments for QMA from standard assumptions via compiled nonlocal games",
+    "japanese_title": "標準的な仮定からQMAのための簡潔な議論体系",
+    "authors": [
+      "Tony Metger",
+      "Anand Natarajan",
+      "Tina Zhang"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "comment": "57 pages",
+    "summary": "- 標準的な暗号学的仮定からQMAのための簡潔な古典的議論体系を構築\n- 使用する主要な原始要素は、衝突耐性ハッシュ関数と量子準同型暗号の軽減バージョン\n- 従来はポスト量子安全な不可判別性帳簿化に依存していたが、提案手法ではより弱い原始要素を使用\n- 構築プロトコルは任意の量子非局所ゲームを議論体系にコンパイルする一般的変換を使用している",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-04-30T17:58:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19725",
+    "title": "Fairness Without Demographics in Human-Centered Federated Learning",
+    "japanese_title": "人中心連合学習における人口統計なしの公平性",
+    "authors": [
+      "Roy Shaily",
+      "Sharma Harshit",
+      "Salekin Asif"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）における公平性を確保するための研究ギャップが存在し、現在の公平性戦略はバイアスのある属性の知識を必要とするが、これがFLのプライバシー原則と矛盾する\n- 機械学習の「人口統計なしの公平性」に触発された新しいバイアス緩和アプローチを提示し、トレーニング中にヘッシアン行列のトップ固有値を最小化することにより、FL参加者間で公平な損失風景を確保\n- 新しいFLアグリゲーション方式を導入し、エラー率と損失風景の曲率属性に基づいて参加モデルを評価し、FLシステム全体に公平性を促進\n- このアプローチは、単一および複数のバイアス要因を含むさまざまな現実世界のアプリケーションにおいて、公平性と効率のバランスを効果的に示し、人中心FLにおいて重要な進歩を表す",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-30T17:19:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19622",
+    "title": "Fake it to make it: Using synthetic data to remedy the data shortage in joint multimodal speech-and-gesture synthesis",
+    "japanese_title": "合成データを用いた音声とジェスチャーの合同多モード合成によるデータ不足の解決",
+    "authors": [
+      "Shivam Mehta",
+      "Anna Deichler",
+      "Jim O'Regan",
+      "Birger Moëll",
+      "Jonas Beskow",
+      "Gustav Eje Henter",
+      "Simon Alexanderson"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CV",
+      "cs.GR",
+      "cs.SD",
+      "eess.AS",
+      "68T07 (Primary), 68T42 (Secondary)",
+      "I.2.7; I.2.6; H.5"
+    ],
+    "comment": "13+1 pages, 2 figures, accepted at the Human Motion Generation   workshop (HuMoGen) at CVPR 2024",
+    "summary": "- 人間は対面会話で言葉と非言語的な動作を同時に用いるが、テキストからの音声と3Dジェスチャーの同時合成技術は新しく発展途上である\n- 既存の合成モデルは大きなデータセットに依存するため、データ不足が問題となっている\n- 単一モード合成モデルを用いて合成トレーニングデータを生成し、それを使用して新しい合成モデルを事前訓練する方法を提案\n- 提案された新しい合成アーキテクチャは、合成された音声と動作の質を向上し、より優れたプロソディモデリングを可能にする",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-30T15:22:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19619",
+    "title": "Physical Non-inertial Poser (PNP): Modeling Non-inertial Effects in Sparse-inertial Human Motion Capture",
+    "japanese_title": "非慣性系における人体モーションキャプチャのための物理的非慣性ポーザー（PNP）のモデリング",
+    "authors": [
+      "Xinyu Yi",
+      "Yuxiao Zhou",
+      "Feng Xu"
+    ],
+    "categories": [
+      "cs.GR"
+    ],
+    "comment": "Accepted by SIGGRAPH 2024 Project Page:   https://xinyu-yi.github.io/PNP/",
+    "summary": "- ヒューマンルート座標系を非慣性系として理論的に検討し、ルートの加速や回転時に見落とされがちな慣性力をモデル化\n- 自己回帰推定器を利用して慣性力を正確に補償し、ニュートンの運動法則に準じたモーションキャプチャを実現\n- 加速度と体の動きの関係を学習可能にし、神経ネットワークを訓練してモーションキャプチャを改善\n- 合成データを用いた神経ネットワークトレーニングとシミュレーションによるIMU合成を開発して、ハードウェアのノイズモデルを適切にモデル化し、システムのロバスト性を向上",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-30T15:19:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19420",
+    "title": "Let's Focus: Focused Backdoor Attack against Federated Transfer Learning",
+    "japanese_title": "集中攻撃: 連合転移学習に対する集中バックドア攻撃",
+    "authors": [
+      "Marco Arazzi",
+      "Stefanos Koffas",
+      "Antonino Nocera",
+      "Stjepan Picek"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合転移学習(FTL)では特徴抽出の事前学習が一方の当事者（通常はサーバー）によって行われる\n- 本研究では、連合学習フェーズにおいてクライアントの一部がXAIとデータセット蒸留を組み合わせてバックドア攻撃の脆弱性を探る\n- 攻撃は、XAIを用いてトリガーの最適な局所を特定し、バックドアクラスの圧縮情報を封じ込める方法で実行される\n- 提案された攻撃（FB-FTLと短縮される）は、画像分類シナリオでテストされ、平均80％の攻撃成功率を示し、既存の防御手法にも効果を持つことが確認された",
+    "topics": [
+      "連合学習",
+      "連合転移学習"
+    ],
+    "published": "2024-04-30T10:11:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19351",
+    "title": "Deep Learning Forecasts Caldera Collapse Events at Kīlauea Volcano",
+    "japanese_title": "Kīlauea火山のカルデラ崩壊イベントの深層学習予測",
+    "authors": [
+      "Ian W. McBrearty",
+      "Paul Segall"
+    ],
+    "categories": [
+      "physics.geo-ph",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 2018年のハワイ、キラウェア火山の3ヶ月間の噴火中に、既存の火口カルデラが60回以上の準周期的な崩壊イベントを経験\n- 崩壊イベントの最後の40回は、マグニチュード5以上の非常に長い周期(VLP)の地震を引き起こし、イベント間の時間は0.8日から2.2日だった\n- 深層学習を用いたグラフニューラルネットワーク(GNN)を訓練して、カルデラ崩壊イベントの時間までを予測し、初期のデータの一部分だけを用いて数時間以内に予測\n- 高SNRの傾斜計データを使用した時の予測が最も正確であり、合成データで教育されたGNNはほぼ一定のストレス閾値で崩壊を予測し、カルデラ崩壊の物理的要因を感知していることを示す",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-30T08:28:03+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19276",
+    "title": "C2FDrone: Coarse-to-Fine Drone-to-Drone Detection using Vision Transformer Networks",
+    "japanese_title": "C2FDrone: 粗大から細かいまでのドローン間検出のためのビジョントランスフォーマーネットワーク",
+    "authors": [
+      "Sairam VC Rebbapragada",
+      "Pranoy Panda",
+      "Vineeth N Balasubramanian"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Accepted at ICRA 2024",
+    "summary": "- ドローン同士の検出は衝突回避や敵対的ドローンの対処、捜索救助活動に不可欠\n- 小さな対象物のサイズや歪み、遮蔽、リアルタイム処理が挑戦的な問題点とされる\n- 新たに提案された粗大から細かいまでの検出戦略はビジョントランスフォーマーに基づく\n- 提案モデルはFL-Drones、AOT、NPS-DronesデータセットでF1スコアをそれぞれ7%、3%、1%向上し、エッジコンピューティングデバイスでのリアルタイム処理が可能",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-30T05:51:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19064",
+    "title": "Zero Knowledge Proof for Multiple Sequence Alignment",
+    "japanese_title": "多重配列アライメントのためのゼロ知識証明",
+    "authors": [
+      "Worasait Suwannik"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 多重配列アライメント（MSA）は生物情報学における基本的なアルゴリズムである\n- 入力配列やアライメントスコアは公開されるが、アライメント自体は保護される必要がある場面でゼロ知識証明が利用される\n- 入力配列、アライメント、アライメントスコアの一貫性を検証するバリデータがCircom言語で記述される\n- zkSNARKというゼロ知識証明システムを用いて、回路とその入力に対して暗号論的証明が生成され、実際のアライメントを明かすことなくすべての入力が一貫していることを示す",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-04-29T19:11:37+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.18848",
     "title": "FeDeRA:Efficient Fine-tuning of Language Models in Federated Learning Leveraging Weight Decomposition",
     "japanese_title": "FeDeRA: 重み分解を活用した連合学習における言語モデルの効率的なファインチューニング",
@@ -208,6 +374,29 @@
       "SSI/DID/VC"
     ],
     "published": "2024-04-29T06:23:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.18962",
+    "title": "An Aggregation-Free Federated Learning for Tackling Data Heterogeneity",
+    "japanese_title": "データの不均一性に対処するための集約フリー連合学習",
+    "authors": [
+      "Yuan Wang",
+      "Huazhu Fu",
+      "Renuga Kanagavelu",
+      "Qingsong Wei",
+      "Yong Liu",
+      "Rick Siow Mong Goh"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "Accepted to CVPR 2024",
+    "summary": "- 従来の連合学習では、サーバーが集約したグローバルモデルを元にローカルモデルを更新するが、クライアント間のデータの不均一性がこのプロセスのパフォーマンスを低下させる\n- 新しいアルゴリズムFedAFは、集約を行わずクライアント間で知識を共有し、より効果的なデータの凝縮を行うことでクライアントのドリフト問題を解決\n- FedAFはデータの不均一性が大きい環境でも高品質な凝縮データを生成し、グローバルモデルのパフォーマンスと収束速度を向上\n- 数多くのベンチマークデータセットでの数値実験により、FedAFは特にラベルの偏りや特徴の偏りがあるデータの不均一性に対処する能力が高いことが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-29T05:55:23+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.18388",
@@ -710,6 +899,26 @@
       "合成データ"
     ],
     "published": "2024-04-25T14:24:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.19660",
+    "title": "Decoder Decomposition for the Analysis of the Latent Space of Nonlinear Autoencoders With Wind-Tunnel Experimental Data",
+    "japanese_title": "非線形オートエンコーダの潜在空間解析のためのデコーダ分解：風洞実験データを用いた研究",
+    "authors": [
+      "Yaxin Mo",
+      "Tullio Traverso",
+      "Luca Magri"
+    ],
+    "categories": [
+      "cs.LG",
+      "physics.flu-dyn"
+    ],
+    "comment": "",
+    "summary": "- オートエンコーダの解釈性を向上させるために、デコーダ分解という後処理方法を提案\n- 潜在変数を流れの整合性のある構造に関連付けるデコーダ分解を二次元非定常ウェイクデータに適用し、潜在空間の次元が自動エンコーダの解釈可能性に重要な影響を与えることを発見\n- 三次元乱流ウェイクデータに対してデコーダ分解を適用し、潜在空間の次元とデコーダのサイズが再構成誤差に影響し、相関関係があることを示示\n- デコーダ分解を用いて、整合性のある構造を表す潜在変数をランク付けし、望ましくないまたは不適切な潜在変数をフィルタリングするための有用性を示した",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-25T10:09:37+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.16461",
@@ -6369,6 +6578,40 @@
       "連合学習"
     ],
     "published": "2024-04-01T22:53:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.01413",
+    "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+    "japanese_title": "モデルの崩壊は避けられないのか？リアル・合成データの蓄積による再帰の呪いの打破",
+    "authors": [
+      "Matthias Gerstgrasser",
+      "Rylan Schaeffer",
+      "Apratim Dey",
+      "Rafael Rafailov",
+      "Henry Sleight",
+      "John Hughes",
+      "Tomasz Korbak",
+      "Rajashree Agrawal",
+      "Dhruv Pai",
+      "Andrey Gromov",
+      "Daniel A. Roberts",
+      "Diyi Yang",
+      "David L. Donoho",
+      "Sanmi Koyejo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.ET",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 生成モデルが自身の生成した出力で訓練された場合、モデル-データのフィードバックループにより「モデル崩壊」と呼ばれる現象が発生することが示唆されている\n- 単一世代の合成データによる既存実データの置換はモデル崩壊を促進することが確認された\n- 複数世代の合成データと元の実データを蓄積することでモデル崩壊を避けることが可能で、この結果は様々なモデルサイズやアーキテクチャで一貫している\n- データが蓄積される場合、テストエラーは反復回数に依存せず有限上限を持つため、モデル崩壊は発生しないことが証明された",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-01T18:31:24+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.01270",

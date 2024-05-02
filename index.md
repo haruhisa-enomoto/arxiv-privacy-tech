@@ -26,191 +26,225 @@ To be written.
 
 ## 最新更新分
 
-更新: 2024-05-01T04:20:08.778088
+更新: 2024-05-02T04:20:41.709692
 
 - - -
 
-### [Succinct arguments for QMA from standard assumptions via compiled nonlocal games](http://arxiv.org/abs/2404.19754)
+### [Deep Metric Learning-Based Out-of-Distribution Detection with Synthetic Outlier Exposure](http://arxiv.org/abs/2405.00631)
 
-**標準的な仮定からQMAのための簡潔な議論体系**
+**深層距離学習と合成データを用いた分布外検出の新手法**
 
-Tony Metger, Anand Natarajan, Tina Zhang
+Assefa Seyoum Wahd
 
-- 標準的な暗号学的仮定からQMAのための簡潔な古典的議論体系を構築
-- 使用する主要な原始要素は、衝突耐性ハッシュ関数と量子準同型暗号の軽減バージョン
-- 従来はポスト量子安全な不可判別性帳簿化に依存していたが、提案手法ではより弱い原始要素を使用
-- 構築プロトコルは任意の量子非局所ゲームを議論体系にコンパイルする一般的変換を使用している
-
-**Comment:** 57 pages
-
-**トピック:** [準同型暗号](he), **カテゴリ:** quant-ph, cs.CR, **投稿日時:** 2024-04-30 17:58
-
-- - -
-
-### [Fairness Without Demographics in Human-Centered Federated Learning](http://arxiv.org/abs/2404.19725)
-
-**人中心連合学習における人口統計なしの公平性**
-
-Roy Shaily, Sharma Harshit, Salekin Asif
-
-- 連合学習（FL）における公平性を確保するための研究ギャップが存在し、現在の公平性戦略はバイアスのある属性の知識を必要とするが、これがFLのプライバシー原則と矛盾する
-- 機械学習の「人口統計なしの公平性」に触発された新しいバイアス緩和アプローチを提示し、トレーニング中にヘッシアン行列のトップ固有値を最小化することにより、FL参加者間で公平な損失風景を確保
-- 新しいFLアグリゲーション方式を導入し、エラー率と損失風景の曲率属性に基づいて参加モデルを評価し、FLシステム全体に公平性を促進
-- このアプローチは、単一および複数のバイアス要因を含むさまざまな現実世界のアプリケーションにおいて、公平性と効率のバランスを効果的に示し、人中心FLにおいて重要な進歩を表す
+- 深層距離学習とデノイジング拡散確率モデル(DDPM)を組み合わせて、合成分布外データを生成
+- 分布内データは正確に分類し、分布外データに対するKL分岐を最小化する訓練を実施
+- 実験では、距離学習ベースの損失関数がソフトマックスより優れていることを発見
+- 合成的に生成された分布外データを使用した訓練により、既存のモデルが大幅に向上し、強力なベースラインを超える性能を示す
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-04-30 17:19
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-05-01 16:58
 
 - - -
 
-### [Fake it to make it: Using synthetic data to remedy the data shortage in joint multimodal speech-and-gesture synthesis](http://arxiv.org/abs/2404.19622)
+### [LEAP: Optimization Hierarchical Federated Learning on Non-IID Data with Coalition Formation Game](http://arxiv.org/abs/2405.00579)
 
-**合成データを用いた音声とジェスチャーの合同多モード合成によるデータ不足の解決**
+**LEAP: 非IIDデータ上での階層的連合学習の最適化と連合形成ゲームの応用**
 
-Shivam Mehta, Anna Deichler, Jim O'Regan, Birger Moëll, Jonas Beskow, Gustav Eje Henter, Simon Alexanderson
+Jianfeng Lu, Yue Chen, Shuqin Cao, Longbiao Chen, Wei Wang, Yun Xin
 
-- 人間は対面会話で言葉と非言語的な動作を同時に用いるが、テキストからの音声と3Dジェスチャーの同時合成技術は新しく発展途上である
-- 既存の合成モデルは大きなデータセットに依存するため、データ不足が問題となっている
-- 単一モード合成モデルを用いて合成トレーニングデータを生成し、それを使用して新しい合成モデルを事前訓練する方法を提案
-- 提案された新しい合成アーキテクチャは、合成された音声と動作の質を向上し、より優れたプロソディモデリングを可能にする
+- 階層的連合学習では、エッジサーバを用いて通信負担を軽減するが、非IIDデータと通信資源の制限によってモデルのパフォーマンスが低下する
+- LEAPは連合形成ゲームと勾配投影を組み合わせた新しい最適化手法で、クライアントとエッジサーバ間の相関を動的に調整し、最適な相関を保証する
+- クライアントの異質性を取り入れ、連合感覚から合理的な帯域幅割り当てを達成し、クライアントレベルで指定された遅延制約内で最適な送信パワーを決定する
+- 実データセットに基づく実験結果は、LEAPが従来の基準よりも20.62％モデル精度が向上し、送信エネルギー消費を少なくとも約2.24倍削減することを示している
 
-**Comment:** 13+1 pages, 2 figures, accepted at the Human Motion Generation   workshop (HuMoGen) at CVPR 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.HC, cs.CV, cs.GR, cs.SD, eess.AS, 68T07 (Primary), 68T42 (Secondary), I.2.7; I.2.6; H.5, **投稿日時:** 2024-04-30 15:22
 
-- - -
-
-### [Physical Non-inertial Poser (PNP): Modeling Non-inertial Effects in Sparse-inertial Human Motion Capture](http://arxiv.org/abs/2404.19619)
-
-**非慣性系における人体モーションキャプチャのための物理的非慣性ポーザー（PNP）のモデリング**
-
-Xinyu Yi, Yuxiao Zhou, Feng Xu
-
-- ヒューマンルート座標系を非慣性系として理論的に検討し、ルートの加速や回転時に見落とされがちな慣性力をモデル化
-- 自己回帰推定器を利用して慣性力を正確に補償し、ニュートンの運動法則に準じたモーションキャプチャを実現
-- 加速度と体の動きの関係を学習可能にし、神経ネットワークを訓練してモーションキャプチャを改善
-- 合成データを用いた神経ネットワークトレーニングとシミュレーションによるIMU合成を開発して、ハードウェアのノイズモデルを適切にモデル化し、システムのロバスト性を向上
-
-**Comment:** Accepted by SIGGRAPH 2024 Project Page:   https://xinyu-yi.github.io/PNP/
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.GR, **投稿日時:** 2024-04-30 15:19
+**トピック:** [連合学習](fl), **カテゴリ:** cs.GT, **投稿日時:** 2024-05-01 15:32
 
 - - -
 
-### [Let's Focus: Focused Backdoor Attack against Federated Transfer Learning](http://arxiv.org/abs/2404.19420)
+### [Swarm Learning: A Survey of Concepts, Applications, and Trends](http://arxiv.org/abs/2405.00556)
 
-**集中攻撃: 連合転移学習に対する集中バックドア攻撃**
+**スワーム学習：概念、アプリケーション、トレンドの調査**
 
-Marco Arazzi, Stefanos Koffas, Antonino Nocera, Stjepan Picek
+Elham Shammar, Xiaohui Cui, Mohammed A. A. Al-qaness
 
-- 連合転移学習(FTL)では特徴抽出の事前学習が一方の当事者（通常はサーバー）によって行われる
-- 本研究では、連合学習フェーズにおいてクライアントの一部がXAIとデータセット蒸留を組み合わせてバックドア攻撃の脆弱性を探る
-- 攻撃は、XAIを用いてトリガーの最適な局所を特定し、バックドアクラスの圧縮情報を封じ込める方法で実行される
-- 提案された攻撃（FB-FTLと短縮される）は、画像分類シナリオでテストされ、平均80％の攻撃成功率を示し、既存の防御手法にも効果を持つことが確認された
+- ディープラーニングモデルは、中央サーバーへの大規模データセットの依存により、プライバシーとセキュリティの問題を引き起こしている
+- 連合学習(FL)は問題を解決するために分散型でハードウェア非依存の大規模機械学習フレームワークを構築したが、ネットワーク帯域幅の制約とデータ侵害に直面している
+- スワーム学習(SL)は、ブロックチェーン技術を利用してセキュリティ、スケーラビリティ、プライバシーの強化された分散型機械学習フレームワークとして提案された
+- この調査は、スワーム学習の原則、アーキテクチャ設計、応用分野を初めて紹介し、さらなる研究の必要性を強調している
 
+**Comment:** 31 pages
 
-
-**トピック:** [連合学習](fl), [連合転移学習](ftl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-04-30 10:11
-
-- - -
-
-### [Deep Learning Forecasts Caldera Collapse Events at Kīlauea Volcano](http://arxiv.org/abs/2404.19351)
-
-**Kīlauea火山のカルデラ崩壊イベントの深層学習予測**
-
-Ian W. McBrearty, Paul Segall
-
-- 2018年のハワイ、キラウェア火山の3ヶ月間の噴火中に、既存の火口カルデラが60回以上の準周期的な崩壊イベントを経験
-- 崩壊イベントの最後の40回は、マグニチュード5以上の非常に長い周期(VLP)の地震を引き起こし、イベント間の時間は0.8日から2.2日だった
-- 深層学習を用いたグラフニューラルネットワーク(GNN)を訓練して、カルデラ崩壊イベントの時間までを予測し、初期のデータの一部分だけを用いて数時間以内に予測
-- 高SNRの傾斜計データを使用した時の予測が最も正確であり、合成データで教育されたGNNはほぼ一定のストレス閾値で崩壊を予測し、カルデラ崩壊の物理的要因を感知していることを示す
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** physics.geo-ph, cs.LG, **投稿日時:** 2024-04-30 08:28
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, C.2.4, I.2.11, **投稿日時:** 2024-05-01 14:59
 
 - - -
 
-### [C2FDrone: Coarse-to-Fine Drone-to-Drone Detection using Vision Transformer Networks](http://arxiv.org/abs/2404.19276)
+### [FMLFS: A federated multi-label feature selection based on information theory in IoT environment](http://arxiv.org/abs/2405.00524)
 
-**C2FDrone: 粗大から細かいまでのドローン間検出のためのビジョントランスフォーマーネットワーク**
+**IoT環境における情報理論に基づく連合型マルチラベル特徴選択FMLFS**
 
-Sairam VC Rebbapragada, Pranoy Panda, Vineeth N Balasubramanian
+Afsaneh Mahanipour, Hana Khamfroush
 
-- ドローン同士の検出は衝突回避や敵対的ドローンの対処、捜索救助活動に不可欠
-- 小さな対象物のサイズや歪み、遮蔽、リアルタイム処理が挑戦的な問題点とされる
-- 新たに提案された粗大から細かいまでの検出戦略はビジョントランスフォーマーに基づく
-- 提案モデルはFL-Drones、AOT、NPS-DronesデータセットでF1スコアをそれぞれ7%、3%、1%向上し、エッジコンピューティングデバイスでのリアルタイム処理が可能
+- IoTデバイスが生成する大規模なマルチラベルデータセットでは、多次元の問題と無関係な特徴が分類器の性能に課題を与える
+- FMLFSは初の連合学習を用いたマルチラベル特徴選択方法で、特徴とラベル間の相互情報を利用
+- 特徴間の冗長性は相互情報と共同エントロピーから導出される相関距離を使用して評価
+- 性能、計算時間、通信コストの3つの指標で評価され、他の5つの方法よりも優れており、実世界のデータセットにおいて良いトレードオフを提供
 
-**Comment:** Accepted at ICRA 2024
+**Comment:** This paper has been accepted by IEEE SmartComp 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-04-30 05:51
-
-- - -
-
-### [Zero Knowledge Proof for Multiple Sequence Alignment](http://arxiv.org/abs/2404.19064)
-
-**多重配列アライメントのためのゼロ知識証明**
-
-Worasait Suwannik
-
-- 多重配列アライメント（MSA）は生物情報学における基本的なアルゴリズムである
-- 入力配列やアライメントスコアは公開されるが、アライメント自体は保護される必要がある場面でゼロ知識証明が利用される
-- 入力配列、アライメント、アライメントスコアの一貫性を検証するバリデータがCircom言語で記述される
-- zkSNARKというゼロ知識証明システムを用いて、回路とその入力に対して暗号論的証明が生成され、実際のアライメントを明かすことなくすべての入力が一貫していることを示す
-
-
-
-**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, **投稿日時:** 2024-04-29 19:11
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.IT, cs.NI, math.IT, **投稿日時:** 2024-05-01 13:58
 
 - - -
 
-### [An Aggregation-Free Federated Learning for Tackling Data Heterogeneity](http://arxiv.org/abs/2404.18962)
+### [PackVFL: Efficient HE Packing for Vertical Federated Learning](http://arxiv.org/abs/2405.00482)
 
-**データの不均一性に対処するための集約フリー連合学習**
+**PackVFL: 垂直連合学習のための効率的なHEパッキング**
 
-Yuan Wang, Huazhu Fu, Renuga Kanagavelu, Qingsong Wei, Yong Liu, Rick Siow Mong Goh
+Liu Yang, Shuowei Cai, Di Chai, Junxue Zhang, Han Tian, Yilun Jin, Kun Guo, Kai Chen, Qiang Yang
 
-- 従来の連合学習では、サーバーが集約したグローバルモデルを元にローカルモデルを更新するが、クライアント間のデータの不均一性がこのプロセスのパフォーマンスを低下させる
-- 新しいアルゴリズムFedAFは、集約を行わずクライアント間で知識を共有し、より効果的なデータの凝縮を行うことでクライアントのドリフト問題を解決
-- FedAFはデータの不均一性が大きい環境でも高品質な凝縮データを生成し、グローバルモデルのパフォーマンスと収束速度を向上
-- 数多くのベンチマークデータセットでの数値実験により、FedAFは特にラベルの偏りや特徴の偏りがあるデータの不均一性に対処する能力が高いことが示された
+- 垂直連合学習(VFL)は、準同型暗号(HE)に基づいており、データ増大と時間を要する操作により効率の問題がある
+- PackVFLは、複数のクリアテキストを1つの暗号テキストにパッキングし、SIMDスタイルの並列処理を支援する効率的なVFLフレームワーク
+- 独自のマトリックス乗算(MatMult)方式を提案し、HEベースのVFLの計算コストと通信コストを効果的に削減
+- PackVFLは、モデルサイズや特徴次元が大規模になるとも高い性能を保ち、既存のVFLアルゴリズムを最大51.52倍高速化することが実証された
 
-**Comment:** Accepted to CVPR 2024
+**Comment:** 12 pages excluding references
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-04-29 05:55
-
-- - -
-
-### [Decoder Decomposition for the Analysis of the Latent Space of Nonlinear Autoencoders With Wind-Tunnel Experimental Data](http://arxiv.org/abs/2404.19660)
-
-**非線形オートエンコーダの潜在空間解析のためのデコーダ分解：風洞実験データを用いた研究**
-
-Yaxin Mo, Tullio Traverso, Luca Magri
-
-- オートエンコーダの解釈性を向上させるために、デコーダ分解という後処理方法を提案
-- 潜在変数を流れの整合性のある構造に関連付けるデコーダ分解を二次元非定常ウェイクデータに適用し、潜在空間の次元が自動エンコーダの解釈可能性に重要な影響を与えることを発見
-- 三次元乱流ウェイクデータに対してデコーダ分解を適用し、潜在空間の次元とデコーダのサイズが再構成誤差に影響し、相関関係があることを示示
-- デコーダ分解を用いて、整合性のある構造を表す潜在変数をランク付けし、望ましくないまたは不適切な潜在変数をフィルタリングするための有用性を示した
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, physics.flu-dyn, **投稿日時:** 2024-04-25 10:09
+**トピック:** [連合学習](fl), [準同型暗号](he), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-05-01 12:46
 
 - - -
 
-### [Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](http://arxiv.org/abs/2404.01413)
+### [Detection of ransomware attacks using federated learning based on the CNN model](http://arxiv.org/abs/2405.00418)
 
-**モデルの崩壊は避けられないのか？リアル・合成データの蓄積による再帰の呪いの打破**
+**連合学習ベースのCNNモデルを使用したランサムウェア攻撃の検出**
 
-Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A. Roberts, Diyi Yang, David L. Donoho, Sanmi Koyejo
+Hong-Nhung Nguyen, Ha-Thanh Nguyen, Damien Lescos
 
-- 生成モデルが自身の生成した出力で訓練された場合、モデル-データのフィードバックループにより「モデル崩壊」と呼ばれる現象が発生することが示唆されている
-- 単一世代の合成データによる既存実データの置換はモデル崩壊を促進することが確認された
-- 複数世代の合成データと元の実データを蓄積することでモデル崩壊を避けることが可能で、この結果は様々なモデルサイズやアーキテクチャで一貫している
-- データが蓄積される場合、テストエラーは反復回数に依存せず有限上限を持つため、モデル崩壊は発生しないことが証明された
+- スマートグリッドやデジタル変電所に影響を与えるランサムウェアの脅威に対処するための研究
+- AIを使用したランサムウェア検出方法とデジタル変電所の運用を対象とした攻撃モデルを提案
+- バイナリデータを画像データに変換し、連合学習によって畳み込みニューラルネットワークモデルに供給
+- 実験結果は、提案された技術が高い精度でランサムウェアを検出することを示す
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.CL, cs.ET, stat.ML, **投稿日時:** 2024-04-01 18:31
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2024-05-01 09:57
+
+- - -
+
+### [Trust Driven On-Demand Scheme for Client Deployment in Federated Learning](http://arxiv.org/abs/2405.00395)
+
+**信頼を基にしたオンデマンド方式によるクライアント配置の提案**
+
+Mario Chahoud, Azzam Mourad, Hadi Otrok, Jamal Bentahar, Mohsen Guizani
+
+- 連合学習(FL)において、コンテナ技術を使用したクライアントの参加拡大と学習の各イテレーションに特定のクライアント群の可用性の確保が重要
+- クライアントの信頼性に関する問題に対処するために、"Trusted-On-Demand-FL"という信頼メカニズムを導入し、サーバーと適格なクライアント間の信頼関係を構築
+- Dockerを使用してクライアントの行動を効果的に監視・検証し、データアクセスや改ざんから防御を強化
+- 個々のクライアントに信頼値を割り当て、動的に調整することで、悪意のあるクライアントを特定し除外し、システムの安定性とセキュリティを向上
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2024-05-01 08:50
+
+- - -
+
+### [Enhancing Mutual Trustworthiness in Federated Learning for Data-Rich Smart Cities](http://arxiv.org/abs/2405.00394)
+
+**データ豊かなスマートシティにおける連合学習の相互信頼性向上**
+
+Osama Wehbi, Sarhad Arisdakessian, Mohsen Guizani, Omar Abdel Wahab, Azzam Mourad, Hadi Otrok, Hoda Al khzaimi, Bassem Ouni
+
+- 都市環境の異質性が信頼できるクライアントの選定に課題を提起している
+- クライアントとサーバー双方の信頼ニーズを考慮した新しいフレームワークを提案
+- 信頼スコアに基づいて相手をランク付けするための嗜好関数を作成し、信頼性評価システムを構築
+- 提案手法は、信頼レベルと全体的なモデル精度の向上、信頼できないクライアントの減少において従来方法を上回る
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.GT, cs.LG, **投稿日時:** 2024-05-01 08:49
+
+- - -
+
+### [Employing Federated Learning for Training Autonomous HVAC Systems](http://arxiv.org/abs/2405.00389)
+
+**連合学習を用いた自律型HVACシステムの訓練**
+
+Fredrik Hagström, Vikas Garg, Fabricio Oliveira
+
+- 建物のエネルギー消費は全体の40％を占め、その大部分は暖房、換気、空調(HVAC)から生じる
+- モデルフリー強化学習アルゴリズムを用いてHVACシステムを訓練し、エネルギーコストと消費を削減し熱快適性を向上
+- 連合学習アプローチを採用し、異なる気候区分のデータセンターで訓練されたローカルポリシーを集約してグローバルコントロールポリシーを学習
+- 実験評価により、連合ポリシーは個別に訓練されたポリシーに比べて学習速度が速く、一般化能力も高いことが示された
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** math.OC, cs.LG, cs.SY, eess.SY, **投稿日時:** 2024-05-01 08:42
+
+- - -
+
+### [Metric geometry of the privacy-utility tradeoff](http://arxiv.org/abs/2405.00329)
+
+**メトリック幾何学とプライバシー・ユーティリティトレードオフ**
+
+March Boedihardjo, Thomas Strohmer, Roman Vershynin
+
+- 合成データはデータ共有におけるプライバシーを確保する魅力的な概念である
+- メトリックプライバシーを使用し、離散的な設定を超えた差分プライバシーの一般化を効果的に実施
+- データの基盤となる空間のメトリック幾何学によって、最適なプライバシー精度トレードオフを特徴づける問題を提起
+- 「エントロピックスケール」という量を用いて、この問題の部分的な解決策を提供し、メトリック空間の多スケール幾何学を捉える
+
+
+
+**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.DS, math.PR, **投稿日時:** 2024-05-01 05:31
+
+- - -
+
+### [Proof of Sampling: A Nash Equilibrium-Secured Verification Protocol for Decentralized Systems](http://arxiv.org/abs/2405.00295)
+
+**サンプリングの証明: 分散システム用ネイシュ均衡保証検証プロトコル**
+
+Yue Zhang, Shouqiao Wang, Xiaoyuan Liu, Sijun Tan, Raluca Ada Popa, Ciamac C. Moallemi
+
+- 分散アプリケーション用のサンプリングベース検証プロトコル「Proof of Sampling（PoSP）」を提案
+- PoSPプロトコルは純粋戦略ネイシュ均衡を有し、参加者は正直に行動する動機付けがなされ、ネットワークの完全性が強化される
+- PoSPをAIアプリケーションの分散推論に応用し、楽観的不正証明とゼロ知識証明ベースのアプローチを組み合わせた新しい方法「spML」を設計
+- さらに、PoSPプロトコルはEigenLayer内のアクティブに検証されるサービス（AVS）の検証機構の設計に有効
+
+
+
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.GT, **投稿日時:** 2024-05-01 03:27
+
+- - -
+
+### [Differentially Private Release of Israel's National Registry of Live Births](http://arxiv.org/abs/2405.00267)
+
+**差分プライバシーを用いたイスラエル国立出生登録簿の公開**
+
+Shlomi Hod, Ran Canetti
+
+- イスラエルの保健省は2014年の生誕データを差分プライバシー技術を用いて処理し、科学研究や政策立案に利用可能なデータセットをリリース
+- プライバシー保護の基準として差分プライバシーを採用し、プライバシー喪失予算（\(\epsilon = 9.98\)）が設定された
+- データ変換やモデル生成アルゴリズム選択等、複数のステップでプライベート選択アルゴリズムを活用
+- プロジェクトの評価は差分プライバシー保証を提供するため、受入基準もおおよそのみ開示された
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.CY, cs.DS, **投稿日時:** 2024-05-01 01:20
+
+- - -
+
+### [Synthetic Face Datasets Generation via Latent Space Exploration from Brownian Identity Diffusion](http://arxiv.org/abs/2405.00228)
+
+**合成顔データセットの生成: ブラウニアン・アイデンティティ拡散による潜在空間の探索**
+
+David Geissbühler, Hatef Otroshi Shahreza, Sébastien Marcel
+
+- 顔認識（FR）モデルの訓練は、プライバシーや倫理的な懸念を伴う大規模データセットを使用
+- 合成データを利用して本物のデータを補完または置換する手法が提案されているが、データの多様性が十分かは不明
+- 物理現象であるソフト粒子のブラウニアン運動に触発された新メソッドを導入し、潜在空間におけるアイデンティティ分布をサンプリング
+- この方法で生成されたデータセットは、既存のGANベースのデータセットを上回り、最先端の拡散ベースの合成データセットと競合するパフォーマンスを実現
+
+**Comment:** 17 pages, 7 figures, 10 tables
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-04-30 22:32

@@ -1,5 +1,284 @@
 [
   {
+    "url": "http://arxiv.org/abs/2405.00631",
+    "title": "Deep Metric Learning-Based Out-of-Distribution Detection with Synthetic Outlier Exposure",
+    "japanese_title": "深層距離学習と合成データを用いた分布外検出の新手法",
+    "authors": [
+      "Assefa Seyoum Wahd"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 深層距離学習とデノイジング拡散確率モデル(DDPM)を組み合わせて、合成分布外データを生成\n- 分布内データは正確に分類し、分布外データに対するKL分岐を最小化する訓練を実施\n- 実験では、距離学習ベースの損失関数がソフトマックスより優れていることを発見\n- 合成的に生成された分布外データを使用した訓練により、既存のモデルが大幅に向上し、強力なベースラインを超える性能を示す",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-01T16:58:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00579",
+    "title": "LEAP: Optimization Hierarchical Federated Learning on Non-IID Data with Coalition Formation Game",
+    "japanese_title": "LEAP: 非IIDデータ上での階層的連合学習の最適化と連合形成ゲームの応用",
+    "authors": [
+      "Jianfeng Lu",
+      "Yue Chen",
+      "Shuqin Cao",
+      "Longbiao Chen",
+      "Wei Wang",
+      "Yun Xin"
+    ],
+    "categories": [
+      "cs.GT"
+    ],
+    "comment": "",
+    "summary": "- 階層的連合学習では、エッジサーバを用いて通信負担を軽減するが、非IIDデータと通信資源の制限によってモデルのパフォーマンスが低下する\n- LEAPは連合形成ゲームと勾配投影を組み合わせた新しい最適化手法で、クライアントとエッジサーバ間の相関を動的に調整し、最適な相関を保証する\n- クライアントの異質性を取り入れ、連合感覚から合理的な帯域幅割り当てを達成し、クライアントレベルで指定された遅延制約内で最適な送信パワーを決定する\n- 実データセットに基づく実験結果は、LEAPが従来の基準よりも20.62％モデル精度が向上し、送信エネルギー消費を少なくとも約2.24倍削減することを示している",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T15:32:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00556",
+    "title": "Swarm Learning: A Survey of Concepts, Applications, and Trends",
+    "japanese_title": "スワーム学習：概念、アプリケーション、トレンドの調査",
+    "authors": [
+      "Elham Shammar",
+      "Xiaohui Cui",
+      "Mohammed A. A. Al-qaness"
+    ],
+    "categories": [
+      "cs.LG",
+      "C.2.4, I.2.11"
+    ],
+    "comment": "31 pages",
+    "summary": "- ディープラーニングモデルは、中央サーバーへの大規模データセットの依存により、プライバシーとセキュリティの問題を引き起こしている\n- 連合学習(FL)は問題を解決するために分散型でハードウェア非依存の大規模機械学習フレームワークを構築したが、ネットワーク帯域幅の制約とデータ侵害に直面している\n- スワーム学習(SL)は、ブロックチェーン技術を利用してセキュリティ、スケーラビリティ、プライバシーの強化された分散型機械学習フレームワークとして提案された\n- この調査は、スワーム学習の原則、アーキテクチャ設計、応用分野を初めて紹介し、さらなる研究の必要性を強調している",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T14:59:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00524",
+    "title": "FMLFS: A federated multi-label feature selection based on information theory in IoT environment",
+    "japanese_title": "IoT環境における情報理論に基づく連合型マルチラベル特徴選択FMLFS",
+    "authors": [
+      "Afsaneh Mahanipour",
+      "Hana Khamfroush"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.IT",
+      "cs.NI",
+      "math.IT"
+    ],
+    "comment": "This paper has been accepted by IEEE SmartComp 2024",
+    "summary": "- IoTデバイスが生成する大規模なマルチラベルデータセットでは、多次元の問題と無関係な特徴が分類器の性能に課題を与える\n- FMLFSは初の連合学習を用いたマルチラベル特徴選択方法で、特徴とラベル間の相互情報を利用\n- 特徴間の冗長性は相互情報と共同エントロピーから導出される相関距離を使用して評価\n- 性能、計算時間、通信コストの3つの指標で評価され、他の5つの方法よりも優れており、実世界のデータセットにおいて良いトレードオフを提供",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T13:58:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00482",
+    "title": "PackVFL: Efficient HE Packing for Vertical Federated Learning",
+    "japanese_title": "PackVFL: 垂直連合学習のための効率的なHEパッキング",
+    "authors": [
+      "Liu Yang",
+      "Shuowei Cai",
+      "Di Chai",
+      "Junxue Zhang",
+      "Han Tian",
+      "Yilun Jin",
+      "Kun Guo",
+      "Kai Chen",
+      "Qiang Yang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "12 pages excluding references",
+    "summary": "- 垂直連合学習(VFL)は、準同型暗号(HE)に基づいており、データ増大と時間を要する操作により効率の問題がある\n- PackVFLは、複数のクリアテキストを1つの暗号テキストにパッキングし、SIMDスタイルの並列処理を支援する効率的なVFLフレームワーク\n- 独自のマトリックス乗算(MatMult)方式を提案し、HEベースのVFLの計算コストと通信コストを効果的に削減\n- PackVFLは、モデルサイズや特徴次元が大規模になるとも高い性能を保ち、既存のVFLアルゴリズムを最大51.52倍高速化することが実証された",
+    "topics": [
+      "連合学習",
+      "準同型暗号"
+    ],
+    "published": "2024-05-01T12:46:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00418",
+    "title": "Detection of ransomware attacks using federated learning based on the CNN model",
+    "japanese_title": "連合学習ベースのCNNモデルを使用したランサムウェア攻撃の検出",
+    "authors": [
+      "Hong-Nhung Nguyen",
+      "Ha-Thanh Nguyen",
+      "Damien Lescos"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- スマートグリッドやデジタル変電所に影響を与えるランサムウェアの脅威に対処するための研究\n- AIを使用したランサムウェア検出方法とデジタル変電所の運用を対象とした攻撃モデルを提案\n- バイナリデータを画像データに変換し、連合学習によって畳み込みニューラルネットワークモデルに供給\n- 実験結果は、提案された技術が高い精度でランサムウェアを検出することを示す",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T09:57:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00395",
+    "title": "Trust Driven On-Demand Scheme for Client Deployment in Federated Learning",
+    "japanese_title": "信頼を基にしたオンデマンド方式によるクライアント配置の提案",
+    "authors": [
+      "Mario Chahoud",
+      "Azzam Mourad",
+      "Hadi Otrok",
+      "Jamal Bentahar",
+      "Mohsen Guizani"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習(FL)において、コンテナ技術を使用したクライアントの参加拡大と学習の各イテレーションに特定のクライアント群の可用性の確保が重要\n- クライアントの信頼性に関する問題に対処するために、\"Trusted-On-Demand-FL\"という信頼メカニズムを導入し、サーバーと適格なクライアント間の信頼関係を構築\n- Dockerを使用してクライアントの行動を効果的に監視・検証し、データアクセスや改ざんから防御を強化\n- 個々のクライアントに信頼値を割り当て、動的に調整することで、悪意のあるクライアントを特定し除外し、システムの安定性とセキュリティを向上",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T08:50:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00394",
+    "title": "Enhancing Mutual Trustworthiness in Federated Learning for Data-Rich Smart Cities",
+    "japanese_title": "データ豊かなスマートシティにおける連合学習の相互信頼性向上",
+    "authors": [
+      "Osama Wehbi",
+      "Sarhad Arisdakessian",
+      "Mohsen Guizani",
+      "Omar Abdel Wahab",
+      "Azzam Mourad",
+      "Hadi Otrok",
+      "Hoda Al khzaimi",
+      "Bassem Ouni"
+    ],
+    "categories": [
+      "cs.GT",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 都市環境の異質性が信頼できるクライアントの選定に課題を提起している\n- クライアントとサーバー双方の信頼ニーズを考慮した新しいフレームワークを提案\n- 信頼スコアに基づいて相手をランク付けするための嗜好関数を作成し、信頼性評価システムを構築\n- 提案手法は、信頼レベルと全体的なモデル精度の向上、信頼できないクライアントの減少において従来方法を上回る",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T08:49:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00389",
+    "title": "Employing Federated Learning for Training Autonomous HVAC Systems",
+    "japanese_title": "連合学習を用いた自律型HVACシステムの訓練",
+    "authors": [
+      "Fredrik Hagström",
+      "Vikas Garg",
+      "Fabricio Oliveira"
+    ],
+    "categories": [
+      "math.OC",
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "",
+    "summary": "- 建物のエネルギー消費は全体の40％を占め、その大部分は暖房、換気、空調(HVAC)から生じる\n- モデルフリー強化学習アルゴリズムを用いてHVACシステムを訓練し、エネルギーコストと消費を削減し熱快適性を向上\n- 連合学習アプローチを採用し、異なる気候区分のデータセンターで訓練されたローカルポリシーを集約してグローバルコントロールポリシーを学習\n- 実験評価により、連合ポリシーは個別に訓練されたポリシーに比べて学習速度が速く、一般化能力も高いことが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-01T08:42:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00329",
+    "title": "Metric geometry of the privacy-utility tradeoff",
+    "japanese_title": "メトリック幾何学とプライバシー・ユーティリティトレードオフ",
+    "authors": [
+      "March Boedihardjo",
+      "Thomas Strohmer",
+      "Roman Vershynin"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DS",
+      "math.PR"
+    ],
+    "comment": "",
+    "summary": "- 合成データはデータ共有におけるプライバシーを確保する魅力的な概念である\n- メトリックプライバシーを使用し、離散的な設定を超えた差分プライバシーの一般化を効果的に実施\n- データの基盤となる空間のメトリック幾何学によって、最適なプライバシー精度トレードオフを特徴づける問題を提起\n- 「エントロピックスケール」という量を用いて、この問題の部分的な解決策を提供し、メトリック空間の多スケール幾何学を捉える",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-05-01T05:31:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00295",
+    "title": "Proof of Sampling: A Nash Equilibrium-Secured Verification Protocol for Decentralized Systems",
+    "japanese_title": "サンプリングの証明: 分散システム用ネイシュ均衡保証検証プロトコル",
+    "authors": [
+      "Yue Zhang",
+      "Shouqiao Wang",
+      "Xiaoyuan Liu",
+      "Sijun Tan",
+      "Raluca Ada Popa",
+      "Ciamac C. Moallemi"
+    ],
+    "categories": [
+      "cs.GT"
+    ],
+    "comment": "",
+    "summary": "- 分散アプリケーション用のサンプリングベース検証プロトコル「Proof of Sampling（PoSP）」を提案\n- PoSPプロトコルは純粋戦略ネイシュ均衡を有し、参加者は正直に行動する動機付けがなされ、ネットワークの完全性が強化される\n- PoSPをAIアプリケーションの分散推論に応用し、楽観的不正証明とゼロ知識証明ベースのアプローチを組み合わせた新しい方法「spML」を設計\n- さらに、PoSPプロトコルはEigenLayer内のアクティブに検証されるサービス（AVS）の検証機構の設計に有効",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-05-01T03:27:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00267",
+    "title": "Differentially Private Release of Israel's National Registry of Live Births",
+    "japanese_title": "差分プライバシーを用いたイスラエル国立出生登録簿の公開",
+    "authors": [
+      "Shlomi Hod",
+      "Ran Canetti"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CY",
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- イスラエルの保健省は2014年の生誕データを差分プライバシー技術を用いて処理し、科学研究や政策立案に利用可能なデータセットをリリース\n- プライバシー保護の基準として差分プライバシーを採用し、プライバシー喪失予算（\\(\\epsilon = 9.98\\)）が設定された\n- データ変換やモデル生成アルゴリズム選択等、複数のステップでプライベート選択アルゴリズムを活用\n- プロジェクトの評価は差分プライバシー保証を提供するため、受入基準もおおよそのみ開示された",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-05-01T01:20:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.00228",
+    "title": "Synthetic Face Datasets Generation via Latent Space Exploration from Brownian Identity Diffusion",
+    "japanese_title": "合成顔データセットの生成: ブラウニアン・アイデンティティ拡散による潜在空間の探索",
+    "authors": [
+      "David Geissbühler",
+      "Hatef Otroshi Shahreza",
+      "Sébastien Marcel"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "17 pages, 7 figures, 10 tables",
+    "summary": "- 顔認識（FR）モデルの訓練は、プライバシーや倫理的な懸念を伴う大規模データセットを使用\n- 合成データを利用して本物のデータを補完または置換する手法が提案されているが、データの多様性が十分かは不明\n- 物理現象であるソフト粒子のブラウニアン運動に触発された新メソッドを導入し、潜在空間におけるアイデンティティ分布をサンプリング\n- この方法で生成されたデータセットは、既存のGANベースのデータセットを上回り、最先端の拡散ベースの合成データセットと競合するパフォーマンスを実現",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-30T22:32:02+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.19754",
     "title": "Succinct arguments for QMA from standard assumptions via compiled nonlocal games",
     "japanese_title": "標準的な仮定からQMAのための簡潔な議論体系",

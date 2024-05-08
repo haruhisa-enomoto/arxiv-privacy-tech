@@ -26,463 +26,310 @@ To be written.
 
 ## 最新更新分
 
-更新: 2024-05-07T04:25:06.773812
+更新: 2024-05-08T04:20:03.995223
 
 - - -
 
-### [Fault Detection and Monitoring using an Information-Driven Strategy: Method, Theory, and Application](http://arxiv.org/abs/2405.03667)
+### [Comparing Ways of Obtaining Candidate Orderings from Approval Ballots](http://arxiv.org/abs/2405.04525)
 
-**情報駆動型戦略を使用した故障検出と監視: 方法、理論、および応用**
+**承認投票から候補者の順序付けを得る方法の比較**
 
-Camilo Ramírez, Jorge F. Silva, Ferhat Tamssaouet, Tomás Rojas, Marcos E. Orchard
+Théo Delemazure, Chris Dong, Dominik Peters, Magdaléna Tydrichová
 
-- 新しいコンセプトドリフト検出器を基にした情報駆動型故障検出方法を提案
-- 提案手法は、事前の故障例が不要で、多くのシステムモデルに対して分布フリーで適用可能
-- 理論的特性を証明：強い一貫性、非故障ケースの迅速な検出、テストの重要度レベルとパワーの制御
-- 合成データと航空機ターボファンエンジンのベンチマークデータセットN-CMAPSSで理論を検証し、多くの実際の設定での方法の有用性を支持
+- 承認投票を用いた政治選挙では、候補者が隣接して承認されるような左右のイデオロギー軸を設定することが有効
+- 理想的な軸の設定は通常不可能であり、最も理想に近い軸を選択する必要がある
+- 本論文では、社会選択のアプローチを取り、5つの異なる軸選択規則を公理的に比較し、それらが満たす特性を研究
+- フランスの選挙調査データ、米国最高裁判所の裁判官の投票データ、合成データを用いて各規則の振る舞いを分析
 
-**Comment:** 28 pages, 11 figures
+**Comment:** 43 pages including appendix, accepted to IJCAI 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** eess.SP, cs.IT, cs.LG, math.IT, **投稿日時:** 2024-05-06 17:43
-
-- - -
-
-### [Federated Learning Privacy: Attacks, Defenses, Applications, and Policy Landscape - A Survey](http://arxiv.org/abs/2405.03636)
-
-**連合学習プライバシー：攻撃、防衛、応用、及び政策状況の調査**
-
-Joshua C. Zhao, Saurabh Bagchi, Salman Avestimehr, Kevin S. Chan, Somali Chaterji, Dimitris Dimitriadis, Jiacheng Li, Ninghui Li, Arash Nourian, Holger R. Roth
-
-- 連合学習はプライバシーを保護しながら共同で機械学習モデルの訓練を可能にするが、モデル更新がプライベートデータに関する情報を漏らす可能性がある
-- この調査では連合学習におけるさまざまなプライバシー攻撃と防衛方法について広範な文献レビューを提供
-- 実際の業界アプリケーションを解析し、連合学習の将来の成功の取り組みから教訓を得る
-- 連合学習のプライバシー規制の新興風景を調査し、プライバシーを保ちながら正確なモデルを生成する方向での将来的な展望を提案
-
-**Comment:** Submitted to ACM Computing Surveys
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.LG, I.2; H.4; I.5, **投稿日時:** 2024-05-06 16:55
+**トピック:** [合成データ](sd), **カテゴリ:** cs.GT, **投稿日時:** 2024-05-07 17:57
 
 - - -
 
-### [Exploring the Efficacy of Federated-Continual Learning Nodes with Attention-Based Classifier for Robust Web Phishing Detection: An Empirical Investigation](http://arxiv.org/abs/2405.03537)
+### [Large-Scale MPC: Scaling Private Iris Code Uniqueness Checks to Millions of Users](http://arxiv.org/abs/2405.04463)
 
-**フェデレート継続学習ノードと注目に基づく分類器を活用した堅牢なWebフィッシング検出の有効性の探求：実証調査**
+**大規模秘密計算: 数百万ユーザーへのプライベート虹彩コード一意性チェックのスケーリング**
 
-Jesher Joshua M, Adhithya R, Sree Dananjay S, M Revathi
+Remco Bloemen, Daniel Kales, Philipp Sippl, Roman Walch
 
-- フェデレート学習と連合学習を組み合わせる新たなパラダイムを提案し、分散ネットワーク上で新しいフィッシングデータについてモデルを継続的に更新
-- 注目機構を利用したカスタムの注目に基づく分類器モデルを導入し、複雑なフィッシングパターンを検出
-- 様々な連合学習戦略とモデルアーキテクチャを用いてハイブリッド学習パラダイムを評価
-- 従来の方法を上回る成果を達成し、フィッシング脅威の検出と過去の知識の保持においてLwF戦略で精度0.93、適合率0.90、再現率0.96、F1スコア0.93を記録
+- 秘密計算(MPC)を用いて虹彩コードがデータベース内のものと一致するかを確認しながらプライバシーを保護
+- 世界IDや赤十字会の援助分配などの実用システムの高いパフォーマンス要求に対応する新プロトコルを提案
+- 最新のプロトコルでは、1秒間に100万以上の虹彩コード比較が可能であり、プライバシーを保護しつつも高速に処理
+- GPU加速を利用することで、従来のマルチスレッドCPU実装よりも38倍以上の高速化を実現
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-06 14:55
-
-- - -
-
-### [GI-SMN: Gradient Inversion Attack against Federated Learning without Prior Knowledge](http://arxiv.org/abs/2405.03516)
-
-**連合学習における事前知識不要のグラディエントインバージョン攻撃：GI-SMN**
-
-Jin Qian, Kaimin Wei, Yongdong Wu, Jilian Zhang, Jipeng Chen, Huan Bao
-
-- 連合学習では複数の参加者が元のユーザーデータではなく、勾配情報を共有することでプライバシーを保持
-- 従来のグラディエントインバージョン攻撃は、モデル構造やバッチ正規化の統計を変更するなど、強い前提条件を必要としていた
-- 新たに提案されたスタイル移行ネットワークを用いたグラディエントインバージョン攻撃(GI-SMN)は、これらの強い前提条件を必要としない
-- GI-SMNはより高い類似度でユーザーデータを再構築可能であり、視覚効果と類似度の指標で従来の攻撃手法を上回る
-
-**Comment:** 18 pages, 10 figures, conference
-
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, **投稿日時:** 2024-05-06 14:29
+**トピック:** [秘密計算](mpc), **カテゴリ:** cs.CR, **投稿日時:** 2024-05-07 16:29
 
 - - -
 
-### [Robotic Constrained Imitation Learning for the Peg Transfer Task in Fundamentals of Laparoscopic Surgery](http://arxiv.org/abs/2405.03440)
+### [Enhancing Scalability of Metric Differential Privacy via Secret Dataset Partitioning and Benders Decomposition](http://arxiv.org/abs/2405.04344)
 
-**ロボットによる「基本的腹腔鏡手術のためのペグ移動タスク」の制約付き模倣学習**
+**指標差分プライバシーのスケーラビリティ向上に向けた秘密データセットのパーティショニングとベンダーズ分解の活用**
 
-Kento Kawaharazuka, Kei Okada, Masayuki Inaba
+Chenxi Qiu
 
-- 使用するポートを中心軸として鉗子を操作する必要があるため、腹腔鏡手術ロボットには2つの主要な課題が存在
-- 単眼カメラを使用した場合、深度情報の認識が困難
-- 熟練したオペレーターの例示的動作から動作制約を抽出し、これに基づいてデータを収集
-- 双方のFranka Emika Panda Robot Armsを用いてシステムを構築し、その効果を確認
+- 指標差分プライバシー（mDP）は、一般的なメトリック空間で表現される秘密データ（テキストデータやジオロケーションデータなど）の保護を目的として拡張された
+- 非効率な線形プログラミング問題を解決するため、オリジナルの秘密データセットを複数のサブセットに分割
+- ベンダーズ分解を用いて、マスタープログラムとサブプロブレムを組み合わせることでパーティション問題を再構成し解決
+- 実験結果は、道路ネットワーク上のジオロケーションデータやテキストデータ、合成データを用いて、提案メカニズムの優れたスケーラビリティと効率性を示した
 
-**Comment:** Accepted at ICRA2024, website -   https://haraduka.github.io/fls-imitation
+**Comment:** To be published in IJCAI 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.RO, cs.AI, cs.LG, **投稿日時:** 2024-05-06 13:12
-
-- - -
-
-### [Snake Learning: A Communication- and Computation-Efficient Distributed Learning Framework for 6G](http://arxiv.org/abs/2405.03372)
-
-**6Gにおけるスネークラーニング: 通信・計算効率の高い分散学習フレームワーク**
-
-Xiaoxue Yu, Xingfu Yi, Rongpeng Li, Fei Wang, Chenghui Peng, Zhifeng Zhao, Honggang Zhang
-
-- 既存の分散学習フレームワークはネットワーク環境の多様性で同期要求やコミュニケーションの負担が大きい問題がある
-- スネークラーニングはノード間の異なる計算能力とローカルデータ分布を考慮し、モデルのレイヤーを順番にトレーニング
-- このレイヤーごとの更新メカニズムにより、ストレージ、メモリ、通信要求を大幅に削減
-- コンピュータビジョンのトレーニングと大規模言語モデルの微調整タスクにおいて効率性と適応性が優れている
-
-**Comment:** 7 pages, 6 figures
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.NI, cs.AI, **投稿日時:** 2024-05-06 11:25
+**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** cs.AI, cs.CR, **投稿日時:** 2024-05-07 14:19
 
 - - -
 
-### [Clustering of Disease Trajectories with Explainable Machine Learning: A Case Study on Postoperative Delirium Phenotypes](http://arxiv.org/abs/2405.03327)
+### [Federated Learning for Cooperative Inference Systems: The Case of Early Exit Networks](http://arxiv.org/abs/2405.04249)
 
-**手術後せん妄のフェノタイプに関する説明可能な機械学習を用いた疾病軌跡のクラスタリング：事例研究**
+**連合学習を用いた協調推論システム: 早期終了ネットワークの事例**
 
-Xiaochen Zheng, Manuel Schürch, Xingyu Chen, Maria Angeliki Komninou, Reto Schüpbach, Ahmed Allam, Jan Bartussek, Michael Krauthammer
+Caelin Kaplan, Tareq Si Salem, Angelo Rodio, Chuan Xu, Giovanni Neglia
 
-- 手術後せん妄（POD）は、臨床的な表出や病態生理において多様性を示す複雑な神経精神医学的条件である
-- PODにはいくつかの異なるフェノタイプが存在すると仮定し、これらの特定がPODの病態の理解と疾患対策の向上に寄与する
-- 機械学習と非教師ありクラスタリング技術を組み合わせた手法を提案し、合成データを用いて有効性を示す
-- 実世界データに適用することで、PODのような複雑な疾病の臨床的に関連するサブタイプを明らかにし、より正確で個別化された治療戦略への道を開く
+- IoT技術の進展により、センサーやスマートフォンなどの端末がAIモデルをローカルに装備し始めており、通信コストやレイテンシを削減
+- より小さなモデルは、通常、エッジサーバーやクラウド内の洗練されたモデルに比べて性能が劣るため、協調推論システム（CIS）がこの問題に対処
+- 連合学習（FL）は、クライアント間での異なる応答速度を考慮しながらCIS内のモデルを共同でトレーニングするために利用される
+- 提案する新たなFLアプローチは理論的保証を提供し、特にクライアント間での推論リクエスト率やデータ利用可能性が不均等な状況で既存の最先端アルゴリズムを超越
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-05-06 10:05
-
-- - -
-
-### [Federated Learning for Drowsiness Detection in Connected Vehicles](http://arxiv.org/abs/2405.03311)
-
-**連合学習による接続車両の眠気検知**
-
-William Lindskog, Valentin Spannagl, Christian Prehofer
-
-- 車両内のドライバー監視システムは、視覚的手がかりからドライバーの状態を識別する
-- ドライバーのデータを一元化して処理することはプライバシーの問題やデータサイズの大きさから困難
-- 車間連合学習フレームワークを提案し、YawDDデータセットを利用した眠気検出で99.2%の精度を実現
-- 提案モデルは異なる数の連合クライアントでのスケールを示しており、従来の深層学習技術と比較可能
-
-**Comment:** 14 pages, 8 figures, 1 table, EAI INTSYS 2023 conference
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-05-06 09:39
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-05-07 12:07
 
 - - -
 
-### [DarkFed: A Data-Free Backdoor Attack in Federated Learning](http://arxiv.org/abs/2405.03299)
+### [FedStale: leveraging stale client updates in federated learning](http://arxiv.org/abs/2405.04171)
 
-**DarkFed: 連合学習におけるデータフリーバックドア攻撃**
+**FedStale: 連合学習における遅延クライアント更新の活用**
 
-Minghui Li, Wei Wan, Yuxuan Ning, Shengshan Hu, Lulu Xue, Leo Yu Zhang, Yichen Wang
+Angelo Rodio, Giovanni Neglia
 
-- 連合学習はバックドア攻撃に対して脆弱であるが、実際の利用シナリオでは単純な防御で最新の攻撃を防げることが示されている
-- DarkFedは、実際の訓練データがなくてもバックドア攻撃が可能な「データフリー」アプローチを提案している
-- 影のデータセットを利用してバックドアを注入し、意味情報を欠く合成データを使用しても効果的な攻撃が可能であることを示している
-- 悪意のある更新を良性のものと見間違うように最適化し、防御機構を回避する技術を開発している
+- 連合学習ではデータの偏りと部分的なクライアント参加が問題となる
+- 新アルゴリズムFedStaleは、参加クライアントの「新しい」更新と非参加クライアントの「古い」更新の凸結合を用いてグローバルモデルを更新
+- FedStaleは、参加の偏りが大きいクライアントほど収束エラーに影響することを示し、古い更新の効用について実用的なガイドラインを提供
+- 実験により、FedStaleはFedAvgやFedVARPよりも多くの設定で性能が向上することが確認された
 
-**Comment:** This paper has been accepted by IJCAI 2024
+**Comment:** 33 pages, 5 figures, preprint
 
-**トピック:** [連合学習](fl), [合成データ](sd), **カテゴリ:** cs.CR, cs.DC, **投稿日時:** 2024-05-06 09:21
-
-- - -
-
-### [Communication-Efficient Federated Learning with Adaptive Compression under Dynamic Bandwidth](http://arxiv.org/abs/2405.03248)
-
-**動的帯域下で適応圧縮を用いた効果的な連合学習**
-
-Ying Zhuansun, Dandan Li, Xiaohong Huang, Caijun Sun
-
-- 連合学習は、ローカルモデルの頻繁な更新による大きな通信負担が問題となっている
-- 提案されたAdapComFLアルゴリズムでは、各クライアントが帯域幅を認識し予測し、モデルを動的に圧縮
-- サーバーは異なるサイズの圧縮モデルを集約する
-- 実験結果はAdapComFLが通信効率と競合する精度で優れていることを示している
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-06 08:00
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-07 10:11
 
 - - -
 
-### [Mind the Gap Between Synthetic and Real: Utilizing Transfer Learning to Probe the Boundaries of Stable Diffusion Generated Data](http://arxiv.org/abs/2405.03243)
+### [Bridging the Synthetic-to-Authentic Gap: Distortion-Guided Unsupervised Domain Adaptation for Blind Image Quality Assessment](http://arxiv.org/abs/2405.04167)
 
-**安定拡散生成データの境界を探るための転移学習の活用**
+**合成データから本物の画像へのギャップを埋める：歪みガイドによる盲目画質評価のための教師なしドメイン適応**
 
-Leonhard Hennicke, Christian Medeiros Adriano, Holger Giese, Jan Mathias Koehler, Lukas Schott
+Aobo Li, Jinjian Wu, Yongxu Liu, Leida Li
 
-- 安定拡散のような生成基盤モデルは、ラベル付き実世界データ収集の必要性を回避する形で学習データの生成に利用可能
-- 合成データで学習したモデルは、実データで訓練したモデルと比較して精度が著しく低下することが認められる
-- 精度低下の主要因はモデルの最終層にあり、合成データと実データの間のデータ正規化の違いやデータ拡張による影響なども考慮されるが、実データとの差を埋めるには不十分
-- 最終層のみ実データで微調整することにより、使用する実データの量とモデルの精度の間で改善されたトレードオフが示唆される
+- 盲目的画質評価の注釈付けは労力がかかり時間も消費する
+- 合成データでのトレーニングは有用だが、ドメイン間のギャップにより一般化能力が低下することが問題
+- 新たに提案された教師なしドメイン適応フレームワーク「DGQA」は、歪み知識を用いた適応多道選択を活用してソースとターゲット間のデータ分布の一致を図る
+- DGQAは既存のモデルベースBIQA手法と組み合わせ可能で、少ない訓練データでの性能向上に寄与する
 
+**Comment:** Accepted by CVPR2024
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-05-06 07:51
-
-- - -
-
-### [Compression-based Privacy Preservation for Distributed Nash Equilibrium Seeking in Aggregative Games](http://arxiv.org/abs/2405.03106)
-
-**圧縮を基にしたプライバシー保護に関する分散ナッシュ均衡求解**
-
-Wei Huo, Xiaomeng Chen, Kemi Ding, Subhrakanti Dey, Ling Shi
-
-- 分散型アグレガティブゲームでの現行のナッシュ均衡求解法は、プライバシー問題と通信の負担を引き起こす
-- 提案アルゴリズムは、ス トカスティック圧縮を用いて通信資源を節約し、圧縮により生じるランダムエラーで情報を隠蔽
-- 圧縮エラーを使用しても収束精度を保証することを理論分析で示し、差分プライバシーも達成
-- エネルギー消費ゲームでのシミュレーション結果がアプローチの有効性を支持
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** eess.SY, cs.GT, cs.SY, **投稿日時:** 2024-05-06 01:42
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, eess.IV, **投稿日時:** 2024-05-07 10:07
 
 - - -
 
-### [Powering the Future of IoT: Federated Learning for Optimized Power Consumption and Enhanced Privacy](http://arxiv.org/abs/2405.03065)
+### [pFedLVM: A Large Vision Model (LVM)-Driven and Latent Feature-Based Personalized Federated Learning Framework in Autonomous Driving](http://arxiv.org/abs/2405.04146)
 
-**IoTの未来を動かす：最適化された消費電力と向上したプライバシーのための連合学習**
+**pFedLVM: 自動運転における大規模視覚モデルと潜在特徴ベースのパーソナライズド連合学習フレームワーク**
 
-Ghazaleh Shirvani, Saeid Ghasemshirazi
+Wei-Bin Kou, Qingfeng Lin, Ming Tang, Sheng Xu, Rongguang Ye, Yang Leng, Shuai Wang, Zhenyu Chen, Guangxu Zhu, Yik-Chung Wu
 
-- IoT環境における消費電力の削減とプライバシー強化に連合学習が有望である
-- IoTデバイスの寿命を延ばすため、連合学習の要素とIoTエコシステム内での応用を詳述
-- IoTにおいて機械学習ソリューションが必要であると強調、消費電力とデータプライバシーが主な課題
-- 連合学習の限界と可能性を探ることで、よりセキュアでプライバシー重視のIoT環境を開発するための研究が必要
+- 自動運転の深層学習モデルは分散データと常に変化する環境により、一般化が難しい問題を示している
+- pFedLVMは大規模視覚モデル（LVM）を中央サーバーでのみ実装し、個々の車両への計算負担を軽減
+- 車両とサーバー間のやり取りはLVMのパラメータではなく、学習した特徴を交換することで通信オーバーヘッドを大幅に削減
+- 共通特徴と個々の車両の特性を利用するパーソナライズド学習メカニズムにより、一般的なグローバルモデルよりも優れた性能を実現
 
+**Comment:** This paper was submitted to IEEE Transactions on Mobile Computing   (TMC) on Apr. 6th, 2024
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, **投稿日時:** 2024-05-05 22:18
-
-- - -
-
-### [Convolutional Learning on Directed Acyclic Graphs](http://arxiv.org/abs/2405.03056)
-
-**有向非巡回グラフにおける畳み込み学習**
-
-Samuel Rey, Hamed Ajorlou, Gonzalo Mateos
-
-- 有向非巡回グラフ（DAG）上のデータから学ぶために特化した新しい畳み込みアーキテクチャを開発
-- DAGの因果関係をモデリングする能力を生かしつつ、グラフのトポロジーによる部分順序を考慮する学習可能なDAGフィルターを組み込んだ新しい畳み込みグラフニューラルネットワークを提案
-- 提案されたDAG畳み込みネットワーク（DCN）の主要な利点と潜在的な制約について議論
-- 合成データを使用した二つの学習タスク（ネットワーク拡散推定と情報源識別）でDCNの性能を評価し、いくつかのベースラインと比較して有望な結果を示す
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-05-05 21:30
+**トピック:** [連合学習](fl), **カテゴリ:** cs.RO, **投稿日時:** 2024-05-07 09:25
 
 - - -
 
-### [Confidential and Protected Disease Classifier using Fully Homomorphic Encryption](http://arxiv.org/abs/2405.02790)
+### [Ranking-based Client Selection with Imitation Learning for Efficient Federated Learning](http://arxiv.org/abs/2405.04122)
 
-**完全同型暗号を用いた機密性と保護された病気分類器**
+**連合学習におけるランキングベースクライアント選択と模倣学習による効率的なクライアント選択**
 
-Aditya Malik, Nalini Ratha, Bharat Yalavarthi, Tilak Sharma, Arjun Kaushik, Charanjit Jutla
+Chunlin Tian, Zhan Shi, Xinpeng Qin, Li Li, Chengzhong Xu
 
-- 大規模言語モデル（LLMs）の普及に伴い、多くの人々が病気診断などの健康関連の問い合わせで会話型AIを利用し始めている
-- 個人の医療データをオンラインで共有するリスクに対応するため、完全同型暗号（FHE）とディープラーニングを組み合わせた新しいフレームワークを提案
-- 提案システムは、医療従事者とのやり取りに似た質問応答モデルを採用し、入力データを暗号化して処理する
-- 実験を通じて、安全性とプライバシーを維持しつつ性能の低下を最小限に抑える効果を実証
+- 連合学習において、複数のデバイスがデータのプライバシーを保持しながら共有モデルを共同で訓練する
+- 新しいデバイス選択ソリューション「FedRank」は、模倣学習を用いて事前訓練され、ランキングベースのアプローチを採用している
+- FedRankはデータとシステムの異質性を考慮し、適切なクライアントを適応的かつ効率的に選択する
+- 実験結果によれば、FedRankはモデルの精度を5.2%から56.9%向上させ、訓練の収束速度を最大2.01倍速め、エネルギー消費を最大40.1%削減する
 
+**Comment:** Accepted by ICML 2024
 
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-05-05 02:10
-
-- - -
-
-### [Understanding Server-Assisted Federated Learning in the Presence of Incomplete Client Participation](http://arxiv.org/abs/2405.02745)
-
-**不完全なクライアント参加下でのサーバー支援連合学習についての理解**
-
-Haibo Yang, Peiwen Qiu, Prashant Khanduri, Minghong Fang, Jia Liu
-
-- 従来の連合学習では、クライアントの全参加または均一的な参加が仮定されていたが、実際には参加しないクライアントが存在する
-- 不完全なクライアント参加問題に対処するためにサーバー支援連合学習（SA-FL）が用いられているが、その理論的理解はまだ不足している
-- 不完全なクライアント参加のリスクを評価した結果、SA-FLを使用することで連合学習の学習可能性が復活することを初めて理論的に示した
-- 実用的な指針として、SA-FLトレーニングのための$\mathsf{SAFARI}$（サーバー支援連合平均化）アルゴリズムを提案し、理想的なクライアント参加の仮定と同じ線形収束スピードアップを保証する
-
-**Comment:** Accepted in ICML2024
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-04 19:56
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-07 08:44
 
 - - -
 
-### [A Mathematical Model of the Hidden Feedback Loop Effect in Machine Learning Systems](http://arxiv.org/abs/2405.02726)
+### [A2-DIDM: Privacy-preserving Accumulator-enabled Auditing for Distributed Identity of DNN Model](http://arxiv.org/abs/2405.04108)
 
-**機械学習システムにおける隠れたフィードバックループ効果の数学モデル**
+**A2-DIDM: 分散DNNモデルのためのプライバシー保護型積算器搭載監査技術**
 
-Andrey Veprikov, Alexander Afanasiev, Anton Khritankov
+Tianxiu Xie, Keke Gai, Jing Yu, Liehuang Zhu, Kim-Kwang Raymond Choo
 
-- 社会規模の機械学習システムの広範な展開により生じる長期的な影響を詳細に理解することが必要
-- 繰り返し学習プロセスを導入し、エラー増幅、コンセプトのドリフト誘発、エコーチャンバーなどの現象を記述
-- 環境の状態が時間とともに学習者自身に因果的に依存するようになり、通常のデータ分布の仮定が破られる
-- 理論的な予測に基づいて合成データセットを使用した計算実験を行い、繰り返し学習プロセスを研究するアプローチの実現可能性を示す
-
-**Comment:** 21 pages, 15 figures
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.SY, eess.SY, **投稿日時:** 2024-05-04 17:57
-
-- - -
-
-### [Stable Diffusion Dataset Generation for Downstream Classification Tasks](http://arxiv.org/abs/2405.02698)
-
-**安定拡散モデルによる下流分類タスク用合成データセットの生成**
-
-Eugenio Lomurno, Matteo D'Oria, Matteo Matteucci
-
-- 高品質の合成データを生成できるようになった最近の進歩を活用
-- 安定拡散2.0モデルを用いた合成データセットの生成に、転移学習、ファインチューニング、生成パラメータの最適化技術を適用
-- クラス条件付きモデルを導入し、クラスエンコーダと生成パラメータの最適化を行う
-- 提案方法によって生成した合成データセットは、実データセットに比べて三分の一の場合において性能が向上したモデルを生んだ
+- DNNモデルの取引における不正利用や複製問題への対策として、DNNモデルの分散アイデンティティの監査システムA2-DIDMを提案
+- ブロックチェーンとゼロ知識証明技術を利用し、データのプライバシー保護と軽量な所有権検証を実現
+- モデル重みのチェックポイントと対応するゼロ知識証明を配置してアイデンティティレコードを生成し、モデルの状態変化も捉える
+- 重みチェックポイントの一意性を保持し、監査の正確性やDNN訓練プロセスの計算整合性を保証
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.CV, **投稿日時:** 2024-05-04 15:37
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2024-05-07 08:24
 
 - - -
 
-### [FedProK: Trustworthy Federated Class-Incremental Learning via Prototypical Feature Knowledge Transfer](http://arxiv.org/abs/2405.02685)
+### [Scalable Vertical Federated Learning via Data Augmentation and Amortized Inference](http://arxiv.org/abs/2405.04043)
 
-**FedProK: 連合型クラス増分学習における信頼性を持つプロトタイプ特徴知識伝達**
+**スケーラブルな縦型連合学習のためのデータ拡張とコスト分散推測**
 
-Xin Gao, Xin Yang, Hao Yu, Yan Kang, Tianrui Li
+Conor Hassan, Matthew Sutton, Antonietta Mira, Kerrie Mengersen
 
-- 連合クラス増分学習（FCIL）は知識の連続的な転送を通じて新しいクラスを学習する
-- 従来のFCIL手法は、信頼性（連続的な効用、プライバシー、効率性の同時向上）を考慮していない
-- FedProKは、プロトタイプ特徴を用いて空間的および時間的な知識伝達を実行
-- FedProKは実験により他の最先端手法より信頼性の面で優れていることが証明された
+- 縦型連合学習（VFL）のために、バイエスモデルを適用する初の包括的フレームワークを提案
+- データ拡張技術を利用してVFL問題を既存のバイエシアン連合学習アルゴリズムに適合させる新しい手法を提案
+- 観測数とクライアント数に依存しないスケーラビリティを実現するために、分割されたアモルタイズド変分近似を開発
+- ロジスティック回帰、多層回帰、階層的ベイジアン分割ニューラルネットモデルに数値実験を通じてフレームワークの有効性を示す
 
+**Comment:** 30 pages, 5 figures, 3 tables
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.NE, **投稿日時:** 2024-05-04 14:57
-
-- - -
-
-### [Metric Differential Privacy at the User-Level](http://arxiv.org/abs/2405.02665)
-
-**ユーザーレベルのメトリック差分プライバシー**
-
-Jacob Imola, Amrita Roy Chowdhury, Kamalika Chaudhuri
-
-- メトリック差分プライバシーは入力ペア間の距離に基づいた異質なプライバシー保証を提供し、位置データなど多くのアプリケーションで自然なプライバシー意味論を捉える
-- 従来の研究はアイテムレベル設定に焦点を当てていたが、本研究では各ユーザーが複数のアイテムを提供するユーザーレベル設定でのメトリックDPを初めて探求
-- 地球移動距離を指標として使用し、ユーザーデータの変更の大きさと空間的側面を捉えるプライバシー概念を得るための2つの新規なメカニズムを設計
-- 提案したメカニズムは、特定のタイプの線形クエリと頻度推定においてユーザーレベルDPよりも改善されたユーティリティを数学的に提供することが示された
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-05-04 13:29
+**トピック:** [連合学習](fl), **カテゴリ:** stat.CO, cs.LG, stat.ME, stat.ML, **投稿日時:** 2024-05-07 06:29
 
 - - -
 
-### [Maximal Guesswork Leakage](http://arxiv.org/abs/2405.02585)
+### [Enabling Privacy-Preserving and Publicly Auditable Federated Learning](http://arxiv.org/abs/2405.04029)
 
-**最大推測リーク**
+**プライバシー保護と公開監査が可能な連合学習を実現**
 
-Gowtham R. Kurri, Malhar Managoli, Vinod M. Prabhakaran
+Huang Zeng, Anjia Yang, Jian Weng, Min-Rong Chen, Fengjun Xiao, Yi Liu, Ye Yao
 
-- 「推測作業」とは、ランダム変数を推測するために必要な最小予想推測回数を指す
-- 「最大推測リーク」とは、ランダム化された関数$X$の推測作業が、$Y$を観察することでどれだけ減少するか、すべてのランダム化関数に対して最大化された値
-- ある特定の$Y$の実現のリリースによるリークを捉える、点形式のリークも研究
-- 二元消失源については最大推測リークの閉形式表現を得るが、任意の源については表現を導出することが困難
+- 連合学習での三つの主要課題を同時に解決する手法を提案：第三者による監査の公開性、悪意のある参加者の影響回避、プライベート勾配とモデルの漏洩防止
+- 悪意のある参加者が誤った方向の勾配をアップロードするのを防ぐための頑強な集約アルゴリズムを設計
+- ゼロ共有とブロックチェーン技術と組み合わせ、訓練プロセスを公開して任意の第三者が正確性を検証可能にするランダムベクトル生成アルゴリズムを設計
+- 実験結果として、提案プロトコルのモデルは元の連合学習アプローチと同等の精度を持ちつつ、セキュリティの利点を保持していることを確認
 
-**Comment:** 6 pages. Extended version of a paper accepted to ISIT 2024
+**Comment:** ICC 2024 - 2024 IEEE International Conference on Communications   Conference Program
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.IT, math.IT, **投稿日時:** 2024-05-04 06:52
-
-- - -
-
-### [SSI4IoT: Unlocking the Potential of IoT Tailored Self-Sovereign Identity](http://arxiv.org/abs/2405.02476)
-
-**SSI4IoT: IoT向け自己主権型アイデンティティの可能性を解き放つ**
-
-Thusitha Dayaratne, Xinxin Fan, Yuhong Liu, Carsten Rudolph
-
-- 既存の自己主権型アイデンティティ(SSI)の応用は主に人対人や人対サービスの関係に焦点を当てており、人対デバイスやデバイス対デバイスの相互作用は大きく見過ごされている
-- この論文では、IoTにおけるSSIの適用に関していくつかの主要な課題を特定し、有効期間、信頼性、相互運用性レベル、使用範囲に関してIoTコンテキスト内での検証可能クレデンシャル(VC)の包括的な分類と使用法を提供する
-- VCのライフサイクル管理やIoT環境でSSIを実現するためのさまざまな最適化技術についても詳細に取り扱う
-- この研究はSSIを用いて既存および将来のIoTアプリケーションを安全にするための実践的な大規模採用に向けた注目すべき一歩である
-
-
-
-**トピック:** [SSI/DID/VC](ssi), **カテゴリ:** cs.ET, cs.CR, cs.DC, **投稿日時:** 2024-05-03 20:31
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, C.2.2; C.2.4; E.3, **投稿日時:** 2024-05-07 06:03
 
 - - -
 
-### [No One-Size-Fits-All Neurons: Task-based Neurons for Artificial Neural Networks](http://arxiv.org/abs/2405.02369)
+### [Research on financial fraud algorithm based on federal learning and big data technology](http://arxiv.org/abs/2405.03992)
 
-**人工ニューラルネットワークのためのタスクベースのニューロン**
+**連合学習と大データ技術を基にした金融詐欺アルゴリズムに関する研究**
 
-Feng-Lei Fan, Meng Wang, Hang-Cheng Dong, Jianwei Ma, Tieyong Zeng
+Xinye Sha
 
-- 人間の脳がタスクベースのニューロンを使用しているため、人工ネットワークもタスクベースのニューロン設計に移行することを探求
-- タスクベースのニューロンは、同じ構造を持つ既存のユニバーサルニューロンよりも特徴表現能力を向上させる
-- 提案された二段階のフレームワークでは、最初にシンボリック回帰を使用して最適な式を特定し、次に獲得した基本式をパラメータ化して学習可能にする
-- 実験結果が示す通り、提案されたタスクベースのニューロン設計は実現可能であり、他の最先端モデルと比較して競争力のある性能を提供する
-
-**Comment:** 12 pages, 4 figures
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.NE, cs.AI, cs.LG, **投稿日時:** 2024-05-03 09:12
-
-- - -
-
-### [A Survey on Contribution Evaluation in Vertical Federated Learning](http://arxiv.org/abs/2405.02364)
-
-**垂直連合学習における寄与評価に関する調査**
-
-Yue Cui, Chung-ju Huang, Yuzhu Zhang, Leye Wang, Lixin Fan, Xiaofang Zhou, Qiang Yang
-
-- 垂直連合学習（VFL）はデータのプライバシー保護を目的とし、中央集中型のデータストレージや処理に対する重要なアプローチである
-- VFLでは、異なる特徴セットを持つ複数のエンティティが協力して、直接的なデータ共有なしに予測モデルの共同トレーニングを実現
-- 各エンティティの学習プロセスへの貢献を公正かつ正確に評価することが、信頼維持、資源の公平な共有、持続可能な協力体制の促進に必要
-- この論文は寄与評価に関する広範なレビューやVFL生涯サイクルの段階ごとの特性分析も行っており、将来的な課題に対する展望も提示
+- 金融業務のデジタル化が進むにつれ、金融詐欺はより複雑で隠蔽されがちな特性を呈している
+- 連合学習は、データプライバシーを守りつつ、複数の参加者が協力してモデルを学習させることが可能
+- 設計された連合学習アーキテクチャは、ローカルでモデルを訓練し、生データではなくモデルパラメータのみを交換することでプライバシーを保護
+- 実験結果は、連合学習を用いた金融詐欺検出アルゴリズムが、データのプライバシー違反の可能性を大幅に削減しつつ、高い検出精度を損なわないことを示している
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-03 06:32
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CE, **投稿日時:** 2024-05-07 04:11
 
 - - -
 
-### [Holistic Evaluation Metrics: Use Case Sensitive Evaluation Metrics for Federated Learning](http://arxiv.org/abs/2405.02360)
+### [IPFed: Identity protected federated learning for user authentication](http://arxiv.org/abs/2405.03955)
 
-**連合学習のためのホリスティック評価指標: ユースケース感度を持つ評価指標**
+**IPFed: ユーザ認証のための身元保護連合学習**
 
-Yanli Li, Jehad Ibrahim, Huaming Chen, Dong Yuan, Kim-Kwang Raymond Choo
+Yosuke Kaga, Yusei Suzuki, Kenta Takahashi
 
-- 連合学習の評価において、単一指標（例：正確性）に依存することが多いが、これは多種多様なユースケースの特異性を逃している
-- 異なるユースケースごとに異なる重要性のベクトルを割り当て、それぞれの性能要件と優先順位を反映
-- ホリスティック評価指標（HEM）は、正確性、収束性、計算効率、公平性、パーソナライゼーションといった複数の側面を包括
-- 実験結果はHEMが特定のシナリオに最適な連合学習アルゴリズムを効果的に評価し特定できることを示す
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-03 03:39
-
-- - -
-
-### [Improved Communication-Privacy Trade-offs in  Mean Estimation under Streaming Differential Privacy](http://arxiv.org/abs/2405.02341)
-
-**$L_2$平均推定を通信とプライバシーの要件の下で改善する方法について研究**
-
-Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, Zheng Xu
-
-- 既存の平均推定スキームは$L_\infty$幾何に基づき、$L_2$幾何へ適応するためには非最適な定数で結果が出る
-- 通信とプライバシーのトレードオフを改善する新しいプライバシー会計方法を導入
-- 提案するアルゴリズムは、圧縮されていないガウスメカニズムの平均二乗誤差（MSE）に迅速に収束する
-- 行列分解とDP-FTRL型オプティマイザーに特化したプライバシーアカウンタントをストリーミング差分プライバシー設定に拡張
+- 既存の方法ではプライバシー保護と高精度の達成が困難であることを示している
+- クラス埋め込みのためのランダム射影を使用したプライバシー保護連合学習であるIPFedを提案
+- IPFedが最先端の方法と同等の学習を実現できることを証明
+- 顔画像データセットにおける実験で、IPFedは最先端の精度を保ちつつ個人データのプライバシー保護が可能であることを示している
 
 
 
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-05-02 03:48
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-05-07 02:29
 
 - - -
 
-### [A SER-based Device Selection Mechanism in Multi-bits Quantization Federated Learning](http://arxiv.org/abs/2405.02320)
+### [FedSC: Provable Federated Self-supervised Learning with Spectral Contrastive Objective over Non-i.i.d. Data](http://arxiv.org/abs/2405.03949)
 
-**多ビット量子化連合学習におけるSERベースのデバイス選択メカニズム**
+**FedSC: 非独立同分布データ上でのスペクトルコントラスティブ目的を用いた証明可能な連合自己教師あり学習**
 
-Pengcheng Sun, Erwu Liu, Rui Wang
+Shusen Jing, Anlan Yu, Shuai Zhang, Songyang Zhang
 
-- 無線通信の品質が連合学習のパフォーマンスに直接影響するため、シンボルエラーレート（SER）を用いてその影響を分析
-- 通信の混雑と干渉を減少させるため、非直交多重アクセス（NOMA）を基本通信フレームワークとして使用
-- 勾配パラメータを多ビットに量子化し、伝送誤差の耐性を高める
-- SERに基づくデバイス選択メカニズム（SER-DSM）を設計し、通信状態が悪いユーザーの影響を避けつつ、より多くのユーザーが学習プロセスに参加できるようにする
+- 連合自己教師あり学習(FedSSL)では、局所的自己教師あり学習の目標と全体目標が一致しない問題が存在
+- 通常の連合学習手法であるFedAvgはFedSSLの全体目標を効率的に最小化できず、特に非独立同分布データでは性能が劣る
+- 提案されたFedSCアルゴリズムは、クライアント間でのデータ表現の相関行列とモデルの重みを共有することでデータサンプルの比較を実現し、データ表現の質を向上
+- 差分プライバシー(DP)を適用し、相関行列の共有による追加的なプライバシーリークを制御
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.IT, cs.AI, math.IT, **投稿日時:** 2024-04-20 06:27
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, eess.SP, **投稿日時:** 2024-05-07 02:12
+
+- - -
+
+### [Unified Locational Differential Privacy Framework](http://arxiv.org/abs/2405.03903)
+
+**統一的位置情報差分プライバシーフレームワーク**
+
+Aman Priyanshu, Yash Maurya, Suriya Ganesh, Vy Tran
+
+- 地理的領域における統計データの集約は、収入分析、選挙結果、疾病拡散など多くのアプリケーションにとって重要
+- 機密性が高いデータのため、個人を保護するための強力なプライバシー保護が必要
+- 当研究では、様々なデータタイプ（1ビットエンコーディング、ブーリアン、浮動小数点数、整数配列）のプライベート集計を可能にする位置情報差分プライバシーフレームワークを提案
+- ランダム応答、指数メカニズム、ガウスメカニズムなどのローカルDPメカニズムを採用し、地理的データ分析を可能にする正式なDP保証を提供することを示す
+
+**Comment:** 10 pages, 7 figures
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.AI, cs.CY, **投稿日時:** 2024-05-06 23:33
+
+- - -
+
+### [Thoughtful Things: Building Human-Centric Smart Devices with Small Language Models](http://arxiv.org/abs/2405.03821)
+
+**スマートデバイスを人間中心で設計する: 小型言語モデルを用いた開発**
+
+Evan King, Haoxiang Yu, Sahil Vartak, Jenna Jacob, Sangsu Lee, Christine Julien
+
+- スマートデバイスの操作が複雑化する中で、自然言語を介した簡易操作を可能とする新たな方法を提案
+- 命令を自然言語で受け付け、デバイスの動作を理解・説明する能力を持つ小型の言語モデルをデバイスに組み込む
+- 提案されたフレームワークは、形式的モデリング、自動トレーニングデータ合成、生成言語モデルを利用し、ラベル付きデータを必要とせず、クラウド非依存のオンデバイス展開を実現
+- 実際のハードウェア上でランプとサーモスタットの二つのデバイスを実装し、それらの実用的なパフォーマンスを評価
+
+**Comment:** 24 pages (3 pages of references)
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.HC, cs.AI, cs.SE, **投稿日時:** 2024-05-06 20:04
+
+- - -
+
+### [Interpretable Data Fusion for Distributed Learning: A Representative Approach via Gradient Matching](http://arxiv.org/abs/2405.03782)
+
+**分散学習における解釈可能なデータ統合：勾配マッチングを用いた代表的アプローチ**
+
+Mengchen Fan, Baocheng Geng, Keren Li, Xueqian Wang, Pramod K. Varshney
+
+- 複数の生データ点から仮想表現へと変換する新しい代表ベースの分散学習手法を紹介
+- 伝統的な連合学習と比べて、機械学習プロセスをアクセスしやすく、理解しやすくする
+- プライバシー保護と通信効率を維持しつつ、生データを使用するモデルと同等の訓練性能を達成
+- 複雑なモデルや多数のクライアントを持つシナリオにおいて、伝統的な連合学習よりも精度と収束速度で優れることをシミュレーション結果が示している
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.HC, **投稿日時:** 2024-05-06 18:21
+
+- - -
+
+### [Secure Inference for Vertically Partitioned Data Using Multiparty Homomorphic Encryption](http://arxiv.org/abs/2405.03775)
+
+**垂直分割データに対する多方準同型暗号を使用した安全推論**
+
+Shuangyi Chen, Yue Ju, Zhongwen Zhu, Ashish Khisti
+
+- 複数のクライアントノードと単一のサーバーノードを含む分散環境での安全な推論プロトコルを提案
+- クライアントノードはデータベクトルの一部を暗号化し、その暗号文をサーバーノードに送信
+- サーバーノードは、受け取った暗号文を集めて暗号化された領域で推論を実施
+- 提案プロトコルは多方準同型暗号（MPHE）を使用し、サーバーによる完全なデータの暗号文の形成を可能にするパッキングスキームを採用
+
+
+
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-05-06 18:17

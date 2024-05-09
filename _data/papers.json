@@ -1,5 +1,115 @@
 [
   {
+    "url": "http://arxiv.org/abs/2405.05214",
+    "title": "SPIDER: Improved Succinct Rank and Select Performance",
+    "japanese_title": "SPIDER: 簡潔なランクおよびセレクトパフォーマンスの向上",
+    "authors": [
+      "Matthew D. Laws",
+      "Jocelyn Bliven",
+      "Kit Conklin",
+      "Elyes Laalai",
+      "Samuel McCauley",
+      "Zach S. Sturdevant"
+    ],
+    "categories": [
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- SPIDERは簡潔なデータ構造で、オリジナルのビットベクトルよりも大幅に小さな空間（3.82%の追加スペース）を使用する\n- ランククエリにおいて、従来の少ないスペースを使うデータ構造よりも高速で、8億ビット以上のデータセットで最高の性能を示す\n- セレクトクエリでは、線形スキャンのコストをほぼ排除する予測使用により、4%未満のスペースを使用する他のデータ構造よりも性能が優れる\n- 実データと合成データの両方で効果的であることが示されており、キャッシュ効率を改善するためにメタデータをビットベクトルと交互に配置する技術を導入している",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-08T17:06:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04875",
+    "title": "SCALA: Split Federated Learning with Concatenated Activations and Logit Adjustments",
+    "japanese_title": "SCALA: 連合学習における分割学習方式に基づく連結活性化とロジット調整",
+    "authors": [
+      "Jiarong Yang",
+      "Yuan Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 分割連合学習(SFL)は、学習プロセスをサーバーとクライアント間で分割し、ローカルモデルを集約して共有モデルを訓練する分散機械学習フレームワーク\n- データの不均一性と部分的なクライアント参加により、ラベル配分の偏りが生じ、学習性能が低下\n- 提案されたSCALAは、クライアント側モデルの活性化を連結し、サーバー側モデルの入力として利用することで、異なるクライアント間のラベル配分を中央で調整\n- SCALAによるロジット調整は、参加するクライアントのサブセット間でのラベル配分の変動を扱うために、サーバー側とクライアント側の両方のモデルで損失関数を調整",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-08T08:12:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04840",
+    "title": "Federated Adaptation for Foundation Model-based Recommendations",
+    "japanese_title": "連合適応によるファンデーションモデルベースの推薦システム",
+    "authors": [
+      "Chunxu Zhang",
+      "Guodong Long",
+      "Hongkuan Guo",
+      "Xiao Fang",
+      "Yang Song",
+      "Zhaojie Liu",
+      "Guorui Zhou",
+      "Zijian Zhang",
+      "Yang Liu",
+      "Bo Yang"
+    ],
+    "categories": [
+      "cs.IR"
+    ],
+    "comment": "Accepted as a regular paper of IJCAI'24",
+    "summary": "- ファンデーションモデルを推薦システムに適用することで、ユーザーの嗜好の変化をタイムリーかつプライバシーを保ちながら捉える新たな課題に対応\n- 新たな連合適応メカニズムを提案し、プライバシーを保ちつつファンデーションモデルベースの推薦システムを強化\n- 各クライアントがプライベートデータを使用して軽量の個人化アダプタを学習し、事前訓練されたファンデーションモデルと共同で効率的な推薦サービスを提供\n- ベンチマークデータセット4つで実験を行った結果、提案方法の優れた性能が確認され、再現性を容易にする実装コードも提供",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-08T06:27:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04778",
+    "title": "Teacher-Student Network for Real-World Face Super-Resolution with Progressive Embedding of Edge Information",
+    "japanese_title": "実世界の顔画像超解像のためのエッジ情報進行埋込みを持つティーチャースチューデントネットワーク",
+    "authors": [
+      "Zhilei Liu",
+      "Chenggong Zhang"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "Accepted by ICIP 2023",
+    "summary": "- 従来の顔画像超解像（FSR）手法は、合成データセットでの訓練が実世界の顔画像への一般化能力を低下させている\n- ティーチャースチューデントモデルが提案され、合成データと実データのドメインギャップを考慮\n- 再帰ネットワークの中間出力を使用して、段階的に異なるエッジ情報を導入\n- 提案手法は、広範な実験を通じて実世界のFSRにおいて高品質な顔画像を得るための最先端の手法を上回ることが示された",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-08T02:48:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04765",
+    "title": "When Foresight Pruning Meets Zeroth-Order Optimization: Efficient Federated Learning for Low-Memory Devices",
+    "japanese_title": "連合学習における予視プルーニング法とゼロ次最適化の融合",
+    "authors": [
+      "Pengyu Zhang",
+      "Yingjie Liu",
+      "Yingbo Zhou",
+      "Xiao Du",
+      "Xian Wei",
+      "Ting Wang",
+      "Mingsong Chen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はAIoT設計において協力的な学習を可能にするが、低メモリデバイスでは通常のメモリ使用量が多すぎる\n- ニューラルタンジェントカーネル(NTK)に基づく予視プルーニング法を提案し、バックプロパゲーションフリーの連合学習フレームワークと統合\n- この方法は、特にデータの不均一性が激しい状況で推測エラーを大幅に削減する\n- 実際のテストとシミュレーションによる試験結果から、提案手法は最大9倍のメモリ削減を達成し、計算負荷も大幅に減少させることが確認された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-08T02:24:09+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2405.04525",
     "title": "Comparing Ways of Obtaining Candidate Orderings from Approval Ballots",
     "japanese_title": "承認投票から候補者の順序付けを得る方法の比較",
@@ -18,6 +128,25 @@
       "合成データ"
     ],
     "published": "2024-05-07T17:57:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04566",
+    "title": "Fast Decentralized Gradient Tracking for Federated Minimax Optimization with Local Updates",
+    "japanese_title": "連合学習における高速分散逆行追跡",
+    "authors": [
+      "Chris Junchi Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 連合学習でのミニマックス最適化に、新たな分散最適化アルゴリズムであるK-GT-Minimaxを提案\n- ローカルアップデートと勾配追跡技術を組み合わせることで通信効率と収束率を向上\n- 従来の方法に比べて優れた収束速度を実証\n- データの異質性に対応し、モデルの堅牢性を保証することで連合学習の進展に貢献",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-07T17:25:56+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2405.04463",
@@ -481,6 +610,32 @@
     "published": "2024-05-06T14:29:24+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2405.04554",
+    "title": "Differentially Private Synthetic Data with Private Density Estimation",
+    "japanese_title": "差分プライバシーを用いた合成データとプライベート密度推定",
+    "authors": [
+      "Nikolija Bojkovic",
+      "Po-Ling Loh"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT",
+      "math.ST",
+      "stat.ML",
+      "stat.TH",
+      "62G07"
+    ],
+    "comment": "Accepted to ISIT 2024",
+    "summary": "- 個人情報が敏感なデータ（医療記録や金融データなど）の分析には、差分プライバシーの枠組みを採用している\n- Boedihardjoらの研究を基に、プライバシーを保持した合成データを生成する新たな最適化ベースのアルゴリズムを開発\n- 均一サンプリングステップをプライベート分布推定器に置き換えることにより、離散分布に対してより良い計算保証を得ている\n- 連続分布に適した新しいアルゴリズムを開発し、いくつかの統計的タスクへの応用を探求している",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-05-06T14:06:12+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2405.03440",
     "title": "Robotic Constrained Imitation Learning for the Peg Transfer Task in Fundamentals of Laparoscopic Surgery",
     "japanese_title": "ロボットによる「基本的腹腔鏡手術のためのペグ移動タスク」の制約付き模倣学習",
@@ -635,6 +790,29 @@
       "合成データ"
     ],
     "published": "2024-05-06T07:51:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.04551",
+    "title": "Differentially Private Federated Learning without Noise Addition: When is it Possible?",
+    "japanese_title": "連合学習における差分プライバシーの達成方法に関する研究",
+    "authors": [
+      "Jiang Zhang",
+      "Yahya H Ezzeldin",
+      "Ahmed Roushdy Elkordy",
+      "Konstantinos Psounis",
+      "Salman Avestimehr"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習とセキュア集約を用いた際、個々の暗号化されたモデル更新からユーザーデータに関する情報の漏洩を防ぐことに注目が集まっている\n- 既存の研究は平均的なプライバシー漏洩を測るが、最悪のケースのプライバシー保証が提供されていない\n- セキュア集約が追加のノイズなしで差分プライバシーを提供するための必要条件を特定し、それが成立するときは内部の乱数がガウス分布と非特異共分散行列を持つ場合であることを証明\n- 実際にはこれらの条件が成立しにくいため、モデル更新に追加ノイズが必要であるが、集約モデル更新内の固有のランダムネスを利用して必要な追加ノイズ量を減少させる可能性についても議論",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-05-06T03:19:24+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2405.03106",
@@ -2945,6 +3123,30 @@
     "published": "2024-04-25T02:14:07+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2405.05134",
+    "title": "Enhancing Deep Knowledge Tracing via Diffusion Models for Personalized Adaptive Learning",
+    "japanese_title": "個別適応型学習のための深層知識追跡の強化に関する研究",
+    "authors": [
+      "Ming Kuo",
+      "Shouvon Sarker",
+      "Lijun Qian",
+      "Yujian Fu",
+      "Xiangfang Li",
+      "Xishuang Dong"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 個別適応型学習（PAL）は、生徒の進捗を密に監視し、それぞれの知識とニーズに合わせた学習経路を設計する\n- 知識追跡は生徒の知識の進化をモデル化し、将来のパフォーマンスを予測することが重要\n- この研究では、データ不足の問題を解決するために、TabDDPMという拡散モデルを用いて教育記録の合成データを生成してDKTのパフォーマンスを向上\n- 実験結果は、特に訓練データが少なくテストデータが多いシナリオにおいて、TabDDPMによる合成データがDKTのパフォーマンスを大幅に改善することを示した",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-04-25T00:23:20+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2404.16255",
     "title": "Enhancing Privacy in Face Analytics Using Fully Homomorphic Encryption",
     "japanese_title": "顔分析におけるプライバシーの強化：全準同型暗号を用いたアプローチ",
@@ -3712,6 +3914,28 @@
       "連合学習"
     ],
     "published": "2024-04-22T16:38:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.05140",
+    "title": "Distributed Learning for Wi-Fi AP Load Prediction",
+    "japanese_title": "Wi-Fi AP負荷予測のための分散学習",
+    "authors": [
+      "Dariush Salami",
+      "Francesc Wilhelmi",
+      "Lorenzo Galati-Giordano",
+      "Mika Kasslin"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 多数の独立した展開間の相互作用を支えるために、分散マシンラーニング（ML）が利用された\n- 分散学習の主要な形態である連合学習（FL）と知識蒸留（KD）をWi-Fiアクセスポイント（AP）負荷予測に応用\n- 大規模Wi-Fiキャンパスネットワークの実測データセットを使用して、異なる戦略に基づいてMLモデルを学習\n- 分散学習により、予測精度を最大93％向上させつつ、通信コストとエネルギー消費を約80％削減可能であることが示された",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-04-22T16:37:35+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2404.14219",

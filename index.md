@@ -26,174 +26,140 @@ To be written.
 
 ## 最新更新分
 
-更新: 2024-05-09T04:23:24.696619
+更新: 2024-05-10T04:19:53.716381
 
 - - -
 
-### [SPIDER: Improved Succinct Rank and Select Performance](http://arxiv.org/abs/2405.05214)
+### [Age Aware Scheduling for Differentially-Private Federated Learning](http://arxiv.org/abs/2405.05962)
 
-**SPIDER: 簡潔なランクおよびセレクトパフォーマンスの向上**
+**年齢認識スケジューリングによる差分プライバシーを持つ連合学習**
 
-Matthew D. Laws, Jocelyn Bliven, Kit Conklin, Elyes Laalai, Samuel McCauley, Zach S. Sturdevant
+Kuan-Yu Lin, Hsuan-Yin Lin, Yu-Pin Hsu, Yu-Chih Huang
 
-- SPIDERは簡潔なデータ構造で、オリジナルのビットベクトルよりも大幅に小さな空間（3.82%の追加スペース）を使用する
-- ランククエリにおいて、従来の少ないスペースを使うデータ構造よりも高速で、8億ビット以上のデータセットで最高の性能を示す
-- セレクトクエリでは、線形スキャンのコストをほぼ排除する予測使用により、4%未満のスペースを使用する他のデータ構造よりも性能が優れる
-- 実データと合成データの両方で効果的であることが示されており、キャッシュ効率を改善するためにメタデータをビットベクトルと交互に配置する技術を導入している
+- 時間変動データベースを対象に差分プライバシーを備えた連合学習（FL）を探求、年齢、精度、差分プライバシーの三方向トレードオフを詳細に検討
+- スケジューリングの利点を強調し、差分プライバシー要件を満たしつつ、集約モデルと非DP制約のモデルとの損失差を最小限に抑える最適化問題を提案
+- 年齢依存の損失上限を導入し、年齢認識スケジューリング設計の開発を促進
+- 提案スキームは従来のスケジューリングを考慮しない差分プライバシーを用いたFLに比べて優れたパフォーマンスを示すことがシミュレーション結果で強調
 
+**Comment:** "Paper accepted to the 2024 IEEE International Symposium on   Information Theory (ISIT)"
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.DS, **投稿日時:** 2024-05-08 17:06
-
-- - -
-
-### [SCALA: Split Federated Learning with Concatenated Activations and Logit Adjustments](http://arxiv.org/abs/2405.04875)
-
-**SCALA: 連合学習における分割学習方式に基づく連結活性化とロジット調整**
-
-Jiarong Yang, Yuan Liu
-
-- 分割連合学習(SFL)は、学習プロセスをサーバーとクライアント間で分割し、ローカルモデルを集約して共有モデルを訓練する分散機械学習フレームワーク
-- データの不均一性と部分的なクライアント参加により、ラベル配分の偏りが生じ、学習性能が低下
-- 提案されたSCALAは、クライアント側モデルの活性化を連結し、サーバー側モデルの入力として利用することで、異なるクライアント間のラベル配分を中央で調整
-- SCALAによるロジット調整は、参加するクライアントのサブセット間でのラベル配分の変動を扱うために、サーバー側とクライアント側の両方のモデルで損失関数を調整
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-08 08:12
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.IT, cs.LO, math.IT, **投稿日時:** 2024-05-09 17:58
 
 - - -
 
-### [Federated Adaptation for Foundation Model-based Recommendations](http://arxiv.org/abs/2405.04840)
+### [Federated Combinatorial Multi-Agent Multi-Armed Bandits](http://arxiv.org/abs/2405.05950)
 
-**連合適応によるファンデーションモデルベースの推薦システム**
+**連合学習による組合せ型マルチエージェントマルチアームドバンディット**
 
-Chunxu Zhang, Guodong Long, Hongkuan Guo, Xiao Fang, Yang Song, Zhaojie Liu, Guorui Zhou, Zijian Zhang, Yang Liu, Bo Yang
+Fares Fourati, Mohamed-Slim Alouini, Vaneet Aggarwal
 
-- ファンデーションモデルを推薦システムに適用することで、ユーザーの嗜好の変化をタイムリーかつプライバシーを保ちながら捉える新たな課題に対応
-- 新たな連合適応メカニズムを提案し、プライバシーを保ちつつファンデーションモデルベースの推薦システムを強化
-- 各クライアントがプライベートデータを使用して軽量の個人化アダプタを学習し、事前訓練されたファンデーションモデルと共同で効率的な推薦サービスを提供
-- ベンチマークデータセット4つで実験を行った結果、提案方法の優れた性能が確認され、再現性を容易にする実装コードも提供
+- 連合学習フレームワークをオンラインの組み合わせ最適化に適用し、バンディットフィードバックを用いる
+- エージェントは個々のアーム情報にアクセスせず、アームのサブセットからノイズのある報酬を観測し、特定の間隔で情報共有が可能
+- オフラインの強固な単一エージェント近似アルゴリズムを、オンラインのマルチエージェントアルゴリズムに変換し、エージェント数が増えると線形に速く学習することを示す
+- 提案フレームワークは通信効率が高く、オンライン確率的部分モジュラー最大化にも成功しており、実験を通じてデータ要約問題での有効性を検証
 
-**Comment:** Accepted as a regular paper of IJCAI'24
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.IR, **投稿日時:** 2024-05-08 06:27
 
-- - -
-
-### [Teacher-Student Network for Real-World Face Super-Resolution with Progressive Embedding of Edge Information](http://arxiv.org/abs/2405.04778)
-
-**実世界の顔画像超解像のためのエッジ情報進行埋込みを持つティーチャースチューデントネットワーク**
-
-Zhilei Liu, Chenggong Zhang
-
-- 従来の顔画像超解像（FSR）手法は、合成データセットでの訓練が実世界の顔画像への一般化能力を低下させている
-- ティーチャースチューデントモデルが提案され、合成データと実データのドメインギャップを考慮
-- 再帰ネットワークの中間出力を使用して、段階的に異なるエッジ情報を導入
-- 提案手法は、広範な実験を通じて実世界のFSRにおいて高品質な顔画像を得るための最先端の手法を上回ることが示された
-
-**Comment:** Accepted by ICIP 2023
-
-**トピック:** [合成データ](sd), **カテゴリ:** eess.IV, cs.CV, **投稿日時:** 2024-05-08 02:48
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DM, cs.MA, stat.ML, **投稿日時:** 2024-05-09 17:40
 
 - - -
 
-### [When Foresight Pruning Meets Zeroth-Order Optimization: Efficient Federated Learning for Low-Memory Devices](http://arxiv.org/abs/2405.04765)
+### [Selecting the Most Conflicting Pair of Candidates](http://arxiv.org/abs/2405.05870)
 
-**連合学習における予視プルーニング法とゼロ次最適化の融合**
+**選委会選挙における最も対立する候補者ペアの選択**
 
-Pengyu Zhang, Yingjie Liu, Yingbo Zhou, Xiao Du, Xian Wei, Ting Wang, Mingsong Chen
+Théo Delemazure, Łukasz Janeczko, Andrzej Kaczmarczyk, Stanisław Szufa
 
-- 連合学習はAIoT設計において協力的な学習を可能にするが、低メモリデバイスでは通常のメモリ使用量が多すぎる
-- ニューラルタンジェントカーネル(NTK)に基づく予視プルーニング法を提案し、バックプロパゲーションフリーの連合学習フレームワークと統合
-- この方法は、特にデータの不均一性が激しい状況で推測エラーを大幅に削減する
-- 実際のテストとシミュレーションによる試験結果から、提案手法は最大9倍のメモリ削減を達成し、計算負荷も大幅に減少させることが確認された
+- 委員会選挙を観点から、最も対立が激しい候補者（投票者の好みに基づく）を特定する
+- 主要な多数決ルールが基本的な公理を満たしていないことを示す
+- 提案した対立的投票規則に適合する新しい委員会投票ルールを設計
+- 実際のデータと合成データの両方において理論的研究を実験で支持
 
+**Comment:** Accepted for publication at IJCAI-24; 27 pages; 11 figures
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-08 02:24
-
-- - -
-
-### [Fast Decentralized Gradient Tracking for Federated Minimax Optimization with Local Updates](http://arxiv.org/abs/2405.04566)
-
-**連合学習における高速分散逆行追跡**
-
-Chris Junchi Li
-
-- 連合学習でのミニマックス最適化に、新たな分散最適化アルゴリズムであるK-GT-Minimaxを提案
-- ローカルアップデートと勾配追跡技術を組み合わせることで通信効率と収束率を向上
-- 従来の方法に比べて優れた収束速度を実証
-- データの異質性に対応し、モデルの堅牢性を保証することで連合学習の進展に貢献
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, stat.ML, **投稿日時:** 2024-05-07 17:25
+**トピック:** [合成データ](sd), **カテゴリ:** cs.GT, cs.AI, cs.MA, **投稿日時:** 2024-05-09 16:00
 
 - - -
 
-### [Differentially Private Synthetic Data with Private Density Estimation](http://arxiv.org/abs/2405.04554)
+### [Compressed Bayesian Federated Learning for Reliable Passive Radio Sensing in Industrial IoT](http://arxiv.org/abs/2405.05855)
 
-**差分プライバシーを用いた合成データとプライベート密度推定**
+**産業用IoTにおける信頼性の高い受動型無線センサリングのための圧縮ベイジアン連合学習**
 
-Nikolija Bojkovic, Po-Ling Loh
+Luca Barbieri, Stefano Savazzi, Monica Nicoli
 
-- 個人情報が敏感なデータ（医療記録や金融データなど）の分析には、差分プライバシーの枠組みを採用している
-- Boedihardjoらの研究を基に、プライバシーを保持した合成データを生成する新たな最適化ベースのアルゴリズムを開発
-- 均一サンプリングステップをプライベート分布推定器に置き換えることにより、離散分布に対してより良い計算保証を得ている
-- 連続分布に適した新しいアルゴリズムを開発し、いくつかの統計的タスクへの応用を探求している
+- ベイジアン連合学習は、予測の不確実性を定量化する調整済み機械学習モデルを提供する
+- 提案手法は通信効率を向上させるために圧縮ポリシーを統合し、複数の最適化ステップを実行した後に局所後分布を送信
+- 工業用IoTでの使用例では、ロボットと共有された職場で人間オペレーターを信頼性高く位置特定する
+- 数値結果は、提案手法が通信オーバーヘッドを最大99%削減しながら高精度かつ調整済みのモデルを実現していることを示す
 
-**Comment:** Accepted to ISIT 2024
+**Comment:** accepted for presentation at IEEE Conference on Artificial   Intelligence 2024
 
-**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.IT, cs.LG, math.IT, math.ST, stat.ML, stat.TH, 62G07, **投稿日時:** 2024-05-06 14:06
-
-- - -
-
-### [Differentially Private Federated Learning without Noise Addition: When is it Possible?](http://arxiv.org/abs/2405.04551)
-
-**連合学習における差分プライバシーの達成方法に関する研究**
-
-Jiang Zhang, Yahya H Ezzeldin, Ahmed Roushdy Elkordy, Konstantinos Psounis, Salman Avestimehr
-
-- 連合学習とセキュア集約を用いた際、個々の暗号化されたモデル更新からユーザーデータに関する情報の漏洩を防ぐことに注目が集まっている
-- 既存の研究は平均的なプライバシー漏洩を測るが、最悪のケースのプライバシー保証が提供されていない
-- セキュア集約が追加のノイズなしで差分プライバシーを提供するための必要条件を特定し、それが成立するときは内部の乱数がガウス分布と非特異共分散行列を持つ場合であることを証明
-- 実際にはこれらの条件が成立しにくいため、モデル更新に追加ノイズが必要であるが、集約モデル更新内の固有のランダムネスを利用して必要な追加ノイズ量を減少させる可能性についても議論
-
-
-
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-05-06 03:19
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-09 15:44
 
 - - -
 
-### [Enhancing Deep Knowledge Tracing via Diffusion Models for Personalized Adaptive Learning](http://arxiv.org/abs/2405.05134)
+### [Private Online Community Detection for Censored Block Models](http://arxiv.org/abs/2405.05724)
 
-**個別適応型学習のための深層知識追跡の強化に関する研究**
+**センサード・ブロックモデルを用いたプライベートオンラインコミュニティ検出**
 
-Ming Kuo, Shouvon Sarker, Lijun Qian, Yujian Fu, Xiangfang Li, Xishuang Dong
+Mohamed Seif, Liyan Xie, Andrea J. Goldsmith, H. Vincent Poor
 
-- 個別適応型学習（PAL）は、生徒の進捗を密に監視し、それぞれの知識とニーズに合わせた学習経路を設計する
-- 知識追跡は生徒の知識の進化をモデル化し、将来のパフォーマンスを予測することが重要
-- この研究では、データ不足の問題を解決するために、TabDDPMという拡散モデルを用いて教育記録の合成データを生成してDKTのパフォーマンスを向上
-- 実験結果は、特に訓練データが少なくテストデータが多いシナリオにおいて、TabDDPMによる合成データがDKTのパフォーマンスを大幅に改善することを示した
+- 動的なコミュニティのためのプライベートオンライン変更検出問題に焦点を当て、エッジ差分プライバシーを使用しています
+- プライバシー予算、検出遅延、コミュニティラベルの正確な回復との間の基本的なトレードオフを理解することを目指しています
+- プライベートな変更検出の遅延に関する理論的な下限を確立し、ユーザープライバシーを維持しながらコミュニティ構造の変化を識別できるアルゴリズムを提案します
+- エッジ差分プライバシーの下での変更検出と正確な回復に必要十分条件を示し、提案方法の効果について理論的保証を提供します
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CY, cs.AI, cs.LG, **投稿日時:** 2024-04-25 00:23
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.SI, cs.CR, cs.IT, math.IT, **投稿日時:** 2024-05-09 12:35
 
 - - -
 
-### [Distributed Learning for Wi-Fi AP Load Prediction](http://arxiv.org/abs/2405.05140)
+### [Privacy-Preserving Edge Federated Learning for Intelligent Mobile-Health Systems](http://arxiv.org/abs/2405.05611)
 
-**Wi-Fi AP負荷予測のための分散学習**
+**プライバシーを保護するエッジ連合学習による知能型モバイルヘルスシステム**
 
-Dariush Salami, Francesc Wilhelmi, Lorenzo Galati-Giordano, Mika Kasslin
+Amin Aminifar, Matin Shokri, Amir Aminifar
 
-- 多数の独立した展開間の相互作用を支えるために、分散マシンラーニング（ML）が利用された
-- 分散学習の主要な形態である連合学習（FL）と知識蒸留（KD）をWi-Fiアクセスポイント（AP）負荷予測に応用
-- 大規模Wi-Fiキャンパスネットワークの実測データセットを使用して、異なる戦略に基づいてMLモデルを学習
-- 分散学習により、予測精度を最大93％向上させつつ、通信コストとエネルギー消費を約80％削減可能であることが示された
+- 連合学習は、ローカルに保持されたデータサンプルを共有せずに、複数の参加者間でMLモデルをトレーニングする手法である
+- プライバシーを保護しながら、エッジIoTシステム（例えば、モバイルヘルスやウェアラブル技術）上での学習を実現することは、リソースの制約が非常に厳しいため、主要な課題となっている
+- 提案されたフレームワークは、計算能力、通信帯域、メモリストレージ、バッテリー寿命が限られたモバイルヘルスおよびウェアラブル技術に対応している
+- 実装はAmazonのAWSクラウドプラットフォームを用いて行われ、ウェアラブル技術を使用したてんかんモニタリングの発作検出アプリケーションでの評価が提供されている
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.NI, cs.AI, cs.LG, **投稿日時:** 2024-04-22 16:37
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-05-09 08:15
+
+- - -
+
+### [Intelligent EC Rearview Mirror: Enhancing Driver Safety with Dynamic Glare Mitigation via Cloud Edge Collaboration](http://arxiv.org/abs/2405.05579)
+
+**クラウドエッジコラボレーションを活用したインテリジェントECバックミラー：ダイナミックなグレア軽減によるドライバーの安全性向上**
+
+Junyi Yang, Zefei Xu, Huayi Lai, Hongjian Chen, Sifan Kong, Yutong Wu, Huan Yang
+
+- 従来のアンチグレア技術の問題点を克服するため、新しい全液体電気泳色技術を用いたインテリジェントなバックミラーシステムを導入
+- IoTと連合学習を組み合わせ、クラウドエッジ協力フレームワーク内で電圧を動的に制御し、グレアを効果的に除去する
+- アンサンブル学習モデルを利用し、光の強度に基づいてミラーの透過率を自動調整し、テストセットで低いRMSE 0.109を達成
+- フェデレート学習を活用してデバイス間でデータの分散訓練を行い、プライバシーを向上させながらクラウドモデルを継続的に更新
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.HC, cs.SY, eess.SY, **投稿日時:** 2024-05-09 07:10
+
+- - -
+
+### [Inference With Combining Rules From Multiple Differentially Private Synthetic Datasets](http://arxiv.org/abs/2405.04769)
+
+**複数の差分プライバシー合成データセットからの推定における統合ルール**
+
+Leila Nombo, Anne-Sophie Charest
+
+- 差分プライバシー（DP）は、機密データから統計データや合成データセットを取得するために使用されるランダムなメカニズムによるプライバシー保護を測定する厳格な基準として認められている
+- 差分プライバシー合成（DIPS）データセットからの統計的推論を適切に実行する方法はまだ十分に調査されていない
+- 合成データ生成の変動性と通常のサンプリング変動性を考慮することが分析上の課題
+- 統合ルールを基にした手法は、一部の文脈で正確な推論を提供する可能性があるが、全てのケースで有効とは限らない
+
+
+
+**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** stat.ME, cs.CR, cs.LG, stat.AP, **投稿日時:** 2024-05-08 02:33

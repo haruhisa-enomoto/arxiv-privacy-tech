@@ -1,5 +1,146 @@
 [
   {
+    "url": "http://arxiv.org/abs/2405.08703",
+    "title": "Using autoencoders and deep transfer learning to determine the stellar parameters of 286 CARMENES M dwarfs",
+    "japanese_title": "オートエンコーダーと深層転移学習を用いた286個のCARMENES M矮星の星パラメータの決定",
+    "authors": [
+      "P. Mas-Buitrago",
+      "A. González-Marcos",
+      "E. Solano",
+      "V. M. Passegger",
+      "M. Cortés-Contreras",
+      "J. Ordieres-Meré",
+      "A. Bello-García",
+      "J. A. Caballero",
+      "A. Schweitzer",
+      "H. M. Tabernero",
+      "D. Montes",
+      "C. Cifuentes"
+    ],
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.EP",
+      "astro-ph.IM",
+      "cs.LG"
+    ],
+    "comment": "Accepted in A&A",
+    "summary": "- M矮星の星パラメータ決定に深層学習が有望であり、転移学習が結果の不確実性を軽減する鍵となる\n- オートエンコーダーを用いた特徴ベースの深層転移学習アプローチを提案し、高解像度スペクトルを用いて星パラメータを推定\n- 合成PHOENIX-ACESスペクトルと観測CARMENESスペクトルを低次元空間に投影し、畳み込みニューラルネットワークを用いて星パラメータを決定\n- 約3050～4300K、4.7～5.1dex、-0.53～0.25dexの範囲で整合性があり、特に3750K以上の有効温度で体系的な偏差が見られる\n\nM矮星の特徴ってなんだか神秘的だね！未来ではもっと精密に星の性質が解明されるんだろうな。とてもワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-14T15:42:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08698",
+    "title": "Byzantine-Resilient Secure Aggregation for Federated Learning Without Privacy Compromises",
+    "japanese_title": "プライバシーを損なわない連合学習のためのビザンチン耐性セキュアアグリゲーション",
+    "authors": [
+      "Yue Xia",
+      "Christoph Hofmeister",
+      "Maximilian Egger",
+      "Rawad Bitar"
+    ],
+    "categories": [
+      "cs.IT",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は大規模機械学習に有望ながらプライバシーとセキュリティの新たなリスクがある\n- ByITFLはビザンチンユーザに対しレジリエンスを提供し、プライバシーを維持\n- この手法は非プライベートなFLTrustを基にし、信頼スコアでユーザの勾配を調整\n- ByITFLは情報理論的プライバシーを持つ初のビザンチン耐性スキーム\n\nビザンチンユーザに耐えるだけでなく、プライバシーも守れるなんてすごいね！これを使えば、大規模データの解析がもっと安全になりそう。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-14T15:37:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08502",
+    "title": "Archimedes-AUEB at SemEval-2024 Task 5: LLM explains Civil Procedure",
+    "japanese_title": "Archimedes-AUEBによるSemEval-2024タスク5: 大規模言語モデルが民事訴訟を解説する",
+    "authors": [
+      "Odysseas S. Chlapanis",
+      "Ion Androutsopoulos",
+      "Dimitrios Galanis"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "To be published in SemEval-2024",
+    "summary": "- 複雑な法的概念を理解し推論するために、大規模言語モデル（LLM）が主に分類タスクで使用されている\n- Powerful teacher-LLM（ChatGPT）を使用してトレーニングデータセットに説明を追加し、合成データを生成\n- 新たな`mutation`メソッドで既存データを基に人工データを生成し、より優れた推論能力を提供\n- このシステムはSemEval競技会で15位にランクインし、法的専門家によって人間の分析と一致する説明が確認された\n\nこの研究は、法的推論をLLMの限界を超えて発展させる面白い試みだね。特に、合成データを活用してモデルの性能をさらに高めるアプローチが未来の法技術に大きく貢献しそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-14T11:04:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08299",
+    "title": "Differentially Private Federated Learning: A Systematic Review",
+    "japanese_title": "差分プライバシーに基づく連合学習: システマティックレビュー",
+    "authors": [
+      "Jie Fu",
+      "Yuan Hong",
+      "Xinpeng Ling",
+      "Leixia Wang",
+      "Xun Ran",
+      "Zhiyu Sun",
+      "Wendy Hui Wang",
+      "Zhili Chen",
+      "Yang Cao"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "37pages",
+    "summary": "- 差分プライバシーは連合学習におけるプライバシー保護の標準である\n- 既存の分類は、連合学習の対象およびプライバシー保護レベルの考慮が不足\n- 新しい分類法を提案し、定義と保証に基づく保護オブジェクトを明示\n- 連合学習シナリオにおける差分プライバシーの応用と今後の研究方向を示唆\n\n差分プライバシーと連合学習の組み合わせって、めっちゃ面白くなりそう！未来のプライバシー技術が一歩進んだ感じがするね。",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-05-14T03:49:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08183",
+    "title": "Towards Energy-Aware Federated Learning via MARL: A Dual-Selection Approach for Model and Client",
+    "japanese_title": "エネルギー対応連合学習に向けたMARL: モデルとクライアントのデュアル選択アプローチ",
+    "authors": [
+      "Jun Xia",
+      "Yiyu Shi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は異種AIoTデバイス間の知識共有に有望だが、バッテリー駆動のシナリオで制約が多い\n- 「木桶の原理」で、同質モデルと異種デバイス能力の不一致が原因でトレーニングが効率的に行えない\n- DR-FLというエネルギー対応FLフレームワークを提案し、マルチエージェント強化学習に基づくデュアル選択を採用\n- DR-FLはエネルギー制約下で知識共有を最大化し、各異種デバイスのモデル性能も向上させる\n\nDF-FLのアイディア、新しいアプローチでめちゃ楽しそう！エネルギー難しい問題解決に貢献しそうでワクワクするよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-13T21:02:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08084",
+    "title": "PrivFED -- A Framework for Privacy-Preserving Federated Learning in Enhanced Breast Cancer Diagnosis",
+    "japanese_title": "PrivFED -- 強化型乳がん診断におけるプライバシー保護連合学習フレームワーク",
+    "authors": [
+      "Maithili Jha",
+      "S. Maitri",
+      "M. Lohithdakshan",
+      "Shiny Duela J",
+      "K. Raja"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "Presented in ICIITB 2024 organized by Modern College of Business and   Science, Oman",
+    "summary": "- 医療機関でのPIIデータ交換が多く、サイバーセキュリティ脅威が存在\n- データ欠乏と不均衡を軽減するため、連合学習フレームワークを導入\n- SMOTEとIsolation Forestsを使用し、モデルの堅牢性を強化\n- PCAとCatboostを活用し、エッジデバイスで99.95%、サーバーで98%の平均精度を達成\n\n連合学習でのプライバシー保護は特に医療分野でめっちゃ重要だよね！しかも、99.95%の精度って本当にすごいよ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-13T18:01:57+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2405.07977",
     "title": "A Demographic-Conditioned Variational Autoencoder for fMRI Distribution Sampling and Removal of Confounds",
     "japanese_title": "人口統計に基づいた条件付き変分オートエンコーダを用いたfMRIデータ分布のサンプリングと交絡因子の除去",
@@ -141,6 +282,26 @@
     "published": "2024-05-13T14:21:18+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2405.08044",
+    "title": "Mitigating federated learning contribution allocation instability through randomized aggregation",
+    "japanese_title": "ランダム化集約による連合学習貢献配分の不安定性の緩和",
+    "authors": [
+      "Arno Geimer",
+      "Beltran Fiz",
+      "Radu State"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はプライバシーを保ちながら堅牢なモデルを作成する新しい枠組み\n- 貢献配分の不公平が参加者の信頼を損ね、未来の参加意欲を低下させる可能性\n- Shapley値を用いた勾配ベースのモデル再構築技術で、既存の集約技術が不安定\n- FedRandomという新しい集約技術を提案し、公正かつ正確な貢献評価を実現\n\n貢献の配分が公平になると、参加者ももっと安心して取り組めるよね。この技術が広まればデータももっと活用されそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-13T13:55:34+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2405.07735",
     "title": "Federated Hierarchical Tensor Networks: a Collaborative Learning Quantum AI-Driven Framework for Healthcare",
     "japanese_title": "連合階層テンソルネットワーク: 医療分野における協力的な学習と量子AI駆動フレームワーク",
@@ -180,6 +341,28 @@
       "合成データ"
     ],
     "published": "2024-05-13T13:18:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08043",
+    "title": "HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization",
+    "japanese_title": "HRNet: 人間の移動データ生成のための階層的かつ多解像度の差分プライバシーネットワーク",
+    "authors": [
+      "Shun Takagi",
+      "Li Xiong",
+      "Fumiyuki Kato",
+      "Yang Cao",
+      "Masatoshi Yoshikawa"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 人間の移動データは都市計画やパンデミック対応に貢献するが、プライバシー問題がある\n- HRNetは、差分プライバシーを保証しつつリアルな移動データを生成するために設計された新しいモデル\n- 階層的な位置エンコーディング、多解像度でのマルチタスク学習、プライベートな事前トレーニングを統合\n- 現実のデータセットを用いた徹底比較実験で、既存手法に対する有用性とプライバシーのバランスを改善\n\n人間の移動データを大事にしつつ使えるってすごいよね！これからの都市計画にワクワクしそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-05-13T12:56:24+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2405.07596",

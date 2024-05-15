@@ -14,7 +14,7 @@ def make_slack_message(paper: PaperInfo) -> str:
 
 {re.sub(r"^- ", "• ", paper.summary, flags=re.MULTILINE)}
 
-*Comment:* {paper.comment}"
+*Comment:* {paper.comment}
 *トピック*: {", ".join(paper.topics)}, *カテゴリ*: {", ".join(paper.categories)}, *公開日時*: {paper.published.strftime("%Y-%m-%d")}
 """
     else:

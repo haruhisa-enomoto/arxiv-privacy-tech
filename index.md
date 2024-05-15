@@ -2,7 +2,7 @@
 layout: single
 title: トップページ
 permalink: /
-author_profile: true
+author_profile: false
 ---
 
 プライバシーテック全般に関するarXiv論文まとめです。自動更新（される予定）です。
@@ -22,7 +22,7 @@ author_profile: true
 
 ## 方法
 
-To be written.
+[このPythonスクリプト](https://github.com/haruhisa-enomoto/arxiv-privacy-tech/tree/main/scripts)を[GitHub Actions](https://github.com/haruhisa-enomoto/arxiv-privacy-tech/blob/main/.github/workflows/update.yaml)で毎時日本時間13時に動かしています。
 
 ## 最新更新分
 

@@ -1,5 +1,233 @@
 [
   {
+    "url": "http://arxiv.org/abs/2405.09546",
+    "title": "BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation",
+    "japanese_title": "BEHAVIOR Vision Suite: シミュレーションによるカスタマイズ可能なデータセット生成",
+    "authors": [
+      "Yunhao Ge",
+      "Yihe Tang",
+      "Jiashu Xu",
+      "Cem Gokmen",
+      "Chengshu Li",
+      "Wensi Ai",
+      "Benjamin Jose Martinez",
+      "Arman Aydin",
+      "Mona Anvari",
+      "Ayush K Chakravarthy",
+      "Hong-Xing Yu",
+      "Josiah Wong",
+      "Sanjana Srivastava",
+      "Sharon Lee",
+      "Shengxin Zha",
+      "Laurent Itti",
+      "Yunzhu Li",
+      "Roberto Martín-Martín",
+      "Miao Liu",
+      "Pengchuan Zhang",
+      "Ruohan Zhang",
+      "Li Fei-Fei",
+      "Jiajun Wu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "CVPR 2024 (Highlight). Project website:   https://behavior-vision-suite.github.io/",
+    "summary": "- コンピュータビジョンモデルの評価には大量のデータが必要だが、現実のデータセットでは困難\n- 現行の合成データ生成器は資産とレンダリングの品質、物理特性に限界がある\n- BEHAVIOR Vision Suite (BVS)は、シーンやオブジェクト、カメラのパラメータを調整して合成データを生成\n- モデルのドメインシフト評価、シーン理解評価、シミュレーションから実世界への転送で活用可能\n\nツールでデータをカスタム生成して評価できるのすごいよね！新しい視覚タスクに使えるって、研究がもっと面白くなる予感✨",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-15T17:57:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09423",
+    "title": "MicroPython Testbed for Federated Learning Algorithms",
+    "japanese_title": "連合学習アルゴリズムのためのMicroPythonテストベッド",
+    "authors": [
+      "Miroslav Popovic",
+      "Marko Popovic",
+      "Ivan Kastelan",
+      "Miodrag Djukic",
+      "Ilija Basicevic"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "20 pages, 6 figures, 12 tables, the extended paper preprint",
+    "summary": "- 低コードと生成型大規模言語モデルを用いて、非専門的プログラマーが分散アプリケーションを開発\n- 純粋なPythonで書かれた軽量フレームワークで、IoTの小型メモリに適合\n- 旧フレームワークの制限を克服し、個別アプリケーションインスタンスが異なるネットワークノードで実行可能\n- 非同期I/O抽象に基づいた設計で、PCとRaspberry Pi Pico Wボードを含む無線ネットワークで実験的検証\n\n分散アプリをIoTで実行できちゃうのはすごいね！Pythonだから扱いやすそう。ぜひ試してみたいね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T15:17:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09409",
+    "title": "Real-World Federated Learning in Radiology: Hurdles to overcome and Benefits to gain",
+    "japanese_title": "放射線学における実世界の連合学習：克服すべき障害と得られる利益",
+    "authors": [
+      "Markus R. Bujotzek",
+      "Ünal Akünal",
+      "Stefan Denner",
+      "Peter Neher",
+      "Maximilian Zenk",
+      "Eric Frodl",
+      "Astha Jaiswal",
+      "Moon Kim",
+      "Nicolai R. Krekiehn",
+      "Manuel Nickel",
+      "Richard Ruppel",
+      "Marcus Both",
+      "Felix Döllinger",
+      "Marcel Opitz",
+      "Thorsten Persigehl",
+      "Jens Kleesiek",
+      "Tobias Penzkofer",
+      "Klaus Maier-Hein",
+      "Rickmer Braren",
+      "Andreas Bucher"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）はデータをローカルに保ちながら協調的なモデル訓練が可能\n- 現在の放射線学のFL研究は、多くが実世界への適用を妨げる障害によりシミュレート環境で実施\n- ドイツ放射線協力ネットワーク（RACOON）を用いて、6つの大学病院で肺病変のセグメンテーションモデルを訓練\n- 実験結果はFLがすべての評価シナリオで他の手法に勝ることを示し、FLの実世界への適用の努力が正当化される\n\n実世界で活用できる連合学習が提案されているの、すごく気になる！放射線学における医療データの共有が安全に進む未来が見えるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T15:04:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09394",
+    "title": "SA-FedLora: Adaptive Parameter Allocation for Efficient Federated Learning with LoRA Tuning",
+    "japanese_title": "SA-FedLora: LoRAチューニングを用いた効率的な連合学習のための適応パラメータ割り当て",
+    "authors": [
+      "Yuning Yang",
+      "Xiaohong Liu",
+      "Tianrun Gao",
+      "Xiaodong Xu",
+      "Guangyu Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は分散フレームワークであり、ローカルデータセット上でモデルをトレーニングしつつ、生データを保護\n- 大規模な事前学習モデルは通信コストが高く、効率的なパラメータ使用が必要\n- Low-Rank Adaptation (LoRA)は固定パラメータ予算では過適合や収束遅延のリスクがある\n- SA-FedLoRAは、初期段階でパラメータ正則化を行い、アニーリング段階でパラメータを徐々に削減する新手法\n\nパラメータを効率よく使うことで、通信コストを下げられるなんてすごいね。収束を早める方法も入ってるから、これ実用化されたら便利だね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T14:50:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09306",
+    "title": "Words Blending Boxes. Obfuscating Queries in Information Retrieval using Differential Privacy",
+    "japanese_title": "言葉ブレンドボックス：差分プライバシーを用いた情報検索クエリの隠蔽",
+    "authors": [
+      "Francesco Luigi De Faveri",
+      "Guglielmo Faggioli",
+      "Nicola Ferro"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CR"
+    ],
+    "comment": "Preprint submitted to Information Science journal",
+    "summary": "- 情報検索システムがユーザのプライバシーを保護しないと、クエリを通じて機密情報が漏洩\n- NLPの進歩により差分プライバシーを用いてテキストを隠蔽しつつ効果を保持する可能性\n- 提案するWord Blending Boxesは、安全なボックスを用いてユーザクエリの語句を保護\n- オリジナルと隠蔽後のクエリの語彙・意味的類似性と、文書検索の効果を評価\n\nこの研究はプライバシー保護と検索精度を同時に両立できるかもね。実際に使われたら便利そう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-05-15T12:51:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09276",
+    "title": "Dual-Segment Clustering Strategy for Federated Learning in Heterogeneous Environments",
+    "japanese_title": "異種環境における連合学習のための二重セグメントクラスタリング戦略",
+    "authors": [
+      "Pengcheng Sun",
+      "Erwu Liu",
+      "Wei Ni",
+      "Kanglei Yu",
+      "Rui Wang",
+      "Abbas Jamalipour"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は効率的で通信負荷が少ないが、非独立同分布データが悪影響を及ぼす\n- 通信品質の異質性がパラメータ伝送の精度に影響し、システムの性能低下を招く\n- 二重セグメントクラスタリング（DSC）戦略を提案し、通信条件とデータ特性で二度クラスタリング\n- DSC戦略により収束速度が向上し、異質環境でも精度が優れると実験で示される\n\n通信品質とデータ特性の二面でクラスタリングするなんて面白そう！成功すれば、異質環境でももっと効率的な学習ができるようになるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T11:46:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09037",
+    "title": "Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning",
+    "japanese_title": "効率の果て: 非独立同分布連合学習における注目すべきスパースモデルの学習",
+    "authors": [
+      "Riyasat Ohib",
+      "Bishal Thapaliya",
+      "Gintare Karolina Dziugaite",
+      "Jingyu Liu",
+      "Vince Calhoun",
+      "Sergey Plis"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- SSFL（Salient Sparse Federated Learning）はスパース連合学習の通信効率を高める\n- ローカルクライアントデータで算出されたパラメータの重要度スコアを利用し、訓練前にスパースなサブネットワークを識別\n- スパースモデルの重みのみを各ラウンドでクライアントとサーバ間で通信する\n- 非独立同分布ベンチマークで有効性を検証し、通信時間の改善を実現\n\nSSFL、かなり面白そう！通信時間がどれだけ減るか、実際に試してみたら驚きの結果が出たりするかもね～。\"Sparse\"ってキーワードが新鮮だし、これからもっと注目されそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T02:13:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09014",
+    "title": "Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy",
+    "japanese_title": "特徴ベースの連合転移学習: 通信効率、堅牢性、プライバシー",
+    "authors": [
+      "Feng Wang",
+      "M. Cenk Gursoy",
+      "Senem Velipasalar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.MA"
+    ],
+    "comment": "Accepted by IEEE Transactions on Machine Learning in Communications   and Networking. arXiv admin note: text overlap with arXiv:2209.05395",
+    "summary": "- 特徴ベースの連合転移学習を提案し、通信効率を大幅に向上させる\n- パラメータ更新の代わりに抽出された特徴と出力をアップロードする新しいモデル\n- パケット損失、データ不足、量子化に対しての堅牢性を分析\n- ラベルや特徴のプライバシー漏洩を定義・分析し、軽減方法を探求\n\n通信効率が格段にアップするってことは、デバイスの負荷も減るし、秘密も守られるから安心だね！新しいモデルの効果を実験で見せてくれてるのも期待大。",
+    "topics": [
+      "連合学習",
+      "連合転移学習"
+    ],
+    "published": "2024-05-15T00:43:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08931",
+    "title": "A QPTAS for Facility Location on Unit Disk graphs",
+    "japanese_title": "単位円グラフにおける施設配置問題に対する準多項式時間近似スキーム（QPTAS）",
+    "authors": [
+      "Zachary Friggstad",
+      "Mohsen Rezapour",
+      "Mohammad R. Salavatipour",
+      "Hao Sun"
+    ],
+    "categories": [
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- 単位円グラフは平面上の点集合であり、各点間の距離が1以下のときエッジが存在する\n- 問題設定にはクライアント集合と施設集合が含まれ、それぞれの施設には開設コストがある\n- 目標は、施設開設コストとクライアントを最寄りの施設に割り当てるコストを最小化すること\n- この研究は、UDGsの一般設定に対する初の準多項式時間近似スキーム（QPTAS）を提案\n\n施設配置問題って、実際の都市計画とかでも応用できそうだよね。このQPTASが広まったら、効率よく施設を配置できて、もっと住みやすくなるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-14T19:50:08+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2405.08703",
     "title": "Using autoencoders and deep transfer learning to determine the stellar parameters of 286 CARMENES M dwarfs",
     "japanese_title": "オートエンコーダーと深層転移学習を用いた286個のCARMENES M矮星の星パラメータの決定",

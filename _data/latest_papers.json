@@ -1,185 +1,230 @@
 [
   {
-    "url": "http://arxiv.org/abs/2405.08703",
-    "title": "Using autoencoders and deep transfer learning to determine the stellar parameters of 286 CARMENES M dwarfs",
-    "japanese_title": "オートエンコーダーと深層転移学習を用いた286個のCARMENES M矮星の星パラメータの決定",
+    "url": "http://arxiv.org/abs/2405.09546",
+    "title": "BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation",
+    "japanese_title": "BEHAVIOR Vision Suite: シミュレーションによるカスタマイズ可能なデータセット生成",
     "authors": [
-      "P. Mas-Buitrago",
-      "A. González-Marcos",
-      "E. Solano",
-      "V. M. Passegger",
-      "M. Cortés-Contreras",
-      "J. Ordieres-Meré",
-      "A. Bello-García",
-      "J. A. Caballero",
-      "A. Schweitzer",
-      "H. M. Tabernero",
-      "D. Montes",
-      "C. Cifuentes"
+      "Yunhao Ge",
+      "Yihe Tang",
+      "Jiashu Xu",
+      "Cem Gokmen",
+      "Chengshu Li",
+      "Wensi Ai",
+      "Benjamin Jose Martinez",
+      "Arman Aydin",
+      "Mona Anvari",
+      "Ayush K Chakravarthy",
+      "Hong-Xing Yu",
+      "Josiah Wong",
+      "Sanjana Srivastava",
+      "Sharon Lee",
+      "Shengxin Zha",
+      "Laurent Itti",
+      "Yunzhu Li",
+      "Roberto Martín-Martín",
+      "Miao Liu",
+      "Pengchuan Zhang",
+      "Ruohan Zhang",
+      "Li Fei-Fei",
+      "Jiajun Wu"
     ],
     "categories": [
-      "astro-ph.SR",
-      "astro-ph.EP",
-      "astro-ph.IM",
-      "cs.LG"
+      "cs.CV"
     ],
-    "comment": "Accepted in A&A",
-    "summary": "- M矮星の星パラメータ決定に深層学習が有望であり、転移学習が結果の不確実性を軽減する鍵となる\n- オートエンコーダーを用いた特徴ベースの深層転移学習アプローチを提案し、高解像度スペクトルを用いて星パラメータを推定\n- 合成PHOENIX-ACESスペクトルと観測CARMENESスペクトルを低次元空間に投影し、畳み込みニューラルネットワークを用いて星パラメータを決定\n- 約3050～4300K、4.7～5.1dex、-0.53～0.25dexの範囲で整合性があり、特に3750K以上の有効温度で体系的な偏差が見られる\n\nM矮星の特徴ってなんだか神秘的だね！未来ではもっと精密に星の性質が解明されるんだろうな。とてもワクワクする！",
+    "comment": "CVPR 2024 (Highlight). Project website:   https://behavior-vision-suite.github.io/",
+    "summary": "- コンピュータビジョンモデルの評価には大量のデータが必要だが、現実のデータセットでは困難\n- 現行の合成データ生成器は資産とレンダリングの品質、物理特性に限界がある\n- BEHAVIOR Vision Suite (BVS)は、シーンやオブジェクト、カメラのパラメータを調整して合成データを生成\n- モデルのドメインシフト評価、シーン理解評価、シミュレーションから実世界への転送で活用可能\n\nツールでデータをカスタム生成して評価できるのすごいよね！新しい視覚タスクに使えるって、研究がもっと面白くなる予感✨",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-05-14T15:42:27+00:00"
+    "published": "2024-05-15T17:57:56+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2405.08698",
-    "title": "Byzantine-Resilient Secure Aggregation for Federated Learning Without Privacy Compromises",
-    "japanese_title": "プライバシーを損なわない連合学習のためのビザンチン耐性セキュアアグリゲーション",
+    "url": "http://arxiv.org/abs/2405.09423",
+    "title": "MicroPython Testbed for Federated Learning Algorithms",
+    "japanese_title": "連合学習アルゴリズムのためのMicroPythonテストベッド",
     "authors": [
-      "Yue Xia",
-      "Christoph Hofmeister",
-      "Maximilian Egger",
-      "Rawad Bitar"
+      "Miroslav Popovic",
+      "Marko Popovic",
+      "Ivan Kastelan",
+      "Miodrag Djukic",
+      "Ilija Basicevic"
     ],
     "categories": [
-      "cs.IT",
-      "cs.CR",
-      "cs.DC",
-      "cs.LG",
-      "math.IT"
+      "cs.DC"
     ],
-    "comment": "",
-    "summary": "- 連合学習は大規模機械学習に有望ながらプライバシーとセキュリティの新たなリスクがある\n- ByITFLはビザンチンユーザに対しレジリエンスを提供し、プライバシーを維持\n- この手法は非プライベートなFLTrustを基にし、信頼スコアでユーザの勾配を調整\n- ByITFLは情報理論的プライバシーを持つ初のビザンチン耐性スキーム\n\nビザンチンユーザに耐えるだけでなく、プライバシーも守れるなんてすごいね！これを使えば、大規模データの解析がもっと安全になりそう。",
+    "comment": "20 pages, 6 figures, 12 tables, the extended paper preprint",
+    "summary": "- 低コードと生成型大規模言語モデルを用いて、非専門的プログラマーが分散アプリケーションを開発\n- 純粋なPythonで書かれた軽量フレームワークで、IoTの小型メモリに適合\n- 旧フレームワークの制限を克服し、個別アプリケーションインスタンスが異なるネットワークノードで実行可能\n- 非同期I/O抽象に基づいた設計で、PCとRaspberry Pi Pico Wボードを含む無線ネットワークで実験的検証\n\n分散アプリをIoTで実行できちゃうのはすごいね！Pythonだから扱いやすそう。ぜひ試してみたいね！",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-05-14T15:37:56+00:00"
+    "published": "2024-05-15T15:17:04+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2405.08502",
-    "title": "Archimedes-AUEB at SemEval-2024 Task 5: LLM explains Civil Procedure",
-    "japanese_title": "Archimedes-AUEBによるSemEval-2024タスク5: 大規模言語モデルが民事訴訟を解説する",
+    "url": "http://arxiv.org/abs/2405.09409",
+    "title": "Real-World Federated Learning in Radiology: Hurdles to overcome and Benefits to gain",
+    "japanese_title": "放射線学における実世界の連合学習：克服すべき障害と得られる利益",
     "authors": [
-      "Odysseas S. Chlapanis",
-      "Ion Androutsopoulos",
-      "Dimitrios Galanis"
+      "Markus R. Bujotzek",
+      "Ünal Akünal",
+      "Stefan Denner",
+      "Peter Neher",
+      "Maximilian Zenk",
+      "Eric Frodl",
+      "Astha Jaiswal",
+      "Moon Kim",
+      "Nicolai R. Krekiehn",
+      "Manuel Nickel",
+      "Richard Ruppel",
+      "Marcus Both",
+      "Felix Döllinger",
+      "Marcel Opitz",
+      "Thorsten Persigehl",
+      "Jens Kleesiek",
+      "Tobias Penzkofer",
+      "Klaus Maier-Hein",
+      "Rickmer Braren",
+      "Andreas Bucher"
     ],
     "categories": [
-      "cs.CL"
-    ],
-    "comment": "To be published in SemEval-2024",
-    "summary": "- 複雑な法的概念を理解し推論するために、大規模言語モデル（LLM）が主に分類タスクで使用されている\n- Powerful teacher-LLM（ChatGPT）を使用してトレーニングデータセットに説明を追加し、合成データを生成\n- 新たな`mutation`メソッドで既存データを基に人工データを生成し、より優れた推論能力を提供\n- このシステムはSemEval競技会で15位にランクインし、法的専門家によって人間の分析と一致する説明が確認された\n\nこの研究は、法的推論をLLMの限界を超えて発展させる面白い試みだね。特に、合成データを活用してモデルの性能をさらに高めるアプローチが未来の法技術に大きく貢献しそう！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-05-14T11:04:16+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.08299",
-    "title": "Differentially Private Federated Learning: A Systematic Review",
-    "japanese_title": "差分プライバシーに基づく連合学習: システマティックレビュー",
-    "authors": [
-      "Jie Fu",
-      "Yuan Hong",
-      "Xinpeng Ling",
-      "Leixia Wang",
-      "Xun Ran",
-      "Zhiyu Sun",
-      "Wendy Hui Wang",
-      "Zhili Chen",
-      "Yang Cao"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "comment": "37pages",
-    "summary": "- 差分プライバシーは連合学習におけるプライバシー保護の標準である\n- 既存の分類は、連合学習の対象およびプライバシー保護レベルの考慮が不足\n- 新しい分類法を提案し、定義と保証に基づく保護オブジェクトを明示\n- 連合学習シナリオにおける差分プライバシーの応用と今後の研究方向を示唆\n\n差分プライバシーと連合学習の組み合わせって、めっちゃ面白くなりそう！未来のプライバシー技術が一歩進んだ感じがするね。",
-    "topics": [
-      "連合学習",
-      "差分プライバシー"
-    ],
-    "published": "2024-05-14T03:49:14+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.08183",
-    "title": "Towards Energy-Aware Federated Learning via MARL: A Dual-Selection Approach for Model and Client",
-    "japanese_title": "エネルギー対応連合学習に向けたMARL: モデルとクライアントのデュアル選択アプローチ",
-    "authors": [
-      "Jun Xia",
-      "Yiyu Shi"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
+      "cs.CV",
+      "cs.DC"
     ],
     "comment": "",
-    "summary": "- 連合学習は異種AIoTデバイス間の知識共有に有望だが、バッテリー駆動のシナリオで制約が多い\n- 「木桶の原理」で、同質モデルと異種デバイス能力の不一致が原因でトレーニングが効率的に行えない\n- DR-FLというエネルギー対応FLフレームワークを提案し、マルチエージェント強化学習に基づくデュアル選択を採用\n- DR-FLはエネルギー制約下で知識共有を最大化し、各異種デバイスのモデル性能も向上させる\n\nDF-FLのアイディア、新しいアプローチでめちゃ楽しそう！エネルギー難しい問題解決に貢献しそうでワクワクするよね。",
+    "summary": "- 連合学習（FL）はデータをローカルに保ちながら協調的なモデル訓練が可能\n- 現在の放射線学のFL研究は、多くが実世界への適用を妨げる障害によりシミュレート環境で実施\n- ドイツ放射線協力ネットワーク（RACOON）を用いて、6つの大学病院で肺病変のセグメンテーションモデルを訓練\n- 実験結果はFLがすべての評価シナリオで他の手法に勝ることを示し、FLの実世界への適用の努力が正当化される\n\n実世界で活用できる連合学習が提案されているの、すごく気になる！放射線学における医療データの共有が安全に進む未来が見えるね。",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-05-13T21:02:31+00:00"
+    "published": "2024-05-15T15:04:27+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2405.08084",
-    "title": "PrivFED -- A Framework for Privacy-Preserving Federated Learning in Enhanced Breast Cancer Diagnosis",
-    "japanese_title": "PrivFED -- 強化型乳がん診断におけるプライバシー保護連合学習フレームワーク",
+    "url": "http://arxiv.org/abs/2405.09394",
+    "title": "SA-FedLora: Adaptive Parameter Allocation for Efficient Federated Learning with LoRA Tuning",
+    "japanese_title": "SA-FedLora: LoRAチューニングを用いた効率的な連合学習のための適応パラメータ割り当て",
     "authors": [
-      "Maithili Jha",
-      "S. Maitri",
-      "M. Lohithdakshan",
-      "Shiny Duela J",
-      "K. Raja"
+      "Yuning Yang",
+      "Xiaohong Liu",
+      "Tianrun Gao",
+      "Xiaodong Xu",
+      "Guangyu Wang"
     ],
     "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は分散フレームワークであり、ローカルデータセット上でモデルをトレーニングしつつ、生データを保護\n- 大規模な事前学習モデルは通信コストが高く、効率的なパラメータ使用が必要\n- Low-Rank Adaptation (LoRA)は固定パラメータ予算では過適合や収束遅延のリスクがある\n- SA-FedLoRAは、初期段階でパラメータ正則化を行い、アニーリング段階でパラメータを徐々に削減する新手法\n\nパラメータを効率よく使うことで、通信コストを下げられるなんてすごいね。収束を早める方法も入ってるから、これ実用化されたら便利だね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T14:50:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09306",
+    "title": "Words Blending Boxes. Obfuscating Queries in Information Retrieval using Differential Privacy",
+    "japanese_title": "言葉ブレンドボックス：差分プライバシーを用いた情報検索クエリの隠蔽",
+    "authors": [
+      "Francesco Luigi De Faveri",
+      "Guglielmo Faggioli",
+      "Nicola Ferro"
+    ],
+    "categories": [
+      "cs.IR",
       "cs.CR"
     ],
-    "comment": "Presented in ICIITB 2024 organized by Modern College of Business and   Science, Oman",
-    "summary": "- 医療機関でのPIIデータ交換が多く、サイバーセキュリティ脅威が存在\n- データ欠乏と不均衡を軽減するため、連合学習フレームワークを導入\n- SMOTEとIsolation Forestsを使用し、モデルの堅牢性を強化\n- PCAとCatboostを活用し、エッジデバイスで99.95%、サーバーで98%の平均精度を達成\n\n連合学習でのプライバシー保護は特に医療分野でめっちゃ重要だよね！しかも、99.95%の精度って本当にすごいよ。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-13T18:01:57+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.08044",
-    "title": "Mitigating federated learning contribution allocation instability through randomized aggregation",
-    "japanese_title": "ランダム化集約による連合学習貢献配分の不安定性の緩和",
-    "authors": [
-      "Arno Geimer",
-      "Beltran Fiz",
-      "Radu State"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "comment": "",
-    "summary": "- 連合学習はプライバシーを保ちながら堅牢なモデルを作成する新しい枠組み\n- 貢献配分の不公平が参加者の信頼を損ね、未来の参加意欲を低下させる可能性\n- Shapley値を用いた勾配ベースのモデル再構築技術で、既存の集約技術が不安定\n- FedRandomという新しい集約技術を提案し、公正かつ正確な貢献評価を実現\n\n貢献の配分が公平になると、参加者ももっと安心して取り組めるよね。この技術が広まればデータももっと活用されそう！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-13T13:55:34+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.08043",
-    "title": "HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization",
-    "japanese_title": "HRNet: 人間の移動データ生成のための階層的かつ多解像度の差分プライバシーネットワーク",
-    "authors": [
-      "Shun Takagi",
-      "Li Xiong",
-      "Fumiyuki Kato",
-      "Yang Cao",
-      "Masatoshi Yoshikawa"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- 人間の移動データは都市計画やパンデミック対応に貢献するが、プライバシー問題がある\n- HRNetは、差分プライバシーを保証しつつリアルな移動データを生成するために設計された新しいモデル\n- 階層的な位置エンコーディング、多解像度でのマルチタスク学習、プライベートな事前トレーニングを統合\n- 現実のデータセットを用いた徹底比較実験で、既存手法に対する有用性とプライバシーのバランスを改善\n\n人間の移動データを大事にしつつ使えるってすごいよね！これからの都市計画にワクワクしそう！",
+    "comment": "Preprint submitted to Information Science journal",
+    "summary": "- 情報検索システムがユーザのプライバシーを保護しないと、クエリを通じて機密情報が漏洩\n- NLPの進歩により差分プライバシーを用いてテキストを隠蔽しつつ効果を保持する可能性\n- 提案するWord Blending Boxesは、安全なボックスを用いてユーザクエリの語句を保護\n- オリジナルと隠蔽後のクエリの語彙・意味的類似性と、文書検索の効果を評価\n\nこの研究はプライバシー保護と検索精度を同時に両立できるかもね。実際に使われたら便利そう！",
     "topics": [
       "差分プライバシー"
     ],
-    "published": "2024-05-13T12:56:24+00:00"
+    "published": "2024-05-15T12:51:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09276",
+    "title": "Dual-Segment Clustering Strategy for Federated Learning in Heterogeneous Environments",
+    "japanese_title": "異種環境における連合学習のための二重セグメントクラスタリング戦略",
+    "authors": [
+      "Pengcheng Sun",
+      "Erwu Liu",
+      "Wei Ni",
+      "Kanglei Yu",
+      "Rui Wang",
+      "Abbas Jamalipour"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は効率的で通信負荷が少ないが、非独立同分布データが悪影響を及ぼす\n- 通信品質の異質性がパラメータ伝送の精度に影響し、システムの性能低下を招く\n- 二重セグメントクラスタリング（DSC）戦略を提案し、通信条件とデータ特性で二度クラスタリング\n- DSC戦略により収束速度が向上し、異質環境でも精度が優れると実験で示される\n\n通信品質とデータ特性の二面でクラスタリングするなんて面白そう！成功すれば、異質環境でももっと効率的な学習ができるようになるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T11:46:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09037",
+    "title": "Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning",
+    "japanese_title": "効率の果て: 非独立同分布連合学習における注目すべきスパースモデルの学習",
+    "authors": [
+      "Riyasat Ohib",
+      "Bishal Thapaliya",
+      "Gintare Karolina Dziugaite",
+      "Jingyu Liu",
+      "Vince Calhoun",
+      "Sergey Plis"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- SSFL（Salient Sparse Federated Learning）はスパース連合学習の通信効率を高める\n- ローカルクライアントデータで算出されたパラメータの重要度スコアを利用し、訓練前にスパースなサブネットワークを識別\n- スパースモデルの重みのみを各ラウンドでクライアントとサーバ間で通信する\n- 非独立同分布ベンチマークで有効性を検証し、通信時間の改善を実現\n\nSSFL、かなり面白そう！通信時間がどれだけ減るか、実際に試してみたら驚きの結果が出たりするかもね～。\"Sparse\"ってキーワードが新鮮だし、これからもっと注目されそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-15T02:13:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.09014",
+    "title": "Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy",
+    "japanese_title": "特徴ベースの連合転移学習: 通信効率、堅牢性、プライバシー",
+    "authors": [
+      "Feng Wang",
+      "M. Cenk Gursoy",
+      "Senem Velipasalar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.MA"
+    ],
+    "comment": "Accepted by IEEE Transactions on Machine Learning in Communications   and Networking. arXiv admin note: text overlap with arXiv:2209.05395",
+    "summary": "- 特徴ベースの連合転移学習を提案し、通信効率を大幅に向上させる\n- パラメータ更新の代わりに抽出された特徴と出力をアップロードする新しいモデル\n- パケット損失、データ不足、量子化に対しての堅牢性を分析\n- ラベルや特徴のプライバシー漏洩を定義・分析し、軽減方法を探求\n\n通信効率が格段にアップするってことは、デバイスの負荷も減るし、秘密も守られるから安心だね！新しいモデルの効果を実験で見せてくれてるのも期待大。",
+    "topics": [
+      "連合学習",
+      "連合転移学習"
+    ],
+    "published": "2024-05-15T00:43:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.08931",
+    "title": "A QPTAS for Facility Location on Unit Disk graphs",
+    "japanese_title": "単位円グラフにおける施設配置問題に対する準多項式時間近似スキーム（QPTAS）",
+    "authors": [
+      "Zachary Friggstad",
+      "Mohsen Rezapour",
+      "Mohammad R. Salavatipour",
+      "Hao Sun"
+    ],
+    "categories": [
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- 単位円グラフは平面上の点集合であり、各点間の距離が1以下のときエッジが存在する\n- 問題設定にはクライアント集合と施設集合が含まれ、それぞれの施設には開設コストがある\n- 目標は、施設開設コストとクライアントを最寄りの施設に割り当てるコストを最小化すること\n- この研究は、UDGsの一般設定に対する初の準多項式時間近似スキーム（QPTAS）を提案\n\n施設配置問題って、実際の都市計画とかでも応用できそうだよね。このQPTASが広まったら、効率よく施設を配置できて、もっと住みやすくなるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-14T19:50:08+00:00"
   }
 ]

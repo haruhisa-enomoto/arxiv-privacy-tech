@@ -27,175 +27,194 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-05-16T04:16:21.345710
+更新: 2024-05-17T04:19:00.304849
 
 - - -
 
-### [BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation](http://arxiv.org/abs/2405.09546)
+### [Automated Federated Learning via Informed Pruning](http://arxiv.org/abs/2405.10271)
 
-**BEHAVIOR Vision Suite: シミュレーションによるカスタマイズ可能なデータセット生成**
+**インフォームドプルーニングによる自動連合学習**
 
-Yunhao Ge, Yihe Tang, Jiashu Xu, Cem Gokmen, Chengshu Li, Wensi Ai, Benjamin Jose Martinez, Arman Aydin, Mona Anvari, Ayush K Chakravarthy, Hong-Xing Yu, Josiah Wong, Sanjana Srivastava, Sharon Lee, Shengxin Zha, Laurent Itti, Yunzhu Li, Roberto Martín-Martín, Miao Liu, Pengchuan Zhang, Ruohan Zhang, Li Fei-Fei, Jiajun Wu
+Christian Internò, Elena Raponi, Niki van Stein, Thomas Bäck, Markus Olhofer, Yaochu Jin, Barbara Hammer
 
-- コンピュータビジョンモデルの評価には大量のデータが必要だが、現実のデータセットでは困難
-- 現行の合成データ生成器は資産とレンダリングの品質、物理特性に限界がある
-- BEHAVIOR Vision Suite (BVS)は、シーンやオブジェクト、カメラのパラメータを調整して合成データを生成
-- モデルのドメインシフト評価、シーン理解評価、シミュレーションから実世界への転送で活用可能
+- 連合学習はローカルデータを交換せずに協調学習を可能にするが、エッジデバイスでの実用化は困難
+- モデルのプルーニングはDLモデルの圧縮に有効だが、従来の手法は手作業での調整が多く最適解が得にくい
+- 本研究はAutoFLIPを提案し、ローカルクライアントとグローバルサーバーで動的にプルーニングと圧縮を行う
+- 実験で非IIDデータのシナリオにおいて、計算制約を克服し優れたグローバル収束を実現することを確認
 
-ツールでデータをカスタム生成して評価できるのすごいよね！新しい視覚タスクに使えるって、研究がもっと面白くなる予感✨
+手作業じゃなくて自動でモデルを最適化できるのはすごく面白そう！エッジデバイスでも効率的に学習できるから、実用化が進みそうだね。
 
-**Comment:** CVPR 2024 (Highlight). Project website:   https://behavior-vision-suite.github.io/
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-05-15 17:57
 
-- - -
-
-### [MicroPython Testbed for Federated Learning Algorithms](http://arxiv.org/abs/2405.09423)
-
-**連合学習アルゴリズムのためのMicroPythonテストベッド**
-
-Miroslav Popovic, Marko Popovic, Ivan Kastelan, Miodrag Djukic, Ilija Basicevic
-
-- 低コードと生成型大規模言語モデルを用いて、非専門的プログラマーが分散アプリケーションを開発
-- 純粋なPythonで書かれた軽量フレームワークで、IoTの小型メモリに適合
-- 旧フレームワークの制限を克服し、個別アプリケーションインスタンスが異なるネットワークノードで実行可能
-- 非同期I/O抽象に基づいた設計で、PCとRaspberry Pi Pico Wボードを含む無線ネットワークで実験的検証
-
-分散アプリをIoTで実行できちゃうのはすごいね！Pythonだから扱いやすそう。ぜひ試してみたいね！
-
-**Comment:** 20 pages, 6 figures, 12 tables, the extended paper preprint
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2024-05-15 15:17
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, cs.ET, **投稿日時:** 2024-05-16 17:27
 
 - - -
 
-### [Real-World Federated Learning in Radiology: Hurdles to overcome and Benefits to gain](http://arxiv.org/abs/2405.09409)
+### [Asynchronous Federated Stochastic Optimization with Exact Averaging for Heterogeneous Local Objectives](http://arxiv.org/abs/2405.10123)
 
-**放射線学における実世界の連合学習：克服すべき障害と得られる利益**
+**異種ローカル目標に対する非同期連合確率最適化と正確な平均化**
 
-Markus R. Bujotzek, Ünal Akünal, Stefan Denner, Peter Neher, Maximilian Zenk, Eric Frodl, Astha Jaiswal, Moon Kim, Nicolai R. Krekiehn, Manuel Nickel, Richard Ruppel, Marcus Both, Felix Döllinger, Marcel Opitz, Thorsten Persigehl, Jens Kleesiek, Tobias Penzkofer, Klaus Maier-Hein, Rickmer Braren, Andreas Bucher
+Charikleia Iakovidou, Kibaek Kim
 
-- 連合学習（FL）はデータをローカルに保ちながら協調的なモデル訓練が可能
-- 現在の放射線学のFL研究は、多くが実世界への適用を妨げる障害によりシミュレート環境で実施
-- ドイツ放射線協力ネットワーク（RACOON）を用いて、6つの大学病院で肺病変のセグメンテーションモデルを訓練
-- 実験結果はFLがすべての評価シナリオで他の手法に勝ることを示し、FLの実世界への適用の努力が正当化される
+- 連合学習（FL）は、複数のクライアントのデータを中央サーバーの調整の下で安全にモデルを訓練する手法
+- フェデレーティッド学習（FL）の主な課題は、ストラグラークライアントによる長い訓練時間と非i.i.d.なローカルデータによる訓練精度の低下
+- AREAという新しい確率的（サブ）勾配アルゴリズムを提案し、クライアントのドリフトに対して堅牢で、非同期通信を利用して収束を高速化
+- AREAは、遅延適応ステップサイズを使用せずに、遅延の長さやローカルデータセットの異質性に依存せずに収束することが保証される
 
-実世界で活用できる連合学習が提案されているの、すごく気になる！放射線学における医療データの共有が安全に進む未来が見えるね。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.DC, **投稿日時:** 2024-05-15 15:04
-
-- - -
-
-### [SA-FedLora: Adaptive Parameter Allocation for Efficient Federated Learning with LoRA Tuning](http://arxiv.org/abs/2405.09394)
-
-**SA-FedLora: LoRAチューニングを用いた効率的な連合学習のための適応パラメータ割り当て**
-
-Yuning Yang, Xiaohong Liu, Tianrun Gao, Xiaodong Xu, Guangyu Wang
-
-- 連合学習は分散フレームワークであり、ローカルデータセット上でモデルをトレーニングしつつ、生データを保護
-- 大規模な事前学習モデルは通信コストが高く、効率的なパラメータ使用が必要
-- Low-Rank Adaptation (LoRA)は固定パラメータ予算では過適合や収束遅延のリスクがある
-- SA-FedLoRAは、初期段階でパラメータ正則化を行い、アニーリング段階でパラメータを徐々に削減する新手法
-
-パラメータを効率よく使うことで、通信コストを下げられるなんてすごいね。収束を早める方法も入ってるから、これ実用化されたら便利だね！
+非同期での連合学習の可能性が広がりそうで面白そう！レスポンスの遅いクライアントにも強いアルゴリズムって魅力的だよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-15 14:50
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-16 14:22
 
 - - -
 
-### [Words Blending Boxes. Obfuscating Queries in Information Retrieval using Differential Privacy](http://arxiv.org/abs/2405.09306)
+### [The Effect of Quantization in Federated Learning: A Rényi Differential Privacy Perspective](http://arxiv.org/abs/2405.10096)
 
-**言葉ブレンドボックス：差分プライバシーを用いた情報検索クエリの隠蔽**
+**連合学習における量子化の効果: レーニ差分プライバシーの視点から**
 
-Francesco Luigi De Faveri, Guglielmo Faggioli, Nicola Ferro
+Tianqu Kang, Lumin Liu, Hengtao He, Jun Zhang, S. H. Song, Khaled B. Letaief
 
-- 情報検索システムがユーザのプライバシーを保護しないと、クエリを通じて機密情報が漏洩
-- NLPの進歩により差分プライバシーを用いてテキストを隠蔽しつつ効果を保持する可能性
-- 提案するWord Blending Boxesは、安全なボックスを用いてユーザクエリの語句を保護
-- オリジナルと隠蔽後のクエリの語彙・意味的類似性と、文書検索の効果を評価
+- 連合学習は分散データを用いたプライバシー保護機械学習の新しい手法である
+- 差分プライバシーと組み合わせることでプライバシー強化が可能で、モデル重みへのガウスノイズ追加が関与
+- 量子化を用いることで通信オーバーヘッドを軽減できるが、量子化されたガウスノイズがプライバシー保護の理解を複雑化
+- 理論と実証の結果、低量子化ビットレベルがプライバシー保護を向上させることを確認
 
-この研究はプライバシー保護と検索精度を同時に両立できるかもね。実際に使われたら便利そう！
+量子化がプライバシー保護にどう影響するかを探るなんてすごいね！理論と実践が一致したところも面白い。これからの連合学習の進展が楽しみだね！
 
-**Comment:** Preprint submitted to Information Science journal
+**Comment:** 6 pages, 5 figures, submitted to 2024 IEEE MeditCom
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.IR, cs.CR, **投稿日時:** 2024-05-15 12:51
-
-- - -
-
-### [Dual-Segment Clustering Strategy for Federated Learning in Heterogeneous Environments](http://arxiv.org/abs/2405.09276)
-
-**異種環境における連合学習のための二重セグメントクラスタリング戦略**
-
-Pengcheng Sun, Erwu Liu, Wei Ni, Kanglei Yu, Rui Wang, Abbas Jamalipour
-
-- 連合学習は効率的で通信負荷が少ないが、非独立同分布データが悪影響を及ぼす
-- 通信品質の異質性がパラメータ伝送の精度に影響し、システムの性能低下を招く
-- 二重セグメントクラスタリング（DSC）戦略を提案し、通信条件とデータ特性で二度クラスタリング
-- DSC戦略により収束速度が向上し、異質環境でも精度が優れると実験で示される
-
-通信品質とデータ特性の二面でクラスタリングするなんて面白そう！成功すれば、異質環境でももっと効率的な学習ができるようになるね。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-05-15 11:46
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, cs.DC, **投稿日時:** 2024-05-16 13:50
 
 - - -
 
-### [Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning](http://arxiv.org/abs/2405.09037)
+### [Federated Learning for Misbehaviour Detection with Variational Autoencoders and Gaussian Mixture Models](http://arxiv.org/abs/2405.09903)
 
-**効率の果て: 非独立同分布連合学習における注目すべきスパースモデルの学習**
+**変動オートエンコーダーとガウス混合モデルを用いた連合学習による異常行動検出**
 
-Riyasat Ohib, Bishal Thapaliya, Gintare Karolina Dziugaite, Jingyu Liu, Vince Calhoun, Sergey Plis
+Enrique Mármol Campos, Aurora González Vidal, José Luis Hernández Ramos, Antonio Skarmeta
 
-- SSFL（Salient Sparse Federated Learning）はスパース連合学習の通信効率を高める
-- ローカルクライアントデータで算出されたパラメータの重要度スコアを利用し、訓練前にスパースなサブネットワークを識別
-- スパースモデルの重みのみを各ラウンドでクライアントとサーバ間で通信する
-- 非独立同分布ベンチマークで有効性を検証し、通信時間の改善を実現
+- 多くの連合学習は教師あり学習で、人為的なラベル付けが必要である
+- サイバー攻撃検出では、未知の脅威を識別することが困難である
+- 本研究は、車両環境での潜在的異常行動を識別する非教師あり連合学習を提案
+- 提案手法は、公的クラウドサービスを利用し、80%を超える性能を達成している
 
-SSFL、かなり面白そう！通信時間がどれだけ減るか、実際に試してみたら驚きの結果が出たりするかもね～。"Sparse"ってキーワードが新鮮だし、これからもっと注目されそう！
+サイバーセキュリティとか車両の異常行動検出だから、未来の車社会でとっても重要そう！クラウド使ってみんなで学習するのも、いい感じだよね。
 
+**Comment:** 13 pages, 11 figures, 3 tables
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-05-15 02:13
-
-- - -
-
-### [Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy](http://arxiv.org/abs/2405.09014)
-
-**特徴ベースの連合転移学習: 通信効率、堅牢性、プライバシー**
-
-Feng Wang, M. Cenk Gursoy, Senem Velipasalar
-
-- 特徴ベースの連合転移学習を提案し、通信効率を大幅に向上させる
-- パラメータ更新の代わりに抽出された特徴と出力をアップロードする新しいモデル
-- パケット損失、データ不足、量子化に対しての堅牢性を分析
-- ラベルや特徴のプライバシー漏洩を定義・分析し、軽減方法を探求
-
-通信効率が格段にアップするってことは、デバイスの負荷も減るし、秘密も守られるから安心だね！新しいモデルの効果を実験で見せてくれてるのも期待大。
-
-**Comment:** Accepted by IEEE Transactions on Machine Learning in Communications   and Networking. arXiv admin note: text overlap with arXiv:2209.05395
-
-**トピック:** [連合学習](fl), [連合転移学習](ftl), **カテゴリ:** cs.LG, cs.MA, **投稿日時:** 2024-05-15 00:43
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-16 08:49
 
 - - -
 
-### [A QPTAS for Facility Location on Unit Disk graphs](http://arxiv.org/abs/2405.08931)
+### [Balancing Similarity and Complementarity for Federated Learning](http://arxiv.org/abs/2405.09892)
 
-**単位円グラフにおける施設配置問題に対する準多項式時間近似スキーム（QPTAS）**
+**連合学習における類似性と補完性のバランス**
 
-Zachary Friggstad, Mohsen Rezapour, Mohammad R. Salavatipour, Hao Sun
+Kunda Yan, Sen Cui, Abudukelimu Wuerkaixi, Jingfeng Zhang, Bo Han, Gang Niu, Masashi Sugiyama, Changshui Zhang
 
-- 単位円グラフは平面上の点集合であり、各点間の距離が1以下のときエッジが存在する
-- 問題設定にはクライアント集合と施設集合が含まれ、それぞれの施設には開設コストがある
-- 目標は、施設開設コストとクライアントを最寄りの施設に割り当てるコストを最小化すること
-- この研究は、UDGsの一般設定に対する初の準多項式時間近似スキーム（QPTAS）を提案
+- モバイルやIoTシステムで、連合学習（FL）はデータを効率的に利用しつつユーザープライバシーを保護するために重要
+- FLの主要な課題は、多数のクライアントや多様なデータソースから生じる非i.i.d.データによる統計的非均一性の管理
+- 極めて重要なのは、最適な協力が必ずしも最も類似したクライアントとの協力を意味しない点
+- 提案された\texttt{FedSaC}は、特徴分布の補完性を強化し、特徴とターゲットの相関の乖離を抑制して最適な協力を目指す
 
-施設配置問題って、実際の都市計画とかでも応用できそうだよね。このQPTASが広まったら、効率よく施設を配置できて、もっと住みやすくなるかも！
+これ、なんかすごく面白そうだね！最適な協力ネットワークの構築とか、今後の技術にめっちゃ役立ちそう。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DS, **投稿日時:** 2024-05-14 19:50
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-05-16 08:16
+
+- - -
+
+### [Advances in Robust Federated Learning: Heterogeneity Considerations](http://arxiv.org/abs/2405.09839)
+
+**ロバストな連合学習の進展: 異質性の考慮**
+
+Chuan Chen, Tianchi Liao, Xiaojun Deng, Zihou Wu, Sheng Huang, Zibin Zheng
+
+- 異質的な連合学習では、異なるデータ分布やモデル構造、タスク目標、計算能力、通信リソースが問題の核である
+- 異質性がモデル訓練の複雑さを増すため、データ、モデル、タスク、デバイス、通信の5つの観点から課題を整理
+- 既存の最先端アプローチをデータレベル、モデルレベル、アーキテクチャレベルの3つに分類し、レビュー
+- 異質的連合学習環境におけるプライバシー保護戦略を詳述し、今後の研究方向を提示
+
+異なるクライアントでも協力できるのすごくない？そんな異質な環境でもうまくやれる技術、未来の連合学習が楽しみだね！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-05-16 06:35
+
+- - -
+
+### [Rethinking Barely-Supervised Segmentation from an Unsupervised Domain Adaptation Perspective](http://arxiv.org/abs/2405.09777)
+
+**教師なしドメイン適応の観点から再考するほぼ教師なしセグメンテーション**
+
+Zhiqiang Shen, Peng Cao, Junming Su, Jinzhu Yang, Osmar R. Zaiane
+
+- 医療画像セグメンテーションのBSS問題を調査し、単一のスライスアノテーションと多数のラベルなし画像を含むデータセットを使用
+- 従来のBSSメソッドは画像レジストレーションに依存し信頼性の低い擬似ラベルを生成
+- 新たに提案されたメソッドでは単一アノテーションを用い画像レジストレーションを用いないBSSをUDAP問題として扱う
+- この手法は左心房セグメンテーションで80.77%のダイススコアを達成し、SOTAを大幅に上回る性能を示した
+
+医療画像の新しい教師なし技術ってすごく面白そう！単一スライスでそんなに正確にできるなんて、ちょっと未来が変わりそうな予感がするね！
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-05-16 02:46
+
+- - -
+
+### [Harmonizing Generalization and Personalization in Federated Prompt Learning](http://arxiv.org/abs/2405.09771)
+
+**連合プロンプト学習における一般化と個別化の調和**
+
+Tianyu Cui, Hongxia Li, Jingya Wang, Ye Shi
+
+- 連合プロンプト学習（FPL）は、大規模な事前学習済み視覚言語モデル（VLM）を連合学習に組み込む。
+- データの異質性に応じて各クライアント間の個別化が必要だが、過剰な個別化はモデルの一般化能力を損なう。
+- FedPGPは、CLIPを用いて知識ガイダンスを提供し、低ランク適応で個別化を実現することで、一般化と個別化のバランスを取る。
+- 実験結果から、FedPGPが異なるデータセットでの一般化と個別化のバランスに優れていることが示された。
+
+新しい技術を使って個別化と一般化のバランスを取る研究ってすごくおもしろそう！視覚言語モデルが連合学習にどんな影響を与えるのか、結果が楽しみだよね。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-05-16 02:22
+
+- - -
+
+### [DP-RuL: Differentially-Private Rule Learning for Clinical Decision Support Systems](http://arxiv.org/abs/2405.09721)
+
+**DP-RuL: 臨床意思決定支援システムのための差分プライバシー規則学習**
+
+Josephine Lamp, Lu Feng, David Evans
+
+- 患者データを使用する際のプライバシー懸念が存在する
+- ローカルな差分プライバシー（LDP）を用いた人口規則セットの学習フレームワークを開発
+- ルール発見プロトコルは、モンテカルロ木探索（MCTS）法とLDPを統合し、ルール構造を発見
+- 適応的な予算配分方法により、プライバシーと有用性のトレードオフを改善
+
+プライバシーを保ったまま、効果的な意思決定をサポートする技術が興味深いよね！未来の医療がもっと安全で便利になりそう♡
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-05-15 22:31
+
+- - -
+
+### [When AI Eats Itself: On the Caveats of Data Pollution in the Era of Generative AI](http://arxiv.org/abs/2405.09597)
+
+**AIが自らを食う時代：生成AI時代のデータ汚染の注意点について**
+
+Xiaodan Xing, Fadong Shi, Jiahao Huang, Yinzhe Wu, Yang Nan, Sheng Zhang, Yingying Fang, Mike Roberts, Carola-Bibiane Schönlieb, Javier Del Ser, Guang Yang
+
+- 生成AIがリアルな出力を生む一方で、合成データの効果が常に良好とは限らない
+- 合成データと実データのバランスは難しく、戦略的な使用が必要
+- 合成データの無秩序な拡散がデータセット汚染を引き起こし、将来の性能や倫理問題を懸念させる
+- 合成データの無分別な使用がもたらす影響を調査し、少モード情報融合への悪影響も考察
+
+生成AIが自己生成データに頼りすぎると、パフォーマンスがどうなるか不安だよね。うまくバランスを取る方法を探るのが未来のカギになりそう。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-05-15 13:50

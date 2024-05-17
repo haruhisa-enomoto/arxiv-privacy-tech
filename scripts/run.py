@@ -21,11 +21,12 @@ query_dict = {
     "秘密計算": '(abs:"multi-party computation" OR abs:"multiparty computation")',
     "PETs": '(abs:"privacy enhancing technologies" OR abs:"privacy-enhancing technologies" OR abs:"privacy enhancing technology" OR abs:"privacy-enhancing technology")',
     "ゼロ知識証明": '(abs:"zero-knowledge" OR abs:"zero knowledge")',
+    "TEE": '(abs:"TEE" OR abs:"trusted execution environment" OR abs:"SGX" OR abs:"software guard extensions" OR abs:"TDX" OR abs:"trust domain extensions" OR abs:"SEV" OR abs:"secure encrypted virtualization")',
 }
 
 GENRE = 'AND (cat:"cs.AI" OR cat:"cs.AR" OR cat:"cs.CC" OR cat:"cs.CE" OR cat:"cs.CG" OR cat:"cs.CL" OR cat:"cs.CR" OR cat:"cs.CV" OR cat:"cs.CY" OR cat:"cs.DB" OR cat:"cs.DC" OR cat:"cs.DL" OR cat:"cs.DM" OR cat:"cs.DS" OR cat:"cs.ET" OR cat:"cs.FL" OR cat:"cs.GL" OR cat:"cs.GR" OR cat:"cs.GT" OR cat:"cs.HC" OR cat:"cs.IR" OR cat:"cs.IT" OR cat:"cs.LG" OR cat:"cs.LO" OR cat:"cs.MA" OR cat:"cs.MM" OR cat:"cs.MS" OR cat:"cs.NA" OR cat:"cs.NE" OR cat:"cs.NI" OR cat:"cs.OH" OR cat:"cs.OS" OR cat:"cs.PF" OR cat:"cs.PL" OR cat:"cs.RO" OR cat:"cs.SC" OR cat:"cs.SD" OR cat:"cs.SE" OR cat:"cs.SI" OR cat:"cs.SY" OR cat:"stats.ML")'
 
-N_DAYS = 5
+N_DAYS = 7
 
 
 def get_paper_info(paper: arxiv.Result):
@@ -65,7 +66,7 @@ if __name__ == "__main__":
     new_results_dict: dict[str, list[arxiv.Result]] = {}
 
     for key in query_dict.keys():
-        query = f"{query_dict[key]} AND submittedDate:[20240401 TO {today.strftime('%Y%m%d')}] {GENRE}"
+        query = f"{query_dict[key]} AND submittedDate:[{base_date.strftime('%Y%m%d')} TO {today.strftime('%Y%m%d')}] {GENRE}"
         search = arxiv.Search(
             query=query,
             # max_results=10,

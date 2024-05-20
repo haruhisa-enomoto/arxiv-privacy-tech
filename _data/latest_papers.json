@@ -1,228 +1,157 @@
 [
   {
-    "url": "http://arxiv.org/abs/2405.10271",
-    "title": "Automated Federated Learning via Informed Pruning",
-    "japanese_title": "インフォームドプルーニングによる自動連合学習",
+    "url": "http://arxiv.org/abs/2405.10853",
+    "title": "The Future of Large Language Model Pre-training is Federated",
+    "japanese_title": "大型言語モデル事前学習の未来は連合学習にある",
     "authors": [
-      "Christian Internò",
-      "Elena Raponi",
-      "Niki van Stein",
-      "Thomas Bäck",
-      "Markus Olhofer",
-      "Yaochu Jin",
-      "Barbara Hammer"
+      "Lorenzo Sani",
+      "Alex Iacob",
+      "Zeyu Cao",
+      "Bill Marino",
+      "Yan Gao",
+      "Tomas Paulik",
+      "Wanru Zhao",
+      "William F. Shen",
+      "Preslav Aleksandrov",
+      "Xinchi Qiu",
+      "Nicholas D. Lane"
     ],
     "categories": [
       "cs.LG",
       "cs.AI",
-      "cs.DC",
-      "cs.ET"
-    ],
-    "comment": "",
-    "summary": "- 連合学習はローカルデータを交換せずに協調学習を可能にするが、エッジデバイスでの実用化は困難\n- モデルのプルーニングはDLモデルの圧縮に有効だが、従来の手法は手作業での調整が多く最適解が得にくい\n- 本研究はAutoFLIPを提案し、ローカルクライアントとグローバルサーバーで動的にプルーニングと圧縮を行う\n- 実験で非IIDデータのシナリオにおいて、計算制約を克服し優れたグローバル収束を実現することを確認\n\n手作業じゃなくて自動でモデルを最適化できるのはすごく面白そう！エッジデバイスでも効率的に学習できるから、実用化が進みそうだね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-16T17:27:41+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.10123",
-    "title": "Asynchronous Federated Stochastic Optimization with Exact Averaging for Heterogeneous Local Objectives",
-    "japanese_title": "異種ローカル目標に対する非同期連合確率最適化と正確な平均化",
-    "authors": [
-      "Charikleia Iakovidou",
-      "Kibaek Kim"
-    ],
-    "categories": [
-      "cs.LG",
       "cs.DC"
     ],
-    "comment": "",
-    "summary": "- 連合学習（FL）は、複数のクライアントのデータを中央サーバーの調整の下で安全にモデルを訓練する手法\n- フェデレーティッド学習（FL）の主な課題は、ストラグラークライアントによる長い訓練時間と非i.i.d.なローカルデータによる訓練精度の低下\n- AREAという新しい確率的（サブ）勾配アルゴリズムを提案し、クライアントのドリフトに対して堅牢で、非同期通信を利用して収束を高速化\n- AREAは、遅延適応ステップサイズを使用せずに、遅延の長さやローカルデータセットの異質性に依存せずに収束することが保証される\n\n非同期での連合学習の可能性が広がりそうで面白そう！レスポンスの遅いクライアントにも強いアルゴリズムって魅力的だよね。",
+    "comment": "10 pages, 4 figures, pre-print",
+    "summary": "- 現在の大型言語モデルの性能は、大量のデータでの事前学習によるもの\n- 連合学習（FL）は、従来のデータセンター依存型の学習手法の限界を打開\n- FLにより、多くの機関が大規模協力してモデルを訓練可能\n- FLを用いることで、限られたリソースでも億単位のモデル学習が可能\n\n未来の大型言語モデルがいかに連合学習で進化するか見ものだね。手に届きそうな技術って感じてワクワクするよ！",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-05-16T14:22:49+00:00"
+    "published": "2024-05-17T15:27:52+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2405.10096",
-    "title": "The Effect of Quantization in Federated Learning: A Rényi Differential Privacy Perspective",
-    "japanese_title": "連合学習における量子化の効果: レーニ差分プライバシーの視点から",
+    "url": "http://arxiv.org/abs/2405.10647",
+    "title": "Cyclical Weight Consolidation: Towards Solving Catastrophic Forgetting in Serial Federated Learning",
+    "japanese_title": "循環重量統合：シリアル連合学習における破滅的忘却の解決に向けて",
     "authors": [
-      "Tianqu Kang",
-      "Lumin Liu",
-      "Hengtao He",
-      "Jun Zhang",
-      "S. H. Song",
-      "Khaled B. Letaief"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR",
-      "cs.DC"
-    ],
-    "comment": "6 pages, 5 figures, submitted to 2024 IEEE MeditCom",
-    "summary": "- 連合学習は分散データを用いたプライバシー保護機械学習の新しい手法である\n- 差分プライバシーと組み合わせることでプライバシー強化が可能で、モデル重みへのガウスノイズ追加が関与\n- 量子化を用いることで通信オーバーヘッドを軽減できるが、量子化されたガウスノイズがプライバシー保護の理解を複雑化\n- 理論と実証の結果、低量子化ビットレベルがプライバシー保護を向上させることを確認\n\n量子化がプライバシー保護にどう影響するかを探るなんてすごいね！理論と実践が一致したところも面白い。これからの連合学習の進展が楽しみだね！",
-    "topics": [
-      "連合学習",
-      "差分プライバシー"
-    ],
-    "published": "2024-05-16T13:50:46+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09903",
-    "title": "Federated Learning for Misbehaviour Detection with Variational Autoencoders and Gaussian Mixture Models",
-    "japanese_title": "変動オートエンコーダーとガウス混合モデルを用いた連合学習による異常行動検出",
-    "authors": [
-      "Enrique Mármol Campos",
-      "Aurora González Vidal",
-      "José Luis Hernández Ramos",
-      "Antonio Skarmeta"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.DC"
-    ],
-    "comment": "13 pages, 11 figures, 3 tables",
-    "summary": "- 多くの連合学習は教師あり学習で、人為的なラベル付けが必要である\n- サイバー攻撃検出では、未知の脅威を識別することが困難である\n- 本研究は、車両環境での潜在的異常行動を識別する非教師あり連合学習を提案\n- 提案手法は、公的クラウドサービスを利用し、80%を超える性能を達成している\n\nサイバーセキュリティとか車両の異常行動検出だから、未来の車社会でとっても重要そう！クラウド使ってみんなで学習するのも、いい感じだよね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-16T08:49:50+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09892",
-    "title": "Balancing Similarity and Complementarity for Federated Learning",
-    "japanese_title": "連合学習における類似性と補完性のバランス",
-    "authors": [
-      "Kunda Yan",
-      "Sen Cui",
-      "Abudukelimu Wuerkaixi",
-      "Jingfeng Zhang",
-      "Bo Han",
-      "Gang Niu",
-      "Masashi Sugiyama",
-      "Changshui Zhang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.DC"
-    ],
-    "comment": "",
-    "summary": "- モバイルやIoTシステムで、連合学習（FL）はデータを効率的に利用しつつユーザープライバシーを保護するために重要\n- FLの主要な課題は、多数のクライアントや多様なデータソースから生じる非i.i.d.データによる統計的非均一性の管理\n- 極めて重要なのは、最適な協力が必ずしも最も類似したクライアントとの協力を意味しない点\n- 提案された\\texttt{FedSaC}は、特徴分布の補完性を強化し、特徴とターゲットの相関の乖離を抑制して最適な協力を目指す\n\nこれ、なんかすごく面白そうだね！最適な協力ネットワークの構築とか、今後の技術にめっちゃ役立ちそう。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-16T08:16:19+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09839",
-    "title": "Advances in Robust Federated Learning: Heterogeneity Considerations",
-    "japanese_title": "ロバストな連合学習の進展: 異質性の考慮",
-    "authors": [
-      "Chuan Chen",
-      "Tianchi Liao",
-      "Xiaojun Deng",
-      "Zihou Wu",
-      "Sheng Huang",
-      "Zibin Zheng"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- 異質的な連合学習では、異なるデータ分布やモデル構造、タスク目標、計算能力、通信リソースが問題の核である\n- 異質性がモデル訓練の複雑さを増すため、データ、モデル、タスク、デバイス、通信の5つの観点から課題を整理\n- 既存の最先端アプローチをデータレベル、モデルレベル、アーキテクチャレベルの3つに分類し、レビュー\n- 異質的連合学習環境におけるプライバシー保護戦略を詳述し、今後の研究方向を提示\n\n異なるクライアントでも協力できるのすごくない？そんな異質な環境でもうまくやれる技術、未来の連合学習が楽しみだね！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-16T06:35:42+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09777",
-    "title": "Rethinking Barely-Supervised Segmentation from an Unsupervised Domain Adaptation Perspective",
-    "japanese_title": "教師なしドメイン適応の観点から再考するほぼ教師なしセグメンテーション",
-    "authors": [
-      "Zhiqiang Shen",
-      "Peng Cao",
-      "Junming Su",
-      "Jinzhu Yang",
-      "Osmar R. Zaiane"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "comment": "",
-    "summary": "- 医療画像セグメンテーションのBSS問題を調査し、単一のスライスアノテーションと多数のラベルなし画像を含むデータセットを使用\n- 従来のBSSメソッドは画像レジストレーションに依存し信頼性の低い擬似ラベルを生成\n- 新たに提案されたメソッドでは単一アノテーションを用い画像レジストレーションを用いないBSSをUDAP問題として扱う\n- この手法は左心房セグメンテーションで80.77%のダイススコアを達成し、SOTAを大幅に上回る性能を示した\n\n医療画像の新しい教師なし技術ってすごく面白そう！単一スライスでそんなに正確にできるなんて、ちょっと未来が変わりそうな予感がするね！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-05-16T02:46:19+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09771",
-    "title": "Harmonizing Generalization and Personalization in Federated Prompt Learning",
-    "japanese_title": "連合プロンプト学習における一般化と個別化の調和",
-    "authors": [
-      "Tianyu Cui",
-      "Hongxia Li",
-      "Jingya Wang",
-      "Ye Shi"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- 連合プロンプト学習（FPL）は、大規模な事前学習済み視覚言語モデル（VLM）を連合学習に組み込む。\n- データの異質性に応じて各クライアント間の個別化が必要だが、過剰な個別化はモデルの一般化能力を損なう。\n- FedPGPは、CLIPを用いて知識ガイダンスを提供し、低ランク適応で個別化を実現することで、一般化と個別化のバランスを取る。\n- 実験結果から、FedPGPが異なるデータセットでの一般化と個別化のバランスに優れていることが示された。\n\n新しい技術を使って個別化と一般化のバランスを取る研究ってすごくおもしろそう！視覚言語モデルが連合学習にどんな影響を与えるのか、結果が楽しみだよね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-05-16T02:22:09+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09721",
-    "title": "DP-RuL: Differentially-Private Rule Learning for Clinical Decision Support Systems",
-    "japanese_title": "DP-RuL: 臨床意思決定支援システムのための差分プライバシー規則学習",
-    "authors": [
-      "Josephine Lamp",
-      "Lu Feng",
-      "David Evans"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "",
-    "summary": "- 患者データを使用する際のプライバシー懸念が存在する\n- ローカルな差分プライバシー（LDP）を用いた人口規則セットの学習フレームワークを開発\n- ルール発見プロトコルは、モンテカルロ木探索（MCTS）法とLDPを統合し、ルール構造を発見\n- 適応的な予算配分方法により、プライバシーと有用性のトレードオフを改善\n\nプライバシーを保ったまま、効果的な意思決定をサポートする技術が興味深いよね！未来の医療がもっと安全で便利になりそう♡",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-05-15T22:31:29+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2405.09597",
-    "title": "When AI Eats Itself: On the Caveats of Data Pollution in the Era of Generative AI",
-    "japanese_title": "AIが自らを食う時代：生成AI時代のデータ汚染の注意点について",
-    "authors": [
-      "Xiaodan Xing",
-      "Fadong Shi",
-      "Jiahao Huang",
-      "Yinzhe Wu",
-      "Yang Nan",
-      "Sheng Zhang",
-      "Yingying Fang",
-      "Mike Roberts",
-      "Carola-Bibiane Schönlieb",
-      "Javier Del Ser",
-      "Guang Yang"
+      "Haoyue Song",
+      "Jiacheng Wang",
+      "Liansheng Wang"
     ],
     "categories": [
       "cs.LG",
       "cs.AI"
     ],
+    "comment": "12 pages, 8 figures",
+    "summary": "- シリアル連合学習は異なるネットワーク速度や中央制御の懸念に対する代替解決策\n- シリアルFLの主な問題点はパフォーマンスの変動と収束の低さ\n- 提案された循環重量統合（CWC）はモデルの更新を管理し重要なパラメータの急激な変化を防ぐ\n- CWCは反復学習の変動を抑え、収束性能を一貫して強化する評価結果\n\nシリアルFLにも救いがあるんだね！次世代の連合学習がますます実用的になりそうでワクワクするな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-17T09:20:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.10622",
+    "title": "Differentially Private Machine Learning-powered Combinatorial Auction Design",
+    "japanese_title": "差分プライバシーを利用した機械学習による組み合わせオークション設計",
+    "authors": [
+      "Arash Jamshidi",
+      "Seyed Mohammad Hosseini",
+      "Seyed Mahdi Noormousavi",
+      "Mahdi Jafari Siavoshani"
+    ],
+    "categories": [
+      "cs.GT",
+      "cs.IT",
+      "math.IT"
+    ],
     "comment": "",
-    "summary": "- 生成AIがリアルな出力を生む一方で、合成データの効果が常に良好とは限らない\n- 合成データと実データのバランスは難しく、戦略的な使用が必要\n- 合成データの無秩序な拡散がデータセット汚染を引き起こし、将来の性能や倫理問題を懸念させる\n- 合成データの無分別な使用がもたらす影響を調査し、少モード情報融合への悪影響も考察\n\n生成AIが自己生成データに頼りすぎると、パフォーマンスがどうなるか不安だよね。うまくバランスを取る方法を探るのが未来のカギになりそう。",
+    "summary": "- 差分プライバシーの原理に基づいた新たな組み合わせオークション手法を提案\n- 提案手法は、入札者が真の評価関数を明らかにするインセンティブを提供\n- 元のオークションの効率性を保持し、高い社会的福利を実現\n- 差分プライバシーのエクスポネンシャルメカニズムを使用し、漸近的および非漸近的状況での応用を検討\n\nオークションの効率性も保ちながら、プライバシーと真実性を両立するなんてすごい！これ、実際のオークションで導入されたらどうなるか楽しみだね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-05-17T08:36:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.10521",
+    "title": "Generative AI for Secure and Privacy-Preserving Mobile Crowdsensing",
+    "japanese_title": "プライバシー保護型モバイルクラウドセンシングのための生成的AI",
+    "authors": [
+      "Yaoqi Yang",
+      "Bangning Zhang",
+      "Daoxing Guo",
+      "Hongyang Du",
+      "Zehui Xiong",
+      "Dusit Niyato",
+      "Zhu Han"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 生成的AIはデータ生成と合成で注目を集めており、元データを代替する合成データ生成でプライバシーリスクを低減\n- 生成的AIのSPPMCSへの統合は低コスト、高適応性から有望である\n- 生成的AIを活用したSPPMCSでのセキュリティ問題（悪意のあるデータ注入、不正承認、スペクトル操作など）と解決策を検討\n- 生成的AIによるデータ保護フレームワークを提案し、シミュレーションでその有効性を実証\n\nデータ生成でプライバシー保護なんて、未来って感じだよね！技術が進んで、安全なデータ収集がもっと簡単になりそうで楽しみ！",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-05-15T13:50:23+00:00"
+    "published": "2024-05-17T04:00:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.10513",
+    "title": "Federated Learning With Energy Harvesting Devices: An MDP Framework",
+    "japanese_title": "エネルギー収集デバイスを用いた連合学習：MDPフレームワーク",
+    "authors": [
+      "Kai Zhang",
+      "Xuanyu Cao"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "comment": "",
+    "summary": "- エッジデバイスでの局所的トレーニングとパラメータサーバーとの情報交換が大きなエネルギー消費を引き起こす\n- バッテリー制限のあるエッジデバイスのエネルギー枯渇が大きな課題で、学習性能に影響\n- エネルギー収集技術を利用して、周囲のエネルギーを抽出しエッジデバイスを継続的に駆動\n- マルコフ決定過程（MDP）を用いた最適な送信ポリシー導出と低複雑度アルゴリズムの提案\n\nエネルギー収集を連合学習に活用するって面白いね！これでバッテリー切れの心配なく、もっと長くデバイスが動けばいいなって思ったよ。これからのお勉強に活かせそうな内容だね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-17T03:41:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.10476",
+    "title": "Analysis, Modeling and Design of Personalized Digital Learning Environment",
+    "japanese_title": "パーソナライズされたデジタル学習環境の分析、モデル化および設計",
+    "authors": [
+      "Sanjaya Khanal",
+      "Shiva Raj Pokhrel"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "comment": "IEEE Trans on Education, 2024",
+    "summary": "- 本研究は、革新的なプライベート学習インテリジェンス（PLI）フレームワークによる新しいデジタル学習環境（DLE）を開発\n- PLIフレームワークは連合学習技術を活用し、個々の学習者のためのパーソナライズされた学習モデルを自動的に構築・改良\n- DLE内でのPLIの統合により、リアルタイムでのパーソナライズされた学習体験が可能\n- 連合学習の導入で学習システムの基盤を確立し、パーソナライズド学習の提供を変革\n\n個々の学習者に合わせたリアルタイムの学習モデルって未来感あるよね！実装とコードが公開されるし、応用範囲も広そうでワクワクする～！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-17T00:26:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.10376",
+    "title": "Dealing Doubt: Unveiling Threat Models in Gradient Inversion Attacks under Federated Learning, A Survey and Taxonomy",
+    "japanese_title": "疑念への対処: 連合学習における勾配逆転攻撃の脅威モデルの解明、調査と分類",
+    "authors": [
+      "Yichuan Shi",
+      "Olivera Kotevska",
+      "Viktor Reshniak",
+      "Abhishek Singh",
+      "Ramesh Raskar"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）は、非集中的でプライバシーを保護する機械学習の主要パラダイムとして登場\n- 勾配逆転攻撃（GIA）が、FLでの勾配更新がプライベートなトレーニングサンプルの情報を漏洩しうることを示している\n- 現存するGIAの調査は、誠実だが好奇心旺盛なサーバーの脅威モデルに焦点をあてている\n- 本研究では、特に悪意のあるサーバーやクライアントの脅威モデルに重きを置いた新たなGIA分類を提案\n\n脅威モデルに焦点を当てた新しい分類って、現実の攻撃への対策に活かせそう。未来の連合学習の安全性がもっと高まるといいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-05-16T18:15:38+00:00"
   }
 ]

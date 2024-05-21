@@ -400,7 +400,18 @@ defaults:
       share: false
       related: false
       show_date: true
-
+  - scope:
+      path: ""
+      type: tee
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
 
 collections:
   all:
@@ -431,6 +442,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   zkp:
+    output: true
+    permalink: /:collection/:path/
+  tee:
     output: true
     permalink: /:collection/:path/
 

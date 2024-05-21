@@ -18,6 +18,8 @@ main:
     url: /pets/
   - title: SSI/DID/VC
     url: /ssi/
+  - title: TEE
+    url: /tee/
   - title: FTL
     url: /ftl/
 

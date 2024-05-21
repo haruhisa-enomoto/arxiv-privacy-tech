@@ -47,6 +47,7 @@ topic_ja_to_en = {
     "PETs": "pets",
     "SSI/DID/VC": "ssi",
     "ゼロ知識証明": "zkp",
+    "TEE": "tee",
     "全て": "all",
 }
 topic_en_to_ja = {v: k for k, v in topic_ja_to_en.items()}

@@ -1,5 +1,222 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.03379",
+    "title": "How to Construct Quantum FHE, Generically",
+    "japanese_title": "量子完全準同型暗号の一般的構築方法",
+    "authors": [
+      "Aparna Gupte",
+      "Vinod Vaikuntanathan"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 古典的な完全準同型暗号から量子完全準同型暗号（QFHE）を構築\n- 従来の研究と異なり、非ブラックボックスの使用を避ける方法を提供\n- 二重モードトラップドア関数を利用し、クライアントを古典的に変換\n- 群作用からの新しい二重モードトラップドア関数を示す\n\n量子暗号の進展が一般的にも適用できたら未来がすごく楽しみになるね！こんな技術がもっと広がると、セキュリティがもっと強くなり全然違う世界が見えそう！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-06-05T15:32:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.03146",
+    "title": "Tiny models from tiny data: Textual and null-text inversion for few-shot distillation",
+    "japanese_title": "小さなデータから小さなモデルへ: 少数ショット蒸留のためのテキストおよびヌルテキスト反転",
+    "authors": [
+      "Erik Landolsi",
+      "Fredrik Kahl"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "I.4.0; I.2.6; I.2.10"
+    ],
+    "comment": "21 pages (9 main pages + references and appendix)",
+    "summary": "- 少数ショット画像分類は、非常に少ない訓練例で画像を分類するもので、多くのデータが必要\n- 本研究では、新しい拡散モデル反転技術（TINT）を提案。この方法は、テキスト反転の多様性とヌルテキスト反転の特異性を組み合わせたもの\n- 少数ショット蒸留パイプラインにおいて、TINTを使用することで、小さな学生モデルがおいて最先端の精度を実現\n- 合成データ生成を用いる手法は計算負荷が高いため、エピソード数とクエリ例数が精度推定の分散にどう影響するかを理論的に分析し、評価の計算負荷を削減\n\n少数のデータで高精度なモデルが作れるなんて超クール！合成データの生成がいかに役に立つか、もっと知りたくなっちゃう。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-05T11:01:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.03082",
+    "title": "Learning Solutions of Stochastic Optimization Problems with Bayesian Neural Networks",
+    "japanese_title": "ベイジアンニューラルネットワークを用いた確率最適化問題の学習",
+    "authors": [
+      "Alan A. Lahoud",
+      "Erik Schaffernicht",
+      "Johannes A. Stork"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 現実世界の設定では、多くのパラメータが未知または不確実なことが多い\n- 予測の不確実性をモデル化するためにベイジアンニューラルネットワーク(BNN)を利用\n- BNNと数理ソルバーの微分可能な性質を活用し、2つの学習方法を提案\n- 提案手法は合成データと実データの評価で決定リグレットが低い（良好である）ことを示す\n\nベイジアンニューラルネットワークで予測の不確実性を取り入れるなんて、斬新じゃん？実データで評価してるから、現実に応用できそうってとこもいいよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-05T09:11:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.03078",
+    "title": "Towards Federated Domain Unlearning: Verification Methodologies and Challenges",
+    "japanese_title": "連合ドメイン消去に向けて：検証手法と課題",
+    "authors": [
+      "Kahou Tam",
+      "Kewei Xu",
+      "Li Li",
+      "Huazhu Fu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "16 pages, 12 figures",
+    "summary": "- 連合学習は共同モデルトレーニングのための強力なツールであるが、RTBFの導入は新たな課題を生む\n- 従来の連合学習の消去方法は、多ドメインシナリオでは不十分で、モデルの精度を低下させる\n- 既存の方法は、ドメイン固有データの影響を無視するため、特に深層層での学習内容が消去される\n- 新たな評価方法を提案し、ドメイン固有データの消去を正確に検証し、モデルの整合性と性能を維持\n\nRTBFってどんなんだろう？必要だよね～。でも、複数の分野で使うなら、一筋縄ではいかないんだな。この論文、そこに挑戦するのめっちゃ面白そう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-05T09:05:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02958",
+    "title": "PrE-Text: Training Language Models on Private Federated Data in the Age of LLMs",
+    "japanese_title": "PrE-Text: LLM時代におけるプライベートな連合データでの言語モデルのトレーニング",
+    "authors": [
+      "Charlie Hou",
+      "Akshat Shrivastava",
+      "Hongyuan Zhan",
+      "Rylan Conway",
+      "Trang Le",
+      "Adithya Sagar",
+      "Giulia Fanti",
+      "Daniel Lazar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.DC"
+    ],
+    "comment": "ICML 2024 (Oral)",
+    "summary": "- オンデバイス学習は多くの課題があり、大型モデルの学習には適していない\n- PrE-Textは差分プライバシー合成データを用いてこれらの課題を解決\n- 小型モデルをPrE-Textで学習させると、オンデバイスよりも高性能\n- 大型モデルの微調整もプライベートデータで改善されることが示された\n\nPrE-Textは差分プライバシーを駆使して、通信量や計算量を大幅に削減してるんだって！これからのプライバシー技術にとって超期待できるよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-05T05:27:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02877",
+    "title": "FedStaleWeight: Buffered Asynchronous Federated Learning with Fair Aggregation via Staleness Reweighting",
+    "japanese_title": "FedStaleWeight: 停滞の重み付けによるフェアな集約を実現するバッファード非同期連合学習",
+    "authors": [
+      "Jeffrey Ma",
+      "Alan Tu",
+      "Yiling Chen",
+      "Vijay Janapa Reddi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- FLはプライバシーを保ちつつ分散データを活用するが、性能やスケーラビリティの課題がある\n- 非同期FLはアプローチとして有望だが、収束保証や計算異質性に関する公平性が課題\n- FedStaleWeightは平均停滞時間を利用して、非同期クライアント更新の公平な重み付けを実現\n- 理論的収束保証を提供し、FedBuffと比較して公平性と収束速度の面で優れていることを実証\n\n公平性と収束速度を両立させる新しい方法、気になるよね。FedStaleWeightの実践検証も楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-05T02:52:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02797",
+    "title": "Auditing Privacy Mechanisms via Label Inference Attacks",
+    "japanese_title": "ラベル推論攻撃によるプライバシー機構の監査",
+    "authors": [
+      "Róbert István Busa-Fekete",
+      "Travis Dick",
+      "Claudio Gentile",
+      "Andrés Muñoz Medina",
+      "Adam Smith",
+      "Marika Swanberg"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 再構築優位性測度を提案し、ラベルのプライバシー保護機構を監査する\n- 再構築優位性測度は攻撃者が真のラベルを推測する能力の増加を定量化する\n- この測度は理論的モデルと実験による評価で効果を確認\n- 実験では差分プライバシー手法が他のアプローチより優位に立つ\n\nこれめっちゃ面白そう！差分プライバシーの手法がやっぱり強いんだね。新しいプライバシー技術の進化に期待しちゃうよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T21:48:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02794",
+    "title": "PriME: Privacy-aware Membership profile Estimation in networks",
+    "japanese_title": "PriME: ネットワークにおけるプライバシー考慮のメンバーシッププロファイル推定",
+    "authors": [
+      "Abhinav Chakraborty",
+      "Sayak Chatterjee",
+      "Sagnik Nandy"
+    ],
+    "categories": [
+      "stat.ME",
+      "cs.SI",
+      "math.ST",
+      "stat.TH"
+    ],
+    "comment": "",
+    "summary": "- 個々のエッジのプライバシーを保持しながら、ネットワークの頂点のコミュニティメンバーシップ確率を推定する新しい手法を提案\n- $\\varepsilon$-エッジローカル差分プライバシーフレームワークに基づき、対称的なエッジフリップ機構とスペクトルクラスタリングを用いた最適なプライベートアルゴリズムを導入\n- 推定リスクの包括的な分析を行い、プライバシー制約下での手法の最適性を最小最大リスクの下限値で示す\n- 数値シミュレーションと実データを使って方法の性能を検証することで、実際の適用性を明らかに\n\n個々のエッジのプライバシーを保ちながらネットワーク解析するの面白そう！実データでの検証もしてるから、本当に使えそうだね。どこで実践されるか楽しみだな～",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T21:43:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02789",
+    "title": "Private Stochastic Convex Optimization with Heavy Tails: Near-Optimality from Simple Reductions",
+    "japanese_title": "重い尾を持つプライベート確率凸最適化: 単純な削減からのほぼ最適性",
+    "authors": [
+      "Hilal Asi",
+      "Daogao Liu",
+      "Kevin Tian"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 重い尾を持つ勾配で差分プライベートな確率凸最適化（DP-SCO）を研究\n- 新しい削減ベースのアプローチで重い尾の設定で最初の最適レートを達成\n- 既知のリプシッツ定数の仮定下で最適アルゴリズムを提案\n- 平滑関数のためにほぼ線形時間のアルゴリズムも提示\n\n重い尾を持つデータを使っても差分プライバシーを確保できる方法を探るなんて面白そう！しかも、効率的なアルゴリズムを取り入れてるのがすごいね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T21:26:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02736",
+    "title": "Synthetic Data Outliers: Navigating Identity Disclosure",
+    "japanese_title": "合成データ外れ値：アイデンティティ開示の航路",
+    "authors": [
+      "Carolina Trindade",
+      "Luís Antunes",
+      "Tânia Carvalho",
+      "Nuno Moniz"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 深層学習モデルが合成データ生成において主導的役割を果たす\n- 合成データが元のデータに酷似しているため、個人情報保護の問題が生じる\n- 再同定リスクの影響を無視しがちで、特に外れ値のプライバシーに関する研究が少ない\n- 差分プライバシーなどの追加対策は再同定を防ぐが、データの有用性が減少する\n\n外れ値にも気を配るの、大事なんだね。個人情報の保護とデータの有用性のバランスってすごく難しいみたい。でも、未来のプライバシー技術に期待が持てる内容だったよ！",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T19:35:44+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.02502",
     "title": "Singular Subspace Perturbation Bounds via Rectangular Random Matrix Diffusions",
     "japanese_title": "直交行列の摂動境界: 長方形ランダム行列の拡散によるアプローチ",
@@ -155,6 +372,26 @@
     "published": "2024-06-04T14:34:13+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.02644",
+    "title": "Differentially private exact recovery for stochastic block models",
+    "japanese_title": "確率ブロックモデルにおける差分プライバシーを用いた正確なコミュニティ復元",
+    "authors": [
+      "Dung Nguyen",
+      "Anil Vullikanti"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.DS"
+    ],
+    "comment": "Accepted by ICML 2024",
+    "summary": "- 確率ブロックモデル（SBM）はコミュニティ検出アルゴリズムで広く研究されている\n- SBMのコミュニティ構造をプライバシー保護下で復元する問題に焦点を当てる\n- 非対称SBM、一般構造SBM、検閲SBMの3つのバージョンについて条件を導出\n- 提案するプライベートアルゴリズムは多項式時間で、非プライベートな設定に匹敵する復元閾値を持つ\n\n差分プライバシーを保持しつつ、効率的にコミュニティ復元ができるなんて、未来のネットワーク解析に期待大！これで安心してデータ使えるかもね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T12:38:05+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.02209",
     "title": "Automatic nonstationary anisotropic Tikhonov regularization through bilevel optimization",
     "japanese_title": "バイレベル最適化による非定常異方性ティホノフ正則化の自動化",
@@ -239,6 +476,26 @@
     "published": "2024-06-04T09:18:20+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.03402",
+    "title": "Mixed-Precision Over-The-Air Federated Learning via Approximated Computing",
+    "japanese_title": "近似計算による混合精度の無線連合学習",
+    "authors": [
+      "Jinsheng Yuan",
+      "Zhuangkun Wei",
+      "Weisi Guo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 既存のOTA-FL研究は均一なクライアント計算精度を前提としている課題がある\n- エネルギー効率と計算効率のためにビット精度を調整する近似計算（AxC）を利用する提案\n- サーバとクライアントの量子化性能を最適化し、異なるエッジコンピューティング能力に対応する\n- 物理層のOTA集約と互換性のある異種の勾配解像度のOTA-FL変調スキームを開発\n\nこの研究すごーい！エネルギー効率を考えた新しいアプローチで、クライアントの性能を最大限に活かす未来が見えるね。早く試してみたいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-04T09:07:45+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.02100",
     "title": "Exploring Mathematical Extrapolation of Large Language Models with Synthetic Data",
     "japanese_title": "合成データを用いた大規模言語モデルの数学的外挿の探求",
@@ -306,6 +563,34 @@
       "差分プライバシー"
     ],
     "published": "2024-06-04T04:48:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.03404",
+    "title": "ST-DPGAN: A Privacy-preserving Framework for Spatiotemporal Data Generation",
+    "japanese_title": "ST-DPGAN: 時空間データ生成のためのプライバシー保護フレームワーク",
+    "authors": [
+      "Wei Shao",
+      "Rongyi Zhu",
+      "Cai Yang",
+      "Chandra Thapa",
+      "Muhammad Ejaz Ahmed",
+      "Seyit Camtepe",
+      "Rui Zhang",
+      "DuYong Kim",
+      "Hamid Menouar",
+      "Flora D. Salim"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 時空間データは個人通信や金融取引などに多く存在し、しばしば機密情報を含む\n- 提案手法はGraph-GANベースのモデルで、時空間データをプライバシー保護しつつ生成\n- 空間と時間のアテンションブロックや時空間デコンボリューション構造を統合し、差分プライバシーを実現\n- 実験では提案手法が3つの実データセットで効果を示し、データの有用性を保ちながら予測モデルの性能を維持\n\nこの手法を使えば、プライバシーをしっかり守りつつデータの有用性も維持できちゃうんだね！未来の技術がどんどん身近に感じられてワクワクする！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-04T04:43:54+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.01950",
@@ -608,6 +893,29 @@
     "published": "2024-06-03T08:48:49+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.02613",
+    "title": "ACCO: Accumulate while you Communicate, Hiding Communications in Distributed LLM Training",
+    "japanese_title": "ACCO：通信中の集積、分散LLMトレーニングにおける通信の隠蔽",
+    "authors": [
+      "Adel Nabli",
+      "Louis Fournier",
+      "Pierre Erbacher",
+      "Louis Serrano",
+      "Eugene Belilovsky",
+      "Edouard Oyallon"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデル（LLM）のトレーニングは分散実装に依存し、多数のGPUが並行して確率的勾配を計算\n- データ並列設定での勾配同期は通信オーバーヘッドを引き起こし、効果的な並列化を妨げる\n- 提案するACCOは、ワーカー間の通信を隠しながらオプティマイザの状態を分散させ、メモリ効率を向上\n- ACCOは勾配計算と通信を重ね合わせ、通信遅延を軽減し従来の分散最適化に比べて高速収束を実現\n\n並列処理の通信オーバーヘッドをどう減らすかってすごく重要だよね！ACCOみたいな新技術で効率が上がれば、もっと大規模なモデルもお手軽に扱えるようになりそう。未来のAIには期待が高まるね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-03T08:23:45+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.01085",
     "title": "FedAdOb: Privacy-Preserving Federated Deep Learning with Adaptive Obfuscation",
     "japanese_title": "FedAdOb: 適応的難読化によるプライバシー保護型連合深層学習",
@@ -783,6 +1091,25 @@
     "published": "2024-06-03T03:39:07+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.02608",
+    "title": "PPINtonus: Early Detection of Parkinson's Disease Using Deep-Learning Tonal Analysis",
+    "japanese_title": "PPINtonus: 深層学習を用いたパーキンソン病早期検出のためのトーン解析",
+    "authors": [
+      "Varun Reddy"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- PPINtonusは、深層学習によるトーン解析を用いたパーキンソン病の早期検出システム\n- 条件付き生成対向ネットワークで合成データを生成し、データセットを強化\n- 120秒の音声テストとPRAAT音声学ソフトを組み合わせ、92.5%の高精度を達成\n- 非侵襲かつ効率的な方法で、発展途上国での早期診断と生活の質向上に寄与\n\nこの技術、発展途上国でも使えたらすごくイイと思わない？患者さんが元気に生活できるようになったら、嬉しいよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-03T01:07:42+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.00846",
     "title": "Local Methods with Adaptivity via Scaling",
     "japanese_title": "適応性を持つローカルメソッドによるスケーリング",
@@ -875,6 +1202,31 @@
     "published": "2024-06-02T13:13:46+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.02605",
+    "title": "A Novel Defense Against Poisoning Attacks on Federated Learning: LayerCAM Augmented with Autoencoder",
+    "japanese_title": "連合学習に対する毒性攻撃防御策の新手法：オートエンコーダを用いたLayerCAM",
+    "authors": [
+      "Jingjing Zheng",
+      "Xin Yuan",
+      "Kai Li",
+      "Wei Ni",
+      "Eduardo Tovar",
+      "Jon Crowcroft"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）における毒性攻撃を防ぐため、LayerCAMとオートエンコーダ（AE）を統合した新防御戦略LayerCAM-AEを提案。\n- LayerCAM-AEは各ローカルモデル更新のヒートマップを生成し、よりコンパクトな視覚形式に変換することで検出能力を向上。\n- 誤検出リスクを軽減するため、複数回の通信ラウンドでヒートマップが一貫して疑わしい場合にマリシャスモデルとみなす投票アルゴリズムを開発。\n- SVHNおよびCIFAR-100データセットでの実験結果、LayerCAM-AEはResNet-50およびREGNETY-800MFよりも高い検出率とテスト精度を示し、FL性能を向上させる。\n\nこの研究は連合学習における毒性攻撃の検出精度を大幅に向上できるなんてすごく未来が明るいね！これからのセキュリティ対策がどう進化していくのか、ワクワクしちゃうな！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-02T12:37:12+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.00605",
     "title": "LongSkywork: A Training Recipe for Efficiently Extending Context Length in Large Language Models",
     "japanese_title": "LongSkywork: 大規模言語モデルのコンテキスト長を効率的に延長するためのトレーニングレシピ",
@@ -927,6 +1279,26 @@
       "連合学習"
     ],
     "published": "2024-06-01T22:40:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02599",
+    "title": "Privacy-Aware Randomized Quantization via Linear Programming",
+    "japanese_title": "線形プログラミングによるプライバシー対応ランダム化量子化",
+    "authors": [
+      "Zhongteng Cai",
+      "Xueru Zhang",
+      "Mohammad Mahdi Khalili"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシー機構は個人情報保護に広く使われるが、主に連続出力向けに設計されている\n- 離散値が必要なシナリオでは、既存の量子化機構はバイアスがあるか、精度-プライバシートレードオフが劣る\n- 本研究ではバイアスがなく差分プライバシーを提供する新しい量子化機構を提案する\n- 提案する量子化機構は高い自由度があり、既存の機構を特別なケースとして含むことができる\n\n新しい量子化機構が提案されてて、ほんとに効果あるのか実験で見せてくれるの、わくわくするよね！私たちもデータを使うときにもっと安心できる道が増えるかも♪",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-01T18:40:08+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.00519",
@@ -1363,6 +1735,25 @@
       "合成データ"
     ],
     "published": "2024-05-31T03:26:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.02587",
+    "title": "Capturing Climatic Variability: Using Deep Learning for Stochastic Downscaling",
+    "japanese_title": "気候変動の捉え方：確率的ダウンスケーリングにおける深層学習の利用",
+    "authors": [
+      "Kiri Daust",
+      "Adam Monahan"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "Submitted to Artificial Intelligence for the Earth Systems AMS   Journal",
+    "summary": "- 気候変動に対応するためには、正確な地域気候情報が必要であり、計算が難しい問題である\n- 生成的敵対ネットワーク（GAN）が気候変数の効率的なダウンスケーリングに利用されている\n- GANの確率的キャリブレーションを改善するため、ネットワーク内のノイズ注入、学習プロセスの調整、確率的損失メトリックの使用を提案\n- 最良のモデルは、全バリエーションを捉える能力が向上し、極端な気象イベントの特定に優れる\n\nGANを使って気候の微妙な変動も捉えられるんだって！どんどん精度が上がって、将来の気候予測がもっと正確になりそうね。気候変動への適応策もこれからさらに進みそうでワクワクするね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-05-31T03:04:10+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2405.20589",

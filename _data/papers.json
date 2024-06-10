@@ -1,5 +1,339 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.05132",
+    "title": "3D-GRAND: Towards Better Grounding and Less Hallucination for 3D-LLMs",
+    "japanese_title": "3D-GRAND: 3D-LLMにおけるより良いグラウンディングと幻覚の削減に向けて",
+    "authors": [
+      "Jianing Yang",
+      "Xuweiyi Chen",
+      "Nikhil Madaan",
+      "Madhavan Iyengar",
+      "Shengyi Qian",
+      "David F. Fouhey",
+      "Joyce Chai"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "comment": "Project website: https://3d-grand.github.io",
+    "summary": "- 3D-LLMの発展には言語と3Dシーンのデンスなグラウンディングが必要\n- 40,087の家庭シーンと620万のシーン言語指示を含む3D-GRANDを紹介\n- 3D-GRANDでの指示チューニングがグラウンディング能力を向上させ、幻覚を削減\n- 3D-POPEベンチマークで公平な比較を可能にし、シム・トゥ・リアルの効果も示す\n\nシム・トゥ・リアルって方向性が未来感あるよね！リアルな家庭環境のデータセットを使うって、どんなロボットが現れるのかワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T17:59:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.05053",
+    "title": "Hints-In-Browser: Benchmarking Language Models for Programming Feedback Generation",
+    "japanese_title": "Hints-In-Browser: プログラミングフィードバック生成のための言語モデルのベンチマーク",
+    "authors": [
+      "Nachiket Kotalwar",
+      "Alkis Gotovos",
+      "Adish Singla"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 言語モデルを使ってプログラミング教育のフィードバックとヒントを生成し、教育の質を向上させる\n- 実世界の教育展開においては、質だけでなくコスト、時間、データプライバシーも重要な評価基準\n- ブラウザ内推論によるモデル実行でコスト削減とデータプライバシーを改善\n- GPT-4生成の合成データに基づいた微調整で、小型モデルのフィードバック質を向上\n\nブラウザだけでこんなに多機能な教育支援ができるなんてすごいね！データプライバシーもしっかり考えられてて安心。まさに未来の教育だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T16:22:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04981",
+    "title": "The Price of Implicit Bias in Adversarially Robust Generalization",
+    "japanese_title": "敵対的頑健性の一般化における暗黙のバイアスのコスト",
+    "authors": [
+      "Nikolaos Tsilivis",
+      "Natalie Frank",
+      "Nathan Srebro",
+      "Julia Kempe"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 敵対的摂動下での分類問題において、特定の摂動集合に対して理想的な正則化を検討\n- 頑健なERMにおける最適化の暗黙のバイアスがモデルの頑健性に大きく影響することを示す\n- その影響が最適化アルゴリズムやアーキテクチャを介して発生する2つの方法を特定\n- 合成データを用いたシミュレーションと深層ニューラルネットワークを用いた実験で検証\n\n敵対的環境でも強いモデルを作るためのポイントが詰まってる！これからのAI研究に役立ちそうでワクワクするね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T14:44:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04890",
+    "title": "Enhancing Indoor Temperature Forecasting through Synthetic Data in Low-Data Environments",
+    "japanese_title": "低データ環境における合成データを活用した室内温度予測の強化",
+    "authors": [
+      "Zachari Thiry",
+      "Massimiliano Ruocco",
+      "Alessandro Nocente",
+      "Michail Spitieris"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 室内温度予測はHVAC制御の効率化に重要であるが、データ不足が課題となっている\n- 実際のデータは標準運転時のものが多く、極端な状況のデータは取得困難\n- 合成データ生成技術を活用し、実データと融合することで予測モデルの精度を向上\n- 合成データの利用により、データ取得のコストやトレーニングのばらつきを緩和できる\n\n実データだけじゃなくて合成データも使うことで、もっと正確に予測できるって未来が広がるね！少ないデータでも効果的に活用できるなんて、エコだし地球にも優しいってステキ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T12:36:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04868",
+    "title": "Perturb-and-Project: Differentially Private Similarities and Marginals",
+    "japanese_title": "撹乱と射影: 差分プライバシーを有する類似度と周辺分布",
+    "authors": [
+      "Vincent Cohen-Addad",
+      "Tommaso d'Orsi",
+      "Alessandro Epasto",
+      "Vahab Mirrokni",
+      "Peilin Zhong"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.DS",
+      "F.2; G.3"
+    ],
+    "comment": "21 ppages, ICML 2024",
+    "summary": "- 入力撹乱フレームワークを再検討し、入力にノイズを追加し、射影してデータセット空間に戻す手法を提案\n- 新しい効率的なアルゴリズムを設計し、ペアワイズコサイン類似度をプライベートにリリース\n- $k$-ウェイ周辺クエリを算出する新しいアルゴリズムを開発し、以前の研究では難しかった$k$が偶数の場合もカバー\n- $t$-スパースデータセットに結果を拡張し、特定の条件で強力な保証を提供\n\nデータセットにノイズ加えても使える情報を保つことに成功って、すごいよね。差分プライバシーの新技術がどこまで進化するのかワクワクしちゃう。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-07T12:07:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04845",
+    "title": "FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models",
+    "japanese_title": "FedLLM-Bench: 連合学習で大規模言語モデルを評価するための現実的なベンチマーク",
+    "authors": [
+      "Rui Ye",
+      "Rui Ge",
+      "Xinyu Zhu",
+      "Jingyi Chai",
+      "Yaxin Du",
+      "Yang Liu",
+      "Yanfeng Wang",
+      "Siheng Chen"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "comment": "22 pages",
+    "summary": "- 現在の連合学習のデータセットとベンチマークは人工的であり、現実的なシナリオを捉えられていない\n- FedLLM-Benchは8つのトレーニング方法、4つのトレーニングデータセット、6つの評価指標を含む\n- 提案されたデータセットは多言語や質、量、指示、長さなどの多様性を含んでいる\n- FedLLM-Benchは実験を通じて現実的な洞察を提供し、連合学習コミュニティに利益をもたらす\n\nこの論文、おもしろそう！連合学習で色々なシナリオを再現できるなんて、これからの研究に役立ちそうだよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-07T11:19:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04827",
+    "title": "Black Box Differential Privacy Auditing Using Total Variation Distance",
+    "japanese_title": "ブラックボックス差分プライバシー監査を総変動距離を用いて実施",
+    "authors": [
+      "Antti Koskela",
+      "Jafar Mohammadi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 機械学習モデルの差分プライバシー保証を、トレーニングに使わないデータセットで監査する方法を提案\n- スコア関数として訓練中に使用した損失関数を用い、訓練データとホールドアウトデータのスコア差分を評価\n- メタ情報を使って、これらのスコア差分を$\\varepsilon,\\delta$-保証に変換し、下界を推定\n- ヒストグラムに基づく単純な密度推定法で総変動距離を推定し、試行数に応じた誤差率を示す\n\n差分プライバシーの評価が実験で検証されていてホント興味深い！データセットを使った具体的な改善も期待できるし、実務でも役立ちそうだよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-07T10:52:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04743",
+    "title": "When Swarm Learning meets energy series data: A decentralized collaborative learning design based on blockchain",
+    "japanese_title": "スウォームラーニングがエネルギー時系列データと出会うとき: ブロックチェーンに基づく分散協調学習設計",
+    "authors": [
+      "Lei Xu",
+      "Yulong Chen",
+      "Yuntian Chen",
+      "Longfeng Nie",
+      "Xuetao Wei",
+      "Liang Xue",
+      "Dongxiao Zhang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "stat.AP"
+    ],
+    "comment": "",
+    "summary": "- 機械学習モデルは、将来のエネルギー生産や消費を予測し、既存のデータから未知の重要変数を推測する能力を持つ。\n- エネルギーセクターにおける法的・政策的制約により、データは機密扱いとなり、多様なソースからの利用に技術的な課題が生じる。\n- スウォームラーニング（SL）を採用し、中央サーバーをブロックチェーンベースの分散ネットワークに置き換えることで、連合学習（FL）の中央集権型アーキテクチャに内在するセキュリティとプライバシーの問題に対処する。\n- 提案されたフレームワークは三つの実世界のエネルギーモデリングシナリオで優れた性能を示し、中央集権型学習およびFL手法に比べてデータセキュリティとプライバシーを強調している。\n\nブロックチェーンと機械学習が組み合わさって、エネルギー業界の未来が変わるかも！これ、データセキュリティが超強化されるってことだよね？面白くなりそう❤",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-07T08:42:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04702",
+    "title": "Marking the Pace: A Blockchain-Enhanced Privacy-Traceable Strategy for Federated Recommender Systems",
+    "japanese_title": "ペースを刻む: 連合推薦システムのためのブロックチェーン強化型プライバシートレーサブル戦略",
+    "authors": [
+      "Zhen Cai",
+      "Tao Tang",
+      "Shuo Yu",
+      "Yunpeng Xiao",
+      "Feng Xia"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合推薦システムは、IoTデバイスのデータ共有とモデル更新で強化\n- 既存方法では、データ共有とモデル更新の追跡が不十分\n- LIBERATEを提案、ブロックチェーンでデータ共有とモデル更新のプライバシー保護\n- ローカル差分プライバシーでユーザー・サーバー間の通信を強化\n\nブロックチェーンでプライバシー保護って、なんか未来感すごいよね！IoTデバイスのデータ共有も安心できるようになるかも⁉️",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-07T07:21:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04619",
+    "title": "CTSyn: A Foundational Model for Cross Tabular Data Generation",
+    "japanese_title": "CTSyn: クロスタブデータ生成のための基礎モデル",
+    "authors": [
+      "Xiaofeng Lin",
+      "Chenheng Xu",
+      "Matthew Yang",
+      "Guang Cheng"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 画像やテキストで高品質な合成データを生成するGFMsに対し、表データには困難がある\n- 異質なテーブル特徴に対応する生成モデルとデコードメカニズムが既存フレームワークに欠けている\n- CTSynはタブデータ生成に特化した拡散ベースの基礎モデルで、統合された潜在空間を活用\n- CTSynがダウンストリームの機械学習性能を本データ以上に向上させ、新たな合成データ生成のパラダイムを確立\n\nこの新しいモデルは、特に異質なテーブルデータに特化していて、機械学習に対してさらに優れた性能を発揮するってすごく面白いよね！これからのデータ処理がどんどん楽になるかも？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T04:04:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04610",
+    "title": "Contrastive explainable clustering with differential privacy",
+    "japanese_title": "差分プライバシーを用いたコントラスト説明可能クラスタリング",
+    "authors": [
+      "Dung Nguyen",
+      "Ariel Vetzler",
+      "Sarit Kraus",
+      "Anil Vullikanti"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 説明可能なAI（XAI）において、差分プライバシーとコントラスト説明をクラスタリング手法に統合\n- $k$-medianや$k$-meansなどの基本クラスタリング問題で、効率的な差分プライベートコントラスト説明を提供\n- コントラスト説明を、元のクラスタリングユーティリティと特定の固定セントロイドのユーティリティ差として定義\n- 複数のデータセットにおける実験で、プライバシーやクラスタリングユーティリティを大きく損なわずに意味のある説明を提供\n\nプライバシーを守りながらも、クラスタリングの質を損なわない説明ができるなんてすごく興味深いよね。これって、AIがもっと信頼される未来が見えるって感じ！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-07T03:37:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04609",
+    "title": "Diverse Intra- and Inter-Domain Activity Style Fusion for Cross-Person Generalization in Activity Recognition",
+    "japanese_title": "アクティビティ認識のクロスパーソン一般化における多様なドメイン内およびドメイン間スタイル融合",
+    "authors": [
+      "Junru Zhang",
+      "Lang Feng",
+      "Zhidan Liu",
+      "Yuhan Wu",
+      "Yang He",
+      "Yabo Dong",
+      "Duanqing Xu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "The 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining   (KDD 2024)",
+    "summary": "- 既存のドメイン一般化法は、ドメイン内外のスタイル多様性の捕捉が難しく、ターゲットドメインとのギャップが生じる\n- ドメインパディングという新たな視点で、スタイル融合を用いてデータ生成多様性を向上\n- 条件付き拡散モデルとスタイル融合サンプリング戦略を提案し、ランダムスタイルで柔軟なデータ合成を実現\n- 実証的評価で生成データの高い多様性を確認し、人間活動認識タスクで最先端の一般化方式を超える性能を示す\n\nこのアプローチ、ターゲットドメインにもっとフィットするデータを作れるから、かなり実用的かも！新しいスタイルを組み合わせるって、まるでファッションみたいでウキウキするよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T03:37:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04598",
+    "title": "OCDB: Revisiting Causal Discovery with a Comprehensive Benchmark and Evaluation Framework",
+    "japanese_title": "OCDB：包括的なベンチマークと評価フレームワークで因果発見を再検討",
+    "authors": [
+      "Wei Zhou",
+      "Hong Huang",
+      "Guowen Zhang",
+      "Ruize Shi",
+      "Kehan Yin",
+      "Yuanyuan Lin",
+      "Bang Liu"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 現行の評価は一面的で、解釈性能の評価が欠如している\n- 評価には合成データが用いられ、実世界のデータに対する包括的な評価が不足\n- 柔軟な評価フレームワークと新たなメトリクスを提案し、因果構造と因果効果の評価を強化\n- 実データを基にしたOCDBを導入し、公平な比較とアルゴリズムの最適化を促進\n\nこれってすごく重要だね！因果発見の解釈性を本当に上げられるなら、色々な新しい応用が期待できそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-07T03:09:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04596",
+    "title": "Federated Representation Learning in the Under-Parameterized Regime",
+    "japanese_title": "低次元パラメータ領域における連合表現学習",
+    "authors": [
+      "Renpu Liu",
+      "Cong Shen",
+      "Jing Yang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "This work has been accepted to ICML 2024",
+    "summary": "- 連合表現学習（FRL）は、共通の表現を学習しつつ個別のヘッドを保持するフレームワーク\n- 従来の研究は過剰パラメータ領域に集中していたが、この研究は低次元パラメータ領域を探求\n- 新しいアルゴリズムFLUTEを提案し、サンプル複雑性と収束率を理論的に特徴付けた\n- 実験結果は、FLUTEが最新のFRLソリューションを両方の合成および実世界のタスクで上回ることを示している\n\n新しいアルゴリズムFLUTEめっちゃ気になる！これが実際に現場でどう使われるか、将来の応用も楽しみだよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-07T03:00:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04535",
+    "title": "Tangent differential privacy",
+    "japanese_title": "接線差分プライバシー",
+    "authors": [
+      "Lexing Ying"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーは個別データのアイデンティティを保護するフレームワークである\n- 提案された接線差分プライバシーは特定のデータ分布に合わせて調整される\n- 総変動距離やワッサースタイン距離などの一般的な分布距離を許容する\n- リスク最小化の文脈では、エントロピー正則化が接線差分プライバシーを保証する\n\n特定のデータ分布に合わせるって面白そう！リスク最小化の条件も広く対応できるのはすごいなぁ。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-06T22:11:31+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.04295",
     "title": "Everything to the Synthetic: Diffusion-driven Test-time Adaptation via Synthetic-Domain Alignment",
     "japanese_title": "すべて合成データへ: 合成ドメイン整合による拡散駆動テストタイム適応",
@@ -66,6 +400,29 @@
       "連合学習"
     ],
     "published": "2024-06-06T16:28:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.04388",
+    "title": "Single Exposure Quantitative Phase Imaging with a Conventional Microscope using Diffusion Models",
+    "japanese_title": "従来の顕微鏡と拡散モデルを用いた単一撮影量的位相イメージング",
+    "authors": [
+      "Gabriel della Maggiora",
+      "Luis Alberto Croquevielle",
+      "Harry Horsley",
+      "Thomas Heinis",
+      "Artur Yakimovich"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.AI",
+      "physics.optics"
+    ],
+    "comment": "",
+    "summary": "- TIE（強度輸送方程式）は位相定量化のために広く使われるが、異なる焦点距離での複数の撮影が必要\n- 本研究では色収差を利用し、単一撮影で必要な焦点通過画像スタックを生成する方法を提案\n- 提案するゼロ平均拡散モデルを合成データで訓練し、堅牢な位相取得を実現\n- 臨床設定の明視野顕微鏡において正確な位相測定が可能であり、尿の臨床顕微鏡観察結果に基づく検証が行われた\n\nこの技術、単一撮影で精密な位相イメージングができるってすごくない？しかも、日常的な顕微鏡とカラーカメラで実現できるらしいよ、これ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-06T15:44:24+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.04076",

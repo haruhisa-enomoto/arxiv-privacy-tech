@@ -1,5 +1,237 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.07371",
+    "title": "iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping",
+    "japanese_title": "インクリメント分散最適化による協調同時自己位置推定とマッピング (iMESA)",
+    "authors": [
+      "Daniel McGann",
+      "Michael Kaess"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "Accepted to Robotic Science and Systems (RSS) 2024 in Delft,   Netherlands",
+    "summary": "- C-SLAMにおける新しいインクリメンタル分散バックエンドアルゴリズムを提案\n- ロボットチームがオンライン実行時制約内で正確な状態推定を実現\n- ロボット間の疎なペア通信だけでリアルタイム推定が可能\n- 実データと合成データで広範に評価し、最新技術と比較して優れた性能を示す\n\nこの論文、ロボットが少ない通信で協力しながら動くのがすごいと思う！どの場所でもすぐに使えそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-11T15:40:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.07332",
+    "title": "Minimizing Energy Costs in Deep Learning Model Training: The Gaussian Sampling Approach",
+    "japanese_title": "ディープラーニングモデル訓練におけるエネルギーコスト削減：ガウスサンプリングアプローチ",
+    "authors": [
+      "Challapalli Phanindra Revanth",
+      "Sumohana S. Channappayya",
+      "C Krishna Mohan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 逆伝搬法による損失勾配の計算は多くのエネルギーを消費\n- GradSampと呼ばれる方法で、ガウス分布から勾配更新をサンプリング\n- ガウス「ノイズ」でモデルパラメータを周期的またはランダムに更新\n- 画像分類などのさまざまなタスクで、エネルギー削減と性能維持を実証\n\n新しい勾配更新方法が省エネに繋がるなんて、環境にも優しいね！実験で効果が見られたから、実用化も期待できそうだね～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-11T15:01:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.07328",
+    "title": "Realistic Data Generation for 6D Pose Estimation of Surgical Instruments",
+    "japanese_title": "外科用器具の6Dポーズ推定のための現実的データ生成",
+    "authors": [
+      "Juan Antonio Barragan",
+      "Jintan Zhang",
+      "Haoying Zhou",
+      "Adnan Munawar",
+      "Peter Kazanzides"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "comment": "6 pages",
+    "summary": "- 外科ロボットの自動化は患者の安全と手術の効率を向上させるが、堅牢な認識アルゴリズムが必要で困難\n- 6Dポーズ推定には大量のアノテーションデータが必要であり、合成データの利用が提案されている\n- 外科領域では商業用グラフィックソフトの限られた機能により、現実的な器具-組織の相互作用を生成することが難しい\n- 改善されたシミュレーション環境と自動データ生成パイプラインにより、多様な6Dポーズデータセットが生成可能\n\n手術ロボットのこの新しいシミュレーション環境、めっちゃ役に立ちそう！特に、組織とのリアルな相互作用をもっとリアルに再現してくれるのがすごいっ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-11T14:59:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.07188",
+    "title": "Merging Improves Self-Critique Against Jailbreak Attacks",
+    "japanese_title": "マージによる自自己批判の強化で対Jailbreak攻撃が改善",
+    "authors": [
+      "Victor Gallego"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデル(LLM)の対逆操作耐性は依然として課題\n- LLMの自己批判能力を強化し、合成データでさらに微調整する手法を提案\n- 外部の批判モデルを追加し元のモデルとマージすることで、自己批判能力を向上\n- 手法の結果、対敵攻撃成功率が大幅に減少し、有望な防御機構を提供\n\n合成データを使ってさらに強くなるなんて面白そうね！未来の言語モデル、今よりもっと賢くなりそうな予感！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-11T12:01:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.07005",
+    "title": "DecoR: Deconfounding Time Series with Robust Regression",
+    "japanese_title": "DecoR: ロバスト回帰による時系列データの潜在交絡調整",
+    "authors": [
+      "Felix Schur",
+      "Jonas Peters"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "62F12 (Primary) 62F35 (Secondary)",
+      "I.2.0"
+    ],
+    "comment": "27 pages, 7 figures",
+    "summary": "- 未観測の交絡因子による時系列データの因果推定問題に焦点を当てる\n- 周波数領域での逆コンフェウンド問題を対戦型異常値問題としてフレーム化\n- ロバスト線形回帰を用いて因果効果を推定する新しいアプローチ、Deconfounding by Robust regression (DecoR) を導入\n- 合成データを用いた実験により、モデルのミススペシフィケーションにも強いロバスト性を示す\n\n周波数領域を使った考え方がちょっと独特で面白そう！実験結果もしっかりしてそうだし、実用性がありそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-11T06:59:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06881",
+    "title": "Pseudo-Entanglement is Necessary for EFI Pairs",
+    "japanese_title": "EFIペアには疑似絡み合いが必要である",
+    "authors": [
+      "Manuel Goulão",
+      "David Elkouss"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 最も弱い計算仮定の候補であるEFIペアは、疑似絡み合いの存在を示唆\n- EFIペアのみから新しい疑似絡み合い量子状態のファミリーを構築\n- 疑似絡み合いが存在しないならば、大多数の暗号技術も存在しない\n- 疑似絡み合いは計算暗号理論の物理現象とのつながりを強化\n\n疑似絡み合いが暗号技術の基盤になるかもしれないなんて、新しい時代が来る予感がするね！これで物理の世界とコンピュータの世界がもっと深く結びつくなんてワクワクしちゃう！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-06-11T01:44:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06808",
+    "title": "Fast White-Box Adversarial Streaming Without a Random Oracle",
+    "japanese_title": "ランダムオラクルを用いない高速ホワイトボックスの敵対的ストリーミング",
+    "authors": [
+      "Ying Feng",
+      "Aayush Jain",
+      "David P. Woodruff"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.LG"
+    ],
+    "comment": "ICML 2024",
+    "summary": "- 敵対的に強いホワイトボックスモデルで、過去のランダムコインとパラメータにアクセス可能\n- スパース回復問題において準最適解を構築し、他の問題にも適用可能\n- 従来の研究はランダムオラクルが必要で更新時間が長い欠点がある\n- 準同型暗号を用いたポリログ計算時間でランダムオラクル不要な解決策を提案\n\n敵対的な状況でもランダムオラクルなしで処理できる方法ってすごくない？準同型暗号とかもカッコいいし、いろんな応用ができそうで夢が広がるね。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-06-10T21:23:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06761",
+    "title": "Scalable Private Search with Wally",
+    "japanese_title": "スケーラブルなプライベートサーチシステム「Wally」",
+    "authors": [
+      "Hilal Asi",
+      "Fabian Boemer",
+      "Nicholas Genise",
+      "Muhammad Haris Mughees",
+      "Tabitha Ogilvie",
+      "Rehan Rishi",
+      "Guy N. Rothblum",
+      "Kunal Talwar",
+      "Karl Tarbe",
+      "Ruiyu Zhu",
+      "Marco Zuliani"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "comment": "",
+    "summary": "- Wallyは意味検索とキーワード検索を効率的にサポートし、大規模なデータベースで優れたパフォーマンスを発揮\n- 기존의プライベートサーチシステムにおける高コストな暗号操作の問題を解決\n- 各クライアントが少数のフェイククエリを追加し、匿名ネットワーク経由でランダムなタイミングで送信する手法を採用\n- $(\\epsilon, \\delta)$-差分プライバシー保証により、強いプライバシー保護を実現し、スケーラビリティを大幅に向上\n\nWallyのアイデア、ちょっと天才的じゃない！？フェイククエリとか工夫がすごいし、大量のリクエストにも楽に対応できるなんて未来感あるよね。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-06-10T19:41:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06755",
+    "title": "Optimal Federated Learning for Nonparametric Regression with Heterogeneous Distributed Differential Privacy Constraints",
+    "japanese_title": "異質な分散差分プライバシー制約を持つ非パラメトリック回帰のための最適な連合学習",
+    "authors": [
+      "T. Tony Cai",
+      "Abhinav Chakraborty",
+      "Lasse Vuursteen"
+    ],
+    "categories": [
+      "math.ST",
+      "cs.LG",
+      "stat.ML",
+      "stat.TH",
+      "62G08, 62C20, 68P27, 62F30,"
+    ],
+    "comment": "49 pages total, consisting of an article (24 pages) and a supplement   (25 pages)",
+    "summary": "- サーバごとに異なる差分プライバシー制約とサンプルサイズの非均質な環境での連合学習を研究\n- ベゾフ空間の上での最適収束率を確立し、グローバルおよびポイントワイズ推定を検討\n- 分散プライバシー保護推定量を提案し、そのリスク特性を調査\n- プライバシーバジェットとデータ分散による損失間のトレードオフを解析\n\n異なるサーバでプライバシーを保持しながら最適な推定を行う方法、めっちゃ興味深い！特にポイントワイズ推定とグローバル推定の違いがどうなるのか知りたいな。",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-06-10T19:34:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06749",
+    "title": "Federated Nonparametric Hypothesis Testing with Differential Privacy Constraints: Optimal Rates and Adaptive Tests",
+    "japanese_title": "差分プライバシー制約下における連合ノンパラメトリック仮説検定：最適レートと適応的テスト",
+    "authors": [
+      "T. Tony Cai",
+      "Abhinav Chakraborty",
+      "Lasse Vuursteen"
+    ],
+    "categories": [
+      "math.ST",
+      "cs.LG",
+      "stat.ML",
+      "stat.TH",
+      "62G10, 62C20, 68P27, 62F30"
+    ],
+    "comment": "77 pages total; consisting of a main article (28 pages) and   supplement (49 pages)",
+    "summary": "- 差分プライバシー制約下での白色雑音ドリフトモデルにおける連合ノンパラメトリック適合度検定を研究\n- 最適レートを指数関数的な因子まで一致させる下界と上界を確立し、テスト問題の難しさを評価\n- 共有ランダムネスにアクセスできる分散型のワンショットプロトコルが、それなしよりも優れている現象を発見\n- 未知の規則性パラメータに適応し、差分プライバシー制約を維持したまま追加コストを最小限に抑えるデータ駆動型テスト手法を構築\n\n共有ランダムネスをうまく利用することで効率が上がるなんて、すごく面白いね！これからのプライバシー保護技術がもっと進化していくのが楽しみ～！",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-06-10T19:25:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06679",
+    "title": "PatchRefiner: Leveraging Synthetic Data for Real-Domain High-Resolution Monocular Metric Depth Estimation",
+    "japanese_title": "PatchRefiner：高解像度単眼距離推定のための合成データ活用",
+    "authors": [
+      "Zhenyu Li",
+      "Shariq Farooq Bhat",
+      "Peter Wonka"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- PatchRefinerはタイルベース手法を採用し、高解像度の距離推定を改良プロセスとして再構成\n- 合成データを利用した疑似ラベリング戦略により、被写体の細部を正確に捉える\n- Detail and Scale Disentangling (DSD)ロスにより、細部の精度とスケールの正確さを強化\n- Unreal4KStereoデータセットで既存のベンチマークを18.1%上回る性能を発揮\n\n細部まで精度を追及しているのがすごいね！特にDSDロスってどんな感じなんだろう、気になるね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-10T18:00:03+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.06520",
     "title": "Decentralized Personalized Federated Learning",
     "japanese_title": "分散型個別化連合学習",
@@ -70,6 +302,26 @@
     "published": "2024-06-10T15:01:03+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.06663",
+    "title": "SecureNet: A Comparative Study of DeBERTa and Large Language Models for Phishing Detection",
+    "japanese_title": "SecureNet: DeBERTaと大型言語モデルを用いたフィッシング検出の比較研究",
+    "authors": [
+      "Sakshi Mahendru",
+      "Tejul Pandit"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "Preprint. 10 pages, Accepted in IEEE 7th International Conference on   Big Data and Artificial Intelligence (BDAI 2024)",
+    "summary": "- フィッシング攻撃の脅威を識別するため、LLMsの性能を評価し、DeBERTa V3モデルと比較\n- 公共データセットを用いて、DeBERTaとLLMsのポテンシャルと限界を体系的に評価\n- LLMsが生成する説得力のあるフィッシングメールの困難さと、DeBERTaのトレーニングフェーズの課題\n- DeBERTaが最も効果的で、95.17%の再現率を達成し、GPT-4は91.04%の再現率に続いた\n\nおもしろいね！DeBERTaの方がLLMsよりちょっとだけ優れているなんて、新しい発見がいっぱいだよね。フィッシングメールの進化にも注目だね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-10T13:13:39+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.06231",
     "title": "Statistical Inference for Privatized Data with Unknown Sample Size",
     "japanese_title": "未知のサンプルサイズを持つプライバタイズされたデータの統計的推論",
@@ -137,6 +389,30 @@
       "連合学習"
     ],
     "published": "2024-06-10T11:58:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06655",
+    "title": "Fed-Sophia: A Communication-Efficient Second-Order Federated Learning Algorithm",
+    "japanese_title": "Fed-Sophia: 通信効率の高い二次連合学習アルゴリズム",
+    "authors": [
+      "Ahmed Elbakary",
+      "Chaouki Ben Issaid",
+      "Mohammad Shehab",
+      "Karim Seddik",
+      "Tamer ElBatt",
+      "Mehdi Bennis"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "ICC 2024",
+    "summary": "- 連合学習は複数のデバイスがパラメータサーバーを介して局所更新を共有し学習する方法\n- 二次導関数情報は収束を早めるために重要であるが、それを活用する新たな方法を提案\n- 提案手法であるFed-Sophiaは、勾配の加重移動平均とクリッピング操作を組み合わせる\n- 提案手法は、数値評価において従来の一次および二次手法と比較して優越性、堅牢性、スケーラビリティを示す\n\n二次導関数の力ってやっぱりすごいんだね！この方法で連合学習がもっと速くなるのかもね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-10T09:57:30+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.06134",
@@ -908,6 +1184,28 @@
       "合成データ"
     ],
     "published": "2024-06-06T09:28:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.06597",
+    "title": "1-D CNN-Based Online Signature Verification with Federated Learning",
+    "japanese_title": "連合学習を用いた1次元CNNベースのオンライン署名認証",
+    "authors": [
+      "Lingfeng Zhang",
+      "Yuheng Guo",
+      "Yepeng Ding",
+      "Hiroyuki Sato"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "8 pages, 11 figures, 1 table",
+    "summary": "- オンライン署名認証は、セキュリティインフラで重要な役割を果たす\n- 従来のモデルはトレーニング時にデータプライバシーの大きなリスクを伴う\n- 1次元CNNと連合学習を活用し、データプライバシーの懸念を軽減する新たな枠組みを提案\n- 提案した枠組みは、計算リソースの最小化、初期データでの効果向上、優れたスケーラビリティを示す\n\n署名認証ってセキュリティにめっちゃ大事なんだね。連合学習でプライバシー保護しながらも高い精度を保つなんて、未来の標準技術になるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-06T08:27:28+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.03847",

@@ -27,365 +27,270 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-06-11T04:21:47.032779
+更新: 2024-06-12T04:19:54.904091
 
 - - -
 
-### [Decentralized Personalized Federated Learning](http://arxiv.org/abs/2406.06520)
+### [iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping](http://arxiv.org/abs/2406.07371)
 
-**分散型個別化連合学習**
+**インクリメント分散最適化による協調同時自己位置推定とマッピング (iMESA)**
 
-Salma Kharrat, Marco Canini, Samuel Horvath
+Daniel McGann, Michael Kaess
 
-- 分散型連合学習におけるデータの異質性と通信制限の課題に取り組む
-- クライアントが適切な協力者を選ぶためのコラボレーショングラフを作成
-- 資源効率を高め、通信オーバーヘッドを最小限に抑える新しい戦略を採用
-- DPFLはさまざまなデータセットで優れた性能を示し、他の手法を上回る
+- C-SLAMにおける新しいインクリメンタル分散バックエンドアルゴリズムを提案
+- ロボットチームがオンライン実行時制約内で正確な状態推定を実現
+- ロボット間の疎なペア通信だけでリアルタイム推定が可能
+- 実データと合成データで広範に評価し、最新技術と比較して優れた性能を示す
 
-データが異質でも効率的に協力できるなんてすごいね！将来への期待が高まるな〜。これは連合学習をさらに実用化するステップになるかもね。
+この論文、ロボットが少ない通信で協力しながら動くのがすごいと思う！どの場所でもすぐに使えそうだね。
 
+**Comment:** Accepted to Robotic Science and Systems (RSS) 2024 in Delft,   Netherlands
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.CV, cs.MA, math.OC, **投稿日時:** 2024-06-10 17:58
-
-- - -
-
-### [Differentially Private Best-Arm Identification](http://arxiv.org/abs/2406.06408)
-
-**差分プライベートな最良腕同定**
-
-Achraf Azize, Marc Jourdan, Aymen Al Marjani, Debabrota Basu
-
-- データプライバシーを重視した最良腕同定（BAI）の課題に焦点を当てた
-- バウンドの低下により、高プライバシーと低プライバシーの二つのプライバシーレジームが存在する
-- 提案するCTB-TTとAdaP-TT*は、それぞれ$\epsilon$-ローカルDPと$\epsilon$-グローバルDPを満たす
-- CTB-TTはランダム化応答に基づき、AdaP-TT*はラプラスノイズを追加することでプライバシーと有用性のトレードオフを実現する
-
-プライバシーを保ちながら精度を上げる新しいアルゴリズムの提案がめっちゃ興味深いね。これでデータも安心して使えそうだから未来の研究にも期待が持てるかも！
-
-**Comment:** arXiv admin note: substantial text overlap with arXiv:2309.02202
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** stat.ML, cs.CR, cs.LG, math.ST, stat.TH, **投稿日時:** 2024-06-10 16:02
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, **投稿日時:** 2024-06-11 15:40
 
 - - -
 
-### [Optimisation of federated learning settings under statistical heterogeneity variations](http://arxiv.org/abs/2406.06340)
+### [Minimizing Energy Costs in Deep Learning Model Training: The Gaussian Sampling Approach](http://arxiv.org/abs/2406.07332)
 
-**統計的不均一性変動下における連合学習設定の最適化**
+**ディープラーニングモデル訓練におけるエネルギーコスト削減：ガウスサンプリングアプローチ**
 
-Basem Suleiman, Muhammad Johan Alibasa, Rizka Widyarini Purwanto, Lewis Jeffries, Ali Anaissi, Jacky Song
+Challapalli Phanindra Revanth, Sumohana S. Channappayya, C Krishna Mohan
 
-- 連合学習は、中央でモデルパラメータを共有することで協力して学習
-- 統計的不均一性により、デバイスごとのデータ分布が独立同分布で異なる
-- データ分割戦略とメトリックを提案し、異なる統計的不均一性をシミュレート
-- 最適なFLモデルとパラメータを特定し、推奨ガイドラインを提供
+- 逆伝搬法による損失勾配の計算は多くのエネルギーを消費
+- GradSampと呼ばれる方法で、ガウス分布から勾配更新をサンプリング
+- ガウス「ノイズ」でモデルパラメータを周期的またはランダムに更新
+- 画像分類などのさまざまなタスクで、エネルギー削減と性能維持を実証
 
-連合学習の最適化って、けっこうデータのばらつきに左右されるんだね。うまく使えばいろんな場面で役立ちそう！
+新しい勾配更新方法が省エネに繋がるなんて、環境にも優しいね！実験で効果が見られたから、実用化も期待できそうだね～。
 
-**Comment:** 27 pages, 17 figures
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-06-10 15:01
 
-- - -
-
-### [Statistical Inference for Privatized Data with Unknown Sample Size](http://arxiv.org/abs/2406.06231)
-
-**未知のサンプルサイズを持つプライバタイズされたデータの統計的推論**
-
-Jordan Awan, Andres Felipe Barrientos, Nianqiao Ju
-
-- サンプルサイズを含むプライバタイズされたデータを解析する理論とアルゴリズムを開発
-- 無限サンプルサイズで無限差分プライバシーと有限差分プライバシーの距離がゼロになることを証明
-- 無限差分プライバシーにおける最大対数尤度推定が有限差分プライバシーに収束することを示す
-- 有限サンプルのベイズ推論のためにリバーシブルジャンプMCMCおよびMonte Carlo EMアルゴリズムを提案
-
-特にサンプルサイズまでプライバタイズしちゃうなんて、データの秘密保持がすごく厳しいね！研究が進めばもっと安全で信頼できるデータ分析ができそうだね。
-
-**Comment:** 20 pages before references, 40 pages in total, 4 figures, 3 tables
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** math.ST, cs.CR, stat.CO, stat.TH, **投稿日時:** 2024-06-10 13:03
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-11 15:01
 
 - - -
 
-### [Lurking in the shadows: Unveiling Stealthy Backdoor Attacks against Personalized Federated Learning](http://arxiv.org/abs/2406.06207)
+### [Realistic Data Generation for 6D Pose Estimation of Surgical Instruments](http://arxiv.org/abs/2406.07328)
 
-**影に潜む: パーソナライズド連合学習に対するステルス性バックドア攻撃の解明**
+**外科用器具の6Dポーズ推定のための現実的データ生成**
 
-Xiaoting Lyu, Yufei Han, Wei Wang, Jingkai Liu, Yongsheng Zhu, Guangquan Xu, Jiqiang Liu, Xiangliang Zhang
+Juan Antonio Barragan, Jintan Zhang, Haoying Zhou, Adnan Munawar, Peter Kazanzides
 
-- パーソナライズド連合学習（PFL）は各クライアントが個別のローカルモデルを作成できるように設計されている
-- PFLの個別化プロセスがバックドア中毒効果を希釈することができ、防御機構を使用して強化可能
-- 提案された\textit{PFedBA}攻撃戦略は、主学習タスクとバックドア学習タスクを巧妙に一致させる
-- \textit{PFedBA}は10種の最新PFLアルゴリズム全てで高い攻撃性能を示し、6種の既存防御を突破
+- 外科ロボットの自動化は患者の安全と手術の効率を向上させるが、堅牢な認識アルゴリズムが必要で困難
+- 6Dポーズ推定には大量のアノテーションデータが必要であり、合成データの利用が提案されている
+- 外科領域では商業用グラフィックソフトの限られた機能により、現実的な器具-組織の相互作用を生成することが難しい
+- 改善されたシミュレーション環境と自動データ生成パイプラインにより、多様な6Dポーズデータセットが生成可能
 
-PFLは連合学習の次のステップみたいだけど、それでもまだまだ安全性に課題がいっぱいだね〜。\textit{PFedBA}のやり方、すごく巧妙だけどちょっと怖いかも！
+手術ロボットのこの新しいシミュレーション環境、めっちゃ役に立ちそう！特に、組織とのリアルな相互作用をもっとリアルに再現してくれるのがすごいっ！
 
-**Comment:** Accepted by Usenix Security 2024
+**Comment:** 6 pages
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-06-10 12:14
-
-- - -
-
-### [Federated learning in food research](http://arxiv.org/abs/2406.06202)
-
-**フードリサーチにおける連合学習**
-
-Zuzanna Fendor, Bas H. M. van der Velden, Xinxin Wang, Andrea Jr. Carnoli, Osman Mutlu, Ali Hürriyetoğlu
-
-- フードリサーチはデータ共有の障害（データ所有、プライバシー、規制）により制約されやすい
-- データ共有の障害を軽減するために、ローカルデータを使いモデルをトレーニングする連合学習が提案されている
-- 水とミルクの品質評価、サイバーセキュリティ、農薬リスク分析、雑草検出、不正検出の例が含まれる
-- 知識ギャップとして縦型/転送連合学習と分散アーキテクチャの不足が指摘されている
-
-フードリサーチに連合学習を取り入れることで、より多くのデータを活用できる可能性が熱いね！技術の進展が楽しみだなぁ。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-06-10 11:58
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.LG, **投稿日時:** 2024-06-11 14:59
 
 - - -
 
-### [DiffInject: Revisiting Debias via Synthetic Data Generation using Diffusion-based Style Injection](http://arxiv.org/abs/2406.06134)
+### [Merging Improves Self-Critique Against Jailbreak Attacks](http://arxiv.org/abs/2406.07188)
 
-**DiffInject: 拡散ベースのスタイル注入を用いた合成データ生成によるバイアス除去の再考**
+**マージによる自自己批判の強化で対Jailbreak攻撃が改善**
 
-Donggeun Ko, Sangwoo Jo, Dongjun Lee, Namjun Park, Jaekwang Kim
+Victor Gallego
 
-- データセットバイアスは機械学習の重大な課題であり、特定の属性（例：画像のテクスチャや色）が意図せず学習され、性能が低下する
-- これまでのバイアス除去には新しいアルゴリズムの開発や合成データ生成が試みられてきたが、バイアス特定のサンプルが少なすぎるという問題があった
-- DiffInjectは、事前学習済みの拡散モデルを使用して合成バイアスコンフリクトサンプルを増強するシンプルだが強力な方法である
-- 提案手法はバイアスの種類やラベリングの明示的な知識を必要とせず、完全に教師なしの設定でデータセットバイアスの効果的な削減を実現する
+- 大規模言語モデル(LLM)の対逆操作耐性は依然として課題
+- LLMの自己批判能力を強化し、合成データでさらに微調整する手法を提案
+- 外部の批判モデルを追加し元のモデルとマージすることで、自己批判能力を向上
+- 手法の結果、対敵攻撃成功率が大幅に減少し、有望な防御機構を提供
 
-この方法って、事前知識なくバイアスを取り除けるなんてすごいね！実際のデータセットのバイアス問題解決がもっと簡単になりそう。
-
-**Comment:** 10 pages (including supplementary), 3 figures, SynData4CV@CVPR 24   (Workshop)
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-06-10 09:45
-
-- - -
-
-### [ProcessPainter: Learn Painting Process from Sequence Data](http://arxiv.org/abs/2406.06062)
-
-**ProcessPainter: シーケンスデータから絵画プロセスを学ぶ**
-
-Yiren Song, Shijie Huang, Chen Yao, Xiaojun Ye, Hai Ci, Jiaming Liu, Yuxuan Zhang, Mike Zheng Shou
-
-- 画家の絵画プロセスは段階的であり、画家やスタイルによって大きく異なる
-- 従来の描画方法では、アーティストの本物のプロセスを再現するのに限界がある
-- ProcessPainterはテキストから絵画プロセスを生成する初の試みである
-- Artwork Replication Networkは、任意のフレーム入力を受け付けることで制御可能な絵画プロセス生成を実現する
-
-絵画プロセスをテキストから生成するなんてすごい！これが美術教育にどう役立つか、もっと知りたいな。未来のアーティストには、新しい創作の道具になるかも！
+合成データを使ってさらに強くなるなんて面白そうね！未来の言語モデル、今よりもっと賢くなりそうな予感！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, **投稿日時:** 2024-06-10 07:18
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-06-11 12:01
 
 - - -
 
-### [Contrastive Learning from Synthetic Audio Doppelgangers](http://arxiv.org/abs/2406.05923)
+### [DecoR: Deconfounding Time Series with Robust Regression](http://arxiv.org/abs/2406.07005)
 
-**合成音声ドッペルゲンガーによる対照学習**
+**DecoR: ロバスト回帰による時系列データの潜在交絡調整**
 
-Manuel Cherep, Nikhil Singh
+Felix Schur, Jonas Peters
 
-- 現実世界の音声データセットの代わりに合成音声を使い、堅牢な音声表現を学習
-- 音声シンセサイザーのパラメータをランダムに変更して合成音声のペアを生成
-- 合成音声の変動により豊富な対照情報を提供し、実データ並みの性能を達成
-- 軽量でデータ保存が不要、単一のハイパーパラメータのみを使用
+- 未観測の交絡因子による時系列データの因果推定問題に焦点を当てる
+- 周波数領域での逆コンフェウンド問題を対戦型異常値問題としてフレーム化
+- ロバスト線形回帰を用いて因果効果を推定する新しいアプローチ、Deconfounding by Robust regression (DecoR) を導入
+- 合成データを用いた実験により、モデルのミススペシフィケーションにも強いロバスト性を示す
 
-面白そうなポイントは、合成音声を使うことでデータ収集の負担が減るところ。リアルな音声データなくても高い精度が出せるなら、環境にも優しいかもね！
+周波数領域を使った考え方がちょっと独特で面白そう！実験結果もしっかりしてそうだし、実用性がありそうだね。
 
-**Comment:** 17 pages, 6 figures
+**Comment:** 27 pages, 7 figures
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.SD, cs.LG, eess.AS, **投稿日時:** 2024-06-09 21:44
-
-- - -
-
-### [Comments on "Federated Learning with Differential Privacy: Algorithms and Performance Analysis"](http://arxiv.org/abs/2406.05858)
-
-**「連合学習と差分プライバシー：アルゴリズムとパフォーマンス分析」に関するコメント**
-
-Mahtab Talaei, Iman Izadi
-
-- Weiらの論文における連合学習の差分プライバシーアルゴリズムの収束性能が対象
-- 提案された差分プライバシーアルゴリズムはNoising before Model Aggregation FL (NbAFL)と呼ばれる
-- 元の論文のNbAFLの収束上限（定理2）が誤っていると指摘
-- 正しい収束上限をこのコメントで提示することが目的
-
-収束性能の上限が修正されて正確になったみたい。これでNbAFLがもっと効果的に使えるようになるから、注目されそうだね！
-
-
-
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.DC, cs.CR, cs.PF, **投稿日時:** 2024-06-09 17:03
+**トピック:** [合成データ](sd), **カテゴリ:** stat.ML, cs.LG, 62F12 (Primary) 62F35 (Secondary), I.2.0, **投稿日時:** 2024-06-11 06:59
 
 - - -
 
-### [Heterogeneous Treatment Effects in Panel Data](http://arxiv.org/abs/2406.05633)
+### [Pseudo-Entanglement is Necessary for EFI Pairs](http://arxiv.org/abs/2406.06881)
 
-**パネルデータにおける不均一な処置効果**
+**EFIペアには疑似絡み合いが必要である**
 
-Retsef Levi, Elisabeth Paulson, Georgia Perakis, Emily Zhang
+Manuel Goulão, David Elkouss
 
-- パネルデータの構造を活用しない既存手法や処置パターンに制限がある
-- 観察データを同様の処置効果を持つクラスタに分割する新手法を提案
-- パネルデータの低ランク構造を活用してクラスタごとの平均処置効果を推定
-- セミ合成データでの実験で精度が向上、回帰木のリーフ数は40以下
+- 最も弱い計算仮定の候補であるEFIペアは、疑似絡み合いの存在を示唆
+- EFIペアのみから新しい疑似絡み合い量子状態のファミリーを構築
+- 疑似絡み合いが存在しないならば、大多数の暗号技術も存在しない
+- 疑似絡み合いは計算暗号理論の物理現象とのつながりを強化
 
-パネルデータっていろいろなところで使えるから、この手法って結構応用範囲広そう！セミ合成データでの実験だけど、実際に使うのが楽しみだね。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** stat.ML, cs.LG, econ.EM, **投稿日時:** 2024-06-09 04:02
-
-- - -
-
-### [CCSI: Continual Class-Specific Impression for Data-free Class Incremental Learning](http://arxiv.org/abs/2406.05631)
-
-**CCSI: データ不要のクラス増加学習のための継続的クラス特定インプレッション**
-
-Sana Ayromlou, Teresa Tsang, Purang Abolmaesumi, Xiaoxiao Li
-
-- 従来の深層学習は全ての疾病クラスサンプルを要し、新規疾病の診断が困難
-- クラス増加学習は既存モデルに新疾病を適応させるが、昔のクラスのパフォーマンスが低下
-- 提案手法は合成データを使用しデータ保存不要とし、プライバシー・ストレージ問題を解決
-- 合成データと新疾病データの組み合わせ、多様な損失関数導入でバランス悪化を防止
-
-データ不要で新しい疾病に対応できるなんてすごい！医療現場にも大きな影響がありそうだね。未来の技術がこんなに進んでいるってワクワクする！
+疑似絡み合いが暗号技術の基盤になるかもしれないなんて、新しい時代が来る予感がするね！これで物理の世界とコンピュータの世界がもっと深く結びつくなんてワクワクしちゃう！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.CV, **投稿日時:** 2024-06-09 03:52
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** quant-ph, cs.CR, **投稿日時:** 2024-06-11 01:44
 
 - - -
 
-### [Privacy-Preserving Optimal Parameter Selection for Collaborative Clustering](http://arxiv.org/abs/2406.05545)
+### [Fast White-Box Adversarial Streaming Without a Random Oracle](http://arxiv.org/abs/2406.06808)
 
-**プライバシー保護を目的とした協調クラスタリングの最適パラメータ選択**
+**ランダムオラクルを用いない高速ホワイトボックスの敵対的ストリーミング**
 
-Maryam Ghasemian, Erman Ayday
+Ying Feng, Aayush Jain, David P. Woodruff
 
-- 協調クラスタリングの最適パラメータ選択をデータプライバシーを確保しつつ探求
-- 複数のデータ所有者がデータを結合し、半信頼サーバが最適アルゴリズムとパラメータを推薦
-- プライバシーパラメータ($\epsilon$)が推薦に与える影響は少ないが、$\epsilon$が高いほどメンバーシップ推測攻撃のリスク増加
-- 差分プライバシー技術（特にランダム化応答技法）を使用しデータ保護、クラスター品質は高維持
+- 敵対的に強いホワイトボックスモデルで、過去のランダムコインとパラメータにアクセス可能
+- スパース回復問題において準最適解を構築し、他の問題にも適用可能
+- 従来の研究はランダムオラクルが必要で更新時間が長い欠点がある
+- 準同型暗号を用いたポリログ計算時間でランダムオラクル不要な解決策を提案
 
-協調クラスタリングしながらプライバシーを守るっていうアプローチすごく気になるね。データをシェアしつつ安全性高めるテクニックはこれからの研究に大事だよね！
+敵対的な状況でもランダムオラクルなしで処理できる方法ってすごくない？準同型暗号とかもカッコいいし、いろんな応用ができそうで夢が広がるね。
 
+**Comment:** ICML 2024
 
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-06-08 18:21
-
-- - -
-
-### [Blockchain Integrated Federated Learning in Edge-Fog-Cloud Systems for IoT based Healthcare Applications A Survey](http://arxiv.org/abs/2406.05517)
-
-**IoTベースのヘルスケアアプリケーションにおけるエッジ-フォグ-クラウドシステムに統合されたブロックチェーン連合学習の調査**
-
-Shinu M. Rajagopal, Supriya M., Rajkumar Buyya
-
-- IoTアプリケーションは大量のデータを生成するが、データのサイロ化とユーザープライバシー法が利用を制約する
-- 連合学習は分散型パラダイムであり、プライバシーを保ちながらの共同学習を可能にする理想的な手法である
-- 暗号技術を使用することで、IoTシステムはデータを安全に保管・送信し、一貫性を保証できる
-- ヘルスケアのような機密データの処理における連合学習とブロックチェーンの統合は特に有益である
-
-連合学習とブロックチェーンがヘルスケアデータの処理でどう役立つか、とっても面白そう！エッジ-フォグ-クラウドの説明も知りたいな。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-08 16:36
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.DS, cs.LG, **投稿日時:** 2024-06-10 21:23
 
 - - -
 
-### [Baking Symmetry into GFlowNets](http://arxiv.org/abs/2406.05426)
+### [Scalable Private Search with Wally](http://arxiv.org/abs/2406.06761)
 
-**GFlowNetに対する対称性の組み込み**
+**スケーラブルなプライベートサーチシステム「Wally」**
 
-George Ma, Emmanuel Bengio, Yoshua Bengio, Dinghuai Zhang
+Hilal Asi, Fabian Boemer, Nicholas Genise, Muhammad Haris Mughees, Tabitha Ogilvie, Rehan Rishi, Guy N. Rothblum, Kunal Talwar, Karl Tarbe, Ruiyu Zhu, Marco Zuliani
 
-- GFlowNetは高い報酬を持つ多様な候補を生成するが、同型の行動を考慮していない
-- 対称性の欠如はトレーニングサンプルの増加と効率の低下を引き起こす
-- 研究の目標は、生成プロセス中に同等の行動を識別して対称性を組み込むこと
-- 合成データを用いた実験結果で提案手法の有望な性能を示す
+- Wallyは意味検索とキーワード検索を効率的にサポートし、大規模なデータベースで優れたパフォーマンスを発揮
+- 기존의プライベートサーチシステムにおける高コストな暗号操作の問題を解決
+- 各クライアントが少数のフェイククエリを追加し、匿名ネットワーク経由でランダムなタイミングで送信する手法を採用
+- $(\epsilon, \delta)$-差分プライバシー保証により、強いプライバシー保護を実現し、スケーラビリティを大幅に向上
 
-対称性を取り入れることで、さらに効率が良くなりそう。これ、実際どうやって同型の行動を見つけるんだろう？
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-06-08 10:11
-
-- - -
-
-### [PTF-FSR: A Parameter Transmission-Free Federated Sequential Recommender System](http://arxiv.org/abs/2406.05387)
-
-**PTF-FSR: パラメータ送信不要な連合逐次推薦システム**
-
-Wei Yuan, Chaoqun Yang, Liang Qu, Quoc Viet Hung Nguyen, Guanhua Ye, Hongzhi Yin
-
-- 従来の連合逐次推薦システムは共有モデルの必要性があり、知的財産の懸念がある
-- 高い通信コストが問題で、大規模言語モデルの時代には適用困難
-- PTF-FSRはモデルとデータのプライバシーを保護し、複雑で大規模なモデルに対応可能
-- 実験結果は、PTF-FSRの有効性と汎用性を示し、多様なデータセットとモデルで検証
-
-モデルの知的財産を守りつつ、プライバシー保護も実現できるなんて新しいアプローチだね！これで連合学習がもっと広まるかも、早く試してみたい！
+Wallyのアイデア、ちょっと天才的じゃない！？フェイククエリとか工夫がすごいし、大量のリクエストにも楽に対応できるなんて未来感あるよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.IR, **投稿日時:** 2024-06-08 07:45
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, cs.DB, **投稿日時:** 2024-06-10 19:41
 
 - - -
 
-### [Efficient Differentially Private Fine-Tuning of Diffusion Models](http://arxiv.org/abs/2406.05257)
+### [Optimal Federated Learning for Nonparametric Regression with Heterogeneous Distributed Differential Privacy Constraints](http://arxiv.org/abs/2406.06755)
 
-**効率的な差分プライバシーを用いた拡散モデルの微調整**
+**異質な分散差分プライバシー制約を持つ非パラメトリック回帰のための最適な連合学習**
 
-Jing Liu, Andrew Lowy, Toshiaki Koike-Akino, Kieran Parsons, Ye Wang
+T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen
 
-- 拡散モデルは高品質な合成データを生成可能
-- 差分プライバシーを用いて微調整したモデルは優れたプライバシー・効用バランスを達成
-- メモリと計算資源の負担が大きいが、低次元適応を用いて効率化を図った
-- 提案手法はMNISTとCIFAR-10データセットで評価され、有用な合成サンプル生成を確認
+- サーバごとに異なる差分プライバシー制約とサンプルサイズの非均質な環境での連合学習を研究
+- ベゾフ空間の上での最適収束率を確立し、グローバルおよびポイントワイズ推定を検討
+- 分散プライバシー保護推定量を提案し、そのリスク特性を調査
+- プライバシーバジェットとデータ分散による損失間のトレードオフを解析
 
-効率的にプライバシーを守りながら拡散モデルを使えるなんて、未来のプライバシー技術はもっと進化しそう！配布予定のソースコードも楽しみだね！
+異なるサーバでプライバシーを保持しながら最適な推定を行う方法、めっちゃ興味深い！特にポイントワイズ推定とグローバル推定の違いがどうなるのか知りたいな。
 
+**Comment:** 49 pages total, consisting of an article (24 pages) and a supplement   (25 pages)
 
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-06-07 21:00
-
-- - -
-
-### [Federated LoRA with Sparse Communication](http://arxiv.org/abs/2406.05233)
-
-**スパース通信を用いた連合LoRA**
-
-Kevin Kuo, Arian Raje, Kousik Rajesh, Virginia Smith
-
-- LoRAは通信制約のある機械学習設定での微調整に自然な方法である
-- 中央集権型MLの手法でのLoRAの効率改善は連合設定では効果が低い
-- 代わりに、通信中にスパース化を適用するFLASCを提案し、局所的微調整を可能にした
-- 4つの連合学習タスクで、通信量を10倍削減しつつLoRAの性能を維持することを実証
-
-この論文、連合学習での通信効率ってめっちゃ重要なんだね！性能維持しつつ通信量減らせるなんて、未来のネットワーク環境でも大活躍しそう♡
-
-**Comment:** 12 pages (excluding references), 8 figures
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-06-07 19:42
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** math.ST, cs.LG, stat.ML, stat.TH, 62G08, 62C20, 68P27, 62F30,, **投稿日時:** 2024-06-10 19:34
 
 - - -
 
-### [The Unmet Promise of Synthetic Training Images: Using Retrieved Real Images Performs Better](http://arxiv.org/abs/2406.05184)
+### [Federated Nonparametric Hypothesis Testing with Differential Privacy Constraints: Optimal Rates and Adaptive Tests](http://arxiv.org/abs/2406.06749)
 
-**合成トレーニング画像の未達成の約束：取得した実画像の方が優れる**
+**差分プライバシー制約下における連合ノンパラメトリック仮説検定：最適レートと適応的テスト**
 
-Scott Geng, Cheng-Yu Hsieh, Vivek Ramanujan, Matthew Wallingford, Chun-Liang Li, Pang Wei Koh, Ranjay Krishna
+T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen
 
-- Stable Diffusionで生成された合成データは、LAION-2Bデータセットから直接取得した実画像に匹敵するか負ける
-- 合成画像は下流タスクに利益をもたらす可能性があるが、生成器のアーティファクトと不正確な視覚詳細が問題
-- 提案された比較ベースラインでは、合成データよりも実データが一貫して優れていることが示された
-- 合成データを使う際には、まず実データの取得を試みることが重要である
+- 差分プライバシー制約下での白色雑音ドリフトモデルにおける連合ノンパラメトリック適合度検定を研究
+- 最適レートを指数関数的な因子まで一致させる下界と上界を確立し、テスト問題の難しさを評価
+- 共有ランダムネスにアクセスできる分散型のワンショットプロトコルが、それなしよりも優れている現象を発見
+- 未知の規則性パラメータに適応し、差分プライバシー制約を維持したまま追加コストを最小限に抑えるデータ駆動型テスト手法を構築
 
-合成画像に頼りがちだけど、やっぱり実データにかなわないんだね。これからは、データゲットの方法も考えなきゃ！
+共有ランダムネスをうまく利用することで効率が上がるなんて、すごく面白いね！これからのプライバシー保護技術がもっと進化していくのが楽しみ～！
 
-**Comment:** Correspondence to sgeng@cs.washington.edu. RK and PWK equally advised   the project
+**Comment:** 77 pages total; consisting of a main article (28 pages) and   supplement (49 pages)
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-07 18:04
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** math.ST, cs.LG, stat.ML, stat.TH, 62G10, 62C20, 68P27, 62F30, **投稿日時:** 2024-06-10 19:25
+
+- - -
+
+### [PatchRefiner: Leveraging Synthetic Data for Real-Domain High-Resolution Monocular Metric Depth Estimation](http://arxiv.org/abs/2406.06679)
+
+**PatchRefiner：高解像度単眼距離推定のための合成データ活用**
+
+Zhenyu Li, Shariq Farooq Bhat, Peter Wonka
+
+- PatchRefinerはタイルベース手法を採用し、高解像度の距離推定を改良プロセスとして再構成
+- 合成データを利用した疑似ラベリング戦略により、被写体の細部を正確に捉える
+- Detail and Scale Disentangling (DSD)ロスにより、細部の精度とスケールの正確さを強化
+- Unreal4KStereoデータセットで既存のベンチマークを18.1%上回る性能を発揮
+
+細部まで精度を追及しているのがすごいね！特にDSDロスってどんな感じなんだろう、気になるね。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-10 18:00
+
+- - -
+
+### [SecureNet: A Comparative Study of DeBERTa and Large Language Models for Phishing Detection](http://arxiv.org/abs/2406.06663)
+
+**SecureNet: DeBERTaと大型言語モデルを用いたフィッシング検出の比較研究**
+
+Sakshi Mahendru, Tejul Pandit
+
+- フィッシング攻撃の脅威を識別するため、LLMsの性能を評価し、DeBERTa V3モデルと比較
+- 公共データセットを用いて、DeBERTaとLLMsのポテンシャルと限界を体系的に評価
+- LLMsが生成する説得力のあるフィッシングメールの困難さと、DeBERTaのトレーニングフェーズの課題
+- DeBERTaが最も効果的で、95.17%の再現率を達成し、GPT-4は91.04%の再現率に続いた
+
+おもしろいね！DeBERTaの方がLLMsよりちょっとだけ優れているなんて、新しい発見がいっぱいだよね。フィッシングメールの進化にも注目だね！
+
+**Comment:** Preprint. 10 pages, Accepted in IEEE 7th International Conference on   Big Data and Artificial Intelligence (BDAI 2024)
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CR, cs.CL, cs.LG, **投稿日時:** 2024-06-10 13:13
+
+- - -
+
+### [Fed-Sophia: A Communication-Efficient Second-Order Federated Learning Algorithm](http://arxiv.org/abs/2406.06655)
+
+**Fed-Sophia: 通信効率の高い二次連合学習アルゴリズム**
+
+Ahmed Elbakary, Chaouki Ben Issaid, Mohammad Shehab, Karim Seddik, Tamer ElBatt, Mehdi Bennis
+
+- 連合学習は複数のデバイスがパラメータサーバーを介して局所更新を共有し学習する方法
+- 二次導関数情報は収束を早めるために重要であるが、それを活用する新たな方法を提案
+- 提案手法であるFed-Sophiaは、勾配の加重移動平均とクリッピング操作を組み合わせる
+- 提案手法は、数値評価において従来の一次および二次手法と比較して優越性、堅牢性、スケーラビリティを示す
+
+二次導関数の力ってやっぱりすごいんだね！この方法で連合学習がもっと速くなるのかもね。
+
+**Comment:** ICC 2024
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-06-10 09:57
+
+- - -
+
+### [1-D CNN-Based Online Signature Verification with Federated Learning](http://arxiv.org/abs/2406.06597)
+
+**連合学習を用いた1次元CNNベースのオンライン署名認証**
+
+Lingfeng Zhang, Yuheng Guo, Yepeng Ding, Hiroyuki Sato
+
+- オンライン署名認証は、セキュリティインフラで重要な役割を果たす
+- 従来のモデルはトレーニング時にデータプライバシーの大きなリスクを伴う
+- 1次元CNNと連合学習を活用し、データプライバシーの懸念を軽減する新たな枠組みを提案
+- 提案した枠組みは、計算リソースの最小化、初期データでの効果向上、優れたスケーラビリティを示す
+
+署名認証ってセキュリティにめっちゃ大事なんだね。連合学習でプライバシー保護しながらも高い精度を保つなんて、未来の標準技術になるかも！
+
+**Comment:** 8 pages, 11 figures, 1 table
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.CV, cs.LG, **投稿日時:** 2024-06-06 08:27

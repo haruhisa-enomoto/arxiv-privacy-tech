@@ -1,5 +1,192 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.09891",
+    "title": "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming",
+    "japanese_title": "生成モデルの小学校視覚プログラミングにおける計算思考テストのベンチマーク",
+    "authors": [
+      "Victor-Alexandru Pădurean",
+      "Adish Singla"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 生成モデルは多くの分野で人間レベルの能力を示すが、簡単な問題解決では小学生に劣る\n- 本研究では、小学校レベルの計算思考テストに焦点をあて、新たなベンチマークを設定\n- GPT-4oやLlama3などの最先端モデルは、平均的な小学生のパフォーマンスにほぼ匹敵\n- 合成データ生成の手法でモデルを微調整し、視覚要素の認識から多肢選択式テストまでのスキル向上を実現\n\n生成モデルが小学生レベルの問題をどうやって解決するか、今後の進展が楽しみだね。どのくらい成長できるか見守りたいな～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-14T10:02:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09877",
+    "title": "Federated Learning with Flexible Architectures",
+    "japanese_title": "柔軟なアーキテクチャを用いた連合学習",
+    "authors": [
+      "Jong-Ik Park",
+      "Carlee Joe-Wong"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 従来の連合学習はクライアントの計算および通信能力のばらつきに対応できず非効率\n- FedFAはクライアントごとに異なる幅と深さのモデルをトレーニング可能にする方法を提案\n- レイヤーグラフティング技術を導入し、全クライアントの貢献を統一的にグローバルモデルに統合\n- スケーラブルな集約法により重みの差異を管理し、従来の手法より優れた性能およびバックドア攻撃の耐性向上\n\n多様なデバイスに対応するための工夫が面白いね。バックドア攻撃に強いってのも、これからの普及に大事だよね!",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-14T09:44:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09831",
+    "title": "Federated Learning driven Large Language Models for Swarm Intelligence: A Survey",
+    "japanese_title": "連合学習による大規模言語モデルの群知能への応用：調査",
+    "authors": [
+      "Youyang Qu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.NE"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）は大規模言語モデル（LLMs）の訓練において、データプライバシーと分散化の課題に対応\n- 機械学習の文脈での「忘却の権利」に対応するため、モデルから個々のデータ貢献を安全に削除する「機械アンラーニング」に注目\n- 摂動技術、モデル分解、インクリメンタル学習などの効果的なアンラーニング戦略の調査\n- 最近の文献からケーススタディや実験結果を基に、実際のシナリオでの方法の有効性と効率性を評価\n\n連合学習でデータプライバシーを守りながらモデルを訓練できるのはすごいよね！これからも倫理と技術の両立にもっと発展しそう。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-14T08:40:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09788",
+    "title": "OpenCapBench: A Benchmark to Bridge Pose Estimation and Biomechanics",
+    "japanese_title": "OpenCapBench: ポーズ推定とバイオメカニクスをつなぐベンチマーク",
+    "authors": [
+      "Yoni Gozlan",
+      "Antoine Falisse",
+      "Scott Uhlrich",
+      "Anthony Gatti",
+      "Michael Black",
+      "Akshay Chaudhari"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- ポーズ推定は、Mean Per Joint Position ErrorやPercentage of Correct Keypointsなどの従来の指標で評価されるが、バイオメカニクスの重要なキネマティックおよび生理学的正確さを定量化していない\n- OpenCapBenchは、OpenSimを利用して一貫したキネマティクス指標を計算し、生理学的制約下で人間のポーズ推定タスクを評価する容易なベンチマークを提供\n- 現在のポーズ推定モデルは、正確なバイオメカニクス分析に対してキーポイントが疎すぎることを示し、この問題を緩和するためにSynthPoseというアプローチを導入\n- SynthPoseでは、合成データを使用して事前に訓練された2Dポーズモデルを微調整し、より密なキーポイントセットを予測することでジョイントアングル誤差を半減\n\nこれは超面白そう！ポーズ推定とバイオメカニクスの分野をつなぐの、未来の医療にめっちゃ役立ちそうだね。合成データで精度アップもすごいわ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-14T07:37:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09771",
+    "title": "Block Coordinate Descent Methods for Optimization under J-Orthogonality Constraints with Applications",
+    "japanese_title": "J直交制約下での最適化のためのブロック座標降下法とその応用",
+    "authors": [
+      "Di He",
+      "Ganzhao Yuan",
+      "Xiao Wang",
+      "Pengxiang Xu"
+    ],
+    "categories": [
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- J-直交行列は双曲空間内の特殊な直交行列で、特有の利点を持つ\n- JOBCDという新たなブロック座標降下法を提案し、J-直交制約下の最適化を扱う\n- JOBCDはガウス・ザイデル戦略に基づくGS-JOBCDと、分散削減技術を統合したVR-J-JOBCDの2つの変種を探求\n- ハイパーボリック問題に対する実験で、JOBCDは最先端のソリューションを大幅に上回る性能を示した\n\n新しい方法の提案とか実験結果がすごく楽しそう！これでデータ科学の問題解決がもっと効率的になるかもね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-14T07:17:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09716",
+    "title": "Speed-up of Data Analysis with Kernel Trick in Encrypted Domain",
+    "japanese_title": "暗号化領域におけるカーネルトリックによるデータ分析の高速化",
+    "authors": [
+      "Joon Soo Yoo",
+      "Baek Kyung Song",
+      "Tae Min Ahn",
+      "Ji Won Heo",
+      "Ji Won Yoon"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "comment": "Submitted as a preprint",
+    "summary": "- 準同型暗号（HE）は暗号化データ上の安全な計算に不可欠である\n- 高次元データの効率的な処理が機械学習および統計（ML/STAT）アルゴリズムで難しい\n- カーネル法を用いてHEスキームを加速する方法を提案、ML/STATアルゴリズムの時間性能を向上\n- この技術は基礎的なHEメカニズムから独立しており、データサイエンティストと開発者にとって利用しやすい\n\nカーネル法を使って暗号化データの解析が早くなるなんてすごいよね！データサイエンティストでも使いやすいように工夫されてるのも嬉しいな、未来が楽しみ！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-06-14T04:49:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09682",
+    "title": "Privacy-preserving Quantification of Non-IID Degree in Federated Learning",
+    "japanese_title": "連合学習における非IID度のプライバシー保護定量化",
+    "authors": [
+      "Yuping Yan",
+      "Yizhi Wang",
+      "Yingchao Yu",
+      "Yaochu Jin"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "8 pages, 8 figures, FL@FM-IJCAI'24",
+    "summary": "- 連合学習は、生データの共有を避けつつ複数の協力者で機械学習を行う方法だが、非IIDデータセットが課題。\n- 非IIDデータが精度低下や効率減少を引き起こし、実装の妨げとなっている。\n- 初めて累積分布関数（CDF）を用いた非IID度の定量的定義を提案。\n- 完全準同型暗号を用いて非IID度を推定し、CIFAR-100データセットで効果を検証。\n\n新しいアプローチで連合学習がもっと効率化されそう！これでクライアント間のデータの違いも解消しやすくなるね。",
+    "topics": [
+      "連合学習",
+      "準同型暗号"
+    ],
+    "published": "2024-06-14T03:08:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09680",
+    "title": "Heterogeneous Federated Learning with Convolutional and Spiking Neural Networks",
+    "japanese_title": "畳み込みおよびスパイキングニューラルネットワークを用いた異構連合学習",
+    "authors": [
+      "Yingchao Yu",
+      "Yuping Yan",
+      "Jisong Cai",
+      "Yaochu Jin"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "8 pages, 5 figures, FL@FM-IJCAI'24",
+    "summary": "- 連合学習（FL）は分散データ上でモデルを訓練しながらデータのプライバシーを守る\n- 現在のFLシステムは同種のモデルを前提とするが、実際には異なるAIモデルを使用することが増えてきた\n- 異なるモデルを使うことで特定のタスクや要件に適応しやすく、エッジコンピューティングプラットフォームの柔軟性を高める\n- CNNとSNNを組み合わせた融合フレームワークが最良の性能を示す\n\n複数のモデルが絡むと競争抑圧が見られるんだって、面白い！これからのエッジコンピューティング技術がどう進化するのか楽しみになるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-14T03:05:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09547",
+    "title": "FLea: Addressing Data Scarcity and Label Skew in Federated Learning via Privacy-preserving Feature Augmentation",
+    "japanese_title": "FLea: プライバシー保護型特徴増強による連合学習のデータ不足とラベル偏りへの対処",
+    "authors": [
+      "Tong Xia",
+      "Abhirup Ghosh",
+      "Xinchi Qiu",
+      "Cecilia Mascolo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "This paper has been accepted by KDD 2024. arXiv admin note: text   overlap with arXiv:2312.02327",
+    "summary": "- 連合学習では多数のエッジデバイスのデータを活用するが、データ不足とラベル偏りがモデル性能を阻害\n- FLeaはグローバル特徴バッファを導入し、複数のクライアントのデータを共有し局所訓練を支援\n- ローカルとグローバルの活性化ミックスアップを用いた特徴増強により、訓練サンプル数を増加させ局所オーバーフィッティングを軽減\n- 中間活性化と元データの相関を最小化する難読化手法を採用し、共有特徴のプライバシーを強化\n\nデータ不足やラベルの不均衡にこんな風に対処するのめっちゃ面白そう！プライバシーもちゃんと考慮してるのが未来っぽいよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-13T19:28:08+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.09386",
     "title": "SimGen: Simulator-conditioned Driving Scene Generation",
     "japanese_title": "SimGen: シミュレータ調整型運転シーン生成",
@@ -43,6 +230,27 @@
     "published": "2024-06-13T17:43:41+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2406.09495",
+    "title": "Fair Data Generation via Score-based Diffusion Model",
+    "japanese_title": "スコアベースの拡散モデルを用いた公平なデータ生成",
+    "authors": [
+      "Yujie Lin",
+      "Dong Li",
+      "Chen Zhao",
+      "Minglai Shao"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- AIの意思決定の公平性が注目され、フェアネスアルゴリズムが数多く提案されている\n- 本研究ではフェア学習アルゴリズムではなく、バイアスデータから公平な合成データを生成する\n- 拡散モデルに基づくFADMを提案し、メタトレーニングでテストデータの分布変化に対応する\n- 実験により、FADMが他のベースラインと比較して精度と公平性に優れていることが示される\n\n実際のデータで効果が確認されたのがすごい！フェアなデータ生成が他の用途でも活かされそう〜👀💡",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-13T17:36:05+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.09260",
     "title": "Deep Transformer Network for Monocular Pose Estimation of Ship-Based UAV",
     "japanese_title": "船上UAVの単眼姿勢推定のためのディープトランスフォーマーネットワーク",
@@ -63,6 +271,27 @@
       "合成データ"
     ],
     "published": "2024-06-13T16:01:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09484",
+    "title": "Is Diffusion Model Safe? Severe Data Leakage via Gradient-Guided Diffusion Model",
+    "japanese_title": "拡散モデルは安全か？勾配誘導拡散モデルによる深刻なデータ漏えい",
+    "authors": [
+      "Jiayang Meng",
+      "Tao Huang",
+      "Hong Chen",
+      "Cuiping Li"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 勾配漏えいはトレーニング画像の再構築に利用でき、プライバシー侵害の原因となる\n- 既存手法は低解像度画像の再構築に限定され、高解像度画像のデータ漏えいリスクが十分に探索されていない\n- 拡散モデルを利用した新しい攻撃手法を提案し、高解像度画像(512x512ピクセル)を再構築することで深刻なデータ漏えいに成功\n- 提案手法は差分プライバシーを無効化し、SOTA攻撃ベースラインを超える精度と効率で画像を再構築できる\n\n拡散モデルって便利だけど、こんなに危険なこともあるんだね。今後もっと安全な方法が出てくると嬉しいな！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-13T14:41:47+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.09152",
@@ -173,6 +402,24 @@
       "連合学習"
     ],
     "published": "2024-06-12T17:53:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.09451",
+    "title": "Simulating Realistic Post-Stroke Reaching Kinematics with Generative Adversarial Networks",
+    "japanese_title": "生成敵対ネットワークを用いた現実的な脳卒中後の到達運動のシミュレーション",
+    "authors": [
+      "Aaron J. Hadley",
+      "Christopher L. Pulliam"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "8 pages, 6 figures, 2 tables; submitted to IEEE BHI'24",
+    "summary": "- 脳卒中リハビリにおけるウェアラブルモニタリング用の機械学習モデルは、データの規模と不均一性に制約されがち\n- 従来のデータ拡張方法（回転、置換、タイムワープ）は一部効果的だが、現実的な訓練例を生成することに失敗\n- 条件付き生成敵対ネットワーク（cGAN）を使用して、実験的に測定された脳卒中生存者の到達運動を忠実に模倣する合成データを作成\n- 合成データを使用して訓練を実施すると、分類精度が80.2%に向上し、従来の63.1%を大幅に上回る\n\n合成データでここまで精度が上がるなんてすごいよね！これでリハビリももっと効果的になるといいなぁ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-12T15:51:00+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.08311",

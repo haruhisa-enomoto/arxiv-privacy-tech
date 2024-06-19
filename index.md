@@ -27,612 +27,422 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-06-18T04:20:48.005099
+更新: 2024-06-19T04:20:33.353867
 
 - - -
 
-### [Nemotron-4 340B Technical Report](http://arxiv.org/abs/2406.11704)
+### [Synergizing Foundation Models and Federated Learning: A Survey](http://arxiv.org/abs/2406.12844)
 
-**Nemotron-4 340B 技術報告書**
+**基盤モデルと連合学習の融合：調査**
 
-Nvidia, :, Bo Adler, Niket Agarwal, Ashwath Aithal, Dong H. Anh, Pallab Bhattacharya, Annika Brundyn, Jared Casper, Bryan Catanzaro, Sharon Clay, Jonathan Cohen, Sirshak Das, Ayush Dattagupta, Olivier Delalleau, Leon Derczynski, Yi Dong, Daniel Egert, Ellie Evans, Aleksander Ficek, Denys Fridman, Shaona Ghosh, Boris Ginsburg, Igor Gitman, Tomasz Grzegorzek, Robert Hero, Jining Huang, Vibhu Jawa, Joseph Jennings, Aastha Jhunjhunwala, John Kamalu, Sadaf Khan, Oleksii Kuchaiev, Patrick LeGresley, Hui Li, Jiwei Liu, Zihan Liu, Eileen Long, Ameya Sunil Mahabaleshwarkar, Somshubra Majumdar, James Maki, Miguel Martinez, Maer Rodrigues de Melo, Ivan Moshkov, Deepak Narayanan, Sean Narenthiran, Jesus Navarro, Phong Nguyen, Osvald Nitski, Vahid Noroozi, Guruprasad Nutheti, Christopher Parisien, Jupinder Parmar, Mostofa Patwary, Krzysztof Pawelec, Wei Ping, Shrimai Prabhumoye, Rajarshi Roy, Trisha Saar, Vasanth Rao Naik Sabavat, Sanjeev Satheesh, Jane Polak Scowcroft, Jason Sewall, Pavel Shamis, Gerald Shen, Mohammad Shoeybi, Dave Sizer, Misha Smelyanskiy, Felipe Soares, Makesh Narsimhan Sreedhar, Dan Su, Sandeep Subramanian, Shengyang Sun, Shubham Toshniwal, Hao Wang, Zhilin Wang, Jiaxuan You, Jiaqi Zeng, Jimmy Zhang, Jing Zhang, Vivienne Zhang, Yian Zhang, Chen Zhu
+Shenghui Li, Fanghua Ye, Meng Fang, Jiaxu Zhao, Yun-Hin Chan, Edith C. -H. Ngai, Thiemo Voigt
 
-- Nemotron-4 340Bファミリーがリリースされ、オープンアクセスで提供されている
-- モデルは多くの評価ベンチマークで競争力があり、FP8精度で8つのGPU上で動作可能
-- モデルの展開および訓練で合成データの有用性を実証、98%以上のデータが合成されている
-- 合成データ生成パイプラインもオープンソース化され、研究の促進に貢献することが期待される
+- 基盤モデル（大型言語モデル、視覚トランスフォーマ、マルチモーダルモデル）が学術界と産業界に大きな影響を与えている
+- 小規模モデルと比較して、基盤モデルはプレトレーニングフェーズで大量のデータを必要とする
+- 一般的な基盤モデルはインターネットから収集したデータでプレトレーニング可能だが、ドメイン固有の基盤モデルは専有データが必要でプライバシーの問題が発生
+- 連合学習は、異なる参加者からのデータの可用性の壁を破り、プライバシーを保護しながら分散データセットを使用した基盤モデルのカスタマイズと適応を可能にする
 
-最新の技術でより良い合成データを生成できるなんてすごいね！これからのAI研究や商用アプリケーションでどんな応用が進むのか楽しみ～
+基盤モデルと連合学習を組み合わせることで、様々なドメインに特化した強力なモデルがプライバシーを守りながら構築できるようになるんだよね。最新技術がどのようにプライバシーとデータ利用のバランスを取るか、これからの発展が楽しみ！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2024-06-17 16:25
-
-- - -
-
-### [Making Old Things New: A Unified Algorithm for Differentially Private Clustering](http://arxiv.org/abs/2406.11649)
-
-**古いものを新しくする：差分プライバシー・クラスタリングのための統一アルゴリズム**
-
-Max Dupré la Tour, Monika Henzinger, David Saulpic
-
-- プライベートクラスタリング問題は様々なプライバシーモデルで広く研究されている
-- 20年前のアルゴリズムを少し修正することで、すべてのモデルに対応可能にした
-- 既存の多くの結果と一致しつつ、一部の結果を改善し新しいプライバシーモデルにも拡張
-- 継続的観察設定という入力が時間と共に変化する新しいプライバシーモデルに対応
-
-20年前のアルゴリズムを使って、最新の問題にも対応できるなんてすごくない？これでプライバシー保護のクラスタリングも、もっと広く使えるようになりそうだね！
-
-**Comment:** Oral presentation at ICML 2024
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.DS, cs.CR, cs.LG, **投稿日時:** 2024-06-17 15:31
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-06-18 17:58
 
 - - -
 
-### [Feasibility of Federated Learning from Client Databases with Different Brain Diseases and MRI Modalities](http://arxiv.org/abs/2406.11636)
+### [Neural Approximate Mirror Maps for Constrained Diffusion Models](http://arxiv.org/abs/2406.12816)
 
-**クライアントデータベースから異なる脳疾患とMRIモダリティを用いた連合学習の実現可能性**
+**制約付き拡散モデルのためのニューラル近似ミラーマップ**
 
-Felix Wagner, Wentian Xu, Pramit Saha, Ziyun Liang, Daniel Whitehouse, David Menon, Natalie Voets, J. Alison Noble, Konstantinos Kamnitsas
+Berthy T. Feng, Ricardo Baptista, Katherine L. Bouman
 
-- 特定の脳疾患用のセグメンテーションモデルは固定されたMRIモダリティセットで訓練される
-- 連合学習を用いて異なる脳疾患と多様なMRIモダリティで単一モデルの訓練を試みる
-- 全てのクライアントデータベースのモダリティをカバーする入力チャンネルやランダムなモダリティドロップの訓練を導入
-- 7つの脳MRIデータベースで評価し、新規データベースでも高いセグメンテーション性能を確認
+- 拡散モデルは視覚的に説得力のある画像を生成するが、データの微妙な制約を満たすのは困難
+- 制約には物理ベース、幾何学的、意味的なものがあり、制約を満たすことでモデルの精度が向上する
+- 現行手法は制約の柔軟性に欠けるが、ニューラル近似ミラーマップ（NAMMs）を提案
+- NAMMsは学習したミラー空間と逆マップを使い、制約を満たした状態でデータを生成できる
 
-異なる脳疾患やモダリティの組み合わせでも、連合学習が有効なんて面白そう！将来はもっと多くの病気やデータに対応できるモデルが出てきてほしいな。
+物理ベースから意味的な制約まで柔軟に対応できるNAMMsのアプローチ、期待値高いかも！制約問題のソルバーも簡単に応用できるって、すごく使えそうだよね！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** eess.IV, cs.CV, cs.LG, I.4.9; I.4.6; I.2.11; I.4.0, **投稿日時:** 2024-06-17 15:16
-
-- - -
-
-### [Pre-Training and Personalized Fine-Tuning via Over-the-Air Federated Meta-Learning: Convergence-Generalization Trade-Offs](http://arxiv.org/abs/2406.11569)
-
-**空中連合メタ学習による事前トレーニングと個別調整: 収束と一般化のトレードオフ**
-
-Haifeng Wen, Hong Xing, Osvaldo Simeone
-
-- 大規模言語モデルなどのAIアプリでは、事前トレーニング後のファインチューニングが主流
-- 連合学習（FL）が進み、事前トレーニングが中央集権型から分散型に移行中
-- メタ学習ベースの個別FLは、基本的なパーソナライズを超え、新しいエージェントやタスクへの一般化を目指す
-- 無線設定での一般化と収束のトレードオフを分析、チャンネルの欠陥が一般化を助ける一方で収束を悪化させる
-
-無線通信を利用してAIモデルをパーソナライズするなんて、未来を感じるね。新しい技術がどんな風に役立つか楽しみ！
-
-**Comment:** 37 pages, 7 figures, submitted for possible journal publication
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.IT, eess.SP, math.IT, **投稿日時:** 2024-06-17 14:06
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.CV, eess.IV, **投稿日時:** 2024-06-18 17:36
 
 - - -
 
-### [Decentralized Credential Verification](http://arxiv.org/abs/2406.11535)
+### [Privacy Preserving Federated Learning in Medical Imaging with Uncertainty Estimation](http://arxiv.org/abs/2406.12815)
 
-**分散型資格検証**
+**医療画像における不確実性推定を伴うプライバシー保護型連合学習**
 
-Patrick Herbke, Anish Sapkota
+Nikolas Koutsoubis, Yasin Yilmaz, Ravi P. Ramachandran, Matthew Schabath, Ghulam Rasool
 
-- ブロックチェーンと検証可能な資格情報を用いた、安全で効率的なデジタル資格管理のdAppを紹介
-- OID4VCとSD-JWTに適合したウォレットをサポートし、プライバシー保護に配慮した資格管理が可能
-- 主に履歴書の検証を通じて実証され、多様な分野での応用が可能
-- 分散識別子と高度な暗号技術を統合し、効率性やコスト、高額詐欺に対する問題を解決
+- 連合学習（FL）はプライバシー保護の下で機械学習モデルの訓練を可能にする
+- 患者データのプライバシー問題が大規模な訓練データセットの構築を妨げている
+- 不確実性推定がFLにおいて重要であり、データの異質性が課題となる
+- 現行研究の調査とともに、プライバシー向上とノイズの多い医療画像データの課題解決の方向性を提案
 
-ブロックチェーンで資格情報管理って面白そう！将来、履歴書だけじゃなくて他の証明書とかも全部デジタルで管理できたら便利だよね。
+医療分野での連合学習の重要性が分かるね！これからの研究がどのようにプライバシーを守りつつ精度を上げていけるのかに注目したい。
 
-**Comment:** Preprint submitted to the 6th Conference on Blockchain Research &   Applications for Innovative Networks and Services on the 17th of June 2024
+**Comment:** 31 pages, 5 figures, 3 tables, Journal preprint
 
-**トピック:** [SSI/DID/VC](ssi), **カテゴリ:** cs.CR, cs.NI, **投稿日時:** 2024-06-17 13:37
-
-- - -
-
-### [Private Approximate Query over Horizontal Data Federation](http://arxiv.org/abs/2406.11421)
-
-**水平データ連合におけるプライベート近似クエリ**
-
-Ala Eddine Laouir, Abdessamad Imine
-
-- 複数のデータ提供者がプライベートデータの共同分析を行う課題が存在
-- 暗号技術はプライバシーを向上させるが、クエリ応答時間が増加
-- 近似クエリ処理と差分プライバシーを組み合わせた新手法を提案
-- 計算時間を最大8倍高速化しつつ、学習ベース攻撃への耐性を維持
-
-既存の方法が遅いのを改善できるっぽい！学習攻撃にも強いから安心だね。pliant response time with robust protectionってすごくいいかも☆
-
-**Comment:** To appear in EDBT 2025
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.DB, cs.CR, H.2.8, **投稿日時:** 2024-06-17 11:19
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, eess.IV, stat.ML, **投稿日時:** 2024-06-18 17:35
 
 - - -
 
-### [Transparency, Privacy, and Fairness in Recommender Systems](http://arxiv.org/abs/2406.11323)
+### [In-Context Learning of Energy Functions](http://arxiv.org/abs/2406.12785)
 
-**推薦システムにおける透明性、プライバシー、公正性**
+**エネルギー関数のインコンテキスト学習**
 
-Dominik Kowald
+Rylan Schaeffer, Mikail Khona, Sanmi Koyejo
 
-- 推薦システムに心理学的理論を導入し、透明な設計プロセスを実現
-- 差分プライバシーを用いて精度とプライバシーのトレードオフを調整し、ユーザー保護を効率化
-- セッションベースおよびコールドスタート推薦におけるユーザーの好み情報の不足に対処
-- 人気バイアスが推薦の頻度と人気の相関を示し、公正性に影響を与えることを確認
+- インコンテキスト学習は、最先端のAIモデルの成功を支える強力な能力
+- 今回の研究で、モデルの制約なしにエネルギー関数を学習する新しい方法を提案
+- 我々の手法は、合成データでの実験で実証されている
+- 入力空間と出力空間が異なる場合でも機能する初の例として示唆
 
-心理学の理論がどんな風に使われるのか気になるね！また、人気バイアスが推薦システムに与える影響がどう解決されるかも注目したいよ～！
+新しい視点でインコンテキスト学習の可能性を広げているところが面白い！これからのAIの応用範囲がますます広がりそうだね。
 
-**Comment:** Habilitation (post-doctoral thesis) at Graz University of Technology   for the scientific subject Applied Computer Science
+**Comment:** Proceedings of the 1st Workshop on In-Context Learning at the 41st   International Conference on Machine Learning, Vienna, Austria. 2024. arXiv   admin note: text overlap with arXiv:2402.10202
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.IR, **投稿日時:** 2024-06-17 08:37
-
-- - -
-
-### [Syn-to-Real Unsupervised Domain Adaptation for Indoor 3D Object Detection](http://arxiv.org/abs/2406.11311)
-
-**屋内3D物体検出のための合成から実世界への未学習ドメイン適応**
-
-Yunsong Wang, Na Zhao, Gim Hee Lee
-
-- 合成データの活用で3Dアノテーション作業を大幅に削減し、ゼロショット検出器の訓練が可能
-- ドメインシフトに対応するため、オブジェクト認識に基づく階層的なドメインアライメント（OHDA）を提案
-- 敵対的訓練および擬似ラベリングを用いた二枝アダプテーションフレームワーク
-- 実世界データセットに対して最大9.7％のmAP25改善を達成し、従来手法を上回る
-
-この技術なら、面倒なデータ準備の手間も解消されるし、精度もめっちゃ上がりそう！すごいね！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-17 08:18
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-06-18 16:54
 
 - - -
 
-### [Federated Active Learning Framework for Efficient Annotation Strategy in Skin-lesion Classification](http://arxiv.org/abs/2406.11310)
+### [Can Large Language Models Code Like a Linguist?: A Case Study in Low Resource Sound Law Induction](http://arxiv.org/abs/2406.12725)
 
-**皮膚病変分類における効率的なアノテーション戦略のための連合能動学習フレームワーク**
+**大規模言語モデルは言語学者のようにコードできるか？低リソース音声法則の導入に関するケーススタディ**
 
-Zhipeng Deng, Yuqiao Yang, Kenji Suzuki
+Atharva Naik, Kexun Zhang, Nathaniel Robinson, Aravind Mysore, Clayton Marr, Hong Sng Rebecca Byrnes, Anna Cai, Kalvin Chang, David Mortensen
 
-- 連合学習（FL）は複数の機関がプライベートデータを共有せずにモデルを共同で訓練できる
-- 医療シナリオではデータのアノテーションに専門知識と労働力が必要であり、FLにおいて重大な問題
-- 提案する連合能動学習（FedAL）フレームワークは、FLの下で定期的かつ対話的にALを実行する
-- 実データセットで検証し、50%のサンプルで最先端の性能を達成、他のAL手法より優れた結果を示す
+- 歴史言語学者は、親言語の再構築された単語を子孫言語に変換するプログラムを書く
+- プログラム作成はエラーが多く時間がかかるため、方法の改善が求められている
+- 大規模言語モデル（LLM）を使い、音声変化例からPythonの音声法則プログラムを生成する方法を提案
+- LLMの効果を評価し、既存の自動音声法則導入方法と比較すると、LLMがそれらの弱点を補うことができる
 
-連合能動学習がどんな未来を切り開くのか気になる！これで医療データの負担が減れば、多くの人が救われそうだよね。
-
-**Comment:** 14 pages, 3 figures
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-06-17 08:16
-
-- - -
-
-### [Enhancing Generalizability of Representation Learning for Data-Efficient 3D Scene Understanding](http://arxiv.org/abs/2406.11283)
-
-**データ効率の高い3Dシーン理解のための表現学習の一般化性の向上**
-
-Yunsong Wang, Na Zhao, Gim Hee Lee
-
-- 自己教師型3D表現学習は、豊富なアノテーション付きデータセットの不足という課題を緩和する解決策として浮上
-- 多様で大規模なリアルワールド3Dシーンのデータセットが不足している問題が依然として存在
-- 多様なシンセティックシーンを生成するための生成的ベイジアンネットワーク(GRL)を提案し、合目的な事前学習を実施
-- 事前学習した知識を用いて、3D物体検出と3Dセマンティックセグメンテーションの2つの主要なダウンストリームタスクに適用可能
-
-GRLはすごいかも！リアルなデータセットが無くても、これならもっと効率的に3Dシーン理解ができるようになるかもって思ったよ。技術の進歩が楽しみだね。
+音の変化をPythonでプログラムにするなんて面白い！これから言語学もAIがどんどん手伝ってくれるようになりそうでワクワクするね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-17 07:43
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-06-18 15:46
 
 - - -
 
-### [Retraining with Predicted Hard Labels Provably Increases Model Accuracy](http://arxiv.org/abs/2406.11206)
+### [GeoBench: Benchmarking and Analyzing Monocular Geometry Estimation Models](http://arxiv.org/abs/2406.12671)
 
-**予測されたハードラベルによる再訓練はモデル精度を証明的に向上させる**
+**GeoBench: 単眼幾何推定モデルのベンチマークと分析**
 
-Rudrajit Das, Inderjit S. Dhillon, Alessandro Epasto, Adel Javanmard, Jieming Mao, Vahab Mirrokni, Sujay Sanghavi, Peilin Zhong
+Yongtao Ge, Guangkai Xu, Zhiyue Zhao, Libo Sun, Zheng Huang, Yanlong Sun, Hao Chen, Chunhua Shen
 
-- ノイズの多いラベルで訓練したモデルの性能は、自身の予測ハードラベルで再訓練することで向上する
-- 本研究では、ランダムに破損したラベルを用いた線形分離設定での再訓練を理論的に分析
-- 最初のノイズラベルで得た精度を再訓練で向上できることを証明した初の理論的結果
-- ラベル差分プライバシー(DP)訓練において、予測ラベルと与えられたラベルが一致するサンプルの再訓練が有効
+- 判別的な単眼幾何推定モデルは、大規模な微調整データに依存してゼロショット一般化を実現
+- 生成ベースのパラダイムでは、事前学習された拡散モデルと合成トレーニングデータの微調整で見事な一般化性能を発揮
+- 既存の幾何評価ベンチマークにはシーンの多様性やラベル品質の欠如などの欠点がある
+- 微調整データの品質が、データスケールやモデルアーキテクチャよりも重要であることが判明
 
-この研究、本当面白そう！予測ラベルと与えられたラベルに基づく再訓練でプライバシーを損ねずに精度が向上するだなんて、未来に向けてもっと探求したくなるね。
+シンプルなDINOv2だけで最先端を達成できるなら、複雑な生成モデルいらないかもね？この研究、将来の幾何推定の進展に貢献しそう！
 
+**Comment:** https://github.com/aim-uofa/GeoBench
 
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, stat.ML, **投稿日時:** 2024-06-17 04:53
-
-- - -
-
-### [Save It All: Enabling Full Parameter Tuning for Federated Large Language Models via Cycle Black Gradient Descent](http://arxiv.org/abs/2406.11187)
-
-**すべてを保存：Cycle Black Gradient Descentによる連合大規模言語モデルの完全なパラメータチューニングの実現**
-
-Lin Wang, Zhichao Wang, Xiaoying Tang
-
-- 大規模言語モデル（LLMs）の登場により、深層学習のパラダイムが革命的に変わった
-- 連合学習（FL）では、LLMsの事前学習やファインチューニングが計算資源やメモリ消費、通信ボトルネックに直面する
-- 提案手法FedCyBGDは、Cycle Block Gradient Descentを用いて周期的にモデルを更新し、通信や計算、メモリコストを削減する
-- FedCyBGDは選択されたブロックの更新とアップロードだけで完全なパラメータ学習を可能にし、FL LLMトレーニングで最先端の性能を実現
-
-この方法を使えば、みんなのパソコンの負担が軽くなるってことかな？本当に実用化されたら影響大きそうでワクワクするね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-06-17 03:49
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-18 14:44
 
 - - -
 
-### [Federated Face Forgery Detection Learning with Personalized Representation](http://arxiv.org/abs/2406.11145)
+### [Federated Learning with a Single Shared Image](http://arxiv.org/abs/2406.12658)
 
-**個別化表現による連合型顔偽造検出学習**
+**連合学習における単一の共有画像の利用**
 
-Decheng Liu, Zhan Dang, Chunlei Peng, Nannan Wang, Ruimin Hu, Xinbo Gao
+Sunny Soni, Aaqib Saeed, Yuki M. Asano
 
-- 深層生成技術は高品質な偽動画を作成でき、深刻な社会的脅威である
-- 連合学習戦略により、データのプライバシーを保護しつつモデルパラメータを集約
-- クライアントごとの個別化表現学習で、検出性能を向上
-- 公開顔偽造検出データセットの実験で、最先端手法と比べて優れた性能を示した
+- 連合学習はプライベートなトレーニングデータ共有を避け、モデルを協同で訓練する技術
+- 既存のFedDFは共通の共有データセットを使用するが、これはプライバシーやストレージの問題で困難
+- 本研究では、クライアント間とサーバー間で単一の共有画像のみを使用する新たな知識蒸留法を提案
+- 新しい適応型データセットプルーニングアルゴリズムにより、単一画像から最も情報価値の高い切り取り範囲を選択
 
-個別化表現で性能向上とか新しい感じでワクワクする！実用化が進んだら、偽動画の脅威も怖くなくなるかもね。楽しみ〜。
+一枚の画像で全体の連合学習がより効果的に行えるなんて革新的だね！異なるクライアントアーキテクチャも対応できるのはすごい未来な感じ。
 
-**Comment:** The code is publicly available
+**Comment:** 8 Pages, 3 Figures, Appendix 4 Pages, CVPRW 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-17 02:20
-
-- - -
-
-### [Scorecards for Synthetic Medical Data Evaluation and Reporting](http://arxiv.org/abs/2406.11143)
-
-**合成医療データ評価および報告のためのスコアカード**
-
-Ghada Zamzmi, Adarsh Subbaswamy, Elena Sizikova, Edward Margerrison, Jana Delfino, Aldo Badano
-
-- 合成医療データ（SMD）の利用が増加しているが、その品質評価のための体系的な枠組みが求められている
-- 現在、SMDの評価方法が標準化されておらず、特に様々な医療シナリオでの適用性についての評価が課題である
-- 本研究は、医療アプリケーションの特有の要件を満たす評価枠組みを提案し、SMDスコアカードの概念を紹介
-- スコアカードは、人工的に生成されたデータセットに付随する包括的な報告書として機能し、SMDの品質向上を促進する
-
-合成データってすごく期待されている分野なんだね！スコアカードの概念が入ることで、医療でもっと安心してAIを使えるようになるといいよね！
-
-**Comment:** 7 pages, 2 figures
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.CY, cs.DB, **投稿日時:** 2024-06-17 02:11
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-06-18 14:26
 
 - - -
 
-### [Text Grafting: Near-Distribution Weak Supervision for Minority Classes in Text Classification](http://arxiv.org/abs/2406.11115)
+### [UIFV: Data Reconstruction Attack in Vertical Federated Learning](http://arxiv.org/abs/2406.12588)
 
-**テキストグラフティング: テキスト分類の少数派クラスに対する近似分布弱教師あり学習**
+**UIFV: 垂直連合学習におけるデータ再構築攻撃**
 
-Letian Peng, Yi Gu, Chengyu Dong, Zihan Wang, Jingbo Shang
+Jirui Yang, Peng Chen, Zhihui Lu, Qiang Duan, Yubing Bao
 
-- 従来の方法は生コーパスからクラス名に似たテキストを採掘し、少数派クラスにはほとんどサンプルがない可能性がある
-- 最近の研究はクラス名や定義を用いてLLMにプロンプトを与え関連テキストを生成するが、分布内データが生成されないリスクが高い
-- 本論文では、この2つのアプローチの利点を組み合わせ、少数派クラスに対してきれいで近似分布の弱教師あり学習を得る新しいフレームワーク「テキストグラフティング」を提案
-- LLMベースのロジットを使用し、生コーパスからマスクされたテンプレートを採掘し、これを最先端のLLMで満たして少数派クラスに分布するテキストを合成することで、少数派クラスの分類性能が大幅に向上
+- 垂直連合学習（VFL）は、生データを共有せずに協調機械学習を行う手法である
+- 既存のデータ再構築方法はモデルや勾配情報に依存し、VFL適用には限界がある
+- 本研究では、UIFVという新しい方法を提案し、中間特徴データを用いて元データを再構築する
+- 実験では、提案手法が最先端技術よりも高い攻撃精度を示し、VFLのプライバシーの脆弱性を明らかにした
 
-新しい手法で少数派クラスのテキストを上手く生成できるなんて、おもしろそう！こういう方法だと、少数派データもちゃんと扱える未来が期待できるね。
+データ共有なしで協力するのに、まだこんな抜け道があるなんてビックリ！UIFVのような新しい方法で、もっとプライバシーを守れる方法が必要だね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, **投稿日時:** 2024-06-17 00:23
-
-- - -
-
-### [An Analysis on Quantizing Diffusion Transformers](http://arxiv.org/abs/2406.11100)
-
-**拡散変換器の量子化に関する分析**
-
-Yuewei Yang, Jialiang Wang, Xiaoliang Dai, Peizhao Zhang, Hongbo Zhang
-
-- 拡散モデル(DMs)は反復的なノイズ除去プロセスでランダムノイズを合成データに変換する
-- UNet構造から始まったが、その後のトランスフォーマーのみの構造で性能が向上
-- 潜在拡散モデル(LDMs)は計算要件を軽減するが、パラメータ量と特徴量サイズの多さで推論が高コスト
-- 本研究は最適化なしで効率的なトランスフォーマーのPTQを実現し、条件付き画像生成での効率性と有効性を実証
-
-トランスフォーマー構造の最適化なし量子化って、おもしろいよね！今後の画像生成技術の可能性が広がりそう。
-
-**Comment:** CVPR T4V workshop
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-16 23:18
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.CR, stat.ML, **投稿日時:** 2024-06-18 13:18
 
 - - -
 
-### [MemDPT: Differential Privacy for Memory Efficient Language Models](http://arxiv.org/abs/2406.11087)
+### [Low-Resource Machine Translation through the Lens of Personalized Federated Learning](http://arxiv.org/abs/2406.12564)
 
-**MemDPT: メモリ効率型言語モデルのための差分プライバシー**
+**パーソナライズド連合学習による低リソース機械翻訳へのアプローチ**
 
-Yanming Liu, Xinyue Peng, Jiannan Cao, Yuwei Zhang, Chen Ma, Songhang Deng, Mengchen Fu, Xuhong Zhang, Sheng Cheng, Xun Wang, Jianwei Yin, Tianyu Du
+Viktor Moskvoretskii, Nazarii Tupitsa, Chris Biemann, Samuel Horváth, Eduard Gorbunov, Irina Nikishina
 
-- 大規模言語モデルは優れた性能を発揮するが、ユーザープライバシーのリスクがある
-- トレーニング時のメモリ消費が大きく、資源消耗の課題がある
-- 提案するMemDPTはメモリコストを2~3倍最適化し、データプライバシーを強化
-- MemDPTはさまざまなタスクシナリオで差分プライバシー効率のファインチューニングを実現
+- MeritFedアルゴリズムに基づく新しいアプローチを提案
+- 低リソース機械翻訳のタスクに適用し、その有効性を検証
+- 訓練に使用する各言語の影響を追跡できるため、MeritFedは非常に解釈可能
+- ターゲットデータセットのサイズ、関連性のない言語の影響、および補助最適化パラメータの効果を分析
 
-MemDPTって、メモリも節約しながらプライバシーも守るなんて最強じゃない？色んな応用ができそうでめちゃくちゃワクワクするね！
+MeritFedって、低リソース言語の機械翻訳にも使えるんだね！異なる言語の影響を追跡できるって、かなり役立ちそう💡
 
-**Comment:** 12 pages first version
+**Comment:** 18 pages, 7 figures
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.AI, cs.CL, cs.LG, **投稿日時:** 2024-06-16 22:11
-
-- - -
-
-### [Leveraging Foundation Models for Multi-modal Federated Learning with Incomplete Modality](http://arxiv.org/abs/2406.11048)
-
-**基礎モデルを活用した不完全モダリティによるマルチモーダル連合学習**
-
-Liwei Che, Jiaqi Wang, Xinyue Liu, Fenglong Ma
-
-- 連合学習は分散データ環境での共同訓練をプライバシー保証と共に実現
-- クライアントが複数のデータモダリティを保有する現実的なシナリオに注目
-- モダリティ欠損問題を解決するためFedMVPを提案し、事前訓練モデルを利用
-- モデルは現実世界の画像とテキスト分類データセットで優れた性能を示す
-
-異なるモダリティ間でも連合学習を効率的に行えるってすごい！これが実用化されたら、もっと複雑なデータもプライバシーを守りながら分析できるようになるかもね。
-
-**Comment:** Accepted by ECML-PKDD 2024
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-06-16 19:18
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CL, cs.LG, **投稿日時:** 2024-06-18 12:50
 
 - - -
 
-### [Physics-Informed Deep Learning and Partial Transfer Learning for Bearing Fault Diagnosis in the Presence of Highly Missing Data](http://arxiv.org/abs/2406.11023)
+### [Update Selective Parameters: Federated Machine Unlearning Based on Model Explanation](http://arxiv.org/abs/2406.12516)
 
-**物理に基づく深層学習と部分的転移学習によるベアリング故障診断における高度な欠損データへの対応**
+**更新選択パラメータ: モデル説明に基づく連合機械学習のアンラーニング**
 
-Mohammadreza Kavianpour, Parisa Kavianpour, Amin Ramezani
+Heng Xu, Tianqing Zhu, Lefeng Zhang, Wanlei Zhou, Philip S. Yu
 
-- ラベル付きデータの欠如がベアリング故障診断の主要な障害となっている
-- 深層学習に基づく技術で合成ラベル付きデータを生成するPTPAI法を提案
-- RF-Mixupアプローチを用い、クラスの不均衡問題を解消
-- ドメイン適応戦略にMK-MMSDとCDANを採用し、合成データと実データの分布の違いを緩和
+- 機械アンラーニングが必要な理由は、特定のトレーニングデータの影響をモデルから除去するため
+- 現行の中央集権的なアンラーニング手法では連合学習に不向きであり、全データへのアクセスが前提となる
+- 新たな手法はモデル説明に基づき、重要なチャネルのみを調整してデータの影響を削減
+- 提案手法は計算コストと通信コストを削減しつつ、モデルの性能を維持することを実験で実証
 
-物理に基づく深層学習なんて、かっこいいね！高度な欠損データでもうまくいくみたいだし、実用性が高そう。
+この論文は連合学習の新しいアプローチだね！モデル説明を活用するアイデア、とってもクールじゃない？
 
+**Comment:** Accepted by IEEE Transactions on Big Data
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** eess.SP, cs.AI, cs.LG, cs.SY, eess.SY, **投稿日時:** 2024-06-16 17:36
-
-- - -
-
-### [Promoting Data and Model Privacy in Federated Learning through Quantized LoRA](http://arxiv.org/abs/2406.10976)
-
-**量子化されたLoRAによる連合学習におけるデータおよびモデルプライバシーの促進**
-
-JianHao Zhu, Changze Lv, Xiaohua Wang, Muling Wu, Wenhao Liu, Tianlong Li, Zixuan Ling, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang
-
-- 通常の連合学習は異なるエッジデバイス間でデータのプライバシーを保護
-- 大規模言語モデル（LLMs）の開発には多くのデータと計算リソースが必要で、それは知的財産である
-- 量子化されたモデルパラメータを分配することで、データとモデルの両方のプライバシーを保護
-- LoRAを使った量子化戦略により通信コストを大幅に削減し、リソース効率の良い学習を実現
-
-この方法で通信コストを削減しながら、データとモデルのプライバシーも守れるなんてすごいよね！未来の連合学習がもっと使いやすくなりそう、楽しみだな～。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CL, cs.CR, **投稿日時:** 2024-06-16 15:23
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.DC, cs.LG, **投稿日時:** 2024-06-18 11:43
 
 - - -
 
-### [Linkage on Security, Privacy and Fairness in Federated Learning: New Balances and New Perspectives](http://arxiv.org/abs/2406.10884)
+### [The Power of LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions](http://arxiv.org/abs/2406.12480)
 
-**連合学習におけるセキュリティ、プライバシー、公平性の結びつき：新たなバランスと新しい視点**
+**オンライン政治討論における立場検出のためのLLM生成の合成データの力**
 
-Linlin Wang, Tianqing Zhu, Wanlei Zhou, Philip S. Yu
+Stefan Sylvius Wagner, Maike Behrendt, Marc Ziegele, Stefan Harmeling
 
-- モバイルデバイスや銀行システム、ヘルスケア、IoTシステムで連合学習が急速に普及中
-- この研究では、プライバシー漏洩、セキュリティ脅威、公平性の相互関係を詳述
-- 公平性とプライバシー、セキュリティと勾配共有のトレードオフを指摘
-- 公平性がプライバシーとセキュリティ間の橋渡しとして機能し得る
+- 立場検出は議論の要約、誤情報の検出、意見分布の評価に有用
+- トランスフォーマーモデルは多くのデータを必要とするが、オンライン討論の多様性がデータ収集を難しくする
+- Mistral-7Bモデルで生成した合成データで立場検出エージェントのパフォーマンスを向上
+- 合成データと未ラベルデータの最も情報量豊富なサンプルを組み合わせることで、ラベリング労力を軽減しベースラインモデルを超える成果を達成
 
-プライバシーと公平性のバランスなんて難しそうだけど、めっちゃおもしろいね！未来の連合学習モデルがどんどん進化して、安全かつ公平になるといいな。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, cs.DC, **投稿日時:** 2024-06-16 10:31
-
-- - -
-
-### [Knowledge Distillation in Federated Learning: a Survey on Long Lasting Challenges and New Solutions](http://arxiv.org/abs/2406.10861)
-
-**連合学習における知識蒸留：長年の課題と新たな解決策に関する調査**
-
-Laiqiao Qin, Tianqing Zhu, Wanlei Zhou, Philip S. Yu
-
-- 連合学習はデータをローカライズしたまま複数のクライアントがモデルを訓練する分散型プライバシー保護機械学習である
-- 課題にはプライバシーリスク、データ異質性、通信のボトルネック、およびシステムの異質性が含まれる
-- 知識蒸留はモデル圧縮および強化アルゴリズムとして2020年以降広く適用されている
-- 知識蒸留の連合学習における適用例を包括的に調査し解決策を提示
-
-知識蒸留が連合学習の課題をどう克服できるかを明らかにするなんて面白そう！未来の研究方向も示して、これからの進展が楽しみだね。
+LLMによる合成データでラベリングの手間が減ってパフォーマンスも向上するなんて、すごく画期的じゃない？特に多様な議論の場では大きな助けになるね！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-06-16 09:12
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.LG, **投稿日時:** 2024-06-18 10:36
 
 - - -
 
-### [Federated Learning Optimization: A Comparative Study of Data and Model Exchange Strategies in Dynamic Networks](http://arxiv.org/abs/2406.10798)
+### [Federated Learning with Limited Node Labels](http://arxiv.org/abs/2406.12435)
 
-**連合学習最適化：動的ネットワークにおけるデータとモデル交換戦略の比較研究**
+**ラベルの限定されたノードを持つ連合学習**
 
-Alka Luqman, Yeow Wei Liang Brandon, Anupam Chattopadhyay
+Bisheng Tang, Xiaojun Chen, Shaopu Wang, Yuexin Xuan, Zhendong Zhao
 
-- 大規模な動的連合学習において、データとモデルのどちらを共有するべきかが重要な課題
-- デバイス間での生データ、合成データ、（部分）モデル更新の交換を比較
-- 基礎モデルの文脈でこれらの交換戦略の影響を詳細に調査
-- 時間制限のある知識移転効率が最大で9.08%異なることが判明
+- 分散グラフ構造データを扱うための手法として、サブグラフ連合学習（SFL）が注目を集めている
+- SFLの一部モデルは、サブグラフ間の欠落エッジの重要性を見落とし、ローカルGNNがグローバル表現を他のパーティのGNNに渡せなくなる
+- 既存のSFLモデルは多くのラベル付きデータを必要とし、実用性を制限している
+- 提案する新たなSFLフレームワークFedMpaは、少量のデータでMLPモデルを訓練し、連合特徴をローカル構造に伝播
 
-効率的なデータとモデル交換ってどれがいいんだろうね？この研究で明らかになった9.08%の違い、実用的にどのくらい役立つのか気になるな～
-
-
-
-**トピック:** [連合学習](fl), [合成データ](sd), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-06-16 03:46
-
-- - -
-
-### [GenMM: Geometrically and Temporally Consistent Multimodal Data Generation for Video and LiDAR](http://arxiv.org/abs/2406.10722)
-
-**GenMM：ビデオおよびLiDARのための幾何学的および時間的一貫性を持つマルチモーダルデータ生成**
-
-Bharat Singh, Viveka Kulharia, Luyu Yang, Avinash Ravichandran, Ambrish Tyagi, Ashish Shrivastava
-
-- 自律走行やロボティクスなどで重要なマルチモーダル合成データ生成技術を提案
-- RGBビデオとLiDARスキャンを一体的に編集し、時間的・幾何学的一貫性を持つ3Dオブジェクトを挿入
-- 2D領域を一貫させるために、拡散ベースのビデオインペインティングモデルを使用
-- 新しいオブジェクトの3D形状を最適化し、LiDAR深度データも更新して一致させる
-
-リアルな3Dオブジェクトの挿入でマルチモーダルデータ作成がもっと簡単になりそうだね。これが実用化されたら、いろんな分野で革新的なデータ収集ができちゃうかも！
+新しいSFLフレームワークが実用性を高める方法についての研究なんて面白そうだね！将来的にもっと現実の応用が増えるかもって感じだよね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-06-15 19:29
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-06-18 09:30
 
 - - -
 
-### [RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics](http://arxiv.org/abs/2406.10721)
+### [Deep Temporal Deaggregation: Large-Scale Spatio-Temporal Generative Models](http://arxiv.org/abs/2406.12423)
 
-**RoboPoint: ロボティクスにおける空間的アフォーダンス予測のための視覚言語モデル**
+**深層時系列デアグリゲーション: 大規模時空間生成モデル**
 
-Wentao Yuan, Jiafei Duan, Valts Blukis, Wilbert Pumacay, Ranjay Krishna, Adithyavairavan Murali, Arsalan Mousavian, Dieter Fox
+David Bergström, Mattias Tiger, Fredrik Heintz
 
-- ロボットはテーブル上の物体との再配置や棚への食料品の配置など、正確な行動ポイントを計画する必要がある
-- 自動合成データ生成パイプラインを導入し、VLMをロボットの分野とニーズに合わせて指示調整
-- 提案手法は現実世界のデータ収集や人間のデモンストレーションを必要とせず、多様な環境や視点にスケーラブル
-- RoboPointはロボットナビゲーション、マニピュレーション、AR支援などの下流アプリケーションに対応し、最先端のVLMより21.8%、下流タスクでは30.5%の精度向上を達成
+- 時系列データはセンサーや取引システムから生成され、プライバシーとビジネス感受性が課題
+- 従来の方法は短いシーケンスと小規模なデータに限られ、大規模データには不向き
+- 本研究では、TDDPMというトランスフォーマーベースの拡散モデルを提案し、性能とスケーラビリティを向上
+- 新たな包括的ベンチマークで評価し、事前の空間占有周波数情報に基づくモビリティデータ生成を実現
 
-ロボットの操作がここまで進化すると、日常生活がもっと楽しく便利になりそうだね！未来がすぐそこに来てる感じでわくわくする！
+大規模な時系列データを活用して、都市の動きがシミュレートされるの楽しそう！特に、未知の環境でも適応できるなんてすごいね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.AI, cs.CV, **投稿日時:** 2024-06-15 19:22
-
-- - -
-
-### [Emerging Safety Attack and Defense in Federated Instruction Tuning of Large Language Models](http://arxiv.org/abs/2406.10630)
-
-**連合指示調整における大規模言語モデルの新たな安全攻撃と防御**
-
-Rui Ye, Jingyi Chai, Xiangrui Liu, Yaodong Yang, Yanfeng Wang, Siheng Chen
-
-- 連合学習（FL）は、複数の当事者がデータを共有せずに協力して大規模言語モデル（LLM）を微調整できる
-- この研究では、FedITの安全調整の脆弱性を暴露し、シンプルだが効果的な攻撃手法を提案
-- 悪意のあるクライアントは自動生成された攻撃データを使い、FedITシステムの安全性を損なう
-- 提案された防御法により、多くの既存のFL防御法が効果的でない中で、攻撃されたLLMの安全性を大幅に向上
-
-安全性の調整がこんなに簡単に損なわれるのって怖いね。でも、新しい防御法がちゃんと対策できるなら、もっと安心して使えそう。楽しみだな。
-
-**Comment:** 18 pages
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CL, cs.AI, cs.CR, cs.MA, **投稿日時:** 2024-06-15 13:24
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-06-18 09:16
 
 - - -
 
-### [Privacy-Preserving Heterogeneous Federated Learning for Sensitive Healthcare Data](http://arxiv.org/abs/2406.10563)
+### [Unveiling the Flaws: Exploring Imperfections in Synthetic Data and Mitigation Strategies for Large Language Models](http://arxiv.org/abs/2406.12397)
 
-**センシティブな医療データに対するプライバシー保護を図る異なる連合学習**
+**欠点の解明：合成データの不完全性と大規模言語モデルの緩和戦略の探求**
 
-Yukai Xu, Jingfeng Zhang, Yujie Gu
+Jie Chen, Yupeng Zhang, Bingning Wang, Wayne Xin Zhao, Ji-Rong Wen, Weipeng Chen
 
-- 医療データの集中化によるプライバシー漏洩の課題
-- 知的財産保護のため、異なるローカルモデルの機密性を保ちながら共同訓練が必要
-- 新たなAAFVフレームワークを提案。差分プライバシー機構と棄権認識投票を組み合わせる
-- 糖尿病と院内患者死亡率の予測において有効性と機密性を実証
+- 高品質データの不足を補うため、合成データが提案されている
+- 合成データはモデルの性能を改善するが、パターンオーバーフィッティングの課題あり
+- Q-Aペアに関連する特定の欠点を解析し、アンラーニング技術を提案
+- 提案手法は、低コストで性能を維持しつつ、指示追従問題を緩和
 
-新しい仕組みでデータのプライバシーを守りつつ、正確な医療予測ができるなんてすごいよね。これからモデル同士も秘密を守りながら仲良く協力する時代になるのかも！
+合成データを使うとこういう困ったがあるんだね。でも新しい手法で改善できるなら、試してみる価値ありそう！未来のAIがもっと賢くなりそう～。
 
-**Comment:** Accepted to the 2024 IEEE Conference on Artificial Intelligence (IEEE   CAI 2024)
+**Comment:** 15 pages
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.AI, cs.CR, **投稿日時:** 2024-06-15 08:43
-
-- - -
-
-### [MALLM-GAN: Multi-Agent Large Language Model as Generative Adversarial Network for Synthesizing Tabular Data](http://arxiv.org/abs/2406.10521)
-
-**多エージェント大規模言語モデルを生成的敵対ネットワークとして利用した表データの生成**
-
-Yaobin Ling, Xiaoqian Jiang, Yejin Kim
-
-- データ不足問題解決のため、合成表データ生成法を提案
-- 大規模言語モデル（LLM）を生成的敵対ネットワーク（GAN）として使用
-- 小規模データサンプルでも高品質な合成データ生成が可能
-- 実験結果は、既存モデルよりも高品質な合成データ生成とプライバシー保護を実証
-
-大規模言語モデルをこんなふうに使うなんてさすが～。少ないデータでも高品質なシミュレーションができるって、たくさんの分野で応用できそうだね。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-06-15 06:26
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, **投稿日時:** 2024-06-18 08:38
 
 - - -
 
-### [A Label is Worth a Thousand Images in Dataset Distillation](http://arxiv.org/abs/2406.10485)
+### [Security and Privacy of 6G Federated Learning-enabled Dynamic Spectrum Sharing](http://arxiv.org/abs/2406.12330)
 
-**データセット蒸留におけるラベルの価値は千の画像に匹敵する**
+**6G連合学習対応動的スペクトル共有のセキュリティとプライバシー**
 
-Tian Qin, Zhiwei Deng, David Alvarez-Melis
+Viet Vo, Thusitha Dayaratne, Blake Haydon, Xingliang Yuan, Shangqi Lai, Sharif Abuadbba, Hajime Suzuki, Carsten Rudolph
 
-- データの質が機械学習モデルの性能に重要であり、データセット蒸留法はこれを小規模なデータセットに圧縮して活用
-- 蒸留法は複雑で多様な合成データ生成手法を用いるが、共通点としてソフトラベルを使用
-- ソフトラベルの役割を深く研究し、具体的な手法ではなくソフトラベルの使用が性能を決定する主因と判明
-- ソフトラベルには構造化情報が必要であり、イメージ数ごとの効果やデータ効率のパレートフロンティアも提示
+- 6G無線通信における動的スペクトル共有が重要
+- 連合学習によるスペクトルセンシング技術が注目を集める
+- 協調トレーニングの整合性とローカルユーザのスペクトル情報のプライバシーが未解決
+- 実践的な攻撃ベクトルと防御の指針を提示
 
-この研究、めっちゃ興味深い！ソフトラベルが鍵みたいだから、新しい蒸留法もいろいろ考えられそうだね。未来の機械学習がもっと効率的になりそう！
+連合学習でプライバシーを保ちながら6Gの通信をより効率的にするなんて、未来のネットワークがもっと便利になりそうでワクワクする！新しいテクノロジーでどんな日常が来るのか、楽しみだね。
 
+**Comment:** 7 pages, 5 figures. The paper is submitted to IEEE Networks for   review
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.CV, **投稿日時:** 2024-06-15 03:30
-
-- - -
-
-### [Federated Neural Radiance Field for Distributed Intelligence](http://arxiv.org/abs/2406.10474)
-
-**分散インテリジェンスのための連合ニューラルラジアンスフィールド**
-
-Yintian Zhang, Ziyu Shao
-
-- ARやVR応用における新規視点合成（NVS）の重要性
-- Neural Radiance Field（NeRF）のNVSタスクでの性能優位性
-- データプライバシーを保持しつつ異なるデータ所有者の画像を活用するFedNeRF
-- 機能的多様でリソース豊富な連合学習テストベッドの構築とFedNeRFアルゴリズムの実験
-
-FedNeRFってめっちゃおもしろそう！これで、異なる場所にあるデータでも効率的に活用できちゃうんだって。新しいAR/VR体験がさらに進化するかもね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2024-06-15 02:32
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.DC, cs.ET, cs.LG, cs.NI, **投稿日時:** 2024-06-18 06:54
 
 - - -
 
-### [Byzantine-Robust Decentralized Federated Learning](http://arxiv.org/abs/2406.10416)
+### [BadSampler: Harnessing the Power of Catastrophic Forgetting to Poison Byzantine-robust Federated Learning](http://arxiv.org/abs/2406.12222)
 
-**ビザンチン耐性分散型連合学習**
+**BadSampler: カタストロフィックフォゲッティングの力を利用したビザンチン耐性連合学習の毒殺攻撃**
 
-Minghong Fang, Zifan Zhang, Hairi, Prashant Khanduri, Jia Liu, Songtao Lu, Yuchen Liu, Neil Gong
+Yi Liu, Cong Wang, Xingliang Yuan
 
-- 連合学習（FL）は、複数のクライアントがプライベートな訓練データを公開せずに協力して機械学習モデルを訓練する技術である
-- 従来の連合学習は中央サーバーを介して調整されるが、スケーラビリティと信頼依存性の問題がある
-- 分散型連合学習（DFL）はサーバーレスかつピアツーピア方式でモデルを共同訓練するが、完全に分散型であるため攻撃に弱い
-- 新アルゴリズム「BALANCE」は、クライアントがローカルモデルを基準に受信モデルが悪意かどうかを判断し、防御力と収束保証を提供する
+- ビザンチン耐性の連合学習における毒殺攻撃の研究がほとんど行われていない
+- 本論文では、カタストロフィックフォゲッティングを利用した新たな攻撃BadSamplerを提案
+- Clean-labelデータのみを使用し、モデルの一般化誤差を最大化するように訓練データを選択
+- 提案手法の有効性と性能を二つの実データセットで評価し、効率的な攻撃が可能であることを示した
 
-これは革新的だね！完全ピアツーピアでの連合学習、未来のAIインフラに道を開く革新かも！
+これ、めっちゃ興味深いね！毒殺攻撃とか、まるでスパイ映画みたいだし、連合学習がもっと強くなるかもってワクワクするね。
 
-**Comment:** To appear in ACM Conference on Computer and Communications Security   2024 (CCS '24)
+**Comment:** In Proceedings of the 30th ACM SIGKDD Conference on Knowledge   Discovery and Data Mining (KDD' 24), August 25-29, 2024, Barcelona, Spain
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.DC, cs.LG, **投稿日時:** 2024-06-14 21:28
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, cs.LG, **投稿日時:** 2024-06-18 02:43
 
 - - -
 
-### [L4GM: Large 4D Gaussian Reconstruction Model](http://arxiv.org/abs/2406.10324)
+### [SFedCA: Credit Assignment-Based Active Client Selection Strategy for Spiking Federated Learning](http://arxiv.org/abs/2406.12200)
 
-**L4GM: 大規模4Dガウス再構成モデル**
+**SFedCA: スパイキング連合学習のための信用配分に基づくアクティブクライアント選択戦略**
 
-Jiawei Ren, Kevin Xie, Ashkan Mirzaei, Hanxue Liang, Xiaohui Zeng, Karsten Kreis, Ziwei Liu, Antonio Torralba, Sanja Fidler, Seung Wook Kim, Huan Ling
+Qiugang Zhan, Jinbo Cao, Xiurui Xie, Malu Zhang, Huajin Tang, Guisong Liu
 
-- L4GMは単一視点の動画入力からアニメーションオブジェクトを生成する最初の4D再構成モデル
-- 44K種類のオブジェクトと110Kのレンダリングされたアニメーションを含むマルチビュー動画データセットを使用
-- L4GMは低フレームレートの動画フレームから3Dガウススプラッティング表現を生成し、アップサンプリングして時間的な滑らかさを実現
-- 合成データのみで学習したL4GMは、実環境の動画でも高品質なアニメーション3Dアセットを生成
+- スパイキング連合学習は、デバイスが局所データを交換せず低消費電力で協力して学習する
+- プライバシー保護機能とエネルギー効率を兼ね備え、マルチメディアデータ処理に革命をもたらす可能性
+- 既存手法はクライアントの無作為選択に依存し、統計的異質性がグローバルモデルの収束や精度に影響
+- SFedCAは閾値に基づきクライアントを選定し、データ分布のバランスを維持。また、通信ラウンド数を減らすことに成功
 
-未来の動画制作がどんどん簡単になりそうでワクワクするね！ゲームとか映画の制作にも役立ちそうじゃない？
+この技術で低消費電力で効率的に学習できるとか、未来のガジェットがすごくスマートになりそう！早く実用化されるといいね。
 
-**Comment:** Project page: https://research.nvidia.com/labs/toronto-ai/l4gm
+**Comment:** 9 pages
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-06-14 17:51
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, cs.ET, cs.MM, cs.NE, **投稿日時:** 2024-06-18 01:56
+
+- - -
+
+### [LLMs Are Prone to Fallacies in Causal Inference](http://arxiv.org/abs/2406.12158)
+
+**LLMは因果推論において誤謬を犯しやすい**
+
+Nitish Joshi, Abulhair Saparov, Yixin Wang, He He
+
+- LLMは事前学習データから因果関係を抽出できるが、記憶に依存する可能性がある
+- 合成データを用いて因果関係の推論能力を検証した結果、LLMはテキスト中の順序から因果関係を推論しがち
+- 時系列関係（XがYの前に発生）でも同様の誤謬を示すことが多い
+- 反事実的な関係から因果関係を推論するのが困難であり、因果性の理解に疑問が残る
+
+LLMって便利だけど、因果関係の推論はまだまだ課題が多いみたい。テンプレから外れた状況でも柔軟に対応できるようになるといいな！
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-06-18 00:14
+
+- - -
+
+### [ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis for Stroke](http://arxiv.org/abs/2406.12123)
+
+**ChatEMG：脳卒中の手の装具を制御するための合成データ生成**
+
+Jingxi Xu, Runsheng Wang, Siqi Shang, Ava Chen, Lauren Winterbottom, To-Liang Hsu, Wenxi Chen, Khondoker Ahmed, Pedro Leandro La Rotta, Xinyue Zhu, Dawn M. Nilsen, Joel Stein, Matei Ciocarlie
+
+- 障害を持つ被験者からのデータ収集の困難さにより、手の装具での意図推定が困難
+- EMG信号は条件、セッション、被験者ごとに大きな変動があり、分類器の一般化が難しい
+- ChatEMGはプロンプトに基づいて合成EMG信号を生成し、少量のデータを拡張
+- 合成データは分類器に依存せず、意図推定精度を向上させ、機能的な装具支援作業に利用可能
+
+合成データで意図推定をサポートするのってすごくない？新しい被験者でもすぐに活用できちゃうとか、未来のリハビリは明るい感じがするなぁ！
+
+**Comment:** 8 pages
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.AI, cs.LG, **投稿日時:** 2024-06-17 22:04
+
+- - -
+
+### [Centering Policy and Practice: Research Gaps around Usable Differential Privacy](http://arxiv.org/abs/2406.12103)
+
+**政策と実践の中心化：使いやすい差分プライバシーに関する研究のギャップ**
+
+Rachel Cummings, Jayshree Sarathy
+
+- 差分プライバシーは理論的に非常に強力だが、実践には大きな課題がある
+- 実世界での利用可能性を向上させるためには、研究者と実務家の協力が必要
+- ユーザーのニーズに合わせたリスクフレームワークの開発が提案されている
+- ユーザーインターフェースの投資やアルゴリズム監査が重要な改善点である
+
+理論だけじゃなくて実践も大事って視点が新鮮！みんなのための差分プライバシーが早く実現するといいな。
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.CY, cs.HC, **投稿日時:** 2024-06-17 21:32
+
+- - -
+
+### [Self-MoE: Towards Compositional Large Language Models with Self-Specialized Experts](http://arxiv.org/abs/2406.12034)
+
+**Self-MoE: 自己特化型専門家を備えた構成可能な大規模言語モデルに向けて**
+
+Junmo Kang, Leonid Karlinsky, Hongyin Luo, Zhen Wang, Jacob Hansen, James Glass, David Cox, Rameswar Panda, Rogerio Feris, Alan Ritter
+
+- モノリシックなLLMを自己特化型専門家によるモジュールシステムに変換するアプローチであるSelf-MoEを提案
+- 自己生成の合成データを用いて専門家モジュールを構築し、自己最適化ルーティングを組み込む
+- 人間のラベル付けデータや追加パラメータなしで、動的かつ能力特化型のタスク処理が可能
+- 多様なベンチマークで基盤LLMを上回る性能を示し、モジュール性と自己改善の重要性を示す
+
+自己改善のアイデアがすごくおもしろそう！もっと効率的で柔軟なAIシステムが実現できる可能性、大きいよね。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.LG, **投稿日時:** 2024-06-17 19:06
+
+- - -
+
+### [P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT Detection in Software Defined Networking](http://arxiv.org/abs/2406.12003)
+
+**P3GNN: ソフトウェア定義ネットワーキングにおけるAPT検出のためのプライバシー保護型プロベナンスグラフベースモデル**
+
+Hedyeh Nazari, Abbas Yazdinejad, Ali Dehghantanha, Fattane Zarrinkalam, Gautam Srivastava
+
+- SDNはネットワーク管理に進展をもたらしたが、APTやゼロデイ攻撃の脅威も増加
+- 既存の対策は新しい脅威の検出や共同学習中のデータプライバシーの問題に不十分
+- P3GNNは連合学習と準同型暗号を組み合わせ、データ機密性と勾配の整合性を強化
+- 無監督学習で攻撃を検知し、DARPA TCE3データセットで高い精度と低い誤検知率を実現
+
+連合学習と準同型暗号の組み合わせってすごいね！これなら新しい脅威にも対応できるから安心じゃん？
+
+
+
+**トピック:** [連合学習](fl), [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-17 18:14

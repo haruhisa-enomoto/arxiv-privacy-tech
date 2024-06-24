@@ -1,5 +1,233 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.15346",
+    "title": "Privacy Preserved Blood Glucose Level Cross-Prediction: An Asynchronous Decentralized Federated Learning Approach",
+    "japanese_title": "プライバシー保護された血糖値クロス予測：非同期分散型連合学習アプローチ",
+    "authors": [
+      "Chengzhe Piao",
+      "Taiyu Zhu",
+      "Yu Wang",
+      "Stephanie E Baldeweg",
+      "Paul Taylor",
+      "Pantelis Georgiou",
+      "Jiahao Sun",
+      "Jun Wang",
+      "Kezhi Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 新規T1D患者はCGMデータが不足しており、血糖値予測モデルの「コールドスタート問題」に直面\n- 患者データをプライバシーに配慮し収集することが人口モデルには課題\n- 「GluADFL」を提案し、分散連合学習でプライバシーを保護しつつ血糖値を予測\n- 298名のデータで8つのベースライン手法と比較し、高い予測精度を確認\n\n個人のデバイスに保存されたデータを用いる連合学習なんて、未来だよね！どんなネットワーク構造でも対応できるみたいだから、実際の社会での応用が広がりそう。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T17:57:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.15309",
+    "title": "The Privacy-Utility Trade-off in the Topics API",
+    "japanese_title": "Topics APIにおけるプライバシーと有用性のトレードオフ",
+    "authors": [
+      "Mário S. Alvim",
+      "Natasha Fernandes",
+      "Annabelle McIver",
+      "Gabriel H. Nunes"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "CCS '24 (to appear)",
+    "summary": "- サードパーティのクッキーの廃止がプライバシー配慮型広告手法の提案を促進\n- GoogleのTopics APIが粗い粒度の広告トピックを提供することでプライバシーを保護\n- 再識別リスクと広告会社への有用性を理論的に評価\n- 理論モデルを実証データで検証し、未知の副次情報を持つ攻撃者に対する上限を提示\n\nGoogleの新技術、面白そう！みんなが安心してネットを使える未来が見えてきたね🎶",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-21T17:01:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.15217",
+    "title": "Rate-Splitting Multiple Access for Overloaded Multi-group Multicast: A First Experimental Study",
+    "japanese_title": "過負荷マルチグループマルチキャスト用レートスプリッティング複数アクセスの初実験研究",
+    "authors": [
+      "Xinze Lyu",
+      "Sundar Aditya",
+      "Bruno Clerckx"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.IT",
+      "math.IT"
+    ],
+    "comment": "Submitted to IEEE Transactions on Broadcasting",
+    "summary": "- レートスプリッティング複数アクセス（RSMA）は多ユーザ無線通信の干渉管理技術である\n- RSMAベース、空間分割多重アクセス（SDMA）ベース、非直交多重アクセス（NOMA）ベースの三者比較を実施\n- 2つのアンテナ送信機と各グループ2つのアンテナユーザで構成された測定セットアップを使用\n- RSMAベースMGMは、各グループのスループットでSDMAおよびNOMAを上回る公平性を実現\n\nRSMAが理論通りの性能を実証したなんて興味深いよね！実験での公平性の高さ、本当にすごい♡",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T15:00:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.15125",
+    "title": "Embracing Federated Learning: Enabling Weak Client Participation via Partial Model Training",
+    "japanese_title": "連合学習の採用：部分モデル訓練による弱いクライアント参加の実現",
+    "authors": [
+      "Sunwoo Lee",
+      "Tuo Zhang",
+      "Saurav Prakash",
+      "Yue Niu",
+      "Salman Avestimehr"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 部分モデル訓練法により、システムリソースが不足しているクライアントも参加可能にするフレームワークを提案\n- 各クライアントが使用可能なリソースに応じて連続する出力層を訓練し、効率性を向上\n- 非凸で滑らかな問題に対して収束を保証し、全体として高い正確性を維持\n- 大規模な評価で、既存の幅削減方法（HeteroFLやFjORD）よりも高い性能を示す\n\n部分モデル訓練が小さなデバイスでも連合学習に貢献できるようにするってすごいね！これからもっと多様なクライアントが連合学習に参加できる未来が楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T13:19:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.15070",
+    "title": "Tempora-Fusion: Time-Lock Puzzle with Efficient Verifiable Homomorphic Linear Combination",
+    "japanese_title": "Tempora-Fusion: 効率的な検証可能な準同型線形結合を用いた時限ロックパズル",
+    "authors": [
+      "Aydin Abadi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 時限ロックパズル(TLP)は未来への機密情報の安全な送信方法である\n- 準同型TLPは異なるクライアントのパズル上での計算を可能にする重要な変種\n- Tempora-Fusionは計算結果の検証を可能にし、非対称鍵暗号を避けて効率的な実装を実現\n- このスキームは連合学習、オンライン銀行での予定支払い、電子投票などに応用可能\n\n既存の課題を解決し、未来の技術に光を当てるのがTempora-Fusionなんだね。これなら安心していろんなサービスが使える！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T11:40:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.14910",
+    "title": "Towards Dynamic Resource Allocation and Client Scheduling in Hierarchical Federated Learning: A Two-Phase Deep Reinforcement Learning Approach",
+    "japanese_title": "階層型連合学習における動的リソース配分とクライアントスケジューリングに向けたアプローチ: 二段階深層強化学習法",
+    "authors": [
+      "Xiaojing Chen",
+      "Zhenyuan Li",
+      "Wei Ni",
+      "Xin Wang",
+      "Shunqing Zhang",
+      "Yanzan Sun",
+      "Shugong Xu",
+      "Qingqi Pei"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "math.OC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）はデータを共有せずに機械学習モデルを訓練する有望な技術である\n- 階層型FL（HFL）システムでは、エネルギー、計算、通信、クライアントスケジューリングが複数層で複雑\n- 二段階深層決定政策勾配（DDPG）フレームワーク「TP-DDPG」を提案し、エネルギー収集で動くHFLシステムの学習遅延とモデル精度をオンラインで調整\n- TP-DDPGは迅速に有効な政策に収束し、HFLの訓練時間をベンチマークと比較して39.4%短縮可能\n\nエネルギーを収集しながら学習するってめっちゃエコじゃん！これからのデバイスはもっと環境に優しくなるかもね。未来が楽しみだなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T07:01:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.14898",
+    "title": "Safely Learning with Private Data: A Federated Learning Framework for Large Language Model",
+    "japanese_title": "プライベートデータで安全に学習する：大規模言語モデルのための連合学習フレームワーク",
+    "authors": [
+      "JiaYing Zheng",
+      "HaiNan Zhang",
+      "LingXiang Wang",
+      "WangJie Qiu",
+      "HongWei Zheng",
+      "ZhiMing Zheng"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- プライベートデータは公共データよりも質が高く、大規模言語モデルの改善が可能\n- フェデレーテッドラーニング（FL）は分散したプライベートデータでもモデルを訓練可能だが、従来の方法では計算負荷が高すぎる\n- スプリットラーニングはサーバーにほとんどのパラメータを任せるが、セキュリティと効率に課題がある\n- 提案するFL-GLMはデータリーク防止と効率改善を実現し、実験で中央集約型モデルに匹敵する性能を示す\n\n分散化とセキュリティの両方を見事に両立している感じが面白いよね！実験での結果もすごく期待できそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-21T06:43:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.14773",
+    "title": "Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data",
+    "japanese_title": "情報取得強化生成 (RAG) におけるプライバシー問題の純粋合成データによる緩和",
+    "authors": [
+      "Shenglai Zeng",
+      "Jiankun Zhang",
+      "Pengfei He",
+      "Jie Ren",
+      "Tianqi Zheng",
+      "Hanqing Lu",
+      "Han Xu",
+      "Hui Liu",
+      "Yue Xing",
+      "Jiliang Tang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- RAGは外部知識から情報を取得し言語モデルの出力を強化するが、プライベートデータを使用すると重大なプライバシーリスクが発生する\n- プライバシー保護のために、取得データとして合成データを使用することを提案\n- SAGEという新しい二段階の合成データ生成パラダイムを提案し、最初の段階で属性ベースの抽出と生成を行い、次の段階でエージェントベースの反復改善プロセスを通じてプライバシーを強化する\n- 実験では、合成データを取得コンテキストとして使用することで、元のデータを使用した場合と同等の性能を維持しつつ、プライバシーリスクを大幅に削減することが示された\n\n合成データでプライバシー守りながらパフォーマンスも維持できるなんてすごいね！これが普及すれば、RAGシステムがもっと安全に使えるようになりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-20T22:53:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.14772",
+    "title": "Consistent community detection in multi-layer networks with heterogeneous differential privacy",
+    "japanese_title": "異種差分プライバシーを用いた多層ネットワークにおける一貫したコミュニティ検出",
+    "authors": [
+      "Yaoming Zhen",
+      "Shirong Xu",
+      "Junhui Wang"
+    ],
+    "categories": [
+      "stat.ME",
+      "cs.CR",
+      "cs.SI"
+    ],
+    "comment": "",
+    "summary": "- トポロジー構造を保ちながら敏感情報を保護することが課題\n- 個々のノードのプライバシー好みに基づくパーソナライズドエッジフリッピング機構を提案\n- 適切なデバイアスでコミュニティ構造を保持しつつ差分プライバシー達成可能\n- 提案手法の有効性を様々な合成ネットワークや実際の多層ネットワークで数値的に確認\n\nこの論文、ネットワークの個々のノード毎に対応するプライバシー対策を導入しているっていうところが超おもしろそう！どんな風に使われるか想像するとワクワクするよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-20T22:49:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.14693",
+    "title": "Voice Disorder Analysis: a Transformer-based Approach",
+    "japanese_title": "音声障害分析: トランスフォーマーベースアプローチ",
+    "authors": [
+      "Alkis Koudounas",
+      "Gabriele Ciravegna",
+      "Marco Fantini",
+      "Giovanni Succo",
+      "Erika Crosetti",
+      "Tania Cerquitelli",
+      "Elena Baralis"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.LG"
+    ],
+    "comment": "Accepted at Interspeech 2024",
+    "summary": "- 音声障害は患者の生活の質に大きな影響を与える病理であるが、自動診断は未だ充分に研究されていない\n- 合成データ生成とデータ拡張を用いて、データ不足問題に対処\n- 異なる録音タイプに対応するため、Mixture of Expertアンサンブルを使用して予測を整合\n- 公共とプライベートデータセット両方で実験し、既存の手法を大幅に改善\n\n音声障害を機械学習で分析するなんて面白そう！いろんな録音を一緒に解析できるのも便利かも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-20T19:29:04+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.14551",
     "title": "Advancing Fine-Grained Classification by Structure and Subject Preserving Augmentation",
     "japanese_title": "構造と主題を保持する増補による細粒度分類の進展",

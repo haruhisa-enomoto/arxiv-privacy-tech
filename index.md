@@ -27,270 +27,251 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-06-26T04:20:58.596079
+更新: 2024-06-27T04:21:36.309549
 
 - - -
 
-### [FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model](http://arxiv.org/abs/2406.17706)
+### [Denoising as Adaptation: Noise-Space Domain Adaptation for Image Restoration](http://arxiv.org/abs/2406.18516)
 
-**FedBiOT: 連合学習におけるフルモデルなしのLLMローカルファインチューニング**
+**適応としてのデノイジング: 画像復元のためのノイズ空間ドメイン適応**
 
-Feijie Wu, Zitao Li, Yaliang Li, Bolin Ding, Jing Gao
+Kang Liao, Zongsheng Yue, Zhouxia Wang, Chen Change Loy
 
-- 大規模言語モデル（LLM）は適切なデータでファインチューニングするとドメイン特有のタスクで優れた性能を発揮する
-- ドメイン特有のデータは複数の所有者間で分散しており、連合学習（FL）の文脈でLLMのファインチューニングを行う方法に関心が集まっている
-- FLのクライアントは計算能力と通信容量が限られているため、LLMの効果的なファインチューニングが困難である
-- FedBiOTでは圧縮LLMを生成し、それを用いてクライアントが軽量なアダプターをファインチューニングすることで、リソース消費を大幅に削減できる
+- 既存の手法はデータ合成パイプラインの改善やドメイン適応などで対応しているが、実用場面での一般化が難しい
+- 拡散モデルを用いてノイズ空間を介してドメイン適応を行う手法を提案
+- チャンネルシャッフリングや残差交換コントラスト学習など、トレーニング中のショートカット防止技術を提示
+- デノイジング、デブラー、デレイニングの3つの古典的な画像復元タスクで有効性を実証
 
-FedBiOTめっちゃ素敵じゃない？軽量なアダプターだけで効果を維持しつつリソース削減とか、ほんとに現実的な解決策だと思う！連合学習の新しい時代が来るかもね！
+新しい手法で画像をきれいにするなんてワクワクするね！これで現実のシーンでももっと鮮明な画像が得られるようになるかも。
 
-**Comment:** KDD 2024
+**Comment:** Github Repository: https://github.com/KangLiao929/Noise-DA/
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CL, cs.DC, **投稿日時:** 2024-06-25 16:45
-
-- - -
-
-### [Protecting the 'Stop Using My Data' Right through Blockchain-assisted Evidence Generation](http://arxiv.org/abs/2406.17694)
-
-**ブロックチェーンを利用した「データ使用停止権」の保護**
-
-Fan Zhang, Peng Liu
-
-- 個人データの利用停止要求は基本的な権利であるが、既存の対策（例：暗号化データ消去、差分プライバシー）では対応が不十分
-- データ取得後の権利侵害を防ぐための証拠生成フレームワークを初めて開発
-- 「データ使用停止権」の問題を定式化し、ブロックチェーンを用いた証拠生成システムを設計・実装
-- 証拠生成プロトコルの有効性を検証し、99%以上の成功率を達成
-
-ブロックチェーンで証拠を作るなんてすごい技術！これが普及すれば、もっとプライバシーが守られる世の中になるかも♡
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-25 16:32
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-26 17:40
 
 - - -
 
-### [Robust Gray Codes Approaching the Optimal Rate](http://arxiv.org/abs/2406.17689)
+### [Enhancing Federated Learning with Adaptive Differential Privacy and Priority-Based Aggregation](http://arxiv.org/abs/2406.18491)
 
-**最適レートに迫るロバストなグレイコード**
+**適応差分プライバシーと優先順位ベースの集約による連合学習の強化**
 
-Roni Con, Dorsa Fathollahi, Ryan Gabrys, Mary Wootters, Eitan Yaakobi
+Mahtab Talaei, Iman Izadi
 
-- ロバストなグレイコードは、ノイズが含まれても元の整数に近い値を復元できる
-- この研究では、レート$1 - H_2(p) - \varepsilon$の近最適な構造を提案
-- 提案されたコードは効率的にエンコード可能であり、高いノイズ耐性を持つ
-- 効率的なデコードアルゴリズムにより推定誤差が小さいことが証明された
+- 連合学習はローカルデータセットなしでグローバルモデルを開発
+- モデル更新の取得が情報漏洩の可能性を含む、モデルインバージョン攻撃のリスク
+- 差分プライバシーによりパラメータにノイズを追加しプライバシーを保護
+- デバイス間の異質性を考慮し、時間的に変動する影響因子で収束性を向上
 
-ロバストなグレイコードはプライバシー技術としても重要だね！ノイズに強いのってすごく未来を感じるよ。
+デバイスごとのリソース差を考慮したカスタマイズされたプライバシー保護、革新的ね！未来のFLはますます強力になりそう。
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.IT, cs.DS, math.IT, **投稿日時:** 2024-06-25 16:28
-
-- - -
-
-### [Capacity-Achieving Gray Codes](http://arxiv.org/abs/2406.17669)
-
-**容量達成グレイコード**
-
-Venkatesan Guruswami, Hsin-Po Wang
-
-- 差分プライバシーのために整数をラプラスノイズかBSCノイズで曖昧にする方法を紹介
-- BSCノイズを利用して整数をバイナリ文字列に変換する方法が柔軟である
-- 提案された実装は、BSCの容量を正の誤り指数で達成する
-- 古い実装に比べ、提案された「コーディドグレイコード」が誤り訂正機能を追加
-
-誤り訂正機能付きグレイコードの実装って、すごく未来感あるよね！これからのプライバシー技術がもっと強くなりそうってワクワクする～。
-
-**Comment:** 10 pages, 3 figures
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.IT, cs.DS, math.IT, **投稿日時:** 2024-06-25 15:58
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, cs.DC, **投稿日時:** 2024-06-26 16:55
 
 - - -
 
-### [Privacy Preserving Reinforcement Learning for Population Processes](http://arxiv.org/abs/2406.17649)
+### [Blockchain Based Zero-Knowledge Proof of Location in IoT](http://arxiv.org/abs/2406.18389)
 
-**人口過程におけるプライバシー保護強化学習**
+**IoTにおけるブロックチェーン基盤のゼロ知識証明を用いた位置証明**
 
-Samuel Yang-Zhao, Kee Siong Ng
+Wei Wu, Erwu Liu, Xinglin Gong, Rui Wang
 
-- 動的に相互作用する大規模な人口を対象とするRLアルゴリズムにおけるプライバシー保護の問題を考察
-- ベイズ的セマンティクスを通じて、相関データを含む人口過程に対する差分プライバシーの分析を実施
-- 任意のRLアルゴリズムを差分プライバシー対応とするメタアルゴリズムを提案、各時点での状態および報酬信号をプライバタイズ
-- 理論的に、プライベート化した状態に対する価値関数近似誤差が、人口サイズおよびプライバシー予算の増加に伴い迅速に減少することを証明
+- 精密な位置決定技術の発展により、多くの位置情報サービス（LBS）が人々の生活を便利にしている
+- LBSでは位置証明（PoL）を要求し、ユーザーのプライバシーが露出する問題がある
+- ゼロ知識証明を用いた位置証明プロトコル（zk-PoL）を提案、ユーザーは必要な情報のみをサーバーに公開可能
+- zk-PoLは主要な攻撃に対する優れたセキュリティを持ち、計算効率は入力パラメータに依存せず、遅延耐性のあるLBSに適している
 
-人口過程におけるプライバシー保護の問題って、実生活に応用できる可能性が豊富でワクワクするね。この技術が進歩すると、安全にデータを使用してより良い社会が期待できそう！
+zk-PoLの登場で、もっと安心して位置情報サービスが使えるようになるかもね！未来のLBSの進化にワクワクするね～。
 
+**Comment:** Published on ICC 2020-2020 IEEE International Conference on   Communications (ICC)
 
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-06-25 15:41
-
-- - -
-
-### [Laminator: Verifiable ML Property Cards using Hardware-assisted Attestations](http://arxiv.org/abs/2406.17548)
-
-**Laminator: ハードウェア支援アテステーションを用いた検証可能な機械学習プロパティカード**
-
-Vasisht Duddu, Oskari Järvinen, Lachlan J Gunn, N Asokan
-
-- 規制が機械学習モデルのトレーニングデータやプロセスに対する保証を求めており、各企業は透明性を高めるためにモデルカードやデータシートを使用
-- 悪意のあるモデル提供者が誤情報を含む可能性があり、検証可能なプロパティカードの必要性がある
-- ハードウェア支援の信頼実行環境（TEE）が高効率なアテステーションを提供し、検証可能なプロパティカードの実現が可能に
-- Laminatorを提案し、複数の検証者にスケールし、モデルの構成に依存しない効率的なアテステーションを提供
-
-新しい技術で透明性を追求するなんて未来っぽくてわくわくするね！Laminatorがどれだけ実際の運用に役立つか期待しちゃう。
-
-
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-25 13:36
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-26 14:30
 
 - - -
 
-### [Dynamic Scheduling for Vehicle-to-Vehicle Communications Enhanced Federated Learning](http://arxiv.org/abs/2406.17470)
+### [Effects of Using Synthetic Data on Deep Recommender Models' Performance](http://arxiv.org/abs/2406.18286)
 
-**車両間通信を強化するための動的スケジューリングと連合学習**
+**合成データが深層推薦モデルの性能に与える影響**
 
-Jintao Yan, Tan Chen, Yuxuan Sun, Zhaojun Nan, Sheng Zhou, Zhisheng Niu
+Fatih Cihan Taskin, Ilknur Akcay, Muhammed Pesen, Said Aldemir, Ipek Iraz Esin, Furkan Durmus
 
-- 車両の計算能力とセンサ能力を活用して、連合学習をエッジトレーニングに適用
-- V2V通信を強化する動的スケジューリング（VEDS）アルゴリズムを提案
-- 長期的な確率最適化問題をオンライン混合整数非線形プログラミング問題に変換
-- 提案したアルゴリズムは画像分類精度と軌道予測誤差を大幅に改善
+- 推薦システムはデータの不均衡に直面しやすく、人気アイテムに偏ることが多い
+- データの不均衡に取り組むために、6つの方法で合成データを生成
+- 合成データを元のデータセットに統合すると、AUCスコアが一貫して向上
+- 合成データによるデータ増強がデータの希薄化と不均衡を緩和し、推薦システムの性能を改善
 
-新しい車両ネットワークの連合学習、とっても面白そうだね！移動しながらでも学習が進むなんて、未来の交通システムがますます楽しみだね！
+合成データがこんなふうに役立つなんて、面白いね。データバランスが取れると、もっと精度の高い推薦ができそうでワクワクするね！
 
-**Comment:** Submitted to IEEE for possible publication
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, cs.IT, math.IT, **投稿日時:** 2024-06-25 11:15
 
-- - -
-
-### [Improving Grammatical Error Correction via Contextual Data Augmentation](http://arxiv.org/abs/2406.17456)
-
-**文法誤り訂正の改善のためのコンテキストデータ増強**
-
-Yixuan Wang, Baoxin Wang, Yijun Liu, Qingfu Zhu, Dayong Wu, Wanxiang Che
-
-- 合成データを利用したデータ拡張が、文法誤り訂正（GEC）におけるデータ不足の問題を軽減する
-- 合成データは主に事前学習フェーズに使用され、微調整フェーズではエラーディストリビューションが不一致で雑音が多い
-- コンテキスト的データ増強に基づく合成データ構築方法を提案し、一貫したエラーディストリビューションを確保
-- 生成モデルを利用してエラーパターンのリッチなコンテキストを生成、ラベルのノイズを軽減するリラベリング手法も提案
-
-提案された方法の実験結果が強いベースラインを一貫して上回り、特に少量の合成データで状態最先端レベルを達成するところが面白いね。データ不足の課題を解決する新しいアプローチ、かなり期待できるかも。
-
-**Comment:** Accepted as Findings of ACL 2024
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-06-25 10:49
+**トピック:** [合成データ](sd), **カテゴリ:** cs.IR, **投稿日時:** 2024-06-26 12:14
 
 - - -
 
-### [Towards Efficient and Scalable Training of Differentially Private Deep Learning](http://arxiv.org/abs/2406.17298)
+### [Generative artificial intelligence in ophthalmology: multimodal retinal images for the diagnosis of Alzheimer's disease with convolutional neural networks](http://arxiv.org/abs/2406.18247)
 
-**差分プライバシー深層学習の効率的かつスケーラブルな訓練に向けて**
+**眼科における生成的人工知能: アルツハイマー病診断のための多モーダル網膜画像と畳み込みニューラルネットワーク**
 
-Sebastian Rodriguez Beltran, Marlon Tobaben, Niki Loppi, Antti Honkela
+I. R. Slootweg, M. Thach, K. R. Curro-Tafili, F. D. Verbraak, F. H. Bouwman, Y. A. L. Pijnenburg, J. F. Boer, J. H. P. de Kwisthout, L. Bagheriye, P. J. González
 
-- 差分プライバシー確保のための確率的勾配降下法（DP-SGD）の利便性低下が従来から問題視されている
-- 実用面でのもう一つの大きな問題として、DP-SGDの計算コストの高さがある
-- 本研究ではDP下で深層学習モデルを訓練する際の計算コストを定量的に評価し、低減方法を評価
-- 効率的なDP-SGD実装や低精度での訓練、最大80GPUを用いたスケーリング挙動を研究
+- マルチモーダル網膜イメージングとCNNを用いてAmyloidPETステータスを予測
+- 合成データでの事前学習によって性能向上を目指す
+- DDPMsが多様でリアルな画像生成に成功し、事前学習でAUPRが向上
+- 最良のマルチモーダルCNNはメタデータ統合でAUPRが0.634に改善
 
-DP深層学習って、よりプライベートにするためのコストがすごく高いんだね！でも、もっと効率的な方法を探るってワクワクするし、80GPUまでスケールできると想像するとすごい😳💡
-
-**Comment:** 15 pages, 12 figures, Accepted to the Workshop on Advancing Neural   Network Training at International Conference on Machine Learning (WANT@ICML   2024)
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, cs.DC, **投稿日時:** 2024-06-25 06:04
-
-- - -
-
-### [Task-Agnostic Federated Learning](http://arxiv.org/abs/2406.17235)
-
-**タスク非依存型連合学習**
-
-Zhengtao Yao, Hong Nguyen, Ajitesh Srivastava, Jose Luis Ambite
-
-- 医療画像の分野では、大規模データセットの共有がプライバシーの懸念により困難
-- 連合学習（FL）はプライバシーを保護しつつ協調学習を可能にするが、タスクやデータの異質性、ラベルの不足などの課題がある
-- Vision Transformer（ViT）を利用して自己教師型FLフレームワークを採用し、初期ラベルなしで効果的な表現学習を実現
-- 実世界の非同一分布医療画像データセットでの評価により、中央集約アプローチの5％のデータで90％のF1精度を維持し、アウトオブディストリビューションタスクへの適応も優れる
-
-プライバシー保護しながらみんなで学べるとかすごいね！未来の医療がどんどん進む感じがしてわくわくする!
+マルチモーダルイメージングでアルツハイマー病の早期発見が一段と進みそうでワクワクするね！また、生成データを使った事前学習の新たな可能性も広がってて、今後の展開が楽しみだな。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.DC, **投稿日時:** 2024-06-25 02:53
+**トピック:** [合成データ](sd), **カテゴリ:** eess.IV, cs.CV, cs.LG, **投稿日時:** 2024-06-26 10:49
 
 - - -
 
-### [Robust Zero Trust Architecture: Joint Blockchain based Federated learning and Anomaly Detection based Framework](http://arxiv.org/abs/2406.17172)
+### [FedAQ: Communication-Efficient Federated Edge Learning via Joint Uplink and Downlink Adaptive Quantization](http://arxiv.org/abs/2406.18156)
 
-**堅牢なゼロトラストアーキテクチャ：ブロックチェーンベースの連合学習と異常検出に基づく枠組み**
+**FedAQ: 共同アップリンクおよびダウンリンク適応量子化による通信効率の高い連合エッジ学習**
 
-Shiva Raj Pokhrel, Luxing Yang, Sutharshan Rajasegarar, Gang Li
+Linping Qu, Shenghui Song, Chi-Ying Tsui
 
-- IoTネットワークにおける効率的なリモートワークと協力を目指し、分散システム用の堅牢なゼロトラストアーキテクチャを提案。
-- 悪意あるクライアントからの更新を防ぐため、ブロックチェーンベースの連合学習原則を使用した堅牢な集約メカニズムを開発。
-- 異常検出と信頼計算を統合し、無監視クラスタリング技術でゼロデイ攻撃のような新たな異常を検出、デバイス間の安全な協力を実現。
-- スケーラビリティ向上、ディリクレ過程による先進的異常検出、量子暗号技術の統合を含む将来的な方向性を提示。
+- 連合学習(FL)はクライアントのデータプライバシーを保護しつつ、データと計算資源を活用する
+- モデルサイズの大きさと頻繁な集約が通信オーバーヘッドの原因となり、リソース制限のある無線ネットワークでの展開が難しい
+- 本研究では量子化を用いて通信オーバーヘッドを軽減し、最適なアップリンクおよびダウンリンク量子化ビット長を決定
+- 提案手法により既存のスキームと比較して最大66.7%のエネルギー節約が可能
 
-IoTでも安全にリモートワークできるなんて、すごいね！これからは量子コンピュータにも負けない時代になりそうだね。
+通信効率をこんなに上げられるのはすごいね！アップリンクとダウンリンクの両方に適応できる新しい量子化手法、未来のネットワークで大活躍しそう！
 
+**Comment:** This work has been submitted to the IEEE for possible publication.   Copyright may be transferred without notice, after which this version may no   longer be accessible
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.DC, cs.LG, **投稿日時:** 2024-06-24 23:15
-
-- - -
-
-### [Vastextures: Vast repository of textures and PBR materials extracted from real-world images using unsupervised methods](http://arxiv.org/abs/2406.17146)
-
-**Vastextures: 実世界画像から抽出されたテクスチャとPBRマテリアルの大規模リポジトリ**
-
-Sagi Eppel
-
-- Vastexturesは、実世界画像から無監督で抽出された50万のテクスチャとPBRマテリアルを含むリポジトリ
-- テクスチャは多様だが既存のリポジトリと比べて精緻さに欠ける
-- 2Dテクスチャを自然画像から切り取り、そこからSVBRDF/PBRマテリアルを生成
-- 大量の多様なアセットを必要とするAIシステムトレーニングに適している
-
-実世界のパターンが多様に収集されているのがすごく面白そう！AIのトレーニング用データがこんなにたくさん手に入るなんて、未来が楽しみだね！
-
-**Comment:** Vastexture was published as part of Learning Zero-Shot Material   States Segmentation, by Implanting Natural Image Patterns in Synthetic Data,   refer to this work in citations. This document gives a more detailed and   technical discussion of this repository
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-24 21:36
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, cs.NI, eess.SP, **投稿日時:** 2024-06-26 08:14
 
 - - -
 
-### [Achieving Fairness Across Local and Global Models in Federated Learning](http://arxiv.org/abs/2406.17102)
+### [SynRS3D: A Synthetic Dataset for Global 3D Semantic Understanding from Monocular Remote Sensing Imagery](http://arxiv.org/abs/2406.18151)
 
-**連合学習におけるローカルおよびグローバルモデル間の公正性の実現**
+**SynRS3D: 単眼リモートセンシング映像からのグローバルな3Dセマンティック理解のための合成データセット**
 
-Disha Makhija, Xing Han, Joydeep Ghosh, Yejin Kim
+Jian Song, Hongruixuan Chen, Weihao Xuan, Junshi Xia, Naoto Yokoya
 
-- FL（連合学習）ではデータの異質性やクライアントのプライベートデータの機密属性へのアクセス困難が公正性の課題
-- \texttt{EquiFL}は、新たな公正性の用語をローカルの最適化目標に組み込み、公正性とローカル性能のバランスを取るアプローチ
-- この協調メカニズムにより、クライアント間のコラボレーションフェーズでのバイアス伝播を防止
-- 実験結果から、\texttt{EquiFL}はクライアントごとの正確性と公正性のバランスを実現し、均一な性能分布を保証することが示された
+- 単眼の高解像度リモートセンシング画像からのグローバルなセマンティック3D理解は重要、しかし注釈とデータ収集のコストが高い
+- 合成データは容易にアクセスできるため、大規模で多様なデータセットの提供が可能
+- SynRS3Dは69,667枚の高解像度光学画像を含み、六つの異なる都市スタイルと八つの土地被覆タイプが含まれる
+- 合成データからリアルなシナリオへの移行を支援するため、新しいマルチタスク無監督ドメイン適応法RS3DAdaを開発
 
-わぁ、この\texttt{EquiFL}っていうの、本当に皆に優しい感じで素敵だね！医療分野でそんな風に使われてるなんて感動的、もっと調べてみたくなっちゃうね。
+地球観測の未来がどんどん広がっていく感じがする！実験結果も良好みたいだし、現実でも使えるかもね。伝統的な方法から新しい手法への転換を見るのはワクワクするよねー。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CY, **投稿日時:** 2024-06-24 19:42
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-06-26 08:04
 
 - - -
 
-### [Lomas: A Platform for Confidential Analysis of Private Data](http://arxiv.org/abs/2406.17087)
+### [Beyond Statistical Estimation: Differentially Private Individual Computation in the Shuffle Model](http://arxiv.org/abs/2406.18145)
 
-**Lomas: プライベートデータの機密解析のためのプラットフォーム**
+**統計推定を超えて：シャッフルモデルにおける差分プライバシーのための個別計算**
 
-Damien Aymon, Dan-Thuy Lam, Lancelot Marti, Pauline Maury-Laribière, Christine Choirat, Raphaël de Fondeville
+Shaowei Wang, Changyu Dong, Di Wang, Xiangfu Song
 
-- 公共サービスが収集する大量のデータが未活用である状況を解決するために、Lomasを提案
-- データに直接アクセスせずに承認された研究者や政府アナリストがプライベートデータセット上でアルゴリズムを実行可能
-- 差分プライバシーで結果を保護し、識別可能な情報抽出を無効化
-- プライバシーを維持しながら公共サービスのデータから価値ある洞察を得られるようにする
+- シャッフルモデルは非信頼当事者間での非集中型計算で威力発揮し、匿名化とメッセージの順序入れ替えによりプライバシーと有用性を向上
+- 従来の手法で計算困難または有用性損失が大きい空間クラウドソーシング、組み合わせ最適化、位置ベースのソーシャルシステム、インセンティブ付き連合学習において、シャッフルプライバシー増幅の実現可能性を探る
+- メッセージ認証や結果アクセス制御などの重要なセキュリティ機能を提供しつつ、プライバシー強化効果を維持する新たなシャッフルモデルを提案
+- 実験結果: 非プライベート設定に対しエラー最大90％削減、100％-300％有用性向上し、適切なプライバシー予算で実用的
 
-データの保護と有効活用、両方を同時に達成するなんてすごいね！この技術、公衆衛生の改善にも役立ちそうで、未来が楽しみだよね。
+シャッフルモデルって、すごく面白そう！特に連合学習でこれだけ効果が出るなら、未来の技術革新に大いに貢献しそうだよね！
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-06-24 19:16
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-06-26 07:53
+
+- - -
+
+### [A Communication Satellite Servises Based Decentralized Network Protocol](http://arxiv.org/abs/2406.18032)
+
+**通信衛星サービスに基づく分散型ネットワークプロトコル**
+
+Xiao Yan, Bernie Gao
+
+- 通信衛星サービスに基づく分散型ネットワークプロトコルを提案
+- 衛星通信サービスのステータス情報を全ブロックチェーンネットワークで分配
+- PoD（Proof of Distribution）とPoF（Proof of Flow）を提案し、オンライン状態とデータフローを認証
+- ゼロ知識証明とマルチパーティ暗号計算を使用し、不正があってもサービスパラメータを評価
+
+これって宇宙通信の未来を見据えたプロトコルなんだね！技術的に難しそうだけど、めちゃワクワクする内容だよね。
+
+
+
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, cs.DC, cs.NI, **投稿日時:** 2024-06-26 03:01
+
+- - -
+
+### [Explicit Diversity Conditions for Effective Question Answer Generation with Large Language Models](http://arxiv.org/abs/2406.17990)
+
+**効果的な質問応答生成のための明示的な多様性条件についての研究**
+
+Vikas Yadav, Hyuk Joon Kwon, Vijay Srinivasan, Hongxia Jin
+
+- 質問応答生成（QAG）はデータ拡張技術で、特に低リソース領域での質問応答システムの精度向上に寄与
+- 既存の暗黙的な多様性技術（サンプリング、多様なビームサーチ）は効果的だが、得られる多様性は小さい
+- 空間的側面、質問タイプ、エンティティに焦点を当てた明示的な多様性条件を提示し、これによりQA生成の多様性が大幅に向上
+- 明示的な多様性条件を用いたQAペアは、下流のQAモデルでの平均4.1%のEMと4.5%のF1の向上を示す
+
+明示的な多様性条件を強調することで、特に低リソースデータセットでの性能向上が見込めるのが面白そう！
+
+**Comment:** Published at COLING 2024
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2024-06-26 00:12
+
+- - -
+
+### [Navigating High-Degree Heterogeneity: Federated Learning in Aerial and Space Networks](http://arxiv.org/abs/2406.17951)
+
+**高い異質性への対応：航空・宇宙ネットワークにおける連合学習**
+
+Fan Dong, Henry Leung, Steve Drew
+
+- 連合学習はドローンや衛星を通じたデータプライバシー問題の解決策として有望
+- しかし、異質性とクラス不均衡がモデルの収束を阻む主要な障害
+- 異質性とクラス不均衡の相関を示し、バッテリー寿命の制約が課題をさらに悪化
+- 異質性の度合いが大きいと現行アルゴリズムは効果的に対処できず性能が低下
+
+宇宙や空のデータも連合学習で使えるってすごいことだよね！だけど、クラス不均衡の問題はもっとよく考えていかないといけないみたいね。技術が進化する未来に期待しちゃう！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-06-25 21:57
+
+- - -
+
+### [Entity Augmentation for Efficient Classification of Vertically Partitioned Data with Limited Overlap](http://arxiv.org/abs/2406.17899)
+
+**限定的な重複を持つ垂直分割データの効率的な分類のためのエンティティ拡張**
+
+Avi Amalanshu, Viswesh Nagaswamy, G. V. S. S. Prudhvi, Yash Sirvi, Debashish Chakravarty
+
+- 垂直連合学習（VFL）は、特徴が複数の「ゲスト」クライアント間で分散し、ラベルを所有する「ホスト」サーバと学習を行う
+- 従来のVFLは、ホストが共通のエンティティを特定する「エンティティ解決」フェーズと、プライベートセットインターセクションを含む
+- 提案されたエンティティ拡張技術は、明示的なエンティティ整列なしで有意義なラベルを生成し、効率的なVFLを実現
+- CIFAR-10データセットで、訓練データの重複が5%の場合で48.1%から69.48%に精度向上、100%重複でもわずかに性能向上
+
+エンティティ拡張って、新しいアイディアだね！VFLの効率が上がることで、将来もっと色々なデータを活用できそうでワクワクする！
+
+**Comment:** GLOW @ IJCAI 2024 (12 pages + 2 page bibliography. 15 figures.)
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CV, cs.DC, **投稿日時:** 2024-06-25 19:20
+
+- - -
+
+### [Federated Dynamical Low-Rank Training with Global Loss Convergence Guarantees](http://arxiv.org/abs/2406.17887)
+
+**グローバル損失収束保証を持つ連合動的低ランクトレーニング**
+
+Steffen Schotthöfer, M. Paul Laiu
+
+- 連合学習におけるクライアントの計算および通信コストを低減するためのスキームを提案
+- 動的低ランク分割スキームを用いてネットワーク重みのグローバル低ランク基底を作成
+- クライアントのトレーニングが小さい係数行列で可能になり、計算リソースおよび通信リソースの最適化ができる
+- コンピュータビジョンベンチマークで効率を実証し、コストを約10分の1に削減しつつ精度にほとんど影響を与えない
+
+新しいけどすっごく素敵な研究だね！次のレポートで役立つ資料見つけちゃった。試すっきゃないね！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, math.OC, **投稿日時:** 2024-06-25 18:51

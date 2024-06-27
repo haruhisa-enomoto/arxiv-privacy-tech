@@ -1,5 +1,286 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.18516",
+    "title": "Denoising as Adaptation: Noise-Space Domain Adaptation for Image Restoration",
+    "japanese_title": "適応としてのデノイジング: 画像復元のためのノイズ空間ドメイン適応",
+    "authors": [
+      "Kang Liao",
+      "Zongsheng Yue",
+      "Zhouxia Wang",
+      "Chen Change Loy"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Github Repository: https://github.com/KangLiao929/Noise-DA/",
+    "summary": "- 既存の手法はデータ合成パイプラインの改善やドメイン適応などで対応しているが、実用場面での一般化が難しい\n- 拡散モデルを用いてノイズ空間を介してドメイン適応を行う手法を提案\n- チャンネルシャッフリングや残差交換コントラスト学習など、トレーニング中のショートカット防止技術を提示\n- デノイジング、デブラー、デレイニングの3つの古典的な画像復元タスクで有効性を実証\n\n新しい手法で画像をきれいにするなんてワクワクするね！これで現実のシーンでももっと鮮明な画像が得られるようになるかも。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-26T17:40:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18491",
+    "title": "Enhancing Federated Learning with Adaptive Differential Privacy and Priority-Based Aggregation",
+    "japanese_title": "適応差分プライバシーと優先順位ベースの集約による連合学習の強化",
+    "authors": [
+      "Mahtab Talaei",
+      "Iman Izadi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はローカルデータセットなしでグローバルモデルを開発\n- モデル更新の取得が情報漏洩の可能性を含む、モデルインバージョン攻撃のリスク\n- 差分プライバシーによりパラメータにノイズを追加しプライバシーを保護\n- デバイス間の異質性を考慮し、時間的に変動する影響因子で収束性を向上\n\nデバイスごとのリソース差を考慮したカスタマイズされたプライバシー保護、革新的ね！未来のFLはますます強力になりそう。",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-06-26T16:55:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18389",
+    "title": "Blockchain Based Zero-Knowledge Proof of Location in IoT",
+    "japanese_title": "IoTにおけるブロックチェーン基盤のゼロ知識証明を用いた位置証明",
+    "authors": [
+      "Wei Wu",
+      "Erwu Liu",
+      "Xinglin Gong",
+      "Rui Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "Published on ICC 2020-2020 IEEE International Conference on   Communications (ICC)",
+    "summary": "- 精密な位置決定技術の発展により、多くの位置情報サービス（LBS）が人々の生活を便利にしている\n- LBSでは位置証明（PoL）を要求し、ユーザーのプライバシーが露出する問題がある\n- ゼロ知識証明を用いた位置証明プロトコル（zk-PoL）を提案、ユーザーは必要な情報のみをサーバーに公開可能\n- zk-PoLは主要な攻撃に対する優れたセキュリティを持ち、計算効率は入力パラメータに依存せず、遅延耐性のあるLBSに適している\n\nzk-PoLの登場で、もっと安心して位置情報サービスが使えるようになるかもね！未来のLBSの進化にワクワクするね～。",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-06-26T14:30:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18286",
+    "title": "Effects of Using Synthetic Data on Deep Recommender Models' Performance",
+    "japanese_title": "合成データが深層推薦モデルの性能に与える影響",
+    "authors": [
+      "Fatih Cihan Taskin",
+      "Ilknur Akcay",
+      "Muhammed Pesen",
+      "Said Aldemir",
+      "Ipek Iraz Esin",
+      "Furkan Durmus"
+    ],
+    "categories": [
+      "cs.IR"
+    ],
+    "comment": "",
+    "summary": "- 推薦システムはデータの不均衡に直面しやすく、人気アイテムに偏ることが多い\n- データの不均衡に取り組むために、6つの方法で合成データを生成\n- 合成データを元のデータセットに統合すると、AUCスコアが一貫して向上\n- 合成データによるデータ増強がデータの希薄化と不均衡を緩和し、推薦システムの性能を改善\n\n合成データがこんなふうに役立つなんて、面白いね。データバランスが取れると、もっと精度の高い推薦ができそうでワクワクするね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-26T12:14:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18247",
+    "title": "Generative artificial intelligence in ophthalmology: multimodal retinal images for the diagnosis of Alzheimer's disease with convolutional neural networks",
+    "japanese_title": "眼科における生成的人工知能: アルツハイマー病診断のための多モーダル網膜画像と畳み込みニューラルネットワーク",
+    "authors": [
+      "I. R. Slootweg",
+      "M. Thach",
+      "K. R. Curro-Tafili",
+      "F. D. Verbraak",
+      "F. H. Bouwman",
+      "Y. A. L. Pijnenburg",
+      "J. F. Boer",
+      "J. H. P. de Kwisthout",
+      "L. Bagheriye",
+      "P. J. González"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- マルチモーダル網膜イメージングとCNNを用いてAmyloidPETステータスを予測\n- 合成データでの事前学習によって性能向上を目指す\n- DDPMsが多様でリアルな画像生成に成功し、事前学習でAUPRが向上\n- 最良のマルチモーダルCNNはメタデータ統合でAUPRが0.634に改善\n\nマルチモーダルイメージングでアルツハイマー病の早期発見が一段と進みそうでワクワクするね！また、生成データを使った事前学習の新たな可能性も広がってて、今後の展開が楽しみだな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-26T10:49:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18156",
+    "title": "FedAQ: Communication-Efficient Federated Edge Learning via Joint Uplink and Downlink Adaptive Quantization",
+    "japanese_title": "FedAQ: 共同アップリンクおよびダウンリンク適応量子化による通信効率の高い連合エッジ学習",
+    "authors": [
+      "Linping Qu",
+      "Shenghui Song",
+      "Chi-Ying Tsui"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "cs.NI",
+      "eess.SP"
+    ],
+    "comment": "This work has been submitted to the IEEE for possible publication.   Copyright may be transferred without notice, after which this version may no   longer be accessible",
+    "summary": "- 連合学習(FL)はクライアントのデータプライバシーを保護しつつ、データと計算資源を活用する\n- モデルサイズの大きさと頻繁な集約が通信オーバーヘッドの原因となり、リソース制限のある無線ネットワークでの展開が難しい\n- 本研究では量子化を用いて通信オーバーヘッドを軽減し、最適なアップリンクおよびダウンリンク量子化ビット長を決定\n- 提案手法により既存のスキームと比較して最大66.7%のエネルギー節約が可能\n\n通信効率をこんなに上げられるのはすごいね！アップリンクとダウンリンクの両方に適応できる新しい量子化手法、未来のネットワークで大活躍しそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-26T08:14:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18151",
+    "title": "SynRS3D: A Synthetic Dataset for Global 3D Semantic Understanding from Monocular Remote Sensing Imagery",
+    "japanese_title": "SynRS3D: 単眼リモートセンシング映像からのグローバルな3Dセマンティック理解のための合成データセット",
+    "authors": [
+      "Jian Song",
+      "Hongruixuan Chen",
+      "Weihao Xuan",
+      "Junshi Xia",
+      "Naoto Yokoya"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 単眼の高解像度リモートセンシング画像からのグローバルなセマンティック3D理解は重要、しかし注釈とデータ収集のコストが高い\n- 合成データは容易にアクセスできるため、大規模で多様なデータセットの提供が可能\n- SynRS3Dは69,667枚の高解像度光学画像を含み、六つの異なる都市スタイルと八つの土地被覆タイプが含まれる\n- 合成データからリアルなシナリオへの移行を支援するため、新しいマルチタスク無監督ドメイン適応法RS3DAdaを開発\n\n地球観測の未来がどんどん広がっていく感じがする！実験結果も良好みたいだし、現実でも使えるかもね。伝統的な方法から新しい手法への転換を見るのはワクワクするよねー。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-26T08:04:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18145",
+    "title": "Beyond Statistical Estimation: Differentially Private Individual Computation in the Shuffle Model",
+    "japanese_title": "統計推定を超えて：シャッフルモデルにおける差分プライバシーのための個別計算",
+    "authors": [
+      "Shaowei Wang",
+      "Changyu Dong",
+      "Di Wang",
+      "Xiangfu Song"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- シャッフルモデルは非信頼当事者間での非集中型計算で威力発揮し、匿名化とメッセージの順序入れ替えによりプライバシーと有用性を向上\n- 従来の手法で計算困難または有用性損失が大きい空間クラウドソーシング、組み合わせ最適化、位置ベースのソーシャルシステム、インセンティブ付き連合学習において、シャッフルプライバシー増幅の実現可能性を探る\n- メッセージ認証や結果アクセス制御などの重要なセキュリティ機能を提供しつつ、プライバシー強化効果を維持する新たなシャッフルモデルを提案\n- 実験結果: 非プライベート設定に対しエラー最大90％削減、100％-300％有用性向上し、適切なプライバシー予算で実用的\n\nシャッフルモデルって、すごく面白そう！特に連合学習でこれだけ効果が出るなら、未来の技術革新に大いに貢献しそうだよね！",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-06-26T07:53:48+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.18032",
+    "title": "A Communication Satellite Servises Based Decentralized Network Protocol",
+    "japanese_title": "通信衛星サービスに基づく分散型ネットワークプロトコル",
+    "authors": [
+      "Xiao Yan",
+      "Bernie Gao"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- 通信衛星サービスに基づく分散型ネットワークプロトコルを提案\n- 衛星通信サービスのステータス情報を全ブロックチェーンネットワークで分配\n- PoD（Proof of Distribution）とPoF（Proof of Flow）を提案し、オンライン状態とデータフローを認証\n- ゼロ知識証明とマルチパーティ暗号計算を使用し、不正があってもサービスパラメータを評価\n\nこれって宇宙通信の未来を見据えたプロトコルなんだね！技術的に難しそうだけど、めちゃワクワクする内容だよね。",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-06-26T03:01:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.17990",
+    "title": "Explicit Diversity Conditions for Effective Question Answer Generation with Large Language Models",
+    "japanese_title": "効果的な質問応答生成のための明示的な多様性条件についての研究",
+    "authors": [
+      "Vikas Yadav",
+      "Hyuk Joon Kwon",
+      "Vijay Srinivasan",
+      "Hongxia Jin"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "Published at COLING 2024",
+    "summary": "- 質問応答生成（QAG）はデータ拡張技術で、特に低リソース領域での質問応答システムの精度向上に寄与\n- 既存の暗黙的な多様性技術（サンプリング、多様なビームサーチ）は効果的だが、得られる多様性は小さい\n- 空間的側面、質問タイプ、エンティティに焦点を当てた明示的な多様性条件を提示し、これによりQA生成の多様性が大幅に向上\n- 明示的な多様性条件を用いたQAペアは、下流のQAモデルでの平均4.1%のEMと4.5%のF1の向上を示す\n\n明示的な多様性条件を強調することで、特に低リソースデータセットでの性能向上が見込めるのが面白そう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-26T00:12:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.17951",
+    "title": "Navigating High-Degree Heterogeneity: Federated Learning in Aerial and Space Networks",
+    "japanese_title": "高い異質性への対応：航空・宇宙ネットワークにおける連合学習",
+    "authors": [
+      "Fan Dong",
+      "Henry Leung",
+      "Steve Drew"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はドローンや衛星を通じたデータプライバシー問題の解決策として有望\n- しかし、異質性とクラス不均衡がモデルの収束を阻む主要な障害\n- 異質性とクラス不均衡の相関を示し、バッテリー寿命の制約が課題をさらに悪化\n- 異質性の度合いが大きいと現行アルゴリズムは効果的に対処できず性能が低下\n\n宇宙や空のデータも連合学習で使えるってすごいことだよね！だけど、クラス不均衡の問題はもっとよく考えていかないといけないみたいね。技術が進化する未来に期待しちゃう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-25T21:57:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.17899",
+    "title": "Entity Augmentation for Efficient Classification of Vertically Partitioned Data with Limited Overlap",
+    "japanese_title": "限定的な重複を持つ垂直分割データの効率的な分類のためのエンティティ拡張",
+    "authors": [
+      "Avi Amalanshu",
+      "Viswesh Nagaswamy",
+      "G. V. S. S. Prudhvi",
+      "Yash Sirvi",
+      "Debashish Chakravarty"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "GLOW @ IJCAI 2024 (12 pages + 2 page bibliography. 15 figures.)",
+    "summary": "- 垂直連合学習（VFL）は、特徴が複数の「ゲスト」クライアント間で分散し、ラベルを所有する「ホスト」サーバと学習を行う\n- 従来のVFLは、ホストが共通のエンティティを特定する「エンティティ解決」フェーズと、プライベートセットインターセクションを含む\n- 提案されたエンティティ拡張技術は、明示的なエンティティ整列なしで有意義なラベルを生成し、効率的なVFLを実現\n- CIFAR-10データセットで、訓練データの重複が5%の場合で48.1%から69.48%に精度向上、100%重複でもわずかに性能向上\n\nエンティティ拡張って、新しいアイディアだね！VFLの効率が上がることで、将来もっと色々なデータを活用できそうでワクワクする！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-25T19:20:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.17887",
+    "title": "Federated Dynamical Low-Rank Training with Global Loss Convergence Guarantees",
+    "japanese_title": "グローバル損失収束保証を持つ連合動的低ランクトレーニング",
+    "authors": [
+      "Steffen Schotthöfer",
+      "M. Paul Laiu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.OC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習におけるクライアントの計算および通信コストを低減するためのスキームを提案\n- 動的低ランク分割スキームを用いてネットワーク重みのグローバル低ランク基底を作成\n- クライアントのトレーニングが小さい係数行列で可能になり、計算リソースおよび通信リソースの最適化ができる\n- コンピュータビジョンベンチマークで効率を実証し、コストを約10分の1に削減しつつ精度にほとんど影響を与えない\n\n新しいけどすっごく素敵な研究だね！次のレポートで役立つ資料見つけちゃった。試すっきゃないね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-25T18:51:08+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.17706",
     "title": "FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model",
     "japanese_title": "FedBiOT: 連合学習におけるフルモデルなしのLLMローカルファインチューニング",

@@ -1,5 +1,347 @@
 [
   {
+    "url": "http://arxiv.org/abs/2406.20094",
+    "title": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
+    "japanese_title": "10億人のペルソナを活用した合成データのスケーリング",
+    "authors": [
+      "Xin Chan",
+      "Xiaoyang Wang",
+      "Dian Yu",
+      "Haitao Mi",
+      "Dong Yu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "Work in progress",
+    "summary": "- 多様な視点を持つペルソナ駆動型のデータ合成手法を提案\n- ウェブデータから自動収集した10億の多様なペルソナを持つPersona Hubを導入\n- 合成データ作成を様々なシナリオで大規模に実現\n- 数学的・論理的推論問題やユーザープロンプト、知識豊富なテキスト、ゲームNPCなどでの応用を示す\n\nペルソナを使ったデータ作成、めっちゃ面白そう！これからの研究がもっと深まる予感がするね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T17:59:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19967",
+    "title": "Into the Unknown: Generating Geospatial Descriptions for New Environments",
+    "japanese_title": "未知への躍進: 新環境における地理空間記述の生成",
+    "authors": [
+      "Tzuf Paz-Argaman",
+      "John Palowitch",
+      "Sayali Kulkarni",
+      "Reut Tsarfaty",
+      "Jason Baldridge"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 未知の環境で訓練データがない場合、パフォーマンスが大幅に低下する\n- オープンソースの説明と座標（例：Wikipedia）を使用するが、地理解像度が低い\n- 準備された地理空間データを用いて、高品質な合成データを生成する大規模な増補方法を提案\n- 提案手法は、新環境において100メートル精度を45.83%向上させることに成功した\n\n新しい場所でも効果的にナビゲーションできるようになるなんてすごい！実際にどんな風に使われるのか楽しみだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T14:56:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19964",
+    "title": "Secure Outsourced Decryption for HE-based Privacy-preserving Cloud Computing System",
+    "japanese_title": "HEベースのプライバシー保護クラウドコンピューティングシステム向けの安全な外部委託復号",
+    "authors": [
+      "Xirong Ma",
+      "Chuan Li",
+      "Yuchang Hu",
+      "Yunting Tao",
+      "Yali Jiang",
+      "Yanbin Li",
+      "Fanyu Kong",
+      "Chunpeng Ge"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 機械学習の進展により大規模データ処理の需要が急増\n- 準同型暗号を活用し、クラウド上で安全に暗号化データを処理する方法を提案\n- 従来の復号プロセスを二段階に分割し、計算負荷をクラウドへ外部委託\n- 実験結果として、復号速度が67%向上し、クライアントの空間使用が50%削減\n\nクラウドの力を借りて復号を速くしてくれるんだね！クラウドの利用がもっと安全になるって期待しちゃうね。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-06-28T14:51:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19949",
+    "title": "Calibrating LLMs with Preference Optimization on Thought Trees for Generating Rationale in Science Question Scoring",
+    "japanese_title": "思考ツリーにおける選好最適化を用いたLLMのキャリブレーションによる科学質問採点の理由生成",
+    "authors": [
+      "Jiazheng Li",
+      "Hainiu Xu",
+      "Zhaoyue Sun",
+      "Yuxiang Zhou",
+      "David West",
+      "Cesare Aloisi",
+      "Yulan He"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 自動採点システム向けの理由生成は説明可能性の向上に有望\n- 既存方法は分類器ベースの方法ほど精度が高くない\n- 大規模言語モデル（LLM）で思考ツリーを生成し合成データを作成\n- 提案したフレームワークはQWKスコアで38%の改善を達成\n\nLLMを使った新しい方法で、自動採点がもっと正確で説明しやすくなりそうだね。これ、学校のテスト採点とかにも活かせるんじゃないかな？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T14:33:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19934",
+    "title": "From the Least to the Most: Building a Plug-and-Play Visual Reasoner via Data Synthesis",
+    "japanese_title": "最小から最大へ: データ合成によるプラグアンドプレイビジュアル推論器の構築",
+    "authors": [
+      "Chuanqi Cheng",
+      "Jian Guan",
+      "Wei Wu",
+      "Rui Yan"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 視覚と言語処理の複数ステップを含む推論データがほとんど存在しないため、課題が困難\n- 質問をサブ質問に分解し、外部ツールで解決する「最小から最大へ」ビジュアル推論パラダイムを導入\n- 複雑な合成タスクをいくつかの簡単なサブタスクに分割し、オープンソースモデルに依存して再現性と効率性を確保\n- $50$kのビジュアル推論例を構築し、広範な既存VLMの推論能力を強化する視覚推論器を開発\n\nデータ合成のアプローチとか、ちょっと未来感あってワクワクするね。プラグアンドプレイでいろんなモデルに適応できちゃうのもヤバい！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T14:04:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19931",
+    "title": "Decoupling General and Personalized Knowledge in Federated Learning via Additive and Low-Rank Decomposition",
+    "japanese_title": "連合学習における一般的な知識と個別化された知識の分離：加法分解と低ランク分解を用いて",
+    "authors": [
+      "Xinghao Wu",
+      "Xuefeng Liu",
+      "Jianwei Niu",
+      "Haolin Wang",
+      "Shaojie Tang",
+      "Guogang Zhu",
+      "Hao Su"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "12 pages, 8 figures",
+    "summary": "- 既存の個別化連合学習（PFL）はパラメータの分割アプローチを採用し、一般知識とクライアント特有知識を分けるが効果的ではない\n- FedDecompを提案し、モデルの各パラメータを共有パラメータと個別パラメータに分解して、知識の分離を実現\n- クライアントに特有の知識を保持するためには、一般知識よりも低いモデル容量が必要なため、個別パラメータを低ランク行列にする\n- 新しい交互トレーニング戦略を提案し、多くのデータセットと異なるデータ異質性の中で最大4.9%の性能向上を実証\n\nFedDecompっておもしろそう！パラメータを分解して効率化しながら、結果をちゃんと出すなんてすごいよね。新しいアプローチでどんどん進化しそうだから、もっと知りたくなる～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-28T14:01:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19796",
+    "title": "Comprehensive Generative Replay for Task-Incremental Segmentation with Concurrent Appearance and Semantic Forgetting",
+    "japanese_title": "同時に発生する外観と意味の忘却を伴うタスクインクリメンタルセグメンテーションのための包括的生成リプレイ",
+    "authors": [
+      "Wei Li",
+      "Jingyang Zhang",
+      "Pheng-Ann Heng",
+      "Lixu Gu"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "Accepted by MICCAI24",
+    "summary": "- 一般的なセグメンテーションモデルは、多様なタスクに対してプライバシーを保護しつつ、連続的なタスク到着に対応する\n- タスク進化に伴う外観と意味の変化が複雑に絡み合い、同時に発生する忘却問題が存在\n- Comprehensive Generative Replay (CGR) フレームワークを提案、過去のタスクデータを模倣する画像とマスクのペアを生成\n- 実験結果から、心臓、眼底、前立腺のセグメンテーションにおいて、外観と意味の同時忘却の緩和に効果あり\n\nタスクの進化に合わせた学習方法がとっても面白そう！プライバシーを守りながら性能も向上するって素敵～",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T10:05:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19791",
+    "title": "Mobile Robot Oriented Large-Scale Indoor Dataset for Dynamic Scene Understanding",
+    "japanese_title": "動的シーン理解のためのモバイルロボット向け大規模屋内データセット",
+    "authors": [
+      "Yifan Tang",
+      "Cong Tai",
+      "Fangxing Chen",
+      "Wanting Zhang",
+      "Tao Zhang",
+      "Xueping Liu",
+      "Yongjin Liu",
+      "Long Zeng"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "",
+    "summary": "- 現存の多くのロボットデータセットは静的シーンデータしか含まず、動的性能評価が困難\n- THUDと呼ばれるモバイルロボット向け大規模屋内データセットを提案し、動的シーン理解アルゴリズムの訓練と評価に用いる\n- THUDデータセットは実世界と合成データから構成され、13の大規模動的シナリオ、90Kの画像フレーム、20Mの2D/3Dバウンディングボックスなどを含む\n- THUD上での3D物体検出、セマンティックセグメンテーション、ロボットリローカライゼーションなどの評価により、動的シーンでの課題が明らかになる\n\n動的な環境でロボットのシーン理解能力がどう進化するか、すごく気になるよね！早くもっとすごいロボットが登場する未来が見たいな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T09:54:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19674",
+    "title": "Less is More: Accurate Speech Recognition & Translation without Web-Scale Data",
+    "japanese_title": "少ない方が多い: ウェブ規模のデータなしで正確な音声認識と翻訳を実現",
+    "authors": [
+      "Krishna C. Puvvada",
+      "Piotr Żelasko",
+      "He Huang",
+      "Oleksii Hrinchuk",
+      "Nithin Rao Koluguri",
+      "Kunal Dhawan",
+      "Somshubra Majumdar",
+      "Elena Rastorgueva",
+      "Zhehuai Chen",
+      "Vitaly Lavrukhin",
+      "Jagadeesh Balam",
+      "Boris Ginsburg"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "comment": "Accepted at Interspeech-2024",
+    "summary": "- 最新の音声認識と翻訳は膨大なインターネット音声データに依存している\n- Canaryモデルは、英語、フランス語、スペイン語、ドイツ語で最新のモデルよりも精度が高い\n- データ効率の高いモデルを実現するための3つの要素：(1) FastConformerベースの注意エンコーダ・デコーダアーキテクチャ、(2) 機械翻訳による合成データの使用、(3) データバランシング、動的データブレンディング、動的バケット化、ノイズ耐性ファインチューニングの高度な訓練技術\n- モデル、重み、訓練コードはオープンソース化される\n\nデータが少なくても高精度なモデルを実現できるのすごいね！これからの音声認識技術が楽しみだな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T06:22:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19631",
+    "title": "Personalized Interpretation on Federated Learning: A Virtual Concepts approach",
+    "japanese_title": "連合学習におけるパーソナライズされた解釈：仮想概念アプローチ",
+    "authors": [
+      "Peng Yan",
+      "Guodong Long",
+      "Jing Jiang",
+      "Michael Blumenstein"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 非IIDデータに対する解釈が連合学習のオープンな課題\n- 既存の連合学習手法は、解釈なしでモデル性能向上を目指す\n- クライアントデータを説明可能な仮想概念ベクトルとして解釈\n- 提案手法の有効性をベンチマークデータセットで確認\n\n各クライアントのデータをどうやって説明するかってすごく面白そう！新しい手法がどれだけ効果的かも気になるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-06-28T03:39:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19593",
+    "title": "SK-VQA: Synthetic Knowledge Generation at Scale for Training Context-Augmented Multimodal LLMs",
+    "japanese_title": "SK-VQA：コンテキスト強化型マルチモーダルLLMトレーニングのための大規模合成知識生成",
+    "authors": [
+      "Xin Su",
+      "Man Luo",
+      "Kris W Pan",
+      "Tien Pei Chou",
+      "Vasudev Lal",
+      "Phillip Howard"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 合成データ生成は大規模視覚と言語モデルの訓練で注目されている\n- しかし、コンテキスト強化型生成システムへの合成データの応用は未開拓\n- SK-VQAは外部知識を必要とする200万以上の質問-回答ペアを含む大規模な合成マルチモーダルデータセット\n- 実験で、SK-VQAが既存の生成マルチモーダルモデルの適応に有効であることを証明\n\nこのSK-VQA、めっちゃ興味深いね！外部知識が必要な質問って、もっと賢いAIが作れそうな予感✨",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-28T01:14:43+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19579",
+    "title": "Private Zeroth-Order Nonsmooth Nonconvex Optimization",
+    "japanese_title": "プライベートなゼロ次非滑らか非凸最適化",
+    "authors": [
+      "Qinzi Zhang",
+      "Hoang Tran",
+      "Ashok Cutkosky"
+    ],
+    "categories": [
+      "math.OC",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 非凸かつ非滑らかな目的に対するプライベートなゼロ次アルゴリズムを提案\n- データセットのサイズ$M$に対し、$(\\alpha,\\alpha\\rho^2/2)$-R\\'enyi差分プライバシーを保証\n- $(\\delta,\\epsilon)$-停止点を見つけるためには$M=\\tilde\\Omega\\left(\\frac{d}{\\delta\\epsilon^3} + \\frac{d^{3/2}}{\\rho\\delta\\epsilon^2}\\right)$が必要\n- 目的関数が非滑らかでも、$\\rho \\ge \\sqrt{d}\\epsilon$の条件下ではプライバシーが「無料」\n\n非滑らかな問題でもプライバシーが保たれるってすごい！うちらの卒研でも応用できるかもね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-27T23:57:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19507",
+    "title": "Too Good to be True? Turn Any Model Differentially Private With DP-Weights",
+    "japanese_title": "すごすぎる？どんなモデルでも差分プライベートにできるDP-Weights",
+    "authors": [
+      "David Zagardo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "For code visit the following repository,   https://github.com/dzagardo/forgetnet/",
+    "summary": "- 従来のDP-SGDは、トレーニング後にノイズレベルが高すぎたり低すぎたりして再トレーニングが必要になる課題がある\n- 提案する新しいアプローチは、トレーニング後にノイズをモデルの重みに適用して差分プライバシーを達成するものである\n- 数学的証明と形式的な手法でプライバシー保証の検証を行い、メンバーシップ推論攻撃と性能評価を用いて効果を実証\n- 従来のDP-SGDモデルと比べても統計的に同等の性能とプライバシー保証を提供し、時間の節約と柔軟な微調整を可能にする\n\nトレーニング後にノイズを付加するだけでプライバシー確保って素敵じゃない？これで研究や開発の手間が大幅に減るかもね。楽しみだな〜。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-27T19:58:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19492",
+    "title": "High-resolution segmentations of the hypothalamus and its subregions for training of segmentation models",
+    "japanese_title": "高解像度視床下部およびその亜領域のセグメンテーションモデル訓練用のセグメンテーション",
+    "authors": [
+      "Livia Rodrigues",
+      "Martina Bocchetta",
+      "Oula Puonti",
+      "Douglas Greve",
+      "Ana Carolina Londe",
+      "Marcondes França",
+      "Simone Appenzeller",
+      "Leticia Rittner",
+      "Juan Eugenio Iglesias"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 脳構造のセグメンテーションはMRI解析の基礎であり、体積測定や形状解析に不可欠\n- 自動セグメンテーションは大規模コホートの研究を促進、手動セグメンテーションよりも効率的\n- 合成画像を用いた新技術が手動アノテーションの必要性を削減\n- HELMと呼ばれるラベルマップデータセットを提供、合成データを用いたセグメンテーション法の開発が可能\n\n視床下部のセグメンテーションに特化した方法がどれくらい効果的か気になるね。合成データの使い方もすごく面白そう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-06-27T19:16:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19466",
+    "title": "Data Poisoning Attacks to Locally Differentially Private Frequent Itemset Mining Protocols",
+    "japanese_title": "ローカル差分プライバシーを用いた頻出アイテム集合抽出プロトコルへのデータポイズニング攻撃",
+    "authors": [
+      "Wei Tong",
+      "Haoyu Chen",
+      "Jiacheng Niu",
+      "Sheng Zhong"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "To appear in ACM Conference on Computer and Communications Security   (ACM CCS 2024)",
+    "summary": "- ローカル差分プライバシー（LDP）は信頼できないデータ収集者がユーザーのプライバシーを侵害せずにデータを集約できる方法である。\n- 最近の研究では、LDPプロトコルがデータポイズニング攻撃に対して脆弱であることが示されている。\n- 本論文では、LDP頻出アイテム集合抽出プロトコルに対する新しい実践的なデータポイズニング攻撃を提案している。\n- 提案された攻撃は、3つのデータセットを用いた実験で脅威の深刻さと攻撃の効果を実証している。\n\nLDPの脆弱性を狙った攻撃って、本当に怖いよね。でも、これが改善されたらもっと安全なデータ解析ができそう！未来のセキュリティ技術に期待だね🌟",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-06-27T18:11:19+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2406.19292",
     "title": "From Artificial Needles to Real Haystacks: Improving Retrieval Capabilities in LLMs by Finetuning on Synthetic Data",
     "japanese_title": "人工の針から本物の干し草の山へ：合成データで微調整した大規模言語モデルの情報検索能力の向上",
@@ -344,6 +686,30 @@
       "差分プライバシー"
     ],
     "published": "2024-06-26T16:55:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.19418",
+    "title": "A Quantization-based Technique for Privacy Preserving Distributed Learning",
+    "japanese_title": "プライバシー保護分散学習のための量子化技術",
+    "authors": [
+      "Maurizio Colombo",
+      "Rasool Asal",
+      "Ernesto Damiani",
+      "Lamees Mahmoud AlQassem",
+      "Al Anoud Almemari",
+      "Yousof Alhammadi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 機械学習モデルの大規模展開によりデータ保護に深刻な懸念がある\n- 規制に準拠した新しいデータ保護技術を提案\n- Hash-Combとランダム化に基づくプロトコルでトレーニングデータとモデルパラメータを保護\n- 実験結果で堅牢性と精度保持プロパティを実証\n\nこれはめっちゃ面白そう！プライバシー守りながらも精度を保つなんて未来が楽しみだね。",
+    "topics": [
+      "差分プライバシー",
+      "PETs"
+    ],
+    "published": "2024-06-26T14:54:12+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2406.18389",

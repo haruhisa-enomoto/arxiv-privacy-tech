@@ -1,5 +1,380 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.04595",
+    "title": "Differentially Private Inductive Miner",
+    "japanese_title": "差分プライバシーを備えた帰納的マイナー",
+    "authors": [
+      "Max Schulze",
+      "Yorck Zisgen",
+      "Moritz Kirschte",
+      "Esfandiar Mohammadi",
+      "Agnes Koschmider"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "comment": "The first two authors equally contributed to this work",
+    "summary": "- プロセスマイニングにおけるイベントトレースは、個人の行動を明らかにするため、個人データの保護が難題である\n- 従来の匿名化方法（k匿名性やイベントログのサニタイズ）は、十分な背景知識を持つ攻撃者に対して効果が薄い\n- 本研究では差分プライバシー（DP）を利用し、イベントトレースからの有用な推論が不可能になるようにプロセスツリーを学習する方法を提案\n- 実験結果として、DPIMは個人データを保護しつつ、従来の帰納的マイナーと比較して有用性の損失が少ないプロセスツリーを生成することが示された\n\nこの研究、めちゃくちゃ未来っぽい！差分プライバシーで個人情報を守りつつ、精度も犠牲にしないなんて。どんな応用ができるんだろう？考えるだけでワクワクするね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-05T15:42:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.04460",
+    "title": "Smart Sampling: Helping from Friendly Neighbors for Decentralized Federated Learning",
+    "japanese_title": "スマートサンプリング: 分散型連合学習のためのフレンドリーネイバーズからの支援",
+    "authors": [
+      "Lin Wang",
+      "Yang Chen",
+      "Yongxin Guo",
+      "Xiaoying Tang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 分散型連合学習は、プライバシーを保ちながら知識を共有し通信コストを削減する\n- 分散型FLは中央サーバーを必要とせず、クライアント間の直接通信が可能でリソース節約\n- AFIND+アルゴリズムは有益な隣接ノードを識別し、選択するノード数を適応的に調整\n- AFIND+は他のサンプリングアルゴリズムより優れた性能を示し、既存の最適化とも互換性あり\n\n分散型の連合学習って、中央サーバーなしで済むからすごく画期的だと思う！友達のネットを通じて良いところを学ぶのってまるで勉強会みたいで、これからもっと普及しそうだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-05T12:10:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.04248",
+    "title": "Machine Learning for Complex Systems with Abnormal Pattern by Exception Maximization Outlier Detection Method",
+    "japanese_title": "異常パターンを持つ複雑なシステムに対する機械学習: 例外最大化異常検出法によるアプローチ",
+    "authors": [
+      "Zhikun Zhang",
+      "Yiting Duan",
+      "Xiangjun Wang",
+      "Mingyuan Zhang"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- EMODMは確率モデルと統計アルゴリズムを用いて異常パターンを検出\n- 二状態ガウス混合モデルに基づきリアルタイムでの確率的異常検出を実現\n- 合成データの数値ケースでEMODMの性能を実証\n- 実データで三相インバータの短絡パターンやCOVID-19による失業データの異常期間を検出\n\n複雑なシステムの異常検出をリアルタイムで行えるなんてすごい！EMODMの応用範囲が広がれば、いろんな分野で役立ちそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-05T04:30:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.04169",
+    "title": "Solutions to Deepfakes: Can Camera Hardware, Cryptography, and Deep Learning Verify Real Images?",
+    "japanese_title": "ディープフェイク対策: カメラハードウェア、暗号技術、深層学習は本物の画像を検証できるか?",
+    "authors": [
+      "Alexander Vilesov",
+      "Yuan Tian",
+      "Nader Sehatbakhsh",
+      "Achuta Kadambi"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 生成AIの急速な進化が、本物の画像と動画の信頼性に大きな影響を与えている\n- 将来的に生成AIで作られたデジタルコンテンツがカメラで撮影されたものと見分けがつかなくなる\n- 高品質な生成アルゴリズムが誰でも利用できるようになり、合成画像と本物の画像の割合が大きくなる\n- 本物のデータと合成データを高精度で区別する手法の確立が急務である\n\nこの論文、最新の技術と暗号学を駆使してディープフェイクを撃退する方法を探るなんて、ワクワクするよね。未来のデジタル世界で本物と偽物を確実に見分ける技術、私たちの生活にどう影響するか楽しみだな！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-04T22:01:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.04084",
+    "title": "An applied Perspective: Estimating the Differential Identifiability Risk of an Exemplary SOEP Data Set",
+    "japanese_title": "応用の視点: 差分同定リスクの推定 ― 例示的なSOEPデータセットを用いて",
+    "authors": [
+      "Jonas Allmann",
+      "Saskia Nuñez von Voigt",
+      "Florian Tschorsch"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "Accepted on IWPE 2024",
+    "summary": "- 実世界の研究データ利用には、匿名化された形での出版契約が必要。\n- データ保護コンプライアンスのため、差分プライバシーのような正式なプライバシー保証が役立つ。\n- 本研究では、既存のプライバシーメトリクスを拡張し、基本統計クエリに対するリスクメトリクスを効率的に計算する方法を示す。\n- 実世界のデータセットに基づく実証分析により、現実的な条件下でリスク計算する知識を拡充し、多くの課題も浮き彫りにした。\n\n差分プライバシーについての深掘りで新しい視点が得られそう。現実のデータセットでの分析が多くの課題を明らかにしたところが興味深いよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-04T17:50:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03920",
+    "title": "Support Vector Based Anomaly Detection in Federated Learning",
+    "japanese_title": "連合学習におけるサポートベクターベースの異常検知",
+    "authors": [
+      "Massimo Frasson",
+      "Dario Malchiodi"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 異常検知はサイバーセキュリティから産業システムまで幅広く重要である\n- 従来の中央集約型アプローチはデータプライバシーに課題がある\n- 連合学習を利用し、Ensemble SVDDとSupport Vector Electionの2つの新しいアルゴリズムを提案\n- 提案アルゴリズムは小規模データセットでも効果的に動作し、計算コストが低い\n\nこの研究、異常検知の未来を変える予感がすごいね！簡単なデータでも使えるなら、もっと普及しそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-04T13:32:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03862",
+    "title": "FedSat: A Statistical Aggregation Approach for Class Imbalaced Clients in Federated Learning",
+    "japanese_title": "FedSat: 連合学習におけるクラス不均衡なクライアントに対する統計的集計アプローチ",
+    "authors": [
+      "Sujit Chowdhury",
+      "Raju Halder"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）はプライバシー保護分散機械学習として注目されているが、クライアント間でのデータの不均一性に課題がある\n- FedSatはコストに敏感な損失関数と優先クラスに基づく重み付け集約方式を採用し、ラベルの偏りやクラスの欠損、量の偏りに対処\n- コストに敏感な損失関数は少数クラスのモデル性能を向上させ、優先クラスに基づく重み付け集約方式は統計的意義と重要クラスでの性能に基づいてクライアントの貢献度を調整\n- 多種多様なデータ不均一性環境での実験により、FedSatは最先端手法を大幅に上回る効果を示し、平均1.8%、最も効果の低いベースライン法に対して19.87%の改善を達成、他手法と比べて収束も速いことを実証\n\nFedSatってすごくない？少数派のデータにもちゃんと対応できるなんて、これからの連合学習の可能性めっちゃ広がりそう！一緒にもっと掘り下げて見てみようよ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-04T11:50:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03846",
+    "title": "Google Topics as a way out of the cookie dilemma?",
+    "japanese_title": "Cookieのジレンマを解決するGoogle Topicsの提案",
+    "authors": [
+      "Marius Köppel",
+      "Jan-Philipp Muttach",
+      "Gerrit Hornung"
+    ],
+    "categories": [
+      "cs.CY"
+    ],
+    "comment": "",
+    "summary": "- 広告目的で情報や個人データを処理する際、明示的な同意が必要だと強調\n- ドイツのTelekommunikation-Telemedien-Datenschutzgesetzにより、情報の保存とアクセスには事前の同意が必要\n- Googleの「Privacy Sandbox」戦略の一部である「Federated Learning of Cohorts (FLoC)」は大きな批判を受けた\n- 新たなプロジェクト「Google Topics」が導入され、ユーザーを興味グループに分類して広告をパーソナライズ\n\nGoogleって常に新しい技術に挑戦してるね！「Google Topics」って、ユーザーにとってもプライバシー守られてて安心だね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-04T11:28:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03809",
+    "title": "Finetuning End-to-End Models for Estonian Conversational Spoken Language Translation",
+    "japanese_title": "エストニア語会話音声翻訳のためのエンドツーエンドモデルの微調整",
+    "authors": [
+      "Tiia Sildam",
+      "Andra Velve",
+      "Tanel Alumäe"
+    ],
+    "categories": [
+      "cs.CL",
+      "eess.AS"
+    ],
+    "comment": "Accepted to LoResMT 2024 (ACL workshop)",
+    "summary": "- エストニア語と英語、エストニア語とロシア語間の会話音声翻訳を対象とした研究\n- データ不足を補うために、ウェブスクレイピングと音声認識データセットから合成データを作成\n- Whisper、OWSM 3.1、SeamlessM4Tの3つのエンドツーエンドモデルを評価\n- 合成データによる微調整で翻訳精度が大幅に向上し、SeamlessM4Tは既存の音声翻訳システムと同等かそれ以上\n\nエストニア語の音声翻訳って珍しくて面白そう！合成データを使う発想、絶対これからの研究でも活かせそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-04T10:33:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03745",
+    "title": "SRAS: Self-governed Remote Attestation Scheme for Multi-party Collaboration",
+    "japanese_title": "SRAS: 複数関係者協力のための自己管理型リモート認証スキーム",
+    "authors": [
+      "Linan Tian",
+      "Yunke Shen",
+      "Zhiqiang Li"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- TEE（信頼実行環境）は、クラウド計算資源を使用する際にアプリケーションの機密性と整合性を確保\n- 複数関係者のクラウド計算シナリオでは、各関係者のTEEを検証するためのRelying Partyの選定とデータ漏洩の問題が未解決\n- SRASを提案、認証と検証機能を含み、TEEと計算資産の信頼性を検証する非中央集権的な統合プラットフォームを実現\n- Relying Partyエンクレーブを設計、他の参加者の代わりに地方検証を行い、データ漏洩なしに信頼を確保\n\n複数関係者がクラウドで安全に共同作業できるなんて素敵！これからのクラウド利用が広がりそうだね。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-07-04T08:57:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03732",
+    "title": "Collection, usage and privacy of mobility data in the enterprise and public administrations",
+    "japanese_title": "企業および公共機関におけるモビリティデータの収集、使用およびプライバシー",
+    "authors": [
+      "Alexandra Kapp"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "17 pages, 1 figure, Privacy Enhancing Technologies Symposium",
+    "summary": "- 人のモビリティデータは都市のモビリティ管理で重要だが、個人情報を含むため匿名化が必要\n- 匿名化技術はデータの有用性と利用の制限を引き起こすトレードオフが存在\n- 実際の実装に関する情報は少なく、特に大企業外での状況は不明確\n- プライバシー保護方法は差分プライバシーの最新基準を満たしておらず、実践的な研究の基盤を提供\n\nモビリティデータの扱いってプライバシーとの両立がすごく難しいんだね。実際の匿名化の実践例をもっと知ることで、将来の標準化に役立ちそうだね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-04T08:29:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03685",
+    "title": "Verifying Peephole Rewriting In SSA Compiler IRs",
+    "japanese_title": "SSAコンパイラIRにおけるピープホールリライトの検証",
+    "authors": [
+      "Siddharth Bhat",
+      "Alex Keizer",
+      "Chris Hughes",
+      "Andrés Goens",
+      "Tobias Grosser"
+    ],
+    "categories": [
+      "cs.PL",
+      "cs.LO"
+    ],
+    "comment": "accepted at ITP 2024",
+    "summary": "- 現代のコンパイラではドメイン固有の中間表現（IR）の使用が増加している\n- インタラクティブ定理証明器（ITP）はコンパイラのエンドツーエンドの検証に強力な保証を提供\n- 通常の証明エンジニアリングは高コストだが、Alive peephole verifierのような自動検証ツールが注目されている\n- Leanプルーフアシスタントを使ってMLIRのシンタックスを翻訳し、ピープホールリライトの正当性を証明\n\n現代のコンパイラでの変換と検証の進化がわかるね！検証ツールの便利さとITPの強力さを両立させるなんて、エキサイティングな時代が来そう！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-07-04T07:16:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03672",
+    "title": "A Survey of Data Synthesis Approaches",
+    "japanese_title": "データ合成手法の調査",
+    "authors": [
+      "Hsin-Yu Chang",
+      "Pei-Yu Chen",
+      "Tun-Hsiang Chou",
+      "Chang-Sheng Kao",
+      "Hsuan-Yun Yu",
+      "Yen-Ting Lin",
+      "Yun-Nung Chen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 合成データ使用の目標は多様性の向上、データバランスの調整、ドメインシフトの解消、エッジケースの解決\n- 合成データ技術は専門知識、直接訓練、事前訓練後微調整、ファンデーションモデルに分類される\n- 合成データフィルタリングの目標は基本品質、ラベル一貫性、データ分布に分類\n- 今後の方向性として、品質重視、合成データの評価、マルチモデルデータ拡張が重要とされる\n\n合成データがどれだけ現実の世界に近づけられるかが興味深いよね。未来の人工知能の進化にワクワク！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-04T06:37:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03622",
+    "title": "MSfusion: A Dynamic Model Splitting Approach for Resource-Constrained Machines to Collaboratively Train Larger Models",
+    "japanese_title": "MSfusion: リソース制約のある機械向けの動的モデル分割アプローチによる協調的学習",
+    "authors": [
+      "Jin Xie",
+      "Songze Li"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "12 pages, 9 figures",
+    "summary": "- 大規模なモデルのトレーニングには、大量のデータと豊富な計算資源が必要\n- モデル分割を用いたMSfusionはリソース制約のあるデバイスに適した協調学習フレームワーク\n- 各参加者がモデルの一部を持ち寄ることで計算と通信コストを削減\n- 画像とNLPのタスクでMSfusionのパフォーマンスと効率性、スケーラビリティの高さを実証\n\nリソースが限られたデバイス向けに大規模なモデルを協調して学習するアイデアって面白い！これでみんなのスマホでも高度なAIが動く未来がやってくるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-04T04:06:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03511",
+    "title": "Scalable Zero-Knowledge Proofs for Verifying Cryptographic Hashing in Blockchain Applications",
+    "japanese_title": "ブロックチェーンアプリケーションにおける暗号ハッシュの検証のためのスケーラブルなゼロ知識証明",
+    "authors": [
+      "Oleksandr Kuznetsov",
+      "Anton Yezhov",
+      "Vladyslav Yusiuk",
+      "Kateryna Kuznetsova"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- ゼロ知識証明（ZKP）はブロックチェーンのスケーラビリティの課題を解決する有望な手段である\n- SHA-256アルゴリズムの計算的整合性を確保するためのZKP生成と検証の方法を提案\n- Plonky2フレームワークを用いて、ランダムデータとNEARブロックチェーンの実データブロックで効率性とスケーラビリティを実証\n- 実験結果は、異なるデータサイズや種類に対して一貫したパフォーマンスを示し、生成された回路と証明のサイズも現実的\n\n今後さらに他の暗号プリミティブへの適用可能性を評価することが必要だね。これ、実世界の複雑なシナリオでもどうなるか見てみたいな！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-07-03T21:19:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03502",
+    "title": "AgentInstruct: Toward Generative Teaching with Agentic Flows",
+    "japanese_title": "AgentInstruct: エージェントフローによる生成的教育に向けて",
+    "authors": [
+      "Arindam Mitra",
+      "Luciano Del Corro",
+      "Guoqing Zheng",
+      "Shweti Mahajan",
+      "Dany Rouhana",
+      "Andres Codas",
+      "Yadong Lu",
+      "Wei-ge Chen",
+      "Olga Vrousgos",
+      "Corby Rosset",
+      "Fillipe Silva",
+      "Hamed Khanpour",
+      "Yash Lara",
+      "Ahmed Awadallah"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 合成データは、言語モデルの開発に重要であるが、品質と多様性にばらつきがある\n- Generative Teachingのために、AgentInstructを提案し、高品質な合成データを自動生成\n- 合成データを用いてMistral-7bを後訓練し、多くのベンチマークで大きな改善を確認\n- 他のモデルと比較して、Orca-3が大幅に優れた性能を発揮\n\nAgentInstructすごくない？いっぱいデータ作れて、モデルがもっと賢くなっちゃうかも！これが本格化したら、AIの新しいスキルを簡単に教えられる未来が来るかもね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-03T21:01:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03496",
+    "title": "Releasing Large-Scale Human Mobility Histograms with Differential Privacy",
+    "japanese_title": "差分プライバシーによる大規模ヒト移動ヒストグラムの公開",
+    "authors": [
+      "Christopher Bian",
+      "Albert Cheu",
+      "Yannis Guzman",
+      "Marco Gruteser",
+      "Peter Kairouz",
+      "Ryan McKenna",
+      "Edo Roth"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "comment": "",
+    "summary": "- GoogleのEIE（Environmental Insights Explorer）は、人々の移動統計を約5万の地域で報告\n- 移動統計は、炭素排出量の推定や交通政策・インフラの決定に活用される\n- 鋭敏なユーザーデータの適切なプライバシー保護が必須であり、連合分析と差分プライバシーを併用\n- 提案されたメカニズムは高いプライバシー ($\\epsilon \\approx 2$-DP) と有用性を両立し、ベースラインより大幅に改善\n\nこれって、プライバシー保護しながら交通データを活用するって、未来のスマートシティーの一歩だよね。めっちゃワクワクする！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-03T20:54:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.03451",
+    "title": "The Role of Privacy Guarantees in Voluntary Donation of Private Data for Altruistic Goals",
+    "japanese_title": "アルトルイスティックな目的のためにプライベートデータを自主的に寄付する際のプライバシー保証の役割",
+    "authors": [
+      "Ruizhe Wang",
+      "Roberta De Viti",
+      "Aarushi Dubey",
+      "Elissa M. Redmiles"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.HC"
+    ],
+    "comment": "",
+    "summary": "- 医療データの寄付意欲を4つのプライバシー保証（データ有効期限、匿名化、利用制限、アクセス制御）で検討\n- プライバシー保証の確認方法として、自己監査と専門家監査を比較\n- データ収集主体（営利/非営利組織）によるプライバシー期待の違いを評価\n- 非営利組織への期待は高いが、営利組織に対してはプライバシー声明で期待値が上昇\n\nこの研究、非営利組織への信頼感って大きいんだね。でも、どうやってユーザーの期待と技術の現実をもっと合わせるかが未来の課題みたい！",
+    "topics": [
+      "PETs"
+    ],
+    "published": "2024-07-03T18:50:48+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.03289",
     "title": "Correlated Privacy Mechanisms for Differentially Private Distributed Mean Estimation",
     "japanese_title": "差分プライベートな分散平均推定のための相関プライバシーメカニズム",

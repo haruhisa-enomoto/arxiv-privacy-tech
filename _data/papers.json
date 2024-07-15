@@ -1,5 +1,278 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.09437",
+    "title": "Let Me DeCode You: Decoder Conditioning with Tabular Data",
+    "japanese_title": "私をデコードして：タブラー形式のデータによるデコーダーの条件付け",
+    "authors": [
+      "Tomasz Szczepański",
+      "Michal K. Grzeszczyk",
+      "Szymon Płotka",
+      "Arleta Adamowicz",
+      "Piotr Fudalej",
+      "Przemysław Korzeniowski",
+      "Tomasz Trzciński",
+      "Arkadiusz Sitek"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "comment": "Accepted for the 27th International Conference on Medical Image   Computing and Computer Assisted Intervention (MICCAI) 2024",
+    "summary": "- DeCodeはラベルから派生した特徴を用いてモデルの条件付けを行い、3Dセグメンテーション性能を向上\n- 条件付けは3Dラベルの形状特徴の数値表現を学習しながら実施され、訓練過程で適用\n- 推論時にはラベルがなくても、入力データから条件付け埋め込みを直接推測可能\n- 合成データやCBCT画像を用いてテストし、未知データに対する一般化性能が向上し、計算コストが削減された\n\n初めての条件付け戦略を3Dデータセグメンテーションに取り入れたんだね！どんな応用ができるか気になるし、今後の医療技術の進化が楽しみだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-12T17:14:33+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09360",
+    "title": "Novel clustered federated learning based on local loss",
+    "japanese_title": "局所損失に基づく新しいクラスタ化連合学習",
+    "authors": [
+      "Endong Gu",
+      "Yongxin Chen",
+      "Hao Wen",
+      "Xingju Cai",
+      "Deren Han"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "comment": "",
+    "summary": "- LCFLは、連合学習におけるクライアント間のデータ分布評価のための新しい指標\n- プライバシー懸念に対応し、非凸モデルへの適用性を向上させる\n- クライアントのデータ分布の事前知識を必要としない\n- 数値実験で、複数のベンチマークにおいて優れた性能を示す\n\n新しいアプローチって感じでワクワクするね。実際に使われるようになるといいなー！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-12T15:37:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09324",
+    "title": "Provable Privacy Advantages of Decentralized Federated Learning via Distributed Optimization",
+    "japanese_title": "分散最適化を介した分散型連合学習の証明可能なプライバシー利点",
+    "authors": [
+      "Wenrui Yu",
+      "Qiongxiu Li",
+      "Milan Lopuhaä-Zwakenberg",
+      "Mads Græsbøll Christensen",
+      "Richard Heusdens"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.IT",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 分散型FLは、理論的にも実証的にも中央集権型よりプライバシー保護が優れていると証明\n- iterativelyなプロセスによるプライバシー損失の定量化が課題であるが、情報理論ベースの解析を実施\n- パッシブアドバサリモデルを含む複数の脅威シナリオでのプライバシー漏洩の境界を確立\n- 深層ニューラルネットワークでは、分散型FLが中央集権型よりプライバシーリスクが低いことを示す事例研究を実施\n\n分散型FLについてのプライバシー分析って新鮮だし、応用の幅が広がりそう！深層ニューラルネットにも対応してるのが特に楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-12T15:01:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09239",
+    "title": "FedVAE: Trajectory privacy preserving based on Federated Variational AutoEncoder",
+    "japanese_title": "FedVAE: 連合変分オートエンコーダを用いた軌道プライバシー保護",
+    "authors": [
+      "Yuchen Jiang",
+      "Ying Wu",
+      "Shiyao Zhang",
+      "James J. Q. Yu"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "2023 IEEE 98th Vehicular Technology Conference",
+    "summary": "- 軌道データはITSなどの交通システムで重要であり、LBSが個人化サービスを提供するために活用\n- 現在のプライバシー保護方法（Kアノニミティ、差分プライバシー）にはデータ特徴への影響や現実的でない軌道生成などの課題がある\n- 提案するFedVAEは、軌道データの構造を保ちつつプライバシーを守る新しいデータセットを生成する\n- FedVAEは連合学習を活用してユーザーデータをローカルに保持し、従来の方法よりも優れた性能を示した\n\n新しい手法で実際のデータ構造を保ちつつプライバシーを守れるなんて、画期的だね。連合学習を使うことで個人情報を外部に出さないっていうのもいいなぁ。",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-07-12T13:10:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09198",
+    "title": "Generative Models for Synthetic Urban Mobility Data: A Systematic Literature Review",
+    "japanese_title": "合成都市移動データ生成モデル：体系的文献レビュー",
+    "authors": [
+      "Alexandra Kapp",
+      "Julia Hansmeyer",
+      "Helena Mihaljević"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "manuscript before final publication in ACM Computing Surveys (see   Open Access publication for final version in journal)",
+    "summary": "- 都市の移動データは貴重だが、個人情報が含まれるため公開されにくい\n- 合成データは構造と統計的特性を維持しつつ、敏感な情報を省くことを目指す\n- 過去10年間に多くの合成移動データ生成モデルが提案されている\n- 本レビューは、それらのモデルの実用性に焦点を当て、比較検討を行っている\n\n合成データで個人情報を守りつつ、どうやって活用していくかが鍵だね！これからの都市開発に役立ちそうでワクワクするよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-12T11:54:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09104",
+    "title": "UserBoost: Generating User-specific Synthetic Data for Faster Enrolment into Behavioural Biometric Systems",
+    "japanese_title": "UserBoost: 行動的バイオメトリクスシステムへの迅速な登録のためのユーザー特定合成データの生成",
+    "authors": [
+      "George Webber",
+      "Jack Sturgess",
+      "Ivan Martinovic"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 行動的バイオメトリクス認証システムの登録期間はユーザーにとって負担である\n- 実際のユーザーのジェスチャーからの合成ジェスチャー生成を、生成的深層学習で提案\n- 合成データと実データの併用で、バイオメトリクスシステムへの登録に必要な実データポイント数を削減\n- WatchAuthのデータセットを使用し、特定ユーザーの手首運動データの合成モデルを開発、40%以上のジェスチャー削減を実現\n\nユーザーごとのデータを簡単に増やせるって、めちゃ効率良くなるね！未来のスマートウォッチの支払いも楽チンになりそうで楽しみ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-12T09:10:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.09039",
+    "title": "Overcoming Catastrophic Forgetting in Tabular Data Classification: A Pseudorehearsal-based approach",
+    "japanese_title": "表形式データ分類における破滅的忘却の克服：疑似リハーサルベースのアプローチ",
+    "authors": [
+      "Pablo García-Santaclara",
+      "Bruno Fernández-Castro",
+      "Rebeca P. Díaz-Redondo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "11 pages, 4 tables, 3 figures",
+    "summary": "- 継続学習はデータ分布の変化に適応しつつ、新知識を統合する重要課題\n- TRIL3はプロトタイプベースの生成モデルXuILVQを用いて合成データ生成\n- DNDFアルゴリズムを増分的に改良し、旧データを保存せずに分類タスク学習\n- TRIL3は50%の合成データ使用で他の継続学習提案を上回る性能を示す\n\nTRIL3が破滅的忘却をうまく解消できるなんてすごくない？合成データをうまく使ってるところが新しいよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-12T07:04:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.08977",
+    "title": "CURE: Privacy-Preserving Split Learning Done Right",
+    "japanese_title": "CURE: プライバシー保護型スプリット学習の正しい実現",
+    "authors": [
+      "Halil Ibrahim Kanpak",
+      "Aqsa Shabbir",
+      "Esra Genç",
+      "Alptekin Küpçü",
+      "Sinem Sav"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 深層ニューラルネットワークの訓練には大規模なデータセットが必要で、クラウドサーバーでの処理が必要\n- スプリット学習はクライアントとサーバー間でモデル層を分割し、分散型モデル訓練に適用される\n- 既存の準同型暗号ベースの解決策は計算負荷が大きすぎることが多い\n- CUREはサーバー側モデルのみを暗号化し、通信効率と平行処理を大幅に改善する\n\nCUREの提案がすごく面白い！他のプライバシー保護手法と比べて効率的で、実用性がありそうだね。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-07-12T04:10:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.08954",
+    "title": "PriRoAgg: Achieving Robust Model Aggregation with Minimum Privacy Leakage for Federated Learning",
+    "japanese_title": "PriRoAgg:連合学習における最小プライバシー漏洩と堅牢なモデル集約の実現",
+    "authors": [
+      "Sizai Hou",
+      "Songze Li",
+      "Tayyebeh Jahani-Nezhad",
+      "Giuseppe Caire"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はユーザープライバシーを保護しつつ分散データを活用するが、プライバシーと堅牢性の課題がある\n- 既存の解決策は簡単な有効性チェックに依存しており、高度な攻撃への対策が不十分\n- より複雑な堅牢集約アルゴリズムでは、一部のプライバシー漏洩が発生する\n- PriRoAggは集計されたプライバシー概念を導入し、ゼロ知識証明を用いて堅牢な集約を実現\n\nデータの安全性を保ちながら堅牢なモデル構築って興味深いな～。これ、具体的にどのくらいの攻撃に耐えられるのか知りたいよね！",
+    "topics": [
+      "連合学習",
+      "ゼロ知識証明"
+    ],
+    "published": "2024-07-12T03:18:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.08935",
+    "title": "Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses",
+    "japanese_title": "連合グラフ学習における分散バックドア攻撃と認証防御",
+    "authors": [
+      "Yuxin Yang",
+      "Qiang Li",
+      "Jinyuan Jia",
+      "Yuan Hong",
+      "Binghui Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "This paper is accepted to CCS2024",
+    "summary": "- 連合グラフ学習(FedGL)は多様なソースからグラフデータを学習するFLの新しいフレームワークである\n- 本研究は、FedGLに対する効果的でステルス性があり永続的なバックドア攻撃を提案\n- 提案された攻撃はサブグラフをトリガーとして使用し、適応的なトリガー生成器を設計\n- 本研究ではまた、攻撃に対する認証防御を開発し、複数のサブグラフへの分割と過半数投票を活用 \n\n連合学習のセキュリティ強化って今後ますます重要になりそう！新しい防御手法がどれだけ実用的かも気になるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-12T02:43:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.08903",
+    "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+    "japanese_title": "TensorTEE: 効率的な安全協調テンソル計算のための異種TEE粒度の統一",
+    "authors": [
+      "Husheng Han",
+      "Xinyao Zheng",
+      "Yuanbo Wen",
+      "Yifan Hao",
+      "Erhu Feng",
+      "Ling Liang",
+      "Jianan Mu",
+      "Xiaqing Li",
+      "Tianyun Ma",
+      "Pengwei Jin",
+      "Xinkai Song",
+      "Zidong Du",
+      "Qi Guo",
+      "Xing Hu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.AR"
+    ],
+    "comment": "Accepted by ASPLOS 2024",
+    "summary": "- NPUsとCPUsを使用した協調計算は高性能だが、既存のTEE設計は非効率である\n- CPU TEEのキャッシュライン粒度がメモリ圧力を増大させる\n- 異種エンクレーブ間のデータ転送は再暗号化が必要であり非効率的\n- TensorTEEは一貫したテンソル粒度を提供し、4倍の性能向上を実現\n\nこの研究、テンソル計算なのに同時に安全も確保できるのがすごく面白そう！効率とセキュリティが一緒に向上するなんて夢の技術かもしれないね。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-07-12T00:35:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.08822",
+    "title": "FedMedICL: Towards Holistic Evaluation of Distribution Shifts in Federated Medical Imaging",
+    "japanese_title": "FedMedICL: 連合医療画像における分布シフトの全体的評価に向けて",
+    "authors": [
+      "Kumail Alhamoud",
+      "Yasir Ghunaim",
+      "Motasem Alfarra",
+      "Thomas Hartvigsen",
+      "Philip Torr",
+      "Bernard Ghanem",
+      "Adel Bibi",
+      "Marzyeh Ghassemi"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "comment": "Accepted at MICCAI 2024. Code is available at:   https://github.com/m1k2zoo/FedMedICL",
+    "summary": "- 医療画像AIモデルは一般化が必要だが、時間、人口統計、ラベルシフトなど多様な分布シフトにより困難\n- 各医療機関内のデータセットの多様性が制限されており、連合学習の関心が高まる\n- FedMedICLは、ラベル、人口統計、時間的分布シフトを同時に評価する統一フレームワークとベンチマークを導入\n- FedMedICL実験では、単純なバッチバランシング技術が他の高度な方法よりも平均性能で優れていることを発見\n\n医療分野における実際の課題に直接繋がる研究でとっても興味深い！特に、シンプルな方法が優れているって驚きだよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-11T19:12:23+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.08652",
     "title": "DART: A Solution for Decentralized Federated Learning Model Robustness Analysis",
     "japanese_title": "DART: 分散型連合学習モデルの堅牢性分析のためのソリューション",

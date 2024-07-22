@@ -1,5 +1,207 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.14434",
+    "title": "Co-synthesis of Histopathology Nuclei Image-Label Pairs using a Context-Conditioned Joint Diffusion Model",
+    "japanese_title": "コンテキスト条件付き共同拡散モデルを用いた組織病理学核画像とラベルペアの共生成",
+    "authors": [
+      "Seonghui Min",
+      "Hyun-Jic Oh",
+      "Won-Ki Jeong"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "ECCV 2024 accepted",
+    "summary": "- マルチクラス組織病理学核解析における学習ベース手法の主要なボトルネックは、訓練データの不足である\n- 既存の生成モデルは生物組織の形状や空間レイアウトなどのコンテキストを考慮せず、現実的な画像生成に優れているが画像とラベルのペアを同時に生成することはできない\n- 本研究では、核のセントロイドレイアウトと構造関連のテキストプロンプトを使用したコンテキスト条件付き拡散モデルを導入し、空間的および構造的コンテキスト情報を生成対象に組み込む\n- マルチ施設、マルチ臓器、マルチモダリティのデータセットで高品質なサンプルの生成を実証し、合成データは既存のデータ拡張手法を上回る性能を示す\n\n生物組織の形状やレイアウトを考慮したデータ生成が、データ拡張の未来を変えるかもね。核解析の研究がもっと進むと、診断精度も上がりそうでワクワクするよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-19T16:06:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.14251",
+    "title": "Personalized Multi-tier Federated Learning",
+    "japanese_title": "個別化されたマルチティア連合学習",
+    "authors": [
+      "Sourasekhar Banerjee",
+      "Ali Dadras",
+      "Alp Yurtsever",
+      "Monowar Bhuyan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.OC"
+    ],
+    "comment": "",
+    "summary": "- 個別化された連合学習の課題は、低コスト通信でデータの統計的異質性を捉え、デバイスごとにカスタマイズされた性能を得ること\n- デバイス間で既知のチーム構造がある場合、最適化された個別のローカルモデルを得るために、マルチティアアーキテクチャの個別連合学習(PerMFL)を導入\n- PerMFLは、理論的保証を提供し、滑らかな強凸問題で線形収束率を、滑らかな非凸問題で準線形収束率を示す\n- 管理された数値実験でPerMFLの強力な経験的性能を実証し、複数の個別連合学習タスクで最先端技術を上回る成果を上げた\n\n新しいアルゴリズムが最先端より優れているんだって！個々のチームに合わせた学習方法ってどんな感じなんだろう？未来感がすごくてワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-19T12:31:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.14154",
+    "title": "Where is the Testbed for my Federated Learning Research?",
+    "japanese_title": "連合学習研究のための実験環境はどこにあるのか？",
+    "authors": [
+      "Janez Božič",
+      "Amândio R. Faustino",
+      "Boris Radovič",
+      "Marco Canini",
+      "Veljko Pejović"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 中央集権型AIから分散型AIへの進展が重要だが、連合学習（FL）の評価が不十分\n- 現実のFL実験は多様なクライアントデバイスとデータセットによる評価で難航\n- CoLExTを提案し、カスタムFLアルゴリズムの実験を効率化、多種多様なエッジデバイスで使用可能\n- FLアルゴリズムの移植は最小限の開発者関与で可能、計測ツールがリソースの使用オーバーヘッドを抑える\n\nCoLExTってすごい便利そう！いろんなデバイスで試せるから、もっと現実的な感じで使えそうだよね。この研究でどんな新しい発見があるのか楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-19T09:34:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.14129",
+    "title": "Comparing and Contrasting Deep Learning Weather Prediction Backbones on Navier-Stokes and Atmospheric Dynamics",
+    "japanese_title": "ナビエ・ストークスおよび大気力学における深層学習気象予測バックボーンの比較と対比",
+    "authors": [
+      "Matthias Karlbauer",
+      "Danielle C. Maddix",
+      "Abdul Fatir Ansari",
+      "Boran Han",
+      "Gaurav Gupta",
+      "Yuyang Wang",
+      "Andrew Stuart",
+      "Michael W. Mahoney"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- DLWPモデルは伝統的な気象予測モデルと競争可能であるが、訓練プロトコルやデータの選択による影響はまだ明確でない。\n- 合成データと実世界の気象動力学の予測に関する実証的な分析を行い、多様なトレードオフを示している。\n- 短中範囲の予測においては、ConvLSTMとSwinTransformerの適性が示されているが、長期予測ではGraphCastとSpherical FNOの安定性が優れている。\n- いずれのモデルバックボーンも「飽和」しており、ニューラルスケーリングを示さないため、将来的な改良の方向性が重要である。\n\nいろんなモデルを使った天気予報の性能比較なんてめっちゃ興味あるよね！これ見てると、未来の天気予報はもっと正確になりそうでワクワクする～。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-19T08:59:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.14065",
+    "title": "MSCT: Addressing Time-Varying Confounding with Marginal Structural Causal Transformer for Counterfactual Post-Crash Traffic Prediction",
+    "japanese_title": "MSCT：時間変動する交絡を解決するための反事実的事故後交通予測のための周辺構造因果トランスフォーマー",
+    "authors": [
+      "Shuang Li",
+      "Ziyuan Pu",
+      "Nan Zhang",
+      "Duxin Chen",
+      "Lu Dong",
+      "Daniel J. Graham",
+      "Yinhai Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "13 pages, 9 figures",
+    "summary": "- 交通事故は交通効率を低下させ経済的課題をもたらす\n- 既存モデルは時間変動する交絡と事故の異質な影響に対応できない\n- MSCTモデルは周辺構造モデルの構造を取り入れ因果関係を学習\n- 合成データ生成手法を用いて因果メカニズムを模倣し性能検証\n\nこの研究は複雑な交通状況の因果関係を解明し、より正確な予測ができるようになりそうだよね！未来のスマート交通システムに大いに役立ちそうでワクワクするね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-19T06:42:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.14054",
+    "title": "PointRegGPT: Boosting 3D Point Cloud Registration using Generative Point-Cloud Pairs for Training",
+    "japanese_title": "PointRegGPT：トレーニング用に生成されたポイントクラウドペアを用いた3Dポイントクラウド登録の向上",
+    "authors": [
+      "Suyi Chen",
+      "Hao Xu",
+      "Haipeng Li",
+      "Kunming Luo",
+      "Guanghui Liu",
+      "Chi-Wing Fu",
+      "Ping Tan",
+      "Shuaicheng Liu"
+    ],
+    "categories": [
+      "cs.CV",
+      "I.3.3; I.4.5"
+    ],
+    "comment": "To appear at the European Conference on Computer Vision (ECCV) 2024",
+    "summary": "- 3Dポイントクラウド登録にはデータが重要であり、実世界のデータセットの構築は高コスト\n- PointRegGPTは生成されたポイントクラウドペアを用いてデータの現実性を高める\n- 深度インペインティング・ディフュージョンモデルでターゲット深度マップを処理\n- ポイント貫通によるアーティファクトを軽減する深度補正モジュールを設計\n\n今後、3Dポイントクラウドの分野がさらに進化していきそう。この技術がどのくらいのデータ精度を出せるのか楽しみだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-19T06:29:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.13944",
+    "title": "PowerTrain: Fast, Generalizable Time and Power Prediction Models to Optimize DNN Training on Accelerated Edges",
+    "japanese_title": "PowerTrain: 高速かつ汎用的なDNNトレーニングの時間および電力予測モデルを用いた加速度エッジの最適化",
+    "authors": [
+      "Prashanthi S. K.",
+      "Saisamarth Taluri",
+      "Beautlin S",
+      "Lakshya Karwa",
+      "Yogesh Simmhan"
+    ],
+    "categories": [
+      "cs.DC",
+      "eess.SP"
+    ],
+    "comment": "Preprint of article in Elsevier's Future Generation Computer Systems   (FGCS)",
+    "summary": "- Nvidia Jetsonなどの加速度エッジデバイスは、DNNトレーニングおよび連合学習に利用されることが増えている\n- PowerTrainはモデル+データセットに対する推論を行い、電力モードに依存したトレーニング時間と消費電力を正確に予測\n- 一度のオフラインプロファイリングで $1000$ 以上の電力モードのデータを使用し、他のワークロードや新しいJetsonデバイスの予測モデルに転移学習を適用\n- 新しいワークロードやデバイスに対しても、時間は $<15\\%$、電力は $<6\\%$ の誤差で予測する堅牢なパフォーマンスを実現\n\nJetsonみたいなエッジデバイスで連合学習がもっと高速にできるようになるなんて、めちゃ楽しそう！これがさらに進化したら、色んな現場で役立ちそうだよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-18T23:41:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.13922",
+    "title": "Synthetic Counterfactual Faces",
+    "japanese_title": "合成反事実顔",
+    "authors": [
+      "Guruprasad V Ramesh",
+      "Harrison Rosenberg",
+      "Ashish Hooda",
+      "Kassem Fawaz"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "Paper under review. Full text and results will be updated after   acceptance",
+    "summary": "- 生体認証に利用されるコンピュータビジョンシステムは、ソーシャルメディアユーザーの識別、失踪者の捜索、個人の身元確認などで活用されている\n- 学習モデルのロバスト性と公平性を評価するためには、語義的分布シフトに対抗するためのアノテーションデータが必要である\n- 生成AIを用いた高品質な合成顔データを構築するフレームワークを提案し、自然な顔データ収集の高コストを回避する\n- 顔認識システムの感度評価や画像理解システムの検査など、多くの用途で合成データパイプラインを有効活用し、複数のユーザースタディで有効性を確認した\n\n顔認識システムが失敗する顔属性を特定するなんてすごいね。未来の顔認識システムがもっと公平でロバストになるのが楽しみ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-18T22:22:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.13881",
+    "title": "Privacy-preserving gradient-based fair federated learning",
+    "japanese_title": "プライバシー保護勾配に基づく公平な連合学習",
+    "authors": [
+      "Janis Adamek",
+      "Moritz Schulze Darup"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "",
+    "summary": "- 連合学習ではデータを直接共有せずに共同でニューラルネットワークを訓練できる\n- 従来のスキームでは全参加者が最終的に同じモデルを入手し、第三者が集計を実行する\n- 個々のデータ貢献に応じたモデル品質保障と、第三者へ外部委託する任意データに対するプライバシーが求められる\n- 準同型暗号を用いてローカルグラデーションの利用に特化した新しい公平かつプライバシー保護のFLスキームを提案\n\n個々のデータ貢献に応じたモデル品質の保障ってすごいよね！みんなが納得できるように頑張ろうとする姿勢が素敵。もし本当に実現したら、プライバシーも守られるし良いこと尽くし〜！",
+    "topics": [
+      "連合学習",
+      "準同型暗号"
+    ],
+    "published": "2024-07-18T19:56:39+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.13745",
     "title": "MaRINeR: Enhancing Novel Views by Matching Rendered Images with Nearby References",
     "japanese_title": "MaRINeR: 近傍の参照画像と一致することで新しい視点を強化する手法",

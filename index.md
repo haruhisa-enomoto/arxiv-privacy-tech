@@ -27,270 +27,175 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-07-24T04:19:37.781582
+更新: 2024-07-25T04:20:09.240509
 
 - - -
 
-### [Aster: Fixing the Android TEE Ecosystem with Arm CCA](http://arxiv.org/abs/2407.16694)
+### [HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation](http://arxiv.org/abs/2407.17438)
 
-**Aster: Arm CCAでAndroid TEEエコシステムを修正する方法**
+**HumanVid: カメラ制御可能なヒューマンイメージアニメーションのためのトレーニングデータの解明**
 
-Mark Kuhne, Supraja Sridhara, Andrin Bertschi, Nicolas Dutly, Srdjan Capkun, Shweta Shinde
+Zhenzhi Wang, Yixuan Li, Yanhong Zeng, Youqing Fang, Yuwei Guo, Wenran Liu, Jing Tan, Kai Chen, Tianfan Xue, Bo Dai, Dahua Lin
 
-- AndroidエコシステムはTrustZoneや信頼されたハイパーバイザを利用し、セキュリティ感受性の高いサービスを隔離
-- これらの機構では、Android、ハイパーバイザ、セキュアワールドの相互隔離が必要である
-- サンドボックス化されたサービス抽象を提案し、サンドボックス間やAndroid、ハイパーバイザ、セキュアメモリへのアクセスを防止
-- Arm CCAのハードウェア分離を活用しつつ、セキュアなインターフェースや中断保護を達成
+- ヒューマンイメージアニメーションは、キャラクターの写真からビデオを生成し、ユーザーがコントロール可能にする
+- 最新の手法は高品質なデータセットを使用するが、データセットの入手が難しく、フェアな評価が難しい
+- HumanVidは、手作りの実データと合成データを組み合わせた、高品質な大規模データセットを提供
+- 実データでは著作権フリーのビデオから選び、合成データでは3Dアバターを用いて多様なカメラモーションを生成
 
-Asterって、かなり未来的な取り組みなのかな？同じスマホでも、もっと安心して使えるようになるといいね。具体的な実装例もあって、実用的なんだよね、これは期待大！
+カメラの動きまで考慮したアニメーションデータとか面白そう！これで映画制作とかもっと自由に作れそうだね！
 
+**Comment:** camera controllable human image animation, a dataset and a baseline
 
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.CR, **投稿日時:** 2024-07-23 17:57
-
-- - -
-
-### [Unveiling and Mitigating Bias in Audio Visual Segmentation](http://arxiv.org/abs/2407.16638)
-
-**音声映像セグメンテーションにおけるバイアスの解明と緩和**
-
-Peiwen Sun, Honggang Zhang, Di Hu
-
-- 先行研究は音声映像セグメンテーションモデルを進化させたが、誤った論理で異常を示すことがある
-- 異常現象は「音声プライミングバイアス」と「視覚の事前知識」の二種類に分類される
-- 音声プライミングバイアスには、音声の潜在的な意味情報を取り込む感知モジュールを導入
-- 視覚の事前知識には、モデル構造を変更せずにバイアスを統合する対比訓練戦略を探索
-
-音声映像セグメンテーションのバイアスって面白い！どのように解消したのかもっと知りたいなあ。これが実際の性能向上につながるとまた新しい技術が生まれそうだね！
-
-**Comment:** Accepted by ACM MM 24 (ORAL)
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-07-23 16:55
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-07-24 17:15
 
 - - -
 
-### [Knowledge-driven AI-generated data for accurate and interpretable breast ultrasound diagnoses](http://arxiv.org/abs/2407.16634)
+### [Bridging Trust into the Blockchain: A Systematic Review on On-Chain Identity](http://arxiv.org/abs/2407.17276)
 
-**知識駆動型AI生成データによる正確かつ解釈可能な乳房超音波診断**
+**ブロックチェーンに信頼を橋渡し: オンチェーンアイデンティティに関する系統的レビュー**
 
-Haojun Yu, Youcheng Li, Nan Zhang, Zihan Niu, Xuantong Gong, Yanwen Luo, Quanlin Wu, Wangyan Qin, Mengyuan Zhou, Jie Han, Jia Tao, Ziwei Zhao, Di Dai, Di He, Dong Wang, Binghui Tang, Ling Huo, Qingli Zhu, Yong Wang, Liwei Wang
+Awid Vaziry, Kaustabh Barman, Patrick Herbke
 
-- 訓練データの長尾分布が原因で稀なケースでの診断の正確性が課題
-- TAILORというパイプラインを導入し、知識駆動型モデルで合成データを生成
-- 生成モデルは3,749件の病変データを元に数百万の乳房超音波画像を生成可能
-- DCISの診断モデルが全ての放射線科医を大きく上回る成果を示した
+- ユーザー識別はブロックチェーンベースのサービス規制に必要
+- 主要な技術はゼロ知識証明、公的鍵基盤、信頼の網を含む
+- オンチェーンアイデンティティの信頼性に関する研究ギャップを特定
+- 未来の研究方向には、デジタルアイデンティティとアイデンティティ提供者の信頼性向上が含まれる
 
-TAILORのモデルで稀な症例もカバーできるってすごい！この技術がもっと広がれば、いろんな病気の早期発見とかにも役立ちそうで楽しみだね。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** eess.IV, cs.AI, cs.CV, cs.HC, **投稿日時:** 2024-07-23 16:49
-
-- - -
-
-### [GenRec: A Flexible Data Generator for Recommendations](http://arxiv.org/abs/2407.16594)
-
-**GenRec: 推薦システム用の柔軟なデータ生成器**
-
-Erica Coppolillo, Simone Mungari, Ettore Ritacco, Giuseppe Manco
-
-- 現実的なデータセットの不足が推薦システムとソーシャルネットワーク分析の大きな課題
-- 合成データが現実的な相互作用をシミュレートする有効な解決策
-- GenRecは潜在因子モデリングに基づく新しいフレームワークを提案
-- 高度な柔軟性があり、ユーザー項目間相互作用の生成をカスタマイズ可能
-
-推薦システムの問題を一気に解決できそう！さまざまな場面で役立ちそうなのが魅力だね。
+ブロックチェーンの上でアイデンティティをどう信頼するかってすごく大事な問題だよね。それが解決できたら、もっと安心して使えるようになるし未来が広がりそう！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.IR, cs.AI, cs.SI, **投稿日時:** 2024-07-23 15:53
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, cs.CY, cs.DC, **投稿日時:** 2024-07-24 13:42
 
 - - -
 
-### [COALA: A Practical and Vision-Centric Federated Learning Platform](http://arxiv.org/abs/2407.16560)
+### [A Hybrid Federated Kernel Regularized Least Squares Algorithm](http://arxiv.org/abs/2407.17228)
 
-**COALA: 実用的でビジョン中心の連合学習プラットフォーム**
+**ハイブリッド連合カーネル正則化最小二乗アルゴリズム**
 
-Weiming Zhuang, Jian Xu, Chen Chen, Jingtao Li, Lingjuan Lyu
+Celeste Damiani, Yulia Rodina, Sergio Decherchi
 
-- COALAは、15のコンピュータビジョンタスクで連合学習をサポートし、複数タスクを同時に扱う
-- 監視された連合学習に加え、半監視および未監視の連合学習もベンチマークする
-- 静的データに加え、現実世界での連続的に変化するデータに対応した連合学習にも対応
-- 分割モデルや異なるクライアント間での異なるモデルを用いた連合学習をベンチマーク
+- 連合学習はプライバシー保護の重要な場面で有用な戦略
+- 臨床データに加え、オミクス特徴も含まれるため、データは病院とオミクスセンターに分散
+- サンプルと特徴が分散したハイブリッド環境で効率的なカーネル正則化最小二乗アルゴリズムを提案
+- データセットで検証し、攻撃対策のセキュリティ措置も議論
 
-これから連合学習の新しい可能性を見つけることができそう！データの種類によっても色々試せるみたいだから、めっちゃ面白そうじゃない？
-
-**Comment:** ICML'24
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.DC, **投稿日時:** 2024-07-23 15:14
-
-- - -
-
-### [CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs](http://arxiv.org/abs/2407.16473)
-
-**CrudiTEE: TEEを使用した信頼できる暗号通貨ウォレット構築へのスティック＆キャロットアプローチ**
-
-Lulu Zhou, Zeyu Liu, Fan Zhang, Michael K. Reiter
-
-- 暗号通貨は署名鍵の管理のためユーザーに課題をもたらす
-- TEEはこの課題を解決する有望な技術だが、実装はサイドチャネル攻撃に弱い
-- 経済的インセンティブでサイドチャネル攻撃を緩和する新アプローチを提案
-- マルコフ決定過程を用いて攻撃者の行動をモデル化し、報奨金の効果を評価
-
-TEEの経済的アプローチ、なんか新しくて面白そう！もっと安全なウォレットが広がるといいね。
+データがいろんな場所に散らばってても効率的に学習できるってすごい！これからの医療で大活躍しそうだね。
 
 
 
-**トピック:** [TEE](tee), **カテゴリ:** cs.CR, **投稿日時:** 2024-07-23 13:44
+**トピック:** [連合学習](fl), **カテゴリ:** stat.ML, cs.LG, **投稿日時:** 2024-07-24 12:32
 
 - - -
 
-### [On Differentially Private 3D Medical Image Synthesis with Controllable Latent Diffusion Models](http://arxiv.org/abs/2407.16405)
+### [A quantitative probabilistic relational Hoare logic](http://arxiv.org/abs/2407.17127)
 
-**差分プライバシーを用いた制御可能な潜在拡散モデルによる3D医療画像合成**
+**定量的確率的関係ホーア論理**
 
-Deniz Daum, Richard Osuala, Anneliese Riess, Georgios Kaissis, Julia A. Schnabel, Maxime Di Folco
+Martin Avanzini, Gilles Barthe, Davide Davoli, Benjamin Grégoire
 
-- 公開医療画像データセットの小ささとプライバシー問題が深層学習モデルの進展を阻害
-- 医療属性に基づいて合成画像を生成する潜在拡散モデルを提案し、差分プライバシーを確保
-- 公開データで事前学習後、UKBiobankデータセットで差分プライバシーを用いて微調整
-- プライバシー制約と画像品質のトレードオフを探求し、プライバシー強化が性能低下を引き起こす可能性を示す
+- eRHLは確率的プログラムの関係期待特性を推論するプログラム論理である
+- 定量的主張により、従来のランダム性整列制限を克服する
+- eRHLはプログラムの等価性、統計的距離、差分プライバシーに対して健全かつ完全である
+- PRHL及びapRHLで扱えない例をeRHLで実証する
 
-プライバシーを守りつつも高品質な医療画像を生成できるなんて、新しい扉が開ける感じがするね！でも、まだ完璧じゃないところが挑戦しがいありそう。
+新しいプログラム論理で複雑なセキュリティ問題に挑戦するんだね！これが実際に役立つことを示す具体的な例もあるなんて、すごく楽しみ！
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** eess.IV, cs.CV, **投稿日時:** 2024-07-23 11:49
-
-- - -
-
-### [On ADMM in Heterogeneous Federated Learning: Personalization, Robustness, and Fairness](http://arxiv.org/abs/2407.16397)
-
-**異質連合学習におけるADMMの活用: パーソナライズ、ロバスト性、公平性**
-
-Shengkun Zhu, Jinshan Zeng, Sheng Wang, Yuan Sun, Xiaodong Li, Yuan Yao, Zhiyong Peng
-
-- 統計的な異質性は連合学習における精度、公平性、ロバスト性に緊張を生む主要な原因
-- パーソナライズ連合学習(PFL)は、個人のモデルを開発し、統計的な異質性の影響を軽減
-- 既存のPFLフレームワークはパーソナライズモデルの性能向上に焦点を当て、グローバルモデルを軽視
-- 提案するFLAMEフレームワークは、ADMMを活用してパーソナライズとグローバルモデルの両方をトレーニング
-
-FLAMEのフレームワークは、新しいモデル選択戦略を通じて、多様なデータを持つクライアントに対応するのが面白そうだよね。お互いに良い成績が出せるようサポートし合えるかも！
-
-**Comment:** arXiv admin note: text overlap with arXiv:2311.06756
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-07-23 11:35
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LO, **投稿日時:** 2024-07-24 09:58
 
 - - -
 
-### [STATE: A Robust ATE Estimator of Heavy-Tailed Metrics for Variance Reduction in Online Controlled Experiments](http://arxiv.org/abs/2407.16337)
+### [Federated Automatic Latent Variable Selection in Multi-output Gaussian Processes](http://arxiv.org/abs/2407.16935)
 
-**STATE: オンライン制御実験における分散削減のための頑健な重尾分布を持つ平均処置効果推定量**
+**連合学習による多出力ガウス過程における自動潜在変数選択**
 
-Hao Zhou, Kun Sun, Shaoming Li, Yangfeng Fan, Guibin Jiang, Jiaqi Zheng, Tao Li
+Jingyi Gao, Seokhyun Chung
 
-- 分散削減は高い統計検出力を達成し、少ないサンプルと短い実験期間で効果を発揮する技術
-- 従来の分散削減法はガウス分布前提で、重尾分布を持つ実際のビジネスメトリックを正確に反映できない
-- Student's t分布と機械学習ツールを組み合わせ、外れ値の影響を排除することで頑健な平均処置効果推定量を構築
-- 合成データとMeituan実験プラットフォームでの長期実証により、STATEが最先端の推定器に比べて50%以上の分散削減を達成
+- 連合学習を用いて多出力ガウス過程の潜在プロセス数を自動選択
+- 中央サーバへのデータ集中によるプライバシーリスクと計算負荷を回避
+- スパイク・スラブ事前分布で必要な潜在プロセスのみを自動選択
+- リチウムイオン電池劣化や気温データのシミュレーションで有効性を確認
 
-実験期間を短くできて、同じ精度の実験結果が得られるってすごいよね！さまざまなビジネスメトリックに適用できそうだから、今後のオンライン実験の新スタンダードになるかもね。
+最初に読んだとき、連合学習でプライバシーを守りつつ効率よく推論する部分が気になったよ！応用範囲も広そうだね。
 
-**Comment:** Accepted by KDD 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-07-23 09:35
 
-- - -
-
-### [Federated Learning for Face Recognition via Intra-subject Self-supervised Learning](http://arxiv.org/abs/2407.16289)
-
-**顔認識のための連合学習：被写体内自己教師あり学習によるアプローチ**
-
-Hansol Kim, Hoyeol Choi, Youngjun Kwak
-
-- 顔認識の連合学習（FL）は、個々のクライアントのモデルを集約し、一般化された顔認識モデルを構築
-- 既存の研究では自己教師あり学習の不足と複数被写体の対応が課題
-- 提案するFedFSは、被写体を固定せずに個別化された顔認識モデルを訓練する新しいFLアーキテクチャ
-- FedFSは、適応的なラベル構築と被写体内自己教師あり学習を活用し、精度と安定性を向上
-
-FedFSって新しい連合学習のアーキテクチャなんだって！自己教師あり学習を活用するアイデアがすごく興味深いね。実験結果も良好らしいし、もっと詳しく知りたいな。
-
-**Comment:** Accepted at the The 35th British Machine Vision Conference 2024 (BMVC   2024), Glasgow, UK. Youngjun Kwak is corresponding author
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-07-23 08:43
+**トピック:** [連合学習](fl), **カテゴリ:** stat.ML, cs.LG, **投稿日時:** 2024-07-24 02:03
 
 - - -
 
-### [Tackling Feature-Classifier Mismatch in Federated Learning via Prompt-Driven Feature Transformation](http://arxiv.org/abs/2407.16139)
+### [Synthetic Data, Similarity-based Privacy Metrics, and Regulatory (Non-)Compliance](http://arxiv.org/abs/2407.16929)
 
-**連合学習における特徴-分類器の不一致問題をプロンプト駆動の特徴変換で解決**
+**合成データ、類似性に基づくプライバシーメトリクス、および規制の（非）遵守**
 
-Xinghao Wu, Jianwei Niu, Xuefeng Liu, Mingjia Shi, Guogang Zhu, Shaojie Tang
+Georgi Ganev
 
-- 連合学習（FedAvg）はデータの異質性によりグローバルモデルの性能が低下
-- FedAvgの特徴抽出器が多くのPFL（パーソナライズド連合学習）手法より優れている
-- ローカル特徴を線形変換し分類器に合わせるとFedAvgはほとんどのPFL手法を凌駕
-- 提案手法FedPFTはプロンプト駆動の特徴変換モジュールで特徴と分類器の不一致を解決
+- 類似性に基づくプライバシーメトリクスは、規制の遵守を確保できない
+- 分析と反例を通じて、特定とリンク可能性に対する保護が不足していると示した
+- メトリクスは、動機のある侵入者テストを完全に無視するなどの根本的な問題がある
+- 他にもいくつかの重要な問題が存在し、それらが合成データの規制遵守を阻害する
 
-FedPFTがどの程度成果を出せるか非常に興味深い！連合学習の新しいアプローチが、特にパーソナライズにどれだけ役立つか見てみたいな。
+類似性って便利な感じするけど、システムの抜け穴になっちゃうんだね。規制ってやっぱり大切だね～！
 
-**Comment:** 23 pages, 9 figures
+**Comment:** Accepted to the 2nd Workshop on Generative AI and Law (GenLaw 2023),   part of ICML 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-07-23 02:52
-
-- - -
-
-### [Escalation of Commitment: A Case Study of the United States Census Bureau Efforts to Implement Differential Privacy for the 2020 Decennial Census](http://arxiv.org/abs/2407.15957)
-
-**コミットメントのエスカレーション: 2020年国勢調査における米国国勢調査局の差分プライバシー実装努力の事例研究**
-
-Krish Muralidhar, Steven Ruggles
-
-- 2010年の国勢調査で使用された方法（データ交換）の高い開示リスクに基づき、2020年の国勢調査で差分プライバシーを導入
-- 2010年のタブラー形式データの開示リスク主張についての厳密な評価は行われていなかった
-- 開示リスク評価の手順が不安定で、リスクが過大評価されていたことを示す
-- 新手順でリリースされたデータ製品は、プライバシーと精度の両方で不十分
-
-差分プライバシーを導入したのに、どっちつかずになっちゃったなんてビックリだね。技術の進化が期待できるけど、課題もたくさんだね。
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.DB, **投稿日時:** 2024-07-22 18:13
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CR, cs.AI, cs.CY, **投稿日時:** 2024-07-24 01:45
 
 - - -
 
-### [Decentralized Federated Anomaly Detection in Smart Grids: A P2P Gossip Approach](http://arxiv.org/abs/2407.15879)
+### [Inference Load-Aware Orchestration for Hierarchical Federated Learning](http://arxiv.org/abs/2407.16836)
 
-**スマートグリッドにおける分散型連合異常検出：P2Pゴシップアプローチ**
+**推論負荷に対応した階層型連合学習のオーケストレーション**
 
-Muhammad Akbar Husnoo, Adnan Anwar, Md Enamul Haque, A. N. Mahmood
+Anna Lackinger, Pantelis A. Frangoudis, Ivan Čilić, Alireza Furutanpey, Ilir Murturi, Ivana Podnar Žarko, Schahram Dustdar
 
-- スマートグリッドのセキュリティとプライバシー懸念が強まり、強固な侵入検出システムの需要が増加
-- 連合学習がデータ共有なしで攻撃検出モデルの協調訓練を実現。しかし、集中型アグリゲータに依存しプライバシー漏洩のリスクも
-- ランダムウォークとエピデミックゴシッププロトコルを用いた新しい分散型連合異常検出スキームを提案
-- 実験結果でランダムウォークが高性能を示し、通信遅延や遅延ノードの影響を軽減しつつ、従来の連合学習よりも35%トレーニング時間を短縮
+- 階層型連合学習(HFL)は通信コスト削減とサーバ負荷分散のため、中間集約ノードを導入
+- モデルレプリカがクライアント端末、中間ノード、グローバルサーバに分散配置される
+- トレーニングと推論のプロセスが結合し、共同オーケストレーションが必要になる
+- 提案手法により推論遅延が大幅に低減し、通信コストもフラットな連合学習に比べて劇的に削減
 
-これはすごく興味深い論文ね！ランダムウォークプロトコルがエピデミックよりも効率的に機能するなんて、高校のネットワーク授業でもちょっと触れてみたいかも。
+HFLのオーケストレーションが上手くいくと、推論の速度がすごく向上するみたい！移動体や交通関係での継続学習に使えたら、未来の交通システムがもっと賢くなりそうでワクワクするね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, cs.DC, cs.LG, **投稿日時:** 2024-07-20 10:45
+**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2024-07-23 21:01
 
 - - -
 
-### [A Survey on Differential Privacy for SpatioTemporal Data in Transportation Research](http://arxiv.org/abs/2407.15868)
+### [Theoretical Analysis of Privacy Leakage in Trustworthy Federated Learning: A Perspective from Linear Algebra and Optimization Theory](http://arxiv.org/abs/2407.16735)
 
-**交通研究における時空間データの差分プライバシーに関する調査**
+**信頼できる連合学習におけるプライバシー漏洩の理論的分析: 線形代数と最適化理論の視点から**
 
-Rahul Bhadani
+Xiaojin Zhang, Wei Chen
 
-- 低コストの計算デバイスと向上したセンサ技術でデータ量が急増
-- 時空間データは位置情報を含むため、公開にはリスクが大きい
-- 研究と推論のため、プライバシーを保護する差分プライバシー技術が提案されている
-- 差分プライバシーの実装と広範な採用に関する課題を議論
+- 連合学習はプライバシーを守りながらの共同モデル訓練が可能だが、データ再構成攻撃などの脅威に対して脆弱
+- 線形代数の視点では、バッチデータのヤコビ行列がフルランクでない場合、同じモデル更新を生成する複数のデータバッチが存在し、ある程度のプライバシーが保証されることを証明
+- 特定バッチサイズによりデータ再構成攻撃を防ぐための十分条件を導出
+- 最適化理論の視点から、バッチサイズや歪みの程度などに基づくプライバシー漏洩の上限を設定し、連合学習の様々な要素とプライバシー漏洩の関係についての洞察を提供
 
-差分プライバシーを交通研究に応用するアイデアが面白いね。これが進むと、もっと安心してデータが使える未来が来るかも！
+連合学習がこれからもっと普及したら、こんな風にプライバシーが守られる仕組みって本当に重要になるよね。研究が進んでいく中で、より安全な学習方法が増えるのはすごく楽しみ。
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.CY, cs.LG, stat.ME, stat.ML, **投稿日時:** 2024-07-18 03:19
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, cs.LG, stat.ML, **投稿日時:** 2024-07-23 16:23
+
+- - -
+
+### [PateGail: A Privacy-Preserving Mobility Trajectory Generator with Imitation Learning](http://arxiv.org/abs/2407.16729)
+
+**PateGail: 模倣学習を用いたプライバシー保護型の移動軌跡生成器**
+
+Huandong Wang, Changzheng Gao, Yuchen Wu, Depeng Jin, Lina Yao, Yong Li
+
+- プライバシー懸念により大規模な軌跡データ不足を解決するための移動軌跡生成が課題
+- PateGailを提案し、生成的逆模倣学習モデルを用いて人間の意思決定プロセスをシミュレート
+- ユーザーデバイスに保存された分散データでモデルをトレーニングし、個別の判別器を使用
+- 結果と報酬のみ共有し、差分プライバシーを満たす摂動メカニズムを理論的に証明
+
+これすごいね！プライバシーに配慮しつつリアルな移動データ生成するなんて、未来感満載だよね。みんなの移動パターンを守りながら学習できるなんて、日常生活の予測とかにも役立ちそう！
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-07-23 14:59

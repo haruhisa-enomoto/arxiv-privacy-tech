@@ -1,5 +1,156 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.17438",
+    "title": "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation",
+    "japanese_title": "HumanVid: カメラ制御可能なヒューマンイメージアニメーションのためのトレーニングデータの解明",
+    "authors": [
+      "Zhenzhi Wang",
+      "Yixuan Li",
+      "Yanhong Zeng",
+      "Youqing Fang",
+      "Yuwei Guo",
+      "Wenran Liu",
+      "Jing Tan",
+      "Kai Chen",
+      "Tianfan Xue",
+      "Bo Dai",
+      "Dahua Lin"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "camera controllable human image animation, a dataset and a baseline",
+    "summary": "- ヒューマンイメージアニメーションは、キャラクターの写真からビデオを生成し、ユーザーがコントロール可能にする\n- 最新の手法は高品質なデータセットを使用するが、データセットの入手が難しく、フェアな評価が難しい\n- HumanVidは、手作りの実データと合成データを組み合わせた、高品質な大規模データセットを提供\n- 実データでは著作権フリーのビデオから選び、合成データでは3Dアバターを用いて多様なカメラモーションを生成\n\nカメラの動きまで考慮したアニメーションデータとか面白そう！これで映画制作とかもっと自由に作れそうだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-24T17:15:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.17276",
+    "title": "Bridging Trust into the Blockchain: A Systematic Review on On-Chain Identity",
+    "japanese_title": "ブロックチェーンに信頼を橋渡し: オンチェーンアイデンティティに関する系統的レビュー",
+    "authors": [
+      "Awid Vaziry",
+      "Kaustabh Barman",
+      "Patrick Herbke"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- ユーザー識別はブロックチェーンベースのサービス規制に必要\n- 主要な技術はゼロ知識証明、公的鍵基盤、信頼の網を含む\n- オンチェーンアイデンティティの信頼性に関する研究ギャップを特定\n- 未来の研究方向には、デジタルアイデンティティとアイデンティティ提供者の信頼性向上が含まれる\n\nブロックチェーンの上でアイデンティティをどう信頼するかってすごく大事な問題だよね。それが解決できたら、もっと安心して使えるようになるし未来が広がりそう！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-07-24T13:42:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.17228",
+    "title": "A Hybrid Federated Kernel Regularized Least Squares Algorithm",
+    "japanese_title": "ハイブリッド連合カーネル正則化最小二乗アルゴリズム",
+    "authors": [
+      "Celeste Damiani",
+      "Yulia Rodina",
+      "Sergio Decherchi"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はプライバシー保護の重要な場面で有用な戦略\n- 臨床データに加え、オミクス特徴も含まれるため、データは病院とオミクスセンターに分散\n- サンプルと特徴が分散したハイブリッド環境で効率的なカーネル正則化最小二乗アルゴリズムを提案\n- データセットで検証し、攻撃対策のセキュリティ措置も議論\n\nデータがいろんな場所に散らばってても効率的に学習できるってすごい！これからの医療で大活躍しそうだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-24T12:32:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.17127",
+    "title": "A quantitative probabilistic relational Hoare logic",
+    "japanese_title": "定量的確率的関係ホーア論理",
+    "authors": [
+      "Martin Avanzini",
+      "Gilles Barthe",
+      "Davide Davoli",
+      "Benjamin Grégoire"
+    ],
+    "categories": [
+      "cs.LO"
+    ],
+    "comment": "",
+    "summary": "- eRHLは確率的プログラムの関係期待特性を推論するプログラム論理である\n- 定量的主張により、従来のランダム性整列制限を克服する\n- eRHLはプログラムの等価性、統計的距離、差分プライバシーに対して健全かつ完全である\n- PRHL及びapRHLで扱えない例をeRHLで実証する\n\n新しいプログラム論理で複雑なセキュリティ問題に挑戦するんだね！これが実際に役立つことを示す具体的な例もあるなんて、すごく楽しみ！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-24T09:58:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.16935",
+    "title": "Federated Automatic Latent Variable Selection in Multi-output Gaussian Processes",
+    "japanese_title": "連合学習による多出力ガウス過程における自動潜在変数選択",
+    "authors": [
+      "Jingyi Gao",
+      "Seokhyun Chung"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習を用いて多出力ガウス過程の潜在プロセス数を自動選択\n- 中央サーバへのデータ集中によるプライバシーリスクと計算負荷を回避\n- スパイク・スラブ事前分布で必要な潜在プロセスのみを自動選択\n- リチウムイオン電池劣化や気温データのシミュレーションで有効性を確認\n\n最初に読んだとき、連合学習でプライバシーを守りつつ効率よく推論する部分が気になったよ！応用範囲も広そうだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-24T02:03:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.16929",
+    "title": "Synthetic Data, Similarity-based Privacy Metrics, and Regulatory (Non-)Compliance",
+    "japanese_title": "合成データ、類似性に基づくプライバシーメトリクス、および規制の（非）遵守",
+    "authors": [
+      "Georgi Ganev"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "comment": "Accepted to the 2nd Workshop on Generative AI and Law (GenLaw 2023),   part of ICML 2024",
+    "summary": "- 類似性に基づくプライバシーメトリクスは、規制の遵守を確保できない\n- 分析と反例を通じて、特定とリンク可能性に対する保護が不足していると示した\n- メトリクスは、動機のある侵入者テストを完全に無視するなどの根本的な問題がある\n- 他にもいくつかの重要な問題が存在し、それらが合成データの規制遵守を阻害する\n\n類似性って便利な感じするけど、システムの抜け穴になっちゃうんだね。規制ってやっぱり大切だね～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-24T01:45:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.16836",
+    "title": "Inference Load-Aware Orchestration for Hierarchical Federated Learning",
+    "japanese_title": "推論負荷に対応した階層型連合学習のオーケストレーション",
+    "authors": [
+      "Anna Lackinger",
+      "Pantelis A. Frangoudis",
+      "Ivan Čilić",
+      "Alireza Furutanpey",
+      "Ilir Murturi",
+      "Ivana Podnar Žarko",
+      "Schahram Dustdar"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 階層型連合学習(HFL)は通信コスト削減とサーバ負荷分散のため、中間集約ノードを導入\n- モデルレプリカがクライアント端末、中間ノード、グローバルサーバに分散配置される\n- トレーニングと推論のプロセスが結合し、共同オーケストレーションが必要になる\n- 提案手法により推論遅延が大幅に低減し、通信コストもフラットな連合学習に比べて劇的に削減\n\nHFLのオーケストレーションが上手くいくと、推論の速度がすごく向上するみたい！移動体や交通関係での継続学習に使えたら、未来の交通システムがもっと賢くなりそうでワクワクするね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-23T21:01:12+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.16694",
     "title": "Aster: Fixing the Android TEE Ecosystem with Arm CCA",
     "japanese_title": "Aster: Arm CCAでAndroid TEEエコシステムを修正する方法",
@@ -80,6 +231,27 @@
     "published": "2024-07-23T16:49:01+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2407.16735",
+    "title": "Theoretical Analysis of Privacy Leakage in Trustworthy Federated Learning: A Perspective from Linear Algebra and Optimization Theory",
+    "japanese_title": "信頼できる連合学習におけるプライバシー漏洩の理論的分析: 線形代数と最適化理論の視点から",
+    "authors": [
+      "Xiaojin Zhang",
+      "Wei Chen"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はプライバシーを守りながらの共同モデル訓練が可能だが、データ再構成攻撃などの脅威に対して脆弱\n- 線形代数の視点では、バッチデータのヤコビ行列がフルランクでない場合、同じモデル更新を生成する複数のデータバッチが存在し、ある程度のプライバシーが保証されることを証明\n- 特定バッチサイズによりデータ再構成攻撃を防ぐための十分条件を導出\n- 最適化理論の視点から、バッチサイズや歪みの程度などに基づくプライバシー漏洩の上限を設定し、連合学習の様々な要素とプライバシー漏洩の関係についての洞察を提供\n\n連合学習がこれからもっと普及したら、こんな風にプライバシーが守られる仕組みって本当に重要になるよね。研究が進んでいく中で、より安全な学習方法が増えるのはすごく楽しみ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-23T16:23:38+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.16594",
     "title": "GenRec: A Flexible Data Generator for Recommendations",
     "japanese_title": "GenRec: 推薦システム用の柔軟なデータ生成器",
@@ -122,6 +294,29 @@
       "連合学習"
     ],
     "published": "2024-07-23T15:14:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.16729",
+    "title": "PateGail: A Privacy-Preserving Mobility Trajectory Generator with Imitation Learning",
+    "japanese_title": "PateGail: 模倣学習を用いたプライバシー保護型の移動軌跡生成器",
+    "authors": [
+      "Huandong Wang",
+      "Changzheng Gao",
+      "Yuchen Wu",
+      "Depeng Jin",
+      "Lina Yao",
+      "Yong Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- プライバシー懸念により大規模な軌跡データ不足を解決するための移動軌跡生成が課題\n- PateGailを提案し、生成的逆模倣学習モデルを用いて人間の意思決定プロセスをシミュレート\n- ユーザーデバイスに保存された分散データでモデルをトレーニングし、個別の判別器を使用\n- 結果と報酬のみ共有し、差分プライバシーを満たす摂動メカニズムを理論的に証明\n\nこれすごいね！プライバシーに配慮しつつリアルな移動データ生成するなんて、未来感満載だよね。みんなの移動パターンを守りながら学習できるなんて、日常生活の予測とかにも役立ちそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-23T14:59:23+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2407.16473",

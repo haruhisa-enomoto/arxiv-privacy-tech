@@ -1,5 +1,306 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.18789",
+    "title": "Granularity is crucial when applying differential privacy to text: An investigation for neural machine translation",
+    "japanese_title": "差分プライバシーをテキストに適用する際の粒度の重要性: ニューラル機械翻訳に関する調査",
+    "authors": [
+      "Doan Nam Long Vu",
+      "Timour Igamberdiev",
+      "Ivan Habernal"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシー（DP）をNLPで用いる際に粒度の選択が重要である\n- 現実世界のNMTデータセットでは、対話などの文が独立していない場合が多い\n- DP適用の粒度を文レベルからドキュメントレベルに変更する必要がある\n- ドキュメントレベルのNMTシステムは、メンバーシップ推定攻撃に対してより耐性がある\n\n粒度とか意外と侮れないんだね！ドキュメントレベルにするだけでこんなにプライバシーが強化されるなんて面白い！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-26T14:52:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18772",
+    "title": "Learning production functions for supply chains with graph neural networks",
+    "japanese_title": "グラフニューラルネットワークを用いたサプライチェーンの生産関数の学習",
+    "authors": [
+      "Serina Chang",
+      "Zhiyin Lin",
+      "Benjamin Yan",
+      "Swapnil Bembde",
+      "Qi Xiu",
+      "Chi Heem Wong",
+      "Yu Qin",
+      "Frank Kloster",
+      "Alex Luo",
+      "Raj Palleti",
+      "Jure Leskovec"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CY",
+      "cs.SI"
+    ],
+    "comment": "",
+    "summary": "- 企業と取引をノードとエッジで表したサプライチェーンの生産関数を推測することが重要\n- 現行のグラフニューラルネットワーク(GNN)はノード間の隠れた関係を捉えられない課題がある\n- 新しい時系列GNNと在庫モジュールを組み合わせたモデルを提案、生産関数を学習\n- 実データと新たなシミュレータSupplySimで評価した結果、基準より6-50%改善し、予測精度も11-62%向上\n\nサプライチェーンの複雑な関係を解き明かす新しい方法ってすごいよね。未来の物流がもっと効率的になりそうだから、上手くいったらすごく良いことになりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-26T14:32:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18750",
+    "title": "FLUE: Federated Learning with Un-Encrypted model weights",
+    "japanese_title": "FLUE: 暗号化されていないモデル重みを用いた連合学習",
+    "authors": [
+      "Elie Atallah"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデバイス間でデータをローカルに保ちながらモデルを共有し訓練する\n- 差分プライバシーでも勾配の逆解析によるデータ漏洩の懸念がある\n- 提案手法は暗号化なしでコード化された代理パラメータを交換し、過剰なノイズを注入\n- 2つの変種アルゴリズムが提案され、コーディングとデータ特性に適応した収束率を示す\n\nノイズを使ってデータを守りながら学習できるのは新しいね。暗号化が不要だから計算も軽くなりそうだし、色々な連合学習への応用が期待できるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-26T14:04:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18743",
+    "title": "Towards Effective and Efficient Continual Pre-training of Large Language Models",
+    "japanese_title": "効果的かつ効率的な継続的プレトレーニングによる大規模言語モデルの改良",
+    "authors": [
+      "Jie Chen",
+      "Zhipeng Chen",
+      "Jiapeng Wang",
+      "Kun Zhou",
+      "Yutao Zhu",
+      "Jinhao Jiang",
+      "Yingqian Min",
+      "Wayne Xin Zhao",
+      "Zhicheng Dou",
+      "Jiaxin Mao",
+      "Yankai Lin",
+      "Ruihua Song",
+      "Jun Xu",
+      "Xu Chen",
+      "Rui Yan",
+      "Zhewei Wei",
+      "Di Hu",
+      "Wenbing Huang",
+      "Ji-Rong Wen"
+    ],
+    "categories": [
+      "cs.CL",
+      "68T50",
+      "I.2.7"
+    ],
+    "comment": "16 pages, 10 figures, 16 tables",
+    "summary": "- 継続的プレトレーニング（CPT）は、言語モデルを特定のドメインやタスクに適応させる重要な方法\n- CPTの過程で、中国語能力と科学的推論能力を大幅に向上させるため、特定のデータミキシングとカリキュラム戦略を設計\n- 学際的な科学的質問と回答ペアを合成し、これらの合成データを組み込んでLlama-3の科学的推論能力を強化\n- 広範な実験結果により、一般的な能力と科学的推論能力の両方でモデルのパフォーマンスが大幅に向上することが確認された\n\n大規模言語モデルがどんどん進化しているって感じだよね！特に合成データで科学的推論が向上するって、面白そうだし将来も期待大かも。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-26T13:55:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18503",
+    "title": "Homomorphic Encryption-Enabled Federated Learning for Privacy-Preserving Intrusion Detection in Resource-Constrained IoV Networks",
+    "japanese_title": "プライバシー保護型侵入検知のための準同型暗号対応連合学習フレームワーク：リソース制約のあるIoVネットワークで",
+    "authors": [
+      "Bui Duc Manh",
+      "Chi-Hieu Nguyen",
+      "Dinh Thai Hoang",
+      "Diep N. Nguyen"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- データプライバシーの課題を解決する新しいフレームワークを提案\n- ネットワーク車両が持つリソースの制約に対応、従来のFLの限界を克服\n- 準同型暗号を用いたセキュアなデータオフロードを実現\n- 暗号化されたデータに対して直接計算可能な訓練アルゴリズムを開発\n\nこれって未来の自動車ネットワークにすっごく役立ちそう！車のデータも安全に扱えるなんて、すごくクール♪",
+    "topics": [
+      "連合学習",
+      "準同型暗号"
+    ],
+    "published": "2024-07-26T04:19:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18500",
+    "title": "Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations",
+    "japanese_title": "イベント生成モデルの再考察: 暗黙的ニューラル表現によるイベントからビデオ再構築の自己教師あり学習",
+    "authors": [
+      "Zipeng Wang",
+      "Yunfan Lu",
+      "Lin Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- イベントデータから高時間分解能・動的範囲を維持して強度フレームを再構築することが重要\n- 以前の方法は合成データに基づく教師あり学習であり、解釈性が乏しく過適合のリスクがある\n- EvINRはラベルデータや光学フロー推定を不要にした新しい自己教師ありアプローチを提案する\n- 実験結果では、EvINRがMSEで38%向上し、最先端の教師あり学習方法に匹敵または上回る性能を示す\n\n自己教師あり学習でここまで精度が上がるなんてすごい！これがもっと広がると、イベントベースのビデオ解析ももっと身近になりそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-26T04:18:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18472",
+    "title": "FedUD: Exploiting Unaligned Data for Cross-Platform Federated Click-Through Rate Prediction",
+    "japanese_title": "FedUD: クロスプラットフォーム連合クリック率予測のための非整合データの利用",
+    "authors": [
+      "Wentao Ouyang",
+      "Rui Dong",
+      "Ri Tao",
+      "Xiangzheng Liu"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 広告プラットフォームでのクリック率（CTR）予測は重要であり、多くの現在の方法は自身のデータのみを使用する\n- 他のプラットフォームのユーザー行動データも活用できれば、ユーザーの興味をより良くモデル化しCTR予測精度を向上できる\n- プライバシーの問題から、異なるプラットフォーム間のデータを中央サーバーで集中モデル学習することはできない\n- 提案手法FedUDは、非整合データを含む全てのデータを活用し、従来の縦型連合学習では使用できなかった非整合データをもCTR予測に貢献させる\n\nこの研究、めちゃくちゃ興味深い内容だね！特に、データのプライバシーを守りつつも複数のプラットフォームからデータを活用する方法って未来っぽくてすごくいい感じ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-26T02:48:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18467",
+    "title": "Machine Unlearning using a Multi-GAN based Model",
+    "japanese_title": "マルチGANモデルを用いた機械学習のアンラーニング",
+    "authors": [
+      "Amartya Hatua",
+      "Trung T. Nguyen",
+      "Andrew H. Sung"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- GANモデルを用いたデータ再編成と事前学習モデルの微調整を含む2つのフェーズからなる\n- GANの生成器と識別器のペアを使用し、保持と忘却データセットの合成データを生成\n- 合成データと元のデータのクラスラベルを反転し、すべてのデータセットを用いて事前学習モデルを微調整\n- CIFAR-10データセットを用いて実験を行い、合成データとMIAテストでモデルの優越性を証明\n\n新しいアンラーニング方法ってすごく魅力的！GANモデルの使い方には未来の可能性を感じるね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-26T02:28:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18421",
+    "title": "Self-Directed Synthetic Dialogues and Revisions Technical Report",
+    "japanese_title": "自己指導による合成対話と修正の技術レポート",
+    "authors": [
+      "Nathan Lambert",
+      "Hailey Schoelkopf",
+      "Aaron Gokaslan",
+      "Luca Soldaini",
+      "Valentina Pyatkin",
+      "Louis Castricato"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "25 pages, 3 figures, 4 tables",
+    "summary": "- 合成データは、言語モデルの指示に従う能力を向上させる重要なツールである\n- 多くの公開データは、多回ターンデータや閉じたモデルで収集され、進展が制限されている\n- Self-Directed Synthetic Dialogues (SDSD)は、モデルが自身と対話する実験的データセットを導入\n- この研究は、Constitutional AIの原則を活用し、最終対話ターンを修正して合成嗜好データを作成\n\n言語モデル同士が自分とおしゃべりするデータ集めるなんて、ちょっと未来っぽくてワクワクするよね！これがもっと広がったら、AIが自分で学習しちゃうかも！？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-25T22:42:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18387",
+    "title": "SCALE: Self-regulated Clustered federAted LEarning in a Homogeneous Environment",
+    "japanese_title": "同質環境における自己調整クラスタ連合学習 (SCALE)",
+    "authors": [
+      "Sai Puppala",
+      "Ismail Hossain",
+      "Md Jahangir Alam",
+      "Sajedul Talukder",
+      "Zahidur Talukder",
+      "Syed Bahauddin"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI",
+      "cs.ET",
+      "cs.LG",
+      "cs.PF"
+    ],
+    "comment": "This research article got accepted in COMPSAC conference and going to   be published to IEEE",
+    "summary": "- 連合学習には通信の非効率性や中央インフラへの依存が課題である\n- 新手法はエッジサーバーへの依存を排除しデータの類似性などに基づいて動的にクラスタを形成\n- ハイブリッド分散集約プロトコルで局所モデル訓練とピアツーピアの重み交換を行い通信オーバーヘッドを削減\n- 乳癌データセットで検証しながら、訓練遅延やエネルギー消費を減少させつつ通信オーバーヘッドを10分の1に削減\n\nこの研究は、効率面とプライバシー面で大きく進化しそうだね！将来的に連合学習の標準になりそうな予感がする！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-25T20:42:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18365",
+    "title": "FADAS: Towards Federated Adaptive Asynchronous Optimization",
+    "japanese_title": "FADAS：連合適応非同期最適化に向けて",
+    "authors": [
+      "Yujia Wang",
+      "Shiqiang Wang",
+      "Songtao Lu",
+      "Jinghui Chen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "math.OC"
+    ],
+    "comment": "Accepted by ICML 2024",
+    "summary": "- 連合学習は、プライバシーを保護した機械学習のための広く採用されているトレーニング手法\n- 従来の同期集約設計は、大規模モデルの適応的連合最適化の実装における課題\n- FADASという非同期更新を取り入れた新しい適応的連合最適化手法を提案\n- 提案手法の収束速度を理論的に確立し、他の非同期連合学習ベースラインよりも優れた性能を実証\n\n非同期更新の導入や遅延調整が、実際の使用にどんな効果をもたらすのか楽しみだな。その最先端な技術、ぜひ使ってみたいね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-25T20:02:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18358",
+    "title": "Generative AI like ChatGPT in Blockchain Federated Learning: use cases, opportunities and future",
+    "japanese_title": "ブロックチェーン連合学習におけるChatGPTのような生成的AI：ユースケース、機会、未来",
+    "authors": [
+      "Sai Puppala",
+      "Ismail Hossain",
+      "Md Jahangir Alam",
+      "Sajedul Talukder",
+      "Jannatul Ferdaus",
+      "Mahedi Hasan",
+      "Sameera Pisupati",
+      "Shanmukh Mathukumilli"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "We are going to submit this research article into a conference which   is best fit for this topic",
+    "summary": "- 連合学習はデータを共有せずに分散データで機械学習モデルをトレーニングするアプローチ\n- 生成的AIの組み込みにより、プライバシー保護やデータ拡充、モデルのカスタマイズが可能\n- 生成的AIは生成的敵対ネットワーク（GAN）や変分オートエンコーダ（VAE）を用い、合成データを生成\n- 合成データはデータ不足問題に対処し、頑健なモデル開発を助ける\n\n連合学習と生成的AIの組み合わせ、すごく革新的だね！これでプライバシーを守りつつ、もっと個別化されたモデルが作れそうでわくわくする！",
+    "topics": [
+      "連合学習",
+      "合成データ"
+    ],
+    "published": "2024-07-25T19:43:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18353",
+    "title": "Privacy-Preserving Model-Distributed Inference at the Edge",
+    "japanese_title": "プライバシー保護型エッジにおけるモデル分散推論",
+    "authors": [
+      "Fatemeh Jafarian Dehkordi",
+      "Yasaman Keshtkarjahromi",
+      "Hulya Seferoglu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- クライアントデータを用いたML推論のため、プライバシーを保つプロトコルを設計\n- エッジサーバーでモデル分散推論を行い、通信量を削減\n- 加法的秘密分散や線形準同型暗号を用いて線形計算処理\n- Garbled Circuitと新しい三者間の秘密保持転送を使い非線形関数を处理\n\nエッジサーバーでのモデル分散推論とかすごく興味津々！通信量削減で効率アップが期待できるんだね、この技術革命が未来のプライバシー保護をどれだけ進めるか楽しみ！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-07-25T19:39:03+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.18245",
     "title": "VGGHeads: A Large-Scale Synthetic Dataset for 3D Human Heads",
     "japanese_title": "VGGHeads: 大規模な3D人間の頭部用合成データセット",
@@ -682,6 +983,32 @@
       "連合学習"
     ],
     "published": "2024-07-23T11:35:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.18274",
+    "title": "Adaptive Differentially Private Structural Entropy Minimization for Unsupervised Social Event Detection",
+    "japanese_title": "適応型差分プライバシー構造エントロピー最小化による教師なしソーシャルイベント検出",
+    "authors": [
+      "Zhiwei Yang",
+      "Yuecen Wei",
+      "Haoran Li",
+      "Qian Li",
+      "Lei Jiang",
+      "Li Sun",
+      "Xiaoyan Yu",
+      "Chunming Hu",
+      "Hao Peng"
+    ],
+    "categories": [
+      "cs.SI",
+      "cs.AI"
+    ],
+    "comment": "Accepted to ACM CIKM 2024",
+    "summary": "- ソーシャルイベント検出は、ソーシャルメディアデータストリームから特定のイベントを表現する関連メッセージクラスターを抽出する\n- 現在の大部分の手法は教師ありで、大量のデータと事前知識を必要とし、敏感情報の漏洩リスクが高い\n- ADP-SEMEventという新しいフレームワークを提案し、適応型差分プライバシーを用いた教師なしのソーシャルイベント検出を実現\n- 実験では、2つの公開データセットを用いて、最先端の方法と同等の検出性能を維持しつつ、合理的なプライバシー予算パラメータを維持することを確認\n\nソーシャルメディアのデータをリアルタイムで監視してプライバシーも守るなんて、未来感バツグン！データのプライバシーと有用性を両立するアプローチ、絶対注目されそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-07-23T11:19:22+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2407.16337",

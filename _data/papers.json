@@ -1,5 +1,181 @@
 [
   {
+    "url": "http://arxiv.org/abs/2407.21016",
+    "title": "Add-SD: Rational Generation without Manual Reference",
+    "japanese_title": "Add-SD: 手動参照なしの合理的生成",
+    "authors": [
+      "Lingfeng Yang",
+      "Xinyu Zhang",
+      "Xiang Li",
+      "Jinwen Chen",
+      "Kun Yao",
+      "Gang Zhang",
+      "Errui Ding",
+      "Lingqiao Liu",
+      "Jingdong Wang",
+      "Jian Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- Add-SDはテキストプロンプトのみを条件にオブジェクトを現実的なシーンに挿入\n- RemovalDatasetという、削除されたオブジェクトの画像ペアを含むデータセットを提案\n- 安定拡散モデルをファインチューニングし、合理的な生成を実現\n- LVIS valデータセット実験でレアクラスに対して4.3 mAPの改善を確認\n\nシーンに必要な物を合理的に追加できるなんて未来的でワクワクしちゃう！様々な応用が期待できそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-30T17:58:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20830",
+    "title": "Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing",
+    "japanese_title": "連合知識リサイクル：プライバシー保護型合成データ共有",
+    "authors": [
+      "Eugenio Lomurno",
+      "Matteo Matteucci"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 現在の連合学習技術はモデルやパラメータの露出による脆弱性が存在\n- FedKRは合成データを使用し、機関間の協力を促進\n- 高度なデータ生成技術と動的な集約プロセスを組み合わせ、プライバシー攻撃に対するセキュリティを強化\n- 実験結果では、FedKRが競争力のあるパフォーマンスを達成し、データ不足のシナリオで特に効果的\n\nFedKRの適用範囲が広くて、どんなデータでも活用できそう！セキュリティ面でも安心だし、まさに未来の技術って感じだよね！",
+    "topics": [
+      "連合学習",
+      "合成データ"
+    ],
+    "published": "2024-07-30T13:56:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20765",
+    "title": "Integrating audiological datasets via federated merging of Auditory Profiles",
+    "japanese_title": "聴覚プロファイルの連合的統合による聴覚データセットの統合",
+    "authors": [
+      "Samira Saak",
+      "Dirk Oetting",
+      "Birger Kollmeier",
+      "Mareike Buhl"
+    ],
+    "categories": [
+      "physics.med-ph",
+      "cs.SD",
+      "eess.AS",
+      "physics.data-an"
+    ],
+    "comment": "",
+    "summary": "- 聴覚データセットは、患者の聴覚損失に関する貴重な知識を含む\n- 複数のデータセットを統合し、類似性に基づいて聴覚プロファイル（AP）を統合\n- ランダムフォレストモデルを作成し、さまざまな聴覚測定の組み合わせを評価\n- 統合APセットは詳細な患者情報を保持しつつ、良好な分類性能を達成\n\n似たようなデータを色々なデータセットから統合して、もっと詳細な聴覚プロファイルを作るなんてすごいね！これからはどのデバイスからでも患者の状態が分かるようになるかもしれないね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-30T12:08:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20756",
+    "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models",
+    "japanese_title": "SynthVLM: ビジョン言語モデルのための高効率・高品質な合成データ",
+    "authors": [
+      "Zheng Liu",
+      "Hao Liang",
+      "Wentao Xiong",
+      "Qinhan Yu",
+      "Conghui He",
+      "Bin Cui",
+      "Wentao Zhang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- ウェブ画像の増加に伴い、大規模な画像データセットの管理と理解が重要\n- SynthVLMは、高解像度の画像とキャプションのペアを生成し、高品質なアラインメントを実現\n- 従来のGPT-4 Visionベースの生成方法と比較し、性能が向上し計算負荷が大幅に削減\n- 純粋な生成データを利用することでプライバシーを保護し、100kデータポイントでSoTA性能を達成\n\nビジョン言語モデルって難しそうだけど、これなら効率よく高性能が狙えるんだね！プライバシーも守れてるのがすごい安心感だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-30T11:57:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20728",
+    "title": "Neural Fields for Continuous Periodic Motion Estimation in 4D Cardiovascular Imaging",
+    "japanese_title": "4D心血管イメージングにおける連続的な周期運動推定のためのニューラルフィールド",
+    "authors": [
+      "Simone Garzia",
+      "Patryk Rygiel",
+      "Sven Dummer",
+      "Filippo Cademartiri",
+      "Simona Celi",
+      "Jelmer M. Wolterink"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "10 pages, 5 figures, STACOM 2024",
+    "summary": "- 現在の4DフローMRI分析法は静的な動脈壁を使用しているが、完全なサイクルのセグメンテーションが困難であるため\n- 提案したニューラルフィールドベースの方法により、心臓サイクル全体で連続的な周期壁変形を直接推定できる\n- 3D+時間撮影データセットに対して、時間依存の速度ベクトル場（VVF）を表現した暗黙のニューラル表現（INR）を最適化\n- 提案手法の効果は、異なる周期パターンを持つ合成データ、ECG連動CT、および4DフローMRIデータで実証した\n\nこれすごくない？心臓の動きも正確に捉えられそうで、医療診断がもっと進化しそうだよね！4Dイメージングの時代が来たって感じ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-30T10:50:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20573",
+    "title": "Federated Learning as a Service for Hierarchical Edge Networks with Heterogeneous Models",
+    "japanese_title": "異種モデルを持つ階層型エッジネットワーク向け連合学習サービス",
+    "authors": [
+      "Wentao Gao",
+      "Omid Tavallaie",
+      "Shuaijun Chen",
+      "Albert Zomaya"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習(FL)とは、ユーザーの元データを共有せずにローカルでトレーニングされたモデルを集約する分散型機械学習フレームワークである\n- FLaaSは異なる計算資源を持つデバイス上でプライバシーを保護しながら機械学習モデルをトレーニングできる\n- 現在のFLは全クライアントデバイスに同じモデルをトレーニングさせるが、計算資源に差があるため効果が限定される\n- 提案されているHAF-EdgeはIoT、エッジ、クラウド環境にまたがる階層型FLシステムで異種モデルの集約問題を解決し、高い性能を示す\n\n階層型FLシステムで異なる計算力を持つデバイスにも対応できるなんて、すごく実用的だね！エッジとクラウドで効率的にデータを集約する工夫がされてるところが面白そう♪",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-30T06:04:43+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20557",
+    "title": "CELLM: An Efficient Communication in Large Language Models Training for Federated Learning",
+    "japanese_title": "CELLM: 連合学習における大規模言語モデル訓練の効率的な通信",
+    "authors": [
+      "Raja Vavekanand",
+      "Kira Sam"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "22 pages, 10 figures",
+    "summary": "- 連合学習はデータを集約せずにモデルを訓練し、プライバシーとセキュリティの利点を提供する\n- 大規模言語モデルは、ノイズの多いデータから学習することで統計的不均一性を解決する可能性がある\n- LoRAを用いて局所的なモデル訓練の計算負荷を低減し、スパースアップデートで通信コストを低減\n- 提案手法は通信コストを10倍、複雑なベースラインと比べて5倍削減しつつ高い有用性を達成\n\n大規模言語モデルの訓練を効率化する方法ってめっちゃ気になる！連合学習の課題をうまく克服できたら、さらにプライバシー保護が進みそうね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-07-30T05:24:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.20506",
+    "title": "Boosting Efficiency in Task-Agnostic Exploration through Causal Knowledge",
+    "japanese_title": "因果知識を活用したタスク非依存探索の効率向上",
+    "authors": [
+      "Yupei Yang",
+      "Biwei Huang",
+      "Shikui Tu",
+      "Lei Xu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "This paper was accepted by IJCAI'24",
+    "summary": "- 予算制約がデータ収集に制限を課し、モデル訓練の効果に影響\n- 因果知識を利用した探索戦略「因果探索」を提案\n- タスク非依存強化学習の学習効率と信頼性を向上\n- 実験結果により、因果探索がデータを少なくしても正確な世界モデルを学習可能と実証\n\n因果知識を活用して少ないデータでモデルを訓練する工夫がめっちゃ面白そう！理論と実践の両方で有効性が証明されてるのも期待度高いね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-07-30T02:51:21+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2407.20100",
     "title": "F-KANs: Federated Kolmogorov-Arnold Networks",
     "japanese_title": "F-KANs：連合コルモゴロフ・アーノルド・ネットワーク",

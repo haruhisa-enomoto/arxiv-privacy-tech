@@ -27,156 +27,213 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-07-31T04:16:21.155267
+更新: 2024-08-01T04:20:01.578069
 
 - - -
 
-### [Add-SD: Rational Generation without Manual Reference](http://arxiv.org/abs/2407.21016)
+### [ShieldGemma: Generative AI Content Moderation Based on Gemma](http://arxiv.org/abs/2407.21772)
 
-**Add-SD: 手動参照なしの合理的生成**
+**ShieldGemma: Generative AIによるGemmaベースのコンテンツモデレーション**
 
-Lingfeng Yang, Xinyu Zhang, Xiang Li, Jinwen Chen, Kun Yao, Gang Zhang, Errui Ding, Lingqiao Liu, Jingdong Wang, Jian Yang
+Wenjun Zeng, Yuchi Liu, Ryan Mullins, Ludovic Peran, Joe Fernandez, Hamza Harkous, Karthik Narasimhan, Drew Proud, Piyush Kumar, Bhaktipriya Radharapu, Olivia Sturman, Oscar Wahltinez
 
-- Add-SDはテキストプロンプトのみを条件にオブジェクトを現実的なシーンに挿入
-- RemovalDatasetという、削除されたオブジェクトの画像ペアを含むデータセットを提案
-- 安定拡散モデルをファインチューニングし、合理的な生成を実現
-- LVIS valデータセット実験でレアクラスに対して4.3 mAPの改善を確認
+- Gemma2を利用したLLMベースの安全コンテンツモデレーションモデルを紹介
+- 性的、危険な内容、嫌がらせ、ヘイトスピーチなどの主要な危険タイプに対応
+- 公共および内部ベンチマークで既存モデルより優れた性能を発揮（+10.8% AU-PRC）
+- 合成データを用いたモデルで高い汎化性能を実証
 
-シーンに必要な物を合理的に追加できるなんて未来的でワクワクしちゃう！様々な応用が期待できそうだね。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-07-30 17:58
-
-- - -
-
-### [Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing](http://arxiv.org/abs/2407.20830)
-
-**連合知識リサイクル：プライバシー保護型合成データ共有**
-
-Eugenio Lomurno, Matteo Matteucci
-
-- 現在の連合学習技術はモデルやパラメータの露出による脆弱性が存在
-- FedKRは合成データを使用し、機関間の協力を促進
-- 高度なデータ生成技術と動的な集約プロセスを組み合わせ、プライバシー攻撃に対するセキュリティを強化
-- 実験結果では、FedKRが競争力のあるパフォーマンスを達成し、データ不足のシナリオで特に効果的
-
-FedKRの適用範囲が広くて、どんなデータでも活用できそう！セキュリティ面でも安心だし、まさに未来の技術って感じだよね！
+新しい技術で、コンテンツモデレーションがより正確になりそう！安全なオンライン空間が増えるといいな。
 
 
 
-**トピック:** [連合学習](fl), [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.CV, **投稿日時:** 2024-07-30 13:56
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.LG, **投稿日時:** 2024-07-31 17:48
 
 - - -
 
-### [Integrating audiological datasets via federated merging of Auditory Profiles](http://arxiv.org/abs/2407.20765)
+### [A Federated Learning-Friendly Approach for Parameter-Efficient Fine-Tuning of SAM in 3D Segmentation](http://arxiv.org/abs/2407.21739)
 
-**聴覚プロファイルの連合的統合による聴覚データセットの統合**
+**パラメータ効率的なSAMの3Dセグメンテーション向け連合学習フレンドリーアプローチ**
 
-Samira Saak, Dirk Oetting, Birger Kollmeier, Mareike Buhl
+Mothilal Asokan, Joseph Geo Benjamin, Mohammad Yaqub, Karthik Nandakumar
 
-- 聴覚データセットは、患者の聴覚損失に関する貴重な知識を含む
-- 複数のデータセットを統合し、類似性に基づいて聴覚プロファイル（AP）を統合
-- ランダムフォレストモデルを作成し、さまざまな聴覚測定の組み合わせを評価
-- 統合APセットは詳細な患者情報を保持しつつ、良好な分類性能を達成
+- 自然データと医療データ間の分布シフトのため、基礎モデルのファインチューニングに多量の医療データが必要
+- プライバシーの懸念があるため、特定タスク用の医療データを集中収集することが難しい
+- 連合学習(FL)とパラメータ効率的なファインチューニング(PEFT)を組み合わせ、通信コストを削減しながら効果的な学習を実現
+- Fed-KiTSデータセットで通信コスト約48倍削減、性能も約6%向上し、Fed-IXIおよびProstate MRIデータセットでも有効性を確認
 
-似たようなデータを色々なデータセットから統合して、もっと詳細な聴覚プロファイルを作るなんてすごいね！これからはどのデバイスからでも患者の状態が分かるようになるかもしれないね。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** physics.med-ph, cs.SD, eess.AS, physics.data-an, **投稿日時:** 2024-07-30 12:08
-
-- - -
-
-### [SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models](http://arxiv.org/abs/2407.20756)
-
-**SynthVLM: ビジョン言語モデルのための高効率・高品質な合成データ**
-
-Zheng Liu, Hao Liang, Wentao Xiong, Qinhan Yu, Conghui He, Bin Cui, Wentao Zhang
-
-- ウェブ画像の増加に伴い、大規模な画像データセットの管理と理解が重要
-- SynthVLMは、高解像度の画像とキャプションのペアを生成し、高品質なアラインメントを実現
-- 従来のGPT-4 Visionベースの生成方法と比較し、性能が向上し計算負荷が大幅に削減
-- 純粋な生成データを利用することでプライバシーを保護し、100kデータポイントでSoTA性能を達成
-
-ビジョン言語モデルって難しそうだけど、これなら効率よく高性能が狙えるんだね！プライバシーも守れてるのがすごい安心感だよね。
+これさ、医療データのプライバシー問題解決しつつ効率的に学習できるってめっちゃ良いね！連合学習の可能性が広がるし、3Dセグメンテーションの精度アップも期待できそう！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.CL, **投稿日時:** 2024-07-30 11:57
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.LG, eess.IV, **投稿日時:** 2024-07-31 16:48
 
 - - -
 
-### [Neural Fields for Continuous Periodic Motion Estimation in 4D Cardiovascular Imaging](http://arxiv.org/abs/2407.20728)
+### [Synthetic Simplicity: Unveiling Bias in Medical Data Augmentation](http://arxiv.org/abs/2407.21674)
 
-**4D心血管イメージングにおける連続的な周期運動推定のためのニューラルフィールド**
+**合成の簡潔性：医療データ補完におけるバイアスの解明**
 
-Simone Garzia, Patryk Rygiel, Sven Dummer, Filippo Cademartiri, Simona Celi, Jelmer M. Wolterink
+Krishan Agyakari Raja Babu, Rachana Sathish, Mrunal Pattanaik, Rahul Venkataramani
 
-- 現在の4DフローMRI分析法は静的な動脈壁を使用しているが、完全なサイクルのセグメンテーションが困難であるため
-- 提案したニューラルフィールドベースの方法により、心臓サイクル全体で連続的な周期壁変形を直接推定できる
-- 3D+時間撮影データセットに対して、時間依存の速度ベクトル場（VVF）を表現した暗黙のニューラル表現（INR）を最適化
-- 提案手法の効果は、異なる周期パターンを持つ合成データ、ECG連動CT、および4DフローMRIデータで実証した
+- 合成データが医療画像などのデータ不足分野で用いられるが、その統計的特性が下流タスクに影響
+- 実データと合成データの間の偽の相違を利用する「簡単さバイアス」が発生
+- 原因として、データソース（実データvs合成データ）に依存し、表面的な特徴に過度に依存する
+- デジタル分類と心臓エコー画像での数室ビュー分類の実験で、この脆弱性を実証
 
-これすごくない？心臓の動きも正確に捉えられそうで、医療診断がもっと進化しそうだよね！4Dイメージングの時代が来たって感じ！
-
-**Comment:** 10 pages, 5 figures, STACOM 2024
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-07-30 10:50
-
-- - -
-
-### [Federated Learning as a Service for Hierarchical Edge Networks with Heterogeneous Models](http://arxiv.org/abs/2407.20573)
-
-**異種モデルを持つ階層型エッジネットワーク向け連合学習サービス**
-
-Wentao Gao, Omid Tavallaie, Shuaijun Chen, Albert Zomaya
-
-- 連合学習(FL)とは、ユーザーの元データを共有せずにローカルでトレーニングされたモデルを集約する分散型機械学習フレームワークである
-- FLaaSは異なる計算資源を持つデバイス上でプライバシーを保護しながら機械学習モデルをトレーニングできる
-- 現在のFLは全クライアントデバイスに同じモデルをトレーニングさせるが、計算資源に差があるため効果が限定される
-- 提案されているHAF-EdgeはIoT、エッジ、クラウド環境にまたがる階層型FLシステムで異種モデルの集約問題を解決し、高い性能を示す
-
-階層型FLシステムで異なる計算力を持つデバイスにも対応できるなんて、すごく実用的だね！エッジとクラウドで効率的にデータを集約する工夫がされてるところが面白そう♪
+合成データが医療分野で増えてるけど、表面的な違いに引っかかるのは困るね。この論文はその点を具体的に実証してて、実践的なガイドラインにもなるから注目だよ！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2024-07-30 06:04
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, **投稿日時:** 2024-07-31 15:14
 
 - - -
 
-### [CELLM: An Efficient Communication in Large Language Models Training for Federated Learning](http://arxiv.org/abs/2407.20557)
+### [Grid-Based Decompositions for Spatial Data under Local Differential Privacy](http://arxiv.org/abs/2407.21624)
 
-**CELLM: 連合学習における大規模言語モデル訓練の効率的な通信**
+**ローカル差分プライバシーにおける空間データのグリッド分解**
 
-Raja Vavekanand, Kira Sam
+Berkay Kemal Balioglu, Alireza Khodaie, Ameer Taweel, Mehmet Emre Gursoy
 
-- 連合学習はデータを集約せずにモデルを訓練し、プライバシーとセキュリティの利点を提供する
-- 大規模言語モデルは、ノイズの多いデータから学習することで統計的不均一性を解決する可能性がある
-- LoRAを用いて局所的なモデル訓練の計算負荷を低減し、スパースアップデートで通信コストを低減
-- 提案手法は通信コストを10倍、複雑なベースラインと比べて5倍削減しつつ高い有用性を達成
+- LDPは人気の高いプライバシー基準であり、空間データにも適用されている
+- 本研究ではUG（均一グリッド）、PrivAG（適応グリッド）、AAG（高度適応グリッド）の3つのグリッド分解法を検討
+- AAGは隣接セルの密度に基づき不均一なセル分割を行い、より高い効用を提供
+- 実験結果では、AAGは小さなクエリにおいてUGとPrivAGを上回る
 
-大規模言語モデルの訓練を効率化する方法ってめっちゃ気になる！連合学習の課題をうまく克服できたら、さらにプライバシー保護が進みそうね！
+AAGという新しいアプローチがFBやインスタのデータ解析でどれだけ役立つか気になる！でも大規模なクエリはUGの方がいいってこともあるんだね。
 
-**Comment:** 22 pages, 10 figures
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-07-30 05:24
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-07-31 14:17
 
 - - -
 
-### [Boosting Efficiency in Task-Agnostic Exploration through Causal Knowledge](http://arxiv.org/abs/2407.20506)
+### [EZSR: Event-based Zero-Shot Recognition](http://arxiv.org/abs/2407.21616)
 
-**因果知識を活用したタスク非依存探索の効率向上**
+**EZSR: イベントベースのゼロショット認識**
 
-Yupei Yang, Biwei Huang, Shikui Tu, Lei Xu
+Yan Yang, Liyuan Pan, Dongxu Li, Liu Liu
 
-- 予算制約がデータ収集に制限を課し、モデル訓練の効果に影響
-- 因果知識を利用した探索戦略「因果探索」を提案
-- タスク非依存強化学習の学習効率と信頼性を向上
-- 実験結果により、因果探索がデータを少なくしても正確な世界モデルを学習可能と実証
+- 既存のアプローチは、イベントデータとRGB画像の埋め込み類似性を最大化してゼロショット認識を達成
+- グローバルな類似性最大化が、学習されたイベント埋め込み空間とCLIPテキスト埋め込み空間の語義の不一致を引き起こす
+- セマンティックの不一致を軽減するためにスカラー正則化戦略を採用
+- 静止RGB画像からイベントデータを合成するパイプラインを提案し、優れたゼロショット性能を達成
 
-因果知識を活用して少ないデータでモデルを訓練する工夫がめっちゃ面白そう！理論と実践の両方で有効性が証明されてるのも期待度高いね！
+イベントベースでゼロショット認識なんて面白すぎる！実際の実装でどれだけ使えるか試してみたいな。
 
-**Comment:** This paper was accepted by IJCAI'24
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-07-30 02:51
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-07-31 14:06
+
+- - -
+
+### [Tabular Data Augmentation for Machine Learning: Progress and Prospects of Embracing Generative AI](http://arxiv.org/abs/2407.21523)
+
+**機械学習のための表形式データ拡張: 生成AIの進展と展望**
+
+Lingxi Cui, Huan Li, Ke Chen, Lidan Shou, Gang Chen
+
+- 機械学習における高品質な表形式データの取得は大きな障害。
+- 表形式データ拡張のパイプラインを3つの手順（前処理、拡張、後処理）に分類。
+- 拡張方法を外部データ取得ベースと合成データ生成ベースに分け、細分化。
+- 生成AIを活用した最新の表形式データ拡張の動向と未来の方向性を強調。
+
+生成AIがこれからどう表形式データを変えていくのか、すっごく気になる！GitHubもチェックしてみたいな。
+
+**Comment:** repository maintained at   https://github.com/SuDIS-ZJU/awesome-tabular-data-augmentation
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.DB, **投稿日時:** 2024-07-31 10:56
+
+- - -
+
+### [FSSC: Federated Learning of Transformer Neural Networks for Semantic Image Communication](http://arxiv.org/abs/2407.21507)
+
+**FSSC: セマンティックイメージコミュニケーションのためのトランスフォーマーニューラルネットワークの連合学習**
+
+Yuna Yan, Xin Zhang, Lixin Li, Wensheng Lin, Rui Li, Wenchi Cheng, Zhu Han
+
+- Swin Transformerを用いたジョイントソースチャネルコーディング（JSCC）がセマンティック情報を効果的に抽出
+- 連合学習（FL）フレームワークでローカルモデルパラメータを集約し、データの直接共有なしにグローバルモデルを共同学習
+- このアプローチにより、ユーザープライバシー保護とサーバーやモバイルエッジの作業負担が軽減
+- シミュレーション評価で従来のJSCCアルゴリズムや従来の分離型通信アルゴリズムよりも性能が向上し、PSNRも2dB以上向上
+
+Swin Transformerの活用と連合学習の組み合わせが、どんな新しい可能性を見せてくれるのかとっても楽しみ！プライバシー保護しつつ性能が上がるなんて、未来の通信技術って感じがするよね。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.AI, cs.LG, eess.IV, **投稿日時:** 2024-07-31 10:25
+
+- - -
+
+### [On the Problem of Text-To-Speech Model Selection for Synthetic Data Generation in Automatic Speech Recognition](http://arxiv.org/abs/2407.21476)
+
+**音声認識のための合成データ生成におけるテキスト音声合成モデル選択問題について**
+
+Nick Rossenbach, Ralf Schlüter, Sakriani Sakti
+
+- 神経テキスト音声合成(TTS)システムの急速な進展により、音声認識(ASR)などの他の自然言語処理分野で利用が広がった。
+- 多数のTTSアーキテクチャが存在し、それぞれの拡張もあり、適切なTTSシステムを選定するのは容易ではない。
+- 自動回帰デコーディングは非自動回帰デコーディングよりもデータ生成において良好な性能を示した。
+- 計算可能な指標とASR性能との間に明確な関係性は見られなかったが、TTSの一般化能力を定量化するアプローチを提案。
+
+最新の音声技術の進化の速さってすごいよね！この研究が将来の自然言語処理にどれだけ影響を与えるか楽しみ♪
+
+**Comment:** Accepted at the SynData4GenAI 2024 workshop
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.LG, cs.SD, eess.AS, **投稿日時:** 2024-07-31 09:37
+
+- - -
+
+### [FedBChain: A Blockchain-enabled Federated Learning Framework for Improving DeepConvLSTM with Comparative Strategy Insights](http://arxiv.org/abs/2407.21282)
+
+**FedBChain: 生体活動認識を改善するためのブロックチェーンを使った連合学習フレームワークと比較戦略の洞察**
+
+Gaoxuan Li, Chern Hong Lim, Qiyao Ma, Xinyu Tang, Hwa Hui Tew
+
+- LSTM層の数を減らすと予測性能が向上するが、分散トレーニングではセキュリティとプライバシーが問題
+- FedBChainは、一層のLSTMを持つDeepConvLSTMアーキテクチャに基づく連合学習フレームワーク
+- 三つの異なる実データセットと五つの異なる連合学習戦略を用いて、予測性能を比較
+- FedAvgが平均4.54%、FedProxが4.57%、FedTrimmedAvgが4.35%、Krumが4.18%、FedAvgMが4.46%の改善を示す
+
+ブロックチェーンと連合学習を組み合わせるなんて、そんな新発想があるんだね！セキュリティも向上するし、この手法がもっと普及すればいいなぁ。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.HC, **投稿日時:** 2024-07-31 02:12
+
+- - -
+
+### [LFFR: Logistic Function For (multi-output) Regression](http://arxiv.org/abs/2407.21187)
+
+**LFFR: 多出力回帰のためのロジスティック関数**
+
+John Chiang
+
+- 完全準同型暗号化方式を用いたデータで多出力回帰問題に対応
+- 線形およびリッジ回帰の固定ヘシアン法を改良し、単一出力ロジスティック回帰用の新しいLFFRアルゴリズムを多出力対応に適応
+- 計算効率と堅牢性を確保するために定数の簡略化されたヘシアン法を多出力文脈に精緻化
+- 実世界の複数のデータセットでの評価結果は、高い予測精度を維持しながらプライバシーを保護する能力を実証
+
+多次元のデータに対応するために、こんなに工夫しているとはすごい！セキュリティと精度のバランスを両立しているところが未来感あるよね。
+
+**Comment:** arXiv admin note: substantial text overlap with arXiv:2407.09955
+
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-07-30 20:52
+
+- - -
+
+### [FL-DECO-BC: A Privacy-Preserving, Provably Secure, and Provenance-Preserving Federated Learning Framework with Decentralized Oracles on Blockchain for VANETs](http://arxiv.org/abs/2407.21141)
+
+**FL-DECO-BC：VANET向けに分散型オラクルを用いたプライバシー保護、証明可能なセキュリティ、および起源保護の連合学習フレームワーク**
+
+Sathwik Narkedimilli, Rayachoti Arun Kumar, N. V. Saran Kumar, Ramapathruni Praneeth Reddy, Pavan Kumar C
+
+- VANETsにおいて従来の中央集権型アプローチではデータプライバシーとセキュリティ問題が懸念される
+- FL-DECO-BCはデータを共有せずに協調的なモデル学習を可能にする連合学習フレームワークを提案する
+- 分散型オラクルとブロックチェーンを活用し、外部データソースに安全にアクセスしつつデータプライバシーを保護する
+- 暗号技術と形式的検証を通じて証明可能なセキュリティを保証し、データ起源と履歴を追跡できる設計を組み込んでいる
+
+ブロックチェーンと連合学習を組み合わせてVANETsの未来を変えちゃうなんて、超ワクワク！実用化が待ち遠しいよね。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, **投稿日時:** 2024-07-30 19:09

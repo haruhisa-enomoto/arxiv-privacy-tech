@@ -1,245 +1,270 @@
 [
   {
-    "url": "http://arxiv.org/abs/2407.21772",
-    "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
-    "japanese_title": "ShieldGemma: Generative AIによるGemmaベースのコンテンツモデレーション",
+    "url": "http://arxiv.org/abs/2408.00707",
+    "title": "Synthetic dual image generation for reduction of labeling efforts in semantic segmentation of micrographs with a customized metric function",
+    "japanese_title": "カスタマイズされた評価関数を使用した微小構造画像の意味セグメンテーションにおけるラベリング労力削減のための合成二重画像生成",
     "authors": [
-      "Wenjun Zeng",
-      "Yuchi Liu",
-      "Ryan Mullins",
-      "Ludovic Peran",
-      "Joe Fernandez",
-      "Hamza Harkous",
-      "Karthik Narasimhan",
-      "Drew Proud",
-      "Piyush Kumar",
-      "Bhaktipriya Radharapu",
-      "Olivia Sturman",
-      "Oscar Wahltinez"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- Gemma2を利用したLLMベースの安全コンテンツモデレーションモデルを紹介\n- 性的、危険な内容、嫌がらせ、ヘイトスピーチなどの主要な危険タイプに対応\n- 公共および内部ベンチマークで既存モデルより優れた性能を発揮（+10.8% AU-PRC）\n- 合成データを用いたモデルで高い汎化性能を実証\n\n新しい技術で、コンテンツモデレーションがより正確になりそう！安全なオンライン空間が増えるといいな。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-07-31T17:48:14+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21739",
-    "title": "A Federated Learning-Friendly Approach for Parameter-Efficient Fine-Tuning of SAM in 3D Segmentation",
-    "japanese_title": "パラメータ効率的なSAMの3Dセグメンテーション向け連合学習フレンドリーアプローチ",
-    "authors": [
-      "Mothilal Asokan",
-      "Joseph Geo Benjamin",
-      "Mohammad Yaqub",
-      "Karthik Nandakumar"
+      "Matias Oscar Volman Stern",
+      "Dominic Hohs",
+      "Andreas Jansche",
+      "Timo Bernthaler",
+      "Gerhard Schneider"
     ],
     "categories": [
       "cs.CV",
-      "cs.AI",
-      "cs.LG",
-      "eess.IV"
+      "cs.CE",
+      "cs.LG"
     ],
     "comment": "",
-    "summary": "- 自然データと医療データ間の分布シフトのため、基礎モデルのファインチューニングに多量の医療データが必要\n- プライバシーの懸念があるため、特定タスク用の医療データを集中収集することが難しい\n- 連合学習(FL)とパラメータ効率的なファインチューニング(PEFT)を組み合わせ、通信コストを削減しながら効果的な学習を実現\n- Fed-KiTSデータセットで通信コスト約48倍削減、性能も約6%向上し、Fed-IXIおよびProstate MRIデータセットでも有効性を確認\n\nこれさ、医療データのプライバシー問題解決しつつ効率的に学習できるってめっちゃ良いね！連合学習の可能性が広がるし、3Dセグメンテーションの精度アップも期待できそう！",
+    "summary": "- 材料分析の意味セグメンテーションモデルの訓練には微小構造画像と対応するマスクが必要\n- VQ-VAEとPixelCNNを用いて、合成画像とマスクを生成しモデルの精度を向上\n- 合成データと実データを組み合わせたU-Netモデルの評価により、合成データの有効性を確認\n- カスタマイズされた評価指標により、誤ったピクセルがmIoUの値を大きく減少させないようにする\n\n人工データを駆使して、少ないサンプルで効率的にモデルトレーニングができるかも。少ないデータでも高精度が期待できるって、すっごくいいよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-01T16:54:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00443",
+    "title": "An Experimental Evaluation of TEE technology Evolution: Benchmarking Transparent Approaches based on SGX, SEV, and TDX",
+    "japanese_title": "TEE技術進化の実験的評価: SGX、SEV、TDXをベースとした透過的アプローチのベンチマーク",
+    "authors": [
+      "Luigi Coppolino",
+      "Salvatore D'Antonio",
+      "Davide Iasio",
+      "Giovanni Mazzeo",
+      "Luigi Romano"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "Under review at IEEE Transactions on Dependable and Secure Computing",
+    "summary": "- データ使用中の保護が重要な課題で、TEE技術が有望な解決策として浮上\n- Intel SGXは効率的だが使いにくいプロセスベースのTEE保護を提供\n- AMD SEVはVMベースのTEE保護を導入し、レガシーアプリケーションの展開を容易に\n- TDX、SEV、Gramine-SGX、Occlum-SGXの比較評価を通じて、現実的な条件下でのパフォーマンスを信頼性を持って評価\n\nTEE技術の進化を詳しく比較するのは面白そう！TDXの独自評価ができるのも画期的だよね。近い将来の応用が楽しみ！",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-08-01T10:29:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00395",
+    "title": "A Zero-Knowledge Proof of Knowledge for Subgroup Distance Problem",
+    "japanese_title": "部分群距離問題に関する知識のゼロ知識証明",
+    "authors": [
+      "Cansu Betin Onur"
+    ],
+    "categories": [
+      "cs.CR",
+      "math.GR"
+    ],
+    "comment": "",
+    "summary": "- Hammingメトリックにおける部分群距離問題の難解さに基づく新しいゼロ知識識別スキームを導入\n- 提案されたプロトコルSDZKPは暗号的に安全な疑似乱数生成器を使用して秘密をマスク\n- 強固なセキュリティ特性を保証するためにStern型アルゴリズムを使用\n- プロトコルの強固な識別スキームとセキュリティレベルが可能\n\nゼロ知識証明に新たな一歩を刻みそう！セキュリティの強化が期待できるのが面白いよね。",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-08-01T09:04:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00307",
+    "title": "ABC Align: Large Language Model Alignment for Safety & Accuracy",
+    "japanese_title": "ABC Align：大規模言語モデルの安全性と精度のためのアラインメント",
+    "authors": [
+      "Gareth Seneque",
+      "Lap-Hang Ho",
+      "Ariel Kuperman",
+      "Nafise Erfanian Saeedi",
+      "Jeffrey Molendijk"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "68T50",
+      "I.2.7"
+    ],
+    "comment": "23 pages, 4 figures",
+    "summary": "- 大規模言語モデル（LLM）のアラインメントは未解決の課題\n- 人々の嗜好は抽象度の異なる複数のレベルで捕捉可能\n- 合成データ生成や嗜好最適化などの最新技術を組み合わせた統一アプローチを提案\n- 提案手法はバイアスを軽減し、標準ベンチマークでの推論能力を維持しつつ精度を向上\n\n大規模言語モデルのアラインメントって、めっちゃ重要そうだよね！新しい技術でどこまで改善できるか楽しみだな〜。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-01T06:06:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00296",
+    "title": "Head360: Learning a Parametric 3D Full-Head for Free-View Synthesis in 360°",
+    "japanese_title": "Head360: 360°自由視点合成のためのパラメトリック3Dフルヘッド学習",
+    "authors": [
+      "Yuxiao He",
+      "Yiyu Zhuang",
+      "Yanwen Wang",
+      "Yao Yao",
+      "Siyu Zhu",
+      "Xiaoyu Li",
+      "Qi Zhang",
+      "Xun Cao",
+      "Hao Zhu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "ECCV 2024",
+    "summary": "- 人間の頭部360°パラメトリックモデルの生成は非常に難しい\n- 芸術家がデザインした高精細な頭部のデータセットを基に新しいパラメトリックモデルを提案\n- 顔の動き/形状と顔の外観を分離し、それぞれ古典的な3Dメッシュモデルとニューラルテクスチャで表現\n- 単一画像入力に基づく高い汎用性と忠実度を持つ新しい反転適合方法を提案\n\nこれって他のアプリケーションにも使えそうでワクワクするね！見た目の編集やアニメーションがこんなに自由って、もうすぐ私たちも簡単にキャラクターデザインできるかもしれないね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-01T05:46:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00294",
+    "title": "RDP: Ranked Differential Privacy for Facial Feature Protection in Multiscale Sparsified Subspace",
+    "japanese_title": "RDP: 顔特徴保護のためのランキング差分プライバシーによるマルチスケール希薄化サブスペース",
+    "authors": [
+      "Lu Ou",
+      "Shaolin Liao",
+      "Shihui Gao",
+      "Guandong Huang",
+      "Zheng Qi"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.IR"
+    ],
+    "comment": "13 pages, 6 figures",
+    "summary": "- 顔画像が公開データベースで共有されることで、顔認識システムに対する侵害のリスクが高まる\n- 提案する手法「Ranking Differential Privacy (RDP)」は、プライバシー予算に基づき特徴係数に軽量ラプラスノイズを追加\n- 最適なノイズスケールパラメータを求めるために二つの手法を提案：NA法とLMGD法\n- 実験結果では、提案手法RDPは最先端の手法より優れており、PSNRが約10dB高い\n\nこんなにすごい手法があれば、顔認識の技術も安心して使えちゃいそう！プライバシーを守りつつ、画像の品質も保てるなんてびっくりだよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-01T05:41:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00256",
+    "title": "Mobility-Aware Federated Self-supervised Learning in Vehicular Network",
+    "japanese_title": "モビリティ対応型連合自己教師あり学習の車両ネットワークにおける応用",
+    "authors": [
+      "Xueying Gu",
+      "Qiong Wu",
+      "Pingyi Fan",
+      "Qiang Fan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.NI"
+    ],
+    "comment": "This paper has been submitted to urban lifeline. The source code has   been released at: The source code has been released at:   https://github.com/qiongwu86/FLSimCo",
+    "summary": "- 連合学習 (FL) は、複数デバイス上で同時にモデルをトレーニングし、各車両のプライバシーを保護する\n- ラベル付けコストが高いため、車両ネットワークやモバイルIoTでは、ラベルに頼るモデルが適さない\n- 自己教師あり学習により、ラベルなしでトレーニングが可能に\n- 提案されたFLSimCoは、画像のぼかしレベルに基づいて集約し、シミュレーション結果で高速かつ安定した収束を示す\n\n車両ネットワークでのデータ活用がもっと楽になるかも！もうすぐ自動運転がさらに進化しそうな予感がするね。",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-07-31T16:48:06+00:00"
+    "published": "2024-08-01T03:28:10+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2407.21674",
-    "title": "Synthetic Simplicity: Unveiling Bias in Medical Data Augmentation",
-    "japanese_title": "合成の簡潔性：医療データ補完におけるバイアスの解明",
+    "url": "http://arxiv.org/abs/2408.00243",
+    "title": "A Survey on the Applications of Zero-Knowledge Proofs",
+    "japanese_title": "ゼロ知識証明の応用に関する調査",
     "authors": [
-      "Krishan Agyakari Raja Babu",
-      "Rachana Sathish",
-      "Mrunal Pattanaik",
-      "Rahul Venkataramani"
+      "Ryan Lavin",
+      "Xuekai Liu",
+      "Hardhik Mohanty",
+      "Logan Norman",
+      "Giovanni Zaarour",
+      "Bhaskar Krishnamachari"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CC"
+    ],
+    "comment": "",
+    "summary": "- ゼロ知識証明（ZKP）は、情報を明かさずに安全に交換する技術である\n- 他のプライバシー技術と比較して普遍性と最小限のセキュリティ仮定がある\n- ブロックチェーンのプライバシー強化から計算タスクの検証まで幅広く適用される\n- 実用的な側面に焦点を当て、最新利用例を多く紹介している\n\nゼロ知識証明の実用例について幅広く知ることができそうでワクワクするよね！未来のブロックチェーン技術やプライバシー保護の進展に繋がるのが楽しみだな！",
+    "topics": [
+      "準同型暗号",
+      "秘密計算",
+      "ゼロ知識証明"
+    ],
+    "published": "2024-08-01T02:47:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00217",
+    "title": "Load Balancing in Federated Learning",
+    "japanese_title": "連合学習における負荷分散",
+    "authors": [
+      "Alireza Javani",
+      "Zhiying Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は、複数のリモートデバイスに分散したデータから学習を行うフレームワークである\n- 負荷メトリックの分散を最小化することで、ワークロードの公平な分配と効率的なリソース利用を実現\n- 分散型マルコフスケジューリングポリシーが提案され、ネットワークサイズに関係なく管理オーバーヘッドを排除\n- シミュレーションを通じてアプローチを検証し、学習モデルの収束速度が向上することを示した\n\n分散学習の負荷分散を工夫することで、効率よく学習できるみたい！特にネットワークが大きくなっても管理が楽になるのが魅力的だよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-01T00:56:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.00191",
+    "title": "S-SYNTH: Knowledge-Based, Synthetic Generation of Skin Images",
+    "japanese_title": "知識ベースの合成画像生成による皮膚画像のシミュレーション「S-SYNTH」",
+    "authors": [
+      "Andrea Kim",
+      "Niloufar Saharkhiz",
+      "Elena Sizikova",
+      "Miguel Lago",
+      "Berkman Sahiner",
+      "Jana Delfino",
+      "Aldo Badano"
     ],
     "categories": [
       "cs.CV",
       "cs.AI"
     ],
-    "comment": "",
-    "summary": "- 合成データが医療画像などのデータ不足分野で用いられるが、その統計的特性が下流タスクに影響\n- 実データと合成データの間の偽の相違を利用する「簡単さバイアス」が発生\n- 原因として、データソース（実データvs合成データ）に依存し、表面的な特徴に過度に依存する\n- デジタル分類と心臓エコー画像での数室ビュー分類の実験で、この脆弱性を実証\n\n合成データが医療分野で増えてるけど、表面的な違いに引っかかるのは困るね。この論文はその点を具体的に実証してて、実践的なガイドラインにもなるから注目だよ！",
+    "comment": "Accepted to the International Conference on Medical Image Computing   and Computer Assisted Intervention (MICCAI) 2024",
+    "summary": "- 医療画像のAI開発には大量で多様なデータセットが必要だが、皮膚科では得難い\n- S-SYNTHは適応可能なオープンソース皮膚シミュレーションフレームワークを提案\n- このモデルは皮膚色、毛、病変形状、血液割合などのパラメータを変化させられる\n- 合成データにより既存データセットのバイアスや限界を軽減し、AIモデル開発を支援\n\nS-SYNTHが皮膚画像のデータ不足を補うなんてすごい！これでAIがもっと正確に診断できるようになるといいね。",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-07-31T15:14:17+00:00"
+    "published": "2024-07-31T23:16:29+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2407.21624",
-    "title": "Grid-Based Decompositions for Spatial Data under Local Differential Privacy",
-    "japanese_title": "ローカル差分プライバシーにおける空間データのグリッド分解",
+    "url": "http://arxiv.org/abs/2408.00106",
+    "title": "WAS: Dataset and Methods for Artistic Text Segmentation",
+    "japanese_title": "WAS: 芸術的テキストセグメンテーションのためのデータセットと手法",
     "authors": [
-      "Berkay Kemal Balioglu",
-      "Alireza Khodaie",
-      "Ameer Taweel",
-      "Mehmet Emre Gursoy"
+      "Xudong Xie",
+      "Yuzhe Li",
+      "Yang Liu",
+      "Zhifei Zhang",
+      "Zhaowen Wang",
+      "Wei Xiong",
+      "Xiang Bai"
     ],
     "categories": [
-      "cs.CR"
+      "cs.CV",
+      "cs.AI"
     ],
-    "comment": "",
-    "summary": "- LDPは人気の高いプライバシー基準であり、空間データにも適用されている\n- 本研究ではUG（均一グリッド）、PrivAG（適応グリッド）、AAG（高度適応グリッド）の3つのグリッド分解法を検討\n- AAGは隣接セルの密度に基づき不均一なセル分割を行い、より高い効用を提供\n- 実験結果では、AAGは小さなクエリにおいてUGとPrivAGを上回る\n\nAAGという新しいアプローチがFBやインスタのデータ解析でどれだけ役立つか気になる！でも大規模なクエリはUGの方がいいってこともあるんだね。",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-07-31T14:17:44+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21616",
-    "title": "EZSR: Event-based Zero-Shot Recognition",
-    "japanese_title": "EZSR: イベントベースのゼロショット認識",
-    "authors": [
-      "Yan Yang",
-      "Liyuan Pan",
-      "Dongxu Li",
-      "Liu Liu"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "comment": "",
-    "summary": "- 既存のアプローチは、イベントデータとRGB画像の埋め込み類似性を最大化してゼロショット認識を達成\n- グローバルな類似性最大化が、学習されたイベント埋め込み空間とCLIPテキスト埋め込み空間の語義の不一致を引き起こす\n- セマンティックの不一致を軽減するためにスカラー正則化戦略を採用\n- 静止RGB画像からイベントデータを合成するパイプラインを提案し、優れたゼロショット性能を達成\n\nイベントベースでゼロショット認識なんて面白すぎる！実際の実装でどれだけ使えるか試してみたいな。",
+    "comment": "Accepted by ECCV 2024",
+    "summary": "- 芸術的テキストセグメンテーションは多様で複雑な局所ストローク形状が課題\n- 特殊な形状のストローク領域を無視しない層ごとのモメンタムクエリデコーダーを提案\n- 複雑なグローバルトポロジー構造に対応するためスケルトン支援ヘッドを設計\n- 多モーダルモデルと拡散モデルに基づくデータ合成戦略でモデルの汎化性能を強化\n\n芸術的なテキストって本当に複雑だけど、この研究で新しい方法が出てきて解決できるかもね！データ合成とか、技術の進歩がすごい！",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-07-31T14:06:06+00:00"
+    "published": "2024-07-31T18:29:36+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2407.21523",
-    "title": "Tabular Data Augmentation for Machine Learning: Progress and Prospects of Embracing Generative AI",
-    "japanese_title": "機械学習のための表形式データ拡張: 生成AIの進展と展望",
+    "url": "http://arxiv.org/abs/2408.00050",
+    "title": "Algorithms for Collaborative Machine Learning under Statistical Heterogeneity",
+    "japanese_title": "統計的不均一性下での協調型機械学習アルゴリズム",
     "authors": [
-      "Lingxi Cui",
-      "Huan Li",
-      "Ke Chen",
-      "Lidan Shou",
-      "Gang Chen"
+      "Seok-Ju Hahn"
     ],
     "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.DB"
+      "stat.ML",
+      "cs.DC",
+      "cs.LG"
     ],
-    "comment": "repository maintained at   https://github.com/SuDIS-ZJU/awesome-tabular-data-augmentation",
-    "summary": "- 機械学習における高品質な表形式データの取得は大きな障害。\n- 表形式データ拡張のパイプラインを3つの手順（前処理、拡張、後処理）に分類。\n- 拡張方法を外部データ取得ベースと合成データ生成ベースに分け、細分化。\n- 生成AIを活用した最新の表形式データ拡張の動向と未来の方向性を強調。\n\n生成AIがこれからどう表形式データを変えていくのか、すっごく気になる！GitHubもチェックしてみたいな。",
+    "comment": "Doctoral Dissertation. For the conference version of Chapter II, see   arXiv:2109.07628v3, and for the conference version of Chapter III, see   arXiv:2405.20821v1",
+    "summary": "- 各種データの分散トレーニングが必要になってきている\n- 連合学習（FL）でデータ所有者間の生データを移動せずにトレーニング実施\n- 統計的不均一性問題がFLの最大の課題であり解決が急務である\n- 3つの新しいアプローチを提案し、統計的不均一性問題を軽減する\n\n連合学習における統計的不均一性の問題に焦点を当てた画期的な研究だね！SuPerFedとAAggFF、FedEvgを使った解決策がどれも魅力的で未来の応用が楽しみだね。",
     "topics": [
+      "連合学習",
       "合成データ"
     ],
-    "published": "2024-07-31T10:56:20+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21507",
-    "title": "FSSC: Federated Learning of Transformer Neural Networks for Semantic Image Communication",
-    "japanese_title": "FSSC: セマンティックイメージコミュニケーションのためのトランスフォーマーニューラルネットワークの連合学習",
-    "authors": [
-      "Yuna Yan",
-      "Xin Zhang",
-      "Lixin Li",
-      "Wensheng Lin",
-      "Rui Li",
-      "Wenchi Cheng",
-      "Zhu Han"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.LG",
-      "eess.IV"
-    ],
-    "comment": "",
-    "summary": "- Swin Transformerを用いたジョイントソースチャネルコーディング（JSCC）がセマンティック情報を効果的に抽出\n- 連合学習（FL）フレームワークでローカルモデルパラメータを集約し、データの直接共有なしにグローバルモデルを共同学習\n- このアプローチにより、ユーザープライバシー保護とサーバーやモバイルエッジの作業負担が軽減\n- シミュレーション評価で従来のJSCCアルゴリズムや従来の分離型通信アルゴリズムよりも性能が向上し、PSNRも2dB以上向上\n\nSwin Transformerの活用と連合学習の組み合わせが、どんな新しい可能性を見せてくれるのかとっても楽しみ！プライバシー保護しつつ性能が上がるなんて、未来の通信技術って感じがするよね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-07-31T10:25:24+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21476",
-    "title": "On the Problem of Text-To-Speech Model Selection for Synthetic Data Generation in Automatic Speech Recognition",
-    "japanese_title": "音声認識のための合成データ生成におけるテキスト音声合成モデル選択問題について",
-    "authors": [
-      "Nick Rossenbach",
-      "Ralf Schlüter",
-      "Sakriani Sakti"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.LG",
-      "cs.SD",
-      "eess.AS"
-    ],
-    "comment": "Accepted at the SynData4GenAI 2024 workshop",
-    "summary": "- 神経テキスト音声合成(TTS)システムの急速な進展により、音声認識(ASR)などの他の自然言語処理分野で利用が広がった。\n- 多数のTTSアーキテクチャが存在し、それぞれの拡張もあり、適切なTTSシステムを選定するのは容易ではない。\n- 自動回帰デコーディングは非自動回帰デコーディングよりもデータ生成において良好な性能を示した。\n- 計算可能な指標とASR性能との間に明確な関係性は見られなかったが、TTSの一般化能力を定量化するアプローチを提案。\n\n最新の音声技術の進化の速さってすごいよね！この研究が将来の自然言語処理にどれだけ影響を与えるか楽しみ♪",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-07-31T09:37:27+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21282",
-    "title": "FedBChain: A Blockchain-enabled Federated Learning Framework for Improving DeepConvLSTM with Comparative Strategy Insights",
-    "japanese_title": "FedBChain: 生体活動認識を改善するためのブロックチェーンを使った連合学習フレームワークと比較戦略の洞察",
-    "authors": [
-      "Gaoxuan Li",
-      "Chern Hong Lim",
-      "Qiyao Ma",
-      "Xinyu Tang",
-      "Hwa Hui Tew"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.HC"
-    ],
-    "comment": "",
-    "summary": "- LSTM層の数を減らすと予測性能が向上するが、分散トレーニングではセキュリティとプライバシーが問題\n- FedBChainは、一層のLSTMを持つDeepConvLSTMアーキテクチャに基づく連合学習フレームワーク\n- 三つの異なる実データセットと五つの異なる連合学習戦略を用いて、予測性能を比較\n- FedAvgが平均4.54%、FedProxが4.57%、FedTrimmedAvgが4.35%、Krumが4.18%、FedAvgMが4.46%の改善を示す\n\nブロックチェーンと連合学習を組み合わせるなんて、そんな新発想があるんだね！セキュリティも向上するし、この手法がもっと普及すればいいなぁ。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-07-31T02:12:05+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21187",
-    "title": "LFFR: Logistic Function For (multi-output) Regression",
-    "japanese_title": "LFFR: 多出力回帰のためのロジスティック関数",
-    "authors": [
-      "John Chiang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "arXiv admin note: substantial text overlap with arXiv:2407.09955",
-    "summary": "- 完全準同型暗号化方式を用いたデータで多出力回帰問題に対応\n- 線形およびリッジ回帰の固定ヘシアン法を改良し、単一出力ロジスティック回帰用の新しいLFFRアルゴリズムを多出力対応に適応\n- 計算効率と堅牢性を確保するために定数の簡略化されたヘシアン法を多出力文脈に精緻化\n- 実世界の複数のデータセットでの評価結果は、高い予測精度を維持しながらプライバシーを保護する能力を実証\n\n多次元のデータに対応するために、こんなに工夫しているとはすごい！セキュリティと精度のバランスを両立しているところが未来感あるよね。",
-    "topics": [
-      "準同型暗号"
-    ],
-    "published": "2024-07-30T20:52:38+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2407.21141",
-    "title": "FL-DECO-BC: A Privacy-Preserving, Provably Secure, and Provenance-Preserving Federated Learning Framework with Decentralized Oracles on Blockchain for VANETs",
-    "japanese_title": "FL-DECO-BC：VANET向けに分散型オラクルを用いたプライバシー保護、証明可能なセキュリティ、および起源保護の連合学習フレームワーク",
-    "authors": [
-      "Sathwik Narkedimilli",
-      "Rayachoti Arun Kumar",
-      "N. V. Saran Kumar",
-      "Ramapathruni Praneeth Reddy",
-      "Pavan Kumar C"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "",
-    "summary": "- VANETsにおいて従来の中央集権型アプローチではデータプライバシーとセキュリティ問題が懸念される\n- FL-DECO-BCはデータを共有せずに協調的なモデル学習を可能にする連合学習フレームワークを提案する\n- 分散型オラクルとブロックチェーンを活用し、外部データソースに安全にアクセスしつつデータプライバシーを保護する\n- 暗号技術と形式的検証を通じて証明可能なセキュリティを保証し、データ起源と履歴を追跡できる設計を組み込んでいる\n\nブロックチェーンと連合学習を組み合わせてVANETsの未来を変えちゃうなんて、超ワクワク！実用化が待ち遠しいよね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-07-30T19:09:10+00:00"
+    "published": "2024-07-31T16:32:34+00:00"
   }
 ]

@@ -1,5 +1,102 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.01379",
+    "title": "Resampling and averaging coordinates on data",
+    "japanese_title": "データ上の座標の再サンプリングと平均化",
+    "authors": [
+      "Andrew J. Blumberg",
+      "Mathieu Carriere",
+      "Jun Hou Fung",
+      "Michael A. Mandell"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.CG",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 頑健に点群の内在的な座標を計算するアルゴリズムを紹介\n- データをサブサンプリングし、埋め込みアルゴリズムのハイパーパラメータを変えて多くの候補座標を生成\n- トポロジカルデータ分析の形状記述子を用いて候補座標の集合をクラスタリングし、代表的な埋め込みの平均を使う\n- 合成データとゲノミクス実測データでアルゴリズムの有用性と雑音や外れ値に対する頑健性を実証\n\nデータの雑音にも負けない強力なアルゴリズムってすごい！未来の遺伝子研究とかで活躍しそうだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-02T16:37:33+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.01374",
+    "title": "Hybrid Coordinate Descent for Efficient Neural Network Learning Using Line Search and Gradient Descent",
+    "japanese_title": "ラインサーチと勾配降下法を用いたニューラルネットワーク学習のためのハイブリッド座標降下法",
+    "authors": [
+      "Yen-Che Hsiao",
+      "Abhishek Dutta"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 二乗誤差損失関数のパラメータ更新に、ラインサーチと勾配情報を組み合わせた新しい座標降下アルゴリズムを提案\n- 各パラメータの更新は勾配の絶対値が閾値を超えるかどうかにより、ラインサーチ法または勾配法で決定\n- 閾値が大きいほどアルゴリズムの効率が向上するが、ラインサーチ法は勾配降下法に比べ遅い\n- 合成データを用いた2層ReLUネットワーク実験では、ハイパーパラメータが収束速度と計算効率に与える影響を検証\n\nラインサーチと勾配情報をミックスするなんて、新しいアイデアでワクワクしちゃう！収束速度がどれだけ改善するのか気になる♪",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-02T16:29:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.01310",
+    "title": "PsybORG+: Cognitive Modeling for Triggering and Detection of Cognitive Biases of Advanced Persistent Threats",
+    "japanese_title": "PsybORG+: 高度持続的脅威の認知バイアスを誘発および検出するための認知モデル",
+    "authors": [
+      "Shuo Huang",
+      "Quanyan Zhu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 高度持続的脅威（APT）は洗練されており、従来のサイバーセキュリティ対策が無力\n- 認知的な脆弱性が攻撃者の意思決定に影響し、防御者がそれを利用できる可能性\n- PsybORGは認知的な脆弱性に基づくAPT行動をモデル化するマルチエージェントシミュレーション環境\n- PsybORG+は合成データを生成し、攻撃者にサンクコストの誤謬を刺激するトリガーを設計\n\nAPTに対抗するための新しい視点が見られて面白そう！防御者が攻撃者の認知バイアスを突くという斬新なアプローチだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-02T15:00:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.01286",
+    "title": "Improving Energy Efficiency in Federated Learning Through the Optimization of Communication Resources Scheduling of Wireless IoT Networks",
+    "japanese_title": "無線IoTネットワークの通信資源スケジューリング最適化による連合学習のエネルギー効率改善",
+    "authors": [
+      "Renan R. de Oliveira",
+      "Kleber V. Cardoso",
+      "Antonio Oliveira-Jr"
+    ],
+    "categories": [
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータを共有せずにグローバルな機械学習モデルを訓練する技術\n- 無線ネットワークでは通信チャネルの信頼性が低く、遅延や誤差がモデル更新の規則性に影響\n- この研究は、エネルギーコスト削減のため通信資源をスケジュールする新しいFLアルゴリズムFL-E2WSを提案\n- FL-E2WSはエネルギー消費を最大70.12%、モデルの精度を最大10.21%向上させることがシミュレーション結果で示された\n\nこの研究、ほんとに面白そう！IoTデバイスのエネルギー問題も解決できるなんてすごいね。ぜひもう少し詳しく知りたいな〜。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-02T14:17:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.01233",
+    "title": "CLIP4Sketch: Enhancing Sketch to Mugshot Matching through Dataset Augmentation using Diffusion Models",
+    "japanese_title": "CLIP4Sketch: 拡散モデルを用いたデータセット拡張によるスケッチからマグショットへの照合強化",
+    "authors": [
+      "Kushal Kumar Jain",
+      "Steve Grosz",
+      "Anoop M. Namboodiri",
+      "Anil K. Jain"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 法医学的スケッチからマグショットへの照合は顔認識における課題で、注釈付きデータの不足とモダリティギャップが障壁\n- 拡散モデルを利用して多様なスケッチ画像を生成する新しいアプローチCLIP4Sketchを提案\n- デノイジング拡散確率モデル（DDPM）を用いて、アイデンティティとスタイルを制御したスケッチを生成\n- 提案手法のデータセットはGANに基づく方法と比較して優れており、スケッチからマグショットへの照合精度を向上\n\n根本からスケッチと写真の照合を強化する新しい方法なんだね！拡散モデルを使ったスケッチ生成技術が、これからどんどん進化していくかもってワクワクしちゃう。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-02T12:48:36+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.00707",
     "title": "Synthetic dual image generation for reduction of labeling efforts in semantic segmentation of micrographs with a customized metric function",
     "japanese_title": "カスタマイズされた評価関数を使用した微小構造画像の意味セグメンテーションにおけるラベリング労力削減のための合成二重画像生成",

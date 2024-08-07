@@ -1,5 +1,212 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.03256",
+    "title": "Synthesizing Text-to-SQL Data from Weak and Strong LLMs",
+    "japanese_title": "弱および強いLLMからのText-to-SQLデータの合成",
+    "authors": [
+      "Jiaxi Yang",
+      "Binyuan Hui",
+      "Min Yang",
+      "Jian Yang",
+      "Junyang Lin",
+      "Chang Zhou"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "12 pages, 7 figures, ACL 2024",
+    "summary": "- オープンソースとクローズドソースの大規模言語モデル（LLM）間の能力格差が課題\n- 強力なモデルが生成するデータと、弱いモデルのエラー情報データを組み合わせた合成データアプローチを提案\n- 合成データアプローチを用いて、オープンソースLLMのインストラクションチューニングを行い、SENSEモデルを作成\n- SPIDERおよびBIRDベンチマークで最先端の結果を示し、オープンソースモデルとクローズドソースモデル間の性能差を埋める\n\n強いと弱いモデルを組み合わせて、新しい方法で性能向上を目指すのが面白いよね！結果もすごく良さそうだし、試してみる価値ありそうだなって思ったよ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-06T15:40:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03220",
+    "title": "Masked Random Noise for Communication Efficient Federaetd Learning",
+    "japanese_title": "通信効率の高い連合学習のためのマスク付きランダムノイズ",
+    "authors": [
+      "Shiwei Li",
+      "Yingyi Cheng",
+      "Haozhao Wang",
+      "Xing Tang",
+      "Shijie Xu",
+      "Weihong Luo",
+      "Yuhua Li",
+      "Dugang Liu",
+      "Xiuqiang He",
+      "and Ruixuan Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "Accepted by MM 2024",
+    "summary": "- 連合学習はデータプライバシーを効果的に保護するが、通信コストが高くなる場合がある\n- 分散クライアントにモデル更新をグローバルモデル相対で最適化させるためにランダムノイズを利用\n- FedMRNというフレームワークを提案し、各モデルパラメータに対して1ビットのマスクを学習\n- 実験結果から、FedMRNは他のベースラインと比較して優れた収束速度とテスト精度を示した\n\n新しい視点から通信効率を上げるって面白い発想だよね！実験結果も良好みたいだから、実用化が楽しみだな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-06T14:26:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03215",
+    "title": "FedBAT: Communication-Efficient Federated Learning via Learnable Binarization",
+    "japanese_title": "FedBAT: 学習可能な二値化による通信効率の高い連合学習",
+    "authors": [
+      "Shiwei Li",
+      "Wenchao Xu",
+      "Haozhao Wang",
+      "Xing Tang",
+      "Yining Qi",
+      "Shijie Xu",
+      "Weihong Luo",
+      "Yuhua Li",
+      "Xiuqiang He",
+      "Ruixuan Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "Accepted by ICML 2024",
+    "summary": "- 連合学習は大規模データをプライバシーを守りつつ利用できるが、通信の負荷が高い課題がある\n- モデル更新を二値化する従来手法は誤差が大きく、学習精度が低下することが多い\n- FedBATは局所学習中に直接二値化を行い、誤差を減少させる新しい枠組みを提案\n- 実験結果ではFedBATが収束を大幅に速め、従来手法より最大9%精度向上を達成\n\n通信負荷を減らしつつ精度を高める手法を提案しているのがすごいよね！FedBATの未来が楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-06T14:19:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03208",
+    "title": "Personalizing Federated Instrument Segmentation with Visual Trait Priors in Robotic Surgery",
+    "japanese_title": "ロボット手術における視覚特性事前情報を用いた連合学習による手術器具セグメンテーションの個別化",
+    "authors": [
+      "Jialang Xu",
+      "Jiacheng Wang",
+      "Lequan Yu",
+      "Danail Stoyanov",
+      "Yueming Jin",
+      "Evangelos B. Mazomenos"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO",
+      "physics.med-ph"
+    ],
+    "comment": "9 pages, 3 figures, under review",
+    "summary": "- 個別化連合学習（PFL）は、複数の臨床サイトがプライバシーを保ちながら協力してモデルを訓練する手法\n- 既存のPFLは多頭型自己注意の個別化や手術シーン特有の外観多様性・器具形状類似性を考慮していない\n- 提案手法のPFedSISは、GPD、APE、SGEを取り入れ各サイトのSIS性能を向上\n- PFedSISは既存手法よりも性能が向上し、Diceで+1.51%、IoUで+2.11%の改善を達成\n\n新しい手法で手術器具のセグメンテーションがもっと正確になりそうでワクワクする！ロボット手術の未来がもっと進化しそうだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-06T14:06:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02998",
+    "title": "Federated Learning Architectures: A Performance Evaluation with Crop Yield Prediction Application",
+    "japanese_title": "連合学習アーキテクチャ: 作物収量予測アプリケーションによるパフォーマンス評価",
+    "authors": [
+      "Anwesha Mukherjee",
+      "Rajkumar Buyya"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- IoTアプリ向け連合学習を使用し、LSTMネットワークで作物収量を予測\n- 集中型連合学習はクライアントとサーバーでモデル更新を集約\n- 分散型連合学習はデバイス間でモデル更新を行い、リングまたはメッシュトポロジーを使用\n- 集中型と分散型連合学習は97%と97.5%以上の予測精度を達成し、集中型は応答時間を75%短縮\n\n想像してみて、作物の収量予測を連合学習で実現なんて素晴らしい！未来の農業がもっと効率的になるかもね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-06T07:05:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02927",
+    "title": "HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy Protection",
+    "japanese_title": "HARMONIC: LLMを活用した表形式データの生成とプライバシー保護",
+    "authors": [
+      "Yuxin Wang",
+      "Duanyu Feng",
+      "Yongfu Dai",
+      "Zhengyu Chen",
+      "Jimin Huang",
+      "Sophia Ananiadou",
+      "Qianqian Xie",
+      "Hao Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- LLMの活用によるリアルなプライバシー保護型の合成データ生成が急務\n- kNNアルゴリズムの概念で指示微調整データセットを構築\n- 微調整によりデータ自体ではなくフォーマットと接続を記憶させる手法\n- 評価部分では特定のプライバシーリスク指標DLTと性能評価指標LLEを開発\n\n大規模なLLMで繊細なデータをさわるのってすごく興味深いことだよね！新しいプライバシー保護の方法とか、未来が明るく感じられる！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-06T03:21:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02813",
+    "title": "Mitigating Malicious Attacks in Federated Learning via Confidence-aware Defense",
+    "japanese_title": "信頼度を活用した防衛による連合学習における悪意ある攻撃の緩和",
+    "authors": [
+      "Qilei Li",
+      "Ahmed M. Abdelmoniem"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はプライベートなデータを共有せずにグローバルモデルを協力して訓練する。\n- 従来の防衛法は単一の攻撃タイプに焦点を当て、多様なデータ中毒攻撃に対応できない。\n- モデル信頼度スコアに基づいてクライアント更新の不確実性を評価し、悪意ある更新を検出・防衛。\n- 提案手法は攻撃に対するロバスト性を向上させ、様々なシナリオでモデル精度と安定性を向上。\n\n攻撃への対応がまるでゲームのバフとデバフみたいじゃない？これ、実社会でも多用途に使われそうでワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-05T20:27:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02766",
+    "title": "ConDL: Detector-Free Dense Image Matching",
+    "japanese_title": "ConDL: ディテクターフリーの密画像マッチング",
+    "authors": [
+      "Monika Kwiatkowski",
+      "Simon Matern",
+      "Olaf Hellwich"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 深層学習フレームワークを導入し、密な画像対応関係を推定\n- 解像度の高い特徴マップを生成し、各ピクセルにマッチ可能な記述子を付与\n- 合成データに基づき、透視変化や照明変化、影、反射を含む大きな歪みに対する不変性を実現\n- キーポイントディテクターを不要にし、既存の技術とは異なる方法で画像をマッチング\n\n画像をより正確にマッチングできるってすごくない？これ、写真の加工とかにも活用できそうで楽しみだよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-05T18:34:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02750",
+    "title": "Privacy-Safe Iris Presentation Attack Detection",
+    "japanese_title": "プライバシー安全な虹彩プレゼンテーション攻撃検出",
+    "authors": [
+      "Mahsa Mitcheff",
+      "Patrick Tinsley",
+      "Adam Czajka"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "comment": "",
+    "summary": "- 身元漏洩のない合成虹彩画像を使用してプライバシー安全な虹彩プレゼンテーション攻撃検出方法を提案\n- ISO/IEC 19794-6に準拠する虹彩画像生成の2つの生成モデルを設計\n- 合成データのみで訓練したモデルは人間から収集した虹彩画像で訓練した場合より性能が低め\n- 生成モデルの精度が向上すればプライバシー安全な虹彩プレゼンテーション攻撃検出の可能性が示唆される\n\n合成データだけで虹彩攻撃を検出するなんて新しい取り組みだね！実際のデータでなくても効果があるなら、プライバシー保護が強化できそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-05T18:09:02+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.02501",
     "title": "Fair Resource Allocation For Hierarchical Federated Edge Learning in Space-Air-Ground Integrated Networks via Deep Reinforcement Learning with Hybrid Control",
     "japanese_title": "階層的連合エッジ学習のための公平なリソース割り当て：宇宙・空中・地上統合ネットワークにおけるハイブリッド制御を用いた深層強化学習によるアプローチ",
@@ -21,6 +228,30 @@
       "連合学習"
     ],
     "published": "2024-08-05T14:22:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.02712",
+    "title": "Automatic Voice Identification after Speech Resynthesis using PPG",
+    "japanese_title": "PPGを用いた再合成音声による自動音声識別",
+    "authors": [
+      "Thibault Gaudier",
+      "Marie Tahon",
+      "Anthony Larcher",
+      "Yannick Estève"
+    ],
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.NE",
+      "eess.AS",
+      "eess.SP"
+    ],
+    "comment": "",
+    "summary": "- 音声再合成は、入力音声を基に別の音声を生成するタスクで、メディアモニタやジャーナリストに応用可能\n- 音声変換では話者のアイデンティティを変え、言語情報を保持し、音声編集では話者のアイデンティティを保持するが一部の言葉を変更\n- どちらの場合も中間表現で話者と音素の内容を分離する必要がある\n- PPGに基づく音声再合成システムが正しい音声品質を生成し、再合成後の音声から元の話者を自動話者認証モデルが特定できないことを示す\n\nPPGって中立なのがすごいよね。話者が変わったことを特定できないなんて、これが未来のメディア技術だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-05T13:59:40+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2408.02427",
@@ -955,6 +1186,28 @@
       "差分プライバシー"
     ],
     "published": "2024-07-31T14:17:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03151",
+    "title": "Optimizing Disease Prediction with Artificial Intelligence Driven Feature Selection and Attention Networks",
+    "japanese_title": "人工知能を用いた特徴選択とアテンションネットワークによる病気予測の最適化",
+    "authors": [
+      "D. Dhinakaran",
+      "S. Edwin Raja",
+      "M. Thiyagarajan",
+      "J. Jeno Jasmine",
+      "P. Raghavan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "16 Pages, 4 Figures",
+    "summary": "- 機械学習は医療分野で革新的な病気予測戦略を生み出している\n- SEV-EBアルゴリズムを用い、統計的・深層的特徴を結合し最適な特徴選択を実現\n- 提案された合成モデルは、短期的パターンと長期的依存性を捉えるHSC-AttentionNetを採用\n- 精度95%、F1スコア94%を達成し、従来の方法を超える性能を示した\n\n技術と医療の融合がどんどん進んでいくこの時代、こういった研究がどれだけ人の命を救うのか楽しみすぎる！また、今後はもっと多くの病気にも応用されていくといいなぁ。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-07-31T14:12:27+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2407.21616",

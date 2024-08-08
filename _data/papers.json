@@ -1,5 +1,75 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.03657",
+    "title": "PHOCUS: Physics-Based Deconvolution for Ultrasound Resolution Enhancement",
+    "japanese_title": "PHOCUS: 超音波解像度向上のための物理ベースデコンボリューション",
+    "authors": [
+      "Felix Duelmer",
+      "Walter Simson",
+      "Mohammad Farid Azampour",
+      "Magdalena Wysocki",
+      "Angelos Karlas",
+      "Nassir Navab"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Accepted at the Workshop of Advances in Simplifying Medical   Ultrasound at MICCAI 2024",
+    "summary": "- 超音波画像は回折と有限開口による解像度の制限があり、診断用途が制約される\n- 従来のデコンボリューション技術は無線周波(RF)データに直接依存していたが、アクセスが困難\n- 提案手法は、Bモード画像に基づく物理ベースのデコンボリューションとINRを用いて連続的なエコー強度マップを生成する\n- 合成データや実測データで評価し、従来法よりもPSNRおよびSSIMでの改善を示した\n\n超音波画像の解像度が上がれば、診断の精度がもっと高まるね！Bモード画像だけで高品質にできるなんて絶対便利だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-07T09:52:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03496",
+    "title": "A three-stage method for reconstructing multiple coefficients in coupled photoacoustic and diffuse optical imaging",
+    "japanese_title": "連続した光音響および拡散光学イメージングにおける複数の係数を再構成するための三段階法",
+    "authors": [
+      "Yinxi Pan",
+      "Kui Ren",
+      "Shanyin Tong"
+    ],
+    "categories": [
+      "math.NA",
+      "cs.NA",
+      "math.OC",
+      "physics.comp-ph",
+      "physics.med-ph",
+      "35J47, 35R30, 49M15, 65M32, 78A46, 78A60, 78A70, 80A23, 92C55, 94A08"
+    ],
+    "comment": "",
+    "summary": "- 吸収係数、拡散係数、グリューナイゼン係数の同時再構成を目指した三段階の画像再構成法を提案\n- グリューナイゼン係数が既知の場合、光測定の追加により散乱係数と吸収係数の再構成精度向上\n- グリューナイゼン係数が未知の場合でも、光測定によりグリューナイゼン、散乱、および吸収係数を一意に再構成できる\n- 合成データを基にした数値シミュレーションで提案手法の有効性を実証\n\nこの研究ってすごくおもしろいね！未知のグリューナイゼン係数も再構成できるなんて、実際の応用がいっぱいありそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-07T01:33:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.03446",
+    "title": "Optimizing NOMA Transmissions to Advance Federated Learning in Vehicular Networks",
+    "japanese_title": "車両ネットワークにおける連合学習を進歩させるためのNOMA伝送の最適化",
+    "authors": [
+      "Ziru Chen",
+      "Zhou Ni",
+      "Peiyuan Guan",
+      "Lu Wang",
+      "Lin X. Cai",
+      "Morteza Hashemi",
+      "Zongzhi Li"
+    ],
+    "categories": [
+      "cs.NI",
+      "eess.SP"
+    ],
+    "comment": "The paper is accepted by IEEE Globecom 2024",
+    "summary": "- IoTデバイスが収集する位置情報や運転パターンは、運転体験と道路安全を向上させる\n- プライバシー保護のために、生データではなくモデルパラメータを送信する連合車両ネットワーク（FVN）が有望\n- 連合学習（FL）の性能は加入率に依存し、無線リソースの制限で制約される\n- 非直交多元接続（NOMA）を適用し、車両選択と送信電力制御で加入率を向上させる戦略を提案\n\n連合学習とNOMAの組み合わせがすごく面白そう！車がもっと効率よく情報を共有できる未来が見えてくるね。これで運転体験も道路安全も向上するなんて最高じゃん！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-06T20:54:39+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.03256",
     "title": "Synthesizing Text-to-SQL Data from Weak and Strong LLMs",
     "japanese_title": "弱および強いLLMからのText-to-SQLデータの合成",

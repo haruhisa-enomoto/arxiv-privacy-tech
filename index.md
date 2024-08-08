@@ -27,213 +27,61 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-07T04:20:57.377471
+更新: 2024-08-08T04:21:32.476156
 
 - - -
 
-### [Synthesizing Text-to-SQL Data from Weak and Strong LLMs](http://arxiv.org/abs/2408.03256)
+### [PHOCUS: Physics-Based Deconvolution for Ultrasound Resolution Enhancement](http://arxiv.org/abs/2408.03657)
 
-**弱および強いLLMからのText-to-SQLデータの合成**
+**PHOCUS: 超音波解像度向上のための物理ベースデコンボリューション**
 
-Jiaxi Yang, Binyuan Hui, Min Yang, Jian Yang, Junyang Lin, Chang Zhou
+Felix Duelmer, Walter Simson, Mohammad Farid Azampour, Magdalena Wysocki, Angelos Karlas, Nassir Navab
 
-- オープンソースとクローズドソースの大規模言語モデル（LLM）間の能力格差が課題
-- 強力なモデルが生成するデータと、弱いモデルのエラー情報データを組み合わせた合成データアプローチを提案
-- 合成データアプローチを用いて、オープンソースLLMのインストラクションチューニングを行い、SENSEモデルを作成
-- SPIDERおよびBIRDベンチマークで最先端の結果を示し、オープンソースモデルとクローズドソースモデル間の性能差を埋める
+- 超音波画像は回折と有限開口による解像度の制限があり、診断用途が制約される
+- 従来のデコンボリューション技術は無線周波(RF)データに直接依存していたが、アクセスが困難
+- 提案手法は、Bモード画像に基づく物理ベースのデコンボリューションとINRを用いて連続的なエコー強度マップを生成する
+- 合成データや実測データで評価し、従来法よりもPSNRおよびSSIMでの改善を示した
 
-強いと弱いモデルを組み合わせて、新しい方法で性能向上を目指すのが面白いよね！結果もすごく良さそうだし、試してみる価値ありそうだなって思ったよ。
+超音波画像の解像度が上がれば、診断の精度がもっと高まるね！Bモード画像だけで高品質にできるなんて絶対便利だよね。
 
-**Comment:** 12 pages, 7 figures, ACL 2024
+**Comment:** Accepted at the Workshop of Advances in Simplifying Medical   Ultrasound at MICCAI 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, **投稿日時:** 2024-08-06 15:40
-
-- - -
-
-### [Masked Random Noise for Communication Efficient Federaetd Learning](http://arxiv.org/abs/2408.03220)
-
-**通信効率の高い連合学習のためのマスク付きランダムノイズ**
-
-Shiwei Li, Yingyi Cheng, Haozhao Wang, Xing Tang, Shijie Xu, Weihong Luo, Yuhua Li, Dugang Liu, Xiuqiang He, and Ruixuan Li
-
-- 連合学習はデータプライバシーを効果的に保護するが、通信コストが高くなる場合がある
-- 分散クライアントにモデル更新をグローバルモデル相対で最適化させるためにランダムノイズを利用
-- FedMRNというフレームワークを提案し、各モデルパラメータに対して1ビットのマスクを学習
-- 実験結果から、FedMRNは他のベースラインと比較して優れた収束速度とテスト精度を示した
-
-新しい視点から通信効率を上げるって面白い発想だよね！実験結果も良好みたいだから、実用化が楽しみだな。
-
-**Comment:** Accepted by MM 2024
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-06 14:26
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-07 09:52
 
 - - -
 
-### [FedBAT: Communication-Efficient Federated Learning via Learnable Binarization](http://arxiv.org/abs/2408.03215)
+### [A three-stage method for reconstructing multiple coefficients in coupled photoacoustic and diffuse optical imaging](http://arxiv.org/abs/2408.03496)
 
-**FedBAT: 学習可能な二値化による通信効率の高い連合学習**
+**連続した光音響および拡散光学イメージングにおける複数の係数を再構成するための三段階法**
 
-Shiwei Li, Wenchao Xu, Haozhao Wang, Xing Tang, Yining Qi, Shijie Xu, Weihong Luo, Yuhua Li, Xiuqiang He, Ruixuan Li
+Yinxi Pan, Kui Ren, Shanyin Tong
 
-- 連合学習は大規模データをプライバシーを守りつつ利用できるが、通信の負荷が高い課題がある
-- モデル更新を二値化する従来手法は誤差が大きく、学習精度が低下することが多い
-- FedBATは局所学習中に直接二値化を行い、誤差を減少させる新しい枠組みを提案
-- 実験結果ではFedBATが収束を大幅に速め、従来手法より最大9%精度向上を達成
+- 吸収係数、拡散係数、グリューナイゼン係数の同時再構成を目指した三段階の画像再構成法を提案
+- グリューナイゼン係数が既知の場合、光測定の追加により散乱係数と吸収係数の再構成精度向上
+- グリューナイゼン係数が未知の場合でも、光測定によりグリューナイゼン、散乱、および吸収係数を一意に再構成できる
+- 合成データを基にした数値シミュレーションで提案手法の有効性を実証
 
-通信負荷を減らしつつ精度を高める手法を提案しているのがすごいよね！FedBATの未来が楽しみ！
+この研究ってすごくおもしろいね！未知のグリューナイゼン係数も再構成できるなんて、実際の応用がいっぱいありそうだね。
 
-**Comment:** Accepted by ICML 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-06 14:19
 
-- - -
-
-### [Personalizing Federated Instrument Segmentation with Visual Trait Priors in Robotic Surgery](http://arxiv.org/abs/2408.03208)
-
-**ロボット手術における視覚特性事前情報を用いた連合学習による手術器具セグメンテーションの個別化**
-
-Jialang Xu, Jiacheng Wang, Lequan Yu, Danail Stoyanov, Yueming Jin, Evangelos B. Mazomenos
-
-- 個別化連合学習（PFL）は、複数の臨床サイトがプライバシーを保ちながら協力してモデルを訓練する手法
-- 既存のPFLは多頭型自己注意の個別化や手術シーン特有の外観多様性・器具形状類似性を考慮していない
-- 提案手法のPFedSISは、GPD、APE、SGEを取り入れ各サイトのSIS性能を向上
-- PFedSISは既存手法よりも性能が向上し、Diceで+1.51%、IoUで+2.11%の改善を達成
-
-新しい手法で手術器具のセグメンテーションがもっと正確になりそうでワクワクする！ロボット手術の未来がもっと進化しそうだね。
-
-**Comment:** 9 pages, 3 figures, under review
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.RO, physics.med-ph, **投稿日時:** 2024-08-06 14:06
+**トピック:** [合成データ](sd), **カテゴリ:** math.NA, cs.NA, math.OC, physics.comp-ph, physics.med-ph, 35J47, 35R30, 49M15, 65M32, 78A46, 78A60, 78A70, 80A23, 92C55, 94A08, **投稿日時:** 2024-08-07 01:33
 
 - - -
 
-### [Federated Learning Architectures: A Performance Evaluation with Crop Yield Prediction Application](http://arxiv.org/abs/2408.02998)
+### [Optimizing NOMA Transmissions to Advance Federated Learning in Vehicular Networks](http://arxiv.org/abs/2408.03446)
 
-**連合学習アーキテクチャ: 作物収量予測アプリケーションによるパフォーマンス評価**
+**車両ネットワークにおける連合学習を進歩させるためのNOMA伝送の最適化**
 
-Anwesha Mukherjee, Rajkumar Buyya
+Ziru Chen, Zhou Ni, Peiyuan Guan, Lu Wang, Lin X. Cai, Morteza Hashemi, Zongzhi Li
 
-- IoTアプリ向け連合学習を使用し、LSTMネットワークで作物収量を予測
-- 集中型連合学習はクライアントとサーバーでモデル更新を集約
-- 分散型連合学習はデバイス間でモデル更新を行い、リングまたはメッシュトポロジーを使用
-- 集中型と分散型連合学習は97%と97.5%以上の予測精度を達成し、集中型は応答時間を75%短縮
+- IoTデバイスが収集する位置情報や運転パターンは、運転体験と道路安全を向上させる
+- プライバシー保護のために、生データではなくモデルパラメータを送信する連合車両ネットワーク（FVN）が有望
+- 連合学習（FL）の性能は加入率に依存し、無線リソースの制限で制約される
+- 非直交多元接続（NOMA）を適用し、車両選択と送信電力制御で加入率を向上させる戦略を提案
 
-想像してみて、作物の収量予測を連合学習で実現なんて素晴らしい！未来の農業がもっと効率的になるかもね。
+連合学習とNOMAの組み合わせがすごく面白そう！車がもっと効率よく情報を共有できる未来が見えてくるね。これで運転体験も道路安全も向上するなんて最高じゃん！
 
+**Comment:** The paper is accepted by IEEE Globecom 2024
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-06 07:05
-
-- - -
-
-### [HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy Protection](http://arxiv.org/abs/2408.02927)
-
-**HARMONIC: LLMを活用した表形式データの生成とプライバシー保護**
-
-Yuxin Wang, Duanyu Feng, Yongfu Dai, Zhengyu Chen, Jimin Huang, Sophia Ananiadou, Qianqian Xie, Hao Wang
-
-- LLMの活用によるリアルなプライバシー保護型の合成データ生成が急務
-- kNNアルゴリズムの概念で指示微調整データセットを構築
-- 微調整によりデータ自体ではなくフォーマットと接続を記憶させる手法
-- 評価部分では特定のプライバシーリスク指標DLTと性能評価指標LLEを開発
-
-大規模なLLMで繊細なデータをさわるのってすごく興味深いことだよね！新しいプライバシー保護の方法とか、未来が明るく感じられる！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.CL, cs.CR, **投稿日時:** 2024-08-06 03:21
-
-- - -
-
-### [Mitigating Malicious Attacks in Federated Learning via Confidence-aware Defense](http://arxiv.org/abs/2408.02813)
-
-**信頼度を活用した防衛による連合学習における悪意ある攻撃の緩和**
-
-Qilei Li, Ahmed M. Abdelmoniem
-
-- 連合学習はプライベートなデータを共有せずにグローバルモデルを協力して訓練する。
-- 従来の防衛法は単一の攻撃タイプに焦点を当て、多様なデータ中毒攻撃に対応できない。
-- モデル信頼度スコアに基づいてクライアント更新の不確実性を評価し、悪意ある更新を検出・防衛。
-- 提案手法は攻撃に対するロバスト性を向上させ、様々なシナリオでモデル精度と安定性を向上。
-
-攻撃への対応がまるでゲームのバフとデバフみたいじゃない？これ、実社会でも多用途に使われそうでワクワクするね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, cs.CV, cs.DC, **投稿日時:** 2024-08-05 20:27
-
-- - -
-
-### [ConDL: Detector-Free Dense Image Matching](http://arxiv.org/abs/2408.02766)
-
-**ConDL: ディテクターフリーの密画像マッチング**
-
-Monika Kwiatkowski, Simon Matern, Olaf Hellwich
-
-- 深層学習フレームワークを導入し、密な画像対応関係を推定
-- 解像度の高い特徴マップを生成し、各ピクセルにマッチ可能な記述子を付与
-- 合成データに基づき、透視変化や照明変化、影、反射を含む大きな歪みに対する不変性を実現
-- キーポイントディテクターを不要にし、既存の技術とは異なる方法で画像をマッチング
-
-画像をより正確にマッチングできるってすごくない？これ、写真の加工とかにも活用できそうで楽しみだよね！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-08-05 18:34
-
-- - -
-
-### [Privacy-Safe Iris Presentation Attack Detection](http://arxiv.org/abs/2408.02750)
-
-**プライバシー安全な虹彩プレゼンテーション攻撃検出**
-
-Mahsa Mitcheff, Patrick Tinsley, Adam Czajka
-
-- 身元漏洩のない合成虹彩画像を使用してプライバシー安全な虹彩プレゼンテーション攻撃検出方法を提案
-- ISO/IEC 19794-6に準拠する虹彩画像生成の2つの生成モデルを設計
-- 合成データのみで訓練したモデルは人間から収集した虹彩画像で訓練した場合より性能が低め
-- 生成モデルの精度が向上すればプライバシー安全な虹彩プレゼンテーション攻撃検出の可能性が示唆される
-
-合成データだけで虹彩攻撃を検出するなんて新しい取り組みだね！実際のデータでなくても効果があるなら、プライバシー保護が強化できそう！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, eess.IV, **投稿日時:** 2024-08-05 18:09
-
-- - -
-
-### [Automatic Voice Identification after Speech Resynthesis using PPG](http://arxiv.org/abs/2408.02712)
-
-**PPGを用いた再合成音声による自動音声識別**
-
-Thibault Gaudier, Marie Tahon, Anthony Larcher, Yannick Estève
-
-- 音声再合成は、入力音声を基に別の音声を生成するタスクで、メディアモニタやジャーナリストに応用可能
-- 音声変換では話者のアイデンティティを変え、言語情報を保持し、音声編集では話者のアイデンティティを保持するが一部の言葉を変更
-- どちらの場合も中間表現で話者と音素の内容を分離する必要がある
-- PPGに基づく音声再合成システムが正しい音声品質を生成し、再合成後の音声から元の話者を自動話者認証モデルが特定できないことを示す
-
-PPGって中立なのがすごいよね。話者が変わったことを特定できないなんて、これが未来のメディア技術だよね。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.SD, cs.AI, cs.NE, eess.AS, eess.SP, **投稿日時:** 2024-08-05 13:59
-
-- - -
-
-### [Optimizing Disease Prediction with Artificial Intelligence Driven Feature Selection and Attention Networks](http://arxiv.org/abs/2408.03151)
-
-**人工知能を用いた特徴選択とアテンションネットワークによる病気予測の最適化**
-
-D. Dhinakaran, S. Edwin Raja, M. Thiyagarajan, J. Jeno Jasmine, P. Raghavan
-
-- 機械学習は医療分野で革新的な病気予測戦略を生み出している
-- SEV-EBアルゴリズムを用い、統計的・深層的特徴を結合し最適な特徴選択を実現
-- 提案された合成モデルは、短期的パターンと長期的依存性を捉えるHSC-AttentionNetを採用
-- 精度95%、F1スコア94%を達成し、従来の方法を超える性能を示した
-
-技術と医療の融合がどんどん進んでいくこの時代、こういった研究がどれだけ人の命を救うのか楽しみすぎる！また、今後はもっと多くの病気にも応用されていくといいなぁ。
-
-**Comment:** 16 Pages, 4 Figures
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-07-31 14:12
+**トピック:** [連合学習](fl), **カテゴリ:** cs.NI, eess.SP, **投稿日時:** 2024-08-06 20:54

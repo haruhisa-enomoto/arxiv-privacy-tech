@@ -1,5 +1,231 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.04614",
+    "title": "Better Alignment with Instruction Back-and-Forth Translation",
+    "japanese_title": "命令の前後翻訳によるより良い整合性",
+    "authors": [
+      "Thao Nguyen",
+      "Jeffrey Li",
+      "Sewoong Oh",
+      "Ludwig Schmidt",
+      "Jason Weston",
+      "Luke Zettlemoyer",
+      "Xian Li"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 命令の前後翻訳を用いて高品質な合成データを生成し、LLMを整合させる\n- Webコーパスの文書から合成命令を生成し、さらに文書を基に応答を改良\n- (前後翻訳命令、改良応答)ペアでファインチューニングし、他の命令データセットより高い勝率を達成\n- 前後翻訳命令は他の合成命令よりも高品質で、応答も蒸留法より多様かつ複雑\n\n前後翻訳って面白そう！今後、AIの応答がもっと人間らしく、賢くなるかも。どんな応答が返ってくるのか試してみたいね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-08T17:42:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04594",
+    "title": "Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models",
+    "japanese_title": "Img-Diff: マルチモーダル大規模言語モデルのための対比データ合成",
+    "authors": [
+      "Qirui Jiao",
+      "Daoyuan Chen",
+      "Yilun Huang",
+      "Yaliang Li",
+      "Ying Shen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "comment": "14 pages, 9 figures, 7 tables",
+    "summary": "- 対比学習と画像差分キャプションを活用し、細かな画像認識を向上させる新たなデータセットを提案\n- Stable-Diffusion-XLモデルと高度な画像編集技術を用いて「オブジェクト置換」を強調した類似画像のペアを作成\n- 提案データセットでMLLMsを微調整し、画像差分および視覚的質問応答タスクで性能スコアが飛躍的に向上\n- 「オブジェクト削除」などの代替生成方法を調査し、データセットの多様性、品質、堅牢性を確認\n\nマルチモーダルな画像理解の向上ってすごいよね。実際のデータも公開されてるみたいだし、今後の研究が楽しみだな！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-08T17:10:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04478",
+    "title": "NFDI4Health workflow and service for synthetic data generation, assessment and risk management",
+    "japanese_title": "合成データ生成、評価、およびリスク管理のためのNFDI4Healthワークフローとサービス",
+    "authors": [
+      "Sobhan Moazemi",
+      "Tim Adams",
+      "Hwei Geok NG",
+      "Lisa Kühnel",
+      "Julian Schneider",
+      "Anatol-Fiete Näher",
+      "Juliane Fluck",
+      "Holger Fröhlich"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "9 pages, 4 figures, accepted for publication in the proceedings of   the 69th Annual Conference of the Society for Medical Informatics, Biometry   and Epidemiology (GMDS)",
+    "summary": "- 個人の健康データは科学の進歩に不可欠だが、プライバシーの懸念から共有が制限されることが多い\n- 合成データ生成は、実際のデータの統計的特性を模倣しながら機密情報を保護する技術である\n- NFDI4Healthプロジェクトにおいて、VAMBNとMultiNODEという2つのAIツールが最先端の合成データ生成ツールとして活用されている\n- SYNDATは公開されたウェブベースのツールであり、生成モデルによる合成データの品質とリスクを視覚化・評価することができる\n\n実際の患者データを使わずにAIを開発できるようになるって未来感がすごい！SYNDATみたいなツールが普及したら、もっと安心してデータ使えちゃうね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-08T14:08:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04442",
+    "title": "FedAD-Bench: A Unified Benchmark for Federated Unsupervised Anomaly Detection in Tabular Data",
+    "japanese_title": "FedAD-Bench: 表形式データにおける連合型教師なし異常検知のための統一ベンチマーク",
+    "authors": [
+      "Ahmed Anwar",
+      "Brian Moser",
+      "Dayananda Herurkar",
+      "Federico Raue",
+      "Vinit Hegiste",
+      "Tatjana Legler",
+      "Andreas Dengel"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "8 pages, 1 figure",
+    "summary": "- 連合学習（FL）は、分散データをプライバシーを保ちながら活用する有望なアプローチ\n- FLと異常検知の組み合わせにより、サイバーセキュリティや医療などの重要かつ希少な異常を検出可能\n- FedAD-Benchは、FL環境下での教師なし異常検知アルゴリズムを評価するための統一ベンチマーク\n- 実験でモデルの統合効率の低さや指標の信頼性の問題を特定、FLの正則化効果で過学習を軽減\n\n面白そう！異常検知がFLでどう強化されるのか気になるよね。医療分野とかで安全にデータ使えるようになったら、すごいって思う！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T13:14:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04315",
+    "title": "Federated Cubic Regularized Newton Learning with Sparsification-amplified Differential Privacy",
+    "japanese_title": "連合学習におけるスパース化を強化した差分プライバシーによるキュービック正則化ニュートン法",
+    "authors": [
+      "Wei Huo",
+      "Changxin Liu",
+      "Kemi Ding",
+      "Karl Henrik Johansson",
+      "Ling Shi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "",
+    "summary": "- トピックは連合学習とプライバシー漏洩や通信ボトルネックの問題\n- キュービック正則化ニュートン法を導入し、従来の一階手法より繰り返し複雑度を低減\n- ノイズ付加によるプライバシー確保と、アップリンクのスパース化で通信コストを削減\n- アルゴリズムの収束特性とプライバシー保証を分析し、ベンチマークデータセットで有効性を実証\n\nタイトルからして新しい手法だよね。効果的なプライバシー保護が連合学習でどれだけ進んでるか気になる！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T08:48:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04310",
+    "title": "Constructing Adversarial Examples for Vertical Federated Learning: Optimal Client Corruption through Multi-Armed Bandit",
+    "japanese_title": "縦型連合学習（VFL）のための敵対的サンプル構築：バンディットアルゴリズムによる最適クライアント破損",
+    "authors": [
+      "Duanyi Yao",
+      "Songze Li",
+      "Ye Xue",
+      "Jin Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "Published on ICLR2024",
+    "summary": "- VFLは金融、医療、IoTシステムなどで多くの応用がある\n- 敵対例の注入による攻撃がVFLモデルのセキュリティに重大な挑戦をもたらす\n- 問題をオンライン最適化問題として定式化し、AE生成と破損パターン選択に分解\n- 最適な破損パターンを効率的に特定するE-TSアルゴリズムを提案し、その有効性を実証\n\nVFLのセキュリティに関する研究、ちょっとスリリングだね。どんなふうに敵対例が効率よく見つかるか、実際に見てみたいな！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T08:42:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04301",
+    "title": "Tackling Noisy Clients in Federated Learning with End-to-end Label Correction",
+    "japanese_title": "連合学習におけるノイズの多いクライアントへの対処とエンドツーエンドのラベル補正",
+    "authors": [
+      "Xuefeng Jiang",
+      "Sheng Sun",
+      "Jia Li",
+      "Jingjing Xue",
+      "Runhan Li",
+      "Zhiyuan Wu",
+      "Gang Xu",
+      "Yuwei Wang",
+      "Min Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "To appear in ACM CIKM'24 full research paper track",
+    "summary": "- 連合学習はプライバシー保護をしつつ多様なアプリケーションで成功しているが、クライアントデータのラベルノイズが問題\n- ラベルノイズの多いクライアントが多くの誤情報を含むため、パフォーマンス低下の主因となる\n- 提案するFedELCは2段階のフレームワークで、第一段階でノイズの多いクライアントを検出し、第二段階でラベルを補正する\n- 16の関連手法を実装し、5つのデータセットで評価を行った結果、提案手法が優れたパフォーマンスを示した\n\nノイズの多いデータが問題なんて、想像してなかった！FedELCのおかげでデータの質がグッと上がってすごい。未来の連合学習がもっと進化しそうで楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T08:35:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04206",
+    "title": "DC Algorithm for Estimation of Sparse Gaussian Graphical Models",
+    "japanese_title": "スパースガウシアン・グラフィカルモデルの推定のためのDCアルゴリズム",
+    "authors": [
+      "Tomokaze Shiratori",
+      "Yuichi Takano"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- ガウシアン・グラフィカルモデルのスパース推定は、多数の観測変数関係を解釈しやすくする技術\n- 既存手法の多くは$\\ell_0$ノルムを凸関数で近似し、直接扱うことに課題\n- 本研究では$\\ell_0$ノルムを直接用いて、DCアルゴリズム(DCA)で解決する手法を提案\n- 合成データでの実験結果から、既存手法と同等またはそれ以上の性能を示し、特に真のエッジ選択に有利\n\nDCAを使って直接的なアプローチを取るところがすごく革新的だね！モデルのエッジ選択が正確になるなら実用性も高そう。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-08T04:05:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04188",
+    "title": "Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and Privacy-preserving Perspective",
+    "japanese_title": "信頼できるセマンティック対応6G通信：タスク指向およびプライバシー保護の視点",
+    "authors": [
+      "Shuaishuai Guo",
+      "Anbang Zhang",
+      "Yanhu Wang",
+      "Chenyuan Feng",
+      "Tony Q. S. Quek"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "",
+    "summary": "- 信頼できるタスク指向セマンティック通信（ToSC）は、6Gで重要な情報のみを伝達する新しいアプローチ\n- ToSCは効率的だが、送信されたデータから元データが再構成されるプライバシーの懸念がある\n- DeepJSCCに基づくプライバシー保護策を解析、差分プライバシーや暗号化などの特徴摂動方法を比較\n- 説明可能な学習アルゴリズムの統合が、新たな6G時代のプライバシー基準を設定することを強調\n\n6G時代の通信がどんどん進化していくなんてワクワクするね！プライバシーもちゃんと守られるようになったら安心だな。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-08T03:16:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04119",
+    "title": "Active Inference in Contextual Multi-Armed Bandits for Autonomous Robotic Exploration",
+    "japanese_title": "文脈付き多腕バンディットにおける能動的推論による自律ロボット探査",
+    "authors": [
+      "Shohei Wakayama",
+      "Alberto Candela",
+      "Paul Hayne",
+      "Nisar Ahmed"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "10 pages, 12 figures, submitted to IEEE Transactions on Robotics",
+    "summary": "- 不確実な環境で複数の選択肢から最適なデータ収集オプションの自律的選択は難しい\n- 能動的推論は探索と利用のバランスを取るための期待自由エネルギー目的関数を使用\n- 現実的なシナリオで能動的推論を適用し、鉱物学的調査サイト選定問題をシミュレーション\n- 能動的推論は、標準バンディット手法よりも少ない反復回数で成果を上げ、専門家の好みの変動に対応可能\n\n能動的推論ってすごいよね！未来のロボットがどんどん賢くなって、自分で考えて行動するんだね。今後の技術の進展が楽しみだなって思う。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-07T23:00:03+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.03657",
     "title": "PHOCUS: Physics-Based Deconvolution for Ultrasound Resolution Enhancement",
     "japanese_title": "PHOCUS: 超音波解像度向上のための物理ベースデコンボリューション",

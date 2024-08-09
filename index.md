@@ -27,61 +27,194 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-08T04:21:32.476156
+更新: 2024-08-09T04:20:11.642543
 
 - - -
 
-### [PHOCUS: Physics-Based Deconvolution for Ultrasound Resolution Enhancement](http://arxiv.org/abs/2408.03657)
+### [Better Alignment with Instruction Back-and-Forth Translation](http://arxiv.org/abs/2408.04614)
 
-**PHOCUS: 超音波解像度向上のための物理ベースデコンボリューション**
+**命令の前後翻訳によるより良い整合性**
 
-Felix Duelmer, Walter Simson, Mohammad Farid Azampour, Magdalena Wysocki, Angelos Karlas, Nassir Navab
+Thao Nguyen, Jeffrey Li, Sewoong Oh, Ludwig Schmidt, Jason Weston, Luke Zettlemoyer, Xian Li
 
-- 超音波画像は回折と有限開口による解像度の制限があり、診断用途が制約される
-- 従来のデコンボリューション技術は無線周波(RF)データに直接依存していたが、アクセスが困難
-- 提案手法は、Bモード画像に基づく物理ベースのデコンボリューションとINRを用いて連続的なエコー強度マップを生成する
-- 合成データや実測データで評価し、従来法よりもPSNRおよびSSIMでの改善を示した
+- 命令の前後翻訳を用いて高品質な合成データを生成し、LLMを整合させる
+- Webコーパスの文書から合成命令を生成し、さらに文書を基に応答を改良
+- (前後翻訳命令、改良応答)ペアでファインチューニングし、他の命令データセットより高い勝率を達成
+- 前後翻訳命令は他の合成命令よりも高品質で、応答も蒸留法より多様かつ複雑
 
-超音波画像の解像度が上がれば、診断の精度がもっと高まるね！Bモード画像だけで高品質にできるなんて絶対便利だよね。
-
-**Comment:** Accepted at the Workshop of Advances in Simplifying Medical   Ultrasound at MICCAI 2024
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-07 09:52
-
-- - -
-
-### [A three-stage method for reconstructing multiple coefficients in coupled photoacoustic and diffuse optical imaging](http://arxiv.org/abs/2408.03496)
-
-**連続した光音響および拡散光学イメージングにおける複数の係数を再構成するための三段階法**
-
-Yinxi Pan, Kui Ren, Shanyin Tong
-
-- 吸収係数、拡散係数、グリューナイゼン係数の同時再構成を目指した三段階の画像再構成法を提案
-- グリューナイゼン係数が既知の場合、光測定の追加により散乱係数と吸収係数の再構成精度向上
-- グリューナイゼン係数が未知の場合でも、光測定によりグリューナイゼン、散乱、および吸収係数を一意に再構成できる
-- 合成データを基にした数値シミュレーションで提案手法の有効性を実証
-
-この研究ってすごくおもしろいね！未知のグリューナイゼン係数も再構成できるなんて、実際の応用がいっぱいありそうだね。
+前後翻訳って面白そう！今後、AIの応答がもっと人間らしく、賢くなるかも。どんな応答が返ってくるのか試してみたいね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** math.NA, cs.NA, math.OC, physics.comp-ph, physics.med-ph, 35J47, 35R30, 49M15, 65M32, 78A46, 78A60, 78A70, 80A23, 92C55, 94A08, **投稿日時:** 2024-08-07 01:33
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2024-08-08 17:42
 
 - - -
 
-### [Optimizing NOMA Transmissions to Advance Federated Learning in Vehicular Networks](http://arxiv.org/abs/2408.03446)
+### [Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models](http://arxiv.org/abs/2408.04594)
 
-**車両ネットワークにおける連合学習を進歩させるためのNOMA伝送の最適化**
+**Img-Diff: マルチモーダル大規模言語モデルのための対比データ合成**
 
-Ziru Chen, Zhou Ni, Peiyuan Guan, Lu Wang, Lin X. Cai, Morteza Hashemi, Zongzhi Li
+Qirui Jiao, Daoyuan Chen, Yilun Huang, Yaliang Li, Ying Shen
 
-- IoTデバイスが収集する位置情報や運転パターンは、運転体験と道路安全を向上させる
-- プライバシー保護のために、生データではなくモデルパラメータを送信する連合車両ネットワーク（FVN）が有望
-- 連合学習（FL）の性能は加入率に依存し、無線リソースの制限で制約される
-- 非直交多元接続（NOMA）を適用し、車両選択と送信電力制御で加入率を向上させる戦略を提案
+- 対比学習と画像差分キャプションを活用し、細かな画像認識を向上させる新たなデータセットを提案
+- Stable-Diffusion-XLモデルと高度な画像編集技術を用いて「オブジェクト置換」を強調した類似画像のペアを作成
+- 提案データセットでMLLMsを微調整し、画像差分および視覚的質問応答タスクで性能スコアが飛躍的に向上
+- 「オブジェクト削除」などの代替生成方法を調査し、データセットの多様性、品質、堅牢性を確認
 
-連合学習とNOMAの組み合わせがすごく面白そう！車がもっと効率よく情報を共有できる未来が見えてくるね。これで運転体験も道路安全も向上するなんて最高じゃん！
+マルチモーダルな画像理解の向上ってすごいよね。実際のデータも公開されてるみたいだし、今後の研究が楽しみだな！
 
-**Comment:** The paper is accepted by IEEE Globecom 2024
+**Comment:** 14 pages, 9 figures, 7 tables
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.NI, eess.SP, **投稿日時:** 2024-08-06 20:54
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, **投稿日時:** 2024-08-08 17:10
+
+- - -
+
+### [NFDI4Health workflow and service for synthetic data generation, assessment and risk management](http://arxiv.org/abs/2408.04478)
+
+**合成データ生成、評価、およびリスク管理のためのNFDI4Healthワークフローとサービス**
+
+Sobhan Moazemi, Tim Adams, Hwei Geok NG, Lisa Kühnel, Julian Schneider, Anatol-Fiete Näher, Juliane Fluck, Holger Fröhlich
+
+- 個人の健康データは科学の進歩に不可欠だが、プライバシーの懸念から共有が制限されることが多い
+- 合成データ生成は、実際のデータの統計的特性を模倣しながら機密情報を保護する技術である
+- NFDI4Healthプロジェクトにおいて、VAMBNとMultiNODEという2つのAIツールが最先端の合成データ生成ツールとして活用されている
+- SYNDATは公開されたウェブベースのツールであり、生成モデルによる合成データの品質とリスクを視覚化・評価することができる
+
+実際の患者データを使わずにAIを開発できるようになるって未来感がすごい！SYNDATみたいなツールが普及したら、もっと安心してデータ使えちゃうね。
+
+**Comment:** 9 pages, 4 figures, accepted for publication in the proceedings of   the 69th Annual Conference of the Society for Medical Informatics, Biometry   and Epidemiology (GMDS)
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-08 14:08
+
+- - -
+
+### [FedAD-Bench: A Unified Benchmark for Federated Unsupervised Anomaly Detection in Tabular Data](http://arxiv.org/abs/2408.04442)
+
+**FedAD-Bench: 表形式データにおける連合型教師なし異常検知のための統一ベンチマーク**
+
+Ahmed Anwar, Brian Moser, Dayananda Herurkar, Federico Raue, Vinit Hegiste, Tatjana Legler, Andreas Dengel
+
+- 連合学習（FL）は、分散データをプライバシーを保ちながら活用する有望なアプローチ
+- FLと異常検知の組み合わせにより、サイバーセキュリティや医療などの重要かつ希少な異常を検出可能
+- FedAD-Benchは、FL環境下での教師なし異常検知アルゴリズムを評価するための統一ベンチマーク
+- 実験でモデルの統合効率の低さや指標の信頼性の問題を特定、FLの正則化効果で過学習を軽減
+
+面白そう！異常検知がFLでどう強化されるのか気になるよね。医療分野とかで安全にデータ使えるようになったら、すごいって思う！
+
+**Comment:** 8 pages, 1 figure
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-08-08 13:14
+
+- - -
+
+### [Federated Cubic Regularized Newton Learning with Sparsification-amplified Differential Privacy](http://arxiv.org/abs/2408.04315)
+
+**連合学習におけるスパース化を強化した差分プライバシーによるキュービック正則化ニュートン法**
+
+Wei Huo, Changxin Liu, Kemi Ding, Karl Henrik Johansson, Ling Shi
+
+- トピックは連合学習とプライバシー漏洩や通信ボトルネックの問題
+- キュービック正則化ニュートン法を導入し、従来の一階手法より繰り返し複雑度を低減
+- ノイズ付加によるプライバシー確保と、アップリンクのスパース化で通信コストを削減
+- アルゴリズムの収束特性とプライバシー保証を分析し、ベンチマークデータセットで有効性を実証
+
+タイトルからして新しい手法だよね。効果的なプライバシー保護が連合学習でどれだけ進んでるか気になる！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.SY, eess.SY, **投稿日時:** 2024-08-08 08:48
+
+- - -
+
+### [Constructing Adversarial Examples for Vertical Federated Learning: Optimal Client Corruption through Multi-Armed Bandit](http://arxiv.org/abs/2408.04310)
+
+**縦型連合学習（VFL）のための敵対的サンプル構築：バンディットアルゴリズムによる最適クライアント破損**
+
+Duanyi Yao, Songze Li, Ye Xue, Jin Liu
+
+- VFLは金融、医療、IoTシステムなどで多くの応用がある
+- 敵対例の注入による攻撃がVFLモデルのセキュリティに重大な挑戦をもたらす
+- 問題をオンライン最適化問題として定式化し、AE生成と破損パターン選択に分解
+- 最適な破損パターンを効率的に特定するE-TSアルゴリズムを提案し、その有効性を実証
+
+VFLのセキュリティに関する研究、ちょっとスリリングだね。どんなふうに敵対例が効率よく見つかるか、実際に見てみたいな！
+
+**Comment:** Published on ICLR2024
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-08-08 08:42
+
+- - -
+
+### [Tackling Noisy Clients in Federated Learning with End-to-end Label Correction](http://arxiv.org/abs/2408.04301)
+
+**連合学習におけるノイズの多いクライアントへの対処とエンドツーエンドのラベル補正**
+
+Xuefeng Jiang, Sheng Sun, Jia Li, Jingjing Xue, Runhan Li, Zhiyuan Wu, Gang Xu, Yuwei Wang, Min Liu
+
+- 連合学習はプライバシー保護をしつつ多様なアプリケーションで成功しているが、クライアントデータのラベルノイズが問題
+- ラベルノイズの多いクライアントが多くの誤情報を含むため、パフォーマンス低下の主因となる
+- 提案するFedELCは2段階のフレームワークで、第一段階でノイズの多いクライアントを検出し、第二段階でラベルを補正する
+- 16の関連手法を実装し、5つのデータセットで評価を行った結果、提案手法が優れたパフォーマンスを示した
+
+ノイズの多いデータが問題なんて、想像してなかった！FedELCのおかげでデータの質がグッと上がってすごい。未来の連合学習がもっと進化しそうで楽しみ！
+
+**Comment:** To appear in ACM CIKM'24 full research paper track
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-08-08 08:35
+
+- - -
+
+### [DC Algorithm for Estimation of Sparse Gaussian Graphical Models](http://arxiv.org/abs/2408.04206)
+
+**スパースガウシアン・グラフィカルモデルの推定のためのDCアルゴリズム**
+
+Tomokaze Shiratori, Yuichi Takano
+
+- ガウシアン・グラフィカルモデルのスパース推定は、多数の観測変数関係を解釈しやすくする技術
+- 既存手法の多くは$\ell_0$ノルムを凸関数で近似し、直接扱うことに課題
+- 本研究では$\ell_0$ノルムを直接用いて、DCアルゴリズム(DCA)で解決する手法を提案
+- 合成データでの実験結果から、既存手法と同等またはそれ以上の性能を示し、特に真のエッジ選択に有利
+
+DCAを使って直接的なアプローチを取るところがすごく革新的だね！モデルのエッジ選択が正確になるなら実用性も高そう。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-08 04:05
+
+- - -
+
+### [Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and Privacy-preserving Perspective](http://arxiv.org/abs/2408.04188)
+
+**信頼できるセマンティック対応6G通信：タスク指向およびプライバシー保護の視点**
+
+Shuaishuai Guo, Anbang Zhang, Yanhu Wang, Chenyuan Feng, Tony Q. S. Quek
+
+- 信頼できるタスク指向セマンティック通信（ToSC）は、6Gで重要な情報のみを伝達する新しいアプローチ
+- ToSCは効率的だが、送信されたデータから元データが再構成されるプライバシーの懸念がある
+- DeepJSCCに基づくプライバシー保護策を解析、差分プライバシーや暗号化などの特徴摂動方法を比較
+- 説明可能な学習アルゴリズムの統合が、新たな6G時代のプライバシー基準を設定することを強調
+
+6G時代の通信がどんどん進化していくなんてワクワクするね！プライバシーもちゃんと守られるようになったら安心だな。
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** eess.SP, cs.SY, eess.SY, **投稿日時:** 2024-08-08 03:16
+
+- - -
+
+### [Active Inference in Contextual Multi-Armed Bandits for Autonomous Robotic Exploration](http://arxiv.org/abs/2408.04119)
+
+**文脈付き多腕バンディットにおける能動的推論による自律ロボット探査**
+
+Shohei Wakayama, Alberto Candela, Paul Hayne, Nisar Ahmed
+
+- 不確実な環境で複数の選択肢から最適なデータ収集オプションの自律的選択は難しい
+- 能動的推論は探索と利用のバランスを取るための期待自由エネルギー目的関数を使用
+- 現実的なシナリオで能動的推論を適用し、鉱物学的調査サイト選定問題をシミュレーション
+- 能動的推論は、標準バンディット手法よりも少ない反復回数で成果を上げ、専門家の好みの変動に対応可能
+
+能動的推論ってすごいよね！未来のロボットがどんどん賢くなって、自分で考えて行動するんだね。今後の技術の進展が楽しみだなって思う。
+
+**Comment:** 10 pages, 12 figures, submitted to IEEE Transactions on Robotics
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, **投稿日時:** 2024-08-07 23:00

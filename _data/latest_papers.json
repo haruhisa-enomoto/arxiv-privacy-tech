@@ -1,16 +1,234 @@
 [
   {
-    "url": "http://arxiv.org/abs/2408.04614",
-    "title": "Better Alignment with Instruction Back-and-Forth Translation",
-    "japanese_title": "命令の前後翻訳によるより良い整合性",
+    "url": "http://arxiv.org/abs/2408.05212",
+    "title": "Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions",
+    "japanese_title": "大規模言語モデルにおけるプライバシー保護: 現在の脅威と解決策に関する調査",
     "authors": [
-      "Thao Nguyen",
-      "Jeffrey Li",
-      "Sewoong Oh",
-      "Ludwig Schmidt",
-      "Jason Weston",
-      "Luke Zettlemoyer",
-      "Xian Li"
+      "Michele Miranda",
+      "Elena Sofia Ruzzetti",
+      "Andrea Santilli",
+      "Fabio Massimo Zanzotto",
+      "Sébastien Bratières",
+      "Emanuele Rodolà"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "GitHub repository:   https://github.com/michele17284/Awesome-Privacy-Preserving-LLMs",
+    "summary": "- 大規模言語モデル（LLMs）は様々な分野で応用されているが、巨大なデータセットの使用によりプライバシー問題が顕著である\n- LLMsはデータを記憶し、機密情報を露呈するリスクがあることが指摘されている\n- 差分プライバシーの導入や訓練データセットの匿名化など、包括的なプライバシー保護手法を提案している\n- 現在の取り組みとツール、そしてプライバシー保護のための今後の方向性について詳しくレビューしている\n\nこれ面白そう！LLMsのプライバシー問題って、たしかに今後もっと重要になりそうだし、安心して使えるAIシステムが増えるといいよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-10T05:41:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05160",
+    "title": "Federated Hypergraph Learning with Hyperedge Completion",
+    "japanese_title": "ハイパーエッジ補完による連合ハイパーグラフ学習",
+    "authors": [
+      "Linfeng Luo",
+      "Fengxiao Tang",
+      "Xiyu Liu",
+      "Zhiqi Guo",
+      "Zihao Qiu",
+      "Ming Zhao"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- ハイパーグラフニューラルネットワークは高次のノード関係を捉え、データ豊富な環境で重要\n- グラフ構造データは分散保管されることが多く、連合学習の必要性が高まっている\n- FedHGNという新しいアルゴリズムを提案し、分散デバイス上のハイパーグラフを用いてモデルを訓練\n- 中央サーバでのクロスクライアントのハイパーエッジ特徴収集により、情報不足を補完\n\nハイパーグラフの連合学習とか、まさに未来のテクノロジーって感じ！データの複雑さに対応するための工夫にワクワクするね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T16:31:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05109",
+    "title": "A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?",
+    "japanese_title": "大規模言語モデルによるNL2SQLの調査：現状と展望",
+    "authors": [
+      "Xinyu Liu",
+      "Shuyu Shen",
+      "Boyan Li",
+      "Peixian Ma",
+      "Runzhi Jiang",
+      "Yuyu Luo",
+      "Yuxin Zhang",
+      "Ju Fan",
+      "Guoliang Li",
+      "Nan Tang"
+    ],
+    "categories": [
+      "cs.DB"
+    ],
+    "comment": "",
+    "summary": "- NL2SQL翻訳技術は、自然言語のあいまいさや不完全な仕様を解決し、データベーススキーマとのマッピングを行う\n- トレーニングデータの収集、データ合成を含むデータ不足への対応、NL2SQLベンチマークの整備が重要\n- 複数の角度と異なる指標でNL2SQL手法を評価し、その細かさに重点を置く必要がある\n- NL2SQLのエラーを分析し、根本原因を特定、更なるモデル進化のためのガイドを提供\n\n大規模言語モデルを使って、自然言語をSQLに変換するのって面白そう！データ不足やエラー分析の重要性がわかる未来の技術なんだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T14:59:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05092",
+    "title": "PriPHiT: Privacy-Preserving Hierarchical Training of Deep Neural Networks",
+    "japanese_title": "PriPHiT: 階層的な深層ニューラルネットワーク訓練におけるプライバシー保護",
+    "authors": [
+      "Yamin Sepehri",
+      "Pedram Pad",
+      "Pascal Frossard",
+      "L. Andrea Dunbar"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "eess.IV",
+      "I.2.10; I.2.6; I.2.11; K.4.1"
+    ],
+    "comment": "16 pages, 16 figures, 6 tables",
+    "summary": "- 深層ニューラルネットワークの訓練はクラウドサーバー上で行われることが多く、プライバシーリスクがある\n- エッジデバイスとクラウドを併用し、センシティブな内容をクラウドに送信せずに訓練を行う方法を提案\n- エッジでの早期終了とノイズ追加を利用し、差分プライバシーを保証\n- 多様な顔属性のデータセットで試験し、優れた性能を示した上、ホワイトボックス攻撃や再構成攻撃に対する防御を実証\n\nクラウドに頼る技術でも、個人情報の漏えい防げるなんて期待できるよね！色んな攻撃にも耐えうるだなんて、安心して使えそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-09T14:33:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05056",
+    "title": "Multi-dimensional Parameter Space Exploration for Streamline-specific Tractography",
+    "japanese_title": "流線特異的トラクトグラフィーのための多次元パラメータ空間探索",
+    "authors": [
+      "Ruben Vink",
+      "Anna Vilanova",
+      "Maxime Chamberland"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "Accepted at MICCAI 2024 International Workshop on Computational   Diffusion MRI",
+    "summary": "- トラクトグラフィーの課題として、適切なパラメータ選びがある\n- 流線ごとに異なるパラメータ（SSP）を用いることで多次元パラメータ空間を探索\n- 合成データで最新の確率的追跡法を検証\n- 実データを用いた流線受容に焦点を当てることでパラメータ空間への洞察を得る\n\nこれは興味深いね！SSPを使って新しいパターンを見つけられるなんて、未来のトラクトグラフィーがもっと正確になりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T13:25:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04963",
+    "title": "LiD-FL: Towards List-Decodable Federated Learning",
+    "japanese_title": "LiD-FL: リスト復号可能な連合学習に向けて",
+    "authors": [
+      "Hong Liu",
+      "Liren Shan",
+      "Han Bao",
+      "Ronghui You",
+      "Yuhao Yi",
+      "Jiancheng Lv"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "17 pages, 5 figures",
+    "summary": "- 多くの未確認参加者がいる環境で連合学習がよく使用されるが、攻撃の脅威が存在\n- 中央サーバーが複数のモデルを保持し、少なくとも1つのモデルが高性能を保証\n- 正直な労働者の割合に制約がなく、半分以上が敵対者であっても適用可能\n- 実験結果は、凸および非凸損失の画像分類タスクにおいて異なる攻撃下でも効果を示した\n\n連合学習の新しい方向性を感じるね！攻撃者が多くても頼れるモデルを維持するなんて、めっちゃワクワクしない？",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T09:29:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04931",
+    "title": "Privacy-Preserved Taxi Demand Prediction System Utilizing Distributed Data",
+    "japanese_title": "分散データを利用したプライバシー保護タクシー需要予測システム",
+    "authors": [
+      "Ren Ozeki",
+      "Haruki Yonekura",
+      "Hamada Rizk",
+      "Hirozumi Yamaguchi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CY"
+    ],
+    "comment": "",
+    "summary": "- タクシー需要予測の精度向上が目的で、都市交通サービスの最適化も視野に入れている\n- 連合学習に課題があるため、コントラスト学習を融合したCC-Netを提案\n- 同類のサービスプロバイダーをクラスタリングし、階層連合学習で精度を高める\n- 実データで評価し、CC-Netは既存技術より予測精度を2.2%以上向上させた\n\nデータのプライバシーを守りつつ、精度も上げるなんてすごいね。タクシーがもっと効率よく使えるようになったら、通学も楽になるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T08:24:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04888",
+    "title": "Locally Private Histograms in All Privacy Regimes",
+    "japanese_title": "全てのプライバシーレジームにおける局所的プライバシーヒストグラム",
+    "authors": [
+      "Clément L. Canonne",
+      "Abigail Gentle"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.CR",
+      "cs.DM"
+    ],
+    "comment": "",
+    "summary": "- ヒストグラム（頻度推定）はデータ分析の基本手法であり、差分プライバシーの下で広く研究されている\n- 局所モデルでのヒストグラム計算は最近の研究の焦点であり、高いプライバシー状態での最適な$\\ell_\\infty$エラーを達成するアルゴリズムが提案されている\n- 中・低プライバシーレジーム(大きな$\\varepsilon$)における研究は不明確であり、この研究ではこの領域での局所的プライバシーヒストグラムのエラー境界を解明\n- 理論的知見は新しい解析方法から得られ、既存のアルゴリズムの全プライバシーレジームにおける性能と特性を実証的に比較\n\nプライバシーの高低で性能がどう変わるのか気になるよね！エラー境界の発見とか新しい解析がどんな風に役立つのか楽しみ！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-09T06:22:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04725",
+    "title": "Counter Denial of Service for Next-Generation Networks within the Artificial Intelligence and Post-Quantum Era",
+    "japanese_title": "次世代ネットワークにおけるAIとポスト量子時代のサービス拒否攻撃対策",
+    "authors": [
+      "Saleh Darzi",
+      "Attila A. Yavuz"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "10 Pages, 1 Figure, 2 Tables",
+    "summary": "- サイバー脅威の増加とAI技術の進展によりサービス拒否攻撃（DoS）が高度化し実行容易になっている\n- 現行のDoS対策は、AIベースのスタディやプライバシー・認証などの統合機能に欠けている\n- ポスト量子セキュリティとの関連も踏まえて、次世代AI技術を用いたDoS侵入検知と防御策を探る\n- 連合学習やブロックチェーンを活用した分散型DoS対策フレームワークを探求し、次世代ネットワークへの統合を提案\n\nこの研究、とっても未来感があってワクワクするね！AIと量子コンピュータがどう絡むのか、すごく気になる！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T18:47:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04705",
+    "title": "Overlay-based Decentralized Federated Learning in Bandwidth-limited Networks",
+    "japanese_title": "帯域幅制限ネットワークにおけるオーバーレイベースの分散型連合学習",
+    "authors": [
+      "Yudi Huang",
+      "Tingyang Sun",
+      "Ting He"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- 分散型連合学習（DFL）は分散エージェント間で直接学習し、AIの展開を促進する\n- 一般的な連携通信のコストを正確に捉えるため、物理的近接以外の要素を考慮\n- 帯域幅制限されたネットワークで、最近のネットワークトモグラフィ技術を活用した通信デザインを提案\n- データ駆動型シミュレーションで、最先端設計と比較してDFLの学習時間の短縮を実証\n\nこの研究、未来の通信ネットワークに革命をもたらすかもね！新しい技術をどんどん結びつけて、さらに効率アップを目指すなんてワクワクする。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T18:05:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04658",
+    "title": "Winning Amazon KDD Cup'24",
+    "japanese_title": "Amazon KDD Cup'24における優勝方法",
+    "authors": [
+      "Chris Deotte",
+      "Ivan Sorokin",
+      "Ahmet Erdem",
+      "Benedikt Schifferer",
+      "Gilberto Titericz Jr",
+      "Simon Jegou"
     ],
     "categories": [
       "cs.CL",
@@ -18,211 +236,10 @@
       "cs.LG"
     ],
     "comment": "",
-    "summary": "- 命令の前後翻訳を用いて高品質な合成データを生成し、LLMを整合させる\n- Webコーパスの文書から合成命令を生成し、さらに文書を基に応答を改良\n- (前後翻訳命令、改良応答)ペアでファインチューニングし、他の命令データセットより高い勝率を達成\n- 前後翻訳命令は他の合成命令よりも高品質で、応答も蒸留法より多様かつ複雑\n\n前後翻訳って面白そう！今後、AIの応答がもっと人間らしく、賢くなるかも。どんな応答が返ってくるのか試してみたいね。",
+    "summary": "- Amazon KDD Cup 2024の全5つのタスクで優勝\n- 自分たちのトレーニングデータセットを作成し、Qwen2-72B-Instructをファインチューニング\n- データ拡張や合成データ生成にLarge Language Modelsを利用\n- 予測モデルにAWQ 4-bit QuantizationとvLLMを使用し、競技の全てのトラックで1位を獲得\n\n独自のデータセットを作って、トップに立つために頑張ったんだね！データ拡張とか合成データの技術がすごいって感じたよ。未来のチャレンジでもこの技術、もっと活用されそうだね！",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-08-08T17:42:32+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04594",
-    "title": "Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models",
-    "japanese_title": "Img-Diff: マルチモーダル大規模言語モデルのための対比データ合成",
-    "authors": [
-      "Qirui Jiao",
-      "Daoyuan Chen",
-      "Yilun Huang",
-      "Yaliang Li",
-      "Ying Shen"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "comment": "14 pages, 9 figures, 7 tables",
-    "summary": "- 対比学習と画像差分キャプションを活用し、細かな画像認識を向上させる新たなデータセットを提案\n- Stable-Diffusion-XLモデルと高度な画像編集技術を用いて「オブジェクト置換」を強調した類似画像のペアを作成\n- 提案データセットでMLLMsを微調整し、画像差分および視覚的質問応答タスクで性能スコアが飛躍的に向上\n- 「オブジェクト削除」などの代替生成方法を調査し、データセットの多様性、品質、堅牢性を確認\n\nマルチモーダルな画像理解の向上ってすごいよね。実際のデータも公開されてるみたいだし、今後の研究が楽しみだな！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-08T17:10:16+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04478",
-    "title": "NFDI4Health workflow and service for synthetic data generation, assessment and risk management",
-    "japanese_title": "合成データ生成、評価、およびリスク管理のためのNFDI4Healthワークフローとサービス",
-    "authors": [
-      "Sobhan Moazemi",
-      "Tim Adams",
-      "Hwei Geok NG",
-      "Lisa Kühnel",
-      "Julian Schneider",
-      "Anatol-Fiete Näher",
-      "Juliane Fluck",
-      "Holger Fröhlich"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "comment": "9 pages, 4 figures, accepted for publication in the proceedings of   the 69th Annual Conference of the Society for Medical Informatics, Biometry   and Epidemiology (GMDS)",
-    "summary": "- 個人の健康データは科学の進歩に不可欠だが、プライバシーの懸念から共有が制限されることが多い\n- 合成データ生成は、実際のデータの統計的特性を模倣しながら機密情報を保護する技術である\n- NFDI4Healthプロジェクトにおいて、VAMBNとMultiNODEという2つのAIツールが最先端の合成データ生成ツールとして活用されている\n- SYNDATは公開されたウェブベースのツールであり、生成モデルによる合成データの品質とリスクを視覚化・評価することができる\n\n実際の患者データを使わずにAIを開発できるようになるって未来感がすごい！SYNDATみたいなツールが普及したら、もっと安心してデータ使えちゃうね。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-08T14:08:39+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04442",
-    "title": "FedAD-Bench: A Unified Benchmark for Federated Unsupervised Anomaly Detection in Tabular Data",
-    "japanese_title": "FedAD-Bench: 表形式データにおける連合型教師なし異常検知のための統一ベンチマーク",
-    "authors": [
-      "Ahmed Anwar",
-      "Brian Moser",
-      "Dayananda Herurkar",
-      "Federico Raue",
-      "Vinit Hegiste",
-      "Tatjana Legler",
-      "Andreas Dengel"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "comment": "8 pages, 1 figure",
-    "summary": "- 連合学習（FL）は、分散データをプライバシーを保ちながら活用する有望なアプローチ\n- FLと異常検知の組み合わせにより、サイバーセキュリティや医療などの重要かつ希少な異常を検出可能\n- FedAD-Benchは、FL環境下での教師なし異常検知アルゴリズムを評価するための統一ベンチマーク\n- 実験でモデルの統合効率の低さや指標の信頼性の問題を特定、FLの正則化効果で過学習を軽減\n\n面白そう！異常検知がFLでどう強化されるのか気になるよね。医療分野とかで安全にデータ使えるようになったら、すごいって思う！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-08T13:14:19+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04315",
-    "title": "Federated Cubic Regularized Newton Learning with Sparsification-amplified Differential Privacy",
-    "japanese_title": "連合学習におけるスパース化を強化した差分プライバシーによるキュービック正則化ニュートン法",
-    "authors": [
-      "Wei Huo",
-      "Changxin Liu",
-      "Kemi Ding",
-      "Karl Henrik Johansson",
-      "Ling Shi"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.SY",
-      "eess.SY"
-    ],
-    "comment": "",
-    "summary": "- トピックは連合学習とプライバシー漏洩や通信ボトルネックの問題\n- キュービック正則化ニュートン法を導入し、従来の一階手法より繰り返し複雑度を低減\n- ノイズ付加によるプライバシー確保と、アップリンクのスパース化で通信コストを削減\n- アルゴリズムの収束特性とプライバシー保証を分析し、ベンチマークデータセットで有効性を実証\n\nタイトルからして新しい手法だよね。効果的なプライバシー保護が連合学習でどれだけ進んでるか気になる！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-08T08:48:54+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04310",
-    "title": "Constructing Adversarial Examples for Vertical Federated Learning: Optimal Client Corruption through Multi-Armed Bandit",
-    "japanese_title": "縦型連合学習（VFL）のための敵対的サンプル構築：バンディットアルゴリズムによる最適クライアント破損",
-    "authors": [
-      "Duanyi Yao",
-      "Songze Li",
-      "Ye Xue",
-      "Jin Liu"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "comment": "Published on ICLR2024",
-    "summary": "- VFLは金融、医療、IoTシステムなどで多くの応用がある\n- 敵対例の注入による攻撃がVFLモデルのセキュリティに重大な挑戦をもたらす\n- 問題をオンライン最適化問題として定式化し、AE生成と破損パターン選択に分解\n- 最適な破損パターンを効率的に特定するE-TSアルゴリズムを提案し、その有効性を実証\n\nVFLのセキュリティに関する研究、ちょっとスリリングだね。どんなふうに敵対例が効率よく見つかるか、実際に見てみたいな！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-08T08:42:47+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04301",
-    "title": "Tackling Noisy Clients in Federated Learning with End-to-end Label Correction",
-    "japanese_title": "連合学習におけるノイズの多いクライアントへの対処とエンドツーエンドのラベル補正",
-    "authors": [
-      "Xuefeng Jiang",
-      "Sheng Sun",
-      "Jia Li",
-      "Jingjing Xue",
-      "Runhan Li",
-      "Zhiyuan Wu",
-      "Gang Xu",
-      "Yuwei Wang",
-      "Min Liu"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "comment": "To appear in ACM CIKM'24 full research paper track",
-    "summary": "- 連合学習はプライバシー保護をしつつ多様なアプリケーションで成功しているが、クライアントデータのラベルノイズが問題\n- ラベルノイズの多いクライアントが多くの誤情報を含むため、パフォーマンス低下の主因となる\n- 提案するFedELCは2段階のフレームワークで、第一段階でノイズの多いクライアントを検出し、第二段階でラベルを補正する\n- 16の関連手法を実装し、5つのデータセットで評価を行った結果、提案手法が優れたパフォーマンスを示した\n\nノイズの多いデータが問題なんて、想像してなかった！FedELCのおかげでデータの質がグッと上がってすごい。未来の連合学習がもっと進化しそうで楽しみ！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-08T08:35:32+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04206",
-    "title": "DC Algorithm for Estimation of Sparse Gaussian Graphical Models",
-    "japanese_title": "スパースガウシアン・グラフィカルモデルの推定のためのDCアルゴリズム",
-    "authors": [
-      "Tomokaze Shiratori",
-      "Yuichi Takano"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- ガウシアン・グラフィカルモデルのスパース推定は、多数の観測変数関係を解釈しやすくする技術\n- 既存手法の多くは$\\ell_0$ノルムを凸関数で近似し、直接扱うことに課題\n- 本研究では$\\ell_0$ノルムを直接用いて、DCアルゴリズム(DCA)で解決する手法を提案\n- 合成データでの実験結果から、既存手法と同等またはそれ以上の性能を示し、特に真のエッジ選択に有利\n\nDCAを使って直接的なアプローチを取るところがすごく革新的だね！モデルのエッジ選択が正確になるなら実用性も高そう。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-08T04:05:50+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04188",
-    "title": "Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and Privacy-preserving Perspective",
-    "japanese_title": "信頼できるセマンティック対応6G通信：タスク指向およびプライバシー保護の視点",
-    "authors": [
-      "Shuaishuai Guo",
-      "Anbang Zhang",
-      "Yanhu Wang",
-      "Chenyuan Feng",
-      "Tony Q. S. Quek"
-    ],
-    "categories": [
-      "eess.SP",
-      "cs.SY",
-      "eess.SY"
-    ],
-    "comment": "",
-    "summary": "- 信頼できるタスク指向セマンティック通信（ToSC）は、6Gで重要な情報のみを伝達する新しいアプローチ\n- ToSCは効率的だが、送信されたデータから元データが再構成されるプライバシーの懸念がある\n- DeepJSCCに基づくプライバシー保護策を解析、差分プライバシーや暗号化などの特徴摂動方法を比較\n- 説明可能な学習アルゴリズムの統合が、新たな6G時代のプライバシー基準を設定することを強調\n\n6G時代の通信がどんどん進化していくなんてワクワクするね！プライバシーもちゃんと守られるようになったら安心だな。",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-08-08T03:16:42+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.04119",
-    "title": "Active Inference in Contextual Multi-Armed Bandits for Autonomous Robotic Exploration",
-    "japanese_title": "文脈付き多腕バンディットにおける能動的推論による自律ロボット探査",
-    "authors": [
-      "Shohei Wakayama",
-      "Alberto Candela",
-      "Paul Hayne",
-      "Nisar Ahmed"
-    ],
-    "categories": [
-      "cs.RO"
-    ],
-    "comment": "10 pages, 12 figures, submitted to IEEE Transactions on Robotics",
-    "summary": "- 不確実な環境で複数の選択肢から最適なデータ収集オプションの自律的選択は難しい\n- 能動的推論は探索と利用のバランスを取るための期待自由エネルギー目的関数を使用\n- 現実的なシナリオで能動的推論を適用し、鉱物学的調査サイト選定問題をシミュレーション\n- 能動的推論は、標準バンディット手法よりも少ない反復回数で成果を上げ、専門家の好みの変動に対応可能\n\n能動的推論ってすごいよね！未来のロボットがどんどん賢くなって、自分で考えて行動するんだね。今後の技術の進展が楽しみだなって思う。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-07T23:00:03+00:00"
+    "published": "2024-08-05T14:40:04+00:00"
   }
 ]

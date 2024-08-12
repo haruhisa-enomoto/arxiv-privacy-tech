@@ -1,5 +1,224 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.05212",
+    "title": "Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions",
+    "japanese_title": "大規模言語モデルにおけるプライバシー保護: 現在の脅威と解決策に関する調査",
+    "authors": [
+      "Michele Miranda",
+      "Elena Sofia Ruzzetti",
+      "Andrea Santilli",
+      "Fabio Massimo Zanzotto",
+      "Sébastien Bratières",
+      "Emanuele Rodolà"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "GitHub repository:   https://github.com/michele17284/Awesome-Privacy-Preserving-LLMs",
+    "summary": "- 大規模言語モデル（LLMs）は様々な分野で応用されているが、巨大なデータセットの使用によりプライバシー問題が顕著である\n- LLMsはデータを記憶し、機密情報を露呈するリスクがあることが指摘されている\n- 差分プライバシーの導入や訓練データセットの匿名化など、包括的なプライバシー保護手法を提案している\n- 現在の取り組みとツール、そしてプライバシー保護のための今後の方向性について詳しくレビューしている\n\nこれ面白そう！LLMsのプライバシー問題って、たしかに今後もっと重要になりそうだし、安心して使えるAIシステムが増えるといいよね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-10T05:41:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05160",
+    "title": "Federated Hypergraph Learning with Hyperedge Completion",
+    "japanese_title": "ハイパーエッジ補完による連合ハイパーグラフ学習",
+    "authors": [
+      "Linfeng Luo",
+      "Fengxiao Tang",
+      "Xiyu Liu",
+      "Zhiqi Guo",
+      "Zihao Qiu",
+      "Ming Zhao"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- ハイパーグラフニューラルネットワークは高次のノード関係を捉え、データ豊富な環境で重要\n- グラフ構造データは分散保管されることが多く、連合学習の必要性が高まっている\n- FedHGNという新しいアルゴリズムを提案し、分散デバイス上のハイパーグラフを用いてモデルを訓練\n- 中央サーバでのクロスクライアントのハイパーエッジ特徴収集により、情報不足を補完\n\nハイパーグラフの連合学習とか、まさに未来のテクノロジーって感じ！データの複雑さに対応するための工夫にワクワクするね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T16:31:41+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05109",
+    "title": "A Survey of NL2SQL with Large Language Models: Where are we, and where are we going?",
+    "japanese_title": "大規模言語モデルによるNL2SQLの調査：現状と展望",
+    "authors": [
+      "Xinyu Liu",
+      "Shuyu Shen",
+      "Boyan Li",
+      "Peixian Ma",
+      "Runzhi Jiang",
+      "Yuyu Luo",
+      "Yuxin Zhang",
+      "Ju Fan",
+      "Guoliang Li",
+      "Nan Tang"
+    ],
+    "categories": [
+      "cs.DB"
+    ],
+    "comment": "",
+    "summary": "- NL2SQL翻訳技術は、自然言語のあいまいさや不完全な仕様を解決し、データベーススキーマとのマッピングを行う\n- トレーニングデータの収集、データ合成を含むデータ不足への対応、NL2SQLベンチマークの整備が重要\n- 複数の角度と異なる指標でNL2SQL手法を評価し、その細かさに重点を置く必要がある\n- NL2SQLのエラーを分析し、根本原因を特定、更なるモデル進化のためのガイドを提供\n\n大規模言語モデルを使って、自然言語をSQLに変換するのって面白そう！データ不足やエラー分析の重要性がわかる未来の技術なんだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T14:59:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05092",
+    "title": "PriPHiT: Privacy-Preserving Hierarchical Training of Deep Neural Networks",
+    "japanese_title": "PriPHiT: 階層的な深層ニューラルネットワーク訓練におけるプライバシー保護",
+    "authors": [
+      "Yamin Sepehri",
+      "Pedram Pad",
+      "Pascal Frossard",
+      "L. Andrea Dunbar"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "eess.IV",
+      "I.2.10; I.2.6; I.2.11; K.4.1"
+    ],
+    "comment": "16 pages, 16 figures, 6 tables",
+    "summary": "- 深層ニューラルネットワークの訓練はクラウドサーバー上で行われることが多く、プライバシーリスクがある\n- エッジデバイスとクラウドを併用し、センシティブな内容をクラウドに送信せずに訓練を行う方法を提案\n- エッジでの早期終了とノイズ追加を利用し、差分プライバシーを保証\n- 多様な顔属性のデータセットで試験し、優れた性能を示した上、ホワイトボックス攻撃や再構成攻撃に対する防御を実証\n\nクラウドに頼る技術でも、個人情報の漏えい防げるなんて期待できるよね！色んな攻撃にも耐えうるだなんて、安心して使えそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-09T14:33:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.05056",
+    "title": "Multi-dimensional Parameter Space Exploration for Streamline-specific Tractography",
+    "japanese_title": "流線特異的トラクトグラフィーのための多次元パラメータ空間探索",
+    "authors": [
+      "Ruben Vink",
+      "Anna Vilanova",
+      "Maxime Chamberland"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "Accepted at MICCAI 2024 International Workshop on Computational   Diffusion MRI",
+    "summary": "- トラクトグラフィーの課題として、適切なパラメータ選びがある\n- 流線ごとに異なるパラメータ（SSP）を用いることで多次元パラメータ空間を探索\n- 合成データで最新の確率的追跡法を検証\n- 実データを用いた流線受容に焦点を当てることでパラメータ空間への洞察を得る\n\nこれは興味深いね！SSPを使って新しいパターンを見つけられるなんて、未来のトラクトグラフィーがもっと正確になりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T13:25:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04963",
+    "title": "LiD-FL: Towards List-Decodable Federated Learning",
+    "japanese_title": "LiD-FL: リスト復号可能な連合学習に向けて",
+    "authors": [
+      "Hong Liu",
+      "Liren Shan",
+      "Han Bao",
+      "Ronghui You",
+      "Yuhao Yi",
+      "Jiancheng Lv"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "17 pages, 5 figures",
+    "summary": "- 多くの未確認参加者がいる環境で連合学習がよく使用されるが、攻撃の脅威が存在\n- 中央サーバーが複数のモデルを保持し、少なくとも1つのモデルが高性能を保証\n- 正直な労働者の割合に制約がなく、半分以上が敵対者であっても適用可能\n- 実験結果は、凸および非凸損失の画像分類タスクにおいて異なる攻撃下でも効果を示した\n\n連合学習の新しい方向性を感じるね！攻撃者が多くても頼れるモデルを維持するなんて、めっちゃワクワクしない？",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T09:29:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04931",
+    "title": "Privacy-Preserved Taxi Demand Prediction System Utilizing Distributed Data",
+    "japanese_title": "分散データを利用したプライバシー保護タクシー需要予測システム",
+    "authors": [
+      "Ren Ozeki",
+      "Haruki Yonekura",
+      "Hamada Rizk",
+      "Hirozumi Yamaguchi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CY"
+    ],
+    "comment": "",
+    "summary": "- タクシー需要予測の精度向上が目的で、都市交通サービスの最適化も視野に入れている\n- 連合学習に課題があるため、コントラスト学習を融合したCC-Netを提案\n- 同類のサービスプロバイダーをクラスタリングし、階層連合学習で精度を高める\n- 実データで評価し、CC-Netは既存技術より予測精度を2.2%以上向上させた\n\nデータのプライバシーを守りつつ、精度も上げるなんてすごいね。タクシーがもっと効率よく使えるようになったら、通学も楽になるかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-09T08:24:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04888",
+    "title": "Locally Private Histograms in All Privacy Regimes",
+    "japanese_title": "全てのプライバシーレジームにおける局所的プライバシーヒストグラム",
+    "authors": [
+      "Clément L. Canonne",
+      "Abigail Gentle"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.CR",
+      "cs.DM"
+    ],
+    "comment": "",
+    "summary": "- ヒストグラム（頻度推定）はデータ分析の基本手法であり、差分プライバシーの下で広く研究されている\n- 局所モデルでのヒストグラム計算は最近の研究の焦点であり、高いプライバシー状態での最適な$\\ell_\\infty$エラーを達成するアルゴリズムが提案されている\n- 中・低プライバシーレジーム(大きな$\\varepsilon$)における研究は不明確であり、この研究ではこの領域での局所的プライバシーヒストグラムのエラー境界を解明\n- 理論的知見は新しい解析方法から得られ、既存のアルゴリズムの全プライバシーレジームにおける性能と特性を実証的に比較\n\nプライバシーの高低で性能がどう変わるのか気になるよね！エラー境界の発見とか新しい解析がどんな風に役立つのか楽しみ！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-09T06:22:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04725",
+    "title": "Counter Denial of Service for Next-Generation Networks within the Artificial Intelligence and Post-Quantum Era",
+    "japanese_title": "次世代ネットワークにおけるAIとポスト量子時代のサービス拒否攻撃対策",
+    "authors": [
+      "Saleh Darzi",
+      "Attila A. Yavuz"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "10 Pages, 1 Figure, 2 Tables",
+    "summary": "- サイバー脅威の増加とAI技術の進展によりサービス拒否攻撃（DoS）が高度化し実行容易になっている\n- 現行のDoS対策は、AIベースのスタディやプライバシー・認証などの統合機能に欠けている\n- ポスト量子セキュリティとの関連も踏まえて、次世代AI技術を用いたDoS侵入検知と防御策を探る\n- 連合学習やブロックチェーンを活用した分散型DoS対策フレームワークを探求し、次世代ネットワークへの統合を提案\n\nこの研究、とっても未来感があってワクワクするね！AIと量子コンピュータがどう絡むのか、すごく気になる！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T18:47:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04705",
+    "title": "Overlay-based Decentralized Federated Learning in Bandwidth-limited Networks",
+    "japanese_title": "帯域幅制限ネットワークにおけるオーバーレイベースの分散型連合学習",
+    "authors": [
+      "Yudi Huang",
+      "Tingyang Sun",
+      "Ting He"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- 分散型連合学習（DFL）は分散エージェント間で直接学習し、AIの展開を促進する\n- 一般的な連携通信のコストを正確に捉えるため、物理的近接以外の要素を考慮\n- 帯域幅制限されたネットワークで、最近のネットワークトモグラフィ技術を活用した通信デザインを提案\n- データ駆動型シミュレーションで、最先端設計と比較してDFLの学習時間の短縮を実証\n\nこの研究、未来の通信ネットワークに革命をもたらすかもね！新しい技術をどんどん結びつけて、さらに効率アップを目指すなんてワクワクする。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-08T18:05:11+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.04614",
     "title": "Better Alignment with Instruction Back-and-Forth Translation",
     "japanese_title": "命令の前後翻訳によるより良い整合性",
@@ -501,6 +720,30 @@
       "合成データ"
     ],
     "published": "2024-08-05T18:09:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.04658",
+    "title": "Winning Amazon KDD Cup'24",
+    "japanese_title": "Amazon KDD Cup'24における優勝方法",
+    "authors": [
+      "Chris Deotte",
+      "Ivan Sorokin",
+      "Ahmet Erdem",
+      "Benedikt Schifferer",
+      "Gilberto Titericz Jr",
+      "Simon Jegou"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- Amazon KDD Cup 2024の全5つのタスクで優勝\n- 自分たちのトレーニングデータセットを作成し、Qwen2-72B-Instructをファインチューニング\n- データ拡張や合成データ生成にLarge Language Modelsを利用\n- 予測モデルにAWQ 4-bit QuantizationとvLLMを使用し、競技の全てのトラックで1位を獲得\n\n独自のデータセットを作って、トップに立つために頑張ったんだね！データ拡張とか合成データの技術がすごいって感じたよ。未来のチャレンジでもこの技術、もっと活用されそうだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-05T14:40:04+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2408.02501",

@@ -1,5 +1,126 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.07614",
+    "title": "Practical Considerations for Differential Privacy",
+    "japanese_title": "差分プライバシーの実践的考察",
+    "authors": [
+      "Kareem Amin",
+      "Alex Kulesza",
+      "Sergei Vassilvitskii"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーは統計データ公開の金字塔であるが、普及の障壁もある\n- 政府、企業、学界で使用され、その数理的な保証が特徴\n- 攻撃者の知識と強さを最悪ケースとして仮定する強力なフレームワーク \n- 日常的なデータ利用と保護での普及はまだ限定的である\n\nこの論文、実践例とかも述べてるのかな？差分プライバシーの具体的な普及方法が書かれてたら、もっと知りたいかも。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-14T15:28:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07587",
+    "title": "FedQUIT: On-Device Federated Unlearning via a Quasi-Competent Virtual Teacher",
+    "japanese_title": "FedQUIT: 準コンピテントな仮想教師を用いたデバイス上の連合アンラーニング",
+    "authors": [
+      "Alessio Mora",
+      "Lorenzo Valerio",
+      "Paolo Bellavista",
+      "Andrea Passarella"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "Submitted to The 39th Annual AAAI Conference on Artificial   Intelligence (AAAI-25)",
+    "summary": "- 連合学習はデータプライバシーを改善するが、忘れられる権利行使時の対応が課題\n- FedQUITは知識蒸留を用いて忘れたいデータの寄与を削除し、モデルの汎化能力を維持\n- クライアントデバイス上で直接動作し、追加情報共有や公開プロキシデータを必要としない\n- 実験結果では、アンラーニング後の汎化性能回復に平均2.5%未満の追加通信ラウンドが必要\n\n「忘れられる権利」をちゃんと実現しながらモデルパフォーマンスも守るなんて面白そう！FedQUITが未来のプライバシー技術の新しいスタンダードになるかもしれないよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-14T14:36:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07533",
+    "title": "Information-Theoretic Measures on Lattices for High-Order Interactions",
+    "japanese_title": "高次相互作用のための格子上の情報理論的測度",
+    "authors": [
+      "Zhaolu Liu",
+      "Mauricio Barahona",
+      "Robert L. Peach"
+    ],
+    "categories": [
+      "cs.IT",
+      "math.IT",
+      "stat.ML"
+    ],
+    "comment": "22 pages, 13 figures",
+    "summary": "- 従来のモデルは二変量の関連性に依存し、多変量データの複雑な統計構造を捉えきれない\n- 提案手法は、変数間の代数的関係構造を格子として捉え、その格子上で測度を算出\n- KLダイバージェンスを用いると、高次相互作用の正確な定量化が困難になる\n- 提案したStreitberg情報は、多変量データの複雑な相互作用をより正確に評価可能\n\n従来の二変量モデルの限界を打破しようとする斬新なアプローチ、すごく興味深いね！特に、株式市場のデータや神経電気生理学のデータに適用できるところが面白いと思う。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-14T13:04:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07304",
+    "title": "At Least Factor-of-Two Optimization for RWLE-Based Homomorphic Encryption",
+    "japanese_title": "RWLEベースの準同型暗号化の少なくとも2倍の最適化",
+    "authors": [
+      "Jonathan Ly"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 準同型暗号（HE）は暗号化されたままデータに対する代数演算が可能\n- HEの暗号化には計算オーバーヘッドがあり、データ集約型作業に影響\n- Smucheはキャッシング手法で暗号化プロセスを一定時間の操作に変換\n- 新手法「Zinc」はキャッシングを単一のスカラー加算に置き換え、ランダム生成を導入\n\nZincの手法、めっちゃ興味深いよね！分散環境でも効率を犠牲にせずセキュリティを保つなんて、未来の技術が見えてきた感じ。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-08-14T05:42:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07191",
+    "title": "Joint Graph Rewiring and Feature Denoising via Spectral Resonance",
+    "japanese_title": "スペクトル共鳴によるグラフの再配線と特徴のノイズ除去の同時実行",
+    "authors": [
+      "Jonas Linkerhägner",
+      "Cheng Shi",
+      "Ivan Dokmanić"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.SI",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- グラフニューラルネットワーク(GNN)は、グラフ構造とノードの特徴ベクトルの両方にノイズが含まれている\n- JDR（共同ノイズ除去と再配線）アルゴリズムを提案、グラフ構造と特徴を同時にクリーンアップ\n- グラフと特徴行列の主要な固有空間の整合を最大化することで、性能向上を実現\n- 実験により、JDRが既存の再配線方法を一貫して上回ることを確認\n\nGNNの性能改善の新しい方法なんて超ワクワクする！特に、ノイズ除去と再配線を同時にやっちゃうのが斬新だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-13T20:16:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07152",
+    "title": "FedMADE: Robust Federated Learning for Intrusion Detection in IoT Networks Using a Dynamic Aggregation Method",
+    "japanese_title": "FedMADE: 動的集約法を用いたIoTネットワークの侵入検知のための堅牢なフェデレーテッドラーニング",
+    "authors": [
+      "Shihua Sun",
+      "Pragya Sharma",
+      "Kenechukwu Nwodo",
+      "Angelos Stavrou",
+      "Haining Wang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "comment": "To appear in the Information Security Conference (ISC) 2024",
+    "summary": "- IoTデバイスの急増によりネットワークセキュリティの懸念が増大\n- 伝統的な機械学習モデルはデータプライバシーの問題を抱える\n- FedMADEはデバイスのトラフィックパターンに基づきローカルモデルを集約\n- FedMADEはマイノリティ攻撃の分類精度を71.07%改善し、毒性攻撃に強い\n\nFedMADEってマイノリティ攻撃の分類精度がめっちゃ上がるんだって！それに、毒性攻撃にも耐性があって、超便利じゃん。未来のセキュリティが楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-13T18:42:34+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.07021",
     "title": "Improved Counting under Continual Observation with Pure Differential Privacy",
     "japanese_title": "純粋な差分プライバシーを用いた連続観察下での計数の改善",
@@ -362,6 +483,29 @@
       "合成データ"
     ],
     "published": "2024-08-12T08:49:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07096",
+    "title": "OFL-W3: A One-shot Federated Learning System on Web 3.0",
+    "japanese_title": "OFL-W3: Web 3.0におけるワンショット連合学習システム",
+    "authors": [
+      "Linshan Jiang",
+      "Moming Duan",
+      "Bingsheng He",
+      "Yulin Sun",
+      "Peishen Yan",
+      "Yang Hua",
+      "Tao Song"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "VLDB 24 demo paper",
+    "summary": "- 連合学習（FL）はデータサイロの課題を扱い、プライバシーやセキュリティ規制を保ちながら協調学習を実現\n- Web 3.0のブロックチェーン技術と分散型アプリケーション（DApps）は、ウェブ開発の新たな可能性を提示\n- Ethereumのトランザクション速度制約とスマートコントラクトの遅延を克服するために、ワンショットFLがWeb 3.0に適している\n- OFL-W3はスマートコントラクトとIPFSを活用してトランザクションを管理し、既存のワンショットFLアルゴリズムを使用するバックエンドサーバー操作を円滑にする\n\nWeb 3.0とAIを統合した最先端の研究で、これからの技術の方向性にも大きな影響を与えそう！ワンショットFLの実用性がどれくらい高いのか、もっと詳しく知りたいね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-12T07:31:12+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2408.05890",
@@ -811,6 +955,28 @@
       "連合学習"
     ],
     "published": "2024-08-09T08:24:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07089",
+    "title": "InfinityMATH: A Scalable Instruction Tuning Dataset in Programmatic Mathematical Reasoning",
+    "japanese_title": "InfinityMATH: プログラム的数学的推論における拡張可能な指導調整データセット",
+    "authors": [
+      "Bo-Wen Zhang",
+      "Yan Yan",
+      "Lin Li",
+      "Guang Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "I.2.7"
+    ],
+    "comment": "Accepted by CIKM 2024",
+    "summary": "- CoTとPoT手法により、言語モデルの数学的推論能力が大きく向上\n- 既存の大規模データセット作成手法は高い計算コストと大量のシードデータを必要とする\n- InfinityMATHは数値を問題から分離して合成することで、拡張性と効率性を向上\n- Llama2やCodeLlamaでの実験結果、ベンチマークにおいて184.7%から514.3%の改善を示した\n\n数値を具体的に切り離して拡張性を持たせる発想、すごく面白いよね！これから先、数学の勉強で AI がもっと頼りになる時代が来るのかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T08:18:20+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2408.04888",

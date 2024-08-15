@@ -1,231 +1,168 @@
 [
   {
-    "url": "http://arxiv.org/abs/2408.07021",
-    "title": "Improved Counting under Continual Observation with Pure Differential Privacy",
-    "japanese_title": "純粋な差分プライバシーを用いた連続観察下での計数の改善",
+    "url": "http://arxiv.org/abs/2408.07614",
+    "title": "Practical Considerations for Differential Privacy",
+    "japanese_title": "差分プライバシーの実践的考察",
     "authors": [
-      "Joel Daniel Andersson",
-      "Rasmus Pagh",
-      "Sahel Torkamani"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.DS"
-    ],
-    "comment": "",
-    "summary": "- 差分プライバシーの連続観察下での計数問題は広く研究されている\n- 従来の$\\varepsilon$-差分プライバシーでの平均二乗誤差の改善はなかった\n- この論文は、二項木メカニズムの新たな一般化に基づき、誤差を約4倍に削減\n- 提案手法は、従来のガウスノイズを用いたメカニズムよりも$\\delta$が十分に小さい場合に優れた精度を示す\n\nこの研究の新しいメカニズムはすごく興味深いね。今後の差分プライバシーの応用に大きなインパクトを与えそう！",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-08-13T16:36:33+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.07006",
-    "title": "The Complexities of Differential Privacy for Survey Data",
-    "japanese_title": "調査データにおける差分プライバシーの複雑性",
-    "authors": [
-      "Jörg Drechsler",
-      "James Bailie"
-    ],
-    "categories": [
-      "stat.ME",
-      "cs.CR"
-    ],
-    "comment": "18 pages, 2 figures",
-    "summary": "- 複数段階のデータ生成過程が差分プライバシーの実装を困難にする\n- 複雑なサンプリングデザインが原因でプライバシー増幅が限られる\n- 調査加重推定の影響が差分プライバシーの効力に関係\n- 欠測値の代入や無回答調整の点でも課題がある\n\n調査データに差分プライバシーを適用する難しさが伝わるね。でも、それを乗り越えたら新しい標準が生まれるかもってワクワクするよ！",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-08-13T16:15:42+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.06997",
-    "title": "Faster Private Minimum Spanning Trees",
-    "japanese_title": "高速なプライベート最小全域木",
-    "authors": [
-      "Rasmus Pagh",
-      "Lukas Retschmeier"
-    ],
-    "categories": [
-      "cs.DS",
-      "cs.CR",
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- クラスタリングや合成データ生成に動機づけられ、重み付き差分プライバシー下での最小全域木の公開問題を検討\n- 既存の手法では、重み行列の各エントリにノイズを加えたり、特定のアルゴリズムの実行中にノイズを加える方法がある\n- 新しいアルゴリズムは、従来の手法と同等の使用性で、計算時間を$O(m + n^{3/2}\\log n)$に短縮を実現\n- 実験結果が、利用効率または実行時間のどちらにおいても、既存のアルゴリズムを大幅に改善することを示している\n\n差分プライバシーを保持しながらも計算効率をかなり上げられるところがすごいよね！これでクラスタリングとか合成データの生成がもっと簡単になりそう。",
-    "topics": [
-      "合成データ",
-      "差分プライバシー"
-    ],
-    "published": "2024-08-13T16:00:30+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.06927",
-    "title": "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator",
-    "japanese_title": "クラス間の壁を超えて：インタークラス特徴補償器を用いた効率的なデータセット蒸留",
-    "authors": [
-      "Xin Zhang",
-      "Jiawei Du",
-      "Ping Liu",
-      "Joey Tianyi Zhou"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "comment": "",
-    "summary": "- データセット蒸留は、大規模な自然データセットの情報豊富な特徴をコンパクトで合成的な形に凝縮する技法である\n- クラス固有の合成パラダイムが主流であり、これが特徴凝縮の効率を制限している\n- インタークラス特徴補償器（INFER）は、クラス固有のデータラベルフレームワークを超えた新しい蒸留アプローチである\n- INFERは、クラス間の特徴統合を促進し、蒸留効率と一般化可能性を大幅に向上させる\n\nこの論文、面白そう！データセットのサイズを劇的に減らせるなら、将来のAIのトレーニングがもっと効率的になるかもね。INFERの効果、実際に試してみたいな。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-13T14:29:00+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.06903",
-    "title": "Heterogeneity: An Open Challenge for Federated On-board Machine Learning",
-    "japanese_title": "異質性：連合搭載機械学習における未解決の課題",
-    "authors": [
-      "Maria Hartmann",
-      "Grégoire Danoy",
-      "Pascal Bouvry"
-    ],
-    "categories": [
-      "cs.DC",
-      "cs.LG"
-    ],
-    "comment": "Accepted to the ESA SPAICE conference 2024",
-    "summary": "- 衛星ミッション設計が個別のモノリシック衛星から複数衛星の分散ミッションへとシフト\n- オンボード軌道エッジコンピューティングへの関心が高まり、連合学習が有望視されている\n- 異質な衛星間の即席協業における連合学習の課題を体系的にレビュー\n- クロスプロバイダーのユースケースでの最先端技術の概要と問題探求のためのエントリーポイントを提供\n\n異なるプロバイダー間の衛星協力とかカッコいい！この技術が進めば、衛星同士がもっと賢くなりそうで楽しみだね✨",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-13T13:56:17+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.06885",
-    "title": "Voltran: Unlocking Trust and Confidentiality in Decentralized Federated Learning Aggregation",
-    "japanese_title": "Voltran：分散型連合学習集約での信頼性と機密性の解放",
-    "authors": [
-      "Hao Wang",
-      "Yichen Cai",
-      "Jun Wang",
-      "Chuan Ma",
-      "Chunpeng Ge",
-      "Xiangmou Qu",
-      "Lu Zhou"
+      "Kareem Amin",
+      "Alex Kulesza",
+      "Sergei Vassilvitskii"
     ],
     "categories": [
       "cs.CR"
     ],
     "comment": "",
-    "summary": "- 連合学習モデルにおいて、フェデレーテッドラーニングの集約を単一のサーバーではなく分散ノードを使用\n- 従来のFLが抱える中央集権サーバーの脆弱性を解消し、ブロックチェーンの信頼性と堅牢性を取り入れる\n- Trusted Execution Environment (TEE)とブロックチェーン技術を組み合わせ、FLの信頼性、機密性、堅牢性を実現\n- 複数のSGXパラレル実行戦略により、大規模FL作業負荷を軽減し、多様なFLシナリオでの強力なスケーラビリティを提供\n\nこういうの本当にすごい！✨ 自分たちのデータがもっと安心安全に使えるようになるって、未来が楽しみだね。技術の進歩ってホントにわくわくしちゃう！",
+    "summary": "- 差分プライバシーは統計データ公開の金字塔であるが、普及の障壁もある\n- 政府、企業、学界で使用され、その数理的な保証が特徴\n- 攻撃者の知識と強さを最悪ケースとして仮定する強力なフレームワーク \n- 日常的なデータ利用と保護での普及はまだ限定的である\n\nこの論文、実践例とかも述べてるのかな？差分プライバシーの具体的な普及方法が書かれてたら、もっと知りたいかも。",
     "topics": [
-      "連合学習",
-      "TEE"
+      "差分プライバシー"
     ],
-    "published": "2024-08-13T13:33:35+00:00"
+    "published": "2024-08-14T15:28:28+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.06822",
-    "title": "CRISP: Confidentiality, Rollback, and Integrity Storage Protection for Confidential Cloud-Native Computing",
-    "japanese_title": "CRISP：機密性、ロールバック、および整合性保護のためのクラウドネイティブコンピューティング",
+    "url": "http://arxiv.org/abs/2408.07587",
+    "title": "FedQUIT: On-Device Federated Unlearning via a Quasi-Competent Virtual Teacher",
+    "japanese_title": "FedQUIT: 準コンピテントな仮想教師を用いたデバイス上の連合アンラーニング",
     "authors": [
-      "Ardhi Putra Pratama Hartono",
-      "Andrey Brito",
-      "Christof Fetzer"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.OS"
-    ],
-    "comment": "",
-    "summary": "- TEEは実行中のコードと関連データの機密性と整合性を保護\n- しかし、TEEの整合性保護はディスクに保存された状態には及ばない\n- CRISPはIntel SGXを使用してロールバックを防ぐメカニズムを提案\n- CRISP使用によるリソース増加はあるが、パフォーマンス低下は小さい\n\nマジで興味深いね！クラウド環境でのロールバック攻撃を防ぐ手段って、クリティカルなセキュリティ対策になるよね。私たちが使ってるアプリもこんな技術で守られたら安心だね～",
-    "topics": [
-      "TEE"
-    ],
-    "published": "2024-08-13T11:29:30+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.06549",
-    "title": "Prioritizing Modalities: Flexible Importance Scheduling in Federated Multimodal Learning",
-    "japanese_title": "モダリティの優先順位付け: 連合型マルチモーダル学習における柔軟な重要度スケジューリング",
-    "authors": [
-      "Jieming Bian",
-      "Lei Wang",
-      "Jie Xu"
+      "Alessio Mora",
+      "Lorenzo Valerio",
+      "Paolo Bellavista",
+      "Andrea Passarella"
     ],
     "categories": [
       "cs.LG",
       "cs.DC"
     ],
-    "comment": "Submitted to IEEE TMC, under review",
-    "summary": "- 連合学習はユーザープライバシーを確保した機械学習手法であるが、現実のデータには適用が難しい\n- マルチモーダル連合学習が登場し、多様なデータに対するモダリティ特化のエンコーダモデルを使用\n- 既存の方法はモダリティ毎に均等に計算資源を割り当てるが、IoTデバイスでは非効率\n- FlexModはモダリティの重要度とトレーニング要件に基づいて計算資源を適応的に割り当て、パフォーマンスを最適化\n\nモダリティごとにリソースを賢く配分するのがカギになるね！データの多様性に対応しているので、幅広いデバイスで効率的に活用できるんじゃないかなぁ。",
+    "comment": "Submitted to The 39th Annual AAAI Conference on Artificial   Intelligence (AAAI-25)",
+    "summary": "- 連合学習はデータプライバシーを改善するが、忘れられる権利行使時の対応が課題\n- FedQUITは知識蒸留を用いて忘れたいデータの寄与を削除し、モデルの汎化能力を維持\n- クライアントデバイス上で直接動作し、追加情報共有や公開プロキシデータを必要としない\n- 実験結果では、アンラーニング後の汎化性能回復に平均2.5%未満の追加通信ラウンドが必要\n\n「忘れられる権利」をちゃんと実現しながらモデルパフォーマンスも守るなんて面白そう！FedQUITが未来のプライバシー技術の新しいスタンダードになるかもしれないよね！",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-08-13T01:14:27+00:00"
+    "published": "2024-08-14T14:36:28+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.06460",
-    "title": "Evaluating Privacy Measures for Load Hiding",
-    "japanese_title": "負荷隠蔽のためのプライバシー対策の評価",
+    "url": "http://arxiv.org/abs/2408.07533",
+    "title": "Information-Theoretic Measures on Lattices for High-Order Interactions",
+    "japanese_title": "高次相互作用のための格子上の情報理論的測度",
     "authors": [
-      "Vadim Arzamasov",
-      "Klemens Böhm"
+      "Zhaolu Liu",
+      "Mauricio Barahona",
+      "Robert L. Peach"
     ],
     "categories": [
-      "cs.CR",
       "cs.IT",
       "math.IT",
-      "94A60, 93A14",
-      "K.6.5; H.3.5"
+      "stat.ML"
     ],
-    "comment": "",
-    "summary": "- スマートメーターによる電力消費測定がプライバシー問題を引き起こす\n- 様々な負荷隠蔽アルゴリズムが設計され、異なるプライバシー対策が提案されている\n- 25の対策のうち20は効果がないと判明\n- 相互情報量の変種が「家電使用」秘密に対して最も有効であることを発見\n\nスマートグリッドの世界すごく進んでるね！どのプライバシー対策が実際には有効なのか、実験で特定したところが面白いなあ！",
+    "comment": "22 pages, 13 figures",
+    "summary": "- 従来のモデルは二変量の関連性に依存し、多変量データの複雑な統計構造を捉えきれない\n- 提案手法は、変数間の代数的関係構造を格子として捉え、その格子上で測度を算出\n- KLダイバージェンスを用いると、高次相互作用の正確な定量化が困難になる\n- 提案したStreitberg情報は、多変量データの複雑な相互作用をより正確に評価可能\n\n従来の二変量モデルの限界を打破しようとする斬新なアプローチ、すごく興味深いね！特に、株式市場のデータや神経電気生理学のデータに適用できるところが面白いと思う。",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-08-12T19:21:34+00:00"
+    "published": "2024-08-14T13:04:34+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.06382",
-    "title": "FedRobo: Federated Learning Driven Autonomous Inter Robots Communication For Optimal Chemical Sprays",
-    "japanese_title": "FedRobo: 連合学習駆動の自律型ロボット通信による最適な化学噴霧",
+    "url": "http://arxiv.org/abs/2408.07304",
+    "title": "At Least Factor-of-Two Optimization for RWLE-Based Homomorphic Encryption",
+    "japanese_title": "RWLEベースの準同型暗号化の少なくとも2倍の最適化",
     "authors": [
-      "Jannatul Ferdaus",
-      "Sameera Pisupati",
-      "Mahedi Hasan",
-      "Sathwick Paladugu"
+      "Jonathan Ly"
     ],
     "categories": [
-      "cs.LG",
-      "cs.CV",
-      "cs.DC",
-      "cs.RO"
-    ],
-    "comment": "This research article is going to be submitted to a best-fit   conference. We are looking for a conference",
-    "summary": "- 連合学習により、ロボットが中央データに依存せず互いの経験から学習可能\n- 個々のロボットが作物状態と化学噴霧効果を保持し定期的に共有\n- 作物状態や天候などの情報交換を通じて化学噴霧を最適化する通信プロトコルを設計\n- 提案されたクラスタベースの連合学習アプローチは、グローバルサーバーの計算負荷とクライアント間の通信オーバーヘッドを効果的に軽減\n\n農業の未来がこんなに進化するなんてワクワクするよね！連合学習を駆使したスマートなロボットたちがどんな成果を示すのか楽しみ♡",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-08-10T00:32:39+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.07023",
-    "title": "Verifiable Decentralized IPFS Cluster: Unlocking Trustworthy Data Permanency for Off-Chain Storage",
-    "japanese_title": "検証可能な分散型IPFSクラスター：オフチェーンストレージの信頼性を解き放つ",
-    "authors": [
-      "Sid Lamichhane",
-      "Patrick Herbke"
-    ],
-    "categories": [
-      "cs.DC",
       "cs.CR"
     ],
     "comment": "",
-    "summary": "- オフチェーンストレージとしてIPFSがブロックチェーンの制限を克服する\n- IPFSでのデータ保持はピン止めに依存し、信頼性の問題や単一点障害が存在\n- VDIC(検証可能な分散型IPFSクラスター)を導入し、検証可能なデータ永続性を保証\n- VDICは従来のピン止めサービスに匹敵する性能を持ち、実用ケースでの有用性も確認\n\n分散型アプリのオフチェーンストレージ、ちょっとワクワクしない？新技術で信頼できるデータ保持が実現できるなんてすごいよね、どんな可能性が広がるのか楽しみだな。",
+    "summary": "- 準同型暗号（HE）は暗号化されたままデータに対する代数演算が可能\n- HEの暗号化には計算オーバーヘッドがあり、データ集約型作業に影響\n- Smucheはキャッシング手法で暗号化プロセスを一定時間の操作に変換\n- 新手法「Zinc」はキャッシングを単一のスカラー加算に置き換え、ランダム生成を導入\n\nZincの手法、めっちゃ興味深いよね！分散環境でも効率を犠牲にせずセキュリティを保つなんて、未来の技術が見えてきた感じ。",
     "topics": [
-      "SSI/DID/VC"
+      "準同型暗号"
     ],
-    "published": "2024-08-09T08:26:55+00:00"
+    "published": "2024-08-14T05:42:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07191",
+    "title": "Joint Graph Rewiring and Feature Denoising via Spectral Resonance",
+    "japanese_title": "スペクトル共鳴によるグラフの再配線と特徴のノイズ除去の同時実行",
+    "authors": [
+      "Jonas Linkerhägner",
+      "Cheng Shi",
+      "Ivan Dokmanić"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.SI",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- グラフニューラルネットワーク(GNN)は、グラフ構造とノードの特徴ベクトルの両方にノイズが含まれている\n- JDR（共同ノイズ除去と再配線）アルゴリズムを提案、グラフ構造と特徴を同時にクリーンアップ\n- グラフと特徴行列の主要な固有空間の整合を最大化することで、性能向上を実現\n- 実験により、JDRが既存の再配線方法を一貫して上回ることを確認\n\nGNNの性能改善の新しい方法なんて超ワクワクする！特に、ノイズ除去と再配線を同時にやっちゃうのが斬新だよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-13T20:16:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07152",
+    "title": "FedMADE: Robust Federated Learning for Intrusion Detection in IoT Networks Using a Dynamic Aggregation Method",
+    "japanese_title": "FedMADE: 動的集約法を用いたIoTネットワークの侵入検知のための堅牢なフェデレーテッドラーニング",
+    "authors": [
+      "Shihua Sun",
+      "Pragya Sharma",
+      "Kenechukwu Nwodo",
+      "Angelos Stavrou",
+      "Haining Wang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "comment": "To appear in the Information Security Conference (ISC) 2024",
+    "summary": "- IoTデバイスの急増によりネットワークセキュリティの懸念が増大\n- 伝統的な機械学習モデルはデータプライバシーの問題を抱える\n- FedMADEはデバイスのトラフィックパターンに基づきローカルモデルを集約\n- FedMADEはマイノリティ攻撃の分類精度を71.07%改善し、毒性攻撃に強い\n\nFedMADEってマイノリティ攻撃の分類精度がめっちゃ上がるんだって！それに、毒性攻撃にも耐性があって、超便利じゃん。未来のセキュリティが楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-13T18:42:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07096",
+    "title": "OFL-W3: A One-shot Federated Learning System on Web 3.0",
+    "japanese_title": "OFL-W3: Web 3.0におけるワンショット連合学習システム",
+    "authors": [
+      "Linshan Jiang",
+      "Moming Duan",
+      "Bingsheng He",
+      "Yulin Sun",
+      "Peishen Yan",
+      "Yang Hua",
+      "Tao Song"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "VLDB 24 demo paper",
+    "summary": "- 連合学習（FL）はデータサイロの課題を扱い、プライバシーやセキュリティ規制を保ちながら協調学習を実現\n- Web 3.0のブロックチェーン技術と分散型アプリケーション（DApps）は、ウェブ開発の新たな可能性を提示\n- Ethereumのトランザクション速度制約とスマートコントラクトの遅延を克服するために、ワンショットFLがWeb 3.0に適している\n- OFL-W3はスマートコントラクトとIPFSを活用してトランザクションを管理し、既存のワンショットFLアルゴリズムを使用するバックエンドサーバー操作を円滑にする\n\nWeb 3.0とAIを統合した最先端の研究で、これからの技術の方向性にも大きな影響を与えそう！ワンショットFLの実用性がどれくらい高いのか、もっと詳しく知りたいね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-12T07:31:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.07089",
+    "title": "InfinityMATH: A Scalable Instruction Tuning Dataset in Programmatic Mathematical Reasoning",
+    "japanese_title": "InfinityMATH: プログラム的数学的推論における拡張可能な指導調整データセット",
+    "authors": [
+      "Bo-Wen Zhang",
+      "Yan Yan",
+      "Lin Li",
+      "Guang Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "I.2.7"
+    ],
+    "comment": "Accepted by CIKM 2024",
+    "summary": "- CoTとPoT手法により、言語モデルの数学的推論能力が大きく向上\n- 既存の大規模データセット作成手法は高い計算コストと大量のシードデータを必要とする\n- InfinityMATHは数値を問題から分離して合成することで、拡張性と効率性を向上\n- Llama2やCodeLlamaでの実験結果、ベンチマークにおいて184.7%から514.3%の改善を示した\n\n数値を具体的に切り離して拡張性を持たせる発想、すごく面白いよね！これから先、数学の勉強で AI がもっと頼りになる時代が来るのかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-09T08:18:20+00:00"
   }
 ]

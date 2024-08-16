@@ -27,156 +27,213 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-15T04:19:16.261238
+更新: 2024-08-16T04:19:46.572676
 
 - - -
 
-### [Practical Considerations for Differential Privacy](http://arxiv.org/abs/2408.07614)
+### [InVAErt networks for amortized inference and identifiability analysis of lumped parameter hemodynamic models](http://arxiv.org/abs/2408.08264)
 
-**差分プライバシーの実践的考察**
+**逆方向のネットワークを用いた一括パラメータ血行モデルの推論と識別可能性分析**
 
-Kareem Amin, Alex Kulesza, Sergei Vassilvitskii
+Guoxiang Grayson Tong, Carlos A. Sing Long, Daniele E. Schiavazzi
 
-- 差分プライバシーは統計データ公開の金字塔であるが、普及の障壁もある
-- 政府、企業、学界で使用され、その数理的な保証が特徴
-- 攻撃者の知識と強さを最悪ケースとして仮定する強力なフレームワーク 
-- 日常的なデータ利用と保護での普及はまだ限定的である
+- 心血管モデル推定が難しいのは識別可能性の欠如が原因
+- 最適化やベイズ推論は正則化を使用し、複数解の発見を制限
+- inVAErtネットワークを用いて剛性動力系のデジタルツイン分析を強化
+- 合成データから実データまで、inVAErtネットワークの柔軟性と効果を実証
 
-この論文、実践例とかも述べてるのかな？差分プライバシーの具体的な普及方法が書かれてたら、もっと知りたいかも。
+心臓とか血行モデルとか、健康とかのデータをもっと上手に使えるようになるっぽい～！inVAErtネットワークってなんだかSFっぽくてワクワクするね！
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-14 15:28
-
-- - -
-
-### [FedQUIT: On-Device Federated Unlearning via a Quasi-Competent Virtual Teacher](http://arxiv.org/abs/2408.07587)
-
-**FedQUIT: 準コンピテントな仮想教師を用いたデバイス上の連合アンラーニング**
-
-Alessio Mora, Lorenzo Valerio, Paolo Bellavista, Andrea Passarella
-
-- 連合学習はデータプライバシーを改善するが、忘れられる権利行使時の対応が課題
-- FedQUITは知識蒸留を用いて忘れたいデータの寄与を削除し、モデルの汎化能力を維持
-- クライアントデバイス上で直接動作し、追加情報共有や公開プロキシデータを必要としない
-- 実験結果では、アンラーニング後の汎化性能回復に平均2.5%未満の追加通信ラウンドが必要
-
-「忘れられる権利」をちゃんと実現しながらモデルパフォーマンスも守るなんて面白そう！FedQUITが未来のプライバシー技術の新しいスタンダードになるかもしれないよね！
-
-**Comment:** Submitted to The 39th Annual AAAI Conference on Artificial   Intelligence (AAAI-25)
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-14 14:36
+**トピック:** [合成データ](sd), **カテゴリ:** math.NA, cs.AI, cs.CE, cs.LG, cs.NA, **投稿日時:** 2024-08-15 17:07
 
 - - -
 
-### [Information-Theoretic Measures on Lattices for High-Order Interactions](http://arxiv.org/abs/2408.07533)
+### [Federated Fairness Analytics: Quantifying Fairness in Federated Learning](http://arxiv.org/abs/2408.08214)
 
-**高次相互作用のための格子上の情報理論的測度**
+**連合フェアネス分析: 連合学習におけるフェアネスの定量化**
 
-Zhaolu Liu, Mauricio Barahona, Robert L. Peach
+Oscar Dilley, Juan Marcelo Parra-Ullauri, Rasheed Hussain, Dimitra Simeonidou
 
-- 従来のモデルは二変量の関連性に依存し、多変量データの複雑な統計構造を捉えきれない
-- 提案手法は、変数間の代数的関係構造を格子として捉え、その格子上で測度を算出
-- KLダイバージェンスを用いると、高次相互作用の正確な定量化が困難になる
-- 提案したStreitberg情報は、多変量データの複雑な相互作用をより正確に評価可能
+- 連合学習（FL）は、中央集権的なデータ収集を回避しつつ、モデルを分散的に学習する技術である
+- FLはヘルスケアや金融、個人用コンピューティングでの利用が増えているが、従来のMLと同様にフェアネスの課題が存在する
+- 本研究では、フェアネスを測定するための新たな方法論「連合フェアネス分析」を提案し、XAIや協力ゲーム理論、ネットワーク工学の手法を活用する
+- 実験結果から、統計的な異質性とクライアントの参加がフェアネスに影響を及ぼし、「Ditto」や「q-FedAvg」のような手法が僅かにフェアネス・パフォーマンスのトレードオフを改善することが示された
 
-従来の二変量モデルの限界を打破しようとする斬新なアプローチ、すごく興味深いね！特に、株式市場のデータや神経電気生理学のデータに適用できるところが面白いと思う。
-
-**Comment:** 22 pages, 13 figures
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.IT, math.IT, stat.ML, **投稿日時:** 2024-08-14 13:04
-
-- - -
-
-### [At Least Factor-of-Two Optimization for RWLE-Based Homomorphic Encryption](http://arxiv.org/abs/2408.07304)
-
-**RWLEベースの準同型暗号化の少なくとも2倍の最適化**
-
-Jonathan Ly
-
-- 準同型暗号（HE）は暗号化されたままデータに対する代数演算が可能
-- HEの暗号化には計算オーバーヘッドがあり、データ集約型作業に影響
-- Smucheはキャッシング手法で暗号化プロセスを一定時間の操作に変換
-- 新手法「Zinc」はキャッシングを単一のスカラー加算に置き換え、ランダム生成を導入
-
-Zincの手法、めっちゃ興味深いよね！分散環境でも効率を犠牲にせずセキュリティを保つなんて、未来の技術が見えてきた感じ。
+連合学習って、いろんなデータの偏りにどう対応するのか気になるところだよね。この研究、フェアネスの改善に役立つ具体的な方法を提案してくれそうで面白そう！
 
 
 
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-14 05:42
+**トピック:** [連合学習](fl), [PETs](pets), **カテゴリ:** cs.LG, cs.AI, cs.DC, cs.GT, cs.NE, **投稿日時:** 2024-08-15 15:23
 
 - - -
 
-### [Joint Graph Rewiring and Feature Denoising via Spectral Resonance](http://arxiv.org/abs/2408.07191)
+### [Communication-robust and Privacy-safe Distributed Estimation for Heterogeneous Community-level Behind-the-meter Solar Power Generation](http://arxiv.org/abs/2408.08107)
 
-**スペクトル共鳴によるグラフの再配線と特徴のノイズ除去の同時実行**
+**異質なコミュニティレベルでのメーター背後の太陽光発電の通信に強くプライバシーを安全にする分散推定**
 
-Jonas Linkerhägner, Cheng Shi, Ivan Dokmanić
+Jinglei Feng, Zhengshuo Li
 
-- グラフニューラルネットワーク(GNN)は、グラフ構造とノードの特徴ベクトルの両方にノイズが含まれている
-- JDR（共同ノイズ除去と再配線）アルゴリズムを提案、グラフ構造と特徴を同時にクリーンアップ
-- グラフと特徴行列の主要な固有空間の整合を最大化することで、性能向上を実現
-- 実験により、JDRが既存の再配線方法を一貫して上回ることを確認
+- メーター背後の太陽光発電システムの増加により、配電系統計画とスケジュールが複雑になる
+- 従来の連合学習方法は、異質性、通信障害、悪意のあるプライバシー攻撃などの課題に直面している
+- 提案手法はマルチタスク連合学習を採用し、全コミュニティの共通および固有の特徴を学習する
+- 差分プライバシーメカニズムを使用し、動的なプライバシーバジェット配分戦略を採用してプライバシー攻撃に対抗
 
-GNNの性能改善の新しい方法なんて超ワクワクする！特に、ノイズ除去と再配線を同時にやっちゃうのが斬新だよね。
+通信もプライバシーもバッチリで、未来のエネルギー管理に貢献しそう！これが実現したら、もっと効率よく安全に電力を使えるね。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.SI, stat.ML, **投稿日時:** 2024-08-13 20:16
-
-- - -
-
-### [FedMADE: Robust Federated Learning for Intrusion Detection in IoT Networks Using a Dynamic Aggregation Method](http://arxiv.org/abs/2408.07152)
-
-**FedMADE: 動的集約法を用いたIoTネットワークの侵入検知のための堅牢なフェデレーテッドラーニング**
-
-Shihua Sun, Pragya Sharma, Kenechukwu Nwodo, Angelos Stavrou, Haining Wang
-
-- IoTデバイスの急増によりネットワークセキュリティの懸念が増大
-- 伝統的な機械学習モデルはデータプライバシーの問題を抱える
-- FedMADEはデバイスのトラフィックパターンに基づきローカルモデルを集約
-- FedMADEはマイノリティ攻撃の分類精度を71.07%改善し、毒性攻撃に強い
-
-FedMADEってマイノリティ攻撃の分類精度がめっちゃ上がるんだって！それに、毒性攻撃にも耐性があって、超便利じゃん。未来のセキュリティが楽しみだね。
-
-**Comment:** To appear in the Information Security Conference (ISC) 2024
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.NI, **投稿日時:** 2024-08-13 18:42
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** eess.SY, cs.SY, **投稿日時:** 2024-08-15 12:11
 
 - - -
 
-### [OFL-W3: A One-shot Federated Learning System on Web 3.0](http://arxiv.org/abs/2408.07096)
+### [I-SHEEP: Self-Alignment of LLM from Scratch through an Iterative Self-Enhancement Paradigm](http://arxiv.org/abs/2408.08072)
 
-**OFL-W3: Web 3.0におけるワンショット連合学習システム**
+**I-SHEEP: LLMをゼロから自動調整する反復自己強化パラダイム**
 
-Linshan Jiang, Moming Duan, Bingsheng He, Yulin Sun, Peishen Yan, Yang Hua, Tao Song
+Yiming Liang, Ge Zhang, Xingwei Qu, Tianyu Zheng, Jiawei Guo, Xinrun Du, Zhenzhu Yang, Jiaheng Liu, Chenghua Lin, Lei Ma, Wenhao Huang, Jiajun Zhang
 
-- 連合学習（FL）はデータサイロの課題を扱い、プライバシーやセキュリティ規制を保ちながら協調学習を実現
-- Web 3.0のブロックチェーン技術と分散型アプリケーション（DApps）は、ウェブ開発の新たな可能性を提示
-- Ethereumのトランザクション速度制約とスマートコントラクトの遅延を克服するために、ワンショットFLがWeb 3.0に適している
-- OFL-W3はスマートコントラクトとIPFSを活用してトランザクションを管理し、既存のワンショットFLアルゴリズムを使用するバックエンドサーバー操作を円滑にする
+- LLMは従来の学習方法では受動的な情報貯蔵庫として扱われるが、能動的学習と自己調整の可能性がある
+- I-SHEEPは人間のようにゼロから連続的に自己調整するパラダイムを導入
+- Dromedary法と比較して、QwenとLlamaモデルで最大78.2%の相対的改善を達成
+- 標準ベンチマーク生成タスクでもベースモデルを上回り、平均24.77%の改善を実現
 
-Web 3.0とAIを統合した最先端の研究で、これからの技術の方向性にも大きな影響を与えそう！ワンショットFLの実用性がどれくらい高いのか、もっと詳しく知りたいね。
+人間みたいに自己改善できるLLMなんてワクワクしちゃう！将来のAI学習方法がどんどん進化していきそうで楽しみ～。
 
-**Comment:** VLDB 24 demo paper
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2024-08-12 07:31
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, **投稿日時:** 2024-08-15 10:44
 
 - - -
 
-### [InfinityMATH: A Scalable Instruction Tuning Dataset in Programmatic Mathematical Reasoning](http://arxiv.org/abs/2408.07089)
+### [Reliable Communication in Hybrid Authentication and Trust Models](http://arxiv.org/abs/2408.08060)
 
-**InfinityMATH: プログラム的数学的推論における拡張可能な指導調整データセット**
+**ハイブリッド認証と信頼モデルにおける確実な通信**
 
-Bo-Wen Zhang, Yan Yan, Lin Li, Guang Liu
+Rowdy Chotkan, Bart Cox, Vincent Rahli, Jérémie Decouchant
 
-- CoTとPoT手法により、言語モデルの数学的推論能力が大きく向上
-- 既存の大規模データセット作成手法は高い計算コストと大量のシードデータを必要とする
-- InfinityMATHは数値を問題から分離して合成することで、拡張性と効率性を向上
-- Llama2やCodeLlamaでの実験結果、ベンチマークにおいて184.7%から514.3%の改善を示した
+- 信頼できる通信は、ネットワーク全体の強力な通信プリミティブの基礎
+- 既存の認証モデルを用いた2つのプロトコルが未知かつ十分に接続されたネットワークで信頼できる通信を実現
+- ハイブリッドシステムモデルでは、認証リンクと認証プロセスを組み合わせ、信頼できるノードやコンポーネントを活用
+- 新提案のDualRCアルゴリズムは、拡散経路とデジタル署名を操作し、ネットワークゲートウェイやIntel SGX enclavesなど信頼できるノードを活用
 
-数値を具体的に切り離して拡張性を持たせる発想、すごく面白いよね！これから先、数学の勉強で AI がもっと頼りになる時代が来るのかも！
+新しく提案されたアルゴリズムが、今までよりも強力で信頼性のある通信を可能にするのがすごく興味深い！ネットワークセキュリティの進化が楽しみだね。
 
-**Comment:** Accepted by CIKM 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, I.2.7, **投稿日時:** 2024-08-09 08:18
+
+**トピック:** [TEE](tee), **カテゴリ:** cs.DC, **投稿日時:** 2024-08-15 10:01
+
+- - -
+
+### [Practical Privacy-Preserving Identity Verification using Third-Party Cloud Services and FHE (Role of Data Encoding in Circuit Depth Management)](http://arxiv.org/abs/2408.08002)
+
+**第三者クラウドサービスとFHEを用いた実用的なプライバシー保護型の身分証明確認（回路深度管理におけるデータエンコーディングの役割）**
+
+Deep Inder Mohan, Srinivas Vivek
+
+- 発展途上国でのデジタル身分証明システムのコスト削減と技術的課題がある
+- 提案したプロトコルは、単一鍵の完全準同型暗号（FHE）を使用してデータを暗号化して処理
+- データエンコーディング方式は、多様なID確認クエリを少ない暗号文で処理可能
+- 認証機関による計算負担を最小限にし、「拡張」復号のみを行う設計
+
+ID確認を完全準同型暗号でやっちゃうなんて未来的だし、本当に安全な感じだよね。これ、広まれば色々な国が採用しそうで楽しみ！
+
+**Comment:** This work was presented (without proceedings) at the Turing   Trustworthy Digital Identity International Conference 2022 at The Alan Turing   Institute, London, UK, on Sep. 16, 2022
+
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-15 08:12
+
+- - -
+
+### [Polaris: Open-ended Interactive Robotic Manipulation via Syn2Real Visual Grounding and Large Language Models](http://arxiv.org/abs/2408.07975)
+
+**Polaris: Syn2Real視覚グラウンドと大規模言語モデルによるオープンエンドのインタラクティブロボットマニピュレーション**
+
+Tianyu Wang, Haitao Lin, Junqiu Yu, Yanwei Fu
+
+- オープンエンドなインタラクティブロボットマニピュレーションに関する研究
+- LLMsはユーザー指示理解を助力も視覚グラウンド欠如が物理的操作を制限
+- PolarisフレームワークはGPT-4と視覚モデルの統合で精密な操作を実現
+- Syn2Realポーズ推定パイプラインで合成データから実世界タスクへの適応を行う
+
+視覚と言語を合体させることで、ロボットがもっと賢く動けるようになるなんてワクワクするよね！未来には、家庭でロボットが普通になってくれたら便利だなぁって思う。
+
+**Comment:** Accepted by IROS 2024. 8 pages, 5 figures. See   https://star-uu-wang.github.io/Polaris/
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.CL, cs.CV, **投稿日時:** 2024-08-15 06:40
+
+- - -
+
+### [Addressing Skewed Heterogeneity via Federated Prototype Rectification with Personalization](http://arxiv.org/abs/2408.07966)
+
+**個別化による連合プロトタイプ補正で偏った異質性に対処する**
+
+Shunxin Guo, Hongsong Wang, Shuxia Lin, Zhiqiang Kou, Xin Geng
+
+- 連合学習の課題として、偏ったプライベートデータの分布が存在する
+- この論文では、より実用的かつ挑戦的な「Skewed Heterogeneous Federated Learning (SHFL)」を定義
+- 提案手法は「連合個別化」と「連合プロトタイプ補正」で構成され、クラス間とクラス内の差異を活用
+- 3つのベンチマーク実験で、提案手法が現行の最先端手法を上回り、個別化と一般化の両面でバランスの取れた性能を実現
+
+新しい学習方法でデータ偏り問題を解決できるのはすごいね！連合学習を使うのってちょっと未来っぽいし、これからのAIモデルにめっちゃ役立ちそう💡
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-15 06:26
+
+- - -
+
+### [Time-Dependent VAE for Building Latent Factor from Visual Neural Activity with Complex Dynamics](http://arxiv.org/abs/2408.07908)
+
+**複雑な動態を持つ視覚神経活動から潜在因子を構築するための時間依存VAE**
+
+Liwei Huang, ZhengYu Ma, Liutao Yu, Huihui Zhou, Yonghong Tian
+
+- 神経活動と行動や感覚刺激の内在的な相関を明らかにするため、質の高い神経潜在表現の探索が重要
+- 従来のモデルは行動情報に依存し固定時間スケールに制約されるため、自由視聴の視覚神経活動では困難
+- Time-Dependent SwapVAEを提案し、内容とスタイル空間を分離させ時間依存の状態変数を導入
+- 自己教師付きコントラスト学習を利用し、任意の長さの神経活動シーケンスから複雑な動態を効果的に解析
+
+視覚神経活動から直接的に有用な情報を引き出すこの方法、かなり革新的かも！神経活動データをこんな形で使えるなんて、面白そうだよね。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.NE, q-bio.NC, **投稿日時:** 2024-08-15 03:27
+
+- - -
+
+### [Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning](http://arxiv.org/abs/2408.07845)
+
+**連合学習による住宅およびホームレス支援システムにおける公平なAIアクセスの強化**
+
+Musa Taib, Jiajun Wu, Steve Drew, Geoffrey G. Messier
+
+- 住宅およびホームレス支援システム（HHSC）の主要目標はホームレス状態の人々を支援住宅に繋げること
+- 各機関のITプラットフォームは異なり、データが孤立しているため、データの共有が困難
+- 連合学習（FL）によって、全機関がセンシティブなデータを共有せずに予測モデルを協力してトレーニングできる
+- カルガリーの実データを用いた実験結果は、データを完全に共有した理想的なシナリオと同等の性能を示す
+
+連合学習って、各機関がデータを共有しなくても協力できるんだね。これってすごく未来感あるし、プライバシーも守れるから安心だね！
+
+**Comment:** Accepted at the 2024 AAAI/ACM Conference on AI, Ethics, and Society   (AIES)
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.CY, **投稿日時:** 2024-08-14 23:01
+
+- - -
+
+### [Graph neural network surrogate for strategic transport planning](http://arxiv.org/abs/2408.07726)
+
+**戦略的交通計画のためのグラフニューラルネットワーク代理モデル**
+
+Nikita Makarov, Santhanakrishnan Narayanan, Constantinos Antoniou
+
+- 都市環境の複雑化に伴い、交通システムのモデリングが困難に
+- GCNに基づく既存のモデルとGATを比較分析
+- 新しいGATのバリアント（GATv3）を提案し、過平滑化問題に対応
+- 合成データ生成でトレーニングデータを増やし、GCNの性能向上を実証
+
+グラフニューラルネットワークで交通計画をもっとスマートにできる未来、楽しみ！新しいGATv3の提案も面白そうで、実現すれば大きな変革が期待できそうだね！
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-08-14 14:18

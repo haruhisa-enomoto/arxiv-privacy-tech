@@ -1,244 +1,303 @@
 [
   {
-    "url": "http://arxiv.org/abs/2408.08264",
-    "title": "InVAErt networks for amortized inference and identifiability analysis of lumped parameter hemodynamic models",
-    "japanese_title": "逆方向のネットワークを用いた一括パラメータ血行モデルの推論と識別可能性分析",
+    "url": "http://arxiv.org/abs/2408.08868",
+    "title": "A Hassle-free Algorithm for Private Learning in Practice: Don't Use Tree Aggregation, Use BLTs",
+    "japanese_title": "実践でのプライベート学習のための手間のかからないアルゴリズム: ツリー集約を使わずにBLTを使おう",
     "authors": [
-      "Guoxiang Grayson Tong",
-      "Carlos A. Sing Long",
-      "Daniele E. Schiavazzi"
+      "H. Brendan McMahan",
+      "Zheng Xu",
+      "Yanxiang Zhang"
     ],
     "categories": [
-      "math.NA",
-      "cs.AI",
-      "cs.CE",
-      "cs.LG",
-      "cs.NA"
+      "cs.LG"
     ],
     "comment": "",
-    "summary": "- 心血管モデル推定が難しいのは識別可能性の欠如が原因\n- 最適化やベイズ推論は正則化を使用し、複数解の発見を制限\n- inVAErtネットワークを用いて剛性動力系のデジタルツイン分析を強化\n- 合成データから実データまで、inVAErtネットワークの柔軟性と効果を実証\n\n心臓とか血行モデルとか、健康とかのデータをもっと上手に使えるようになるっぽい～！inVAErtネットワークってなんだかSFっぽくてワクワクするね！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-15T17:07:40+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.08214",
-    "title": "Federated Fairness Analytics: Quantifying Fairness in Federated Learning",
-    "japanese_title": "連合フェアネス分析: 連合学習におけるフェアネスの定量化",
-    "authors": [
-      "Oscar Dilley",
-      "Juan Marcelo Parra-Ullauri",
-      "Rasheed Hussain",
-      "Dimitra Simeonidou"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.DC",
-      "cs.GT",
-      "cs.NE"
-    ],
-    "comment": "",
-    "summary": "- 連合学習（FL）は、中央集権的なデータ収集を回避しつつ、モデルを分散的に学習する技術である\n- FLはヘルスケアや金融、個人用コンピューティングでの利用が増えているが、従来のMLと同様にフェアネスの課題が存在する\n- 本研究では、フェアネスを測定するための新たな方法論「連合フェアネス分析」を提案し、XAIや協力ゲーム理論、ネットワーク工学の手法を活用する\n- 実験結果から、統計的な異質性とクライアントの参加がフェアネスに影響を及ぼし、「Ditto」や「q-FedAvg」のような手法が僅かにフェアネス・パフォーマンスのトレードオフを改善することが示された\n\n連合学習って、いろんなデータの偏りにどう対応するのか気になるところだよね。この研究、フェアネスの改善に役立つ具体的な方法を提案してくれそうで面白そう！",
-    "topics": [
-      "連合学習",
-      "PETs"
-    ],
-    "published": "2024-08-15T15:23:32+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.08107",
-    "title": "Communication-robust and Privacy-safe Distributed Estimation for Heterogeneous Community-level Behind-the-meter Solar Power Generation",
-    "japanese_title": "異質なコミュニティレベルでのメーター背後の太陽光発電の通信に強くプライバシーを安全にする分散推定",
-    "authors": [
-      "Jinglei Feng",
-      "Zhengshuo Li"
-    ],
-    "categories": [
-      "eess.SY",
-      "cs.SY"
-    ],
-    "comment": "",
-    "summary": "- メーター背後の太陽光発電システムの増加により、配電系統計画とスケジュールが複雑になる\n- 従来の連合学習方法は、異質性、通信障害、悪意のあるプライバシー攻撃などの課題に直面している\n- 提案手法はマルチタスク連合学習を採用し、全コミュニティの共通および固有の特徴を学習する\n- 差分プライバシーメカニズムを使用し、動的なプライバシーバジェット配分戦略を採用してプライバシー攻撃に対抗\n\n通信もプライバシーもバッチリで、未来のエネルギー管理に貢献しそう！これが実現したら、もっと効率よく安全に電力を使えるね。",
+    "summary": "- ツリー集約はプライバシーと有用性のトレードオフが最適ではない\n- 行列分解は事前に推定が難しい定数による高額な最適化と高い実行時メモリコストを要求\n- 緩衝されたリニアトープリッツ(BLT)メカニズムを用い、マルチ参加シナリオでDP-FTRLを拡張\n- BLT-DP-FTRLはツリー集約の使いやすさを保持しつつ、行列分解並みの有用性とプライバシーを実現\n\nBLTメカニズム、なんだか効率良さそうで現実のアプリでもかなり使えそうだわ！スマホのキーボードでこれが使われたら入力がもっとプライベートで快適に!?",
     "topics": [
       "連合学習",
       "差分プライバシー"
     ],
-    "published": "2024-08-15T12:11:03+00:00"
+    "published": "2024-08-16T17:52:22+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.08072",
-    "title": "I-SHEEP: Self-Alignment of LLM from Scratch through an Iterative Self-Enhancement Paradigm",
-    "japanese_title": "I-SHEEP: LLMをゼロから自動調整する反復自己強化パラダイム",
+    "url": "http://arxiv.org/abs/2408.08722",
+    "title": "A Novel Buffered Federated Learning Framework for Privacy-Driven Anomaly Detection in IIoT",
+    "japanese_title": "プライバシー重視のIIoT異常検知のための新しいバッファ付き連合学習フレームワーク",
     "authors": [
-      "Yiming Liang",
-      "Ge Zhang",
-      "Xingwei Qu",
-      "Tianyu Zheng",
-      "Jiawei Guo",
-      "Xinrun Du",
-      "Zhenzhu Yang",
-      "Jiaheng Liu",
-      "Chenghua Lin",
-      "Lei Ma",
-      "Wenhao Huang",
-      "Jiajun Zhang"
-    ],
-    "categories": [
-      "cs.CL"
-    ],
-    "comment": "",
-    "summary": "- LLMは従来の学習方法では受動的な情報貯蔵庫として扱われるが、能動的学習と自己調整の可能性がある\n- I-SHEEPは人間のようにゼロから連続的に自己調整するパラダイムを導入\n- Dromedary法と比較して、QwenとLlamaモデルで最大78.2%の相対的改善を達成\n- 標準ベンチマーク生成タスクでもベースモデルを上回り、平均24.77%の改善を実現\n\n人間みたいに自己改善できるLLMなんてワクワクしちゃう！将来のAI学習方法がどんどん進化していきそうで楽しみ～。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-15T10:44:38+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.08060",
-    "title": "Reliable Communication in Hybrid Authentication and Trust Models",
-    "japanese_title": "ハイブリッド認証と信頼モデルにおける確実な通信",
-    "authors": [
-      "Rowdy Chotkan",
-      "Bart Cox",
-      "Vincent Rahli",
-      "Jérémie Decouchant"
-    ],
-    "categories": [
-      "cs.DC"
-    ],
-    "comment": "",
-    "summary": "- 信頼できる通信は、ネットワーク全体の強力な通信プリミティブの基礎\n- 既存の認証モデルを用いた2つのプロトコルが未知かつ十分に接続されたネットワークで信頼できる通信を実現\n- ハイブリッドシステムモデルでは、認証リンクと認証プロセスを組み合わせ、信頼できるノードやコンポーネントを活用\n- 新提案のDualRCアルゴリズムは、拡散経路とデジタル署名を操作し、ネットワークゲートウェイやIntel SGX enclavesなど信頼できるノードを活用\n\n新しく提案されたアルゴリズムが、今までよりも強力で信頼性のある通信を可能にするのがすごく興味深い！ネットワークセキュリティの進化が楽しみだね。",
-    "topics": [
-      "TEE"
-    ],
-    "published": "2024-08-15T10:01:24+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.08002",
-    "title": "Practical Privacy-Preserving Identity Verification using Third-Party Cloud Services and FHE (Role of Data Encoding in Circuit Depth Management)",
-    "japanese_title": "第三者クラウドサービスとFHEを用いた実用的なプライバシー保護型の身分証明確認（回路深度管理におけるデータエンコーディングの役割）",
-    "authors": [
-      "Deep Inder Mohan",
-      "Srinivas Vivek"
+      "Samira Kamali Poorazad",
+      "Chafika Benzaid",
+      "Tarik Taleb"
     ],
     "categories": [
       "cs.CR"
     ],
-    "comment": "This work was presented (without proceedings) at the Turing   Trustworthy Digital Identity International Conference 2022 at The Alan Turing   Institute, London, UK, on Sep. 16, 2022",
-    "summary": "- 発展途上国でのデジタル身分証明システムのコスト削減と技術的課題がある\n- 提案したプロトコルは、単一鍵の完全準同型暗号（FHE）を使用してデータを暗号化して処理\n- データエンコーディング方式は、多様なID確認クエリを少ない暗号文で処理可能\n- 認証機関による計算負担を最小限にし、「拡張」復号のみを行う設計\n\nID確認を完全準同型暗号でやっちゃうなんて未来的だし、本当に安全な感じだよね。これ、広まれば色々な国が採用しそうで楽しみ！",
+    "comment": "",
+    "summary": "- IIoTはデータプライバシーとサイバーセキュリティの脅威に敏感\n- FLはプライバシーを保護しつつ、ローカルデータでモデルを共同訓練\n- 垂直同期と非同期のFLには限界があり、データ異質性とリソース制約が影響\n- 新提案のBFLは、準同型暗号とバッファベースサーバーで限界を克服\n\nバッファ技術を使ってプライバシーと効率性を両立させちゃうとか、めっちゃおもしろそう！さらに、データ保護も強化されるから、もっと安心してIIoTが使える未来が広がりそうだね。",
     "topics": [
+      "連合学習",
       "準同型暗号"
     ],
-    "published": "2024-08-15T08:12:07+00:00"
+    "published": "2024-08-16T13:01:59+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.07975",
-    "title": "Polaris: Open-ended Interactive Robotic Manipulation via Syn2Real Visual Grounding and Large Language Models",
-    "japanese_title": "Polaris: Syn2Real視覚グラウンドと大規模言語モデルによるオープンエンドのインタラクティブロボットマニピュレーション",
+    "url": "http://arxiv.org/abs/2408.08704",
+    "title": "Beyond the Hype: A dispassionate look at vision-language models in medical scenario",
+    "japanese_title": "誇張を超えて：医療シナリオにおける視覚言語モデルの冷静な評価",
     "authors": [
-      "Tianyu Wang",
-      "Haitao Lin",
-      "Junqiu Yu",
-      "Yanwei Fu"
+      "Yang Nan",
+      "Huichi Zhou",
+      "Xiaodan Xing",
+      "Guang Yang"
     ],
     "categories": [
-      "cs.RO",
-      "cs.CL",
-      "cs.CV"
+      "cs.CV",
+      "cs.AI"
     ],
-    "comment": "Accepted by IROS 2024. 8 pages, 5 figures. See   https://star-uu-wang.github.io/Polaris/",
-    "summary": "- オープンエンドなインタラクティブロボットマニピュレーションに関する研究\n- LLMsはユーザー指示理解を助力も視覚グラウンド欠如が物理的操作を制限\n- PolarisフレームワークはGPT-4と視覚モデルの統合で精密な操作を実現\n- Syn2Realポーズ推定パイプラインで合成データから実世界タスクへの適応を行う\n\n視覚と言語を合体させることで、ロボットがもっと賢く動けるようになるなんてワクワクするよね！未来には、家庭でロボットが普通になってくれたら便利だなぁって思う。",
+    "comment": "10 pages",
+    "summary": "- 最近のLarge Vision-Language Models (LVLMs)は多様なタスクで卓越した能力を示しており、特にAIコミュニティで注目されている\n- 医療分野でのパフォーマンスと信頼性は十分に評価されておらず、多くの評価が視覚質問応答(VQA)に集中している\n- RadVUQA（新たな放射線視覚理解と質問応答ベンチマーク）を導入し、既存のLVLMsを包括的に評価する\n- 結果として、LVLMsには重大な欠陥があり、多モーダル理解と定量的推論能力が弱いことが判明した\n\n医療で使われる視覚言語モデルにもっと頑張って欲しいな！この研究がレベルアップに貢献してくれるといいね。",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-08-15T06:40:38+00:00"
+    "published": "2024-08-16T12:32:44+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.07966",
-    "title": "Addressing Skewed Heterogeneity via Federated Prototype Rectification with Personalization",
-    "japanese_title": "個別化による連合プロトタイプ補正で偏った異質性に対処する",
+    "url": "http://arxiv.org/abs/2408.08699",
+    "title": "RBLA: Rank-Based-LoRA-Aggregation for Fine-tuning Heterogeneous Models in FLaaS",
+    "japanese_title": "RBLA: 連合学習サービスにおける異種モデルの微調整のためのランクベースLoRAアグリゲーション",
     "authors": [
-      "Shunxin Guo",
-      "Hongsong Wang",
-      "Shuxia Lin",
-      "Zhiqiang Kou",
-      "Xin Geng"
+      "Shuaijun Chen",
+      "Omid Tavallaie",
+      "Niousha Nazemi",
+      "Albert Y. Zomaya"
     ],
     "categories": [
       "cs.LG",
       "cs.DC"
     ],
     "comment": "",
-    "summary": "- 連合学習の課題として、偏ったプライベートデータの分布が存在する\n- この論文では、より実用的かつ挑戦的な「Skewed Heterogeneous Federated Learning (SHFL)」を定義\n- 提案手法は「連合個別化」と「連合プロトタイプ補正」で構成され、クラス間とクラス内の差異を活用\n- 3つのベンチマーク実験で、提案手法が現行の最先端手法を上回り、個別化と一般化の両面でバランスの取れた性能を実現\n\n新しい学習方法でデータ偏り問題を解決できるのはすごいね！連合学習を使うのってちょっと未来っぽいし、これからのAIモデルにめっちゃ役立ちそう💡",
+    "summary": "- 連合学習（FL）はモバイルやデスクトップなどの多様なデバイスでプライバシーを保護しながら学習を分散させる枠組み\n- LoRAはモデルのパラメータの低次元部分に焦点を当てて効率的に微調整を行う方法で、計算およびメモリコストを削減\n- FL環境でのLoRAは、ローカルモデルのランクを調整することで異なるハードウェアに柔軟かつ効率的に展開可能\n- 異なるランクのモデルの集約にRBLAを提案し、現行のパディング手法が性能を低下させる問題を解決\n\nRank-Based LoRA Aggregation (RBLA)の提案で、これまでのモデル集約の課題が改善されるみたい。特に異なるデバイスの特徴を活かせるところが新しくて良いね！",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-08-15T06:26:46+00:00"
+    "published": "2024-08-16T12:26:36+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.07908",
-    "title": "Time-Dependent VAE for Building Latent Factor from Visual Neural Activity with Complex Dynamics",
-    "japanese_title": "複雑な動態を持つ視覚神経活動から潜在因子を構築するための時間依存VAE",
+    "url": "http://arxiv.org/abs/2408.08666",
+    "title": "A Multivocal Literature Review on Privacy and Fairness in Federated Learning",
+    "japanese_title": "連合学習におけるプライバシーと公平性に関する多面的文献レビュー",
     "authors": [
-      "Liwei Huang",
-      "ZhengYu Ma",
-      "Liutao Yu",
-      "Huihui Zhou",
-      "Yonghong Tian"
-    ],
-    "categories": [
-      "cs.NE",
-      "q-bio.NC"
-    ],
-    "comment": "",
-    "summary": "- 神経活動と行動や感覚刺激の内在的な相関を明らかにするため、質の高い神経潜在表現の探索が重要\n- 従来のモデルは行動情報に依存し固定時間スケールに制約されるため、自由視聴の視覚神経活動では困難\n- Time-Dependent SwapVAEを提案し、内容とスタイル空間を分離させ時間依存の状態変数を導入\n- 自己教師付きコントラスト学習を利用し、任意の長さの神経活動シーケンスから複雑な動態を効果的に解析\n\n視覚神経活動から直接的に有用な情報を引き出すこの方法、かなり革新的かも！神経活動データをこんな形で使えるなんて、面白そうだよね。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-08-15T03:27:23+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2408.07845",
-    "title": "Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning",
-    "japanese_title": "連合学習による住宅およびホームレス支援システムにおける公平なAIアクセスの強化",
-    "authors": [
-      "Musa Taib",
-      "Jiajun Wu",
-      "Steve Drew",
-      "Geoffrey G. Messier"
+      "Beatrice Balbierer",
+      "Lukas Heinlein",
+      "Domenique Zipperling",
+      "Niklas Kühl"
     ],
     "categories": [
       "cs.LG",
-      "cs.AI",
-      "cs.CY"
+      "cs.AI"
     ],
-    "comment": "Accepted at the 2024 AAAI/ACM Conference on AI, Ethics, and Society   (AIES)",
-    "summary": "- 住宅およびホームレス支援システム（HHSC）の主要目標はホームレス状態の人々を支援住宅に繋げること\n- 各機関のITプラットフォームは異なり、データが孤立しているため、データの共有が困難\n- 連合学習（FL）によって、全機関がセンシティブなデータを共有せずに予測モデルを協力してトレーニングできる\n- カルガリーの実データを用いた実験結果は、データを完全に共有した理想的なシナリオと同等の性能を示す\n\n連合学習って、各機関がデータを共有しなくても協力できるんだね。これってすごく未来感あるし、プライバシーも守れるから安心だね！",
+    "comment": "Accepted for publication at the Internationale Tagung   Wirtschaftsinformatik 2024",
+    "summary": "- 連合学習はデータ共有なしでAI応用を革新するが、学習中に情報が抽出される可能性が示された\n- 差分プライバシーなどの追加のプライバシー保護措置が必要である\n- 高リスクな応用（例：医療）では過去の差別的なエラーを繰り返さないことが重要\n- プライバシーと公平性の関係性が無視され、現実世界のアプリケーションに重大なリスクをもたらしている\n\nプライバシーと公平性のバランスを取るって超難しそうだけど、やりがいがありそう。実際のアプリにも早く使われたらいいな！",
     "topics": [
-      "連合学習"
+      "連合学習",
+      "差分プライバシー"
     ],
-    "published": "2024-08-14T23:01:02+00:00"
+    "published": "2024-08-16T11:15:52+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2408.07726",
-    "title": "Graph neural network surrogate for strategic transport planning",
-    "japanese_title": "戦略的交通計画のためのグラフニューラルネットワーク代理モデル",
+    "url": "http://arxiv.org/abs/2408.08655",
+    "title": "Mitigating Backdoor Attacks in Federated Learning via Flipping Weight Updates of Low-Activation Input Neurons",
+    "japanese_title": "連合学習におけるバックドア攻撃の軽減：低活性入力ニューロンの重み更新を反転させる手法",
     "authors": [
-      "Nikita Makarov",
-      "Santhanakrishnan Narayanan",
-      "Constantinos Antoniou"
+      "Binbin Ding",
+      "Penghui Yang",
+      "Zeqing Ge",
+      "Shengjun Huang"
     ],
     "categories": [
       "cs.LG",
       "cs.AI"
     ],
     "comment": "",
-    "summary": "- 都市環境の複雑化に伴い、交通システムのモデリングが困難に\n- GCNに基づく既存のモデルとGATを比較分析\n- 新しいGATのバリアント（GATv3）を提案し、過平滑化問題に対応\n- 合成データ生成でトレーニングデータを増やし、GCNの性能向上を実証\n\nグラフニューラルネットワークで交通計画をもっとスマートにできる未来、楽しみ！新しいGATv3の提案も面白そうで、実現すれば大きな変革が期待できそうだね！",
+    "summary": "- 連合学習はサーバの管理下で複数のクライアントが協力し、プライバシー要件を遵守しながら機械学習モデルを訓練する技術である\n- バックドア攻撃は、妥協されたモデル中の特定のニューロンを活性化させ、クリーンデータではこれらのニューロンは休止状態にある\n- FLAINと呼ばれる新しい手法を提案し、低活性入力ニューロンの重み更新を反転させることでバックドア攻撃を防ぐ\n- 広範な実験により、非独立同分布（non-IID）データや高MCRシナリオでもバックドア攻撃の成功率を低く抑え、クリーンデータの性能劣化も最小限に抑えることが確認された\n\nFLAINって名前がかわいい(笑) どんな攻撃にもピンポイントに対抗できるなんて、まるでデジタル世界の防犯カメラみたい。未来のセキュリティ技術に繋がるかもって思うとワクワクするよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-16T10:44:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08642",
+    "title": "The Power of Bias: Optimizing Client Selection in Federated Learning with Heterogeneous Differential Privacy",
+    "japanese_title": "バイアスの力：異質な差分プライバシーを考慮した連合学習のクライアント選択の最適化",
+    "authors": [
+      "Jiating Ma",
+      "Yipeng Zhou",
+      "Qi Li",
+      "Quan Z. Sheng",
+      "Laizhong Cui",
+      "Jiangchuan Liu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- クライアントはモデル勾配を公開するが、元のデータは公開しない連合学習のプライバシー保護\n- 差分プライバシーを導入したDPFLは勾配にノイズを加えて保護を強化\n- クライアント選択の問題として、異質なプライバシー要件とデータ品質、ノイズの影響を考慮\n- DPFL-BCSアルゴリズムを提案し、実験結果から既存手法に比べモデル性能向上を確認\n\nこのアルゴリズム、めちゃおもしろそう！差分プライバシーのノイズまで考慮して最適化してるのって新しいから、実際にどう使えるのかもっと知りたいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-16T10:19:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08558",
+    "title": "Linear combinations of latents in diffusion models: interpolation and beyond",
+    "japanese_title": "拡散モデルにおける潜在変数の線形結合：補間とその先",
+    "authors": [
+      "Erik Bodin",
+      "Henry Moss",
+      "Carl Henrik Ek"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 生成モデルはデータ合成や拡張に重要で、ガウス潜在変数を使用して生成する\n- 現在の標準手法では、中間体が期待される分布に従わないことがある\n- 新しい補間手法COGは、標準手法を上回るか匹敵し、実装が簡単\n- COGは線形結合に対応し、高次元オブジェクトの表現を簡単に生成可能\n\nこの論文、生成モデルの操作方法をより自由にできるってところが面白そう！ガウス潜在変数の新しい使い方、いろいろな可能性が広がりそうだなって思う。",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-08-14T14:18:47+00:00"
+    "published": "2024-08-16T06:43:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08537",
+    "title": "SeeWasm: An Efficient and Fully-Functional Symbolic Execution Engine for WebAssembly Binaries",
+    "japanese_title": "SeeWasm: WebAssemblyバイナリのための効率的かつ完全機能のシンボリック実行エンジン",
+    "authors": [
+      "Ningyu He",
+      "Zhehao Zhao",
+      "Hanqin Guan",
+      "Jikai Wang",
+      "Shuo Peng",
+      "Ding Li",
+      "Haoyu Wang",
+      "Xiangqun Chen",
+      "Yao Guo"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "comment": "Accepted by ISSTA'24 Demo Track, the tool can be accessed at   https://github.com/PKU-ASAL/SeeWasm",
+    "summary": "- WebAssemblyは40以上の高級プログラミング言語からコンパイル可能なコンパクトで高速なバイナリフォーマット\n- Wasmバイナリの脆弱性は機密データ漏洩やホスティング環境の脅威になる可能性がある\n- SeeWasmは全機能のWasmバイナリをサポートしつつ手動介入を不要にし、既存ツールに比べて解析速度を2〜6倍向上\n- SeeWasmを使用して30以上のゼロデイ脆弱性やセキュリティ問題を特定した実績がある\n\nSeeWasmを使えば、もっとスムーズに脆弱性が見つかりそうだね！WebAssemblyの解析が効率化されたら、セキュリティ強化に大活躍するに違いないよ！",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-08-16T05:42:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08475",
+    "title": "Models Matter: Setting Accurate Privacy Expectations for Local and Central Differential Privacy",
+    "japanese_title": "モデルは重要: ローカルおよび中央差分プライバシーのための正確なプライバシー期待の設定",
+    "authors": [
+      "Mary Anne Smart",
+      "Priyanka Nanayakkara",
+      "Rachel Cummings",
+      "Gabriel Kaptchuk",
+      "Elissa Redmiles"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.HC"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーは人気のあるプライバシー技術で、業界や政府で導入されている\n- 現行の差分プライバシーの説明は、データ提供者が期待するプライバシーを正確に設定できていない\n- ローカルモデルと中央モデルのための新しい差分プライバシーの説明を設計し評価\n- プライバシー影響を明示した説明が、正確なプライバシー期待を設定する上で有望であることを発見\n\nこの論文、正確なプライバシー期待を設定するための新しい説明方法について研究してて、めっちゃ興味深い！プライバシーを守ることがもっと確実になりそうだよね。",
+    "topics": [
+      "差分プライバシー",
+      "PETs"
+    ],
+    "published": "2024-08-16T01:21:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08471",
+    "title": "Fairness Issues and Mitigations in (Differentially Private) Socio-demographic Data Processes",
+    "japanese_title": "（差分プライバシー付き）社会人口統計データ処理における公平性の問題と対策",
+    "authors": [
+      "Joonhyuk Ko",
+      "Juba Ziani",
+      "Saswat Das",
+      "Matt Williams",
+      "Ferdinando Fioretto"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "comment": "",
+    "summary": "- 重要な社会調査はサンプリング誤差を導入し、グループレベルの推定に不公平が生じる\n- 最適化手法を導入し、サンプリングコストを最適化しつつ誤差を許容範囲内に抑える\n- サンプリング率を決定するプライバシー保護手法が公平性問題に影響を与える\n- 差分プライバシーによるノイズが不公平を軽減し、小規模データに正の影響を与える\n\n大規模なデータセット分析で実証されたみたい！差分プライバシーが不公平を減らすって驚きだよね、もっと詳しく知りたいな。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-16T01:13:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08433",
+    "title": "A Robust Multi-Stage Intrusion Detection System for In-Vehicle Network Security using Hierarchical Federated Learning",
+    "japanese_title": "階層型連合学習を用いた車載ネットワークセキュリティのための堅牢な多段階侵入検知システム",
+    "authors": [
+      "Muzun Althunayyan",
+      "Amir Javed",
+      "Omer Rana"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "24 pages",
+    "summary": "- CANバスは効率的だが基本的なセキュリティ対策に欠け、サイバー攻撃に脆弱\n- 提案されたIDSは、ANNとLSTMオートエンコーダを組み合わせて既知および新規攻撃を検出\n- 階層型連合学習環境でモデルを更新しつつデータのプライバシーを保護\n- 実験結果は、既知攻撃でF1スコア0.99超、新規攻撃で0.95超、誤警報率0.016%と示す\n\nこの研究、すごく実用的だね！特に、新しい攻撃も検出できるところが未来の安全な車社会に向けて期待できるよ。軽量だから実際の車にもすぐに導入できそうなのもいいよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-15T21:51:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08430",
+    "title": "Random Gradient Masking as a Defensive Measure to Deep Leakage in Federated Learning",
+    "japanese_title": "Federated Learningにおける深層リーク防御手段としてのランダム勾配マスキング",
+    "authors": [
+      "Joon Kim",
+      "Sejin Park"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "13 pages, 5 figures, to be submitted to Applied Intelligence",
+    "summary": "- 連合学習（FL）は個々のクライアントのデータプライバシーを保護することを目的としているが、DLG攻撃により実用性が疑問視されている\n- 本研究ではDLG攻撃への4つの防御手法（マスキング、クリッピング、プルーニング、ノイジング）の有効性を実証的に評価\n- 特にマスキングは、これまでパラメータ転送時の情報圧縮手段として研究されていたが、防御手段としても抜群の効果を示した\n- MNIST、CIFAR-10、lfwデータセットを用いて、各手法のハイパーパラメータ閾値を評価し、FL訓練パフォーマンスとDLG防御のトレードオフを調査\n\nこの論文、マスキングが他の手法よりも効果的なんて意外でワクワクするよね♪ 学習性能を落とさずに防御力も高いなんて、未来のセキュリティ技術に期待大だよ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-15T21:43:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.08379",
+    "title": "Towards Realistic Synthetic User-Generated Content: A Scaffolding Approach to Generating Online Discussions",
+    "japanese_title": "現実的な合成ユーザー生成コンテンツへの道: オンライン議論を生成するための足場アプローチ",
+    "authors": [
+      "Krisztian Balog",
+      "John Palowitch",
+      "Barbara Ikica",
+      "Filip Radlinski",
+      "Hamidreza Alvari",
+      "Mehdi Manshadi"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 合成データは、大量のデータを必要とする機械学習において重要な役割を果たし、実データが乏しい分野での解決策である\n- 大規模モデル（LLM）は多様なオンラインインタラクションを模倣するが、複雑なオンライン議論構造を完全には捉えきれない\n- 独自の「足場」を作成する多段階生成プロセスを提案し、特定のソーシャルメディアプラットフォームに応じて適応可能\n- 生成された合成データの代表性と現実性を評価するための評価指標を提案し、2つの異なるオンラインディスカッションプラットフォームで実証\n\n友達と一緒に新しい技術を試してみるのってワクワクするよね。この研究、合成データの現実性を高める工夫がすごいよ。未来のSNS、もっと面白くなるかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-15T18:43:50+00:00"
   }
 ]

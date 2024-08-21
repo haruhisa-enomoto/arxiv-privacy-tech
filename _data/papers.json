@@ -1,5 +1,246 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.10862",
+    "title": "Feature Selection from Differentially Private Correlations",
+    "japanese_title": "差分プライベートな相関からの特徴選択",
+    "authors": [
+      "Ryan Swope",
+      "Amol Khanna",
+      "Philip Doldo",
+      "Saptarshi Roy",
+      "Edward Raff"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "To appear in Proceedings of the 17th ACM Workshop on Artificial   Intelligence and Security, 2024",
+    "summary": "- 高次元データセットで最重要な特徴を特定するための$L_1$正則化回帰が非効率\n- 高次元回帰は個々のデータポイントの情報漏洩のリスクがある\n- 既存の二段階選択技術が実世界データセットで不安定なことを実証\n- 相関に基づく順序統計量を用いた新方法が、多くのデータセットで既存技術を大幅に上回る\n\n新しい方法が今までの限界を超えて成果を出してるから、めちゃ期待できるよね！現場での実装が楽しみじゃん？",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-20T13:54:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10831",
+    "title": "ZebraPose: Zebra Detection and Pose Estimation using only Synthetic Data",
+    "japanese_title": "ZebraPose: 合成データのみを用いたシマウマの検出およびポーズ推定",
+    "authors": [
+      "Elia Bonetto",
+      "Aamir Ahmad"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "comment": "8 pages, 5 tables, 7 figures",
+    "summary": "- 合成データを用いて、シマウマの2Dポーズ推定と検出を実現\n- 3Dフォトリアリスティックシミュレーターで合成データを生成\n- 実際のシマウマ画像での一般化能力を証明\n- この技術は少量の実データで馬にも応用可能\n\nシマウマのための技術が他の動物にも使えるってすごくない？これ、ワイルドライフ研究の効率をめっちゃ上げちゃいそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-20T13:28:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10826",
+    "title": "NeuLite: Memory-Efficient Federated Learning via Elastic Progressive Training",
+    "japanese_title": "NeuLite：エラスティック進行トレーニングによるメモリ効率の高い連合学習",
+    "authors": [
+      "Yebo Wu",
+      "Li Li",
+      "Chunlin Tian",
+      "Dubing Chen",
+      "Chengzhong Xu"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータプライバシーを保ちながら複数のデバイスが共同でモデルを訓練する新たな学習パラダイムである\n- リソースが限られたデバイスにおいて、トレーニング中の大きなメモリ使用量が実装のボトルネックである\n- NeuLiteはモデルをブロックに分割し、進行的にトレーニングを行うことでメモリ使用量を削減するフレームワークを提案している\n- 実験では、NeuLiteが最大50.4%のメモリ使用量削減、最大84.2%のモデル性能向上、最大1.9倍のトレーニング速度向上を示した\n\nNeuLiteって、メモリ使うときもすごくエコな感じだね！これでスマホとかももっと賢くなるといいなー。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-20T13:21:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10755",
+    "title": "Generating Synthetic Fair Syntax-agnostic Data by Learning and Distilling Fair Representation",
+    "japanese_title": "公平な表現の学習と蒸留による構文独立な合成データ生成",
+    "authors": [
+      "Md Fahim Sikder",
+      "Resmi Ramachandranpillai",
+      "Daniel de Leng",
+      "Fredrik Heintz"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- AIモデルのトレーニングはバイアスの影響を受けやすく、公正なデータ生成が必要\n- 現行の生成方法は計算負荷が高く、最適化性能が低下するリスクがある\n- 知識蒸留を用いた小規模アーキテクチャで、公正な潜在空間表現を蒸留\n- 新手法は、公正性、合成データの質、データ利用性で現行手法より5-10%向上\n\nバイアス取り除くのって大変だけど、モデルの性能アップにつながるのがいいよね！こういう技術が進めば、もっと公平な社会になりそうでワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-20T11:37:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10752",
+    "title": "Security Assessment of Hierarchical Federated Deep Learning",
+    "japanese_title": "階層型連合深層学習のセキュリティ評価",
+    "authors": [
+      "D Alqattan",
+      "R Sun",
+      "H Liang",
+      "G Nicosia",
+      "V Snasel",
+      "R Ranjan",
+      "V Ojha"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 階層型連合学習（HFL）は有望な分散型深層学習モデルであるが、敵対的攻撃に対して重要なセキュリティ問題がある\n- HFLは階層構造のおかげで、ターゲティングされていない訓練時の攻撃に対する堅牢性を持つ\n- 特にバックドア攻撃では、悪意のあるクライアントが辺縁サーバーの重複領域に配置されるとHFLのアーキテクチャを悪用する\n- 階層的アグリゲーションにより、HFLは推論時の攻撃に対する耐性を強化し、敵対的訓練に適している\n\nHFLのセキュリティについての研究、めっちゃおもしろそう！攻撃自体にも対策が必要なんだし、こんな感じでより安全な連合学習が実現できるのかもしれないね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-20T11:34:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10664",
+    "title": "Federated Clustering: An Unsupervised Cluster-Wise Training for Decentralized Data Distributions",
+    "japanese_title": "連合クラスタリング：分散データのための教師なしクラスターワイズトレーニング",
+    "authors": [
+      "Mirko Nardi",
+      "Lorenzo Valerio",
+      "Andrea Passarella"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータプライバシーが重要な場面で中心的なアプローチだが、教師なし学習の可能性は未探索\n- FedCRefは異なるクライアント間で協調してクラスタデータをトレーニングし、再構成誤差分析で比較\n- クライアントはデータ分布のセット内で共同トレーニングを行い、ローカルクラスタを継続的に精緻化\n- EMNISTとKMNISTデータセットでの実験により、FedCRefが実際のデータ分布にクラスタモデルを整合させる能力を示した\n\nなんかおもしろそうだよね、FedCRefっていかにも最新技術って感じだし、どんなふうに役立つのかもっと知りたくなっちゃうね。実験結果もすっごく興味深い！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-20T09:05:44+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10663",
+    "title": "REInstruct: Building Instruction Data from Unlabeled Corpus",
+    "japanese_title": "REInstruct: 未ラベルコーパスからのインストラクションデータ構築",
+    "authors": [
+      "Shu Chen",
+      "Xinyan Guan",
+      "Yaojie Lu",
+      "Hongyu Lin",
+      "Xianpei Han",
+      "Le Sun"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "Accepted by ACL2024 Findings",
+    "summary": "- インストラクションデータの手動アノテーションは困難であり、コストがかかりスケールしにくい\n- 現在の自動アノテーション手法は専有LLMに依存するが、品質と著作権問題がある\n- REInstructは、未ラベルコーパスから自動でインストラクションデータを生成する新手法を提案\n- REInstructで生成したデータでトレーニングしたモデルがAlpacaEvalで高い評価を獲得\n\nこの研究、特に手動アノテーションなしで効果的なデータ生成の部分がすごく面白そう！REInstructの手法が他の問題にも応用できそうだよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-20T09:05:03+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10456",
+    "title": "Differentially Private Stochastic Gradient Descent with Fixed-Size Minibatches: Tighter RDP Guarantees with or without Replacement",
+    "japanese_title": "差分プライバシー付き確率的勾配降下法における固定サイズミニバッチ: 置き換え有無に関係なく緊密なRDP保証",
+    "authors": [
+      "Jeremiah Birrell",
+      "Reza Ebrahimi",
+      "Rouzbeh Behnia",
+      "Jason Pacheco"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "39 pages, 10 figures",
+    "summary": "- 差分プライバシー付きSGDがプライバシー保護の下で深層学習モデルを訓練\n- 固定サイズサブサンプリングは一定のメモリ使用量で魅力的\n- 提案するRDPアカウンタントが現行の境界を4倍改善\n- 固定サイズサンプリングが実践でメモリ使用と低い分散を実現\n\n学習中のプライバシー損失がしっかり管理できるってすごく安心だよね！固定サイズの方が実用的で結果も良かったら、ますます取り入れられそう！",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-08-19T23:57:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10443",
+    "title": "Federated Learning of Large ASR Models in the Real World",
+    "japanese_title": "現実の世界における大規模なASRモデルの連合学習",
+    "authors": [
+      "Yonghui Xiao",
+      "Yuxin Ding",
+      "Changwan Ryu",
+      "Petr Zadrazil",
+      "Francoise Beaufays"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "comment": "",
+    "summary": "- 連合学習（FL）はプライバシー保護の機械学習に有望な結果を見せている\n- 1億以上のパラメータを持つ大規模モデルのトレーニングは、リソース要件が障害に\n- ConformerベースのASRの全サイズモデル130MパラメータをFLでトレーニングする体系的な解決策を提示\n- 提案された方法でクライアントのデータとラベルの品質を精査し、モデルの品質向上を実現\n\n大規模なモデルにも連合学習が使えるって、すごく現実的になってきたね！改善されたトレーニング方法で、これからもっと高品質なモデルができるかも～！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-19T22:44:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10392",
+    "title": "Value Alignment from Unstructured Text",
+    "japanese_title": "非構造化テキストからの価値整合",
+    "authors": [
+      "Inkit Padhi",
+      "Karthikeyan Natesan Ramamurthy",
+      "Prasanna Sattigeri",
+      "Manish Nagireddy",
+      "Pierre Dognin",
+      "Kush R. Varshney"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデル（LLM）を価値システムに整合させる研究が重要視されている\n- この整合には、高品質な監督データや好みデータが必要で、手間がかかり高額\n- 合成データ生成技術を用いて、非構造化データにおける価値にモデルを整合させる手法を提案\n- ２つのユースケースを通じて手法の有効性を実証し、他手法よりも優れた結果を示す\n\n非構造化テキストからの価値整合って面白そう！合成データで効率アップしちゃうなんて、未来の研究にも大きな影響ありそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-19T20:22:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10841",
+    "title": "DELIA: Diversity-Enhanced Learning for Instruction Adaptation in Large Language Models",
+    "japanese_title": "DELIA: 大規模言語モデルにおける指示適応のための多様性強化学習",
+    "authors": [
+      "Yuanhao Zeng",
+      "Fei Ren",
+      "Xinpeng Zhou",
+      "Yihang Wang",
+      "Yingxia Shao"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "comment": "8 pages, 5 figures",
+    "summary": "- 指示チューニングは大規模言語モデルの特定タスク形式に適合させるプロセスで、新たな知識や能力は獲得しにくい\n- 指示チューニングで学習される特徴がバイアスされているため、理想的なタスク固有の特徴とは異なり、下流タスクにおけるセマンティクス学習が制限される\n- DELIAは多様なデータを利用し、指示チューニングのバイアスされた特徴を理想的な特徴の近似に変換することで、この問題を解決\n- DELIAは一般的な指示チューニングと比較し、翻訳タスクで17.07%-33.41%の性能向上を達成し、フォーマット化テキスト生成では36.1%の精度向上を実現\n\n多様なデータを活かして問題解決するのって、面白そう！成果が圧倒的に良いから、これからのLLMの進化がとても楽しみだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-19T17:56:06+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.10153",
     "title": "Structure-preserving Image Translation for Depth Estimation in Colonoscopy Video",
     "japanese_title": "大腸内視鏡ビデオにおける深度推定のための構造保存型画像変換",
@@ -379,6 +620,28 @@
     "published": "2024-08-17T21:22:21+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2408.10276",
+    "title": "FEDKIM: Adaptive Federated Knowledge Injection into Medical Foundation Models",
+    "japanese_title": "FEDKIM: 医療基盤モデルへの適応的な連合知識注入",
+    "authors": [
+      "Xiaochen Wang",
+      "Jiaqi Wang",
+      "Houping Xiao",
+      "Jinghui Chen",
+      "Fenglong Ma"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "Submitted to EMNLP'24",
+    "summary": "- 基盤モデルは多様なモダリティに対応し、従来のAI手法を上回る\n- 医療分野では多様なモダリティと厳しいプライバシー規制が課題\n- 本研究は連合学習フレームワークでの知識注入法FedKIMを提案\n- FedKIMはプライバシーを保ちながら多様な医療タスクの処理能力向上を実現\n\n医療分野でのプライバシー保護をしながら性能を上げる手法ってすごく未来感あるね！FedKIMのおかげで、もっと安全に医療AIが進化しそうで楽しみだな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-17T15:42:29+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.09227",
     "title": "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection",
     "japanese_title": "FEDMEKI：連合知識注入を活用した医療基盤モデルのスケーリングに関するベンチマーク",
@@ -398,6 +661,26 @@
       "連合学習"
     ],
     "published": "2024-08-17T15:18:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.10275",
+    "title": "FedKBP: Federated dose prediction framework for knowledge-based planning in radiation therapy",
+    "japanese_title": "FedKBP: 連合学習による放射線治療の知識ベース計画における線量予測フレームワーク",
+    "authors": [
+      "Jingyun Chen",
+      "Martin King",
+      "Yading Yuan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "Under review by SPIE Medical Imaging 2025 Conference",
+    "summary": "- 線量予測は、患者ごとの線量分布を自動生成する知識ベース計画で重要\n- 連合学習（FL）は、患者データのプライバシーを保ちながら深層学習モデルを共同訓練\n- IIDデータ分割では、FLの性能は中央集約型の訓練に匹敵\n- 非IIDデータ分割では、データ分布の偏りが性能に影響を与える\n\n連合学習って、特にデータが偏っているサイト間でどうやって改善していくかが面白そうだね！デザイン次第で、みんなで協力すれば最高の結果を出せるかもって感じがする。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-17T14:57:14+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2408.09215",

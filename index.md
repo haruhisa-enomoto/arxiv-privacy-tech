@@ -27,137 +27,175 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-22T04:19:45.255491
+更新: 2024-08-23T04:20:24.145555
 
 - - -
 
-### [RFID based Health Adherence Medicine Case Using Fair Federated Learning](http://arxiv.org/abs/2408.11782)
+### [Sharper Bounds for Chebyshev Moment Matching with Applications to Differential Privacy and Beyond](http://arxiv.org/abs/2408.12385)
 
-**RFIDを活用した公平な連合学習による健康管理薬ケース**
+**チェビシェフモーメントマッチングの鋭い境界と差分プライバシーへの応用**
 
-Ali Kamrani khodaei, Sina Hajer Ahmadi
+Cameron Musco, Christopher Musco, Lucas Rosenblatt, Apoorv Vikram Singh
 
-- 薬の不履行が治療効果を著しく低減し、死亡リスクや入院リスクが増加
-- 既存のツール (IDASやSmart Blisterなど) は商業的な実用化に課題あり
-- RFIDベースのデータ記録とNFCベースのデータ抽出を利用したSmart Pill Caseを提案
-- 連合学習を統合し、データプライバシーを保ちつつ個別化されたサポートを提供
+- ノイズを含んだチェビシェフ多項式モーメントから確率分布を回復する問題を研究
+- ウォッシャースタイン距離で正確な回復を、以前よりも多くのノイズで達成
+- 差分プライバシーを持つ合成データ分布を構築するシンプルな「線形クエリ」アルゴリズムを提案
+- 対称行列のスペクトル密度を推定するための高速アルゴリズムも提案
 
-面白そうなポイントは、連合学習でみんなのデータを活かしつつプライバシーを守ること！スマホのアプリがあるから便利そうだし、続けやすそうだね。
+一見難しそうだけど、差分プライバシーへの応用が身近になった感じがするね！よりノイズが多い状況でも精度を保てるって、実用性がすごく広がりそう。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-21 17:12
-
-- - -
-
-### [FedGS: Federated Gradient Scaling for Heterogeneous Medical Image Segmentation](http://arxiv.org/abs/2408.11701)
-
-**FedGS: 異種医用画像セグメンテーションのための連合勾配スケーリング**
-
-Philip Schutte, Valentina Corbetta, Regina Beets-Tan, Wilson Silva
-
-- 連合学習（FL）は、患者データを共有せずに医用画像分割モデルの共同訓練を可能にし、プライバシーを保護する
-- データの異種性により、FLは各機関間で異なるデータセットがあり、最適でないグローバルモデルが生成されがち
-- 既存のDisentangled Representation Learning（DRL）は、スタイル特性の異種性のみを仮定し、病変のサイズや形状といったコンテンツベースの変動を見落としている
-- 提案するFedGSは、小さく代表が少ないターゲットに対するセグメンテーション性能を向上させ、PolypGenとLiTSデータセットで特に小さな病変に対して優れた性能を示した
-
-連合学習って、個人データを共有しないでいいから本当にすごいよね！提案された方法で、小さな病変もきちんと見逃さないなんて、今後の医療画像分析に大きな進展が期待できるよね。
-
-**Comment:** 10 pages, 2 figures, 1 table, accepted at MICCAI 2024 Workshop on   Distributed, Collaborative, & Federated Learning Workshop (DeCaF). This is   the submitted manuscript with added link to github repo, funding   acknowledgements and author names and affiliations. No further post   submission improvements or corrections were integrated. Final version not   published yet
-
-**トピック:** [連合学習](fl), **カテゴリ:** eess.IV, cs.CV, **投稿日時:** 2024-08-21 15:26
+**トピック:** [合成データ](sd), **カテゴリ:** cs.DS, cs.LG, **投稿日時:** 2024-08-22 13:26
 
 - - -
 
-### [Private Counting of Distinct Elements in the Turnstile Model and Extensions](http://arxiv.org/abs/2408.11637)
+### [Tackling Data Heterogeneity in Federated Learning via Loss Decomposition](http://arxiv.org/abs/2408.12300)
 
-**ターンスタイルモデルにおける個別要素のプライベートカウントとその拡張**
+**連合学習におけるデータ異質性への対処: 損失分解を通じて**
 
-Monika Henzinger, A. R. Sricharan, Teresa Anna Steiner
+Shuang Zeng, Pengxin Guo, Shuai Wang, Jianbo Wang, Yuyin Zhou, Liangqiong Qu
 
-- ターンスタイルモデルでの個別要素のカウントは、機械学習で多用途に利用される基本的なデータ解析問題である
-- Jainらは、要素の最大フリッパンシー（カウントが0から増減する回数）をパラメータに問題を研究した
-- 彼らは、そのパラメータに対してタイトな加算誤差を持つアイテムレベルの差分プライベートアルゴリズムを提案した
-- 本研究では、スパースベクター技術に基づくシンプルなアルゴリズムが従来のパラメータと異なるパラメータに対してもタイトな誤差を達成することを示した
+- データ異質性があると、ローカルモデルが発散し最適なグローバルモデルを得にくい
+- 損失をローカル損失、分布シフト損失、集約損失に分解しそれぞれの影響を分析
+- 提案する新手法FedLDは全ての損失項を同時に減少させるアプローチ
+- 提案手法は異なるデータ異質性環境下で既存手法よりも優れたパフォーマンスを達成
 
-この研究、めっちゃワクワクする！他のパラメータでもうまくいくなんて、斬新な視点だね。やっぱりプライバシーを守りながらデータ解析するのってスゴイ技術だよね～！
+この研究すごく興味深いね！データ異質性への対策がしっかりしてて、新しい手法も試してみたくなるな。連合学習がもっと進化しそう！
 
-**Comment:** accepted at RANDOM 2024
+**Comment:** Accepted at MICCAI 2024
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.DS, cs.CR, **投稿日時:** 2024-08-21 14:06
-
-- - -
-
-### [Confidential Computing on Heterogeneous Systems: Survey and Implications](http://arxiv.org/abs/2408.11601)
-
-**異種システムにおける機密計算: 調査と影響**
-
-Qifan Wang, David Oswald
-
-- 異種システムが多様な計算コアを統合し、データ爆発に対応している
-- ハードウェアベースの信頼実行環境がGPUアプリの保護に効果的
-- GPU TEEの拡張に伴う潜在的なセキュリティリスクは不明確
-- GPU TEE設計と攻撃手法を比較し、設計上の重要考慮事項を提供
-
-異なる計算ユニットをまとめたハードウェア環境ってすごいよね！でも、セキュリティ問題がまだ調査中みたいで、これからの技術進化に注目だね。
-
-**Comment:** 35 pages, 7 figures
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.CR, cs.AR, **投稿日時:** 2024-08-21 13:14
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-22 11:18
 
 - - -
 
-### [Technical Report: Coopetition in Heterogeneous Cross-Silo Federated Learning](http://arxiv.org/abs/2408.11355)
+### [Subsurface Scattering for 3D Gaussian Splatting](http://arxiv.org/abs/2408.12282)
 
-**異種交差サイロ連合学習における協力と競争**
+**3Dガウススプラッティングによるサブサーフェス散乱**
 
-Chao Huang, Justin Dachille, Xin Liu
+Jan-Niklas Dihlmann, Arjun Majumdar, Andreas Engelhardt, Raphael Braun, Hendrik P. A. Lensch
 
-- 異種データを共有せずに企業がFLで協働して共有モデルを訓練
-- FL協力と市場競争の二重問題を動的2期間ゲームモデルで分析
-- 非凹型問題に対処するため、複数の凹型サブ問題に分解して最適アルゴリズムを開発
-- 数値結果から、FL訓練が性能向上と競争損失をもたらし、データ異種性が市場浸透と価格競争を促進する
+- 散乱材料で構成される物体の3D再構成と再照明は、複雑な光の運搬のため困難
+- 3Dガウススプラッティングは高品質な新しい視点合成をリアルタイムで実現
+- 提案手法は3Dガウス表現と散乱成分の暗黙的な体積表現を用いてシーンを再構成
+- すべてのパラメータをレイトレーシングによる微分レンダリングで最適化
 
-この研究めっちゃおもしろい！FLでのコラボは一方が儲かるともう一方が損するみたいな感じで、すごくダイナミックな戦いになるね。企業同士でどうやって戦略を立てるのかワクワクするなぁ。
+最近のCG技術ってほんとにすごいよね！これなら3Dモデルの素材編集とかも超簡単そう。試してみたくなるよね！
 
-**Comment:** Technical report; main paper accepted to ECAI 2024
+**Comment:** Project page: https://sss.jdihlmann.com/
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.GT, **投稿日時:** 2024-08-21 05:47
-
-- - -
-
-### [FedMoE: Personalized Federated Learning via Heterogeneous Mixture of Experts](http://arxiv.org/abs/2408.11304)
-
-**FedMoE: 異種エキスパートの混合による個人化された連合学習**
-
-Hanzi Mei, Dongqi Cai, Ao Zhou, Shangguang Wang, Mengwei Xu
-
-- 大規模言語モデルの進化に伴い、データ需要が増加している
-- クライアント間のデータ異質性と多様なタスクが連合学習の課題
-- MoEアーキテクチャを用いることで柔軟性を向上させた
-- FedMoEはモジュール的な集約戦略により効率的な個人化を実現
-
-FedMoEを使うことで、各クライアントに最適なモデルを構築できるって面白いね。これからのAIがもっと個別に対応できるようになりそう！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-21 03:16
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.GR, **投稿日時:** 2024-08-22 10:34
 
 - - -
 
-### [The Key of Parameter Skew in Federated Learning](http://arxiv.org/abs/2408.11278)
+### [Weight Scope Alignment: A Frustratingly Easy Method for Model Merging](http://arxiv.org/abs/2408.12237)
 
-**連合学習におけるパラメータ歪度の鍵**
+**重みスコープアライメント: モデル統合のための驚くほど簡単な手法**
 
-Sifan Wang, Junfeng Liao, Ye Yuan, Riquan Zhang
+Yichu Xu, Xin-Chun Li, Le Gan, De-Chuan Zhan
 
-- FLは異なるデータ保有者間で生のデータを交換せずに深層学習を行う優れた解決策である
-- FLにおける統計的異質性が主要な課題で、ローカルモデルパラメータ分布の歪度を引き起こす
-- パラメータ歪度はグローバルモデルの精度に大きく影響し、そのための集約戦略FedSAを提案
-- FedSAは三つのデータセットで既存手法と比較して約4.7%の精度向上を達成
+- トレーニングのランダム性や非独立同分布 (Non-I.I.D) データが、平均ベースのモデル融合に大きな課題をもたらす
+- 重みスコープの変動がモデル統合の効果に大きく影響することを明らかにする
+- 各層のパラメータが基本的にガウス分布に従うことから、新しい簡単な正則化手法「重みスコープアライメント (WSA)」を提案する
+- WSAは、ターゲット重みスコープを用いた訓練と複数モデルの重みスコープの統一という二つの主要なコンポーネントを持つ
 
-連合学習の新たな障害にアプローチする方法を提案していて面白い！これがうまくいけば、もっと正確なモデルが作れるかもしれないね。
+WSAって意外とシンプルなのにめっちゃ効果的かも！連合学習とかいろんなシナリオにも使えるから、これからの研究が超楽しみだよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-21 02:01
+**トピック:** [連合学習](fl), **カテゴリ:** cs.AI, cs.LG, **投稿日時:** 2024-08-22 09:13
+
+- - -
+
+### [Empowering Over-the-Air Personalized Federated Learning via RIS](http://arxiv.org/abs/2408.12162)
+
+**RISを活用した個別化FLのオーバー・ザ・エア促進**
+
+Wei Shi, Jiacheng Yao, Jindan Xu, Wei Xu, Lexi Xu, Chunming Zhao
+
+- オーバー・ザ・エア計算はタスク指向の計算と通信効率を統合する技術
+- 単一のグローバルモデルでは、独立同分布でないローカルデータセットの問題を解決できない
+- RIS技術を用いて、異なるクラスタ間の統計的干渉を排除し個別化FLを実現
+- 提案した二つの個別化集約手法により、FLの収束性能が既存手法より優れることを数値結果が示した
+
+RISを使ってローカルデータの不均一性に対応するなんてカッコいい！個別化が進むともっと使いやすくなりそう！
+
+**Comment:** Accepted by SCIENCE CHINA Information Sciences
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.IT, eess.SP, math.IT, **投稿日時:** 2024-08-22 07:10
+
+- - -
+
+### [Understanding Data Reconstruction Leakage in Federated Learning from a Theoretical Perspective](http://arxiv.org/abs/2408.12119)
+
+**理論的観点から見た連合学習におけるデータ再構築漏洩の理解**
+
+Zifan Wang, Binghui Zhang, Meng Pang, Yuan Hong, Binghui Wang
+
+- 連合学習はデータプライバシーを保護するための新しい協調学習パラダイムである
+- 近年の研究で、連合学習アルゴリズムはデータ再構築攻撃に脆弱であることが示されている
+- 既存研究には、デバイスのデータ再構築の程度を理論的に説明する基盤が欠け、攻撃の効果比較が困難である
+- 提案する理論的枠組みで、既存の攻撃の効果を理論的に比較し、iDLG攻撃がDLG攻撃よりも優れていることを検証した
+
+データ再構築攻撃が実際にどれくらい効果的なのか、理論的に分かるようになるってことかな？連合学習の安全性がもっと高くなるといいなぁ。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2024-08-22 04:20
+
+- - -
+
+### [Federated Diabetes Prediction in Canadian Adults Using Real-world Cross-Province Primary Care Data](http://arxiv.org/abs/2408.12029)
+
+**連合学習を用いたカナダ成人の糖尿病予測：実世界の州間プライマリケアデータを利用して**
+
+Guojun Tang, Jason E. Black, Tyler S. Williamson, Steve H. Drew
+
+- 電子健康記録と機械学習の統合で糖尿病予測の精度を向上
+- 連合学習を導入し中央集権的なデータ管理を避けることでプライバシー問題を解決
+- 連合MLPモデルは中央集権方式と同等以上の性能を示し、連合ロジスティック回帰モデルは劣る結果に
+- ダウンサンプリング技術でクラス不均衡問題に対処し、省単位および中央集権的モデルと比較
+
+新しいアプローチで糖尿病予測が改善されるなんて、本当に未来的だね！特にプライバシーを守りながら精度を保つ技術の進展にワクワクするなあ。
+
+**Comment:** 10 pages
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CE, cs.AI, **投稿日時:** 2024-08-21 22:47
+
+- - -
+
+### [Confounding Privacy and Inverse Composition](http://arxiv.org/abs/2408.12010)
+
+**プライバシーと逆合成の混同**
+
+Tao Zhang, Bradley A. Malin, Netanel Raviv, Yevgeniy Vorobeychik
+
+- ($\epsilon, \delta$)-混同プライバシーという新しいプライバシー概念を導入
+- 差分プライバシーとPufferfishプライバシーを一般化するもので、因果関係を考慮
+- 独立した混同プライバシーメカニズムの合成でプライバシー損失を過小評価する問題を明示
+- 新しいコプラ-摂動法を提案し、最適化問題を解くことでグローバルなプライバシーを実現
+
+新しいプライバシーの概念が具体的にどう活用されるか楽しみだよね。これが普及したら、もっと安心してデータを扱えそう！
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-21 21:45
+
+- - -
+
+### [Parameter-Efficient Transfer Learning under Federated Learning for Automatic Speech Recognition](http://arxiv.org/abs/2408.11873)
+
+**連合学習下での自動音声認識におけるパラメータ効率の良い転移学習**
+
+Xuan Kan, Yonghui Xiao, Tien-Ju Yang, Nanxin Chen, Rajiv Mathews
+
+- 自動音声認識（ASR）モデルの性能をユーザー固有のドメインで向上させることが課題
+- 連合学習とパラメータ効率の良いドメイン適応法を使用
+- データの大量要件と通信コストの問題を解決
+- 適切なアダプターを用いることで集中型と同等の性能を実現
+
+連合学習を使って、ユーザープライバシーを守りながらASRモデルの性能を高められるなんて鼻血でそう！未来のプライバシー保護サービスに期待が膨らむね。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** eess.AS, cs.CR, cs.LG, **投稿日時:** 2024-08-19 22:28

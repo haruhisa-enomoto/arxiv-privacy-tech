@@ -1,5 +1,170 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.13223",
+    "title": "Social Welfare Maximization for Federated Learning with Network Effects",
+    "japanese_title": "ネットワーク効果を考慮した連合学習の社会的福祉最大化",
+    "authors": [
+      "Xiang Li",
+      "Yuan Luo",
+      "Bing Luo",
+      "Jianwei Huang"
+    ],
+    "categories": [
+      "cs.GT"
+    ],
+    "comment": "Accepted in MobiHoc2024",
+    "summary": "- 既存のメカニズムはクライアント参加のネットワーク効果を無視しているため、最適な社会的福祉を達成できない\n- この研究では、FLにおけるインセンティブメカニズム設計におけるネットワーク効果の影響を分析\n- クライアントが参加もしくは購入してFLモデルを取得するMTSフレームワークを提案\n- 提案されたSEMTSメカニズムは顧客の支払いのみで社会的福祉の最大化を達成し、実験で既存メカニズムと比べ最大148.86%の改善を示す\n\n連合学習の効率をこんなにも改善する方法なんて、面白いね！新しいモデルの普及にも役立ちそうで、すごく期待できそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-23T16:57:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.13167",
+    "title": "A density ratio framework for evaluating the utility of synthetic data",
+    "japanese_title": "合成データの有用性評価のための密度比フレームワーク",
+    "authors": [
+      "Thom Benjamin Volker",
+      "Peter-Paul de Wolf",
+      "Erik-Jan van Kesteren"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 合成データはプライバシーリスクを軽減しつつ、センシティブデータの利用を促進する技術\n- 密度比推定を用いることで、合成データの品質評価が改善され、既存の手法より正確\n- 非パラメトリック密度比モデルの自動選択により、手動での調整がほとんど不要\n- 実世界のデータにも応用可能で、モデルの改善や下流分析にも役立つ\n\nプライバシーを守りつつデータを活用するなんてすごくエキサイティングなテーマだね！これからのデータ活用がもっと身近になる感じがする。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-23T15:39:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.13038",
+    "title": "Improving the Classification Effect of Clinical Images of Diseases for Multi-Source Privacy Protection",
+    "japanese_title": "複数ソースのプライバシー保護のための疾患臨床画像の分類効果向上",
+    "authors": [
+      "Tian Bowen",
+      "Xu Zhengyang",
+      "Yin Zhihao",
+      "Wang Jingying",
+      "Yue Yutao"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Under review",
+    "summary": "- 医療分野ではデータ共有が困難で、高精度診断モデルのトレーニングが制限される\n- 連合学習は分散型機械学習として役立つが、同時に複数の病院参加が難しい\n- 提案手法はデータベクトルに基づき、病院ごとにモデルを微調整し、合成重みを生成する\n- この方法は患者のプライバシーを保護しながら、モデル性能を向上させる\n\n新しい方法で病院間の協力が進んで、医療AIの可能性が広がるね！実際にどのくらい性能が向上したのか気になるなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-23T12:52:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.13010",
+    "title": "A Web-Based Solution for Federated Learning with LLM-Based Automation",
+    "japanese_title": "大規模言語モデルベースの自動化を用いた連合学習のためのウェブベースのソリューション",
+    "authors": [
+      "Chamith Mawela",
+      "Chaouki Ben Issaid",
+      "Mehdi Bennis"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.AP"
+    ],
+    "comment": "",
+    "summary": "- 連合学習の採用は通信アーキテクチャ構築と専門知識の必要性で困難\n- ユーザーフレンドリーなインターフェースによるFedAvgアルゴリズムのパラメータ設定が可能\n- モデル圧縮とスケジューリングアルゴリズムでFLのパフォーマンスを最適化\n- LLMに基づく自動化が標準ソリューションと同等の精度を達成し、転送データ量とCPU時間を大幅に削減\n\n連合学習ってちょっと難しそうだけど、この論文のアプローチで使いやすくなるのかも！未来の技術がどんどん身近に感じるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-23T11:57:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.12990",
+    "title": "A Survey on Drowsiness Detection -- Modern Applications and Methods",
+    "japanese_title": "眠気検知に関する調査 - 現代の応用と手法",
+    "authors": [
+      "Biying Fu",
+      "Fadi Boutros",
+      "Chin-Teng Lin",
+      "Naser Damer"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.HC"
+    ],
+    "comment": "accepted at the IEEE Transactions on Intelligent Vehicles 2024",
+    "summary": "- 眠気検知は、安全性の向上や生産性の向上、医療分野で重要\n- 運転時だけでなく、公共交通機関や職場安全など多岐にわたる応用\n- 現行手法の問題点として、リアルタイム検知やデータ伝送の安定性、バイアスの排除が挙げられる\n- 合成データによるバイアス軽減やモデル圧縮によるハードウェア制限克服、フュージョン技術の活用が提案\n\n眠気検知って、運転や作業の安全性をもっと上げるために欠かせないんだね！これから大活躍しそうな技術だと思うよ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-23T11:15:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.12842",
+    "title": "Differentially Private Spatiotemporal Trajectory Synthesis with Retained Data Utility",
+    "japanese_title": "差分プライバシーを用いた時空間軌跡データの合成とデータ有用性の両立",
+    "authors": [
+      "Yuqing Ge",
+      "Yunsheng Wang",
+      "Nana Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "6 pages, 5 figures",
+    "summary": "- 多くのプライバシー保護手法は、プライバシーとデータ有用性のバランスが難しい。\n- 新たにDP-STTSを提案、これは高いデータ有用性を持つ差分プライバシー時空間軌跡合成器。\n- 開始位置を分割し1次マルコフ過程を用いることでモデルサイズを制限しノイズ耐性を強化。\n- 差分プライバシーのノイズを加えた後、実際の時空間特性を保持する合成軌跡を生成。\n\nDP-STTSはデータを守りながらも有用性が高そうで面白いね。実際の応用が広がれば役立ちそう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-23T05:17:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.12769",
+    "title": "Enhancing Vehicle Environmental Awareness via Federated Learning and Automatic Labeling",
+    "japanese_title": "連合学習と自動ラベリングを用いた車両環境認識の向上",
+    "authors": [
+      "Chih-Yu Lin",
+      "Jin-Wei Liang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- 車両環境認識が道路安全向上に重要であり、センサーと車車間通信でデータを収集\n- 画像データと車車間通信データの統合が課題で、特に車両識別が問題\n- プライバシーの懸念とデータラベリングの不従事が実用的な問題として存在\n- 連合学習と自動ラベリングの技術を活用し、提案手法の有効性を実験で実証\n\n連合学習と自動ラベリングを使って、安全運転技術がどんどん進化しそう！\n車同士が協力してデータを集めるとか、未来の技術って感じでワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-23T00:03:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.12733",
+    "title": "SQL-GEN: Bridging the Dialect Gap for Text-to-SQL Via Synthetic Data And Model Merging",
+    "japanese_title": "SQL-GEN: 合成データとモデル融合によるテキストからSQLへの方言ギャップの解決",
+    "authors": [
+      "Mohammadreza Pourreza",
+      "Ruoxi Sun",
+      "Hailong Li",
+      "Lesly Miculicich",
+      "Tomas Pfister",
+      "Sercan O. Arik"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.DB",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- Text-to-SQLシステムはSQLite方言で大きな進展があるが、BigQueryやPostgreSQL方言への適応が困難\n- SQL-GENというフレームワークを導入し、方言特有のチュートリアルに基づいて高品質な合成データを生成\n- 提案手法は従来手法に比べて性能を最大20%向上させ、大規模な人間注釈データセットとの差を縮小\n- 合成データと人間注釈データの組み合わせにより、さらに3.3%から5.6%の性能向上を実現\n\n合成データで方言のギャップを埋めるのって面白いね！特に、複数のSQL方言に対応できるなんて、使い勝手がよさそうで将来性を感じる！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-22T20:50:48+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.12385",
     "title": "Sharper Bounds for Chebyshev Moment Matching with Applications to Differential Privacy and Beyond",
     "japanese_title": "チェビシェフモーメントマッチングの鋭い境界と差分プライバシーへの応用",

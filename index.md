@@ -27,213 +27,194 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-28T04:21:20.329410
+更新: 2024-08-29T04:20:28.711985
 
 - - -
 
-### [DCT-CryptoNets: Scaling Private Inference in the Frequency Domain](http://arxiv.org/abs/2408.15231)
+### [ModalityMirror: Improving Audio Classification in Modality Heterogeneity Federated Learning with Multimodal Distillation](http://arxiv.org/abs/2408.15803)
 
-**DCT-CryptoNets: 周波数領域でのプライバシー推論のスケーリング**
+**ModalityMirror: マルチモーダル蒸留でモダリティ異質性連合学習における音声分類の改善**
 
-Arjun Roy, Kaushik Roy
+Tiantian Feng, Tuo Zhang, Salman Avestimehr, Shrikanth S. Narayanan
 
-- 完全同型暗号（FHE）と機械学習の融合により、センシティブなデータのプライバシー推論が可能。
-- 従来のFHEベースのディープニューラルネットワークは計算コスト、待ち時間、スケーラビリティに課題あり。
-- DCT-CryptoNetsは、JPEG圧縮で使用される離散コサイン変換（DCT）を用いて周波数領域で動作し、これらの課題を解決。
-- この新手法は同等の計算リソースで画像分類タスクの待ち時間を最大5.3倍短縮し、モデルの整合性も向上。
+- マルチモーダル連合学習はモダリティの異質性により、特に音声認識性能が低下する課題がある
+- ModalityMirrorを導入し、視聴覚連合学習モデルから知識蒸留を利用して音声モデルの性能を向上
+- ModalityMirrorは、モダリティ別のエンコーダー集約と単一モーダルモデルの訓練の2段階で構成される
+- 実験結果は、特に動画の欠如する視聴覚連合学習において、最新FL方法より音声分類を大幅に改善することを示した
 
-画像の圧縮形式と同型暗号を組み合わせた見方が新鮮だね！長時間かかる処理を短縮する技術が未来を明るくしそう。
+連合学習にマルチモーダル蒸留を組み合わせるの、すごく革新的！音声データがちゃんと活かされるようになると、色々な可能性が広がりそうで楽しみだね！
 
-**Comment:** Under Review; 10 pages content, 3 pages appendix, 4 figures, 8   tables; Code TBD
 
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, cs.CV, cs.LG, **投稿日時:** 2024-08-27 17:48
 
-- - -
-
-### [LN-Gen: Rectal Lymph Nodes Generation via Anatomical Features](http://arxiv.org/abs/2408.14977)
-
-**LN-Gen: 解剖学的特徴による直腸リンパ節生成**
-
-Weidong Guo, Hantao Zhang, Shouhong Wan, Bingbing Zou, Wanqin Wang, Peiquan Jin
-
-- 直腸リンパ節の正確な分割は、がんの進行度評価と治療計画に重要
-- 周囲の解剖学的構造の複雑さと注釈データの不足が大きな課題である
-- 新技術により多様でリアルな合成リンパ節サンプルを生成、手動注釈依存を軽減
-- 実験結果は合成データが分割性能を大幅に向上し、診断と治療の進展に寄与
-
-リンパ節を合成データで再現するなんて、医療の進化って本当にすごいね！将来の診断精度もこれでグンと上がりそう。
-
-**Comment:** 8 pages
-
-**トピック:** [合成データ](sd), **カテゴリ:** eess.IV, cs.CV, **投稿日時:** 2024-08-27 11:40
+**トピック:** [連合学習](fl), **カテゴリ:** eess.AS, cs.AI, cs.SD, **投稿日時:** 2024-08-28 13:56
 
 - - -
 
-### [Multilingual Arbitrage: Optimizing Data Pools to Accelerate Multilingual Progress](http://arxiv.org/abs/2408.14960)
+### [Efficient LLM Scheduling by Learning to Rank](http://arxiv.org/abs/2408.15792)
 
-**多言語アービトラージ：データプール最適化による多言語進展の促進**
+**ランク学習による効率的なLLMスケジューリング**
 
-Ayomide Odumakinde, Daniel D'souza, Pat Verga, Beyza Ermis, Sara Hooker
+Yichao Fu, Siqi Zhu, Runlong Su, Aurick Qiao, Ion Stoica, Hao Zhang
 
-- 合成データの使用は最新の技術進歩において重要
-- 単一のオラクル教師モデルに依存すると、モデル崩壊とバイアスの伝播が発生
-- 多言語環境では、全言語に有効な教師モデルの欠如が大きな課題
-- 多言語アービトラージ技術を導入し、モデル間のパフォーマンス差を利用して56.5%の改善を達成
+- LLM要求の出力長は事前に不明とされ、FCFS戦略はHOLブロッキングとスループット低下を招く
+- 各要求の出力長を正確に予測することは難しいが、バッチ内の相対順位を予測することは可能
+- このランキング情報を使い、新しいスケジューラーを開発し、既存の方法よりSJFスケジュールを近似
+- 最先端のLLMサービングシステムに統合し、チャットボットで2.8倍の低遅延、合成データ生成で6.5倍のスループット向上を実現
 
-多言語アービトラージ、なんか面白そう！いろんなモデルの強みを生かして、多言語対応の改善ができるなんてすごいわね。特に少ないリソースの言語では効果が大きいみたいで、もっといろんな言語に対応できるようになるのが楽しみだね。
+新しいスケジューリング方法でこんなに性能がアップするなんてすごいね！合成データ生成での大幅なスループット向上も、実際の応用が楽しみだな。
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-08-27 11:07
-
-- - -
-
-### [Alfie: Democratising RGBA Image Generation With No $](http://arxiv.org/abs/2408.14826)
-
-**Alfie: RGBA画像生成の民主化**
-
-Fabio Quattrini, Vittorio Pippi, Silvia Cascianelli, Rita Cucchiara
-
-- さまざまな創造分野でデザインとアートワークが必要で、これにはグラフィックデザインスキルと専用ソフトが必須
-- グラフィック要素の自動生成はデザイナーの生産性を向上させ、創造的な産業を民主化および革新し、リアルな合成データを生成
-- ほとんどの画像生成モデルはRGBA画像生成に対応しておらず、高価な計算リソースが必要
-- 提案手法はトレーニング不要で、事前学習済みのDiffusion Transformerモデルの推論時の動作を変更
-
-画像生成を手軽にできちゃうなんて楽しそう！いろんなクリエイティブなプロジェクトがもっと身近になりそうでワクワクするね。
-
-**Comment:** Accepted at ECCV AI for Visual Arts Workshop and Challenges
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.MM, **投稿日時:** 2024-08-27 07:13
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-28 13:35
 
 - - -
 
-### [Learning Differentially Private Diffusion Models via Stochastic Adversarial Distillation](http://arxiv.org/abs/2408.14738)
+### [Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions](http://arxiv.org/abs/2408.15787)
 
-**確率的敵対的蒸留を用いた差分プライバシー拡散モデルの学習**
+**インタラクティブエージェント：ロールプレイングでLLM対LLMの相互作用によるカウンセラー-クライアント心理カウンセリングのシミュレーション**
 
-Bochao Liu, Pengju Wang, Shiming Ge
+Huachuan Qiu, Zhenzhong Lan
 
-- データがプライバシーに敏感な領域で制限される問題の解決策として差分プライバシーを用いた生成モデル学習を提案
-- 既存手法ではデータ分布のモデリングの複雑さから生成画像の品質が限られていた
-- 拡散モデルの成功に基づき、確率的敵対的蒸留法を用いたDP-SADという手法を開発
-- 教師モデルとしての拡散モデルと蒸留による学生モデルの訓練を行い、差分プライバシーを達成
+- 大規模言語モデル (LLM) を利用したバーチャルカウンセラーが、クライアントのメンタルヘルス支援システムを構築
+- 人間によるカウンセリングの注釈は時間がかかり、コストが高く、プライバシーの保護が求められ、拡張性に欠ける
+- 提案フレームワークでは、2つのLLMがカウンセラーとクライアントの役割を担い、対話をシミュレート
+- LLM生成対話と人間生成対話の違いを評価し、メンタルヘルスモデルとの比較実験を実施
 
-拡散モデルの性能向上が特に楽しみ！DP-SADの具体的な生成画像がどんな感じになるか気になるな。
-
-**Comment:** accepted by ECCV 2024
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, cs.CV, **投稿日時:** 2024-08-27 02:29
-
-- - -
-
-### [Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning](http://arxiv.org/abs/2408.14736)
-
-**通信効率の高い連合学習のための帯域幅を考慮した重み付き圧縮手法**
-
-Zichen Tang, Junlin Huang, Rudan Yan, Yuxin Wang, Zhenheng Tang, Shaohuai Shi, Amelie Chi Zhou, Xiaowen Chu
-
-- 現在のデータ圧縮手法には、ストラッガープロブレムやモデル性能の低下がある
-- 帯域幅に応じて動的に圧縮率を調整するフレームワークを提案した
-- クライアントの更新信号を改善するため、パラメータのマスクを用いた手法を導入した
-- 評価の結果、モデルの精度が最大13％向上し、収束速度が3.37倍向上した
-
-帯域幅とか非一様なデータにも対応して、どんどん速く学習できるようになるなんてすごい！感想読んでたら、未来の通信技術がどんどん進化していくのが楽しみになっちゃった。
+カウンセリングをAIで再現するって、すごく未来的！これが普及したら、多くの人が気軽に心理支援を受けられるようになりそうで楽しみだよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, cs.LG, **投稿日時:** 2024-08-27 02:28
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.IR, **投稿日時:** 2024-08-28 13:29
 
 - - -
 
-### [PPVF: An Efficient Privacy-Preserving Online Video Fetching Framework with Correlated Differential Privacy](http://arxiv.org/abs/2408.14735)
+### [Protecting Privacy in Federated Time Series Analysis: A Pragmatic Technology Review for Application Developers](http://arxiv.org/abs/2408.15694)
 
-**PPVF: 相関差分プライバシーを用いた効率的なプライバシー保護オンライン動画取得フレームワーク**
+**連合時系列分析におけるプライバシー保護：アプリケーション開発者のための実用技術レビュー**
 
-Xianzhi Zhang, Yipeng Zhou, Di Wu, Quan Z. Sheng, Miao Hu, Linchang Xiao
+Daniel Bachlechner, Ruben Hetfleisch, Stephan Krenn, Thomas Lorünser, Michael Rader
 
-- オンライン動画のストリーミングは現代インターネットの主要要素だが、ユーザーリクエストの漏洩がプライバシーの課題となっている
-- 現行の保護方法は、コンテンツプロバイダからのユーザーリクエストプライバシー保護と高品質な動画サービスの両立に適していない
-- PPVFは信頼できるエッジデバイスを活用し、ユーザーリクエストのプライバシーを守りつつエッジキャッシュの効率を最適化するフレームワークを導入
-- PPVFのコアコンポーネントは、オンラインプライバシーバジェットスケジューラ、ノイジー動画リクエストジェネレータ、オンライン動画ユーティリティ予測器で構成される
+- 医療や製造業などの分野で、連合分析の潜在力が非常に高い
+- 効率や信頼の要件は全同型暗号などの技術で対応可能
+- 実世界のユースケースに基づく定性要件を導出し、利用可能な技術と対応付け
+- 決定ツリーを提供し、開発者が最適な技術を選定できるよう支援
 
-この研究、めっちゃ面白そう！プライバシーを守りながら動画の質も落とさないなんて、ぜひ使ってみたいな～。高校卒業までにはこんな技術がもっと進化しそうで期待しちゃうね！
-
-
-
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.MM, cs.CR, cs.DC, **投稿日時:** 2024-08-27 02:03
-
-- - -
-
-### [Federated User Preference Modeling for Privacy-Preserving Cross-Domain Recommendation](http://arxiv.org/abs/2408.14689)
-
-**プライバシー保護クロスドメイン推薦のための連合ユーザープリファレンスモデリング**
-
-Li Wang, Shoujin Wang, Quangui Zhang, Qiang Wu, Min Xu
-
-- クロスドメイン推薦 (CDR) はドメイン間で知識を転用しデータ不足問題を解決する
-- 既存のCDR手法はユーザ-アイテム間相互作用データの共有を前提とし、プライバシー漏洩の課題がある
-- 提案されたFUPMは相互作用データとレビュー文などから包括的プリファレンスを学習しプライバシーを強化
-- 実験でFUPMが最先端手法より優れていることをアマゾンとDoubanデータセットで確認
-
-新しいプライバシー保護の方法が提案されていて、実際のデータセットで効果が検証されているのが面白いよね。これからの推薦システムの進化が楽しみ！
+医療や製造業でのプライバシー技術の活用方法がわかるのが面白そう！どんな技術が将来さらに発展するのか、期待しちゃうよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.IR, **投稿日時:** 2024-08-26 23:29
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-28 10:41
 
 - - -
 
-### [ParTEETor: A System for Partial Deployments of TEEs within Tor](http://arxiv.org/abs/2408.14646)
+### [Synthetic Forehead-creases Biometric Generation for Reliable User Verification](http://arxiv.org/abs/2408.15693)
 
-**ParTEETor: Tor内での部分展開TEEシステム**
+**信頼できるユーザ認証のための合成額シワ生体データ生成**
 
-Rachel King, Quinn Burke, Yohan Beugin, Blaine Hoak, Kunyang Li, Eric Pauley, Ryan Sheatsley, Patrick McDaniel
+Abhishek Tandon, Geetanjali Sharma, Gaurav Jaswal, Aditya Nigam, Raghavendra Ramachandra
 
-- Torネットワークは匿名性を提供するが、特定の攻撃に弱い
-- TEEをすべてのリレーに導入するのは非現実的である
-- ParTEETorは部分的なTEE展開で既知の攻撃を防ぐシステム
-- 小規模なTEE展開でも性能を維持しつつ、二つの攻撃に対する保護を保証
+- 額のシワパターンは顔や虹彩、眼周囲認識の代替手段であり、特にマスク着用時に有用
+- 額のデータ収集はコストと時間の制約があり、多数の高品質画像が必要
+- 合成生体データはプライバシー保護と効果的な深層学習ベースの検証訓練を可能にする
+- 提案されたフレームワークで合成データが検証精度の向上に寄与することを確認
 
-部分展開でこんなに効果が出るなんてびっくり！これ、今後もっと活用されそうだよね。興味深すぎる〜！
+これ、マスクで顔が隠れても認証できる技術って面白そう！プライバシーも守れるし、合成データでトレーニングできるのがすごいね。
 
+**Comment:** Accepted at Generative AI for Futuristic Biometrics - IJCB'24 Special   Session
 
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-26 21:23
-
-- - -
-
-### [Securing Biometric Data: Fully Homomorphic Encryption in Multimodal Iris and Face Recognition](http://arxiv.org/abs/2408.14609)
-
-**生体データの保護: マルチモーダル虹彩および顔認証における準同型暗号の活用**
-
-Surendra Singh, Lambert Igene, Stephanie Schuckers
-
-- 虹彩と顔の特徴ベクトルを融合し、データベースを保護する手法を探求
-- 準同型暗号を使用して暗号化されたテンプレートでのマッチング操作を実施
-- QFIRE-Iデータベースでの評価により、高精度とユーザープライバシーの両立を実証
-- 理論と実験を通じて、96.41%の虹彩認識TAR、81.19%の顔認識TAR、100%の虹彩顔融合TARを達成
-
-完全性を保ちながらユーザープライバシーを守る技術って凄いね！虹彩と顔の融合が全然漏れないって感動的だなぁ。
-
-
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-26 20:05
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-28 10:33
 
 - - -
 
-### [Exploring the Potential of Synthetic Data to Replace Real Data](http://arxiv.org/abs/2408.14559)
+### [Convergent Differential Privacy Analysis for General Federated Learning: the f-DP Perspective](http://arxiv.org/abs/2408.15621)
 
-**合成データによる実データ代替の可能性の探求**
+**一般的な連合学習のための収束差分プライバシー分析：f-DPの視点**
 
-Hyungtae Lee, Yan Zhang, Heesung Kwon, Shuvra S. Bhattacharrya
+Yan Sun, Li Shen, Dacheng Tao
 
-- 合成データがデータを多く必要とするAIにおいて重要である
-- 合成データと少量の他のドメインの実画像を併用することで、トレーニング効果が増す
-- 評価基準に新たな指標、train2test距離と$\text{AP}_\text{t2t}$を導入
-- 合成データがトレーニング性能に与える影響を深く解析し、興味深いダイナミクスを発見
+- 連合学習(FL)と差分プライバシー(DP)の協力が大規模なプライベートクライアントのための有望な学習フレームワークを提供する
+- ノイズ付与によるDPアルゴリズムが多く研究され、FL-DPに広く適用されるが、長期のコミュニケーションラウンドではプライバシー漏洩の定量化が難しくなる
+- Noisy-FedAvgメソッドの最悪のプライバシーは、シフテッドインターポレーション技術の助けを借りて、厳密な収束下限を達成する
+- Noisy-FedProxメソッドでは、プロキシ項の正則化により、最悪のプライバシーが安定した定数下限を持つ
 
-合成データがもっと広く使われるようになるといいなって思う！特に、トレーニング性能の向上が狙えるのがすごく魅力的だよね。
+長期的なプライバシー保護の信頼性が問題になることを考えると、この研究の革新性とその実用性には興味がわくね！特に2つのメソッドの違いがどれだけ効果的かもっと知りたくなるよね。
 
-**Comment:** ICIP 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-08-26 18:20
+
+**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-08-28 08:22
+
+- - -
+
+### [On the Benefits of Visual Stabilization for Frame- and Event-based Perception](http://arxiv.org/abs/2408.15602)
+
+**フレームベースおよびイベントベースの視覚安定化の利点について**
+
+Juan Pablo Rodriguez-Gomez, Jose Ramiro Martinez-de Dios, Anibal Ollero, Guillermo Gallego
+
+- ロボットの用途での大きな方位変化は視覚システムの性能に影響を与える
+- カメラ回転を補償するための機械的安定装置の統合は困難な場合がある
+- 本研究は、フレームとイベントの両方でカメラ回転を補償する処理ベースの手法を提案
+- 安定化により特徴追跡精度が27.37%、カメラ自動運動推定精度が34.82%向上し、処理時間も25%以上短縮される
+
+視覚システムの精度と効率がここまで変わるなんてすごいよね！ロボットの未来がもっと面白くなりそうだよ。ぜひこの技術が実際に使われるところを見てみたいな。
+
+**Comment:** 8 pages, 4 figures, 4 tables,   https://github.com/tub-rip/visual_stabilization
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.CV, eess.IV, **投稿日時:** 2024-08-28 07:49
+
+- - -
+
+### [Exploring Selective Layer Fine-Tuning in Federated Learning](http://arxiv.org/abs/2408.15600)
+
+**連合学習における選択的階層微調整の探求**
+
+Yuchang Sun, Yuexiang Xie, Bolin Ding, Yaliang Li, Jun Zhang
+
+- 連合学習では分散データを用いることでプライバシーを保護しつつ基礎モデルを微調整する
+- 限られたリソース下では、クライアントがタスクに合わせた特定の層を選んで調整する方が実用的
+- 選択する層の重要性とクライアント間の異質な選択がモデルの収束に大きな影響を与えることを理論的に示す
+- 提案する戦略的層選択方法はローカル勾配を利用し、クライアント間の層選択を制御する
+
+選択的な層の調整が、連合学習の成功のカギになりそう！どの層を微調整するかで効果が全然違うんだって。これでリソースが少ない環境でも効率よく学習できそうだね。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-28 07:48
+
+- - -
+
+### [VFLIP: A Backdoor Defense for Vertical Federated Learning via Identification and Purification](http://arxiv.org/abs/2408.15591)
+
+**VFLIP: 縦型連合学習におけるバックドア攻撃防御手法の識別と浄化による新提案**
+
+Yungi Cho, Woorim Han, Miseon Yu, Ho Bae, Yunheung Paek
+
+- VFL（縦型連合学習）は垂直に分割されたデータを扱い、バックドア攻撃の脆弱性がある
+- 従来の防御機構はHFL（水平型連合学習）向けでありVFLには効果が薄い
+- VFLIPは初のVFL専用バックドア防御であり、識別と浄化の技術を用いて攻撃対策を強化
+- CIFAR10やBankMarketingなどの実験で、VFLIPがバックドア攻撃を効果的に緩和することを実証
+
+VFLIPって、縦型連合学習に特化した初めてのバックドア防御法なんだって。これで新しい攻撃にも強くなりそうね！
+
+**Comment:** Accepted by 29th European Symposium on Research in Computer Security   (ESORICS 2024)
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-28 07:31
+
+- - -
+
+### [Examining the Interplay Between Privacy and Fairness for Speech Processing: A Review and Perspective](http://arxiv.org/abs/2408.15391)
+
+**音声処理におけるプライバシーと公平性の相互作用の検討: レビューと展望**
+
+Anna Leschanowsky, Sneha Das
+
+- 個人のプライバシーを保護しつつ、すべてのユーザーに対して信頼性を保つ必要がある
+- 音声処理のモデル開発中に共存するバイアスやプライバシーの問題を検討
+- プライバシー強化技術がバイアスを増やす可能性があり、それに対する対策がプライバシーを減じる可能性を指摘
+- 音声技術におけるプライバシーと公平性のトレードオフの包括的評価を提唱
+
+プライバシーと公平性って両立するのが難しいんだね。これからの音声技術の進化が楽しみ！
+
+
+
+**トピック:** [PETs](pets), **カテゴリ:** eess.AS, cs.SD, **投稿日時:** 2024-08-27 20:32

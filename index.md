@@ -27,194 +27,175 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-08-29T04:20:28.711985
+更新: 2024-08-30T04:20:49.141237
 
 - - -
 
-### [ModalityMirror: Improving Audio Classification in Modality Heterogeneity Federated Learning with Multimodal Distillation](http://arxiv.org/abs/2408.15803)
+### [Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling](http://arxiv.org/abs/2408.16737)
 
-**ModalityMirror: マルチモーダル蒸留でモダリティ異質性連合学習における音声分類の改善**
+**小さく、弱く、それでも優れている：計算最適なサンプリングを用いたLLM推論者の訓練**
 
-Tiantian Feng, Tuo Zhang, Salman Avestimehr, Shrikanth S. Narayanan
+Hritik Bansal, Arian Hosseini, Rishabh Agarwal, Vinh Q. Tran, Mehran Kazemi
 
-- マルチモーダル連合学習はモダリティの異質性により、特に音声認識性能が低下する課題がある
-- ModalityMirrorを導入し、視聴覚連合学習モデルから知識蒸留を利用して音声モデルの性能を向上
-- ModalityMirrorは、モダリティ別のエンコーダー集約と単一モーダルモデルの訓練の2段階で構成される
-- 実験結果は、特に動画の欠如する視聴覚連合学習において、最新FL方法より音声分類を大幅に改善することを示した
+- 強力な言語モデル（LM）から高品質な合成データを使用するのが一般的な戦略
+- 合成データ生成における強力で高価なモデル（SE）と弱く安価なモデル（WC）のトレードオフを調査
+- WCモデルのデータはカバレッジと多様性が高いが、誤検知率も高い
+- WC生成データで学習したモデルが複数のベンチマークでSE生成データを上回る
 
-連合学習にマルチモーダル蒸留を組み合わせるの、すごく革新的！音声データがちゃんと活かされるようになると、色々な可能性が広がりそうで楽しみだね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** eess.AS, cs.AI, cs.SD, **投稿日時:** 2024-08-28 13:56
-
-- - -
-
-### [Efficient LLM Scheduling by Learning to Rank](http://arxiv.org/abs/2408.15792)
-
-**ランク学習による効率的なLLMスケジューリング**
-
-Yichao Fu, Siqi Zhu, Runlong Su, Aurick Qiao, Ion Stoica, Hao Zhang
-
-- LLM要求の出力長は事前に不明とされ、FCFS戦略はHOLブロッキングとスループット低下を招く
-- 各要求の出力長を正確に予測することは難しいが、バッチ内の相対順位を予測することは可能
-- このランキング情報を使い、新しいスケジューラーを開発し、既存の方法よりSJFスケジュールを近似
-- 最先端のLLMサービングシステムに統合し、チャットボットで2.8倍の低遅延、合成データ生成で6.5倍のスループット向上を実現
-
-新しいスケジューリング方法でこんなに性能がアップするなんてすごいね！合成データ生成での大幅なスループット向上も、実際の応用が楽しみだな。
+めっちゃおもしろそう！弱いモデルの方が強いモデルより結果が良い場合もあるって、逆転の発想だね。次世代のAI訓練法がこれで変わるかも！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-28 13:35
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-08-29 17:32
 
 - - -
 
-### [Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions](http://arxiv.org/abs/2408.15787)
+### [Spurfies: Sparse Surface Reconstruction using Local Geometry Priors](http://arxiv.org/abs/2408.16544)
 
-**インタラクティブエージェント：ロールプレイングでLLM対LLMの相互作用によるカウンセラー-クライアント心理カウンセリングのシミュレーション**
+**Spurfies: 局所的な幾何プリエアを用いた希薄な表面再構成**
 
-Huachuan Qiu, Zhenzhong Lan
+Kevin Raj, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen
 
-- 大規模言語モデル (LLM) を利用したバーチャルカウンセラーが、クライアントのメンタルヘルス支援システムを構築
-- 人間によるカウンセリングの注釈は時間がかかり、コストが高く、プライバシーの保護が求められ、拡張性に欠ける
-- 提案フレームワークでは、2つのLLMがカウンセラーとクライアントの役割を担い、対話をシミュレート
-- LLM生成対話と人間生成対話の違いを評価し、メンタルヘルスモデルとの比較実験を実施
+- Spurfiesは、外観と幾何情報を分離し、合成データを用いた局所幾何プリエアを利用
+- 一般的な3D再構成方法は多数の画像を必要とし、少数ビューの場面では困難
+- 新しい手法は、内接幾何プリエアを用い希薄な入力ビューから表面・外観を再構成
+- DTUデータセットで検証し、以前の最先端技術より35%優れた表面品質を達成
 
-カウンセリングをAIで再現するって、すごく未来的！これが普及したら、多くの人が気軽に心理支援を受けられるようになりそうで楽しみだよね。
+この新しい手法、面白そうだね！合成データを利用することで、少数の画像でも精度が上がるなんてすごいよね。いろんな応用が考えられそうだから、これからもっと発展しそう！
 
+**Comment:** https://geometric-rl.mpi-inf.mpg.de/spurfies/
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.IR, **投稿日時:** 2024-08-28 13:29
-
-- - -
-
-### [Protecting Privacy in Federated Time Series Analysis: A Pragmatic Technology Review for Application Developers](http://arxiv.org/abs/2408.15694)
-
-**連合時系列分析におけるプライバシー保護：アプリケーション開発者のための実用技術レビュー**
-
-Daniel Bachlechner, Ruben Hetfleisch, Stephan Krenn, Thomas Lorünser, Michael Rader
-
-- 医療や製造業などの分野で、連合分析の潜在力が非常に高い
-- 効率や信頼の要件は全同型暗号などの技術で対応可能
-- 実世界のユースケースに基づく定性要件を導出し、利用可能な技術と対応付け
-- 決定ツリーを提供し、開発者が最適な技術を選定できるよう支援
-
-医療や製造業でのプライバシー技術の活用方法がわかるのが面白そう！どんな技術が将来さらに発展するのか、期待しちゃうよね。
-
-
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, **投稿日時:** 2024-08-28 10:41
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-29 14:02
 
 - - -
 
-### [Synthetic Forehead-creases Biometric Generation for Reliable User Verification](http://arxiv.org/abs/2408.15693)
+### [MICDrop: Masking Image and Depth Features via Complementary Dropout for Domain-Adaptive Semantic Segmentation](http://arxiv.org/abs/2408.16478)
 
-**信頼できるユーザ認証のための合成額シワ生体データ生成**
+**MICDrop: 補完ドロップアウトによるドメイン適応型セマンティックセグメンテーションのための画像および深度特徴のマスキング**
 
-Abhishek Tandon, Geetanjali Sharma, Gaurav Jaswal, Aditya Nigam, Raghavendra Ramachandra
+Linyan Yang, Lukas Hoyer, Mark Weber, Tobias Fischer, Dengxin Dai, Laura Leal-Taixé, Marc Pollefeys, Daniel Cremers, Luc Van Gool
 
-- 額のシワパターンは顔や虹彩、眼周囲認識の代替手段であり、特にマスク着用時に有用
-- 額のデータ収集はコストと時間の制約があり、多数の高品質画像が必要
-- 合成生体データはプライバシー保護と効果的な深層学習ベースの検証訓練を可能にする
-- 提案されたフレームワークで合成データが検証精度の向上に寄与することを確認
+- 現在のUDA方法は細かい構造で劣る結果を示し、曖昧な外観のオブジェクトを過剰にセグメント化する傾向がある
+- 幾何情報（すなわち、深度予測）を活用する提案。深度の不連続性がセグメンテーション境界と一致することが多い
+- 提案手法MICDropは画像エンコーダー特徴をマスキングしつつ、逆に深度エンコーダー特徴をマスキングすることで、共同特徴表現を学習
+- 特徴融合モジュールを提案し、グローバルとローカル情報共有を改善し、深度予測の誤差にも強靭
 
-これ、マスクで顔が隠れても認証できる技術って面白そう！プライバシーも守れるし、合成データでトレーニングできるのがすごいね。
-
-**Comment:** Accepted at Generative AI for Futuristic Biometrics - IJCB'24 Special   Session
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-28 10:33
-
-- - -
-
-### [Convergent Differential Privacy Analysis for General Federated Learning: the f-DP Perspective](http://arxiv.org/abs/2408.15621)
-
-**一般的な連合学習のための収束差分プライバシー分析：f-DPの視点**
-
-Yan Sun, Li Shen, Dacheng Tao
-
-- 連合学習(FL)と差分プライバシー(DP)の協力が大規模なプライベートクライアントのための有望な学習フレームワークを提供する
-- ノイズ付与によるDPアルゴリズムが多く研究され、FL-DPに広く適用されるが、長期のコミュニケーションラウンドではプライバシー漏洩の定量化が難しくなる
-- Noisy-FedAvgメソッドの最悪のプライバシーは、シフテッドインターポレーション技術の助けを借りて、厳密な収束下限を達成する
-- Noisy-FedProxメソッドでは、プロキシ項の正則化により、最悪のプライバシーが安定した定数下限を持つ
-
-長期的なプライバシー保護の信頼性が問題になることを考えると、この研究の革新性とその実用性には興味がわくね！特に2つのメソッドの違いがどれだけ効果的かもっと知りたくなるよね。
+新しいセグメンテーション手法として深度情報をうまく使うのが面白いね。色んなUDA手法にも対応できるのがすごいと思った！
 
 
 
-**トピック:** [連合学習](fl), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-08-28 08:22
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-29 12:15
 
 - - -
 
-### [On the Benefits of Visual Stabilization for Frame- and Event-based Perception](http://arxiv.org/abs/2408.15602)
+### [Self-Improving Diffusion Models with Synthetic Data](http://arxiv.org/abs/2408.16333)
 
-**フレームベースおよびイベントベースの視覚安定化の利点について**
+**合成データを用いた自己改善型拡散モデル**
 
-Juan Pablo Rodriguez-Gomez, Jose Ramiro Martinez-de Dios, Anibal Ollero, Guillermo Gallego
+Sina Alemohammad, Ahmed Imtiaz Humayun, Shruti Agarwal, John Collomosse, Richard Baraniuk
 
-- ロボットの用途での大きな方位変化は視覚システムの性能に影響を与える
-- カメラ回転を補償するための機械的安定装置の統合は困難な場合がある
-- 本研究は、フレームとイベントの両方でカメラ回転を補償する処理ベースの手法を提案
-- 安定化により特徴追跡精度が27.37%、カメラ自動運動推定精度が34.82%向上し、処理時間も25%以上短縮される
+- 現在のAIは大規模生成モデルの訓練用の実データが不足している
+- 合成データを使った訓練はモデルオートファジー障害(MAD)とモデル崩壊の原因となる
+- SIMSは自己合成データを使い、生成過程を理想的な実データ分布へ誘導する手法を提案
+- CIFAR-10やImageNet-64の生成で新記録を打ち立て、自己生成データを使ってもMADを避けられる
 
-視覚システムの精度と効率がここまで変わるなんてすごいよね！ロボットの未来がもっと面白くなりそうだよ。ぜひこの技術が実際に使われるところを見てみたいな。
-
-**Comment:** 8 pages, 4 figures, 4 tables,   https://github.com/tub-rip/visual_stabilization
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.CV, eess.IV, **投稿日時:** 2024-08-28 07:49
-
-- - -
-
-### [Exploring Selective Layer Fine-Tuning in Federated Learning](http://arxiv.org/abs/2408.15600)
-
-**連合学習における選択的階層微調整の探求**
-
-Yuchang Sun, Yuexiang Xie, Bolin Ding, Yaliang Li, Jun Zhang
-
-- 連合学習では分散データを用いることでプライバシーを保護しつつ基礎モデルを微調整する
-- 限られたリソース下では、クライアントがタスクに合わせた特定の層を選んで調整する方が実用的
-- 選択する層の重要性とクライアント間の異質な選択がモデルの収束に大きな影響を与えることを理論的に示す
-- 提案する戦略的層選択方法はローカル勾配を利用し、クライアント間の層選択を制御する
-
-選択的な層の調整が、連合学習の成功のカギになりそう！どの層を微調整するかで効果が全然違うんだって。これでリソースが少ない環境でも効率よく学習できそうだね。
+自己生成データでモデルがどんどん良くなってくなんてめっちゃ可能性ありそう！偏りもなくせるって超未来的だよね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-08-28 07:48
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-08-29 08:12
 
 - - -
 
-### [VFLIP: A Backdoor Defense for Vertical Federated Learning via Identification and Purification](http://arxiv.org/abs/2408.15591)
+### [OpenFGL: A Comprehensive Benchmarks for Federated Graph Learning](http://arxiv.org/abs/2408.16288)
 
-**VFLIP: 縦型連合学習におけるバックドア攻撃防御手法の識別と浄化による新提案**
+**OpenFGL: 連合グラフ学習の包括的ベンチマーク**
 
-Yungi Cho, Woorim Han, Miseon Yu, Ho Bae, Yunheung Paek
+Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu Wu, Wentao Zhang, Rong-Hua Li, Guoren Wang
 
-- VFL（縦型連合学習）は垂直に分割されたデータを扱い、バックドア攻撃の脆弱性がある
-- 従来の防御機構はHFL（水平型連合学習）向けでありVFLには効果が薄い
-- VFLIPは初のVFL専用バックドア防御であり、識別と浄化の技術を用いて攻撃対策を強化
-- CIFAR10やBankMarketingなどの実験で、VFLIPがバックドア攻撃を効果的に緩和することを実証
+- 連合グラフ学習は、直接のデータ共有なしで複数のローカルシステム間でグラフニューラルネットワークの分散トレーニングを可能にする
+- OpenFGLはGraph-FLとSubgraph-FLの主要シナリオに対して設計された統一ベンチマーク
+- 16のアプリケーションドメインからの38のグラフデータセット、8つの連邦データシミュレーション戦略、および5つのグラフベースの下流タスクを含む
+- 最近提案された18のSOTA FGLアルゴリズムをユーザーフレンドリーなAPIを通じて提供し、その効果、堅牢性、効率性を徹底的に比較評価可能
 
-VFLIPって、縦型連合学習に特化した初めてのバックドア防御法なんだって。これで新しい攻撃にも強くなりそうね！
+連合グラフ学習やばい！どこまで進化するのかワクワクするよね。未来のデータ共有ってこうなっていくのかなって期待が膨らむ！
 
-**Comment:** Accepted by 29th European Symposium on Research in Computer Security   (ESORICS 2024)
+**Comment:** Under Review
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-08-28 07:31
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DB, cs.SI, **投稿日時:** 2024-08-29 06:40
 
 - - -
 
-### [Examining the Interplay Between Privacy and Fairness for Speech Processing: A Review and Perspective](http://arxiv.org/abs/2408.15391)
+### [SAU: A Dual-Branch Network to Enhance Long-Tailed Recognition via Generative Models](http://arxiv.org/abs/2408.16273)
 
-**音声処理におけるプライバシーと公平性の相互作用の検討: レビューと展望**
+**SAU: 生成モデルを用いた長尾認識の向上を目指す二重分岐ネットワーク**
 
-Anna Leschanowsky, Sneha Das
+Guangxi Li, Yinsheng Song, Mingkai Zheng
 
-- 個人のプライバシーを保護しつつ、すべてのユーザーに対して信頼性を保つ必要がある
-- 音声処理のモデル開発中に共存するバイアスやプライバシーの問題を検討
-- プライバシー強化技術がバイアスを増やす可能性があり、それに対する対策がプライバシーを減じる可能性を指摘
-- 音声技術におけるプライバシーと公平性のトレードオフの包括的評価を提唱
+- 画像認識において長尾分布は、少数の支配的なクラスと多くのマイノリティクラスの不均衡が課題
+- 生成モデルを使って合成データを作成し、不均衡を解消する提案
+- 現実のデータと合成データを混在させるSynthetic-AwareとUnawareの二枝モデルを設計
+- 提案手法はCIFAR-10-LTとCIFAR-100-LTでのTop-1精度で最先端を達成
 
-プライバシーと公平性って両立するのが難しいんだね。これからの音声技術の進化が楽しみ！
+生成モデルを使ってデータの不均衡を解消するなんて面白そう！先行研究を超える精度を達成したのもすごいよね。これからもっと実用化が進むのかも。
+
+**Comment:** 15 pages
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-08-29 05:33
+
+- - -
+
+### [Monadring: A lightweight consensus protocol to offer Validation-as-a-Service to AVS nodes](http://arxiv.org/abs/2408.16094)
+
+**Monadring: 検証をサービスとして提供するための軽量コンセンサスプロトコル**
+
+Yu Zhang, Xiao Yan, Gang Tang, Helena Wang
+
+- 既存のブロックチェーンネットワークは大規模で、全体の同期が必要だが、計算コストが高い
+- Monadringという新たなプロトコルを提案、より速く費用対効果の高い計算を実現
+- Verifiable Random Function (VRF)と準同型暗号を用いてセキュリティ強化
+- シミュレーション実験により、性能と実現可能性を評価
+
+ネーミングの「Monadring」がカッコイイし、軽量っていうところが使いやすそうでいいよね。これが普及すれば、ブロックチェーンのハードルもぐっと下がる気がするなぁ。
+
+**Comment:** 23 pages, 3 figures
+
+**トピック:** [準同型暗号](he), **カテゴリ:** cs.DC, **投稿日時:** 2024-08-28 18:55
+
+- - -
+
+### [Analysis of Diagnostics (Part II): Prevalence, Linear Independence, and Unsupervised Learning](http://arxiv.org/abs/2408.16035)
+
+**診断分析 (第2部): 有病率、線形独立、無監督学習**
+
+Paul N. Patrone, Raquel A. Binder, Catherine S. Forconi, Ann M. Moormann, Anthony J. Kearsley
+
+- 診断テストを用いて有病率、不確実性定量化、分類理論の関係を明らかにする研究
+- 無監督学習タスクへ結果を拡張するための線形代数の概念を考察
+- 未知のクラスを持つサンプルの分布を有病率でパラメータ化し線形独立の概念を導入
+- 合成データとSARS-CoV-2 ELISAの文脈で手法の有効性を立証
+
+無監督学習が監督学習の一般化になるなんて超知的！診断テストをこんな形で応用する発想が面白い。
 
 
 
-**トピック:** [PETs](pets), **カテゴリ:** eess.AS, cs.SD, **投稿日時:** 2024-08-27 20:32
+**トピック:** [合成データ](sd), **カテゴリ:** stat.ML, cs.LG, math.PR, **投稿日時:** 2024-08-28 13:39
+
+- - -
+
+### [Differentially Private Publication of Electricity Time Series Data in Smart Grids](http://arxiv.org/abs/2408.16017)
+
+**スマートグリッドにおける電力時系列データの差分プライバシー出版**
+
+Sina Shaham, Gabriel Ghinita, Bhaskar Krishnamachari, Cyrus Shahabi
+
+- スマートグリッドのデータは消費者行動の研究とエネルギー政策決定に重要
+- 差分プライバシーは個々のデータの保護に適しているが、時系列データの有用性を損なう
+- 新手法STPTはRNNを活用し、時空間属性を分析して微小から大規模パターンを捉える
+- 実世界と合成データセット両方で実験し、STPTが既存ベンチマークを上回る結果を示す
+
+プライバシーを守りながらデータの有用性も保つ新しい手法が登場だね！RNNを使ってるのも面白いから、今後技術がもっと進化しそう。
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.AI, cs.LG, **投稿日時:** 2024-08-24 23:30

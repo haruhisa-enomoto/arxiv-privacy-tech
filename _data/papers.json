@@ -1,5 +1,265 @@
 [
   {
+    "url": "http://arxiv.org/abs/2408.17399",
+    "title": "How Knowledge Distillation Mitigates the Synthetic Gap in Fair Face Recognition",
+    "japanese_title": "知識蒸留が公平な顔認識における合成データのギャップをどのように緩和するか",
+    "authors": [
+      "Pedro C. Neto",
+      "Ivona Colakovic",
+      "Sašo Karakatič",
+      "Ana F. Sequeira"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Accepted at ECCV 2024 Workshops",
+    "summary": "- 知識蒸留（KD）を活用し、顔認識データセットの最近の撤回に対抗する戦略を立案\n- 事前訓練された教師モデルを用い、合成データセットや実データと合成データの混合を利用することで驚くべき結果を達成\n- KDを用いることで、すべての民族で性能が向上しバイアスが減少することが一貫して確認\n- 合成データと実データの間の性能差を緩和し、顔認識モデルの精度と公平性を向上させる\n\n知識蒸留ってすごいね！合成データでも公平な顔認識ができるようになるなんて、未来が楽しみだなぁ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-30T16:35:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17356",
+    "title": "C-RADAR: A Centralized Deep Learning System for Intrusion Detection in Software Defined Networks",
+    "japanese_title": " C-RADAR：ソフトウェア定義ネットワークにおける侵入検知のための集中型ディープラーニングシステム ",
+    "authors": [
+      "Osama Mustafa",
+      "Khizer Ali",
+      "Talha Naqash"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- SDNはネットワーク管理を簡素化し柔軟性を向上させるが、中央制御平面はネットワーク攻撃に脆弱である\n- 従来のネットワークでの侵入検知にはディープラーニング（DL）技術が有効だが、SDNへの適用は未解決の研究領域である\n- 本研究では、SDNの侵入検知のためにLSTM-Attnと呼ばれるDLアーキテクチャを使用し、Fl-scoreが0.9721に達することを示した\n- DLアプローチは検出精度と計算効率で既存の手法を上回り、新しい攻撃パターンの検出にも有効である\n\nSDNとディープラーニングの組み合わせ、面白そう！いつかこれでネットワークがもっと安全になったら嬉しいな。DLの技術がこんな風に応用される未来、ワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-30T15:39:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17263",
+    "title": "Privacy-Preserving Set-Based Estimation Using Differential Privacy and Zonotopes",
+    "japanese_title": "差分プライバシーとゾノトープを用いたプライバシー保護された集合ベース推定",
+    "authors": [
+      "Mohammed M. Dawoud",
+      "Changxin Liu",
+      "Karl H. Johansson",
+      "Amr Alanwar"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "This article is the journal submission of \"Differentially Private   Set-Based Estimation Using Zonotopes\", presented at the 2023 European Control   Conference (ECC), https://ieeexplore.ieee.org/document/10178269. arXiv admin   note: text overlap with arXiv:2305.07407",
+    "summary": "- サイバーフィジカルシステム内の空間的に分散されたセンサーが協力して状態推定を行う必要がある\n- 提案された集合ベースの推定プロトコルは、差分プライバシーを保証しつつ、推定した集合に真の状態を保持する\n- センターとローカル差分プライバシーモデルを採用し、計算効率の高いゾノトープを用いてセンシティブな測定値を守る\n- 数値最適化された切断ラプラスノイズを使用して、プライバシーと推定の有用性を向上させた\n\nサイバーとプライバシーの両立を目指してるのが未来的でステキ！現実の応用にも役立ちそうだね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-30T13:05:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17216",
+    "title": "Democratizing AI in Africa: FL for Low-Resource Edge Devices",
+    "japanese_title": "アフリカにおけるAIの民主化：低リソースのエッジデバイス向け連合学習",
+    "authors": [
+      "Jorge Fabila",
+      "Víctor M. Campello",
+      "Carlos Martín-Isla",
+      "Johnes Obungoloch",
+      "Kinyera Leo",
+      "Amodoi Ronald",
+      "Karim Lekadir"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- アフリカの医療システムはインフラ不足や高度医療技術へのアクセス難で課題が多い\n- 周産期ヘルスケアに焦点を当て、アルジェリア、ガーナ、エジプト、マラウイ、ウガンダとスペインのデータを用いて胎児面分類器を訓練\n- Raspberry Piや複数のノートパソコンなどの異種デバイスでモデル訓練を実施し、中央集権型と連合モデルの性能を比較\n- ローカルでの訓練よりもモデルの汎用性が大幅に向上し、少ない要件で大規模な展開が可能\n\n周産期ヘルスケアに連合学習を使えば、アフリカでも高度な医療が提供できるね！特にインフラ不足って聞くけど、低リソースでも効果があるなら別に心配いらないよって思っちゃった。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-30T11:46:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17184",
+    "title": "Secure Ownership Management and Transfer of Consumer Internet of Things Devices with Self-sovereign Identity",
+    "japanese_title": "消費者向けIoTデバイスのセキュアな所有権管理と移転における自己主権型アイデンティティの活用",
+    "authors": [
+      "Nazmus Sakib",
+      "Md Yeasin Ali",
+      "Nuran Mubashshira Momo",
+      "Marzia Islam Mumu",
+      "Masum Al Nahid",
+      "Fairuz Rahaman Chowdhury",
+      "Md Sadek Ferdous"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.ET"
+    ],
+    "comment": "",
+    "summary": "- IoTデバイスの普及に伴い、消費者向けデバイスのアイデンティティ管理や所有権移転に課題がある\n- ブロックチェーン技術を用いた解決策が試みられるも、成功は限定的であった\n- 提案するシステムはSSIを基盤にし、ブロックチェーンや分散型識別子（DID）、認証情報（VC）を活用\n- 提案システムの脅威モデルと要件分析に基づくアーキテクチャや実証実験、セキュリティ評価を実施\n\nブロックチェーンと分散技術を使ってIoTデバイスの管理がもっと簡単になりそう。これが普及すれば、私たちもデバイス管理で悩むことが減るかも！",
+    "topics": [
+      "SSI/DID/VC"
+    ],
+    "published": "2024-08-30T10:35:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17145",
+    "title": "Towards Hyper-parameter-free Federated Learning",
+    "japanese_title": "超パラメータ不要の連合学習に向けて",
+    "authors": [
+      "Geetika",
+      "Drishya Uniyal",
+      "Bapi Chatterjee"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.OC"
+    ],
+    "comment": "28 pages, 3 figures",
+    "summary": "- 連合学習の自動同期技術は従来のFederated Averagingより優れた性能を示す\n- 提案手法ではサーバー上のスケーリング因子を自動調整するアルゴリズムを導入\n- クライアントで適切なステップサイズを確保することで線形収束を実現\n- 実験結果は凸問題および非凸問題の両方で既存手法よりも良好な性能を示す\n\nこれからは、もっと簡単に連合学習ができるようになるのかな？パラメータの調整って面倒だから、自動でやってくれるなら嬉しいね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-30T09:35:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17108",
+    "title": "Sparse Uncertainty-Informed Sampling from Federated Streaming Data",
+    "japanese_title": "連合ストリーミングデータからの疎な不確実性情報に基づくサンプリング",
+    "authors": [
+      "Manuel Röder",
+      "Frank-Michael Schleif"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "comment": "Preprint, 6 pages, 3 figures, Accepted for ESANN 2024",
+    "summary": "- 数値的に堅牢で計算効率の高い非I.I.D.データのストリーミングサンプリング手法を提案\n- ローカルモデル適応のためのラベル付きデータが希少で高価な環境に対応\n- メモリバッファ戦略に依存せず、瞬時にラベル付けの意思決定を行う\n- 大規模データストリームに対し、トレーニングバッチの多様性と数値的な堅牢性を向上\n\nラベル付きデータが限られている中で即座に判断を下す方法ってすごい！FL環境のトレーニングをもっと効率的にできるなんて、未来が楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-30T08:49:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17090",
+    "title": "FissionVAE: Federated Non-IID Image Generation with Latent Space and Decoder Decomposition",
+    "japanese_title": "FissionVAE: 潜在空間およびデコーダ分解による連合非IID画像生成",
+    "authors": [
+      "Chen Hu",
+      "Jingjing Deng",
+      "Xianghua Xie",
+      "Xiaoke Ma"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 連合学習の枠組みで、非IIDデータ環境における潜在空間の一貫性維持が困難\n- FissionVAEを提案し、潜在空間を分解しデコーダをクライアントグループごとに構築\n- 階層型VAEと異なるデコーダアーキテクチャを導入し、特有のデータ分布に対応\n- MNISTとFashionMNIST、カートゥーンと人間の顔などの複合データセットで品質向上を実証\n\n分散して学習する時にそれぞれのデータの特徴を活かせるなんてすごいなぁ。色んなデータからどんな画像が生成されるのかワクワクするよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-08-30T08:22:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.17063",
+    "title": "SIMD-Aware Homomorphic Compression and Application to Private Database Query",
+    "japanese_title": "SIMD対応準同型圧縮とプライベートデータベースクエリへの応用",
+    "authors": [
+      "Jung Hee Cheon",
+      "Keewoo Lee",
+      "Jai Hyun Park",
+      "Yongdong Yeo"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 準同型暗号を使用したプライベートデータベースクエリ(PDQ)の重要なステップは、暗号化された疎ベクトルの圧縮である\n- 提案した新しい準同型圧縮方式はSIMD技術を活用し効率的な実装が可能である\n- 提案方式は、理論上最適な圧縮率と良好な復号複雑度を両立している\n- 実験結果として、提案方式は従来の最良結果よりも4.7倍から33.2倍高速である\n\n新しい圧縮方式ってすごくない？データベースクエリがもっと速くて安全になるなんて未来が楽しみだね。実験結果も驚異的だし、この技術がどう発展してくのか気になる！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-08-30T07:49:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.16965",
+    "title": "Contrastive Learning with Synthetic Positives",
+    "japanese_title": "合成ポジティブを用いたコントラスト学習",
+    "authors": [
+      "Dewen Zeng",
+      "Yawen Wu",
+      "Xinrong Hu",
+      "Xiaowei Xu",
+      "Yiyu Shi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "8 pages, conference",
+    "summary": "- 近傍アルゴリズムは「簡単」なポジティブペアのみを識別\n- 拡散モデルによって生成された合成画像を追加ポジティブとして提案\n- 異なる背景だが同じ意味内容を持つ「難しい」ポジティブを生成\n- 複数ベンチマークで性能が向上し、転送学習ベンチマークでも優れた結果を達成\n\n合成データを使った新しい自己教師あり学習の手法、面白そう！CLSPは今後のSSL研究に大きな影響を与えそうだよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-30T01:47:43+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.16913",
+    "title": "Analyzing Inference Privacy Risks Through Gradients in Machine Learning",
+    "japanese_title": "機械学習における勾配を通じた推論プライバシーリスクの分析",
+    "authors": [
+      "Zhuohang Li",
+      "Andrew Lowy",
+      "Jing Liu",
+      "Toshiaki Koike-Akino",
+      "Kieran Parsons",
+      "Bradley Malin",
+      "Ye Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 分散学習において勾配シェアのプライバシーリスクを体系的に分析\n- 属性、特性、分布、ユーザー開示などの攻撃に対する包括的なフレームワークを提案\n- 勾配を通じたプライバシー侵害に対するデータ集約化の無効性を実験で証明\n- 差分プライバシーなど5つの防御策の有効性を情報理論的視点で分析\n\nいろんなデータを使って、守れるか試しているのが興味深いね。こういう研究が進むとみんなの情報がもっと安全になるかもね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-08-29T21:21:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.16829",
+    "title": "Maven: A Multimodal Foundation Model for Supernova Science",
+    "japanese_title": "マーベン: 超新星科学のためのマルチモーダル基盤モデル",
+    "authors": [
+      "Gemma Zhang",
+      "Thomas Helfer",
+      "Alexander T. Gagliano",
+      "Siddharth Mishra-Sharma",
+      "V. Ashley Villar"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "cs.LG"
+    ],
+    "comment": "code: https://github.com/ThomasHelfer/multimodal-supernovae data:   https://huggingface.co/datasets/thelfer/multimodal_supernovae",
+    "summary": "- 天文学では高品質の観測データが少なく、低品質や合成データが多いアンバランスな状況が一般的\n- マーベンは、対照学習目標を用いて異なるデータモダリティを共有埋め込み空間に整列させる初の基盤モデル\n- 合成データ50万個の超新星データで事前訓練し、Zwicky Transient Facilityから観測された超新星4,702個で微調整\n- 最新の性能を達成し、特に合成データで事前訓練すると全体的な性能が向上することがアブレーション研究で確認された\n\nこの研究、なんだか面白そうだね！特に対照学習を使って高性能なモデルを作る部分、これからの観測データが増えるとさらに活躍しそうだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-08-29T18:00:05+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2408.16737",
     "title": "Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling",
     "japanese_title": "小さく、弱く、それでも優れている：計算最適なサンプリングを用いたLLM推論者の訓練",

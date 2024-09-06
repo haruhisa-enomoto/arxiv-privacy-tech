@@ -1,5 +1,266 @@
 [
   {
+    "url": "http://arxiv.org/abs/2409.03720",
+    "title": "Confidential Computing Transparency",
+    "japanese_title": "機密コンピューティングの透明性",
+    "authors": [
+      "Ceren Kocaoğullar",
+      "Tina Marjanov",
+      "Ivan Petrov",
+      "Ben Laurie",
+      "Al Cutter",
+      "Christoph Kern",
+      "Alice Hutchings",
+      "Alastair R. Beresford"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 機密コンピューティングは、ハードウェアベースの信頼実行環境(TEEs)を活用してデータを保護するセキュリティーパラダイムである\n- TEEsはセキュリティメリットを提供するが、ユーザーの信頼確保が課題で、アテステーションだけでは脆弱性やバックドアの不在を保証できない\n- ユーザー、レビュアーの責任追及や技術的な安全対策を組み込んだ透明性フレームワークを提案し、現行のオープンソースコードや監査を超える\n- 400人のユーザースタディで、透明性が高まるほど、特に敏感なデータタイプに対してユーザーの快適度が向上することを示した\n\nユーザーの信頼と安心感を高める新しいフレームワークが提案されたんだね！これでセキュリティ分野の進化がさらに楽しみになりそうだよ。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-09-05T17:24:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03672",
+    "title": "Wind turbine condition monitoring based on intra- and inter-farm federated learning",
+    "japanese_title": "風力タービン状態監視のための風車内および風車間連合学習",
+    "authors": [
+      "Albin Grataloup",
+      "Stefan Jonas",
+      "Angela Meyer"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "",
+    "summary": "- 風力タービンの効率的な運転と保守がエネルギー生産の最大化とコスト削減に不可欠\n- 風力タービンや風力発電所の運用データを活用することで、AIアプリケーションの効果を高める\n- 連合学習はデータプライバシーを保ちながら分散型機械学習を実現するアプローチとして注目される\n- 複数の風力タービン間で連携する連合学習は、単一のタービンでのモデルよりも優れた性能を発揮\n\n風力発電所の監視とかってめっちゃSFっぽくない？AIが風力タービンの故障を予測してくれるなんて、未来って感じでワクワクするー！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-05T16:25:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03669",
+    "title": "A method to benchmark high-dimensional process drift detection",
+    "japanese_title": "高次元プロセスドリフト検出のベンチマーク法",
+    "authors": [
+      "Edgar Wolf",
+      "Tobias Windisch"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- プロセス曲線は製造プロセスから得られる多変量の有限時間シリーズデータである\n- プロセス曲線のドリフト検出のための機械学習手法を研究\n- 制御された方法でプロセス曲線を合成的に生成する理論的フレームワークを導入\n- 時間的カーブ下面積という評価スコアを導入し、ドリフトセグメントをどれだけ明確に検出できるかを定量化\n\nこの研究で合成データというコンセプトを使っているのが面白いね！いろんな機械学習モデルの性能を公平に評価できるから、将来の研究に大きな影響を与えそうだよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-05T16:23:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03655",
+    "title": "Privacy versus Emotion Preservation Trade-offs in Emotion-Preserving Speaker Anonymization",
+    "japanese_title": "プライバシー対感情保存のトレードオフ：感情保存型話者匿名化における課題",
+    "authors": [
+      "Zexin Cai",
+      "Henry Li Xinyuan",
+      "Ashi Garg",
+      "Leibny Paola García-Perera",
+      "Kevin Duh",
+      "Sanjeev Khudanpur",
+      "Nicholas Andrews",
+      "Matthew Wiesner"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.LG"
+    ],
+    "comment": "accepted by 2024 IEEE Spoken Language Technology Workshop",
+    "summary": "- 音声技術の進歩により、音声から個人情報へのアクセスが増加\n- 差分プライバシー分野では、言語的および準言語的要素を保持しつつ音声を匿名化する方法を模索\n- 音声の匿名化と感情状態の保持を同時に実現することは困難\n- 音声匿名化が得意なものと感情保存が得意なものは分かれており、両者を同時に達成するには専用の感情認識器が必要\n\n感情と匿名性のトレードオフって面白いよね。未来のAIがさらに人の心に近づいてくるかんじ、見逃せない！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-05T16:10:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03635",
+    "title": "On the Relativistic Zero Knowledge Quantum Proofs of Knowledge",
+    "japanese_title": "相対論的ゼロ知識量子知識証明について",
+    "authors": [
+      "Kaiyan Shi",
+      "Kaushik Chakraborty",
+      "Wen Yu Kon",
+      "Omar Amer",
+      "Marco Pistoia",
+      "Charles Lim"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "comment": "37 pages",
+    "summary": "- 古典的通信で行う相対論的ゼロ知識量子知識証明システムを定義\n- 特別な健全性を持たないプロトコル向けに知識抽出器を構築\n- モノガミーな絡み合いと動揺測定補題を組み合わせ多重校正技術を開発\n- 既存システムの健全性向上を証明、連続測定の影響を減少\n\nゼロ知識量子証明なんてすごい未来的！特にモノガミーな絡み合いを使っているところがかっこいいね。物理的な制約がこんなに役立つなんて、感動しちゃう！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-09-05T15:50:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03612",
+    "title": "VFLGAN-TS: Vertical Federated Learning-based Generative Adversarial Networks for Publication of Vertically Partitioned Time-Series Data",
+    "japanese_title": "VFLGAN-TS: 縦方向に分割された時系列データの公開のための連合学習ベース生成敵対ネットワーク",
+    "authors": [
+      "Xun Yuan",
+      "Zilong Zhao",
+      "Prosanta Gope",
+      "Biplab Sikdar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- データセットの規模や品質がAIモデルのトレーニングに重要だが、プライバシー問題で共有が困難\n- 本研究では、縦方向に分割されたシナリオで合成時系列データを生成するVFLGAN-TSを提案\n- VFLGAN-TSの性能は、中央集約型でトレーニングしたモデルの上限に近い\n- ガウス機構を用いて$(\\epsilon,\\delta)$-差分プライバシーを満たし、強化されたプライバシー監査スキームも開発\n\nプライバシー問題を乗り越えながら、時系列データを縦方向に扱えるなんてすごいね。VFLGAN-TSの性能が中央集約型とほぼ同等なら、これからのAI研究にすごく役立ちそう！",
+    "topics": [
+      "連合学習",
+      "合成データ"
+    ],
+    "published": "2024-09-05T15:17:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03568",
+    "title": "Enabling Practical and Privacy-Preserving Image Processing",
+    "japanese_title": "実用的でプライバシー保護された画像処理の実現",
+    "authors": [
+      "Chao Wang",
+      "Shubing Yang",
+      "Xiaoyan Sun",
+      "Jun Dai",
+      "Dongfang Zhao"
+    ],
+    "categories": [
+      "cs.CR",
+      "C.2.0; K.6.5"
+    ],
+    "comment": "16 pages, 10 figures",
+    "summary": "- FHE（完全準同型暗号）はデータの機密性を保ちながら暗号化データ上で計算を可能にする\n- 高精度・複雑なデータ処理時にFHEは大きな性能オーバーヘッドの問題がある\n- 提案されたiCHEETAHはCKKSスキームに基づくピクセルレベルの準同型暗号アプローチ\n- 3つのキャッシングメカニズムを導入し、暗号化速度が最大19倍向上し、高い画像品質を維持\n\nピクセルレベルの処理が可能なんてすごくない！？その上、画像品質も落ちないから嬉しいよね。未来の画像処理が楽しみ～！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-09-05T14:22:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03344",
+    "title": "Rethinking Improved Privacy-Utility Trade-off with Pre-existing Knowledge for DP Training",
+    "japanese_title": "差分プライバシー（DP）トレーニングにおける既存知識を用いたプライバシーと実用性のトレードオフの再考",
+    "authors": [
+      "Yu Zheng",
+      "Wenchao Zhang",
+      "Yonggang Zhang",
+      "Wei Song",
+      "Kai Zhou",
+      "Bo Han"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "13 pages",
+    "summary": "- 差分プライバシー（DP）は、プライバシー保護のためにランダムなメカニズムをデータセットに適用する\n- DP-SGDはノイズを勾配に追加するが、均一なノイズがモデルの性能を低下させる\n- DP-Heroは既存のモデル知識を活用し、異質なノイズを用いて実用性を向上させる\n- 提案手法DP-Heroは、実験で精度向上を示し、既存の手法より優れていることが分かった\n\n既存のモデルを活用してノイズを調整するなんて面白そう！さらに実用性が上がるなんて、次世代のプライバシー技術に期待😄",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-05T08:40:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03326",
+    "title": "Enhancing User-Centric Privacy Protection: An Interactive Framework through Diffusion Models and Machine Unlearning",
+    "japanese_title": "ユーザー中心のプライバシー保護強化：拡散モデルと機械学習のアンラーニングによるインタラクティブフレームワーク",
+    "authors": [
+      "Huaxi Huang",
+      "Xin Yuan",
+      "Qiyu Liao",
+      "Dadong Wang",
+      "Tongliang Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 現在の研究はデータ共有と学習モデル公開の際のプライバシーに焦点を当てる\n- 我々の研究は、データ共有とモデル公開時に画像データのプライバシーを同時に保護する\n- 生成モデルで画像情報を属性レベルで変更、機械アンラーニングでモデルパラメータを保護\n- 差分プライバシー拡散モデルと特徴アンラーニングアルゴリズムを導入し性能が向上\n\n画像データのプライバシーがこんなに進化するって、未来を感じさせるよね。この技術、顔認識とかで役立ちそうでワクワクする～。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-05T07:55:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03294",
+    "title": "Federated Prototype-based Contrastive Learning for Privacy-Preserving Cross-domain Recommendation",
+    "japanese_title": "プライバシー保護のための連合プロトタイプベースコントラスト学習を用いたクロスドメインレコメンデーション",
+    "authors": [
+      "Li Wang",
+      "Quangui Zhang",
+      "Lei Sang",
+      "Qiang Wu",
+      "Min Xu"
+    ],
+    "categories": [
+      "cs.IR"
+    ],
+    "comment": "",
+    "summary": "- クロスドメインレコメンデーション（CDR）は、データが少ないドメインでのレコメンデーション精度を向上させるが、ユーザープライバシーの問題を見落としている\n- 従来のCDR方法は、ドメイン間でユーザーとアイテムの相互作用データを共有することを前提としており、ユーザーのプライバシー保護を考慮していない\n- 提案しているFedPCL-CDRは、非重複ユーザーの情報とプロトタイプを利用して、マルチドメインパフォーマンスを向上させながらユーザープライバシーを保護する手法\n- 4つのCDRタスクにおいて実施した実験で、2つの実データセットを用いた結果、FedPCL-CDRは最先端技術よりも優れたパフォーマンスを示すことが確認された\n\n非重複ユーザー情報の利用でプライバシー問題を解決するアイデアがめちゃ革新的だよね！改善されたマルチドメインパフォーマンスってところも重要だし、これからの技術の進展が楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-05T06:59:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03071",
+    "title": "Minimizing Cost Rather Than Maximizing Reward in Restless Multi-Armed Bandits",
+    "japanese_title": "レストレス・マルチアーム・バンディットにおける報酬の最大化ではなくコストの最小化",
+    "authors": [
+      "R. Teal Witter",
+      "Lisa Hellerstein"
+    ],
+    "categories": [
+      "cs.DS"
+    ],
+    "comment": "",
+    "summary": "- RMABsはリソース制約最大化問題を解く強力なフレームワークだが、報酬閾値が制約の設定には不適切\n- 報酬閾値を達成しつつ総コストを最小化するための制約最適化問題を導入\n- 問題のPSPACE-hard性を示し、分離問題、インデックス性、Whittleインデックスを定義\n- 最大化問題におけるWhittleインデックスから最小化問題のインデックスを簡単に計算可能\n\n最大化だけじゃなくて、コストをどう最適化するかも重要なんだね。いろんなヘルスケア分野とかに応用できそうで面白そうだし、実際に役立ちそうだよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-04T20:47:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03022",
+    "title": "Boundless: Generating Photorealistic Synthetic Data for Object Detection in Urban Streetscapes",
+    "japanese_title": "Boundless: 都市の街並みでの物体検出のためのフォトリアリスティック合成データ生成",
+    "authors": [
+      "Mehmet Kerem Turkcan",
+      "Ian Li",
+      "Chengbo Zang",
+      "Javad Ghaderi",
+      "Gil Zussman",
+      "Zoran Kostic"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- Boundlessは、密集した都市街並みでの高精度な物体検出を可能にする合成データ生成システムである\n- Unreal Engine 5をベースにして、異なる照明やシーンの変化条件での3Dバウンディングボックス収集を改善\n- Boundlessで生成されたデータセットで訓練したモデルは、CARLA訓練モデルに比べて7.8 mAPの改善を示す\n- 合成データ生成が都市シーンの物体検出モデルの訓練や微調整に有効であることを実証した\n\n合成データでの訓練がこんなに効果あるんだね！現実データ収集の手間が省けるなら、応用の幅が広がりそうでワクワクするな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-04T18:28:10+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2409.02920",
     "title": "RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (early version)",
     "japanese_title": "RoboTwin: 生成的デジタルツインを用いた二腕ロボットベンチマーク（初期版）",
@@ -87,6 +348,28 @@
       "TEE"
     ],
     "published": "2024-09-04T15:35:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.03710",
+    "title": "Inverse decision-making using neural amortized Bayesian actors",
+    "japanese_title": "ニューラル・アモータイズド・ベイズ・アクターを用いた逆意思決定",
+    "authors": [
+      "Dominik Straub",
+      "Tobias F. Niehues",
+      "Jan Peters",
+      "Constantin A. Rothkopf"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-bio.NC",
+      "stat.ML"
+    ],
+    "comment": "19 pages, 7 figures",
+    "summary": "- ベイズ観察者とアクターモデルは、知覚や感覚運動制御などで行動変異を説明\n- 複雑なタスクではベイズ意思決定問題が解析的に解決困難\n- ニューラルネットワークを利用し、非教師あり学習でベイズアクターをアモータイズ\n- 合成データを用いて、推論分布が解析解とほぼ一致し、経験的データでも行動パターンの違いを説明\n\nニューラルネットでベイズ推論を高速化するなんて、これからの認知科学の研究がもっと面白くなりそう！自分の行動パターンも分析できるかもって思うとワクワクするよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-04T10:31:35+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2409.02548",

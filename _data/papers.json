@@ -1,5 +1,192 @@
 [
   {
+    "url": "http://arxiv.org/abs/2409.08936",
+    "title": "SynSUM -- Synthetic Benchmark with Structured and Unstructured Medical Records",
+    "japanese_title": "SynSUM -- 構造化および非構造化医療記録を含む合成ベンチマーク",
+    "authors": [
+      "Paloma Rabaey",
+      "Henri Arno",
+      "Stefan Heytens",
+      "Thomas Demeester"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- SynSUMベンチマークは、非構造化の臨床ノートを構造化された背景変数とリンクする合成データセットである\n- データセットは10,000の人工患者記録で構成されており、呼吸器疾患の症状や診断を含む\n- ベイジアンネットワークを用いてデータの構造と条件付き確率を専門家の知見に基づいて生成している\n- 生成されたデータは臨床情報抽出、自動臨床推論、因果推定、マルチモーダル合成データ生成などの研究に役立つ\n\n臨床ノートと背景変数をうまくリンクさせてるのが興味深いね。多分、新しい研究の道を開くかもって感じ？絶対にチェックしないと！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-13T15:55:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08884",
+    "title": "Detect Fake with Fake: Leveraging Synthetic Data-driven Representation for Synthetic Image Detection",
+    "japanese_title": "フェイクでフェイクを検出: 合成データ駆動の表現を利用した合成画像検出",
+    "authors": [
+      "Hina Otake",
+      "Yoshihiro Fukuhara",
+      "Yoshiki Kubotani",
+      "Shigeo Morishima"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "Accepted to TWYN workshop at ECCV 2024",
+    "summary": "- 合成データから得られた視覚表現がフェイク画像検出に有効であることを示している\n- 合成データで訓練されたビジョントランスフォーマーが本物と偽物を見分けることができた\n- 最新のSynCLRを用いることで、従来のCLIPよりも精度が向上した\n- 未知のGANモデルに対しても、検出性能が+10.32 mAPおよび+4.73%向上した\n\n合成データだけでフェイク画像を見分けるってすごくない？新しい技術がどんどん出てきて、未来の画像検出がもっと進化する予感がするよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-13T14:50:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08858",
+    "title": "Exploring System-Heterogeneous Federated Learning with Dynamic Model Selection",
+    "japanese_title": "システム異種連合学習における動的モデル選択の探究",
+    "authors": [
+      "Dixi Yao"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は複数のモバイルクライアントがデータをローカルに保持しつつグローバルモデルをトレーニングする\n- クライアントはメモリやネットワーク帯域幅が異なるため、最大限活用する方法の課題が残っている\n- 各クライアントに異なるレイヤーとチャネルを持つグローバルモデルのサブセットを割り当てる新しい方法を提案\n- 提案した方法は正確度を2.43%から15.81%向上させ、メモリと帯域幅の利用率を5%から40%増加させた\n\n動的にモデルを選んでクライアントごとの資源を効率よく使うなんて、すごく未来的！どんどん進化していく技術が楽しみだよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-13T14:20:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08845",
+    "title": "AIPO: Improving Training Objective for Iterative Preference Optimization",
+    "japanese_title": "AIPO: 反復的なプリファレンス最適化のための訓練目標改善",
+    "authors": [
+      "Yaojie Shen",
+      "Xinyao Wang",
+      "Yulei Niu",
+      "Ying Zhou",
+      "Lexin Tang",
+      "Libo Zhang",
+      "Fan Chen",
+      "Longyin Wen"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- プリファレンス最適化（PO）は、大規模言語モデル（LLM）の整合性向上のための人気の選択肢\n- 合成データを用いた反復的プリファレンス最適化（IPO）の長さ利用問題が特に深刻\n- 合意認識反復プリファレンス最適化（AIPO）という新しい訓練目標を提案\n- Comprehensiveな実験でMT-BenchやAlpacaEval 2.0、Arena-Hardで最先端のパフォーマンスを達成\n\n確かにこれはすごく面白そう！特にAIPOの新しい訓練目標が、どうやって長さ利用問題を解決するのかとても気になる。リアルに試してみたいかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-13T14:03:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08538",
+    "title": "An Efficient Privacy-aware Split Learning Framework for Satellite Communications",
+    "japanese_title": "衛星通信のための効率的なプライバシー重視スプリットラーニングフレームワーク",
+    "authors": [
+      "Jianfei Sun",
+      "Cong Wu",
+      "Shahid Mumtaz",
+      "Junyi Tao",
+      "Mingsheng Cao",
+      "Mei Wang",
+      "Valerio Frascolla"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "11 pages",
+    "summary": "- 衛星ネットワークの伝統的な機械学習アプローチは、帯域幅や計算資源の制約に直面している\n- DTIPという新しいフレームワークを提案し、差分プライバシーとグラフ・モデルのプルーニングを組み合わせた\n- DTIPは生データに差分プライバシーを適用し、GNNsをプルーニングすることでモデルサイズと通信負荷を最適化\n- Amazon2MとArXivのデータセットで精度を維持しつつ、計算効率とプライバシー保護を向上\n\n新しいプライバシー技術で衛星通信がここまで進化するなんてすごい！これでさらに効率的な宇宙ネットワークが実現できるといいな。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-13T04:59:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08503",
+    "title": "Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning",
+    "japanese_title": "分割学習によるControlNetおよび防具拡散におけるプライバシーの強化",
+    "authors": [
+      "Dixi Yao"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習や分割学習は不適切だと判断\n- 新しい分散学習構造を提案し、サーバーからの勾配送信を排除\n- 既存の攻撃のうち二つの効果を指摘し、拡散モデルの特性を活かした新しいタイムステップサンプリングを設計\n- プライバシー保護のアクティベーション関数とプライベートテキストプロンプト流出防止法を提案\n\n新しい分散学習構造がどのくらい効果的か気になる！プライバシーを守りつつ画像生成の質も保てるって、めっちゃ未来感あるね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-13T02:55:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08482",
+    "title": "Risks When Sharing LoRA Fine-Tuned Diffusion Model Weights",
+    "japanese_title": "LoRA微調整拡散モデルの重みを共有する際のリスク",
+    "authors": [
+      "Dixi Yao"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 生成モデルの普及により、個人の顔やアイテムを自然言語で新しいコンテキストとして生成可能\n- Low Rank Adaptation（LoRA）は、メモリと計算資源を節約しながら微調整する一般的な手法\n- 微調整に用いたプライベート画像が重み共有時に漏洩するリスクを検証\n- モデル重みを入力としプライベート画像を再構成する変分オートエンコーダを設計し、既存の防御方法が無効であると示す\n\n微調整中のプライベート画像が、重みの共有で再現できちゃうのは衝撃的！従来の手法で守れないなら、新しい防御策が早く必要だね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-13T02:13:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08476",
+    "title": "Research on Data Right Confirmation Mechanism of Federated Learning based on Blockchain",
+    "japanese_title": "ブロックチェーンに基づく連合学習のデータ権利確認メカニズムの研究",
+    "authors": [
+      "Xiaogang Cheng",
+      "Ren Guo"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "in Chinese language",
+    "summary": "- 連合学習は分散データマイニングと機械学習におけるプライバシー保護問題を解決できる\n- 連合学習に参加するすべての関係者の所有権、使用権、収益権の保護が重要な課題である\n- ブロックチェーンとスマートコントラクトに基づいたデータ所有権確認メカニズムを提案\n- ブロックチェーンのローカルシミュレーション環境でスマートコントラクトとデータ構造を実装し、スキームの実現可能性を初期検証\n\nブロックチェーンを使ってフェデレーテッドラーニングの報酬を管理する仕組みが面白そう！スマートコントラクトと組み合わせて、もっと効率的にデータの所有権を守れる未来が広がるね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-13T02:02:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.08372",
+    "title": "FedProphet: Memory-Efficient Federated Adversarial Training via Theoretic-Robustness and Low-Inconsistency Cascade Learning",
+    "japanese_title": "FedProphet: 理論的ロバストネスと低一貫性カスケード学習によるメモリ効率の高い連合敵対的訓練",
+    "authors": [
+      "Minxue Tang",
+      "Yitu Wang",
+      "Jingyang Zhang",
+      "Louis DiValentin",
+      "Aolin Ding",
+      "Amin Hass",
+      "Yiran Chen",
+      "Hai \"Helen\" Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "Preprint",
+    "summary": "- 連合学習でデータを共有せずにローカルトレーニングし、連合敵対的訓練により敵対的な事例に対するロバスト性を強化\n- メモリ制約のあるエッジデバイスでの訓練が遅く、一貫性のないローカルおよびグローバルモデルが課題\n- FedProphetは大きなモデルを小さなカスケードモジュールに分割し、メモリ制約のあるデバイスがモジュールごとの敵対的訓練を実施\n- 強い凸正則化を導入し、理論的にロバストネスを保証し、適応的撹乱調整と差別モジュール割当てをサーバ側で実施して一貫性を改善\n\nFedProphetはメモリの使用量を大幅に削減しながら、驚くべき速度で訓練を完了できるのはすごいね！80%もメモリを節約できるなんて、未来のAI技術の発展が楽しみだな〜。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-12T19:39:14+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2409.08239",
     "title": "Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources",
     "japanese_title": "Source2Synth: 実データ源に基づいた合成データ生成とキュレーション",

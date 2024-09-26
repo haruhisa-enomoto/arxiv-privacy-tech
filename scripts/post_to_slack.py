@@ -30,7 +30,7 @@ def make_slack_message(paper: PaperInfo) -> str:
     return message
 
 
-def post_paper_to_slack(paper: PaperInfo, max_retries=5)
+def post_paper_to_slack(paper: PaperInfo, max_retries=5):
     print("Sleeping 1 sec...")
     time.sleep(1)
     print(f"Posting {paper.url} to Slack...")

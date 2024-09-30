@@ -1,5 +1,373 @@
 [
   {
+    "url": "http://arxiv.org/abs/2409.18915",
+    "title": "A-FedPD: Aligning Dual-Drift is All Federated Primal-Dual Learning Needs",
+    "japanese_title": "A-FedPD: デュアルドリフトの調整が必要な連合プライマルデュアル学習",
+    "authors": [
+      "Yan Sun",
+      "Li Shen",
+      "Dacheng Tao"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータプライバシーと共同訓練を両立し、エッジクライアントの異質データセットを分散処理\n- 帯域幅やセキュリティの制約で問題を並列処理可能な複数のサブ問題に分割、プライマルデュアル解を適用\n- 非凸シナリオでの古典的な連合プライマルデュアル法の「デュアルドリフト」問題を指摘\n- A-FedPD法を提案し、仮想デュアル更新で未参加クライアントのグローバル合意とローカルデュアル変数を調整、高効率と実用性を確認\n\n仮想デュアル更新とか面白そう！連合学習の効率性がすごく向上するんだね。実験結果とかどうなるか見てみたいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T17:00:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18907",
+    "title": "In-depth Analysis of Privacy Threats in Federated Learning for Medical Data",
+    "japanese_title": "医療データの連合学習におけるプライバシー脅威の詳細分析",
+    "authors": [
+      "Badhan Chandra Das",
+      "M. Hadi Amini",
+      "Yanzhao Wu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は医療画像を扱う際に患者データを保護する有力な手法だが、プライバシー攻撃により訓練データが漏洩する危険性がある\n- 提案されたMedPFLフレームワークは、連合学習環境での医療データのプライバシーリスクを分析し、対策を開発する\n- 実際の分析を通じ、連合学習を用いると敵対者がプライバシー攻撃で正確な医療画像を復元可能であることを実証\n- ランダムノイズの追加といった一般的な防御機構が医療画像のプライバシー保護に常に有効ではなく、これに対処する独自の研究課題が存在\n\n医療データのプライバシーってめちゃくちゃ大事だよね！ランダムノイズが守ってくれないこともあるなんて、より安全な方法を見つけるのが重要そう😊",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T16:45:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18892",
+    "title": "IDGen: Item Discrimination Induced Prompt Generation for LLM Evaluation",
+    "japanese_title": "IDGen: LLM評価のためのアイテム識別誘導プロンプト生成",
+    "authors": [
+      "Fan Lin",
+      "Shuyi Xie",
+      "Yong Dai",
+      "Wenlin Yao",
+      "Tianjiao Lang",
+      "Zishan Xu",
+      "Zhichao Hu",
+      "Xiao Xiao",
+      "Yuhong Liu",
+      "Yu Zhang"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "NeurIPS 2024",
+    "summary": "- 大規模言語モデル（LLMs）の評価セットは、モデルの進化に伴い識別力を維持する必要がある\n- アイテム識別（ID）理論に基づいたプロンプト生成フレームワークを提案\n- 自己修正機構と二つのモデルでプロンプトの識別力と難易度を予測し、高品質なデータを生成\n- 生成したデータは既存手法よりも平均スコアが低く、より挑戦的で識別力が高いと証明される\n\nなんだかすごく知的な感じがするね！LLMをもっと公平に評価できるようになれば、新しい技術ももっと早く進化できそうってワクワクするよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-27T16:29:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18804",
+    "title": "Convergence of Diffusion Models Under the Manifold Hypothesis in High-Dimensions",
+    "japanese_title": "高次元の多様体仮説に基づく拡散モデルの収束",
+    "authors": [
+      "Iskander Azangulov",
+      "George Deligiannidis",
+      "Judith Rousseau"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.ST",
+      "stat.TH"
+    ],
+    "comment": "",
+    "summary": "- 拡散確率モデル（DDPM）は高次元データから合成データを生成し、画像、音声、動画生成など広範に利用\n- 多様体仮説は高次元データが低次元多様体上に存在するとの仮定であり、実例において広く支持\n- 本研究では、DDPMが学習およびサンプリングの速度が環境次元に依存しないことを証明\n- 新たに開発したフレームワークは、拡散モデルをガウス過程の理論と結びつけたもの\n\n新しい視点でDDPMの性能が高まる理由がわかるのは楽しみだね。データ生成の未来がさらに広がりそうな予感がする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-27T14:57:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18796",
+    "title": "Hierarchical Federated ADMM",
+    "japanese_title": "階層型連合ADMM",
+    "authors": [
+      "Seyed Mohammad Azimi-Abarghouyi",
+      "Nicola Bastianello",
+      "Karl H. Johansson",
+      "Viktoria Fodor"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "cs.IT",
+      "cs.SY",
+      "eess.SY",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 従来の勾配降下法に基づく階層型連合学習（FL）アルゴリズムから離れ、ADMMに基づく新しい階層型FLフレームワークを開発\n- 上層でADMMを使用する2つの新しいFLアルゴリズムを提案し、1つは下層でもADMMを使用、もう1つは従来の勾配降下法を使用\n- 提案されたフレームワークはプライバシーを強化し、学習収束と精度の面で従来のアルゴリズムより優れていることを実験で証明\n- 下層での勾配降下法はローカルステップ数が非常に限られている場合でも良好な性能を示し、両層でのADMM使用はそれ以外の場合に良い性能を発揮\n\nADMMを使って、どれだけ効率的に学習できるか実験してるのが面白そう。試してみたくなる！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T14:50:36+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18787",
+    "title": "Asymptotic tracking control of dynamic reference over homomorphically encrypted data with finite modulus",
+    "japanese_title": "有限法モジュロスによる準同型暗号化データの動的参照における漸近追跡制御",
+    "authors": [
+      "Shuai Feng",
+      "Junsoo Kim"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.SY"
+    ],
+    "comment": "",
+    "summary": "- 漸近追跡と動的参照を扱う際、有限法モジュロスでオーバーフロー問題が生じる\n- 動的量子化のズームイン因子を活用し、整数係数に変換する新しい制御器設計方法を提案\n- ケイリー・ハミルトンの定理を使い、以前の制御入力の線形結合として制御入力を表現\n- アクチュエータ側で制御入力を復元するアルゴリズムを設計し、シミュレーション例で検証\n\n漸近追跡制御の理論と準同型暗号の融合が面白い！これでセキュアな制御がもっと実現できそう。シミュレーションがうまくいってるところも期待大だよね。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-09-27T14:35:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18718",
+    "title": "Enhancing Spectrum Efficiency in 6G Satellite Networks: A GAIL-Powered Policy Learning via Asynchronous Federated Inverse Reinforcement Learning",
+    "japanese_title": "",
+    "authors": [
+      "Sheikh Salman Hassan",
+      "Yu Min Park",
+      "Yan Kyaw Tun",
+      "Walid Saad",
+      "Zhu Han",
+      "Choong Seon Hong"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.LG"
+    ],
+    "comment": "Submitted to IEEE Transactions on Mobile Computing (16 pages, 10   figures)",
+    "summary": "*6G衛星ネットワークにおけるスペクトル効率の向上: 非同期連合逆強化学習によるGAIL駆動のポリシー学習*\n\n- 手動設計の報酬関数に依存しないGAILフレームワークを導入\n- 非同期連合学習を用いて、複数衛星システムが分散で最適なポリシーを協力して導出\n- 鯨最適化アルゴリズムで専門家ポリシーを生成し、GAILで報酬関数を訓練\n- 提案手法は従来の強化学習法よりも14.6%の改善を達成\n\nこの研究、なんだか未来のネットワーク技術をガツンと進化させそうじゃない？衛星と連合学習の組み合わせとか、すごくワクワクするよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T13:05:02+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18680",
+    "title": "Beyond Single-Audio: Advancing Multi-Audio Processing in Audio Large Language Models",
+    "japanese_title": "単一オーディオを超えて: オーディオ大規模言語モデルにおけるマルチオーディオ処理の進展",
+    "authors": [
+      "Yiming Chen",
+      "Xianghu Yue",
+      "Xiaoxue Gao",
+      "Chen Zhang",
+      "Luis Fernando D'Haro",
+      "Robby T. Tan",
+      "Haizhou Li"
+    ],
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.CL",
+      "cs.MM",
+      "eess.AS"
+    ],
+    "comment": "EMNLP24 Findings",
+    "summary": "- 現在、多くのオーディオLLMが単一オーディオタスクに焦点を当てている\n- 実際のアプリケーションは複数のオーディオストリームを同時に処理する必要がある\n- 提案されたマルチオーディオ評価ベンチマークは、11のタスクからなる20のデータセットを含む\n- 新たなMALLMは合成データを用いて従来のモデルより高いデータ効率と性能を実現\n\nマルチオーディオ処理の可能性ってすごく興味深いよね。人間の聴覚能力にますます近づけるなんてワクワクするなあ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-27T12:06:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18611",
+    "title": "Differentially Private Non Parametric Copulas: Generating synthetic data with non parametric copulas under privacy guarantees",
+    "japanese_title": "差分プライバシーを用いた非パラメトリックコピュラ：プライバシー保証下での合成データ生成",
+    "authors": [
+      "Pablo A. Osorio-Marulanda",
+      "John Esteban Castro Ramirez",
+      "Mikel Hernández Jiménez",
+      "Nicolas Moreno Reyes",
+      "Gorka Epelde Unanue"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DB",
+      "62H05, 62G32",
+      "I.2.6; H.2.8; G.3"
+    ],
+    "comment": "12 pages, 5 figures, deciding 2025 conference to which to submit",
+    "summary": "- 非パラメトリックコピュラに差分プライバシーを導入し、DPNPCモデルを強化\n- DPNPCモデルは混合タブラー型データベースの合成データ生成をプライバシーを保ちながら実施\n- 公開データセットを用いて他の3つのモデル（PrivBayes、DP-Copula、DP-Histogram）と比較\n- DPNPCは多変量依存のモデリングで優れ、プライバシーを保ちながら学習時間を短縮\n\nプライバシー守りながらこんなに性能良いのすごいね！未来の研究でさらに進化しそうで楽しみ〜！",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-09-27T10:18:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18578",
+    "title": "An Enhanced Federated Prototype Learning Method under Domain Shift",
+    "japanese_title": "ドメインシフト下における強化された連合プロトタイプ学習法",
+    "authors": [
+      "Liang Kuang",
+      "Kuangpu Guo",
+      "Jian Liang",
+      "Jianguo Zhang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "8 pages, 6 figures",
+    "summary": "- 連合学習はプライベートデータを共有せずに共同で機械学習モデルをトレーニングする手法である\n- データのヘテロジニアス性が連合学習モデルの性能に大きな影響を及ぼす\n- FedPLCCアルゴリズムを導入し、クラス内類似性を向上させ、クラス間類似性を減少させる\n- Digit-5、Office-10、DomainNetデータセットで、既存の手法よりも優れた性能を示す\n\n連合学習って奥が深い！データのヘテロジニアス性をどう克服するかって、本当に面白そう。もっと詳しく知りたいね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T09:28:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18482",
+    "title": "HSTFL: A Heterogeneous Federated Learning Framework for Misaligned Spatiotemporal Forecasting",
+    "japanese_title": "HSTFL：位置および時間のずれを考慮した異種連合学習フレームワークによる予測",
+    "authors": [
+      "Shuowei Cai",
+      "Hao Liu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "Under review",
+    "summary": "- スマートシティアプリにおける空間・時間予測の重要性\n- 中央集権的なデータ収集が個々のプライバシーを侵害する可能性\n- 垂直連合学習によって異種データの局所的依存を保持\n- クロスクライアント仮想ノードの整合ブロックによりプライバシー保護を実現\n\n複数のデータソースを連携して予測するってすごくない？将来、プライバシーを守りながらみんなでデータを活用できるようになったら楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T06:51:11+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18461",
+    "title": "Towards Diverse Device Heterogeneous Federated Learning via Task Arithmetic Knowledge Integration",
+    "japanese_title": "多様なデバイス異種連合学習へのタスク算術知識統合の道",
+    "authors": [
+      "Mahdi Morafah",
+      "Vyacheslav Kungurtsev",
+      "Hojin Chang",
+      "Chen Chen",
+      "Bill Lin"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "NeurIPS 2024",
+    "summary": "- 連合学習はユーザーデータのプライバシーを守りながら共同機械学習を実現\n- 標準的な連合学習は、IoTデバイスから大規模ワークステーションまでの多様なデバイスの異種性に対応できていない\n- TAKFLは、各デバイスプロトタイプからの知識転送を独立したタスクとして扱い、個々の学習能力を保護しながら知識の希薄化を回避\n- TAKFLはCVおよびNLPタスクでの評価で、既存の知識蒸留技術を大幅に上回るSOTA（最先端）結果を達成\n\nこの研究は、多種多様なデバイスの能力差を考慮して連合学習を行うように工夫しているんだね。特に個々のデバイスに応じた知識統合プロセスが興味深いな。TAKFLのコードも公開されてるし、実装しながら理解を深めていきたいよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T05:49:48+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18448",
+    "title": "Hierarchical Federated Learning with Multi-Timescale Gradient Correction",
+    "japanese_title": "マルチタイムスケール勾配補正による階層型連合学習",
+    "authors": [
+      "Wenzhi Fang",
+      "Dong-Jun Han",
+      "Evan Chen",
+      "Shiqiang Wang",
+      "Christopher G. Brinton"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "Accepted to NeurIPS 2024",
+    "summary": "- 従来の連合学習（FL）は中央サーバーとクライアントの星型拓＞ポロジーに焦点を当てるが、現実の分散システムは階層型ア＞ーキテクチャを持つことが多い\n- 階層型連合学習（HFL）は、システム内の複数レベルで集約点＞を利用することでこのギャップを埋める有望な解決策である\n- マルチタイムスケールモデルドリフトに取り組むため、マルチ＞タイムスケール勾配補正（MTGC）方法論を提案\n- 提案手法の収束境界はデータの異質性の程度に依存せず、多レ＞ベルの非同一分布データに対しても安定であることを確認\n\nこの研究って面白そう！複雑な分散システムでも効率的に連合学習ができるとか、未来のAIがもっと賢くなりそうな予感がするよね。コードも公開されてるから、興味がある人は試してみてもいいかも。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T05:10:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18403",
+    "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation",
+    "japanese_title": "SpecCFA: アプリケーション対応のサブパス推論による制御フロー検証/監査の強化",
+    "authors": [
+      "Adam Caulfield",
+      "Liam Tyler",
+      "Ivan De Oliveira Nunes"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- サイバーフィジカルシステムのエッジで、マイクロコントローラユニット（MCU）は安全性を担保するが、コスト制約で一般的なセキュリティ機構は除外\n- 制御フロー検証（CFA）により、検証者がMCUのランタイム行動を遠隔評価し、制御フロー転送の認証トレースを生成\n- 既存のCFAの制限は、CFLogの保存と送信コストの高さであり、静的最適化ではプログラム特有の最適化をサポートしない\n- SpecCFAは、動的サブパス推論によりCFAを最適化しつつ、セキュリティ保証を維持し、リソース制約のあるMCUのストレージ/パフォーマンスコストを大幅に削減\n\nこの研究、興味深い！未来のMCUセキュリティがますます良くなる予感がするね。できることが増えそうで楽しみだな～。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-09-27T02:39:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18374",
+    "title": "Adaptive Learning of the Latent Space of Wasserstein Generative Adversarial Networks",
+    "japanese_title": "ワッサースタイン生成敵対ネットワークの潜在空間の適応学習",
+    "authors": [
+      "Yixuan Qiu",
+      "Qingyi Gao",
+      "Xiao Wang"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "comment": "",
+    "summary": "- GANやVAEなどの潜在変数に基づく生成モデルは多くの分野で注目される\n- 自然画像などのデータは通常、低次元の多様体に存在し、潜在次元の選択が重要\n- 新しい潜在ワッサースタインGAN (LWGAN) フレームワークを提案、データ多様体の固有次元を適応的に学習\n- 理論的に、学習された符号化分布の固有次元がデータ多様体の次元に等しいことを証明し、一般化誤差の上限を提供\n\nLWGANって名前からしてかっこいいし、データの本質をちゃんと捉えるのがすごいね！これからの画像生成の精度がもっと上がりそう♡",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-09-27T01:25:22+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18356",
+    "title": "FedDCL: a federated data collaboration learning as a hybrid-type privacy-preserving framework based on federated learning and data collaboration",
+    "japanese_title": "FedDCL: 連合学習とデータコラボレーションを基にしたハイブリッド型プライバシー保護フレームワークとしての連合データコラボレーション学習",
+    "authors": [
+      "Akira Imakura",
+      "Tetsuya Sakurai"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "18 pages, 6 figures, 3 tables",
+    "summary": "- 連合学習は複数機関のデータを統合解析できるが、連続通信が困難な場合に課題がある\n- FedDCLは連合学習とデータコラボレーション分析を組み合わせ、通信問題を解決\n- 各機関は次元削減済みの中間表現を共有し、サーバーでコラボレーション表現に変換\n- FedDCLは機関間の反復通信を不要とし、連続通信が困難な状況でも実装可能\n\n新しい通信不要の学習方法に挑戦しているのが面白い！データ集約型の未来に向けた前進って感じだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-09-27T00:22:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.18222",
+    "title": "Trustworthy AI: Securing Sensitive Data in Large Language Models",
+    "japanese_title": "信頼できるAI: 大規模言語モデルにおける機密データのセキュリティ",
+    "authors": [
+      "Georgios Feretzakis",
+      "Vassilios S. Verykios"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "40 pages, 1 figure",
+    "summary": "- LLMsはNLPを革新し、テキスト生成と理解を強化したが、機密領域でのプライバシーとデータセキュリティの懸念がある\n- 提案されたフレームワークは、ユーザートラストプロファイリング、情報感度検出、適応出力制御の3つの主要コンポーネントを統合\n- RBAC、ABAC、NER、コンテキスト分析、差分プライバシーなどの技術を活用し、ユーザーの信頼レベルに基づいて機密情報の開示を適切に制御\n- データの有用性とプライバシーのバランスを重視し、高リスク環境でのLLMの安全な展開を目指している\n\nこの論文、すごく現代的で興味深いね！今後いろんな分野でテストされるってところが特にワクワクする！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-09-26T19:02:33+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2409.18118",
     "title": "Slowly Scaling Per-Record Differential Privacy",
     "japanese_title": "ゆっくりとスケーリングするレコードごとの差分プライバシー",

@@ -1,5 +1,449 @@
 [
   {
+    "url": "http://arxiv.org/abs/2410.05243",
+    "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+    "japanese_title": "人間のようにデジタル世界をナビゲートする: GUIエージェントのためのユニバーサルビジュアルグラウンディング",
+    "authors": [
+      "Boyu Gou",
+      "Ruohan Wang",
+      "Boyuan Zheng",
+      "Yanan Xie",
+      "Cheng Chang",
+      "Yiheng Shu",
+      "Huan Sun",
+      "Yu Su"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 現在のGUIエージェントはテキストベースで動作し、ノイズや不完全性が問題である\n- 人間らしいビジュアル操作を行うエージェントにより、計算の効率性が向上\n- 新たなデータセットを用いてUGroundモデルを開発し視覚的なグラウンディングを強化\n- UGroundは既存のモデルを上回り、視覚のみで高性能な結果を示す\n\n人間のようにビジュアルでGUIを操作できるようになるなんてすごく面白そう！これが普及したら、どんな新しいアプリ体験が生まれるか今からワクワクするよね。UGroundの効果がどんどん実社会に活用される未来が楽しみ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-07T17:47:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.05095",
+    "title": "Towards a Modern and Lightweight Rendering Engine for Dynamic Robotic Simulations",
+    "japanese_title": "動的ロボットシミュレーションのためのモダンで軽量なレンダリングエンジンの構築に向けて",
+    "authors": [
+      "Christopher John Allison",
+      "Haoying Zhou",
+      "Adnan Munawar",
+      "Peter Kazanzides",
+      "Juan Antonio Barragan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.GR",
+      "cs.SE"
+    ],
+    "comment": "8 pages, 8 figures, submitted to the 2024 IEEE International   Conference on Robotic Computing (IRC)",
+    "summary": "- インタラクティブな動的シミュレーターは、新たなロボット制御アルゴリズムの開発を加速する\n- 高精度な視覚化がユーザー訓練や合成データ生成において重要である\n- Vulkan APIをサポートする軽量レンダリングエンジンを提案し、レガシーパイプラインを近代化\n- PBRやアンチエイリアス、レイトレーシングシャドウなどで画質向上を実現\n\n新しいエンジンでロボットシミュレーションをリアルに感じられるってすごい！これを使った新しいアルゴリズム開発がワクワクだね。どんな未来のロボットシステムが示されるのか楽しみだよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-07T14:50:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.05057",
+    "title": "SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification",
+    "japanese_title": "SELECT: 画像分類のためのデータキュレーション戦略に関する大規模ベンチマーク",
+    "authors": [
+      "Benjamin Feuer",
+      "Jiawei Xu",
+      "Niv Cohen",
+      "Patrick Yubeaton",
+      "Govind Mittal",
+      "Chinmay Hegde"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "NeurIPS 2024, Datasets and Benchmarks Track",
+    "summary": "- データキュレーションは効率的な学習を支えるデータセットの収集と組織化の問題\n- SELECTは画像分類向けのデータキュレーション戦略の大規模ベンチマークを提供\n- ImageNet++データセットを作成し、異なる戦略で新たに5つのトレーニングデータシフトを導入\n- 最近の合成データ生成やCLIP埋め込みによる比較で、元のImageNet-1K戦略が基準であると判明\n\n画像分類のためのデータ収集を見直すこの研究、最高に斬新な発見がありそう！特にImageNetと競争できる新しい手法の分析が、未来の技術革新を引き起こすかもね。どんなスタンダードが新たに生まれるのか、楽しみすぎる～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-07T14:14:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.05020",
+    "title": "FRIDA: Free-Rider Detection using Privacy Attacks",
+    "japanese_title": "FRIDA: プライバシー攻撃を用いたフリーライダー検出",
+    "authors": [
+      "Pol G. Recasens",
+      "Ádám Horváth",
+      "Alberto Gutierrez-Torre",
+      "Jordi Torres",
+      "Josep Ll. Berral",
+      "Balázs Pejó"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は複数の参加者でモデルを共同訓練するが、フリーライダーの存在が問題\n- フリーライダーは学習プロセスの妥当性を損ない、モデルの収束を遅らせ、コスト増加を招く\n- FRIDAはプライバシー攻撃を使い、参加者のデータセットからフリーライダーを直接検出\n- FRIDAは最新の手法より効果的で、特にデータが非独立同分布（非IID）の場合に優位性を示す\n\nこれって、なんかすごくない？プライバシー攻撃を逆手に取って、みんなで守る側の発想を変えるんだって！技術的に新しいチャレンジをしてるから、これからも注目したいな！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-07T13:20:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04889",
+    "title": "D-PoSE: Depth as an Intermediate Representation for 3D Human Pose and Shape Estimation",
+    "japanese_title": "D-PoSE: 3D人体姿勢と形状推定のための中間表現としての深度",
+    "authors": [
+      "Nikolaos Vasilikopoulos",
+      "Drosakis Drosakis",
+      "Antonis Argyros"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- D-PoSEはRGB画像から3D人体姿勢と形状を推定する一段階法を提案\n- 深度マップを中間表現として使用し、合成データでのトレーニングを実施\n- 軽量設計とCNNバックボーンで、大規模モデルを上回る性能を実現\n- 実世界のベンチマークデータセットで最先端の性能を達成\n\nD-PoSEってかなり面白そう！軽量な設計なのに深度マップをうまく活用してすごい精度出してるんだね。実世界でも通用するその手法、試してみたいな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-07T10:17:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04840",
+    "title": "Strong Model Collapse",
+    "japanese_title": "強いモデル崩壊",
+    "authors": [
+      "Elvis Dohmatob",
+      "Yunzhen Feng",
+      "Julia Kempe"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 大規模ニューラルネットワークのスケーリング法におけるモデル崩壊現象を発見\n- 合成データの少量でもモデル崩壊が発生し、データセット拡大は性能向上に寄与しない\n- モデルサイズの増加がモデル崩壊を悪化させるか抑制するかを調査\n- 理論と実験により、特定条件下で大きなモデルが崩壊を軽減する可能性を示す\n\nモデル崩壊って怖いね！でもデータを増やす以外にも工夫が必要なんだね。大きなモデルが逆に崩壊を軽減するかもって面白い発見！だから将来のAI開発には新しい視点が必要かもね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-07T08:54:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04810",
+    "title": "FedBiP: Heterogeneous One-Shot Federated Learning with Personalized Latent Diffusion Models",
+    "japanese_title": "FedBiP: 個別化潜象拡散モデルを用いた異質ワンショット連合学習",
+    "authors": [
+      "Haokun Chen",
+      "Hang Li",
+      "Yao Zhang",
+      "Gengyuan Zhang",
+      "Jinhe Bi",
+      "Philip Torr",
+      "Jindong Gu",
+      "Denis Krompass",
+      "Volker Tresp"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.DC",
+      "cs.MM"
+    ],
+    "comment": "",
+    "summary": "- ワンショット連合学習（OSFL）は通信費を削減しプライバシーを保護する手法\n- 従来のOSFLはクライアントデータの異質性と少量のデータが課題\n- プレトレーニングされた潜象拡散モデル（LDM）は高品質画像生成に優れるが、OSFLには最適でない\n- FedBiPはLDMを個別化し、データ分布を考慮した画像を合成して性能を向上\n\nおもしろそうな論文だね！医療画像とか珍しいデータでもしっかり対応できるのってすごいな〜。プライバシーも守りつつ効果的に連合学習を実現するなんて、未来の技術って感じでワクワクする〜！",
+    "topics": [
+      "連合学習",
+      "合成データ"
+    ],
+    "published": "2024-10-07T07:45:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04805",
+    "title": "HF-NTT: Hazard-Free Dataflow Accelerator for Number Theoretic Transform",
+    "japanese_title": "HF-NTT: 数論変換のためのハザードフリーデータフローアクセラレータ",
+    "authors": [
+      "Xiangchen Meng",
+      "Zijun Jiang",
+      "Yangdi Lyu"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 多ビット係数を持つ多項式の計算効率がFHEの実装の課題である\n- HF-NTTは異なる多項式の次数やモジュールに対応する効率的なアクセラレータを提供\n- ビットリバーサル不要のデータ移動戦略でハザードを解消し、クロックサイクルを削減\n- Xilinx Virtex-7 FPGAでの評価で他の設計に比べてATPと遅延が大幅に改善される\n\nこの研究、未来の準同型暗号を加速させそうでワクワクするね！データ移動の工夫でリソース効率も上がるなんて、すごい構造じゃない？",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-10-07T07:31:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04661",
+    "title": "Federated Learning Nodes Can Reconstruct Peers' Image Data",
+    "japanese_title": "連合学習ノードが他のノードの画像データを再構築できる",
+    "authors": [
+      "Ethan Wilson",
+      "Kai Yue",
+      "Chau-Wai Wong",
+      "Huaiyu Dai"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "12 pages including references, 12 figures",
+    "summary": "- 連合学習はプライバシーを保ちつつノード間でモデルを訓練する技術だが、データのプライバシーは保証されない\n- 誠実だが好奇心旺盛なノードが、他のノードの画像データを再構築できることを示す\n- 単一のクライアントが連続した更新情報を利用し、他のクライアントの画像を密かに再構築できる\n- 拡散モデルを使って再構築画像の質を高め、セマンティックな情報漏洩のリスクを強調\n\n連合学習って便利そうだったけど、ちゃんと考えないと他人のデータを覗かれちゃうんだね！もっと安全な仕組みができたら、いろんな分野で活用できそうでワクワク！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-07T00:18:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04560",
+    "title": "GAMformer: In-Context Learning for Generalized Additive Models",
+    "japanese_title": "GAMformer: 一般化加法モデルのためのコンテキスト学習",
+    "authors": [
+      "Andreas Mueller",
+      "Julien Siems",
+      "Harsha Nori",
+      "David Salinas",
+      "Arber Zela",
+      "Rich Caruana",
+      "Frank Hutter"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "20 pages, 12 figures",
+    "summary": "- 一般化加法モデル（GAM）の通常の学習法とは異なる、コンテキスト学習を使った手法を紹介\n- GAMformerは、反復法ではなく、単一の情報伝達で形状関数を推定\n- この方法は、合成データで訓練しながらも実際のデータで優れた適応力を示す\n- 実験で、他の主要なGAMと同等の性能を発揮し、解釈性の高い形状関数を生成\n\nGAMformerって名前からしてすごく強そう！しかも、今までの反復計算なしでやっちゃうなんて、まさに新時代だね。どんなデータでも柔軟に対応できそうで、ちょっとワクワクしちゃう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-06T17:28:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04543",
+    "title": "Pullback Flow Matching on Data Manifolds",
+    "japanese_title": "データ多様体上でのプルバックフローマッチング",
+    "authors": [
+      "Friso de Kruiff",
+      "Erik Bekkers",
+      "Ozan Öktem",
+      "Carola-Bibiane Schönlieb",
+      "Willem Diepeveen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.DG",
+      "q-bio.BM"
+    ],
+    "comment": "",
+    "summary": "- 新しいフレームワークPFMを提案し、データ多様体上での生成モデルを実現\n- PFMはプルバック幾何学と等角学習を活用し、多様体の幾何を保持\n- ネットワークODEを用いて等角学習を強化し、スケーラブルな訓練目標を提案\n- 合成データやタンパク質動態などで効果を実証し、薬物発見や材料科学に貢献\n\n新しい多様体生成モデルPFMって面白そう！このアプローチで、薬や素材の新しい発見に繋がるなんてワクワクするね！新しい技術でどんな未来が切り開かれるのか、期待しちゃう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-06T16:41:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04453",
+    "title": "CONFINE: Preserving Data Secrecy in Decentralized Process Mining",
+    "japanese_title": "CONFINE: 分散型プロセスマイニングにおけるデータ秘密保持",
+    "authors": [
+      "Valerio Goretti",
+      "Davide Basile",
+      "Luca Barbaro",
+      "Claudio Di Ciccio"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 組織間の協力はコスト削減や技術進化といった多くの機会をもたらす\n- プロセスマイニングはビジネス理解を深めるが、データの機密性への懸念が大きい\n- CONFINEは秘密保持しつつ複数のデータ提供者のイベントデータを処理\n- 信頼実行環境で機能し、関与者間と外部への情報漏洩を防ぐ分散型アーキテクチャ\n\nCONFINEのアプローチを使ったら、データの機密性を守りながら他社とも協力できそう！分散型アーキテクチャを使っているって、安全面で安心だね。きっとこれからもビジネスの世界で重要になってくるよね！",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-10-06T11:38:30+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04298",
+    "title": "Test-Time Adaptation for Keypoint-Based Spacecraft Pose Estimation Based on Predicted-View Synthesis",
+    "japanese_title": "予測ビュー合成に基づくキー・ポイント型宇宙機姿勢推定のテスト時適応",
+    "authors": [
+      "Juan Ignacio Bravo Pérez-Villar",
+      "Álvaro García-Martín",
+      "Jesús Bescós",
+      "Juan C. SanMiguel"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "Preprint",
+    "summary": "- 合成データで訓練された姿勢推定アルゴリズムは、実際の運用データで性能が低下する\n- テスト時適応手法を提案し、接近操作中の画像の時間的冗長性を活用\n- 連続した宇宙機画像から特徴を抽出し、ポーズを推定して再構築したビューを合成\n- 合成ビューと実際のビューを比較し、自己教師あり学習を目的とする\n\n宇宙機の実際の運用データに適応するための新しい手法って感じでおもしろそう！特に、訓練時とテスト時で異なる環境にうまく対応しちゃうところに可能性を感じるよね！🌟",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-05T22:24:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04256",
+    "title": "Implicit to Explicit Entropy Regularization: Benchmarking ViT Fine-tuning under Noisy Labels",
+    "japanese_title": "暗黙から明示的なエントロピーレギュラリゼーションへの移行: ノイズラベル下におけるViTファインチューニングのベンチマーク",
+    "authors": [
+      "Maria Marrium",
+      "Arif Mahmood",
+      "Mohammed Bennamoun"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 大規模データセットの自動アノテーションはノイズラベルを導入し、DNNの学習に悪影響を与える\n- ViTのファインチューニングはノイズラベルに脆弱で、CNNと比較した頑健性を評価した\n- CNN向けに開発されたNLL手法がViTにも同様に効果的かどうかを調査\n- エントロピー正則化が既存の損失関数やNLL手法の頑健性を向上させることが判明\n\nノイズラベルによる悪影響を軽減するために、エントロピーの役割が重要ってことなんだね！データサイエンスの未来に貢献できる研究だし、ViTが普及してきた今、私たちも頑張らなきゃって思った！✨",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-05T18:24:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04144",
+    "title": "ConDa: Fast Federated Unlearning with Contribution Dampening",
+    "japanese_title": "ConDa: 貢献抑制による高速連合アンラーニング",
+    "authors": [
+      "Vikram S Chundawat",
+      "Pushkar Niroula",
+      "Prasanna Dhungana",
+      "Stefan Schoepf",
+      "Murari Mandal",
+      "Alexandra Brintrup"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習では参加者の追加は簡単だが、参加者の削除は難題である\n- ConDaは、不要な情報の寄与を弱体化することで効率的にデータを消去\n- クライアントのデータ再学習や計算負荷なく、プライバシーの確保を実現\n- 非IID環境で、他の方法より100倍以上の速さでアンラーニングが可能\n\nすごい！データの消去ってずっと難しかったけど、こんなに早くて簡単にできちゃうなんて驚きだよね！プライバシーが守られる世界がさらに近づいてるのかもって思うとワクワクするな！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-05T12:45:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04058",
+    "title": "pFedGame -- Decentralized Federated Learning using Game Theory in Dynamic Topology",
+    "japanese_title": " pFedGame -- 動的トポロジーにおけるゲーム理論を用いた分散型連合学習 ",
+    "authors": [
+      "Monik Raj Behera",
+      "Suchetana Chakraborty"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.CR",
+      "cs.GT",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習の課題として、中央集約サーバへの負荷やデータバイアスが存在\n- pFedGameは中央サーバ不要のゲーム理論ベースの手法を提案\n- 動的ネットワークでの消失する勾配と収束の問題を対応\n- pFedGameは異種データで精度70%以上を達成し有望な結果\n\n面白そう！分散型で部分連合学習ができるなんて、なんだか未来を感じるね。この技術が新しい協力関係を生むかもって思ったよ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-05T06:39:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04037",
+    "title": "Is Score Matching Suitable for Estimating Point Processes?",
+    "japanese_title": "スコアマッチングは点過程の推定に適しているか？",
+    "authors": [
+      "Haoqun Cao",
+      "Zizhuo Meng",
+      "Tianjun Ke",
+      "Feng Zhou"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- スコアマッチング推定量は正規化定数の積分を計算せずに済むため注目される\n- 既存のスコアマッチング推定量は特定の問題にしか適用できず、より一般的な点過程では失敗する\n- 本研究は加重スコアマッチング推定量を点過程に導入し、一貫性と収束速度を理論的に証明\n- 実験結果では合成データでモデルパラメータを正確に推定し、実データでMLEと一致する結果を得る\n\nスコアマッチングの新しい方法が提案されて、実験でも結果が一致するみたい！コードも公開されてるから、自分で試してみるのも楽しそうだね。もっと一般的な点過程にも対応できるようになったら、色んな分野で役立ちそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-05T05:10:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.04002",
+    "title": "Take It Easy: Label-Adaptive Self-Rationalization for Fact Verification and Explanation Generation",
+    "japanese_title": "気楽に考えよう: 事実検証と説明生成のためのラベル適応型自己合理化",
+    "authors": [
+      "Jing Yang",
+      "Anderson Rocha"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "comment": "Paper accepted in the 16th IEEE INTERNATIONAL WORKSHOP ON INFORMATION   FORENSICS AND SECURITY (WIFS) 2024",
+    "summary": "- 自己合理化手法をファクト検証に拡張し、ラベル適応型学習を提案\n- モデルのファインチューニングにより、事実性予測の精度を10%以上向上\n- 合成データを用いて少ないコストで説明注釈を生成しモデルを改良\n- 少数サンプルの合成説明で、完全ファインチューンモデルと同等の性能を実現\n\n面白そうなのは、自動記事検証の精度を上げるだけじゃなくて、コストも削減できちゃうところ！合成データで手軽に学べるなんて未来がワクワクするね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-05T02:19:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.03883",
+    "title": "DiSK: Differentially Private Optimizer with Simplified Kalman Filter for Noise Reduction",
+    "japanese_title": "DiSK: ノイズ低減のためのカマンフィルターを用いた差分プライベート最適化技術",
+    "authors": [
+      "Xinwei Zhang",
+      "Zhiqi Bu",
+      "Borja Balle",
+      "Mingyi Hong",
+      "Meisam Razaviyayn",
+      "Vahab Mirrokni"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーは個人データを保護する枠組みであり、差分プライベート最適化技術が注目されている\n- 既存の技術は大規模なトレーニングで性能が低下する問題があり、それが大量のノイズ注入に起因\n- DiSKという新しいフレームワークを提案し、カマンフィルターを用いてプライベート化された勾配をデノイズ\n- 広範な実験でDiSKが標準のDP最適化手法を超える性能を示し、複数のベンチマークで差をつけた\n\nわー、このDiSKって技術すごいね！大規模データでもプライバシーを保ちつつ性能アップできるなんて、今後のAIの発展に大きな影響を与えそう♪",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-04T19:30:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.03855",
+    "title": "A Survey on Group Fairness in Federated Learning: Challenges, Taxonomy of Solutions and Directions for Future Research",
+    "japanese_title": "連合学習におけるグループ公正性の調査：課題、解決策の分類と今後の研究の方向性",
+    "authors": [
+      "Teresa Salazar",
+      "Helder Araújo",
+      "Alberto Cano",
+      "Pedro Henriques Abreu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CY",
+      "68T01",
+      "I.2.6; I.5.1; K.4.1"
+    ],
+    "comment": "",
+    "summary": "- 機械学習におけるグループ公正性は重要で、連合学習が異なるデータの偏りを増幅させる可能性がある。\n- 連合学習とグループ公正性の交差点に関する47の研究があるが、包括的な調査はなかった。\n- 本研究は新しい分類法を用いて関連するアプローチを整理し、データ分割、位置、戦略による評価を行う。\n- 将来の研究に必要な領域を強調し、連合システムにおけるグループ公正性の達成の複雑さに対応する方法を提案する。\n\nこの研究面白そうだよね！連合学習でのグループ公正性の課題をバッチリ解決できたら、多様なデータを持つサービスにとって革命的になりそう。これからの研究で、もっと公正な未来が開けるといいな！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-04T18:39:28+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2410.03653",
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs",
     "japanese_title": "Dorami: RISC-V TEEにおける特権分離セキュリティモニタ",
@@ -505,6 +949,26 @@
       "合成データ"
     ],
     "published": "2024-10-03T22:29:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.03790",
+    "title": "Accelerating Deep Learning with Fixed Time Budget",
+    "japanese_title": "固定時間予算での深層学習の加速",
+    "authors": [
+      "Muhammad Asif Khan",
+      "Ridha Hamila",
+      "Hamid Menouar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 深層学習は大量のデータと大規模モデルに依存し、学習時間が延びる傾向がある。\n- 実用的な応用分野では限られた時間予算が求められ、効率的な学習法が必要。\n- この論文では任意の深層学習モデルを固定時間内で訓練する手法を提案。\n- 提案手法は分類と回帰タスクで一貫した学習性能の向上を示す。\n\nこの論文、時間が限られてるときにどうやって効果的にモデルを訓練するかのアイデアがすごくヒントになるかも。時間がないときの効率的な学習ってまるでテスト前の自分たちみたいだよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-03T21:18:04+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2410.02912",

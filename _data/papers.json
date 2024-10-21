@@ -1,5 +1,357 @@
 [
   {
+    "url": "http://arxiv.org/abs/2410.14602",
+    "title": "How Does Data Diversity Shape the Weight Landscape of Neural Networks?",
+    "japanese_title": "データ多様性がニューラルネットワークの重みの風景にどのように影響するか",
+    "authors": [
+      "Yang Ba",
+      "Michelle V. Mancenido",
+      "Rong Pan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 過学習を防ぎつつ精度向上のためにデータ拡張と正則化法を活用する\n- 多様なデータは、ドロップアウトと同様に重みの風景を変化させる\n- 生成モデルによる合成データは実データの多様性を増し性能向上をもたらす\n- 無分布テストにおいて合成データが特に優れた効果を示すことを実証\n\nデータ多様性の重要性が改めて分かった！合成データの力で新たな発見が生まれそう！どんな場面でも使える技術になりそうでワクワクするね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T16:57:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14587",
+    "title": "Neuro-Symbolic Traders: Assessing the Wisdom of AI Crowds in Markets",
+    "japanese_title": "神経シンボリックトレーダー: 市場におけるAIクラウドの知恵の評価",
+    "authors": [
+      "Namid R. Stillman",
+      "Rory Baggott"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-fin.CP"
+    ],
+    "comment": "8 pages, 4 figures, ACM format",
+    "summary": "- ディープジェネレーティブモデルは金融分析に利用され始めているが、市場への影響は不明\n- 仮想市場で売買判断する「神経シンボリックトレーダー」を開発し、その市場ダイナミクスを探る\n- モデルは視覚言語を利用し、資産の基本価値を確立するための確率微分方程式を構築\n- トレーダーは仮想市場環境で実験され、価格抑制など市場安定性へのリスクを浮き彫りに\n\nAIが金融市場にどう影響するかって、すごく気になるテーマだよね。この研究って、未来の市場を予測する手がかりになるかもしれないし、そのリスクもちゃんと考慮してておもしろそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T16:37:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14567",
+    "title": "RAG-ConfusionQA: A Benchmark for Evaluating LLMs on Confusing Questions",
+    "japanese_title": "RAG-ConfusionQA: 混乱する質問に対するLLMの評価ベンチマーク",
+    "authors": [
+      "Zhiyuan Peng",
+      "Jinming Nian",
+      "Alexandre Evfimievski",
+      "Yi Fang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "comment": "under review",
+    "summary": "- 対話型AIエージェントはRAGを用いて文書に基づく回答を生成\n- 多くの自然な質問は回答が困難、25%が誤った前提を持ち、50%以上が曖昧\n- 高品質データが必要で、新たに文書から多様な混乱質問を生成する方法を提案\n- 複数のLLMをRAGエージェントとして評価し、精度を測定、ベンチマークデータセットを公開\n\nこれって面白いね！多くの質問が答えにくいっていう事実にかかわらず、AIがどううまく対処できるかを見るのはすごく画期的だと思う。これからのAIの成長がさらに楽しみだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T16:11:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14390",
+    "title": "Personalizing Low-Rank Bayesian Neural Networks Via Federated Learning",
+    "japanese_title": "連合学習による低ランクベイズニューラルネットワークの個別化",
+    "authors": [
+      "Boning Zhang",
+      "Dongzhu Liu",
+      "Osvaldo Simeone",
+      "Guanchu Wang",
+      "Dimitrios Pezaros",
+      "Guangxu Zhu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- モデルが現実世界での意思決定に不可欠であり、予測に信頼性のある信頼度を持たせる必要がある\n- 個別化連合学習では不確実性の定量化が重要だが、ローカルデータが少なく最適なモデルパラメータを決定しにくい\n- 提案手法LR-BPFLは、グローバルな決定論的モデルと低ランクなベイズ補正を学習し、クライアントごとの不確実性に適応\n- LR-BPFLは様々なデータセットで評価され、キャリブレーションや精度、計算とメモリの要件で利点を示す\n\nこの論文は、パーソナライズされたモデルをよりスマートに作る方法を提案しているね！クライアントごとに適応するから、多様なデータに対応できてなんかワクワクするよね。いつか私たちも使って自分専用のモデルを作ってみたいな～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-18T11:50:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14386",
+    "title": "Investigating the Capabilities of Deep Learning for Processing and Interpreting One-Shot Multi-offset GPR Data: A Numerical Case Study for Lunar and Martian Environments",
+    "japanese_title": "ディープラーニングによるワンショット・マルチオフセットGPRデータ解析の可能性：月・火星環境を対象とした数値ケーススタディ",
+    "authors": [
+      "Iraklis Giannakis",
+      "Craig Warren",
+      "Antonios Giannopoulos",
+      "Georgios Leontidis",
+      "Yan Su",
+      "Feng Zhou",
+      "Javier Martin-Torres",
+      "Nectaria Diamanti"
+    ],
+    "categories": [
+      "physics.geo-ph",
+      "astro-ph.EP",
+      "astro-ph.IM",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 地中レーダー（GPR）は月や火星の地質データ取得で利用され、特有の課題を抱える。\n- 従来の処理手法は手動調整が必要で曖昧な結果を生むが、自動処理が求められている。\n- ディープラーニングを用いた研究で惑星表層の誘電体分布再構築とデータ補填を検討。\n- 合成データは現実的かつ挑戦的に設定され、今後の研究促進を目指し公開された。\n\nディープラーニングで惑星データを解析ってなんだか未来っぽい！GPRデータの質を向上させて、未知の地底世界ももっと詳しく探索できるようになるかもね。楽しみだな～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T11:38:29+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14251",
+    "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+    "japanese_title": "連合学習を通じてLLMのための後処理データを合成するための多エージェントシミュレーション",
+    "authors": [
+      "Shuo Tang",
+      "Xianghe Pang",
+      "Zexi Liu",
+      "Bohan Tang",
+      "Rui Ye",
+      "Xiaowen Dong",
+      "Yanfeng Wang",
+      "Siheng Chen"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデル（LLMs）の後処理には、人間の指示に従えるようにすることが不可欠\n- LLMsで人間社会をシミュレートし、多エージェントシミュレーションで多様なテキストシナリオを生成\n- MATRIXというシミュレーターを提案、現実的かつスケーラブルなシナリオを作成可能\n- 少ないデータでMetaのモデルを超える性能を示し、MATRIX-Genが生成データの品質を向上\n\nMATRIXって面白そうじゃない？少ないデータで大きな成果を上げているのがすごいよね。しかも、現実に近いシナリオを生成できるのか、どんな活用ができるのかなってワクワクする～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T08:01:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14212",
+    "title": "Comparative Evaluation of Clustered Federated Learning Method",
+    "japanese_title": "クラスタ化連合学習法の比較評価",
+    "authors": [
+      "Michael Ben Ali",
+      "Omar El-Rifai",
+      "Imen Megdiche",
+      "André Peninou",
+      "Olivier Teste"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は分散学習の一手法であり、データプライバシーを保護する\n- 非IIDデータ分布がFLプロトコルの参加者間で生じるのが課題\n- クラスター化連合学習（CFL）は参加者を均質な分布に分ける手法\n- 提案するデータ異質性の分類に基づき、2つのCFLアルゴリズムの性能を評価\n\nクラスター化連合学習って、学習グループを使い分ける工夫で効率が上がるみたい！データがバラバラでもやり方次第でいい結果を出せるんだね。将来もっと使いやすくなると良いなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-18T07:01:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14208",
+    "title": "Montessori-Instruct: Generate Influential Training Data Tailored for Student Learning",
+    "japanese_title": "Montessori-Instruct: 学習者に合わせた影響力のある訓練データ生成",
+    "authors": [
+      "Xiaochuan Li",
+      "Zichun Yu",
+      "Chenyan Xiong"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "Codes and data are open-sourced at   https://github.com/cxcscmu/Montessori-Instruct",
+    "summary": "- 合成データは学習モデル訓練に使われるが、ノイズや誤解を招く信号も含む。\n- Montessori-Instructは、学習プロセスに合わせたデータ合成フレームワークを提案。\n- ローカルデータの影響を用い学習者の嗜好を測定し、DPOでモデルを最適化。\n- 既存手法よりも大幅に性能が向上し、強力なモデルの合成データにも勝る。\n\nこの論文、すごく面白そう！AIがどんどん賢くなってく感じ。教育の未来にも応用できそうだし、可能性は無限大だね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T06:50:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14121",
+    "title": "FedMSE: Federated learning for IoT network intrusion detection",
+    "japanese_title": "FedMSE: IoTネットワーク侵入検知のための連合学習",
+    "authors": [
+      "Van Tuan Nguyen",
+      "Razvan Beuran"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- IoTの拡大でサイバー攻撃のリスク増加、従来の集中型学習ではプライバシーが課題\n- 半教師あり連合学習により、異常検知を強化するSAE-CENモデルを提案\n- MSEAvgアルゴリズムで、正確なローカルモデルを重視しグローバル性能を向上\n- 実験では、異なるIoTネットワークでの検出精度と学習コストを改善し、堅牢性を示す\n\n連合学習を使ってIoTの侵入検知を効率化するって、すごく未来的だよね！半教師ありってことはちょっとギリギリ知らないデータでもいけちゃうのかな？ワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-18T02:23:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14115",
+    "title": "A Communication and Computation Efficient Fully First-order Method for Decentralized Bilevel Optimization",
+    "japanese_title": "通信と計算が効率的な分散双レベル最適化のための完全一階手法",
+    "authors": [
+      "Min Wen",
+      "Chengchang Liu",
+      "Ahmed Abdelmoniem",
+      "Yipeng Zhou",
+      "Yuedong Xu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "math.OC"
+    ],
+    "comment": "19 Pages",
+    "summary": "- 双レベル最適化は分散学習であまり探求されていない\n- 従来の手法は計算と通信の負荷が高い二階情報を利用\n- この研究は一階情報のみを使用し効率的な方法を提案\n- 提案手法は様々なデータ分布で優れた性能を実証\n\nこの論文、分散環境でも双レベル最適化を一階情報で進めるなんてすごいね！特に通信の効率化が注目ポイントだし、どんな場面で応用されるのか気になるよ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-18T02:00:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14075",
+    "title": "FedPAE: Peer-Adaptive Ensemble Learning for Asynchronous and Model-Heterogeneous Federated Learning",
+    "japanese_title": "FedPAE: 非同期かつモデルが異なる連合学習のためのピア適応型アンサンブル学習",
+    "authors": [
+      "Brianna Mueller",
+      "W. Nick Street",
+      "Stephen Baek",
+      "Qihang Lin",
+      "Jingyi Yang",
+      "Yankun Huang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "10 pages, 5 figures",
+    "summary": "- 連合学習は複数クライアントが共同でモデルを訓練しつつデータプライバシーを守る\n- 既存の個別化連合学習はスケーラビリティや通信問題があり、モデル共通の構造を必要とする\n- FedPAEは完全に分散化された方法でモデルの異質性と非同期学習をサポートする\n- FedPAEは既存の最先端アルゴリズムを上回り、多様なクライアント能力と統計的異質性に強い\n\n非同期でモデルが異なるクライアント同士が連携できるなんてすごいね！完全に分散化されているから、将来のプライバシー技術の可能性が広がりそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-17T22:47:19+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14046",
+    "title": "Tensor Decomposition with Unaligned Observations",
+    "japanese_title": "アライメントしていない観測データを用いたテンソル分解",
+    "authors": [
+      "Runshi Tang",
+      "Tamara Kolda",
+      "Anru R. Zhang"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "cs.NA",
+      "math.NA",
+      "stat.CO",
+      "stat.ME"
+    ],
+    "comment": "",
+    "summary": "- アライメントしていない観測のテンソル分解を提案し、RKHSを使って表現している\n- バイナリ、整数、正の値など様々なデータ型に対応した多用途な損失関数を導入\n- 最適化アルゴリズムと確率的勾配法で計算効率向上を図る\n- 合成データと幼児のヒト微生物データセットを用いて手法の有効性を示す\n\nテンソル分解の手法って面白そう！特に様々なデータ型に対応した損失関数がどんな風に役立つのか見てみたいかも。それに、幼児の微生物データを使っているのがユニークで楽しいよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-17T21:39:18+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14035",
+    "title": "Optimal Communication and Key Rate Region for Hierarchical Secure Aggregation with User Collusion",
+    "japanese_title": "階層構造のセキュア集約におけるユーザー共謀に対する最適な通信と鍵レート領域",
+    "authors": [
+      "Xiang Zhang",
+      "Kai Wan",
+      "Hua Sun",
+      "Shiqiang Wang",
+      "Mingyue Ji",
+      "Giuseppe Caire"
+    ],
+    "categories": [
+      "cs.IT",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 複数のユーザー入力を安全に集約サーバにアップロードするのがセキュア集約の目的\n- 連合学習などの分散学習で、暗号技術を使いサーバが入力以上の情報を得られないようにする\n- 階層型ネットワークでのセキュア集約における通信の効率と鍵生成のトレードオフを解析\n- 集約サーバと中継の両方がユーザーの入力を知ることなく、希望する集合を学ぶことが課題\n\n階層的なネットワーク構造の中で、セキュアな集約をどう実現するかにフォーカスしているね。未来の分散型AIシステムのプライバシー問題を考える上で大切な役割を持ちそうだね。テクノロジーが進化する中で、プライバシーを守る新しい方法の模索が面白いよね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-17T21:17:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14023",
+    "title": "Identifying Privacy Personas",
+    "japanese_title": "プライバシー・ペルソナの特定",
+    "authors": [
+      "Olena Hrynenko",
+      "Andrea Cavallaro"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CY"
+    ],
+    "comment": "",
+    "summary": "- プライバシー・ペルソナは、ユーザーの知識、行動、自己効力感、プライバシー保護意識の違いを表す\n- 現行のペルソナは、制御レベルの認識やPET利用動機で異なる人々を一括りにしている\n- 新しい8つのペルソナを提案し、教育的な質問票への回答を用いて分析\n- 提案したペルソナは統計的に有意差があり、従来よりも詳細かつ包括的な理解を提供する\n\nこの研究ってめちゃ興味深いよね！プライバシー意識って人それぞれ違うから、こうやって詳しく分類していくことで、もっと個々に合ったサポートができるようになるのが良さそう！わたしも自分のペルソナ知りたくなっちゃった！",
+    "topics": [
+      "PETs"
+    ],
+    "published": "2024-10-17T20:49:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.14010",
+    "title": "Conformal Prediction for Federated Graph Neural Networks with Missing Neighbor Information",
+    "japanese_title": "連合グラフニューラルネットワークに対する近傍情報欠損時の適合予測",
+    "authors": [
+      "Ömer Faruk Akgül",
+      "Rajgopal Kannan",
+      "Viktor Prasanna"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- グラフデータセットの拡大と連合学習フレームワークでの分散的な部分グラフ管理の重要性\n- 近傍情報の欠損が安全性に影響を与えるため、モデルの不確実性が課題\n- 適合予測（CP）が連合グラフ学習にも適用可能であることを提案\n- 変分オートエンコーダを用いて欠損データを再構築し、予測セットを小さくしつつ保証を維持\n\nグラフニューラルネットワークの連合学習という未来的なコンセプトが面白い！近傍情報が欠けているとき、変分オートエンコーダで解決するアプローチが斬新だね。保証付きの小さい予測セットが実現できるなんて、データが多様化した現代にピッタリかも！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-17T20:22:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.13976",
+    "title": "Debiasing Large Vision-Language Models by Ablating Protected Attribute Representations",
+    "japanese_title": "大規模視覚言語モデルのバイアス除去: 保護属性表現の削除による手法",
+    "authors": [
+      "Neale Ratzlaff",
+      "Matthew Lyle Olson",
+      "Musashi Hinck",
+      "Shao-Yen Tseng",
+      "Vasudev Lal",
+      "Phillip Howard"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "comment": "NeurIPS workshop on SafeGenAI, 10 pages, 2 figures",
+    "summary": "- 大規模視覚言語モデルは社会的バイアスの影響を受け、画像に対する応答に偏りを生じさせることがある。\n- 本研究では、テキスト生成中にバイアス属性を削除し保護属性に関するテキストの生成を回避する新しいフレームワークを提案。\n- 提案手法はトレーニングを必要とせず、数千のバイアス出力を用いるだけで実現可能である。\n- バイアス除去後も、実データでのキャプション生成性能を維持しつつ、モデルの精度を保つことができると実験で示された。\n\nこの論文、大規模モデルのバイアスを取り除きながら精度を落とさないってすごくない？合成データを活用することで、実データへの応用もしやすいからもっと色んなところに役立ちそうだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-17T19:02:31+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2410.13753",
     "title": "DPFedBank: Crafting a Privacy-Preserving Federated Learning Framework for Financial Institutions with Policy Pillars",
     "japanese_title": "DPFedBank: 金融機関のためのプライバシー保護型連合学習フレームワークの構築と政策の柱",
@@ -809,6 +1161,34 @@
       "合成データ"
     ],
     "published": "2024-10-16T08:43:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.13903",
+    "title": "CoreGuard: Safeguarding Foundational Capabilities of LLMs Against Model Stealing in Edge Deployment",
+    "japanese_title": "CoreGuard: エッジでのモデル盗難に対抗するLLM基盤能力の保護",
+    "authors": [
+      "Qinfeng Li",
+      "Yangfan Xie",
+      "Tianyu Du",
+      "Zhiqiang Shen",
+      "Zhenghan Qin",
+      "Hao Peng",
+      "Xinkui Zhao",
+      "Xianwei Zhu",
+      "Jianwei Yin",
+      "Xuhong Zhang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 専有の大規模言語モデル（LLM）は多様なタスクで優れた一般化能力を持つ\n- エッジデバイスへのLLM展開は効率およびプライバシーの理由で人気がある\n- エッジでのLLMの展開は新たなセキュリティ脅威、基盤能力の盗難につながる\n- CoreGuardを提案、効率的な計算と通信でエッジデバイス上でのモデル保護を実現\n\nエッジデバイスって小型のデバイスでプライバシーを守るためにモデルをそのまま動かすこともできるんだね！CoreGuardがあれば、そのプライバシーも侵されないようにしっかり守ってくれるのかな？なんか未来の話みたいでワクワクするね！",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-10-16T08:14:24+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2410.12316",

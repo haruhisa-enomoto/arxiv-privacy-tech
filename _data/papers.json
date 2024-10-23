@@ -1,5 +1,430 @@
 [
   {
+    "url": "http://arxiv.org/abs/2410.17251",
+    "title": "Altogether: Image Captioning via Re-aligning Alt-text",
+    "japanese_title": "Altogether: Altテキストの再整列による画像キャプション",
+    "authors": [
+      "Hu Xu",
+      "Po-Yao Huang",
+      "Xiaoqing Ellen Tan",
+      "Ching-Feng Yeh",
+      "Jacob Kahn",
+      "Christine Jou",
+      "Gargi Ghosh",
+      "Omer Levy",
+      "Luke Zettlemoyer",
+      "Wen-tau Yih",
+      "Shang-Wen Li",
+      "Saining Xie",
+      "Christoph Feichtenhofer"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "comment": "accepted by EMNLP 2024; MetaCLIPv2",
+    "summary": "- 既存の方法は、画像のキャプションを最初から作成し、既存のAltテキストを無視していた\n- 本研究では、画像に関連するAltテキストを編集・再整列する方法を提案\n- アノテーターがAltテキストを何回も画像に合わせて再整列し、視覚的に豊かなキャプションを作成\n- この方法により、テキストから画像への生成やゼロショット画像分類も改善\n\nAltogetherのアイデア、めっちゃ面白いじゃん！画像キャプションの質をこんな風に上げちゃうなんて、未来のテキスト生成とか画像解析とか、もっともっとすごいことになりそうだね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T17:59:57+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.17106",
+    "title": "Feature Homomorphism -- A Cryptographic Scheme For Data Verification Under Ciphertext-Only Conditions",
+    "japanese_title": "特徴ホモモルフィズム -- 暗号文のみの条件下でのデータ検証のための暗号スキーム",
+    "authors": [
+      "Huang Neng"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "31 pages, 6 figures",
+    "summary": "- プライバシー計算には、暗号化されたデータの検証が重要な課題\n- 特徴ホモモルフィズムを提案し、暗号文のみでデータの整合性を確認可能\n- 平文と暗号文の固有値を比較して、一貫性を直接検証可能\n- 固有値は検索可能暗号で活用され、改ざん耐性や品質追跡を実現\n\n暗号化だけでなく、データの整合性もチェックできるスキームなんてめっちゃ便利！これでプライバシーとデータ利用の両立が実現するかもね。どんな応用例が出てくるか今後が楽しみだね！",
+    "topics": [
+      "準同型暗号",
+      "ゼロ知識証明"
+    ],
+    "published": "2024-10-22T15:30:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.17098",
+    "title": "Masked Differential Privacy",
+    "japanese_title": "マスク化差分プライバシー",
+    "authors": [
+      "David Schneider",
+      "Sina Sajadmanesh",
+      "Vikash Sehwag",
+      "Saquib Sarfraz",
+      "Rainer Stiefelhagen",
+      "Lingjuan Lyu",
+      "Vivek Sharma"
+    ],
+    "categories": [
+      "cs.CV",
+      "68T45",
+      "I.4.m"
+    ],
+    "comment": "",
+    "summary": "- プライバシー保護付きコンピュータビジョンはMLとAIにおいて重要な問題\n- 既存手法では差分プライバシーや匿名化技術を使用し、モデルの有用性が犠牲\n- 提案するマスク化差分プライバシー(MaskDP)は、データの敏感領域を選択的に制御可能\n- 実験で、特に$\\epsilon<1$の条件で標準的手法より良い有用性とプライバシーのトレードオフを実現\n\n新しいプライバシー技術で、データの特定部分だけに差分プライバシーを適用するアイデアはおもしろいね！精度を保ちつつプライバシーも守れるなんて、絶妙なバランスが取れそうで期待しちゃう。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-22T15:22:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.17052",
+    "title": "On the Vulnerability of Text Sanitization",
+    "japanese_title": "テキストサニタイズの脆弱性について",
+    "authors": [
+      "Meng Tong",
+      "Kejiang Chen",
+      "Xiaojian Yuang",
+      "Jiayang Liu",
+      "Weiming Zhang",
+      "Nenghai Yu",
+      "Jie Zhang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- テキストサニタイズは差分プライバシーを用いて敏感なトークンを置換しプライバシーを保護する手法\n- 現在の再構成攻撃は経験的に開発されており、効果を正確に評価するのが難しい\n- 本論文では、理論的に最適な再構成攻撃を実装し、攻撃成功率の限界を導出した\n- 提案する攻撃が、既存の最先端手法に比べて攻撃成功率を46.4%向上させることを示した\n\nテキストの敏感情報を差し替えるテキストサニタイズは、攻撃に対してまだまだ研究の余地があるって感じだね。今後、どんな新しい攻撃や防御手法が出てくるのか、少しワクワクしちゃうな！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-22T14:31:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.17000",
+    "title": "Beyond Yao's Millionaires: Secure Multi-Party Computation of Non-Polynomial Functions",
+    "japanese_title": "ヤオの百万長者問題を超えて：非多項式関数の安全なマルチパーティ計算",
+    "authors": [
+      "Seyed Reza Hoseini Najarkolaei",
+      "Mohammad Mahdi Mojahedian",
+      "Mohammad Reza Aref"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ],
+    "comment": "11 pages, 4 figures",
+    "summary": "- シャミア秘密分散を用いて、秘密の入力を明かさずに$N$個のプライベートな数の最大値を決定するスキームを提案\n- 提案スキームは、計算複雑性が低く、既存の二つの数を比較する方法より効率的である\n- 提案スキームは情報理論的に安全で、最小値、中央値、順位などの非多項式関数の計算も可能\n- フェデレーテッドラーニングを含む様々な応用が考えられ、各パーティが結果の一部を保持する\n\nこの論文は、連合学習に使えそうな秘密計算の進化を感じる！シャミア秘密分散を駆使するところとか、ちょっとワクワクしない？私たちのデータをしっかり守りながら、みんなで賢く学んでいける未来が楽しみだなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-22T13:22:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16973",
+    "title": "Learning Mathematical Rules with Large Language Models",
+    "japanese_title": "大規模言語モデルによる数学的規則の学習",
+    "authors": [
+      "Antoine Gorceix",
+      "Bastien Le Chenadec",
+      "Ahmad Rammal",
+      "Nelson Vadori",
+      "Manuela Veloso"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "4th MATH-AI Workshop at NeurIPS'24",
+    "summary": "- 大規模言語モデルが分配法則や方程式の簡略化などの数学的規則を学習する能力を研究\n- 規則を一般化し、単語問題の文脈で再利用する能力を実証的に分析\n- 合成データ構築のための厳密な方法論を提供し、モデルのファインチューニングを実施\n- 規則の学習や一般化、単語問題での再利用が可能であることを実験で示す\n\n数学的な規則をAIが学習して使いこなせるってすごいね！これからもっと複雑な数学問題もAIが解けるようになるとしたら、勉強の仕方も変わるかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T12:51:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16924",
+    "title": "SleepCoT: A Lightweight Personalized Sleep Health Model via Chain-of-Thought Distillation",
+    "japanese_title": "SleepCoT: 連鎖思考蒸留を用いた軽量なパーソナライズ睡眠健康モデル",
+    "authors": [
+      "Huimin Zheng",
+      "Xiaofeng Xing",
+      "Xiangmin Xu"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連鎖思考蒸留によって小規模モデルが大規模モデルと同等の性能を発揮\n- 問題解決戦略や専門知識を、大規模モデルから小型で効率的なモデルに移植\n- 睡眠健康の個別提案や質問対応、専門知識への回答機能を提供\n- 100のシミュレートされた睡眠レポートと1000の質問を通じて性能を実証\n\nこの研究、すごくユニーク！小さなモデルで大きな成果を出せるなんて、未来の医療がもっと身近に感じられるね。現実世界での応用が進めば、私たちの健康管理もどんどん進化しそうでワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T11:56:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16872",
+    "title": "CK4Gen: A Knowledge Distillation Framework for Generating High-Utility Synthetic Survival Datasets in Healthcare",
+    "japanese_title": "CK4Gen: 医療分野での高有用性合成生存データセット生成のための知識蒸留フレームワーク",
+    "authors": [
+      "Nicholas I-Hsien Kuo",
+      "Blanca Gallego",
+      "Louisa Jorm"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- プライバシー規制が臨床データへのアクセスを制限し、研究と教育が停滞している。\n- 現行の生成モデルは表面的なリアリズムを重視し、医療用途の実用性が低い。\n- CK4GenはCoxPHモデルの知識蒸留を活用して、臨床的特徴を保つ合成データを生成する。\n- CK4Genは異なる臨床条件に対応でき、公開データ生成に適した合成データを提供する。\n\n合成データって面白いよね！CK4Genならプライバシーを守りながら医療研究が進むって最高じゃん！未来の医療研究がもっとスムーズにいくといいなー。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T10:20:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16870",
+    "title": "Federated Causal Inference: Multi-Centric ATE Estimation beyond Meta-Analysis",
+    "japanese_title": "連合因果推論: メタアナリシスを超えた多中心ATE推定",
+    "authors": [
+      "Rémi Khellaf",
+      "Aurélien Bellet",
+      "Julie Josse"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.ST",
+      "stat.TH"
+    ],
+    "comment": "",
+    "summary": "- 連合因果推論が分散データから治療効果を推定する方法として研究\n- ATE推定器を3種比較：メタ分析、単回連合学習、多回連合学習\n- 線形モデルにおけるこれらの推定器の漸近分散をRCTに基づいて導出\n- シナリオに応じた適切な推定器選択のための実践的ガイダンスを提供\n\nこれ、すごいよね！連合学習を使って因果推論を進化させちゃうなんて。RCTの結果を効率的にまとめる方法が増えたら、きっと医療とかでも大活躍だよね。🔍💡✨",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-22T10:19:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16811",
+    "title": "Masked Clinical Modelling: A Framework for Synthetic and Augmented Survival Data Generation",
+    "japanese_title": "マスクされた臨床モデリング: 合成および強化生存データ生成のフレームワーク",
+    "authors": [
+      "Nicholas I-Hsien Kuo",
+      "Blanca Gallego",
+      "Louisa Jorm"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- プライバシー義務で臨床データへのアクセスが制限される問題がある\n- 合成データは安全なデータ共有とモデル開発の解決策となる\n- 合成データの実用性を重視し、Masked Clinical Modelling (MCM) を提案\n- MCMは生存分析で優れた識別と校正を提供し、既存手法を上回る性能を示した\n\n臨床データの合成にMCMを使うって、なんかすごく実用的！データのプライバシーを守りつつも、ちゃんと学べるモデルが作れそうで楽しみだよね。生存分析に強いとか、これからの医療研究に役立ちそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T08:38:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16736",
+    "title": "Forewarned is Forearmed: Leveraging LLMs for Data Synthesis through Failure-Inducing Exploration",
+    "japanese_title": "備えあれば憂いなし: 失敗誘発的探求によるLLMを活用したデータ合成",
+    "authors": [
+      "Qintong Li",
+      "Jiahui Gao",
+      "Sheng Wang",
+      "Renjie Pi",
+      "Xueliang Zhao",
+      "Chuan Wu",
+      "Xin Jiang",
+      "Zhenguo Li",
+      "Lingpeng Kong"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- LLMは多様で高品質なデータでの訓練により優れた成果を出すが、手動設計の依存で限界がある。\n- ReverseGenは自動的に訓練サンプルを生成し、LLMの弱点を暴露するための新たなアプローチ。\n- 提案する技術は、失敗を誘発するクエリを作成し、それを用いて効果的な訓練データを構築。\n- 3つの重要なアプリケーションで評価し、多様かつ効果的なデータを生み出すとともに、他の手法を上回る性能向上を実証。\n\nこのReverseGenって、失敗から学ぶっていう面白いアプローチだよね！しかも、モデルの性能をしっかり改善できるみたいで、未来のAIがもっと賢くなる予感がするよ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T06:43:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16713",
+    "title": "Collapse or Thrive? Perils and Promises of Synthetic Data in a Self-Generating World",
+    "japanese_title": "崩壊するか繁栄するか？自己生成する世界における合成データの危険と約束",
+    "authors": [
+      "Joshua Kazdan",
+      "Rylan Schaeffer",
+      "Apratim Dey",
+      "Matthias Gerstgrasser",
+      "Rafael Rafailov",
+      "David L. Donoho",
+      "Sanmi Koyejo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- AI生成コンテンツが多い中、モデルが合成データのみで訓練されると劣化するリスクがある\n- 実データと合成データを蓄積し続ける方法で崩壊を回避できる可能性を示す\n- 固定された計算資源での妥協シナリオでは、テスト損失が蓄積シナリオよりも大きくなるが収束する\n- 実データの絶対量が合成データの価値に影響し、モデル崩壊回避には実データの割合が重要\n\nこの研究、合成データがどのくらい影響を与えるか一緒に考えてるのめっちゃいいよね。未来のAIモデルがどう発展していくか予想するのにすごく役立ちそう！私たちも自分たちの日常でデータの重要性をもっと感じられるようになるかな？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T05:49:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16705",
+    "title": "Privacy-hardened and hallucination-resistant synthetic data generation with logic-solvers",
+    "japanese_title": "プライバシー強化と幻影耐性を備えた論理ソルバーによる合成データ生成",
+    "authors": [
+      "Mark A. Burgess",
+      "Brendan Hosking",
+      "Roc Reguant",
+      "Anubhav Kaphle",
+      "Mitchell J. O'Brien",
+      "Letitia M. F. Sng",
+      "Yatish Jain",
+      "Denis C. Bauer"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CR",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 合成データの生成はAI訓練やデータ共有に価値があるが、プライバシーと正確性の確保が課題\n- Genomatorという論理ソルバー(SAT)を用い、効率的かつプライバシーを守ったデータを生成\n- Genomatorは最新技術に比べて正確性が84-93%向上し、プライバシーが95-98%向上\n- プライバシーと精度のトレードオフを調整し、医療研究などに貢献する可能性がある\n\nGenomatorって合成データ生成の未来を変えるかもね！プライバシーを守りながら正確なデータを作るなんてすごい。今後の医療研究やデータ共有にも役立ちそう。ワクワクするね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T05:20:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16699",
+    "title": "Graph Transformers Dream of Electric Flow",
+    "japanese_title": "グラフ・トランスフォーマーは電気的フローの夢を見る",
+    "authors": [
+      "Xiang Cheng",
+      "Lawrence Carin",
+      "Suvrit Sra"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 線形トランスフォーマーをグラフデータに適用し、電気的フローや固有ベクトル分解を解決できることを示す\n- トランスフォーマーの入力はグラフのインシデンス行列であり、位置エンコーディング情報は不要\n- 各グラフアルゴリズムを実装するための明示的な重み構成を提示し、誤差の境界を検証\n- 実験により、ラプラシアン固有ベクトルに基づくエンコーディングより効果的な位置エンコーディングの学習を確認\n\nグラフデータを扱うトランスフォーマーの仕組みを理解する一歩みたい！理論と実験が結びつくのってスゴイね、未来のデータ解析がもっと楽しくなりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-22T05:11:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16534",
+    "title": "No more hard prompts: SoftSRV prompting for synthetic data generation",
+    "japanese_title": "もうハードプロンプトはいらない: 合成データ生成のためのSoftSRVプロンプト法",
+    "authors": [
+      "Giulia DeSalvo",
+      "Giulia DeSalvo",
+      "Jean-Fracois Kagy",
+      "Lazaros Karydas",
+      "Afshin Rostamizadeh",
+      "Sanjiv Kumar"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- SoftSRVは事前学習済み大規模言語モデルを用いてターゲットに近い合成テキストを生成する。\n- データ駆動型の損失最小化手法を用いて、文脈に応じたソフトプロンプトを訓練する。\n- SoftSRVは手間のかかるハードプロンプトより実用的で、多様なドメインに対応可能である。\n- 評価結果では、SoftSRVが合成データ生成における性能向上を示し、ターゲットに近づけた。\n\n合成データ生成におけるソフトプロンプトの使い方がすごく賢いなって思う！いろいろなドメインで試行錯誤しなくてもいいなんて、未来の技術が待ちきれないよね。きっとこれからもっと簡単にデータ作りができそうだね！😊",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-21T21:48:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16456",
+    "title": "To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning",
+    "japanese_title": "グローブへ: 言語駆動型の保証付き旅行計画に向けて",
+    "authors": [
+      "Da JU",
+      "Song Jiang",
+      "Andrew Cohen",
+      "Aaron Foss",
+      "Sasha Mitts",
+      "Arman Zharmagambetov",
+      "Brandon Amos",
+      "Xian Li",
+      "Justine T Kao",
+      "Maryam Fazel-Zarandi",
+      "Yuandong Tian"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 旅行計画は、フライトや宿泊、観光などの制約を満たす旅程を探す困難なタスク。\n- TTGは自然言語要求を受け、LLMで翻訳し、最適な旅程を生成するシステム。\n- 合成データパイプラインを開発し、人手によらずシンボル形式のトレーニングデータを生成。\n- ユーザー評価で高いNPSを達成し、迅速で正確な旅行計画を提供。\n\nこのシステム、リアルタイムで旅行計画ができちゃうとか未来感がすごいよね！忙しい人や旅行初心者には超嬉しいサービスになりそう。きちんとニーズを捉えてくれるなら、ぜひ試してみたい！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-21T19:30:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16442",
+    "title": "Secure Computation and Trustless Data Intermediaries in Data Spaces",
+    "japanese_title": "データ空間における安全な計算とインターミディアリーに頼らないデータ仲介者",
+    "authors": [
+      "Christoph Fabianek",
+      "Stephan Krenn",
+      "Thomas Loruenser",
+      "Veronika Siska"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 進化するデータ経済における安全で信頼できるデータ共有を実現するための、暗号技術を組み込んだ安全な計算の利用\n- EUデータガバナンス法に従ったデータ仲介者の役割を分析し、利用者データにアクセスしない仲介者の概念を導入\n- セキュアマルチパーティ計算と完全準同型暗号を活用し、セキュリティの利点を強調\n- 身元管理、政策実施、ノード選択、アクセス制御といった統合の課題を現実のケースを通して解決\n\nこの研究では、難しい暗号技術を使っているみたいだけど、それを使ってデータを安全に使う方法を考えているところが面白い！データ仲介者がデータを覗けないって、未来のプライバシーはこうやって守られるのかなぁってわくわくしたなぁ。",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-10-21T19:10:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16423",
+    "title": "Position: Challenges and Opportunities for Differential Privacy in the U.S. Federal Government",
+    "japanese_title": "位置: 米国連邦政府における差分プライバシーの課題と機会",
+    "authors": [
+      "Amol Khanna",
+      "Adam McCormick",
+      "Andre Nguyen",
+      "Chris Aguirre",
+      "Edward Raff"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "2nd Workshop on Regulatable ML at NeurIPS 2024",
+    "summary": "- 差分プライバシーの導入には現時点で3つの重要な課題がある\n- 定量的な特徴を活かし、異なるプライバシーレベルの分析を提供可能\n- 新しい発見として、差分プライバシーが機密分野での人員効率を向上させる可能性\n- 技術者や規制者、法制定者への理解促進を目指す非技術的リソースとしての役割を果たす\n\n差分プライバシーがいろんな場面で役立ちそうで面白い！特に機密分野での人員効率向上は新鮮な発見だね。未来にどんな影響を与えるのか、期待しちゃう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-21T18:46:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16410",
+    "title": "Subword Embedding from Bytes Gains Privacy without Sacrificing Accuracy and Complexity",
+    "japanese_title": "バイトからのサブワード埋め込みは精度と複雑性を犠牲にせずプライバシーを向上させる",
+    "authors": [
+      "Mengjiao Zhang",
+      "Jia Xu"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- NLPモデルのプライバシー侵害が懸念され、特に埋め込み攻撃の防護が課題である\n- 提案手法であるSEBは、サブワードをバイト列にエンコードし、テキスト回復を困難にする\n- SEBは小さなメモリで効率を維持し、埋め込み攻撃からの保護を強化する\n- 機械翻訳や言語モデリングで標準手法よりも優れた精度と効率を証明\n\n攻撃からのプライバシー保護をしつつ、効率もアップするなんて夢みたい！データを守りつつ進化する技術の可能性がいっぱいで、未来の私たちの生活を考えるとワクワクしちゃうね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-21T18:25:24+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2410.16177",
     "title": "A Framework for Evaluating Predictive Models Using Synthetic Image Covariates and Longitudinal Data",
     "japanese_title": "合成画像共変量と縦断データを用いた予測モデル評価フレームワーク",
@@ -873,6 +1298,25 @@
       "差分プライバシー"
     ],
     "published": "2024-10-18T15:24:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.16326",
+    "title": "Synthetic Data Generation in Cybersecurity: A Comparative Analysis",
+    "japanese_title": "サイバーセキュリティにおける合成データ生成の比較分析",
+    "authors": [
+      "Dure Adan Ammara",
+      "Jianguo Ding",
+      "Kurt Tutschku"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 合成データ生成は、特に表形式データで実データを正確に再現するための課題がある\n- ネットワークトラフィックの合成データ生成で最も効果的な手法はまだ未解明\n- GANモデル（CTGAN、CopulaGANなど）が非AIや従来のAI手法よりも高い忠実度と有用性を示す\n- サイバーセキュリティデータにおいて特徴選択に相互情報量を使用しデータ品質を向上\n\nGANを用いた合成データ生成がかなり効果的みたい！特にCTGANとCopulaGANが優れてるって驚き。サイバーセキュリティの分野で新しい可能性が見えそうでワクワクするね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-18T14:19:25+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2410.14390",

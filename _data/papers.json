@@ -1,5 +1,225 @@
 [
   {
+    "url": "http://arxiv.org/abs/2410.19665",
+    "title": "MetaTrading: An Immersion-Aware Model Trading Framework for Vehicular Metaverse Services",
+    "japanese_title": "MetaTrading: 車両メタバースサービスのための没入感に基づいたモデル取引フレームワーク",
+    "authors": [
+      "Hongjia Wu",
+      "Hui Zeng",
+      "Zehui Xiong",
+      "Jiawen Kang",
+      "Zhiping Cai",
+      "Tse-Tin Chan",
+      "Dusit Niyato",
+      "Zhu Han"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.GT"
+    ],
+    "comment": "",
+    "summary": "- 車両メタバースでのデータ更新は、安定したネットワークの限界から高品質なデータ提供が困難\n- 提案するフレームワークは、連合学習を用いてユーザーのプライバシーを保護し学習モデルを共有\n- 没入感メトリックを設計し、モデルの鮮度や正確性、データの価値でARサービスの貢献度を評価\n- 深層強化学習に基づく分散型報酬方法により、プライバシーを守りながら動的環境で報酬を決定\n\nメタバースと連合学習の組み合わせがめっちゃ面白そう！没入感を高める新しい試みだし、未来のARサービスどう進化するのか楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-25T16:20:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19548",
+    "title": "FLiP: Privacy-Preserving Federated Learning based on the Principle of Least Privileg",
+    "japanese_title": "FLiP: 最小特権原則に基づくプライバシー保護連合学習",
+    "authors": [
+      "ShiMao Xu",
+      "Xiaopeng Ke",
+      "Xing Su",
+      "Shucheng Li",
+      "Hao wu",
+      "Fengyuan Xu",
+      "Sheng Zhong"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は、生データではなく知識を共有することで高精度モデルの訓練を可能にする\n- 訓練中にユーザーは知識の共有を制御できず、データプライバシー問題が発生する\n- FLiPは最小特権原則を連合学習に適用し、情報削減を通じて共有知識を最小化\n- 属性推論とメンバーシップ推論攻撃でプライバシー性能を測定し、精度とプライバシーのバランスを示す\n\n連合学習のプライバシーを守る新しいアプローチって興味深い！どんな風に実験でプライバシー性能を検証してるのかちょっと詳しく見てみたいな。私たちが使うサービスでも安心してデータを共有できる未来が来るかも？",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-25T13:20:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19461",
+    "title": "EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data",
+    "japanese_title": "EDGE: 強化された多粒度合成データによるGUI理解の向上",
+    "authors": [
+      "Xuetian Chen",
+      "Hangcheng Li",
+      "Jiaqing Liang",
+      "Sihang Jiang",
+      "Deqing Yang"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- GUIにおけるLVLM採用は、構造化テキストに依存しない直感的な適応が可能\n- 大規模な多粒度合成データ生成フレームワーク「EDGE」を提案\n- EDGEにより、ウェブページからGUI理解能力を高めるデータを自動生成\n- 新しいデスクトップやモバイル環境へ容易に知識転移が可能なモデルを実現\n\nこの研究、合成データでGUI理解をどこまで進化させられるのかドキドキする。新しい環境に適応する力がすごく未来的でワクワクしちゃう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-25T10:46:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19371",
+    "title": "Noise-Aware Differentially Private Variational Inference",
+    "japanese_title": "ノイズ認識差分プライバシー変分推論",
+    "authors": [
+      "Talal Alrawajfeh",
+      "Joonas Jälkö",
+      "Antti Honkela"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシーは統計的推論のプライバシーを保護するが、結果にバイアスをもたらしやすい\n- 既存のノイズ認識手法は単純な確率モデルに限られ、高次元モデルには適用困難\n- 提案手法は高次元および非共役モデルにも適用可能なノイズ認識ベイズ推論法\n- 高次元ベイズ線形回帰とUCI Adultデータセット上での予測確率の正確さを実証\n\nベイズ推論を使ったノイズ対応の手法ってすごく未来っぽい！これが実用化されれば、高次元のモデルでも信頼性のある結果が出せそうで、ワクワクするよね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-25T08:18:49+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19321",
+    "title": "Free-Rider and Conflict Aware Collaboration Formation for Cross-Silo Federated Learning",
+    "japanese_title": "クロスサイロ連合学習のためのフリーライダーと競合意識した協力形成",
+    "authors": [
+      "Mengmeng Chen",
+      "Xiaohu Wu",
+      "Xiaoli Tang",
+      "Tiantian He",
+      "Yew-Soon Ong",
+      "Qiqi Liu",
+      "Qicheng Lao",
+      "Han Yu"
+    ],
+    "categories": [
+      "cs.GT",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータを共有せずに複数の参加者がモデルを訓練する枠組み\n- データの多様性によりネガティブ転送が発生し、選択基準が必要\n- ビジネス活動を行う組織が参加者となり、自己利益と競争が生じる\n- FedEgoistsは、フリーライダーや利益対立を緩和しつつ、効率的な協力形成をする\n\nこの論文、すごくおもしろそう！データをベースにした協力って複雑そうだけど、新しい方法で問題を解決しているのはすごいね。どんな実験結果なのかも気になるし、実際にどうやってビジネス系組織が協力し合うのか、もっと知りたい！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-25T06:13:26+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19290",
+    "title": "Fictitious Synthetic Data Can Improve LLM Factuality via Prerequisite Learning",
+    "japanese_title": "架空の合成データが前提学習を通じてLLMの事実性を向上させることができる",
+    "authors": [
+      "Yujian Liu",
+      "Shiyu Chang",
+      "Tommi Jaakkola",
+      "Yang Zhang"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- LLMの幻想は事前学習と微調整の知識に不一致があると増加\n- Prereq-Tuneはスキルと知識の学習を分離し、知識不一致の影響を排除\n- 本手法は必要な知識を学ぶ段階を追加し、LLMがタスクスキルに集中\n- Ficitious Synthetic Dataを用いることでLLMの出力根拠が強化される\n\nLLMの幻想って、ほんとにやっかいだよね。でも、この研究はスキルと知識を分けて学ぶっていう面白いアイディアで解決しようとしてるんだね！これが広まったら、もっと賢いAIさんが増えてくるかも！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-25T03:48:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19277",
+    "title": "In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators",
+    "japanese_title": "自律ロボットマニピュレータにおける深層学習ビジョンモデルのシミュレーション内テスト",
+    "authors": [
+      "Dmytro Humeniuk",
+      "Houssem Ben Braiek",
+      "Thomas Reid",
+      "Foutse Khomh"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.NE"
+    ],
+    "comment": "",
+    "summary": "- 自律ロボットのマニピュレータはビジョンと制御の相互作用が複雑である\n- 合成データとシミュレーションで深層学習をテストする現行手法がある\n- MARTENSフレームワークにより、より多様な失敗を特定しデザインの欠陥を早期に発見\n- シミュレーションで最適化後のモデルは現実の画像で高い精度を達成した\n\n自動運転のロボットにそんなすごいテストがあるなんてワクワクしちゃう！将来、ロボットたちがもっと賢くなって私たちの生活を助けてくれるのかな？楽しみ～！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-25T03:10:42+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19207",
+    "title": "Equitable Federated Learning with Activation Clustering",
+    "japanese_title": "活性化クラスタリングによる公平な連合学習",
+    "authors": [
+      "Antesh Upadhyay",
+      "Abolfazl Hashemi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SP"
+    ],
+    "comment": "28 pages",
+    "summary": "- 連合学習はデータのローカリティを保持し、クライアント間のプライバシーを確保する分散型学習方式。\n- 従来の連合学習ではクライアント間のバイアスを無視し、不公平が発生する問題がある。\n- 提案手法では、活性化ベクトルを用い、クライアントを類似性に基づいてクラスタリングする。\n- クライアントの重み付けを行い、異なるクラスター間の公平性と収束性を実現する。\n\n似たクライアントをクラスタリングしてバイアスを減らす手法って面白そう！クライアントの技術的、文化的なバイアスを考慮するって、なんだか未来的でワクワクするね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-24T23:36:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19130",
+    "title": "Research on Key Technologies for Cross-Cloud Federated Training of Large Language Models",
+    "japanese_title": "大規模言語モデルのクロスクラウド連合訓練のための主要技術に関する研究",
+    "authors": [
+      "Haowei Yang",
+      "Mingxiu Sui",
+      "Shaobo Liu",
+      "Xinyue Qian",
+      "Zhaoyang Zhang",
+      "Bingying Liu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデルの訓練には膨大な計算資源が必要である\n- クロスクラウド連合訓練は単一クラウドのリソースボトルネックを解消する\n- データの分割、通信最適化、モデル集約アルゴリズムが重要技術である\n- データ暗号化や差分プライバシーによるデータ保護が訓練効率を向上させる\n\nクロスクラウド連合訓練って、いろんなクラウドを組み合わせて大規模な計算をもっと効率的にできるんだね！データの安全も考えてるって、未来の技術って感じでワクワクしちゃう。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-10-24T19:57:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19114",
+    "title": "LanFL: Differentially Private Federated Learning with Large Language Models using Synthetic Samples",
+    "japanese_title": "LanFL: 合成サンプルを用いた大規模言語モデルの差分プライバシー連合学習",
+    "authors": [
+      "Huiyu Wu",
+      "Diego Klabjan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習は複数参加者が共に学習するが、大規模言語モデルへの適用は計算・通信コストが高い\n- LLM利用者はモデルのアーキテクチャや重みへのアクセスができず、直接の微調整が不可能\n- LanFLはLLMをブラックボックスとして扱い、プロンプトを基にした新しいFLの枠組みを提案\n- 差分プライバシーを用いた合成サンプル生成により、参加者間で知識を共有しつつプライバシーを保護\n\nLanFLの新しいアイデア、プロンプトベースでLLMを扱うところが面白いよね！合成サンプルを使って効率的でプライベートな連合学習がこれから広まっていくのかも。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-10-24T19:28:33+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2410.18862",
     "title": "FedSPD: A Soft-clustering Approach for Personalized Decentralized Federated Learning",
     "japanese_title": "FedSPD: ソフトクラスタリングによる個人化分散連合学習アプローチ",
@@ -194,6 +414,26 @@
       "合成データ"
     ],
     "published": "2024-10-24T09:37:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.19022",
+    "title": "Heterogeneous Random Forest",
+    "japanese_title": "異質なランダムフォレスト",
+    "authors": [
+      "Ye-eun Kim",
+      "Seoung Yun Kim",
+      "Hyunjoong Kim"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "18 pages, 6 figures",
+    "summary": "- ランダムフォレストは分類問題において人気が高いが、個々の木の精度と多様性が鍵\n- 新手法「異質なRF」を提案、木の構築時に意図的に異質性を導入し多様性を向上\n- シミュレーションでHRFが選択バイアスを軽減し、多様性向上と高い性能を確認\n- 52のデータセットで他の手法と比較し、HRFは精度で一貫して優れていた\n\n異質なランダムフォレストなんて面白い！意図的に木を変えることで性能が上がるなんて、新しい発想だね。これからのデータ解析に活躍しそう♪",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-10-24T09:18:55+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2410.18558",

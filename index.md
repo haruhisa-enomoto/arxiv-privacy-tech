@@ -27,441 +27,270 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-10-31T04:24:21.748626
+更新: 2024-11-01T04:22:19.265630
 
 - - -
 
-### [(FL): Overcoming Few Labels in Federated Semi-Supervised Learning](http://arxiv.org/abs/2410.23227)
+### [Federated Black-Box Adaptation for Semantic Segmentation](http://arxiv.org/abs/2410.24181)
 
-**（FL）$^2$: 連合半教師あり学習におけるラベル不足の克服**
+**意味セグメンテーションのための連合ブラックボックス適応**
 
-Seungjoo Lee, Thanh-Long V. Le, Jaemin Shin, Sung-Ju Lee
+Jay N. Paranjape, Shameema Sikder, S. Swaroop Vedula, Vishal M. Patel
 
-- 連合学習（FL）はクライアントのプライバシーを保ちつつ、正確なグローバルモデルを訓練する方法
-- 従来のFLはクライアントにラベル付きデータがあることを前提とするが、現実ではそうでないことが多い
-- 提案手法（FL）$^2$は、ラベルなしクライアントのための鋭敏性意識の一貫した正則化を使用
-- クライアント特有の適応的閾値設定と学習状況認識型の集約を導入し、性能を向上
+- 連合学習は複数の組織がデータを共有せずに共通のモデルを学ぶことができる技術
+- 従来の手法では、データのプライバシーが完全に守られない可能性があると指摘されている
+- 提案したBlackFedはモデル構造や勾配を交換せずにプライバシーを向上
+- 零次最適化と一次最適化を活用して効果を評価し成果を示した
 
-ラベルが少ないときの連合学習を改善する方法って、新しいね！クライアントごとに調整できるのはすごく柔軟で役立ちそうだよね。どんなデータでも対応できそうだから、未来のデータ学習ってもっと楽しくなる予感！
+ゼロ知識のアプローチでデータを活用できるなんてすごく面白いよね！これが普及したら、プライバシーを守りながらもたくさんのデータを活用した進化が起こるかもってドキドキしちゃう！
+
+**Comment:** Accepted at NEURIPS 2024
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-10-31 17:45
+
+- - -
+
+### [Conformalized Prediction of Post-Fault Voltage Trajectories Using Pre-trained and Finetuned Attention-Driven Neural Operators](http://arxiv.org/abs/2410.24162)
+
+**事前学習と微調整された注意駆動型ニューラルオペレーターによる故障後電圧軌跡のコンフォーマル化予測**
+
+Amirhossein Mollaali, Gabriel Zufferey, Gonzalo Constante-Flores, Christian Moya, Can Li, Guang Lin, Meng Yue
+
+- 電力システムの故障後電圧軌跡を予測する新手法を提案
+- Quantile Attention-Fourier Deep Operator Network (QAF-DeepONet)を設計し、複雑な電圧軌跡を捕捉
+- 連合学習を活用し、データプライバシーを保ちながら事前学習を実施
+- 予測範囲を保証するため、コンフォーマル予測を統合し、評価指標で高評価を得た
+
+電力システムの電圧予測って、なんか難しそうでも、めっちゃ実用的！色々な技術が詰まってて、未来の電力インフラの安定化に生かされるといいな！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-31 17:20
+
+- - -
+
+### [On Sampling Strategies for Spectral Model Sharding](http://arxiv.org/abs/2410.24106)
+
+**スペクトルモデル分割のサンプリング戦略に関する研究**
+
+Denis Korzhenkov, Christos Louizos
+
+- 連合学習における異質なクライアント問題が注目されている
+- スペクトルモデル分割において、特定の最適化問題を解いた2つのサンプリング戦略を提案
+- 1つは元の重みの無偏推定、もう1つは近似誤差の最小化を目指す
+- これらの方法が様々なデータセットでパフォーマンス向上に寄与することを実証
+
+スペクトルモデルを使うなんて、ちょっと難しそうだけど面白い話だね！異質なクライアント問題とか、解決できたらすごいことになりそう！
 
 **Comment:** Accepted to NeurIPS 2024
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-30 17:15
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-31 16:37
 
 - - -
 
-### [Directional anomaly detection](http://arxiv.org/abs/2410.23158)
+### [Unveiling Synthetic Faces: How Synthetic Datasets Can Expose Real Identities](http://arxiv.org/abs/2410.24015)
 
-**方向性を考慮した異常検出**
+**合成顔の暴露：合成データセットがどのように実際のアイデンティティを明らかにするか**
 
-Oliver Urs Lenz, Matthijs van Leeuwen
+Hatef Otroshi Shahreza, Sébastien Marcel
 
-- 従来の異常検出は正常データと異なるものを問題視
-- 特に高い値や低い値の異常に注目することがある
-- ランプ距離と符号付き距離の2つの非対称距離を提案
-- シミュレーションと実データでの評価で、ランプ距離が絶対距離より優れる
+- 合成データ生成は視覚応用で人気だが、プライバシー問題が存在
+- 合成顔データセットは生成モデルに依存しつつ、実データ情報も漏れる可能性がある
+- 合成顔認識データセット6つを分析し、実データからの情報漏洩を全体で確認
+- この研究は、生成モデルからのデータ漏洩を初めて検証し、責任ある合成生成の道筋を示す
 
-方向性を考慮した異常検出って新しい視点だね！特にランプ距離が実際のデータで効果を発揮するのは、実用面でも期待大だと思うよ。符号付き距離はちょっと実データには弱いけど、これからの改善、楽しみだなぁ。
+合成データのプライバシーの落とし穴が分かってドキドキするね。これをきっかけに、もっと安全なデータセットがいっぱい出てくるといいな～。未来のテクノロジーがどう変わっていくのか楽しみ♪
 
+**Comment:** Accepted in NeurIPS 2024 Workshop on New Frontiers in Adversarial   Machine Learning
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-30 16:11
-
-- - -
-
-### [Federated Learning under Periodic Client Participation and Heterogeneous Data: A New Communication-Efficient Algorithm and Analysis](http://arxiv.org/abs/2410.23131)
-
-**周期的なクライアント参加と異質データ下での連合学習: 新たな通信効率の良いアルゴリズムと分析**
-
-Michael Crawshaw, Mingrui Liu
-
-- 従来の連合学習はクライアントが常時参加する前提だが、現実では難しい
-- 新アルゴリズム「Amplified SCAFFOLD」は非凸最適化で通信量とデータの差を改善
-- 提案手法は通信ラウンドを減らしデータ異質性に強く、以前の手法より効率的
-- 実験では合成データと現実データで、このアルゴリズムの有効性を確認
-
-これ、連合学習の実用性を高めるポイントが満載で、すごく興味惹かれる内容だね！特に新アルゴリズムで通信が効率的になって、データの違いにも対応できるなんて、これからの技術に期待しちゃう！どんな応用が実現できるんだろう、未来が楽しみだね！
-
-**Comment:** Neurips 2024
-
-**トピック:** [連合学習](fl), [合成データ](sd), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-10-30 15:41
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-10-31 15:17
 
 - - -
 
-### [Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models](http://arxiv.org/abs/2410.23111)
+### [Space-bounded quantum interactive proof systems](http://arxiv.org/abs/2410.23958)
 
-**なぜ勾配サブスペースか？大規模言語モデルの連合ファインチューニングにおけるLoRAのボトルネックの特定と緩和**
+**空間制約付き量子対話証明システム**
 
-Navyansh Mahla, Ganesh Ramakrishnan
+François Le Gall, Yupan Liu, Harumichi Nishimura, Qisheng Wang
 
-- 大規模言語モデルの連合学習にはプライバシー問題が伴うが、LoRAを使う従来手法では効率が限られる
-- LoRAの低ランク行列における制約が、連合設定でのファインチューニングの効果を妨げる
-- 従来のLoRAに比べ直接的な重み平均が優れた性能を示し、LoRAの非効率性を露呈
-- GaLoreなどの低ランク勾配ベースの最適化手法がLoRAより効果的であると評価
+- 2つの空間制約付き量子対話証明システムモデルを導入
+- ${\sf QIPL}$はログサイズの測定を含み、${\sf NP}$を正確に特徴付ける
+- ${\sf QIP_{\rm U}L}$は単位的な回路のみに制限され、${\sf P}$に含まれる
+- 統計的ゼロ知識を持つ${\sf QSZK_{\rm U}L}$が${\sf BQL}$と等しく、対話の利点を失う
 
-LoRAに依存しない新しい連合学習の方法、効率よく学べそう！未来のアプリケーションでプライバシーも守れるなら安心して使えそうだね。ワクワク！
+量子系での対話ってすごく面白そう！特に、空間制約の中でどうやって証明を行うかが気になるよね。これが進むと、新しい量子コンピュータのアルゴリズムとかに繋がるのかもしれないね！
 
-**Comment:** 24 pages, 10 figures, pre-print
+**Comment:** 50 pages, 4 figures
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-10-30 15:23
-
-- - -
-
-### [Automated Image-Based Identification and Consistent Classification of Fire Patterns with Quantitative Shape Analysis and Spatial Location Identification](http://arxiv.org/abs/2410.23105)
-
-**火災パターンの自動画像識別と定量的形状分析および空間位置同定による一貫した分類**
-
-Pengkun Liu, Shuna Ni, Stanislav I. Stoliarov, Pingbo Tang
-
-- 火災パターンの伝統的な分類は目視に頼り、主観的解釈に依存することが多い
-- 提案されたフレームワークは、計算分析と専門家の知見を融合し一貫性を提供
-- ランダムフォレストモデルにより、火災パターンの形状を数値的に分類する手法を用いる
-- 合成データでは93%、実際のデータでは83%の精度があることが実証された
-
-火災現場の解析が技術の進歩でこんなに正確になるなんてすごい！これからは事故原因究明がもっと迅速で信頼できるものになりそうでワクワクするね。それに、研究者と技術のコラボも面白いポイントだと思うな〜。
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.HC, **投稿日時:** 2024-10-30 15:15
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** quant-ph, cs.CC, **投稿日時:** 2024-10-31 14:11
 
 - - -
 
-### [Private Synthetic Text Generation with Diffusion Models](http://arxiv.org/abs/2410.22971)
+### [Towards Fast Algorithms for the Preference Consistency Problem Based on Hierarchical Models](http://arxiv.org/abs/2410.23934)
 
-**拡散モデルを用いたプライベートな合成テキスト生成**
+**階層モデルに基づく選好整合性問題の高速アルゴリズムに向けて**
 
-Sebastian Ochs, Ivan Habernal
+Anne-Marie George, Nic Wilson, Barry O'Sullivan
 
-- 拡散モデルは、合成テキスト生成で自己回帰型LLMs並みの性能を持つ
-- 差分プライバシーを活用した合成データ生成には十分な証拠がまだない
-- 既存のLLMsによる合成テキスト生成は差分プライバシー保証を破る可能性がある
-- プライバシー環境下では、オープンソースLLMsが拡散モデルより優れていると判明
+- 階層モデルを用いた選好整合性問題は、NP完全である
+- 問題の解決法として、混合整数線形計画法と2つの再帰アルゴリズムを開発
+- 再帰アルゴリズムは、探索空間を狭める特性を活用し高速化を実現
+- 合成データでの実験で、再帰アルゴリズムがMILP法よりも極めて速く動作することが判明
 
-拡散モデルって本当すごいのかもって思ったけど、意外とLLMsの方が強かったんだね！オープンソースで、いっぱい実験してくれるのありがたいから、もっと研究進むといいな〜。
+階層モデルを使って、より効率的なアルゴリズムが作れるんだね。ただ、再帰アルゴリズムがMILPよりも速いってどんな速さなのか気になる！進化した先の未来が楽しみだな～。
 
+**Comment:** Longer Version of IJCAI'16 publication   https://www.ijcai.org/Proceedings/16/Papers/157.pdf
 
-
-**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** cs.CL, **投稿日時:** 2024-10-30 12:38
-
-- - -
-
-### [A Study of Secure Algorithms for Vertical Federated Learning: Take Secure Logistic Regression as an Example](http://arxiv.org/abs/2410.22960)
-
-**縦型連合学習のための安全なアルゴリズムの研究：安全なロジスティック回帰を例に**
-
-Huan-Chih Wang, Ja-Ling Wu
-
-- ビッグデータ時代では、機械学習を使ったサービスが増えたが、データ収集のコストが高い
-- 他社データとの連携でモデルの性能向上が可能だが、法律で制限される場合がある
-- データ共有とプライバシー漏洩防止のバランスが重要な課題
-- 縦型連合学習で暗号化領域での安全なモデル訓練を行い、プライバシー問題を解決
-
-データを他社と共有しつつも安全に扱う方法ってめちゃくちゃ大事だよね！プライバシーを保護しながら、縦型連合学習でどうやって安全にモデルを訓練するのか、もっと知りたいな〜！
-
-**Comment:** accepted by the 20th International Conference on Security &   Management (SAM 2021)
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.LG, **投稿日時:** 2024-10-30 12:17
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LO, cs.AI, **投稿日時:** 2024-10-31 13:48
 
 - - -
 
-### [CopRA: A Progressive LoRA Training Strategy](http://arxiv.org/abs/2410.22911)
+### [QuACK: A Multipurpose Queuing Algorithm for Cooperative -Armed Bandits](http://arxiv.org/abs/2410.23867)
 
-**CopRA: プログレッシブなLoRAトレーニング戦略**
+**QuACK: 協力的なk-アームドバンディットのための多目的キューイングアルゴリズム**
 
-Zhan Zhuang, Xiequn Wang, Yulong Zhang, Wei Li, Yu Zhang, Ying Wei
+Benjamin Howson, Sarah Filippi, Ciara Pike-Burke
 
-- LoRAは基盤モデルを効率よくファインチューニングする技術だが、初期設定近くの局所解に収束しやすい
-- 提案手法CopRAはランダムな層の除去とLoRAパラメータのShapley値最適化を組み合わせる
-- パラメータの線形モード接続を示し、モデル統合の効率化を可能にすることが実験で示された
-- Shapley値の最適化で、特にプルーニングタスクにおいて優れた性能を発揮する
+- 複数のエージェントが協力して最適な行動を見つける問題を研究
+- 単一エージェントアルゴリズムを任意に多エージェント設定に拡張可能
+- 単一プレイヤーのアルゴリズムの後悔保証を多エージェントにも適用可能
+- 提案手法が特化型アルゴリズムを超える性能を実証
 
-CopRAのアイデアって面白い！ランダムな要素を取り入れて、新しい道を切り拓いてるよね。これがちゃんと機能すれば、連合学習やマルチタスク学習に革命が起きるかも！？
-
-**Comment:** Published in UniReps Workshop (Extended Abstract Track), NeurIPS 2024
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-30 11:07
-
-- - -
-
-### [Federated UCBVI: Communication-Efficient Federated Regret Minimization with Heterogeneous Agents](http://arxiv.org/abs/2410.22908)
-
-**連合UCBVI: 異種エージェントによる効率的な連合後悔最小化**
-
-Safwan Labbi, Daniil Tiapkin, Lorenzo Mancini, Paul Mangold, Eric Moulines
-
-- Federated UCBVI（Fed-UCBVI）は、連合学習の枠組みに特化したUCBVIアルゴリズムの新しい拡張版
-- Fed-UCBVIの後悔が、状態数、行動数、エピソードの長さ、エージェント数に応じてスケール
-- 単一のエージェントの場合、この上限はミニマックスの下限と一致し、多エージェントでは線形的な速度向上
-- 複数エージェントの方が通信複雑性が増すが、Fed-UCBVIはわずかしか増加しない
-
-この論文、エージェント数が増えても通信量がほとんど変わらないってところがすごいよね！将来の連合学習の応用範囲が広がりそうな予感がする〜。また、異種エージェントの考え方が他の研究にも応用できそうで、面白そう！
+この論文、めっちゃ面白そう！マルチエージェントで協力しちゃうところが未来っぽいよね。どのアルゴリズムにも応用できるって、可能性がめちゃ広がるじゃん！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, stat.ML, **投稿日時:** 2024-10-30 11:05
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-31 12:20
 
 - - -
 
-### [Augmenting Polish Automatic Speech Recognition System With Synthetic Data](http://arxiv.org/abs/2410.22903)
+### [Generative AI-Powered Plugin for Robust Federated Learning in Heterogeneous IoT Networks](http://arxiv.org/abs/2410.23824)
 
-**ポーランド語の音声認識システムを合成データで拡張する**
+**異種IoTネットワークにおける堅牢な連合学習のための生成AI駆動プラグイン**
 
-Łukasz Bondaruk, Jakub Kubiak, Mateusz Czyżnikiewicz
+Youngjoon Lee, Jinu Gong, Joonhyuk Kang
 
-- 合成データを利用してポーランド語音声認識システムを改善する研究
-- Voiceboxを基にした音声合成パイプラインを使用
-- ConformerとWhisperモデルを合成データで強化
-- 合成音声を追加することで認識結果が大幅に向上することを確認
+- 連合学習はデータをローカルに保ちながら協調的にグローバルモデルをトレーニング
+- デバイス間のデータ分布の偏りがモデル収束を妨げ、性能を低下させる
+- 生成AIを用いてデータを合成し、不足クラスの情報を補完し均衡を図る
+- バランスの取れたサンプリングにより収束を加速、データ不足環境でも柔軟に対応
 
-ポーランド語の音声認識を合成データで改善しちゃうなんてすごいよね！技術の組み合わせで性能がアップする話が面白いし、これから音声AIの可能性がどんどん広がっていきそうだね！
+この技術、すごく面白そう！生成AIでデータを補うとか、未来の研究にもいろいろ可能性が広がりそうだね。連合学習がもっと広がって、プライバシーも守りつつ賢いAIがいっぱい生み出される未来が楽しみ！
 
+**Comment:** 8 pages
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** eess.AS, cs.SD, **投稿日時:** 2024-10-30 11:02
-
-- - -
-
-### [Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](http://arxiv.org/abs/2410.22815)
-
-**異質なクライアントに対するロバストで効率的なフェデレーテッド低ランク適応の実現に向けて**
-
-Jabin Koo, Minwoo Jang, Jungseul Ok
-
-- 連合学習で大規模言語モデルのファインチューニングの通信オーバーヘッドが課題
-- LoRAは低ランク適応策だが、連合学習での集約の不一致で複雑化
-- LoRA-A2を導入し、低ランクとデータ異質性の中でも性能を維持することを実証
-- 通信効率を向上させ、資源が限られた環境での大規模言語モデルの実用的な展開を可能に
-
-LoRA-A2ってすごいじゃん！異種データでのパフォーマンス維持ってホントに大変そうだけど、それを実現できるなんて感動しちゃう。しかも通信が軽く済むとか、これどんどん使っていい感じ♪
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.DC, **投稿日時:** 2024-10-30 08:48
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, eess.SP, **投稿日時:** 2024-10-31 11:13
 
 - - -
 
-### [Universality of the  Pathway in Avoiding Model Collapse](http://arxiv.org/abs/2410.22812)
+### [Local Superior Soups: A Catalyst for Model Merging in Cross-Silo Federated Learning](http://arxiv.org/abs/2410.23660)
 
-**モデル崩壊を避ける$π^2/6$経路の普遍性**
+**ローカルスーペリアスープ: クロスサイロ連合学習におけるモデル統合の触媒**
 
-Apratim Dey, David Donoho
+Minghui Chen, Meirui Jiang, Xin Zhang, Qi Dou, Zehua Wang, Xiaoxiao Li
 
-- モデル崩壊とは、合成データで訓練したモデルが劣化する現象である
-- 実データを使用し続ける増強ワークフローでモデル崩壊を回避可能
-- 古典的な線形回帰でのテストリスクが$π^2/6$で境界づけされることを示した
-- 提案する枠組みで多様なワークフローを比較評価可能
+- 連合学習は分散データでモデルを共同訓練するが、事前学習モデルの複雑さが通信ラウンドの課題を増加
+- 通信コスト問題に対処し、事前学習モデル適応を改善するために、ローカルモデル補間技術「ローカルスーペリアスープ」を提案
+- 「ローカルスーペリアスープ」は、クライアント間で低損失領域を探索し、通信ラウンドを減らす手法
+- 提案手法は、多様な連合学習データセットで効果的かつ効率的であることを実証
 
-「モデル崩壊」を避けるアイディアが数学的にしっかり証明されてるのがすごいね！これを応用すれば、今後もっといっぱいのモデルに適用できちゃうかも！？びっくりだよね～シンプルなガウス過程で評価できるなんて便利だし、面白そう！
+既存の連合学習の問題を解決する新手法の名前が「ローカルスーペリアスープ」って面白いよね！名前もユニークだし、実際に効率を上げる方法として役立ちそう。この分野ますます注目されそうだね。
 
-**Comment:** 30 pages
+**Comment:** Accepted at NeurIPS 2024
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, cs.ET, math.ST, stat.ML, stat.TH, **投稿日時:** 2024-10-30 08:44
-
-- - -
-
-### [Analysis of Classifier Training on Synthetic Data for Cross-Domain Datasets](http://arxiv.org/abs/2410.22748)
-
-**合成データを用いたクロスドメインデータセットの分類器訓練の分析**
-
-Andoni Cortés, Clemente Rodríguez, Gorka Velez, Javier Barandiarán, Marcos Nieto
-
-- ディープラーニングには大量の学習データが必要で、その収集は時間・労力がかかる。
-- 合成データの利用により、多様な検出器のトレーニングを効果的に行える。
-- 本研究では合成データによるカメラベースの交通標識認識システムを検証。
-- 合成データによるアプローチは、多くの場合実データに比べ10%の精度向上を示す。
-
-合成データを使った訓練っておもしろいよね！写真を集める手間が減るから、もっといろんな分野で活用される未来が見えるよ。運転支援システムにも役立ちそうでワクワクするなぁ。
-
-**Comment:** 10 pages
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-10-30 07:11
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-31 06:20
 
 - - -
 
-### [Exactly Minimax-Optimal Locally Differentially Private Sampling](http://arxiv.org/abs/2410.22699)
+### [Biologically-Inspired Technologies: Integrating Brain-Computer Interface and Neuromorphic Computing for Human Digital Twins](http://arxiv.org/abs/2410.23639)
 
-**ローカル差分プライバシーにおけるサンプリング問題の厳密なミニマックス最適化**
+**生物に着想を得た技術: 人間デジタルツインのためのブレイン−コンピュータインターフェースとニューロモルフィックコンピューティングの統合**
 
-Hyun-Young Park, Shahab Asoodeh, Si-Hyeon Lee
+Chen Shang, Jiadong Yu, Dinh Thai Hoang
 
-- ローカル差分プライバシーの下でのサンプリング問題は生成モデルへの応用が期待される
-- f-ダイバージェンスを用いてプライバシー-ユーティリティトレードオフ（PUT）をミニマックス的に定義
-- 有限および連続データ空間におけるPUTを正確に特徴付け、すべてのf-ダイバージェンスに対して最適なサンプリングメカニズムを提案
-- 数値実験により、理論的および実証的なユーティリティの面で提案手法がベースラインを上回ることを示した
+- 人間デジタルツイン(HDT)構築には、データ収集の異質性や高エネルギー消費とプライバシーが課題。
+- ブレイン−コンピュータインターフェース(BCI)センサー技術で脳信号を収集し、HDTの効率的なデータ収集と個別化の強化を図る。
+- スパイキングニューラルネットワーク(SNN)に基づくニューロモルフィック学習モデルで、脳の情報処理を模倣しつつエネルギー消費を削減。
+- フェデレーテッドラーニング(FL)を統合し、データプライバシーを強化するためのモデルを提案。
 
-プライバシーを保ちながらも、実用的な性能を最大限引き出そうとするアプローチが興味深いね！こんな技術、関係する分野でどんなふうに花開くのかな？ワクワクするね！
+このアプローチってすごく未来的！データのプライバシー問題もちゃんと考えてるし、脳の働きに着想を得たモデルってどんなことができるんだろう、ワクワクする～。これからのHDTはどんな進化を遂げるのか、楽しみだよね！
 
-**Comment:** 32 pages and 7 figures. Accepted by NeurIPS 2024
+**Comment:** 8 pages, 4 figures,
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-10-30 05:13
-
-- - -
-
-### [Byzantine-Robust Federated Learning: An Overview With Focus on Developing Sybil-based Attacks to Backdoor Augmented Secure Aggregation Protocols](http://arxiv.org/abs/2410.22680)
-
-**ビザンチン耐性連合学習:シビル攻撃によるバックドア増強セキュア集約プロトコルの概要**
-
-Atharv Deshmukh
-
-- 連合学習は複数のクライアントが協力してプライベートデータでモデルを訓練するが、ビザンチン攻撃に弱い。
-- 既存の防御手法を網羅的に整理し、連合学習の耐性あるプロトコルRoFLの解析を行う。
-- シビル攻撃を利用したRoFLの脆弱性を突く新たな攻撃手法を提案。
-- 攻撃実装の詳細とRoFL及び耐ビザンチンフレームワーク改善の方向性を示す。
-
-ビザンチン攻撃とか、なんだかかっこいい名前だよね！でも、そのせいでちょっと怖い部分もあるけど、この論文がどんな改善をもたらすのか楽しみ。連合学習を安全にするなんて、未来の機械学習をもっとワクワクするものにしてくれそうだね！
-
-**Comment:** 16 pages, 4 figures, 1 appendix
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-10-30 04:20
+**トピック:** [連合学習](fl), **カテゴリ:** cs.HC, cs.NI, **投稿日時:** 2024-10-31 05:21
 
 - - -
 
-### [Calibrating Practical Privacy Risks for Differentially Private Machine Learning](http://arxiv.org/abs/2410.22673)
+### [Development and Comparative Analysis of Machine Learning Models for Hypoxemia Severity Triage in CBRNE Emergency Scenarios Using Physiological and Demographic Data from Medical-Grade Devices](http://arxiv.org/abs/2410.23503)
 
-**差分プライバシー機械学習における実用的プライバシーリスクの調整**
+**救急シナリオにおける低酸素血症重症度トリアージのための機械学習モデル開発と比較分析**
 
-Yuechun Gu, Keke Chen
+Santino Nanini, Mariem Abid, Yassir Mamouni, Arnaud Wiedemann, Philippe Jouvet, Stephane Bourassa
 
-- 差分プライバシーの理論的指標$\epsilon$は、モデルやデータセットによって実用的解釈が複雑である。
-- LiRA攻撃成功率(ASR)は、$\epsilon$設定が同じでもデータセットやモデルにより変動し実世界のリスク指標となる。
-- プライバシーに敏感な特徴を抑えることでASRを低下させ、データ有用性を損なわずに柔軟なプライバシー設定が可能に。
-- SHAPとLIMEを使い特徴感度を評価し、特徴をマスクする戦略がデータセットのプライバシーリスクを軽減。
+- CBRNE状況での低酸素血症予測に機械学習モデルを開発し、医療グレードデータを活用
+- 勾配ブースティングモデルは学習速度、解釈能力、信頼性で優れ、リアルタイム意思決定に適している
+- NEWS2+から重要な生理学的変数を用いることで、予測精度の向上を実現
+- 将来的には複数の病院のデータを統合し、モデルの一般化能力向上を目指す
 
-プライバシーリスクをこんなにしっかり考えてるなんて、すごいなぁ。データの便利さと安全性を両立させる方法が、未来の技術の鍵かもね！高校のレポートにも使える知識かもしれないから、詳しく見てみたいな。
+機械学習で緊急時の判断がもっとスマートになるってことだね！リアルタイムで使えるなら、きっと現場で役立つに違いない！将来的にはさらに多くのデータと組み合わせてもっと汎用性の高いものになるといいな。
 
+**Comment:** 12 figures, 12 tables and 39 pages
 
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-10-30 03:52
-
-- - -
-
-### [FT-PrivacyScore: Personalized Privacy Scoring Service for Machine Learning Participation](http://arxiv.org/abs/2410.22651)
-
-**FT-PrivacyScore: 機械学習参加のための個別化プライバシースコアサービス**
-
-Yuechun Gu, Jiajie He, Keke Chen
-
-- プライバシー損失を定量化する手法は精度に影響を与える
-- 多くの業界や研究では制御されたデータアクセスが主流
-- 個別のプライバシーリスクを事前評価する定量的手段がない
-- FT-PrivacyScoreで効率的にプライバシーリスクを推定可能
-
-プライバシーを守りつつ機械学習に参加できるなんてすごいね！もしこれがもっと広まったら、みんなのデータ活用がもっと安全に行えそう！
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-10-30 02:41
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-30 23:24
 
 - - -
 
-### [FISC: Federated Domain Generalization via Interpolative Style Transfer and Contrastive Learning](http://arxiv.org/abs/2410.22622)
+### [PACER: Preference-conditioned All-terrain Costmap Generation](http://arxiv.org/abs/2410.23488)
 
-**FISC: 連合的なドメイン一般化を中間的スタイル転送と対比学習で実現**
+**PACER: 好みを条件とした全地形コストマップ生成**
 
-Dung Thuy Nguyen, Taylor T. Johnson, Kevin Leach
+Luisa Mao, Garrett Warnell, Peter Stone, Joydeep Biswas
 
-- 連合学習はプライバシーを保ちつつ共同学習を可能にするが、ドメインシフトが課題
-- FISCという新手法が複雑なドメイン分布を考慮し中間的スタイル転送と対比学習を活用
-- クライアント間の多ドメイン表現と公平な収束目標を実現
-- PACSやOffice-Home、IWildCamでの実験で精度が3.64%から57.22%向上
+- 現在の自律ロボットでは、地形は事前に訓練されたセマンティック分類器でラベル付けされ、コストが割り当てられる
+- しかし、この方法だと既知の地形に対するユーザーの好みしか反映できない
+- PACERは、新たな地形でのユーザーの好みに迅速に対応できるコストマップ生成手法を提案
+- 実データと合成データを使った評価で、従来手法よりも広く適応できることを示した
 
-この研究面白そうだね！中間的スタイル転送ってどんな感じなのかな？クライアントと協力していろんなドメインに強くなるのって、なんか解決策の連携っぽくてワクワクしちゃうね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CV, cs.DC, **投稿日時:** 2024-10-30 00:50
-
-- - -
-
-### [Vertical Federated Learning with Missing Features During Training and Inference](http://arxiv.org/abs/2410.22564)
-
-**トレーニングと推論中の欠損特徴を持つ垂直連合学習**
-
-Pedro Valdeira, Shiqiang Wang, Yuejie Chi
-
-- 垂直連合学習は特徴で分割されたデータセットでモデルを訓練するが、特徴欠損が課題
-- 不完全なサンプルを利用しないと一般化能力が低下し、推論時の制約がある
-- LASER-VFLという手法を提案し、特徴の欠損にも柔軟に対応可能なモデルを訓練
-- 数値実験でベースラインを超える性能を示し、特徴欠損があっても精度向上を達成
-
-この研究、めっちゃ実践的で興味深いね！従来の問題をクリアしつつ性能も向上するなんて、将来のAIの現場適用に超期待できる感じがする！
+PACERって、まるでオーダーメイドの道を作ってくれちゃうみたいで楽しそう！どんな地形でも、それぞれの好みに合わせて対応してくれるから、ロボットたちはもっと自由に動ける時代が来るかもね！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, cs.DS, math.OC, **投稿日時:** 2024-10-29 22:09
+**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.CV, **投稿日時:** 2024-10-30 22:43
 
 - - -
 
-### [Unpicking Data at the Seams: VAEs, Disentanglement and Independent Components](http://arxiv.org/abs/2410.22559)
+### [Communication-Efficient Federated Learning over Wireless Channels via Gradient Sketching](http://arxiv.org/abs/2410.23424)
 
-**データの解体: VAE、解きほぐしと独立成分**
+**ワイヤレスチャネル上での勾配スケッチングによる通信効率の良い連合学習**
 
-Carl Allen
+Vineet Sunil Gattani, Junshan Zhang, Gautam Dasarathy
 
-- 解きほぐしとは、データの重要な統計的に独立した要因を識別する技術である
-- 解きほぐしは合成データ生成や頑健な特徴分類、効率的なエンコーディングに有用
-- 変分オートエンコーダー(VAE)での解きほぐしが特に進展している
-- VAEの目的がデータを解きほぐし、独立成分を識別する過程を明らかにした
+- ワイヤレス多元接続チャネルでの大規模連合学習は重要だが、帯域幅制限やデータの不均一性が課題。
+- FPSを提案し、帯域幅制限に対処するためにカウントスケッチ構造を使用し圧縮を効率化。
+- FPSの損失関数を改良し、データ不均一性に対応できるよう調整し、収束性も確認。
+- 理論と数値実験で、FPSの安定性や精度、効率性を確認し、現行手法と比較して有望であると示された。
 
-解きほぐしって、データの裏側を理解するためのカギみたい！VAEが進化することで、次世代の合成データがもっとパワフルになりそうでワクワクするね！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, stat.ML, **投稿日時:** 2024-10-29 21:54
-
-- - -
-
-### [Adaptive Aggregation Weights for Federated Segmentation of Pancreas MRI](http://arxiv.org/abs/2410.22530)
-
-**膵臓MRIの連合学習における適応型集約重み**
-
-Hongyi Pan, Gorkem Durak, Zheyuan Zhang, Yavuz Taktak, Elif Keles, Halil Ertugrul Aktas, Alpay Medetalibeyoglu, Yury Velichko, Concetto Spampinato, Ivo Schoots, Marco J. Bruno, Rajesh N. Keswani, Pallavi Tiwari, Candice Bolan, Tamas Gonda, Michael G. Goggins, Michael B. Wallace, Ziyue Xu, Ulas Bagci
-
-- 連合学習はデータを共有せずに共同モデル学習を可能にし、医療画像に最適
-- 伝統的な連合平均法はドメイン間での一般化が困難であり、膵臓MRIで顕著
-- 適応型重みの導入により、クライアントの貢献度を動的に調整し汎化性を向上
-- 複数病院で有意な改善を示し、ドメインシフトの影響を低減しつつプライバシーを維持
-
-膵臓MRIなんてすごく重要そう！この技術がもっと発展すれば、病院同士でのデータ共有の不安も減りそうだよね。みんなの命を救う手助けができるかも！
+これ、めっちゃ面白いよね！データの不均一性に対処しているところがすごく実用的。無線通信での連合学習の新しい可能性が広がりそう♪
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** eess.IV, cs.CV, cs.DC, **投稿日時:** 2024-10-29 20:53
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-10-30 20:01
 
 - - -
 
-### [Evaluating utility in synthetic banking microdata applications](http://arxiv.org/abs/2410.22519)
+### [Multilingual Vision-Language Pre-training for the Remote Sensing Domain](http://arxiv.org/abs/2410.23370)
 
-**合成銀行ミクロデータ利用の有用性評価**
+**リモートセンシング領域における多言語視覚言語事前学習**
 
-Hugo E. Caceres, Ben Moews
+João Daniel Silva, Joao Magalhaes, Devis Tuia, Bruno Martins
 
-- 中央銀行は詳細な銀行ミクロデータを収集するが、銀行機密法によりアクセス制限がある
-- 合成データ生成技術が登場したが、銀行の課題に焦点を当てた評価枠組みは欠けている
-- 提案した枠組みを用い、パラグアイ中央銀行のデータから初の合成銀行ミクロデータを生成
-- 頻度表に基づく推論手法が適しており、生成モデルより優れていることを示した
+- CLIPの手法はリモートセンシングデータの視覚と言語タスクで広く使われている
+- 提案手法は多言語CLIPモデルの微調整と自己教師あり手法を用いる
+- 英語キャプション付き画像データセットを多言語に自動翻訳し学習に利用
+- 提案モデルRS-M-CLIPは多言語画像テキスト検索やゼロショット分類で成果
 
-合成データを使って秘密を守りながらもデータの本質をつかむなんて、めっちゃ未来的！銀行のデータがもっとオープンになったら、新しい金融サービスを考えるきっかけになりそうだよね。それに、研究が色んなとこに広まったら面白いことがたくさんありそう！
+多言語対応なんてワクワクする！リモートセンシングがもっと便利になる予感がするね！提案モデルで画像検索がさらに進むといいなぁ。
 
-**Comment:** 28 pages, 4 figures
+**Comment:** Accepted at ACM SIGSPATIAL 2024 - Research Papers
 
-**トピック:** [合成データ](sd), [PETs](pets), **カテゴリ:** q-fin.CP, cs.LG, 90B90, 91B82, 62P20, **投稿日時:** 2024-10-29 20:20
-
-- - -
-
-### [Privacy-Preserving Dynamic Assortment Selection](http://arxiv.org/abs/2410.22488)
-
-**プライバシー保護の動的アソートメント選択**
-
-Young Hyun Cho, Will Wei Sun
-
-- プライバシー保護の必要性が増大する中、MNLバンディットモデルを用いた新たなフレームワークを提案。
-- 摂動されたアッパーコンフィデンスバウンド法を用いて、ユーザーの効用推定にノイズを加え探索と活用のバランスを確保。
-- 提案手法は動的環境に適した共同差分プライバシーを満たし、推論攻撃のリスクを効果的に軽減。
-- 提案手法の理論的な後悔境界を導出し、Expediaホテルデータセットを使用したシミュレーションで性能向上を実証。
-
-この研究、めっちゃおもしろい！プライバシーを守りながらも個人に最適なレコメンデーションとか、未来のサービスって感じでワクワクするよね。実用化されたら旅行とかもっと楽しくなりそう！
-
-
-
-**トピック:** [差分プライバシー](dp), **カテゴリ:** stat.ML, cs.AI, cs.CR, cs.LG, **投稿日時:** 2024-10-29 19:28
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-10-30 18:13

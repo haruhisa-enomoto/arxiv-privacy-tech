@@ -1,5 +1,297 @@
 [
   {
+    "url": "http://arxiv.org/abs/2411.07972",
+    "title": "A Zero-Knowledge PCP Theorem",
+    "japanese_title": "ゼロ知識PCP定理",
+    "authors": [
+      "Tom Gur",
+      "Jack O'Connor",
+      "Nicholas Spooner"
+    ],
+    "categories": [
+      "cs.CC",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 任意の多項式q*に対し、NPのための定数クエリ非適応PCPが存在する\n- 任意の多項式時間の敵対者に対し、完全ゼロ知識の指数サイズ定数クエリPCPを構築\n- これは最適パーフェクトゼロ知識PCPの最近の構築を改善\n- 1997年のKilianらの研究をさらに発展させたもの\n\nゼロ知識証明の最前線って感じ！新しい構築方法が既存のものを改善してるなんて、面白そうだよね。こんな研究が進むと、将来的にセキュアなシステムがもっとたくさんできそう！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-11-12T17:54:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07959",
+    "title": "On the Convergence of Continual Federated Learning Using Incrementally Aggregated Gradients",
+    "japanese_title": "増分的に集約された勾配を用いた継続的連合学習の収束について",
+    "authors": [
+      "Satish Kumar Keshri",
+      "Nazreen Shah",
+      "Ranjitha Prasad"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 継続的連合学習（CFL）は、ストリーミングデータから学び効率、プライバシー、スケーラビリティを向上させる手法である\n- CFLの課題は、古いタスクの精度が新しいタスクの学習で低下する、いわゆるグローバル破滅的忘却に対処することである\n- 提案手法C-FLAGは、メモリ上のエッジベースの勾配更新と現在のデータに基づく集約勾配からなる新しい再生メモリベースの連合戦略である\n- C-FLAGはタスク間での破滅的忘却を最小化し、収束速度$O(1/\\sqrt{T})$を達成して多くの最先端手法を上回る性能を示した\n\nこの研究おもしろそう！C-FLAGでタスクを忘れないっていう発想、新しいかも！AIがもっと賢くなる予感がするね。しかも、プライバシーを守りながら学習するって期待できる～！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T17:36:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07889",
+    "title": "A Stochastic Optimization Framework for Private and Fair Learning From Decentralized Data",
+    "japanese_title": "プライバシーと公正さを両立した分散データからの学習のための確率的最適化フレームワーク",
+    "authors": [
+      "Devansh Gupta",
+      "A. S. Poornash",
+      "Andrew Lowy",
+      "Meisam Razaviyayn"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習モデルのプライバシーと公正性の課題に対抗するアルゴリズムを開発\n- 各シロデータの記録レベル差分プライバシー（ISRL-DP）を満たす\n- 公正性として、人口平等や均等的成果を促進できる\n- 以前は必要だった強凸性なしに、緩やかな滑らかさでの収束を保証\n\nデータのプライバシーも守りつつ、公正な結果を導くなんてすごくない？これ、社会にめちゃ貢献できそうな技術だよね！新しい方法でシロデータを守るなんて、聞くだけでワクワクしちゃう！",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-11-12T15:51:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07841",
+    "title": "Federated Learning for Discrete Optimal Transport with Large Population under Incomplete Information",
+    "japanese_title": "連合学習を用いた大規模な不完全情報下での離散的最適輸送",
+    "authors": [
+      "Navpreet Kaur",
+      "Juntao Chen",
+      "Yingdong Lu"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 最適輸送は資源の効率的な配分を目指すが、大規模で異質な集団においてスケーリングが難しい\n- 既知のタイプ分布では、資源配分を最適化するための分散アルゴリズムを提案\n- タイプ分布が未知の場合、プライバシーを保った連合学習アプローチを開発\n- ケーススタディによって提案アルゴリズムの性能を評価し効果を実証\n\n連合学習で巨大で多様な集団を効率的に扱うチャレンジ、面白そう！プライバシーを守りながらの最適化だから、実用的な応用も期待できるね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T14:46:31+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07826",
+    "title": "Efficient Federated Finetuning of Tiny Transformers with Resource-Constrained Devices",
+    "japanese_title": "リソースが限られたデバイスでの小型トランスフォーマーの効率的な連合微調整",
+    "authors": [
+      "Kilian Pfeiffer",
+      "Mohamed Aboelenien Ahmed",
+      "Ramin Khalili",
+      "Jörg Henkel"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデルは多くのデータと高いリソースを要求するが、リソースが限られた環境では困難がある\n- LoRAは連合学習でパラメータ効率は良いが、メモリとFLOPsの効率が悪いことがわかった\n- 新しい層の微調整スキームは、リソース制約のあるデバイスでも事前訓練されたNNを活用可能にする\n- 提案手法は現在の最先端技術を超え、同質または異質な計算とメモリ制約において高い精度を達成した\n\nデバイスの制約がある中でも、しっかりと先端技術を活かしつつ効率を高める工夫が面白そう！新しい微調整スキーム、ぜひ試してみたいね。連合学習の世界もますます広がりそうで楽しみ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T14:22:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07816",
+    "title": "Dual-Criterion Model Aggregation in Federated Learning: Balancing Data Quantity and Quality",
+    "japanese_title": "連合学習におけるデュアル基準モデル集約: データ量と質のバランス",
+    "authors": [
+      "Haizhou Zhang",
+      "Xianjia Yu",
+      "Tomi Westerlund"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "6 pages",
+    "summary": "- 連合学習ではクライアントのデータを交換せずにモデルを共有する手法が主流\n- 従来の集約アルゴリズムはデータを量的に評価しがちで、質的な違いを無視\n- 本研究は、データ量と質を考慮したデュアル基準の集約アルゴリズムを提案\n- 提案手法はCIFAR-10などで既存の最先端手法を上回る性能を示した\n\nこれって、データの量だけじゃなくて質もバランスよく考えるのがポイントなんだね！クライアントのデータがバラバラでもちゃんと貢献できるのが面白いな〜。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T14:09:16+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07806",
+    "title": "Federated Low-Rank Adaptation with Differential Privacy over Wireless Networks",
+    "japanese_title": "差分プライバシーを用いた無線ネットワーク上の連合低ランク適応",
+    "authors": [
+      "Tianqu Kang",
+      "Zixin Wang",
+      "Hengtao He",
+      "Jun Zhang",
+      "Shenghui Song",
+      "Khaled B. Letaief"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "eess.SP"
+    ],
+    "comment": "6 pages, 3 figures, submitted to IEEE ICC 2025",
+    "summary": "- 大規模モデルの連合学習はプライバシー保護の問題を軽減する。\n- LoRAの利用で計算負荷を減らし効率的にモデル微調整が可能。\n- 分割されたFMがデバイス間で共有されプライバシー攻撃の懸念。\n- 無線チャンネルノイズを利用し差分プライバシーを実現。\n\n差分プライバシーの工夫が面白いね！通信の「ノイズ」を役立てちゃうなんて発想がユニークだし、これは革新的な無線通信のプライバシー保護の手法になる予感！",
+    "topics": [
+      "連合学習",
+      "差分プライバシー"
+    ],
+    "published": "2024-11-12T14:01:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07752",
+    "title": "ALANINE: A Novel Decentralized Personalized Federated Learning For Heterogeneous LEO Satellite Constellation",
+    "japanese_title": "ALANINE: 異種LEO衛星コンステレーション向けの新たな分散個別連合学習",
+    "authors": [
+      "Liang Zhao",
+      "Shenglin Geng",
+      "Xiongyan Tang",
+      "Ammar Hawbani",
+      "Yunhe Sun",
+      "Lexi Xu",
+      "Daniele Tarchi"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "comment": "14 pages, 8 figures",
+    "summary": "- 最近のLEO衛星コンステレーションは、通信やナビゲーション、リモートセンシングなど多様な機能の統合で成長。\n- データの多様性や異なる画像解像度の不一致が、衛星間の効率的な共同計算の妨げになっている。\n- ALANINEは分散型FLで衛星画像超解像を行い、個別化PFLにより各衛星データの特性に対応。\n- モデル剪定技術を活用し、モデルの複雑さと伝送効率を最適化、データ処理の精度向上を実現。\n\nLEO衛星の世界ってなんか未来っぽくてワクワクするね！データの個別化も、宇宙での通信がもっと身近になりそうな予感！🌟",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T12:23:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07649",
+    "title": "Maritime Search and Rescue Missions with Aerial Images: A Survey",
+    "japanese_title": "航空画像を用いた海上捜索救助ミッションの調査",
+    "authors": [
+      "Juan P. Martinez-Esteso",
+      "Francisco J. Castellanos",
+      "Jorge Calvo-Zaragoza",
+      "Antonio Javier Gallego"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 海上捜索救助の迅速な対応が重要で、生存率に影響を与える\n- 無人航空機とカメラが海上捜索で効率的な人物検出を可能に\n- ディープラーニング利用が10年で進展し、自動検出技術が発展\n- 合成データを用いた幅広いシナリオ適用がデータ収集の課題に対処\n\n未来の海難救助がどんどん進化してるんだね！無人航空機とか映画みたいですごいし、技術が使えれば多くの命を救えるんじゃないかなってワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-12T08:57:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07523",
+    "title": "Collaborative and Federated Black-box Optimization: A Bayesian Optimization Perspective",
+    "japanese_title": "協調型および連合型ブラックボックス最適化：ベイズ最適化の視点",
+    "authors": [
+      "Raed Al Kontar"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "comment": "",
+    "summary": "- 連合型ブラックボックス最適化における分散実験、異質性、プライバシーが課題\n- グローバル、ローカル、予測の3つのフレームワークを提案し、課題に対応\n- ローカルフレームワークでは最小限の情報共有で意思決定を支援\n- ベイズ最適化を用い、記述的・予測的から処方的な学習への移行を目指す\n\nベイズ最適化を使って連合学習をもっとステキな方向に持っていくのってワクワクするね。これが進化したら私たちの日常でも活用されるかもしれないよ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-12T03:47:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07468",
+    "title": "Privacy-Preserving Verifiable Neural Network Inference Service",
+    "japanese_title": "プライバシー保護可能な検証可能ニューラルネットワーク推論サービス",
+    "authors": [
+      "Arman Riasi",
+      "Jorge Guajardo",
+      "Thang Hoang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "This paper is to appear at the Annual Computer Security Applications   Conference (ACSAC) 2024. The source code for our implementation can be found   at $\\href{https://github.com/vt-asaplab/vPIN}{github.com/vt-asaplab/vPIN}$",
+    "summary": "- MLaaSは便利だが、顧客データのプライバシー漏洩と信頼性が課題\n- vPINは部分準同型暗号と知識非対話型証明技術を使用し、データのプライバシーと検証性を両立\n- 証明回路の最適化を通じ、効率や性能を向上\n- 標準データセットでの実験で、vPINは証明時間や検証時間で高効率を達成\n\nプライバシーと信頼性を両立させたこの技術、これからのMLaaSのスタンダードになりそうじゃない？性能とプライバシーを犠牲にしなくて良さそうで、ワクワクするね！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-11-12T01:09:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07392",
+    "title": "Feature-Space Semantic Invariance: Enhanced OOD Detection for Open-Set Domain Generalization",
+    "japanese_title": "特徴空間における意味的変動の抑制：オープンセット領域一般化におけるOOD検出の強化",
+    "authors": [
+      "Haoliang Wang",
+      "Chen Zhao",
+      "Feng Chen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "comment": "IEEE BigData 2024, Ph.D. Forum",
+    "summary": "- オープンセット領域一般化は未見のドメインとクラスを扱う課題に焦点を当てる\n- 特徴空間における意味的一貫性を保つFSIを導入し、OOD検出の精度を向上\n- 生成モデルで合成データを作り出し、モデルの頑健性を強化する\n- 初期実験でAUROCが最大18.9%向上し、分布内分類精度も大幅に向上\n\n未知のクラスとドメインを一緒に扱えるなんてすごいね！新しいデータを合成してモデルを強化するなんて、次世代のAIっぽくてワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-11T21:51:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07391",
+    "title": "Federated Learning Client Pruning for Noisy Labels",
+    "japanese_title": "雑音ラベルのための連合学習クライアントプルーニング",
+    "authors": [
+      "Mahdi Morafah",
+      "Hojin Chang",
+      "Chen Chen",
+      "Bill Lin"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータプライバシーを保持しつつモデルをトレーニングするが、ノイズの多いラベルが課題\n- 既存手法はラベル修正や堅牢なトレーニングだが、高ノイズ下で効果が限定的\n- ClipFLはノイズクライアントを識別し除外する新たなフレームワークでNCSを用いる\n- ClipFLは雑音クライアント識別、性能向上、速い収束、通信コスト削減を達成\n\nノイズがある中でも効率的に連合学習できるのってすっごく重要だよねー。クライアントのプルーニングでより正確に学べるのは、未来のAIを賢くしてくれそうな気がする！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-11T21:46:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.07317",
+    "title": "SynRL: Aligning Synthetic Clinical Trial Data with Human-preferred Clinical Endpoints Using Reinforcement Learning",
+    "japanese_title": "SynRL: 強化学習を用いた人間の好む臨床エンドポイントに合致する合成臨床試験データの整合",
+    "authors": [
+      "Trisha Das",
+      "Zifeng Wang",
+      "Afrah Shafquat",
+      "Mandis Beigi",
+      "Jason Mezey",
+      "Jimeng Sun"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 臨床試験の患者記録共有はプライバシーと規制の問題で困難\n- 既存の合成データ生成法は臨床結果の特性を考慮していない\n- SynRLは強化学習でデータ生成をカスタマイズし品質を向上\n- SynRLは多様な合成データ生成法をカスタマイズ可能な汎用フレームワーク\n\nSynRLって、実際の患者データを使わなくてもよい方向性を示してくれる感じが素敵だね！プライバシーを守りながら研究を進められるところが未来を感じるよ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-11T19:19:46+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2411.07224",
     "title": "TempCharBERT: Keystroke Dynamics for Continuous Access Control Based on Pre-trained Language Models",
     "japanese_title": "TempCharBERT: 事前学習済み言語モデルに基づく継続的なアクセス制御のためのキー入力動力学",

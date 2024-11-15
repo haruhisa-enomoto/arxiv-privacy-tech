@@ -27,137 +27,156 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-11-14T04:22:38.092465
+更新: 2024-11-15T04:23:41.385400
 
 - - -
 
-### [Locally Private Sampling with Public Data](http://arxiv.org/abs/2411.08791)
+### [Advancing Fine-Grained Visual Understanding with Multi-Scale Alignment in Multi-Modal Models](http://arxiv.org/abs/2411.09691)
 
-**公開データを用いた局所的なプライバシーサンプリング**
+**マルチモーダルモデルにおける多スケールアライメントを活用した詳細な視覚理解の進展**
 
-Behnoosh Zamanlooy, Mario Diaz, Shahab Asoodeh
+Wei Wang, Zhaowei Li, Qi Xu, Linfeng Li, YiQing Cai, Botian Jiang, Hang Song, Xingcan Hu, Pengyu Wang, Li Xiao
 
-- ローカル差分プライバシーは、ユーザーデータを保護する機械学習で使用されるが、データ記録が単一であるという制約がある。
-- ユーザーのプライベートデータセットとパブリックデータセットの両方を活用する、局所的なプライバシーサンプリングの枠組みを提案。
-- プライベートなサンプルを生成しつつ、パブリックデータセットを保持するメカニズムを設計することを目的とする。
-- 一般的な$f$-分岐を用いた最小最大最適メカニズムを具体化し、実験で最先端のサンプラーと比較して効果を確認。
+- マルチモーダル大規模言語モデルは、多様なタスクで細かい視覚理解を達成
+- しかし、細粒度な知識の不十分なアライメントが課題で、詳細な把握が難しい
+- 新たな手法でテキスト、座標、画像の多スケール知識を効果的にアライメント
+- TinyGroundingGPTは約3Bパラメータで、複雑な視覚シナリオにおいても良好な性能
 
-ユーザーのデータを守りながらも、今あるデータをうまく活用しようってアイデアがめっちゃ新しい！これが広まったら、もっと安全にオープンデータを活用できる世の中になりそうでワクワクするね。
+新しいマルチモダル技術で視覚理解がもっと進化するなんてワクワクするね！TinyGroundingGPTも、より小さなモデルで高い精度を出せるなんて、自分でも使ってみたくなるかも。
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-13 17:17
-
-- - -
-
-### [FedSub: Introducing class-aware Subnetworks Fusion to Enhance Personalized Federated Learning in Ubiquitous Systems](http://arxiv.org/abs/2411.08699)
-
-**FedSub: ユビキタスシステムにおけるパーソナライズ連合学習向上のためのクラス認識サブネットワーク融合の導入**
-
-Mattia Giovanni Campana, Franca Delmastro
-
-- ユビキタスシステムでは、プライバシーを守りつつユーザの多様な行動に適応するモデルが重要である。
-- 既存の手法は、パーソナライズと一般化のバランスが取れず、グローバルモデルに依存しがちである。
-- FedSubは、クラス認識プロトタイプとサブネットワークを用いて個別化を強化する新手法である。
-- FedSubは、実験によりリアルなシナリオでのデータヘテロ性に対処し、最高精度を達成した。
-
-FedSubってすごくない？個々の特性を活かしたパーソナライズされたモデルって、未来の技術でめっちゃ期待できる！これからのウェアラブルデバイスとか、どんどんユーザーに合ったサービスになっていくんだろうなぁ。
-
-**Comment:** Submitted to Proceedings of the ACM on Interactive, Mobile, Wearable   and Ubiquitous Technologies (IMWUT)
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-13 15:42
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-14 18:57
 
 - - -
 
-### [Generalized Pose Space Embeddings for Training In-the-Wild using Anaylis-by-Synthesis](http://arxiv.org/abs/2411.08603)
+### [Towards efficient compression and communication for prototype-based decentralized learning](http://arxiv.org/abs/2411.09267)
 
-**自然環境における解析合成を用いた一般化ポーズ空間埋め込みの訓練**
+**プロトタイプベースの分散学習における効率的な圧縮と通信に向けて**
 
-Dominik Borer, Jakob Buhmann, Martin Guay
+Pablo Fernández-Piñeiro, Manuel Ferández-Veiga, Rebeca P. Díaz-Redondo, Ana Fernández-Vilas, Martín González-Soto
 
-- 大規模な手動ラベル付きデータに依存せず、ポーズ推定を行うための手法を提案
-- 単純な骨格表現が精度の低下を引き起こす問題を改善する新たな表現を開発
-- 合成データを用いて新しい表現を訓練し、ポーズの正確な予測を実現
-- 提案した手法は標準ベンチマークで従来の分析合成モデルを上回る性能を示す
+- プロトタイプベースの連合学習では、モデルパラメータの交換をプロトタイプや量子化データの送信に置き換える。
+- 中央集約型のプロトタイプなしによる分散学習は、動的な学習タスクに適応が早くなる。
+- プロトタイプの冗長性を削減するために、有用なプロトタイプのみを更新メッセージで送信し、クラスタリングを使う。
+- 並列ゴシッピングを使用し、通信負荷を削減しつつ収束率を維持する。
 
-ポーズをレンダリングするってすごいよね！これで正確なポーズ推定がもっと簡単になりそうだね。手動のラベリングが減るのも嬉しいし、新しい骨格表現がどんなものか見てみたいな。
+プロトタイプを使った効率的な学習ってなんかイケてる！IoTと相性良さそうだし、未来の通信技術に広がりそうでワクワクするね。
 
+**Comment:** 15 pages, 2 tables, 7 figures, 6 algorithms
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.HC, **投稿日時:** 2024-11-13 13:40
-
-- - -
-
-### [CorrSynth -- A Correlated Sampling Method for Diverse Dataset Generation from LLMs](http://arxiv.org/abs/2411.08553)
-
-**CorrSynth -- LLMから多様なデータセットを生成するための相関サンプリング手法**
-
-Suhas S Kowshik, Abhishek Divekar, Vijit Malik
-
-- LLMを用いたデータ生成は多様性不足やバイアス問題がある
-- CorrSynthを提案し、相関サンプリング戦略で多様で忠実なデータ生成を実現
-- 提案手法は他のガイダンス技術よりも複雑さを克服
-- 実験によりCorrSynthが多様性と性能向上に効果的であることを確認
-
-LLMからのデータ生成をもっと多様で良い感じにする新しい手法の話だね！相関サンプリングって面白そう、色んなデータが簡単にいっぱい作れるようになりそう〜。どうやってバイアスなくすのかなってこれからも気になるな。
-
-**Comment:** Published as a main conference paper at EMNLP 2024; First two authors   contributed equally
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, **投稿日時:** 2024-11-13 12:09
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-14 08:08
 
 - - -
 
-### [Dynamic Thresholding Algorithm with Memory for Linear Inverse Problems](http://arxiv.org/abs/2411.08284)
+### [SAFES: Sequential Privacy and Fairness Enhancing Data Synthesis for Responsible AI](http://arxiv.org/abs/2411.09178)
 
-**メモリを用いた線形逆問題のための動的しきい値アルゴリズム**
+**SAFES: 責任あるAIのための逐次的プライバシーと公正性を高めるデータ合成**
 
-Zhong-Feng Sun, Yun-Bin Zhao, Jin-Chuan Zhou, Zheng-Hai Huang
+Spencer Giddens, Fang Liu
 
-- ROTPは小中規模の線形逆問題を解決するが、大規模問題では計算コストが高い。
-- マージした最適$k$-しきい値技術と反復法によりDTAMアルゴリズムを提案。
-- DTAMは低計算複雑性で線形逆問題の解を見つけられる。
-- DTAMは合成データや音声・画像処理で高速かつ競争力のある動作を実証。
+- データ駆動の意思決定で情報のプライバシーと公正性を確保することが重要である
+- 差分プライバシーと公正性は個別に扱われがちで、その統合には課題がある
+- SAFESは差分プライバシーに基づきデータ合成と公正性向上を組み合わせた手法である
+- 実証実験により、SAFESの出力データは、プライバシーを保ちながら公正性を向上することを示した
 
-しきい値アルゴリズムって工夫次第でこんなに速くできるんだね！実用性も高そうだから楽しみ～。実際にいろんなデータセットで試してみる価値がありそうだわ！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.IT, cs.NA, math.IT, math.NA, **投稿日時:** 2024-11-13 01:50
-
-- - -
-
-### [SynapsNet: Enhancing Neuronal Population Dynamics Modeling via Learning Functional Connectivity](http://arxiv.org/abs/2411.08221)
-
-**SynapsNet: 機能的接続学習によるニューロン集団ダイナミクスモデルの強化**
-
-Parsa Delavari, Ipek Oruc, Timothy H Murphy
-
-- 大規模ニューロンデータは新たなモデリング技術を必要としている
-- SynapsNetはニューロン間の動的相互作用を効果的にモデル化する
-- 各ニューロンは潜在埋め込みに基づき電流を送受信する
-- 実験ではSynapsNetが既存モデルを上回る性能を示した
-
-そんなに難しくて専門的なことをやってるんだね！ニューロンの相互作用が理解できると、脳の仕組みがもっとよく分かるかも？将来の脳研究にすごく役立ちそうな技術だね！
+プライバシーって本当に大切だよね！SAFESのように、同時に公正性も考えてくれる技術は未来のAIにぴったり。彼らのアプローチが、他の分野でも応用されていくといいな！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** q-bio.NC, cs.LG, **投稿日時:** 2024-11-12 22:25
+**トピック:** [合成データ](sd), [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-11-14 04:36
 
 - - -
 
-### [Large Language Models Can Self-Improve in Long-context Reasoning](http://arxiv.org/abs/2411.08147)
+### [Mono2Stereo: Monocular Knowledge Transfer for Enhanced Stereo Matching](http://arxiv.org/abs/2411.09151)
 
-**大規模言語モデルは長文推論で自己改善できる**
+**Mono2Stereo: 単眼知識移転によるステレオマッチングの強化**
 
-Siheng Li, Cheng Yang, Zesen Cheng, Lemao Liu, Mo Yu, Yujiu Yang, Wai Lam
+Yuran Wang, Yingping Liang, Hesong Li, Ying Fu
 
-- 大規模言語モデル(LLM)は長文処理で進展しているが、長文推論が苦手
-- 現在の手法は合成データで微調整するが、専門家の注釈に依存し限界がある
-- 新手法\oursを提案し、質問の複数出力に基づく微調整で改善を図る
-- 実験で他手法を上回る成果を示し、新たな自己改善技術の可能性を開く
+- ステレオマッチングは合成データと実データ間のギャップとラベルの希薄さが問題
+- 単眼深度推定の知識移転でステレオマッチングの性能向上を提案
+- 合成データでの事前トレーニングと実データの微調整の2段階トレーニング
+- 知識蒸留戦略でエッジぼかしを抑えつつ一貫性を向上
 
-長い文脈の推論って難しいけど、モデル自身が改善しちゃうってすごいね！これが広がると、もっと賢いAIがどんどん生まれてくるんじゃないかな。興味津々！
+これは単眼データからステレオへの知識移転を活用するんだね！コードが公開されるのが楽しみ！
 
-**Comment:** Project Page: https://github.com/SihengLi99/SEALONG
+**Comment:** 8 pages, 6 figures
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-11-12 19:53
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-14 03:01
+
+- - -
+
+### [Laplace Transform Interpretation of Differential Privacy](http://arxiv.org/abs/2411.09142)
+
+**差分プライバシーのラプラス変換解釈**
+
+Rishav Chourasia, Uzair Javaid, Biplap Sikdar
+
+- 差分プライバシーの概念をプライバシー損失分布のラプラス変換で表現
+- 時間と周波数領域の二重性を利用し、DPの特性について新たな考察を提供
+- R\'enyi DP曲線と$(\epsilon, \delta(\epsilon))$-DP曲線がラプラス・逆ラプラス変換であることを示す
+- すべての$\epsilon$の値に対して正確な$(\epsilon, \delta)$-DPの適応合成定理を証明
+
+この研究は、差分プライバシーをもっと視覚的に理解するための新しいアプローチを示していて面白そう！ラプラス変換を使って、複雑な概念をより直感的に説明できるかもしれないね。
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-11-14 02:52
+
+- - -
+
+### [Drone Detection using Deep Neural Networks Trained on Pure Synthetic Data](http://arxiv.org/abs/2411.09077)
+
+**深層ニューラルネットワークを使用した純粋な合成データによるドローン検出**
+
+Mariusz Wisniewski, Zeeshan A. Rana, Ivan Petrunin, Alan Holt, Stephen Harman
+
+- ドローン検出におけるデータ不足を合成データで補い、軽減可能
+- 合成データで訓練されたモデルの実世界データへの移行性を検証
+- 合成データで訓練したモデルでも実データに近い性能を発揮
+- 空港でのドローン検出など安全性重要なシナリオ生成に応用可能
+
+すごいね、合成データでこんなに高い精度が出るなんて。空港なんかで実際に使われるようになったら安心だよね。もっといろんな場面で合成データを活用する研究が進んでくるといいな。
+
+**Comment:** 12 pages, 8 figures
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-11-13 23:09
+
+- - -
+
+### [Minimax Optimal Two-Sample Testing under Local Differential Privacy](http://arxiv.org/abs/2411.09064)
+
+**局所差分プライバシーにおけるミニマックス最適な2標本検定**
+
+Jongmin Mun, Seungwoo Kwak, Ilmun Kim
+
+- 局所差分プライバシーに基づく多項分布と連続データの2標本検定で、プライバシーと統計的有用性のトレードオフを探求
+- ラプラスやGoogleのRAPPORなどのメカニズムを用いた多項分布向けのプライベートな置換検定を提案
+- ヒルダーとベゾフの滑らかさクラスについて、LDPにおける一様分離率を調査し、連続データ検定に拡張
+- 非適応的なスムーズネスパラメータを持つ密度検定向けに、ボンフェローニアプローチを基にした適応型検定を提案
+
+この論文、プライバシーを保持しつつしっかりとした検定ができるの面白そう！特にGoogleのRAPPORみたいな実用的な手法を活かせるってところがいいね。やっぱりプライバシーと便利さは天秤にかけたくなるけど、そこをうまくバランス取ってる感じがする！
+
+**Comment:** 59 pages, 5 figures
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** stat.ML, cs.CR, cs.LG, 62G10, **投稿日時:** 2024-11-13 22:44
+
+- - -
+
+### [SAFELOC: Overcoming Data Poisoning Attacks in Heterogeneous Federated Machine Learning for Indoor Localization](http://arxiv.org/abs/2411.09055)
+
+**SAFELOC: 異種連合学習によるインドアローカライゼーションにおけるデータポイズニング攻撃の克服**
+
+Akhil Singampalli, Danish Gufran, Sudeep Pasricha
+
+- インドアローカライゼーションの精度は、デバイスの多様性やデータポイズニング攻撃によって低下しやすい
+- SAFELOCという新しいフレームワークを提案し、これらの課題下でもローカライゼーションの誤差を最小化する
+- 連合学習を利用することでユーザーデータのプライバシーを守りつつ、データポイズニング検出と位置特定を行う
+- 実験では、既存フレームワークに比べ誤差5.9倍、最悪誤差7.8倍、推論遅延2.1倍の改善を実現
+
+面白そう！デバイスが異なっても性能が上がるんだね。セキュリティとプライバシーを両立させて、将来のアプリケーションに役立ちそうでワクワクする！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, cs.CR, **投稿日時:** 2024-11-13 22:28

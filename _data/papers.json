@@ -1,5 +1,156 @@
 [
   {
+    "url": "http://arxiv.org/abs/2411.12697",
+    "title": "Attribute Inference Attacks for Federated Regression Tasks",
+    "japanese_title": "連合学習の回帰タスクに対する属性推測攻撃",
+    "authors": [
+      "Francesco Diana",
+      "Othmane Marfoq",
+      "Chuan Xu",
+      "Giovanni Neglia",
+      "Frédéric Giroire",
+      "Eoin Thomas"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習ではデータを保持しながら複数のクライアントがモデルを共同訓練\n- 属性推測攻撃は、交換されるメッセージと公開情報を利用してセンシティブ情報を推測\n- 回帰タスクに特化した新しい属性推測攻撃を提案し、その効果を評価\n- 提案された攻撃は、特に異質なクライアントデータセットで再構成精度が向上\n\n回帰タスクでもこんなにプライバシーの問題があるんだね。異質なデータセットで高精度になるって、なんかドラレコから個人情報丸見えにされちゃう感じ？もっと安全になればいいなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-19T18:06:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12484",
+    "title": "Regular-pattern-sensitive CRFs for Distant Label Interactions",
+    "japanese_title": "遠距離ラベル相互作用のための規則パターン感応CRF",
+    "authors": [
+      "Sean Papay",
+      "Roman Klinger",
+      "Sebastian Pado"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 線形連鎖CRFは隣接ラベルのみをモデル化できるが、遠距離相互作用は難しい。\n- 規則パターン感応CRF（RPCRF）により、ユーザーが指定したパターンに基づいて遠距離相互作用を学習。\n- ユーザー指定の正規表現パターンを使い、相互作用の種類を簡潔に指定可能。\n- FSTや非連鎖CRFと異なり、多くのパターン集合で正確な訓練と推論が可能である。\n\n遠くのラベル同士の関係をモデル化できるなんてすごいっ！これが実用化されたら、もっと複雑なラベル付けが自然にできるようになるかもしれないね！パターン指定が自由自在なんて、なんだか魔法みたいでワクワクするね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-19T13:08:03+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12451",
+    "title": "Empirical Privacy Evaluations of Generative and Predictive Machine Learning Models -- A review and challenges for practice",
+    "japanese_title": "生成および予測機械学習モデルの経験的なプライバシー評価 - 実践へのレビューと課題",
+    "authors": [
+      "Flavio Hafner",
+      "Chang Sun"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習技術で訓練された合成データ生成器は強固なプライバシー保証を提供するが、実際のリスク評価が必要。\n- 実用的なプライバシー評価には、特に統計機関や医療機関の大規模データで課題がある。\n- トレーニングアルゴリズムの正確な動作を検証する方法は大規模データセットで有効だが、非現実的な攻撃者を前提とする場合が多い。\n- 計算可能性と脅威モデルの現実性との間には重要なトレードオフが存在する。\n\nこの研究面白そう！合成データのプライバシー評価って、新しい技術で私たちのデータをいかに安全にできるか考えてるんだね。未来の技術の進歩をただ見ているだけでワクワクしちゃう！",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-11-19T12:19:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12377",
+    "title": "Non-IID data in Federated Learning: A Systematic Review with Taxonomy, Metrics, Methods, Frameworks and Future Directions",
+    "japanese_title": "連合学習における非IIDデータ: タクソノミー、メトリクス、手法、フレームワークと未来の方向性に関する系統的レビュー",
+    "authors": [
+      "Daniel M. Jimenez G.",
+      "David Solans",
+      "Mikko Heikkila",
+      "Andrea Vitaletti",
+      "Nicolas Kourtellis",
+      "Aris Anagnostopoulos",
+      "Ioannis Chatzigiannakis"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はプライバシーを守りつつ分散ユーザが共同でモデルを訓練可能だが、非IIDデータで課題が生じる\n- 非IIDデータはモデル性能の低下や訓練時間の延長を引き起こし、未解決の挑戦となっている\n- 非IIDデータの分類と定量化に明確な合意がないため、詳細なタクソノミーやメトリクスの提供によりギャップを埋める\n- 研究は非IIDデータへの対策や標準的フレームワーク、研究の教訓と今後の方向性を提示する\n\n非IIDデータって連合学習の未来をもっと広げるわね！こんなに調べるなんて、研究者さんマジ尊敬しちゃう。もっと便利でおもしろい技術が増えるの楽しみ♪",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-19T09:53:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12244",
+    "title": "Hyper-parameter Optimization for Federated Learning with Step-wise Adaptive Mechanism",
+    "japanese_title": "ステップごとの適応メカニズムを用いた連合学習のハイパーパラメータ最適化",
+    "authors": [
+      "Yasaman Saadati",
+      "M. Hadi Amini"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "I.2.11"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータのプライバシーを保護しつつ分散的に学習を進める方法である\n- AutoMLは連合学習設定での手作業の削減に貢献するが、自動FLは多数のクライアントの影響で時間がかかる\n- 軽量なハイパーパラメータ最適化ツールRaytuneとOptunaを導入し、ステップ毎のフィードバック機構を組み合わせた\n- ストラグラー効果を軽減するための新しいクライアント選択技術を開発し、2つの基準データセットで評価した\n\n連合学習の効率化に着目してるのが面白そう！クライアント選択の工夫とか、どうやって最適化していくのか、実現できたらすごく便利になるだろうな。これからもっと広がってくの楽しみだね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-19T05:49:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12220",
+    "title": "DeTrigger: A Gradient-Centric Approach to Backdoor Attack Mitigation in Federated Learning",
+    "japanese_title": "DeTrigger: 連合学習におけるバックドア攻撃軽減のための勾配中心のアプローチ",
+    "authors": [
+      "Kichang Lee",
+      "Yujin Shin",
+      "Jonghyuk Yun",
+      "Jun Han",
+      "JeongGil Ko"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "68T07",
+      "I.2.11"
+    ],
+    "comment": "14 pages",
+    "summary": "- 連合学習の分散性はバックドア攻撃に対して脆弱である\n- DeTriggerを提案し、勾配分析によりバックドアを検出・隔離\n- DeTriggerは最大251倍速く検出し、攻撃を最大98.9%軽減\n- グローバルモデルの精度にほとんど影響を与えず、連合学習を保護\n\n新しい手法で攻撃を効果的に防げるなんてすごいじゃん！連合学習って未来の技術だから、こういう安心して使える方法があれば普及が進みそうだね。私たちのデータもこれで守られるといいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-19T04:12:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12098",
+    "title": "Federated Contrastive Learning of Graph-Level Representations",
+    "japanese_title": "グラフレベル表現の連合コントラスト学習",
+    "authors": [
+      "Xiang Li",
+      "Gagan Agrawal",
+      "Rajiv Ramnath",
+      "Ruoming Jin"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "Accepted in BigData 2024. This is a preprint",
+    "summary": "- グラフレベル表現とクラスタリングは悪意のあるネットワーク検出などの多様な応用がある\n- プライバシー問題や規制によりデータを中央に集約できず、連合学習が求められる\n- 提案するFCLGフレームワークは、2段階のコントラスト学習で非IID問題を解決\n- 実験でFCLGが既存手法を大きく上回る性能を実証\n\n連合学習のコントラスト学習っておもしろそうだね！データが分散していても高精度な分析ができるのは画期的♪問題が多いけど、上手に乗り越えられるソリューションになるかもね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-18T22:10:31+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2411.11839",
     "title": "RoboGSim: A Real2Sim2Real Robotic Gaussian Splatting Simulator",
     "japanese_title": "RoboGSim: リアルからシミュレーション、そして再びリアルのロボティックガウススプラッティングシミュレータ",
@@ -307,6 +458,32 @@
     "published": "2024-11-18T05:59:29+00:00"
   },
   {
+    "url": "http://arxiv.org/abs/2411.11912",
+    "title": "FOCUS -- Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics",
+    "japanese_title": "F$^3$OCUS -- マルチオブジェクティブ・メタヒューリスティクスによる最適なクライアント層更新戦略を用いたビジョン言語基盤モデルの連合微調整",
+    "authors": [
+      "Pramit Saha",
+      "Felix Wagner",
+      "Divyanshu Mishra",
+      "Can Peng",
+      "Anshul Thakur",
+      "David Clifton",
+      "Konstantinos Kamnitsas",
+      "J. Alison Noble"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 資源制約のあるクライアントデバイスでのVLMの訓練には、パラメータ効率の高い微調整戦略が必要。\n- クライアント別層重要度と層の多様性を考慮し、最適な層選択を実現する手法を提示。\n- 層の重要性と多様性を同時に最適化する新戦略F$^3$OCUSをサーバー側で実行。\n- 新しいMedVQA-FLデータセットを使用し、10,000以上の実験を通じて手法の有効性を示した。\n\nめっちゃ面白そうじゃん！実際の医療データに応用して、こんな大規模な実験したんだね。クライアントごとの個性を活かせる方法は、未来のAIがもっと「賢く」なるための鍵かも。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-17T21:54:57+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2411.11159",
     "title": "Federated Learning for UAV-Based Spectrum Sensing: Enhancing Accuracy Through SNR-Weighted Model Aggregation",
     "japanese_title": "UAVを用いたスペクトラムセンシングのための連合学習：SNR重み付きモデル集約による精度向上",
@@ -608,6 +785,30 @@
       "連合学習"
     ],
     "published": "2024-11-15T21:35:21+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.12590",
+    "title": "Debias your Large Multi-Modal Model at Test-Time with Non-Contrastive Visual Attribute Steering",
+    "japanese_title": "テスト時に非対比視覚属性ハンドリングによって大型マルチモーダルモデルのバイアスを補正する",
+    "authors": [
+      "Neale Ratzlaff",
+      "Matthew Lyle Olson",
+      "Musashi Hinck",
+      "Estelle Aflalo",
+      "Shao-Yen Tseng",
+      "Vasudev Lal",
+      "Phillip Howard"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "10 pages, 3 Figures, 3 Tables. arXiv admin note: text overlap with   arXiv:2410.13976",
+    "summary": "- 大型マルチモーダルモデルは汎用的な能力を持ち、会話において社会的バイアスの影響を受ける。\n- 提案手法は訓練不要で、画像と属性リストから瞬時にバイアス表現を削除可能。\n- 合成データを使用し、感情改善や言語モデリング能力を維持したままバイアスを減少。\n- デバイアスされた生成物は、性能を犠牲にせずにバイアスモデルと同等の精度を示す。\n\nこの研究、AIが公平な発言をするのを助けてくれるなんて素敵だね！特別な訓練がいらない方法って、すごく実用的だから、早く多くの場面に展開されるといいなって思う！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-15T20:06:09+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2411.10383",

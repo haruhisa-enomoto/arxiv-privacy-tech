@@ -27,327 +27,270 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-11-27T04:24:47.453162
+更新: 2024-11-28T04:24:29.172055
 
 - - -
 
-### [RealSeal: Revolutionizing Media Authentication with Real-Time Realism Scoring](http://arxiv.org/abs/2411.17684)
+### [Task Arithmetic Through The Lens Of One-Shot Federated Learning](http://arxiv.org/abs/2411.18607)
 
-**RealSeal: リアルタイムなリアリズムスコアリングによるメディア認証の革命**
+**ワンショット連合学習を通じたタスク算術の視点**
 
-Bhaktipriya Radharapu, Harish Krishna
+Zhixu Tao, Ian Mason, Sanjeev Kulkarni, Xavier Boix
 
-- ディープフェイクや改ざんメディアの脅威に対応するため、メディア認証の再考が必要
-- 現実のコンテンツにウォーターマークを施す手法を提案し、従来手法の限界を克服
-- コンテンツのリアリズムをリアルタイムで評価し、信頼性を高めるため画像メタデータに埋め込む
-- 人間のリアリズムに関する推論と機械学習を組み合わせることで、デジタルメディアの新たな基準を確立
+- タスク算術はモデルの統合技術で、複数モデルの能力を一つのモデルに統合する
+- タスク算術の成功要因は不明瞭であり、データ異質性やトレーニング異質性が影響
+- 連合学習のFedAvgと数学的に同等であることを示し、理論上の基盤を構築
+- 連合学習のアルゴリズムを適用し、パフォーマンス向上を実証し、理論と実用性の橋渡しを行う
 
-本当に最先端なテクノロジーって感じでワクワクするよね。画像にスコアを組み込む発想、めっちゃ面白そうだし、将来どう普及するか楽しみ！
+タスク算術と連合学習の関係を掘り下げるっておもしろそうじゃない？新しい理論的な視点も得られるし、こういう新技術が今後のAIモデル開発に役立つって期待が高まるね！
 
-**Comment:** Best Paper Award, Blue Sky Track at 26th ACM International Conference   on Multimodal Interaction, Nov 2024, San Jose, Costa Rica
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2024-11-26 18:48
 
-- - -
-
-### [Synthetic Data Generation with LLM for Improved Depression Prediction](http://arxiv.org/abs/2411.17672)
-
-**LLMを用いた合成データ生成によるうつ病予測の改善**
-
-Andrea Kang, Jun Yu Chen, Zoe Lee-Youngzie, Shuhao Fu
-
-- うつ病の自動検出は心理学と機械学習の交差領域で急成長中
-- データのプライバシーと不足が問題で、合成データ生成を提案
-- LLMを使用し感情分析と要約生成で合成データを作成
-- 合成データは予測精度を向上させ、プライバシーも保護する
-
-うつ病の検出って重要なテーマだし、この方法ってホントに興味深いよね！合成データでここまでプライバシーと精度のバランスが取れるんなら、もっといろんな分野でも応用が広がりそう！
-
-**Comment:** 6 pages excluding references and appendix
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-26 18:31
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-27 18:53
 
 - - -
 
-### [Pre-training for Action Recognition with Automatically Generated Fractal Datasets](http://arxiv.org/abs/2411.17584)
+### [Evaluating and Improving the Effectiveness of Synthetic Chest X-Rays for Medical Image Analysis](http://arxiv.org/abs/2411.18602)
 
-**自動生成されたフラクタルデータセットを用いた行動認識のための事前学習**
+**合成胸部X線画像の医学的画像解析における有効性の評価と改善**
 
-Davyd Svyezhentsev, George Retsinas, Petros Maragos
+Eva Prakash, Jeya Maria Jose Valanarasu, Zhihong Chen, Eduardo Pontes Reis, Andrew Johnston, Anuj Pareek, Christian Bluethgen, Sergios Gatidis, Cameron Olsen, Akshay Chaudhari, Andrew Ng, Curtis Langlotz
 
-- 合成データの活用で、画像モダリティの事前学習が特定視覚タスクを支援
-- フラクタル幾何学に基づき、短い合成ビデオクリップを自動で大規模生成
-- 実動画の重要な特性を特定しエミュレーションし、ドメインギャップを縮小
-- 提案手法は既存データセットより優れた成果を示し、一部で標準手法超える
+- 合成胸部X線画像を生成し、医療画像データセットを拡張して深層学習モデルの性能を最適化する
+- 潜在拡散モデルを使い、テキストプロンプトやセグメンテーションマスクに基づいて合成画像を生成
+- 疾患情報や幾何変形セグメントマスクを使用し、分類とセグメンテーションの性能向上を測定
+- 一尾t検定とボンフェローニ補正で合成データによる改善の統計的有意性を評価
 
-フラクタルを使って合成ビデオを作るなんてユニークだよね！合成データの可能性をもっと深掘りして、新しい視点からの活用が期待できそうだなって思ったよ。それに、この研究が未来のデータセット作成にどう影響するか興味津々だな。
+合成データをうまく活用して医療画像解析の精度を上げるなんてすごいね！これからの医療技術がどんどん進化していくって感じでワクワクしちゃう♡
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-26 16:51
-
-- - -
-
-### [Evolving Markov Chains: Unsupervised Mode Discovery and Recognition from Data Streams](http://arxiv.org/abs/2411.17528)
-
-**進化するマルコフ連鎖：データストリームからの教師なしモード発見と認識**
-
-Kutalmış Coşkun, Borahan Tümer, Bjarne C. Hiller, Martin Becker
-
-- マルコフ連鎖は時間依存プロセスをモデル化するが、実世界のプロセスは時間とともに行動を変える
-- この研究は、オンラインで効率的に遷移確率を追跡し、モードを自動的に発見し、モードスイッチを検出する方法を提案
-- 提案されたEMCは、任意の順序で、トラッキングウィンドウを使用しない更新スキームに基づく
-- 人間の活動認識や電動機の状態モニタリング、EEG測定による眼の状態認識での評価が示される
-
-この論文、マルコフ連鎖を実時間で進化させるって、めっちゃ面白いよね！実際のデータでの適用も広そうだし、未来のライブデータ処理がもっと進化しそうでワクワクするね！
-
-**Comment:** 20 pages, 8 figures
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-26 15:42
+**トピック:** [合成データ](sd), **カテゴリ:** eess.IV, cs.CV, **投稿日時:** 2024-11-27 18:47
 
 - - -
 
-### [BESTAnP: Bi-Step Efficient and Statistically Optimal Estimator for Acoustic-n-Point Problem](http://arxiv.org/abs/2411.17521)
+### [Enhancing weed detection performance by means of GenAI-based image augmentation](http://arxiv.org/abs/2411.18513)
 
-**BESTAnP: 音響n点問題のための2ステップ効率的かつ統計的に最適な推定器**
+**GenAIベースの画像拡張による雑草検出性能の強化**
 
-Wenliang Sheng, Hongxu Zhao, Lingpeng Chen, Guangyang Zeng, Yunling Shao, Yuze Hong, Chao Yang, Ziyang Hong, Junfeng Wu
+Sourav Modak, Anthony Stein
 
-- 音響n点問題（AnP）は、2D前方視ソナーの姿勢を推定する課題
-- 提案手法BESTAnPは平行移動と回転の推定を分離して行うアルゴリズム
-- 距離のみの計測を用い平行移動、方位のみの計測と固有値分解で回転を推定
-- シミュレーション実験で最先端モデル比で10倍速く、リアルタイム性能を保持
+- 雑草管理の効率化のために高品質なトレーニングデータが必要である
+- 従来のデータ拡張技術は多様性に欠け、十分な精度が得られない
+- Stable Diffusionモデルを使用し、高品質な合成画像を生成してデータセットを強化
+- 合成データはYOLOモデルの精度向上に貢献し、モデルの堅牢性を高める可能性がある
 
-この手法って、速いだけじゃなくて、リソースが限られた環境でも使えるって凄いよね。ソナーベースのオドメトリーに組み込めるところも、実際の応用先が広がって面白そう！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.RO, **投稿日時:** 2024-11-26 15:30
-
-- - -
-
-### [RealTraj: Towards Real-World Pedestrian Trajectory Forecasting](http://arxiv.org/abs/2411.17376)
-
-**RealTraj：実世界の歩行者軌跡予測に向けて**
-
-Ryo Fujii, Hideo Saito, Ryo Hachiuma
-
-- 従来の歩行者軌跡予測の課題は、認識エラーやデータ収集コスト、高価なID注釈にある
-- RealTrajは、合成データで自己教師あり学習し実データで微調整して適用性を強化
-- Det2TrajFormerにより追跡ノイズに不変で検出データに基づき予測性能を向上
-- 高価なID注釈を減らし、限られた実データでモデルを微調整して最先端手法を上回る成果を示す
-
-歩行者軌跡って日常にも関わってるから面白いね！RealTrajで未来のスマートシティがどんな風に変わるのかワクワクするなぁ。人の動きをうまく予測できれば、安全面の向上や新しいサービスにもつながりそうで、今後の展開が気になる！
+AIで雑草検出の精度がグンと上がるなんて、なんだか未来を感じるね！これがどんどん普及すれば、もっと持続可能な農業が実現しそうじゃない？
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-26 12:35
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-27 17:00
 
 - - -
 
-### [Knowledge-aware Evolutionary Graph Neural Architecture Search](http://arxiv.org/abs/2411.17339)
+### [Synthetic ECG Generation for Data Augmentation and Transfer Learning in Arrhythmia Classification](http://arxiv.org/abs/2411.18456)
 
-**知識対応進化的グラフニューラルネットワークアーキテクチャ探索**
+**不整脈分類におけるデータ拡張と転移学習のための合成ECG生成**
 
-Chao Wang, Jiaxuan Zhao, Lingling Li, Licheng Jiao, Fang Liu, Xu Liu, Shuyuan Yang
+José Fernando Núñez, Jamie Arjona, Javier Béjar
 
-- 既存のGNASはゼロ知識から開始し、知識を活用せずに効率性に欠ける
-- 本研究は既存知識を活用して新たなデータセットの探索を加速するKEGNASを提案
-- KEGNASはナレッジモデルと深層多出力ガウスプロセスを用いて転送アーキテクチャを迅速に生成
-- 実証研究ではKEGNASが他の進化的手法より精度を高めることを実証
+- ディープラーニングには十分なデータが必要であり、合成データでデータセットを拡大できる。
+- ECGのデータ生成にはDiffweave、Time-Diffusion、Time-VQVAEを使用し、分類精度を向上。
+- 合成データと実データを組み合わせた時に分類器の精度が向上する。
+- Time-VQVAEは他の生成モデルより優れているが、実データのみの分類器には及ばない。
 
-この研究ってGNASの効率をすごく上げてるんだね！知識を使って最初から良いスタートを切るなんて賢い方法だよ～。かなり実用的でいろんな場面で使われそう！
-
-**Comment:** This work has been accepted by Knowledge-Based Systems
-
-**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.NE, cs.AI, cs.LG, **投稿日時:** 2024-11-26 11:32
-
-- - -
-
-### [On the Generalization of Handwritten Text Recognition Models](http://arxiv.org/abs/2411.17332)
-
-**手書き文字認識モデルの一般化に関する研究**
-
-Carlos Garrido-Munoz, Jorge Calvo-Zaragoza
-
-- 手書き文字認識（HTR）は、同分布内での誤りを減らすが、現実世界では前提が成り立たない
-- ドメイン一般化の設定で、事前アクセスなしで未知データに一般化することを探求
-- 336のケースを分析し、合成データの活用でモデルの一般化を研究
-- テキストのドメイン間の差異が一般化の最も重要な要因で、誤差は70％のケースで10ポイント以下
-
-手書き文字認識って奥が深いんだね！ドメインの違いを乗り越えて、現実世界での適用がもっと広がる未来が楽しみだな。合成データを使うアイデアも革新的で、どんな風に進化していくのかワクワクするね。
+合成データを活用して心電図解析の精度を高めるのは面白いね！医療現場での応用が進むと安心だし、データ不足の解消に役立ちそう。興味深い成果が出てくるのを期待してる！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-26 11:20
+**トピック:** [合成データ](sd), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-11-27 15:46
 
 - - -
 
-### [LHPF: Look back the History and Plan for the Future in Autonomous Driving](http://arxiv.org/abs/2411.17253)
+### [Federated Learning with Uncertainty and Personalization via Efficient Second-order Optimization](http://arxiv.org/abs/2411.18385)
 
-**LHPF: 自動運転における過去を振り返り未来を計画する手法**
+**不確実性とパーソナライズを考慮した連合学習：効率的な二次最適化**
 
-Sheng Wang, Yao Tian, Xiaodong Mei, Ge Sun, Jie Cheng, Fulong Ma, Pedro V. Sander, Junwei Liang
+Shivam Pal, Aishwarya Gupta, Saqib Sarwar, Piyush Rai
 
-- 自動運転の意思決定と計画は安全性を反映し、効果的な計画が不可欠
-- 現在の手法は過去と現在の計画を独立して評価し、計画の不連続性とエラー累積が課題
-- LHPFは歴史的な計画情報を統合する模倣学習計画アルゴリズムを提案
-- 実験でLHPFは既存の手法を上回り純粋な学習ベースで専門家を超えた性能を示す
+- 連合学習はデータをクライアントに留めおくため、データの分散処理に優れている
+- ベイジアンアプローチにより、モデルや予測の不確実性を後部分布で把握できる
+- 層状ベイジアンアプローチで個別モデルを共通の事前分布と共に学習可能
+- 効率的な二次最適化で計算コストを抑えつつ精度向上を実現する方法を提案
 
-この論文、過去の意図を活用する方法が興味深いね。将来の自動運転車がもっと人間らしい運転をするなんて、ちょっとワクワクしちゃうなー！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.CV, **投稿日時:** 2024-11-26 09:30
-
-- - -
-
-### [Fault Localization from the Semantic Code Search Perspective](http://arxiv.org/abs/2411.17230)
-
-**セマンティックコード検索視点からのフォールトローカリゼーション**
-
-Yihao Qin, Shangwen Wang, Yan Lei, Zhuo Zhang, Bo Lin, Xin Peng, Liqian Chen, Xiaoguang Mao
-
-- ソフトウェア開発は連続的な実装とデバッグの反復で、コード検索とフォールトローカリゼーションが重要
-- コード検索は自然言語クエリによる精度が高く、フォールトローカリゼーションを改善できる可能性
-- 提案されたCosFLは、問題の機能を自然言語で表現し、コード検索で関連プログラムを特定する手法
-- CosFLはコード分析とLLMの能力を活用し、マルチグラニュラリティ戦略で精度を向上させる
-
-ソフトウェアのバグ修正の未来がちょっと見えてきちゃうね！CosFLでバグの特定がすっごく効率的になりそうで、日本のエンジニアもこれに夢中になっちゃったりして～💕彼らの開発速度、めちゃくちゃ上がる予感！
+個別データに応じてモデルをパーソナライズできて、しかも計算が効率的だなんて、面白そう！これで連合学習の弱点を克服できるかもね～
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.SE, **投稿日時:** 2024-11-26 08:52
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CV, stat.ML, **投稿日時:** 2024-11-27 14:30
 
 - - -
 
-### [Software Fault Localization Based on Multi-objective Feature Fusion and Deep Learning](http://arxiv.org/abs/2411.17101)
+### [FreqX: What neural networks learn is what network designers say](http://arxiv.org/abs/2411.18343)
 
-**多目的特徴融合とディープラーニングに基づくソフトウェア障害局在化**
+**FreqX: ニューラルネットワークが学ぶのは設計者の意図**
 
-Xiaolei Hu, Dongcheng Li, W. Eric Wong, Ya Zou
+Zechen Liu
 
-- ソフトウェア障害局在化は従来の方法では特徴の多様性が少なく精度が低い。
-- マルチオブジェクト最適化とディープラーニングを組み合わせ、精度と効率を改善する新たな手法を提案。
-- スペクトラム、変異、およびテキストベースの特徴を融合し、MLPとGRNを用いて局在化の精度と一般化性を向上。
-- Defects4Jデータセットでの実験では、時間が78.2%短縮され、従来手法よりも94.2%精度向上。
+- 個別の連合学習は非公開の個人モデルを協力して訓練するが、非独立同一分布や不公平性などの課題がある
+- 説明可能性への新たな要求として、低コスト、プライバシー、詳細情報が求められている
+- 従来の方法ではこれらを満足できず、新たに信号処理と情報理論を用いた解釈方法FreqXを提案
+- FreqXは基準方法より10倍以上速く、帰属情報と概念情報を含む説明結果を示す
 
-提案された手法が処理時間を大幅に削減しつつも高精度を達成した点がすごいね！ディープラーニングと最適化でソフトウェアのバグ特定がさらに進化するなんて、未来の技術が楽しみだし、将来的にどんな応用が出てくるかワクワクするね。
+新しい技術が早くて詳しい情報を得られるなんて、ほんとにすごいと思う！連合学習の課題を解決することで、個別のAIがもっと活用されそうな予感がするね。
 
+**Comment:** 16pages, 9 figures
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.SE, **投稿日時:** 2024-11-26 04:37
-
-- - -
-
-### [HOPE: Homomorphic Order-Preserving Encryption for Outsourced Databases -- A Stateless Approach](http://arxiv.org/abs/2411.17009)
-
-**HOPE: 外部委託データベースのための準同型順序保存暗号 - 無状態アプローチ**
-
-Baiqiang Wang, Dongfang Zhao
-
-- 既存の順序保存暗号は状態を必要とするため、クライアント側に保存負担が発生
-- HOPEは準同型暗号の加法的特性を活用し、クライアント側の保存や通信を不要にした
-- 比較キー機構を導入し、暗号文の比較をランダム化した差分計算に変換して安全な範囲クエリが可能
-- IND-OCPAモデル下でのセキュリティを証明し、他の先端技術と比較しても競争力のある実行性能を持つ
-
-HOPEって名前もかわいいし、なんか革新的だよね！クライアントの負担軽減とセキュリティのバランスを取るのは、これからのデータベース管理にもっと必要になりそう。
-
-**Comment:** arXiv admin note: substantial text overlap with arXiv:2406.03559
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.CR, cs.DB, **投稿日時:** 2024-11-26 00:38
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-11-27 13:41
 
 - - -
 
-### [Towards Efficient Model-Heterogeneity Federated Learning for Large Models](http://arxiv.org/abs/2411.16796)
+### [Hidden Data Privacy Breaches in Federated Learning](http://arxiv.org/abs/2411.18269)
 
-**大規模モデルのための効率的なモデル異質性連合学習に向けて**
+**連合学習における隠れたデータプライバシー侵害**
 
-Ruofan Jia, Weiying Xie, Jie Lei, Haonan Qin, Jitao Ma, Leyuan Fang
+Xueluan Gong, Yuji Wang, Shuaike Li, Mengyuan Sun, Songze Li, Qian Wang, Kwok-Yan Lam, Chen Chen
 
-- エッジコンピューティングにおける大規模モデルの連合学習は重要だが、リソース制約とクライアントの異質性が課題。
-- モデル異質性連合学習（MHFL）のための革新的なファインチューニングフレームワーク、HeteroTuneを導入。
-- FedAdapterという多枝クロスモデルアグリゲーターを用いた新しいパラメーター効率的なファインチューニング（PEFT）構造を提案。
-- 提案手法は計算と通信のオーバーヘッドを大幅に削減し、幅広い大規模モデルのファインチューニングに適用可能。
+- 連合学習はデータを共有せずに機械学習を行うパラダイムであるが、最近の研究でモデル操作や勾配分析を通じたデータ盗難のリスクが示された
+- 提案されたデータ再構築攻撃は、悪意のあるコード注入を用い、目立たずにパラメータ共有を通じて機密データを抽出する
+- フィボナッチベースのインデックス設計により、効率的かつ構造化されたデータ回収が可能で、高解像度画像もブロック分割で処理対応可能
+- 提案手法はFedAVGとFedSGDに対しても直接適用可能であり、新たな防御策の必要性を示している
 
-この研究、とっても面白そう！いろんな異質なモデルを賢くつなぐって、AI界のバーテンダーみたいじゃない？これがうまくいったら、もっと多様なAIが早く動かせるし、未来の可能性を感じるよね。
+連合学習ってプライバシー安心と思ってたけど、こんな裏技があるんだね。悪意ある攻撃への対策が急務って感じ！おもしろいし、ちょっと怖いね。開発者さんたち、早く新しい防御策考えてほしいなー！
 
-**Comment:** 8pages, 5figures
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, 68T07, I.2.11, **投稿日時:** 2024-11-25 09:58
 
-- - -
-
-### [Revisiting DDIM Inversion for Controlling Defect Generation by Disentangling the Background](http://arxiv.org/abs/2411.16767)
-
-**DDIM反転を再訪して背景を分離することで欠陥生成を制御する**
-
-Youngjae Cho, Gwangyeol Kim, Sirojbek Safarov, Seongdeok Bang, Jaewoo Park
-
-- 異常検知では正常データに比べ異常データが希少で、深層学習の特徴抽出が困難
-- 合成データ利用はデータ不均衡を解消できるが、背景と欠陥の関連を考慮していない
-- 本研究では背景と欠陥の関係をモデル化し、背景が欠陥に影響しないよう分離を提案
-- 本手法で背景が不変な状態で欠陥生成が理論的に可能であり、実験で効果を実証
-
-異常データが少ないのって大変だけど、背景と欠陥をうまく分けられたらめちゃくちゃ役立ちそうだね！実験で効果を示せたのもすごいから、これからもっと研究が進むといいな。
-
-**Comment:** 10 pages
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.AI, **投稿日時:** 2024-11-25 04:05
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CL, cs.CR, **投稿日時:** 2024-11-27 12:04
 
 - - -
 
-### [AnySynth: Harnessing the Power of Image Synthetic Data Generation for Generalized Vision-Language Tasks](http://arxiv.org/abs/2411.16749)
+### [Dependency-Aware CAV Task Scheduling via Diffusion-Based Reinforcement Learning](http://arxiv.org/abs/2411.18230)
 
-**AnySynth: 汎用ビジョン・ラングイッジ課題のための画像合成データ生成の活用**
+**Diffusionベース強化学習による依存性認識CAVタスクスケジューリング**
 
-You Li, Fan Ma, Yi Yang
+Xiang Cheng, Zhi Mao, Ying Wang, Wen Wu
 
-- 合成データは、手動データ収集を減らし、モデルの一般化を改善
-- AnySynthは、柔軟で制御可能な合成データ生成フレームワークを提案
-- タスク固有のレイアウト生成と統一制御型画像生成モジュールを統合
-- 各種タスクでの性能改善を確認し、汎用性と効果を実証
+- 無人航空機が支援する自律車両(CAV)のタスクを依存性を考慮して効率的に割り当てる手法を提案
+- CAVや基地局にサブタスクを割り当て、タスク完了時間を最小化する問題をマルコフ決定過程として定式化
+- PickerであるSynthetic DDQNベースの拡散強化学習アルゴリズムを開発し、柔軟なタスクスケジューリングを実現
+- シミュレーション結果で提案手法が従来の手法よりもタスク完了時間を短縮する効果を確認
 
-合成データの力を活かすAnySynth、すごく面白いね！ジョブごとにデータ整えなくてもいいって、研究者にとって画期的だなぁ。どんな未来のアプリが誕生するのか、とっても楽しみだね！
+これって、まさに未来のスマートシステムだよね！自動車たちが美しく連携して仕事をこなして、効率がグンと上がるのが想像できる！どうなるか楽しみだなぁ。
 
+**Comment:** 6 pages, 5 figures
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-24 04:49
-
-- - -
-
-### [Federated Learning in Chemical Engineering: A Tutorial on a Framework for Privacy-Preserving Collaboration Across Distributed Data Sources](http://arxiv.org/abs/2411.16737)
-
-**化学工学における連合学習: 分散データソース間のプライバシーを保護したコラボレーションのフレームワークに関するチュートリアル**
-
-Siddhant Dutta, Iago Leal de Freitas, Pedro Maciel Xavier, Claudio Miceli de Farias, David Esteban Bernal Neira
-
-- 連合学習はデータプライバシーを守りつつモデルを共同トレーニングする手法として注目
-- 化学工学での応用例は製造最適化、マルチモーダルデータ統合、薬発見などに及ぶ
-- チュートリアルでは$\texttt{Flower}$と$\texttt{TensorFlow Federated}$を使用し、実践的手法を紹介
-- 連合学習は中央集権的学習と比較して複雑で異質なデータでも性能を維持または改善
-
-うわー、化学工学でも連合学習が活かせるんだね！プライバシーを守りつつ、色々なデータを使えるのが未来っぽいし、すごくワクワクするね。今後の化学産業がどう発展するか楽しみ～！
-
-**Comment:** 46 Pages, 8 figures, Under review in ACS Industrial & Engineering   Chemistry Research Journal
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, cs.NE, **投稿日時:** 2024-11-23 13:16
+**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.RO, **投稿日時:** 2024-11-27 11:07
 
 - - -
 
-### [Learn2Synth: Learning Optimal Data Synthesis Using Hypergradients](http://arxiv.org/abs/2411.16719)
+### [SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation](http://arxiv.org/abs/2411.18229)
 
-**Learn2Synth: ハイパーグラデントを用いた最適なデータ合成学習**
+**SharpDepth: 拡散蒸留を用いたメトリック深度予測の鮮明化**
 
-Xiaoling Hu, Oula Puonti, Juan Eugenio Iglesias, Bruce Fischl, Yael Balbastre
+Duc-Hai Pham, Tung Do, Phong Nguyen, Binh-Son Hua, Khoi Nguyen, Rang Nguyen
 
-- 合成によるドメインランダム化は、入力画像のドメインに対して偏りのないネットワークを訓練する強力な戦略
-- 手動で合成画像のパラメータ調整を行う代わりに、Learn2Synthでは少量のラベル付き実データを用いて合成パラメータを学習
-- 本手法は実データを用いずに、合成データとネットワークの最適なラベルマップを確保
-- 合成画像のパラメトリックおよびノンパラメトリックな拡張により、セグメンテーション性能を向上
+- SharpDepthは単眼メトリック深度推定の新手法である
+- 判別法のメトリック精度と生成法の境界鮮明さを組み合わせる
+- メトリック精度と境界詳細を統合し制限を克服する
+- ゼロショット評価で高精度と詳細な表現力を発揮する
 
-合成データを使って実データの影響を抑えつつ、性能を高めるってすごく画期的だよね！実験で効果が示されたのも興味深いな～。どんなデータセットでも応用できそうだから、実生活での活用が楽しみ！
+深度予測にこんなに進化があるなんて、すごくワクワクする！ビジュアルも鮮明で、どんなリアルな環境にも使えそうなんて、未来のアプリケーションが楽しみだなあ。
 
-**Comment:** 14 pages, 5 figures
+**Comment:** Uncompressed version can be found in   https://drive.google.com/file/d/1MG4-d_xDERVBCRfLDolNLnMLLuqd7qRz
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-11-23 00:52
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-27 11:07
+
+- - -
+
+### [Training Data Synthesis with Difficulty Controlled Diffusion Model](http://arxiv.org/abs/2411.18109)
+
+**困難制御型拡散モデルによるデータ合成の訓練**
+
+Zerun Wang, Jiafeng Mao, Xueting Wang, Toshihiko Yamasaki
+
+- 半教師あり学習は、低コストで集めた未ラベル画像を活用しモデル性能を向上させる
+- 合成画像が未ラベルデータに混入することで半教師あり学習への影響が未解明
+- Real-Synthetic Hybrid SSL（RS-SSL）を導入しこれらの影響を調査
+- RSMatchという新しい方法で、合成データを制約から資源へと変換可能と実証
+
+合成画像が「障害」から「資源」に変わるのってすごい！RSMatchの活用で、合成データももっと役に立ちそうだから、新しいモデルがどんどん出てきておもしろくなりそうだね。未来のデータ活用が楽しみ！
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-11-27 07:42
+
+- - -
+
+### [CrypQ: A Database Benchmark Based on Dynamic, Ever-Evolving Ethereum Data](http://arxiv.org/abs/2411.17913)
+
+**CrypQ: ダイナミックで進化し続けるイーサリアムデータに基づくデータベースベンチマーク**
+
+Vincent Capol, Yuxi Liu, Haibo Xiu, Jun Yang
+
+- 現代のデータベースシステムは時間とともに進化する動的データを扱う必要がある
+- 多くのデータベースベンチマークは動的な側面の評価が不十分である
+- CrypQは動的なイーサリアムブロックチェーンデータを活用し、現実的かつ高容量なデータセットを提供
+- CrypQは現実の不均等性と依存関係を含むデータ分布でコストベースのクエリ最適化を評価
+
+イーサリアムデータを使ったデータベース評価とか面白そう！動的データの扱いがこれからますます重要になりそうだね。進化し続けるから、飽きずに学べそう！
+
+**Comment:** Accepted by Proceedings of the 2024 TPC Technology Conference on   Performance Evaluation and Benchmarking @ VLDB 2024, Guangzhou
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.DB, **投稿日時:** 2024-11-26 22:09
+
+- - -
+
+### [Distributed Sign Momentum with Local Steps for Training Transformers](http://arxiv.org/abs/2411.17866)
+
+**局所ステップを用いたトランスフォーマー訓練の分散符号モーメント**
+
+Shuhua Yu, Ding Zhou, Cong Xie, An Xu, Zhi Zhang, Xin Liu, Soummya Kar
+
+- トランスフォーマーモデルの事前学習はリソースを大量に消費する。
+- 本研究では、効率的な分散符号モーメント手法を提案、局所更新を活用。
+- 提案手法は広範な基底最適化器を許容し、符号モーメントを利用してグローバル更新。
+- GPT-2モデルの学習で他の分散手法と比較し、著しい改善を確認。
+
+分散で効率的な学習方法ができちゃうんだね！今回の方法は従来より良くなるみたいで、リソースが限られててもみんな元気に学べそう！トランスフォーマーの未来がまた楽しみになるね。
+
+**Comment:** 23 pages, 21 figures
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-11-26 20:31
+
+- - -
+
+### [Adaptive Client Selection with Personalization for Communication Efficient Federated Learning](http://arxiv.org/abs/2411.17833)
+
+**パーソナライズによる通信効率的な連合学習のための適応的クライアント選択**
+
+Allan M. de Souza, Filipe Maciel, Joahannes B. D. da Costa, Luiz F. Bittencourt, Eduardo Cerqueira, Antonio A. F. Loureiro, Leandro A. Villas
+
+- 連合学習は通信のボトルネックとネットワークのスケーラビリティに課題がある
+- ACSP-FLはクライアント数やラウンド数を動的に調整し、通信と計算のコストを削減
+- モデルパーソナライズによりクライアントのパフォーマンスを向上
+- 最大95%の通信削減を達成しつつ、異なるデータ分布でも良好な収束を実現
+
+連合学習の通信効率を劇的に改善する技術みたい！データの広がりが多様な状況でもこのアプローチが使えるって、すごく便利そう。どこでも使える未来が見えてくるね！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-11-26 19:20
+
+- - -
+
+### [Analytic Continuation by Feature Learning](http://arxiv.org/abs/2411.17728)
+
+**特徴学習による解析接続**
+
+Zhe Zhao, Jingping Xu, Ce Wang, Yaping Yang
+
+- 解析接続は虚時間グリーン関数から実時間スペクトル関数を再構築するが、解決が難しい問題である
+- 新しいニューラルネットワーク構造であるFL-netを提案し、従来手法よりも20%以上の精度向上を達成
+- 提案されたネットワークのロバスト性を評価するための解析的手法を開発
+- FL-netの隠れ次元を増やすと損失が低減されるが、ロバスト性が低下することを示した
+
+解析接続の難題をニューラルネットで解決するのって面白いよね！効果がUPするけど、頑丈さがDOWNするのも興味深い問題だよね。
+
+**Comment:** 8 pages, 9 figures
+
+**トピック:** [連合学習](fl), **カテゴリ:** cond-mat.str-el, cs.LG, eess.SP, physics.comp-ph, stat.ML, **投稿日時:** 2024-11-22 05:12

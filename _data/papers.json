@@ -1,5 +1,277 @@
 [
   {
+    "url": "http://arxiv.org/abs/2411.19930",
+    "title": "On Domain-Specific Post-Training for Multimodal Large Language Models",
+    "japanese_title": "ドメイン特化型マルチモーダル大規模言語モデルのポストトレーニングについて",
+    "authors": [
+      "Daixuan Cheng",
+      "Shaohan Huang",
+      "Ziyu Zhu",
+      "Xintong Zhang",
+      "Wayne Xin Zhao",
+      "Zhongzhi Luan",
+      "Bo Dai",
+      "Zhenliang Zhang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- アカデミックと産業用途への適応は未開拓であり、MLLMのドメイン適応を研究\n- 合成データを使い、ドメイン画像キャプションから視覚タスクを効果的に生成\n- 単一段階のトレーニングパイプラインを導入しタスク多様性を向上\n- バイオメディカルと食品の領域でMLLMを評価し、さらに実装をオープンソース化予定\n\n科学と食の世界で、進化したマルチモーダル言語モデルがどんなユニークな結果をもたらすのかワクワクする。特に、合成データの力でこれまでにない方法を試すなんて、ますます興味津々な未来が広がりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-29T18:42:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19798",
+    "title": "Rethinking the initialization of Momentum in Federated Learning with Heterogeneous Data",
+    "japanese_title": "連合学習におけるモーメンタム初期化の再考：異種データ対応",
+    "authors": [
+      "Chenguang Xiao",
+      "Shuo Wang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- データの異種性は連合学習の主要な課題であり、最近はモーメンタムベースの最適化手法がその緩和に効果的とされる\n- 従来のモーメンタム蓄積法は連合学習環境には最適でなく、古い勾配より新しい勾配を重視するためバイアスが生じやすい\n- 新手法「逆モーメンタム連合学習（RMFL）」を提案し、時間が経つにつれ勾配へ指数的に減衰する重みを与えるアプローチを採用\n- 提案手法の有効性は異なる異種性レベルを持つ3つのベンチマークデータセットで評価\n\nモーメンタムに対する新しいアプローチがどれくらいパフォーマンスを向上させるのか気になるよね！これで連合学習がもっと柔軟に異種データを扱えるようになったら嬉しいな～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-29T16:00:52+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19689",
+    "title": "MIMDE: Exploring the Use of Synthetic vs Human Data for Evaluating Multi-Insight Multi-Document Extraction Tasks",
+    "japanese_title": "合成データ対人間データの使用を探る多視点多文書抽出タスク評価",
+    "authors": [
+      "John Francis",
+      "Saba Esnaashari",
+      "Anton Poletaev",
+      "Sukankana Chakraborty",
+      "Youmna Hashem",
+      "Jonathan Bright"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 複雑なテキスト分析タスクの評価は困難で、MIMDEを定義して取り組む\n- MIMDEは文書から洞察を抽出しその出典に紐づけるタスク\n- ヒューマンと合成データセットを使った評価フレームワークを開発\n- 合成データは完全な分析の再現が難しく、限界があることが判明\n\nうわー、合成データと人間データを比べるなんて面白いね！課題だけど、この研究で解決策が見つかると良いなー。🌟✨",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-29T13:24:10+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19492",
+    "title": "Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling",
+    "japanese_title": "ディオラマ：ゼロショットでの単一視点3Dシーンモデリングの開放",
+    "authors": [
+      "Qirui Wu",
+      "Denys Iliash",
+      "Daniel Ritchie",
+      "Manolis Savva",
+      "Angel X. Chang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 単一のRGB画像から3Dシーンを再構築する技術で、CADオブジェクトを利用して効率性と相互作用を維持\n- 既存方法では高コストな現実世界のアノテーションや制御可能だが一般化しにくい合成データを使用\n- ディオラマはゼロショットで、トレーニングやアノテーションなしで3Dシーンをモデリング可能\n- 我々の手法は、アーキテクチャ再構築、3D形状取得、物体位置推定、シーン配置最適化のサブタスクで構成されている\n\nこの研究ってめっちゃ興味深いね！ゼロショットでできちゃうところが特におもしろいし、実生活の画像からシーンモデリングできる未来が楽しみ〜。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-29T06:19:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19440",
+    "title": "Gradient Inversion Attack on Graph Neural Networks",
+    "japanese_title": "グラフニューラルネットワークに対する勾配逆転攻撃",
+    "authors": [
+      "Divya Anand Sinha",
+      "Yezi Liu",
+      "Ruijie Du",
+      "Yanning Shen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- グラフ連合学習は、大規模なグラフデータセットでのトレーニングに重要だがプライバシーを守る。\n- 既存の研究では、悪意ある攻撃者が連合学習中にプライベート画像データを盗む可能性が指摘されている。\n- グラフデータとグラフニューラルネットワークの脆弱性について研究し、新たな攻撃「GLG」を提案。\n- GCNとGraphSAGEのフレームワークで理論的および実証的な検証を行い、グラフデータの漏洩を確認。\n\nグラフデータが漏洩するなんてちょっとびっくり。未来のデータプライバシーがちゃんと守られるように、新しい対策が生まれるといいね。連合学習の世界もまだまだ進化しそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-29T02:42:17+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19335",
+    "title": "PEFT-as-an-Attack! Jailbreaking Language Models during Federated Parameter-Efficient Fine-Tuning",
+    "japanese_title": "連合パラメータ効率的ファインチューニング中の言語モデルの脱獄",
+    "authors": [
+      "Shenghui Li",
+      "Edith C. -H. Ngai",
+      "Fanghua Ye",
+      "Thiemo Voigt"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 連合パラメータ効率的ファインチューニング（FedPEFT）は、プライバシーを保護しつつ効率的なモデル適応を実現する。\n- FedPEFTはデータを分散化し、ローデータがユーザーのデバイスを離れないようにすることでデータプライバシーを保護する。\n- 本論文はPEFTが攻撃のベクトルとして利用される新たなセキュリティ脅威、PEFT-as-an-Attackを紹介する。\n- 防御策として、ロバスト・アグリゲーション・スキームやポストPEFT安全性調整を調査するも、効果には限界がある。\n\nプライバシーを守るための工夫が悪用されちゃうなんてドキドキ！効果的な防御策ができたら、もっと安全に連合学習を活用できそうで楽しみだね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-28T19:05:01+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19242",
+    "title": "Controlling Participation in Federated Learning with Feedback",
+    "japanese_title": "フィードバックによる連合学習への参加管理",
+    "authors": [
+      "Michael Cummins",
+      "Guner Dilsad Er",
+      "Michael Muehlebach"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "comment": "",
+    "summary": "- 従来の連合学習はクライアントのランダム選択を行うが、FedBackは異なる\n- FedBackは制御理論を用い、クライアント参加をADMMベースで管理する\n- クライアント参加を離散時間動的システムとしてモデル化し、フィードバック制御を行う\n- 画像分類実験でFedBackにより通信と計算効率が50％改善される\n\nFedBackってすごい！制御理論で参加率を最適化するなんて、なんだか学校の通知表みたい。しかも効率が50％もアップするなんて、これからの連合学習がもっと実用的になるのが楽しみ～✨",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-28T16:26:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19214",
+    "title": "Parallel and Mini-Batch Stable Matching for Large-Scale Reciprocal Recommender Systems",
+    "japanese_title": "大規模相互レコメンダーシステムのための並列およびミニバッチ安定マッチング",
+    "authors": [
+      "Kento Nakada",
+      "Kazuki Kawamura",
+      "Ryosuke Furukawa"
+    ],
+    "categories": [
+      "cs.IR"
+    ],
+    "comment": "",
+    "summary": "- 二者間マッチングプラットフォームで推奨が偏り、全体のマッチ数が減少する問題\n- 伝達可能効用を持つ安定マッチング理論が適用されるが、計算コストとメモリの効率の課題\n- 並列計算とミニバッチ法を用い、計算時間と空間効率を改善する新手法を提案\n- 実験で提案手法が計算速度を向上させ、大規模データ処理が可能であることを確認\n\nこの研究は、マッチングの理論を巧妙に使って効率をめっちゃ上げてる感じだね！大規模データを処理できるなんて、これからのオンラインマッチングサービスがどんどん進化しそうでワクワクするよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-28T15:36:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.19128",
+    "title": "Personalized Federated Fine-Tuning for LLMs via Data-Driven Heterogeneous Model Architectures",
+    "japanese_title": "LLMのためのデータ駆動型異種モデルアーキテクチャを用いたパーソナルな連合微調整",
+    "authors": [
+      "Yicheng Zhang",
+      "Zhen Qin",
+      "Zhaomin Wu",
+      "Shuiguang Deng"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "On going work. Codes are released at   https://github.com/zyc140345/FedAMoLE",
+    "summary": "- 分散学習はデータ共有せずに協力的微調整が可能だが、データ量や分布の異質性が問題\n- 一様なモデル構造や事前定義のアーキテクチャでは性能が最適でない\n- FedAMoLEはデータ駆動型で異種モデル構造を活用し、効果的な微調整を実現\n- RSEA戦略により専門家が最適なクライアントを選び、高い精度とスケーラビリティを達成\n\nデータに合わせたモデル選びで性能がアップするなんて、面白いよね！この研究、現場での適用例なんかも見てみたいなって思ったよ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-28T13:20:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.18877",
+    "title": "Swarm Intelligence-Driven Client Selection for Federated Learning in Cybersecurity applications",
+    "japanese_title": "サイバーセキュリティアプリケーションにおける連合学習のための群知能駆動クライアント選択",
+    "authors": [
+      "Koffka Khan",
+      "Wayne Goodridge"
+    ],
+    "categories": [
+      "cs.LG",
+      "68T20, 68M25",
+      "I.2.8; C.2.0; K.6.5"
+    ],
+    "comment": "21 pages, 1 figure, 15 tables",
+    "summary": "- 群知能最適化を用いた連合学習のクライアント選択に関する文献のギャップを考察\n- パーティクル群最適化やグレイウルフ最適化など9つのアルゴリズムを4つの実験シナリオで評価\n- 特にGWOが適応性と堅牢性で最高の精度を達成し、PSOとカッコウ検索も好成績\n- サイバーセキュリティへの応用で、群知能アルゴリズムがスケーラブルかつ堅牢な解決策を提供可能\n\n群知能アルゴリズムがサイバーセキュリティにどう活かせるかワクワクしちゃうね！特にGWOが強いって知れて、未来の技術革新が楽しみになる～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-28T03:05:15+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.18807",
+    "title": "Reconstructing Animals and the Wild",
+    "japanese_title": "動物と自然の再構築",
+    "authors": [
+      "Peter Kulits",
+      "Michael J. Black",
+      "Silvia Zuffi"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "comment": "12 pages; project page: https://raw.is.tue.mpg.de/",
+    "summary": "- 3D復元はコンピュータビジョンの基礎であり、2D観察から構造を推測するための強い事前情報が必要\n- 従来の研究は動物の再構築に偏っていたが、環境の文脈を無視することで有用性が限定される\n- 本研究は、CLIP埋め込みと自己回帰モデルを使って動物と自然を包含するシーンを再構成する方法を提案\n- 合成データセットのトレーニングにより、実際の画像でも動物と環境の再構築が可能\n\n動物とその周りの環境を一緒に再構成できるなんて、すごく便利になりそう！リアルなシーンの分析がもっと進むってことかな？新しいデータセットの公開も楽しみだよね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-27T23:24:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.18752",
+    "title": "Locally Differentially Private Online Federated Learning With Correlated Noise",
+    "japanese_title": "時間相関のあるノイズを用いた局所的差分プライバシーのオンライン連合学習",
+    "authors": [
+      "Jiaojiao Zhang",
+      "Linglingzhi Zhu",
+      "Dominik Fay",
+      "Mikael Johansson"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "stat.ML"
+    ],
+    "comment": "arXiv admin note: text overlap with arXiv:2403.16542",
+    "summary": "- 局所的差分プライバシー(LDP)アルゴリズムを提案し、時間相関ノイズでプライバシーを保護しつつ効用を向上。\n- 相関ノイズと非IIDデータに対抗するため、ノイズの影響を制御するための摂動反復解析を行う。\n- 非凸損失関数のいくつかのクラスで、ローカル更新によるドリフト誤差を効果的に管理する方法を示す。\n- 数値実験により提案アルゴリズムの有効性が確認され、学習効果への影響を動的後悔境界で評価する。\n\n新しいノイズの取り扱い方法が個々のユーザーのデータを守りながら学習パフォーマンス向上につながるのは面白いね！これからのプライバシー研究が楽しみだな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-11-27T20:56:43+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.18746",
+    "title": "Inference Privacy: Properties and Mechanisms",
+    "japanese_title": "推論プライバシー：特性とメカニズム",
+    "authors": [
+      "Fengwei Tian",
+      "Ravi Tandon"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ],
+    "comment": "",
+    "summary": "- 公開モデルの出力からユーザーのプライベート入力を復元されるリスクがある\n- 推論段階でのデータのプライバシーを保証する、推論プライバシー(IP)を提案\n- 推論プライバシー(IP)の基本的な特性を導き出し、LDPとの違いを示す\n- ユーザーカスタマイズ可能な入力・出力摂動でプライバシーと有用性のトレードオフを調査\n\n推論プライバシーって、新しい考え方で面白いかも！自分でプライバシーをコントロールできるのがいいね。今後もっと研究が進んで、身近なサービスにも取り入れられたらいいなって思った。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-11-27T20:47:28+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2411.18607",
     "title": "Task Arithmetic Through The Lens Of One-Shot Federated Learning",
     "japanese_title": "ワンショット連合学習を通じたタスク算術の視点",
@@ -213,6 +485,31 @@
       "合成データ"
     ],
     "published": "2024-11-27T07:42:06+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.18650",
+    "title": "RoMo: Robust Motion Segmentation Improves Structure from Motion",
+    "japanese_title": "RoMo: 頑強な動作分割が構造から運動を改善する",
+    "authors": [
+      "Lily Goli",
+      "Sara Sabour",
+      "Mark Matthews",
+      "Marcus Brubaker",
+      "Dmitry Lagun",
+      "Alec Jacobson",
+      "David J. Fleet",
+      "Saurabh Saxena",
+      "Andrea Tagliasacchi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 4Dシーンの生成には構造から運動への技術が必要で、動と静の分割が重要\n- RoMoは光の流れとエピポーラキューを用いる効果的な方法を提案\n- 合成データで学習した手法や非教師あり手法を性能で上回る\n- 動的なコンテンツを含むシーンで、新しいカメラ校正精度を実現\n\nこの研究、すごく面白そう！特に、動的なシーンでのカメラ校正が大幅に向上するなんて、映画やゲームの品質がもっとアップしそう！楽しみね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-11-27T01:09:56+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2411.17913",

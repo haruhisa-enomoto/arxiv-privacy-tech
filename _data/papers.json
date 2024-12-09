@@ -1,5 +1,227 @@
 [
   {
+    "url": "http://arxiv.org/abs/2412.05186",
+    "title": "One-shot Federated Learning via Synthetic Distiller-Distillate Communication",
+    "japanese_title": "合成蒸留物-蒸留物通信によるワンショット連合学習",
+    "authors": [
+      "Junyuan Zhang",
+      "Songhua Liu",
+      "Xinchao Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "comment": "Accepted by NeurIPS 2024",
+    "summary": "- ワンショット連合学習は通信効率とプライバシー保護が優れるがモデル性能が落ちる\n- データ不整合が原因で、従来のデータなし知識蒸留法は誤った知識を与える\n- FedSD2Cはモデルではなく合成蒸留物を共有し情報損失とデータ不整合に対処\n- FedSD2Cは他のワンショットFL手法を複雑なデータセットで常に上回る性能を示す\n\nFedSD2Cって何だかすごく興味深いね！特に、一度にたくさんのデータを効率的に扱いつつ、プライバシーも守れるなんて未来の学習方法って感じ！みんなでコラボしていける時代が来たら、自分のデバイスからでも参加できちゃうかもね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-06T17:05:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.05183",
+    "title": "Privacy Drift: Evolving Privacy Concerns in Incremental Learning",
+    "japanese_title": "プライバシードリフト: インクリメンタル学習におけるプライバシー問題の進化",
+    "authors": [
+      "Sayyed Farid Ahamed",
+      "Soumya Banerjee",
+      "Sandip Roy",
+      "Aayush Kapoor",
+      "Marc Vucovich",
+      "Kevin Choi",
+      "Abdul Rahman",
+      "Edward Bowen",
+      "Sachin Shetty"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "6 pages, 7 figures, Accepted in IEEE ICNC 25",
+    "summary": "- 連合学習はユーザーデータのプライバシーを保持しながら分散学習を実現する方法\n- プライバシードリフトはモデルのインクリメンタル学習によるプライバシー漏洩の変動に着目\n- モデル精度の向上がプライバシーリスクを増大させる可能性があることを実証\n- CIFAR-100データセットを用いてデータとコンセプトドリフトがプライバシーに与える影響を調査\n\nプライバシーと精度の関係が明らかになって、すごくおもしろいテーマだなあ。これからプライバシーに配慮したAIが増えていって、安心して使えるようになるといいね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-06T17:04:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.05153",
+    "title": "A text-to-tabular approach to generate synthetic patient data using LLMs",
+    "japanese_title": "LLMsを用いた合成患者データ生成のためのテキストから表へのアプローチ",
+    "authors": [
+      "Margaux Tornqvist",
+      "Jean-Daniel Zucker",
+      "Tristan Fauvel",
+      "Nicolas Lambert",
+      "Mathilde Berthelot",
+      "Antoine Movschin"
+    ],
+    "categories": [
+      "cs.LG",
+      "I.2"
+    ],
+    "comment": "12 pages, 2 figures, 3 tables",
+    "summary": "- 大規模な医療データベースの入手は患者のプライバシーやコストで制約がある\n- 通常の合成データ生成は元データに依存しデータ不足問題が再発する\n- オリジナルデータなしで描写をもとにLLMを利用し患者データを生成する手法を提案\n- 提案手法は最新技術に対して効率的で実在性があり、教育資源にも役立つ\n\n未来の医療データがもっと自由に使えて、研究が進むといいよね！合成データでリソースが無い場所でも医療革新が期待できちゃうってワクワクする。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-06T16:10:40+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.05055",
+    "title": "Information Flows for Athletes' Health and Performance Data",
+    "japanese_title": "アスリートの健康とパフォーマンスデータの情報フロー",
+    "authors": [
+      "Brad Stenger",
+      "Yuanyuan Feng"
+    ],
+    "categories": [
+      "cs.HC",
+      "H.5; J.3; K.5"
+    ],
+    "comment": "",
+    "summary": "- アスリートとチームがデータ技術を利用しパフォーマンス向上を目指すが、データプライバシーは低優先度\n- 文脈的整合性に基づき、適切な情報フローの必要性が高まっている\n- チーム中心と個人中心の2つの情報フローを提案し、アスリートの成長を支援\n- 差分プライバシーを導入し、研究中心とコミュニティ中心の大規模情報共有シナリオも提示\n\nアスリートのデータをもっと活用して、強くて優しいチームを作れる未来が見えるかも！プライバシーにもしっかり配慮しているのがかっこいい！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-06T14:10:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.05000",
+    "title": "Noise Matters: Diffusion Model-based Urban Mobility Generation with Collaborative Noise Priors",
+    "japanese_title": "ノイズの重要性：協調的ノイズ先行モデルを用いた都市モビリティ生成",
+    "authors": [
+      "Yuheng Zhang",
+      "Yuan Yuan",
+      "Jingtao Ding",
+      "Jian Yuan",
+      "Yong Li"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 世界的な都市化により持続可能な都市への関心が高まり、モビリティデータが重要となっている\n- 実世界データはコストが高くプライバシー問題があるため、合成データへの需要が増加\n- 本研究は、都市モビリティ生成のために協調的ノイズ先行を用いるCoDiffMobを提案する\n- 32%以上の改善を実現しつつ、ユーザープライバシーを守りながら精度の高いデータを生成\n\nリアルなモビリティデータは重要だけど、個人情報の問題もね。それを守りながら使えるデータを生むってすごい！この技術が進んだら、もっと持続可能な都市が作れるんじゃないかな。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-06T12:52:24+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04942",
+    "title": "A Federated Approach to Few-Shot Hate Speech Detection for Marginalized Communities",
+    "japanese_title": "限られた事例を基にした弱者向けヘイトスピーチ検出における連合学習アプローチ",
+    "authors": [
+      "Haotian Ye",
+      "Axel Wisiorek",
+      "Antonis Maronikolakis",
+      "Özge Alaçam",
+      "Hinrich Schütze"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- マージナライズドコミュニティのためのプライバシー保護ツールを開発\n- 高品質な文化特有のヘイトスピーチ検出データセット「REACT」を提供\n- 連合学習を活用し異なるターゲットと言語でのロバスト性を強化\n- ローカルなトレーニングでユーザーデータのプライバシーを保護\n\nヘイトスピーチ対策に合成データを活かすのって新しい発想だよね。グローバルサウスの庶民のために、技術が手助けになるのが期待されるし応援しちゃうな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-06T11:00:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04868",
+    "title": "NebulaFL: Effective Asynchronous Federated Learning for JointCloud Computing",
+    "japanese_title": "NebulaFL: ジョイントクラウドコンピューティングにおける効果的な非同期連合学習",
+    "authors": [
+      "Fei Gao",
+      "Ming Hu",
+      "Zhiyu Xie",
+      "Peichang Shi",
+      "Xiaofei Xie",
+      "Guodong Yi",
+      "Huaimin Wang"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- ジョイントクラウドコンピューティングは、従来の連合学習の資源制約を突破する可能性がある\n- NebulaFLはデータ多様性問題に対処するため、バージョン管理に基づく非同期学習を採用\n- 通信負荷を減少させるため、分散型モデル回転を利用し、データセンター間の知識共有を確立\n- トレーニング時間とコストを抑制するため、報酬誘導型戦略を用いた選択と資源調整を統合\n\nデータセンター間での学習協力ってすごいよね！通信の負荷を半分以下に抑えつつ、高い精度も実現していて超効率的だね。これからFLaaSの普及が進みそうでワクワクするよねー！",
+    "topics": [
+      "連合学習",
+      "TEE"
+    ],
+    "published": "2024-12-06T09:02:09+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04785",
+    "title": "Differentially Private Random Feature Model",
+    "japanese_title": "差分プライバシーを用いたランダムフィーチャーモデル",
+    "authors": [
+      "Chunyang Liao",
+      "Deanna Needell",
+      "Alexander Xue"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "Submitted to an IEEE journal",
+    "summary": "- 機械学習におけるプライバシー保護は注目され、差分プライバシーはよく用いられる。\n- ランダムフィーチャーを用い、プライバシーを保つ新たなモデルを開発。\n- この手法はオーバーパラメトリックな状況で理論的な保証を提供し、私的なモデルを生成。\n- ランダムフィーチャーにより、差分プライバシーの偏りを軽減し公平性を改善する可能性がある。\n\nこの論文では、ランダムフィーチャーを使ってプライバシーを守りつつ学習する方法を提案しているところが面白そう。理論と実験の両方で公平性を高めるって、重要なポイントだね！",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-12-06T05:31:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04700",
+    "title": "SpasticMyoElbow: Physical Human-Robot Interaction Simulation Framework for Modelling Elbow Spasticity",
+    "japanese_title": "SpasticMyoElbow: 肘痙縮をモデル化するための物理的なヒューマンロボットインタラクションシミュレーションフレームワーク",
+    "authors": [
+      "Hao Yu",
+      "Zebin Huang",
+      "Yutong Li",
+      "Xinliang Guo",
+      "Vincent Crocher",
+      "Ignacio Carlucho",
+      "Mustafa Suphi Erden"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "7 pages, 5 figures; Submitted to ICORR-2025",
+    "summary": "- 衝撃後の神経運動異常の評価にはロボット機器が有効だが、痙縮は手動評価が依然多い\n- 患者データの制限と多様性が、ロボティック評価技術の完全な検証を妨げてきた\n- 提案するフレームワークはロボット支援の痙縮評価シミュレーションを提供し、合成データでの実験が可能\n- 研究の結果、筋繊維の速度と長さ情報のフィードバックを組み込んだモデルが関節抵抗の特性をより正確に反映\n\nロボットがこうして医療分野でも役立ってるのってすごいよね！痙縮の評価がもっと精密になれば、患者さんのリハビリもきっとより効果的になるんじゃないかな。患者さんのデータをいっぱい作れるって、未来の研究にも大きな助けになりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-06T01:24:33+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04697",
+    "title": "Privacy-Preserving Retrieval Augmented Generation with Differential Privacy",
+    "japanese_title": "差分プライバシーによるプライバシー保護型の検索増強生成",
+    "authors": [
+      "Tatsuki Koga",
+      "Ruihan Wu",
+      "Kamalika Chaudhuri"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデル(LLM)は、機密性の高いデータを扱う分野での利用が増加\n- 検索増強生成(RAG)は、外部知識からの情報提供でLLMを補助する\n- RAGの出力が機密情報を漏洩しないよう、差分プライバシー(DP)を探求\n- プライバシー予算を効果的に活用するアルゴリズムで長文正確回答を実現\n\nプライバシーを守りながらも、ちゃんとまともな文章を生成できちゃうとかすごくない!? この研究が進むともっと安心してデータを使える未来がきそうだね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-06T01:20:16+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2412.04464",
     "title": "DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction",
     "japanese_title": "DualPM: 3D形状と姿勢再構成のための二重姿勢・標準点マップ",
@@ -42,6 +264,30 @@
       "合成データ"
     ],
     "published": "2024-12-05T18:59:08+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04538",
+    "title": "Communication Compression for Distributed Learning without Control Variates",
+    "japanese_title": "制御変数なしの分散学習における通信圧縮",
+    "authors": [
+      "Tomas Ortega",
+      "Chun-Yin Huang",
+      "Xiaoxiao Li",
+      "Hamid Jafarkhani"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SP",
+      "math.OC",
+      "68W10, 68W15, 68W40, 90C06, 90C35, 90C26",
+      "G.1.6; F.2.1; E.4"
+    ],
+    "comment": "",
+    "summary": "- 連合学習での分散学習は、通信圧縮を通じてクライアントアップロードのコストを削減\n- 圧縮手法はバイアスがある場合が多く、誤差フィードバックには制御変数が必要\n- 提案手法CAFeは、過去の集約更新を活用し制御変数なく圧縮を可能に\n- CAFeは、非滑らかな条件下での優位性を理論的に証明、実験でも優れた結果を示す\n\nCAFeってすごく便利そう！制御変数を使わずに圧縮できるのはプライバシー的にも安心だし、新しい可能性が広がりそうだね。🌟",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-05T18:46:20+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.04416",
@@ -171,6 +417,28 @@
       "合成データ"
     ],
     "published": "2024-12-05T13:11:04+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.04521",
+    "title": "FedDW: Distilling Weights through Consistency Optimization in Heterogeneous Federated Learning",
+    "japanese_title": "FedDW: 異種連合学習における一貫性最適化による重みの蒸留",
+    "authors": [
+      "Jiayu Liu",
+      "Yong Wang",
+      "Nianbin Wang",
+      "Jing Yang",
+      "Xiaohui Tao"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CE"
+    ],
+    "comment": "",
+    "summary": "- 連合学習はデータを集約せずにニューラルネットワークをトレーニングする手法\n- クライアント間のデータの多様性とネットワークの拡大がモデル性能に影響\n- データクラス間の固有の関係性を捉えて訓練を調整するFedDWフレームワークを提案\n- FedDWは最先端の手法と比較して精度を平均3%向上し、計算負荷もわずか\n\nデータを集めずに賢く学ぶなんて、すごいよね！この新しいアプローチでトレーニングの効率が上がって精度も良くなるなら、色んな用途で役立ちそうだね！早く実現したらいいな～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-05T12:32:40+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.04081",

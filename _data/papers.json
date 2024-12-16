@@ -1,5 +1,130 @@
 [
   {
+    "url": "http://arxiv.org/abs/2412.10130",
+    "title": "Optimal Bounds for Private Minimum Spanning Trees via Input Perturbation",
+    "japanese_title": "入力摂動によるプライベートな最小全域木の最適境界",
+    "authors": [
+      "Rasmus Pagh",
+      "Lukas Retschmeier",
+      "Hao Wu",
+      "Hanwen Zhang"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 重み差分プライバシーに基づく近似最小全域木を公開する問題を研究\n- 既存のプライベートMSTアルゴリズムは効率と正確さのトレードオフがある\n- 入力のランダム摂動で非プライベートMSTアルゴリズムの結果をプライベート化\n- 近似差分プライバシーにおける最初のプライバシーと有用性のトレードオフ下限を提供\n\nプライバシーを守りながら精度を高めるための新しい手法ってワクワクするね！理論だけじゃなく実験でも実用性が確認されているから、この技術でどんなイノベーションが生まれるのか、もっと知りたくなっちゃう。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-13T13:22:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09994",
+    "title": "The PET Paradox: How Amazon Instrumentalises PETs in Sidewalk to Entrench Its Infrastructural Power",
+    "japanese_title": "PETのパラドックス：AmazonがSidewalkでPETsを道具化しインフラ権力を強化する方法",
+    "authors": [
+      "Thijmen van Gend",
+      "Donald Jay Bertulfo",
+      "Seda Gürses"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.CR",
+      "cs.NI"
+    ],
+    "comment": "",
+    "summary": "- PETsは権力の非対称を緩和するはずだが、Amazonのような企業のインフラ権力を強化する矛盾が存在。\n- AmazonのSidewalkでは、EchoとRingデバイスがゲートウェイに変えられ、大規模な接続インフラを形成。\n- Sidewalkの接続により、新たな情報流が生まれ、監視や競争上の懸念が増大。\n- PETsの実装は、デバイスメーカーの変更を要求し、Amazonの計算インフラの一部に取り込む。\n\nAmazonのSidewalkが秘密裏にデバイスを変えちゃうなんてすごく興味深い！PETsが逆に権力を強化してるところも考えさせられるよね。面白おかしいけど、ちょっと怖いね。",
+    "topics": [
+      "PETs"
+    ],
+    "published": "2024-12-13T09:29:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09859",
+    "title": "Financial Sentiment Analysis: Leveraging Actual and Synthetic Data for Supervised Fine-tuning",
+    "japanese_title": "金融センチメント分析：実データと合成データを活用した教師ありファインチューニング",
+    "authors": [
+      "Abraham Atsiwo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 効率的市場仮説は金融ニュースが株価に与える影響を示す\n- 一般的な言語モデルは金融のセンチメント分析には不向き\n- 実データと合成データを用いてモデル性能を向上させることを仮定\n- BertNSP-financeとfinbert-lcが精度とf1スコアを改善\n\n金融ニュースの文章を丁寧に扱うことで精度が上がったんだね！私たちも将来こんな風に新しい方法を考えて、いろんなことに挑戦してみたいね。楽しいことたくさん見つけられそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-13T04:59:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09842",
+    "title": "Leveraging Programmatically Generated Synthetic Data for Differentially Private Diffusion Training",
+    "japanese_title": "差分プライバシーを用いた拡散モデルトレーニングにおける合成データの活用",
+    "authors": [
+      "Yujin Choi",
+      "Jinseong Park",
+      "Junyoung Byun",
+      "Jaewook Lee"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 合成データを用いたトレーニングは、分類問題でプライバシーを漏らさずに性能を向上\n- 実データと合成データは分布の違いから生成された画像が現実的でないという課題\n- 提案手法DP-SynGenは、拡散モデルで合成データを活用してこの課題に挑戦\n- 実験で、DP-SynGenがプライバシー保護の影響を軽減し生成データの品質向上を示す\n\n合成データを拡散モデルでうまく扱うのって革新的じゃん！これが本当にうまくいけば、データプライバシーをもっと色々な分野で気軽にできるかもね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-13T04:22:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09814",
+    "title": "Temporal Causal Discovery in Dynamic Bayesian Networks Using Federated Learning",
+    "japanese_title": "動的ベイジアンネットワークにおける連合学習を用いた時間的因果発見",
+    "authors": [
+      "Jianhong Chen",
+      "Ying Ma",
+      "Xubo Yue"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.CO"
+    ],
+    "comment": "23 pages",
+    "summary": "- 動的ベイジアンネットワークの学習は、従来は全データを一箇所に集める集中型だった\n- リアルなシナリオでは、データは複数の関係者間で分散されることが多い\n- 提案手法は、連合学習を利用しながらプライバシーとセキュリティを維持\n- 実験結果から、多くのクライアントと限られたサンプルでも高性能を示す\n\nプライバシーを守りつつ、みんなでデータ分析できるなんてすごいよね！今後、様々な分野でこんな手法が使われそうでワクワクするな～。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-13T03:09:35+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09756",
+    "title": "Private Synthetic Data Generation in Small Memory",
+    "japanese_title": "小メモリ環境でのプライベート合成データ生成",
+    "authors": [
+      "Rayne Holland",
+      "Seyit Camtepe",
+      "Chandra Thapa",
+      "Jason Xue"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DS"
+    ],
+    "comment": "28 Pages, 1 Table, 3 Figures, 4 Algorithms",
+    "summary": "- データストリームのプライバシー保護は高メモリ消費か柔軟性制約がある。\n- $\\textsf{PrivHP}$は差分プライバシーを保持しつつ軽量な合成データ生成を行う。\n- 階層的ドメイン分解でプライバシーを保ちながら高頻度サブドメインを保存。\n- $\\textsf{PrivHP}$は従来の手法よりもメモリと構築時間が小さい。\n\nこのタイトルとアブストラクトを読んでみると、小メモリでも合成データを作れるってスゴいね。データストリームのプライバシー保護における新たな解法になりそうで、ワクワクするなぁ。",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-12-12T23:24:05+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2412.09605",
     "title": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
     "japanese_title": "AgentTrek: ウェブチュートリアルによる経路再生ガイドによるエージェント軌跡の合成",
@@ -1514,6 +1639,26 @@
       "合成データ"
     ],
     "published": "2024-12-09T11:15:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.09642",
+    "title": "A Practical Exercise in Adapting SIFT Using FHE Primitives",
+    "japanese_title": "A Practical Exercise in Adapting SIFT Using FHE Primitivesの和訳",
+    "authors": [
+      "Ishwar B Balappanawar",
+      "Bhargav Srinivas Kommireddy"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CV",
+      "I.4.m"
+    ],
+    "comment": "Under review at FHE.org collocated with Real World Crypto 2025",
+    "summary": "- CKKS準同型暗号を用いたSIFT実装でFHEの限界を明らかにした\n- 比較演算子がないことで配列最大値やヒストグラム集計にも影響\n- 標準アルゴリズムの代替実装で乗算深度を抑制\n- 暗号化された段階で待機計算法を用いてコストの高い比較操作を回避\n\n新しい手法で差分プライバシーを満たしつつアルゴリズムを改良するなんて面白い！こういう工夫がもっと色々なところに応用されたら、未来がどんどん広がりそうだね🎶",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-12-09T08:52:57+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.06210",

@@ -1,5 +1,202 @@
 [
   {
+    "url": "http://arxiv.org/abs/2412.13030",
+    "title": "Are Data Experts Buying into Differentially Private Synthetic Data? Gathering Community Perspectives",
+    "japanese_title": "データ専門家は差分プライバシーを備えた合成データにどの程度賛成しているのか？コミュニティの視点を集める",
+    "authors": [
+      "Lucas Rosenblatt",
+      "Bill Howe",
+      "Julia Stoyanovich"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CR",
+      "cs.DB"
+    ],
+    "comment": "",
+    "summary": "- 差分プライバシー（DP）はアメリカで重要な技術だが、実務者のニーズに沿った指標が必要\n- データ専門家のインタビューで、実データと合成データの成果に一貫性が必要と示唆\n- 推奨として、十分に文書化されたケースの提供や分野別の標準の公表が必要\n- 高プライバシーな低忠実度データでの熟練度に基づいた段階的データアクセス手法を提案\n\nデータの専門家たちが実際に差分プライバシーをどう活かしてるのか、知りたくなっちゃうね！階層的なデータアクセス方法とか、もっと研究が進むと私たちも安心してデータが利用できるかも。ちょっと未来が楽しみ！",
+    "topics": [
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-12-17T15:50:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12938",
+    "title": "A Conceptual Model of Intelligent Multimedia Data Rendered using Flying Light Specks",
+    "japanese_title": "飛翔する光の粒を用いたインテリジェントなマルチメディアデータの概念モデル",
+    "authors": [
+      "Nima Yazdani",
+      "Hamed Alimohammadzadeh",
+      "Shahram Ghandeharizadeh"
+    ],
+    "categories": [
+      "cs.DB",
+      "cs.ET",
+      "cs.MM"
+    ],
+    "comment": "Appeared in the First International Conference on Holodecks",
+    "summary": "- FLSは小型ドローンで、3Dマルチメディアオブジェクトを照らすために設計されている\n- FLSの群れがユーザーの触覚に力を返すことで、ハプティックインタラクションを提供する\n- 本論文では、FLSディスプレイのデータにセマンティクスを追加し、マルチメディアリポジトリを拡張するモデルを提案\n- 提案モデルがエンターテインメントとヘルスケアのアプリケーションでの拡張性を示す\n\nこの技術は、エンターテインメントだけじゃなくて、医療みたいな分野にも使えるんだね！未来のインタラクションってなんだかワクワクしちゃう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-17T14:18:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12844",
+    "title": "Concurrent vertical and horizontal federated learning with fuzzy cognitive maps",
+    "japanese_title": "あいまい認知マップを用いた同時垂直・水平連合学習",
+    "authors": [
+      "Jose L Salmeron",
+      "Irina Arévalo"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- データプライバシーは医療や金融で重要な課題である\n- 連合学習は参加者がデータプライバシーを守りつつモデルを共同訓練する手法\n- 非IIDデータの課題対策として新しい枠組みを提案、あいまい認知マップを使用\n- 4つのフェデレーション戦略で実験し、学習成果とプライバシーの両立を確認\n\nデータを安心して使えるって大事だよね！この研究で、非IIDデータでもちゃんと連合学習できる可能性が広がりそう。ワクワクするね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-17T12:11:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12640",
+    "title": "Building Gradient Bridges: Label Leakage from Restricted Gradient Sharing in Federated Learning",
+    "japanese_title": "勾配の架け橋を作る: 連合学習における制限付き勾配共有からのラベル漏洩",
+    "authors": [
+      "Rui Zhang",
+      "Ka-Ho Chow",
+      "Ping Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 連合学習での勾配共有がラベル漏洩の攻撃対象となり得る\n- 既存の軽量な防御手法は勾配の共有を制限するが不十分\n- 新たな攻撃手法GDBRを提案し、勾配情報からラベル分布を復元\n- GDBRは80%以上のラベルを高い精度でフードバック可能と実験で判明\n\n新しい攻撃法がいきなり80%のラベルを復元できちゃうのはスゴイ！これからもっと安全な防御策が求められるね。連合学習の未来がますます気になっちゃう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-17T08:03:38+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12612",
+    "title": "SynthCypher: A Fully Synthetic Data Generation Framework for Text-to-Cypher Querying in Knowledge Graphs",
+    "japanese_title": "SynthCypher: 知識グラフのText-to-Cypherクエリ生成のための完全合成データ生成フレームワーク",
+    "authors": [
+      "Aman Tiwari",
+      "Shiva Krishna Reddy Malay",
+      "Vikas Yadav",
+      "Masoud Hashemi",
+      "Sathwik Tejaswi Madhusudhan"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- Cypherクエリ生成(Text2Cypher)は、Neo4jのグラフデータベース向けに重要であるが、未開拓の問題である\n- SynthCypherは新しいLLMSupervisedフレームワークを採用し、多様なドメインとクエリの複雑性に対応する\n- 29.8kのText2Cypherインスタンスを含む大規模なベンチマークデータセットを生成し、精度向上につなげる\n- 合成データを用いることで、Text2Cypherタスクで最先端技術の向上を達成可能であることを示す\n\nすごく面白そう！合成データでこんなにパフォーマンスが上がるなんて、他の分野にも応用できる可能性があるかもね。どんなクエリも巧みに理解できるAIとか、考えただけでワクワクする！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-17T07:21:25+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12512",
+    "title": "Libri2Vox Dataset: Target Speaker Extraction with Diverse Speaker Conditions and Synthetic Data",
+    "japanese_title": "Libri2Voxデータセット: 多様な話者条件および合成データによるターゲット話者抽出",
+    "authors": [
+      "Yun Liu",
+      "Xuechen Liu",
+      "Xiaoxiao Miao",
+      "Junichi Yamagishi"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "comment": "",
+    "summary": "- 現在のターゲット話者抽出はデータの多様性や現実世界でのロバスト性が課題\n- LibriTTSとVoxCeleb2を組み合わせたLibri2Voxデータセットを提案、ノイズ下での多様な話者実現\n- 合成話者生成とカリキュラム学習でデータ多様性と段階的なモデル訓練を向上\n- 実験でSpeakerBeamが1.39dB改善、Conformerは追加で0.78dBの改善を達成\n\nターゲット話者抽出の研究がどんどん進化していて面白いね！これでノイズの多い環境でも、もっとクリアに話者を特定できそう。今後の音声アプリも期待大だね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-17T04:06:53+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12481",
+    "title": "if-ZKP: Intel FPGA-Based Acceleration of Zero Knowledge Proofs",
+    "japanese_title": "if-ZKP: インテルFPGAによるゼロ知識証明のアクセラレーション",
+    "authors": [
+      "Shahzad Ahmad Butt",
+      "Benjamin Reynolds",
+      "Veeraraghavan Ramamurthy",
+      "Xiao Xiao",
+      "Pohrong Chu",
+      "Setareh Sharifian",
+      "Sergey Gribok",
+      "Bogdan Pasca"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- ゼロ知識証明（ZKP）はプライバシー保護に重要だが、従来はスケーラビリティの問題があった\n- zk-SNARKsがこの問題を解決し、多くのパブリックライブラリで実装が進む\n- 本研究は、FPGA上でzk-SNARKの証明者計算を加速するスケーラブルなアーキテクチャを提案\n- MSM計算の並列性を活かし、インテルOneAPIを使って110x-150xの高速化を実現\n\nすごい、ZKPの高速化でプライバシー技術が一気に進化しそう！FPGAを使ったこのアプローチ、様々な分野で応用されそうでめっちゃおもしろーい！",
+    "topics": [
+      "ゼロ知識証明"
+    ],
+    "published": "2024-12-17T02:35:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12387",
+    "title": "Differential Privacy Preserving Distributed Quantum Computing",
+    "japanese_title": "差分プライバシー保持分散型量子計算",
+    "authors": [
+      "Hui Zhong",
+      "Keyi Ju",
+      "Jiachen Shen",
+      "Xinyue Zhang",
+      "Xiaoqi Qin",
+      "Ohtsuki Tomoaki",
+      "Miao Pan",
+      "Zhu Han"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 既存の量子コンピュータはNISQ状態でしか動作できず、QDCがその制限を克服する手段とされる\n- 量子分散計算にもプライバシー漏洩の問題があり、既存研究では中央量子計算向けにQDPが導入された\n- 本研究は、QDCに適用可能な新しい概念QRDPを提案し、クラシカルなR\\'enyi DPの利点を取り入れる\n- シミュレーションではノイズ追加でデータ利用性が減少するが、プライバシー保護水準が向上することが示された\n\n量子計算に差分プライバシーを導入するなんておもしろいね！QRDPって新しい発想で、量子の複雑さを活かしたプライバシーの守り方になりそう。きっと未来のコンピューティングに貢献するような先進的な研究だね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-16T22:46:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12324",
+    "title": "F-RBA: A Federated Learning-based Framework for Risk-based Authentication",
+    "japanese_title": "F-RBA: リスクベース認証のための連合学習ベースのフレームワーク",
+    "authors": [
+      "Hamidreza Fereidouni",
+      "Abdelhakim Senhaji Hafid",
+      "Dimitrios Makrakis",
+      "Yaser Baseri"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- インターネットの発展により、私的データ保護の重要性が高まっている\n- F-RBAは、データをローカルに保ちながら学習を分散する連合学習を活用\n- 類似性に基づく特徴量工学で、連合環境でのデータ異質性問題に対応\n- 実験により、不正ログイン検出で優れた成績を示し、従来モデルを上回る\n\nリスクベース認証と連合学習を組み合わせて攻撃リスクとプライバシーを両立するフレームワークだって！分散環境でのスムーズな適応が期待できそうだし、インターネットの未来が楽しみだね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-16T19:42:30+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2412.11951",
     "title": "The Impact of Generalization Techniques on the Interplay Among Privacy, Utility, and Fairness in Image Classification",
     "japanese_title": "画像分類におけるプライバシー、効用、公平性の相互作用に対する一般化技術の影響",
@@ -681,6 +878,29 @@
       "差分プライバシー"
     ],
     "published": "2024-12-12T23:24:05+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.12176",
+    "title": "SprayCraft: Graph-Based Route Optimization for Variable Rate Precision Spraying",
+    "japanese_title": "SprayCraft: 変動施肥精密噴霧のためのグラフベースルート最適化",
+    "authors": [
+      "Kiran K. Kethineni",
+      "Saraju P. Mohanty",
+      "Elias Kougianos",
+      "Sanjukta Bhowmick",
+      "Laavanya Rachakonda"
+    ],
+    "categories": [
+      "cs.OH",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "comment": "28 pages, 40 figures, 2 tables",
+    "summary": "- 植物病害管理のために、IoATを統合したA-CPSが開発されている\n- 病害の広がりは病巣から徐々に減衰する感染密度の勾配があり、精度高い変動施肥が必要\n- SprayCraftは、グラフベース手法で病害のホットスポットを特定し、噴霧ドローンの最適経路を計算\n- グラフ上でメッセージパッシングを行い、病害ホットスポットの確率を計算し、精密な変動施肥に活用\n\nこの技術、未来の農業がもっと効率的になるのに役立ちそうだよね。ドローンが自動で病気を見つけてピンポイントで対策できるなんて、まさにハイテク農業って感じ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-12T22:46:40+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.09605",

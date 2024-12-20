@@ -1,407 +1,475 @@
 [
   {
-    "url": "http://arxiv.org/abs/2412.14080",
-    "title": "On the Robustness of Distributed Machine Learning against Transfer Attacks",
-    "japanese_title": "分散型機械学習の転移攻撃に対する頑健性について",
+    "url": "http://arxiv.org/abs/2412.15159",
+    "title": "OnlineVPO: Align Video Diffusion Model with Online Video-Centric Preference Optimization",
+    "japanese_title": "オンラインVPO: オンラインビデオ中心の嗜好最適化によるビデオ拡散モデルの整列",
     "authors": [
-      "Sébastien Andreina",
-      "Pascal Zimmer",
-      "Ghassan Karame"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "comment": "To appear in the Proceedings of the AAAI Conference on Artificial   Intelligence (AAAI) 2025",
-    "summary": "- 分散型機械学習は学習と推論の結合した頑健性をこれまで検証していなかった\n- 初めて全てのモデルパラメータが異質な分散型MLモデルの頑健性を探求\n- CIFAR10とFashionMNISTを用いた理論と実験で精度と頑健性の向上を示した\n- Common Weakness攻撃に対し、頑健精度が40%向上し、クリーンタスク精度に最小限の影響\n\n分散型機械学習の全体的な頑健性を強化する新しいアプローチなんだね！こういう研究って、未来の機械学習システムをさらに強力にしそうでワクワクするよね！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T17:27:17+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.14015",
-    "title": "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation",
-    "japanese_title": "4K解像度で正確なメトリック深度推定を可能にする「深度すべてプロンプト」の導入",
-    "authors": [
-      "Haotong Lin",
-      "Sida Peng",
-      "Jingxiao Chen",
-      "Songyou Peng",
-      "Jiaming Sun",
-      "Minghuan Liu",
-      "Hujun Bao",
-      "Jiashi Feng",
-      "Xiaowei Zhou",
-      "Bingyi Kang"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "comment": "Project page: https://PromptDA.github.io/",
-    "summary": "- 言語とビジョンモデルにプロンプトを導入し、深度推定にも適用\n- 低コストのLiDARをプロンプトとして使用し、4K解像度の精密深度を実現\n- 合成データや擬似GT深度生成を含むスケーラブルなデータパイプラインを提案\n- ARKitScenesやScanNet++で新しい成果を上げ、応用領域にも有益\n\nこれ、プロンプトが深度の世界でも活躍しちゃうんだね！めっちゃ高解像度で、しかもLiDARを使ってるなんて、最先端な感じがワクワクするね！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-12-18T16:32:12+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13905",
-    "title": "T-Edge: Trusted Heterogeneous Edge Computing",
-    "japanese_title": "T-Edge: 信頼された異種エッジコンピューティング",
-    "authors": [
-      "Jiamin Shen",
-      "Yao Chen",
-      "Weng-Fai Wong",
-      "Ee-Chien Chang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "13 pages, 6 figures",
-    "summary": "- 異種コンピューティングは効率を向上させるが、セキュリティとプライバシーへの懸念が増加\n- CPUベースの信頼実行環境は成功しているが、異種コンピューティングシステムへの拡張は困難\n- ARM/FPGAプラットフォーム向けの実用的な信頼実行環境を提案し、TrustZoneを利用\n- セキュリティを確保するためにProVerifを使用し、Xilinx MPSoCでプロトタイプを実装\n\n異種コンピューティングのセキュリティ、なんか課題が多そうだけどすごく重要よね！しかもTrustZoneとか、ワクワクする新技術ばかりで未来が楽しみ～！",
-    "topics": [
-      "TEE"
-    ],
-    "published": "2024-12-18T14:45:07+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13865",
-    "title": "Towards an identity management solution on Arweave",
-    "japanese_title": "Arweave上でのアイデンティティ管理ソリューションに向けて",
-    "authors": [
-      "Andreea Elena Dragnoiu",
-      "Ruxandra F. Olimid"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.ET"
-    ],
-    "comment": "37 pages",
-    "summary": "- 従来の集中型アイデンティティ管理はプライバシーやデータセキュリティで問題を抱えている\n- Arweaveネットワークを活用した永久保存を利用し、ユーザーに自己主権型アイデンティティを提供\n- 分散型識別子と検証可能な資格証明を用いてユーザーがデジタルIDを作成・管理する\n- ゼロ知識証明やBBS(+)署名スキームでプライバシー強化し、GDPRなどの法規制への準拠を支援\n\nArweaveを使ってアイデンティティ管理をもっと安全にできるのってすごく親切だよね。プライバシーの強化と法規制への準拠を両立させながら、デジタルIDを自分で管理できるのは未来っぽい！",
-    "topics": [
-      "SSI/DID/VC",
-      "ゼロ知識証明"
-    ],
-    "published": "2024-12-18T14:01:31+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13860",
-    "title": "Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali",
-    "japanese_title": "低リソースタスクにおけるドメイン適応継続学習: ネパール語での評価",
-    "authors": [
-      "Sharad Duwal",
-      "Suraj Prasai",
-      "Suresh Manandhar"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.LG"
-    ],
-    "comment": "10 pages, 2 figures",
-    "summary": "- 継続学習は、新しいデータが得られた際に巨大な言語モデルを再訓練することが困難なため、注目される研究分野である\n- ドメイン適応事前学習（DAPT）では、もともと訓練されていなかった領域に適応させるために、事前学習済みの言語モデルの継続的な学習を行う\n- 合成データを使ってLLama 3 8Bを4ビットQLoRA設定でネパール語に適応し、忘却や知識獲得などを性能評価した\n- 驚いたことに、評価中のショット数を増やすと、基礎モデルと比べて大きな性能向上（最大19.29%）が見られ、潜在的な保持があると示唆される\n\n継続学習って面白いよね、新しいデータを手に入れるたびに再訓練しなくていいなんて。大規模モデルの適応ができたら低リソースの言語ももっとサポートできそうでワクワクする！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-12-18T13:53:59+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13818",
-    "title": "Fed-AugMix: Balancing Privacy and Utility via Data Augmentation",
-    "japanese_title": "Fed-AugMix: データ拡張によるプライバシーと有用性のバランス調整",
-    "authors": [
-      "Haoyang Li",
-      "Wei Chen",
-      "Xiaojin Zhang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "",
-    "summary": "- 連合学習のプライバシーが勾配漏洩攻撃により脅かされている\n- 歪みベースの保護は効果的だが、モデル性能は低下する\n- クライアントレベルのAugMixアルゴリズムでプライバシーと性能向上を両立\n- JSダイバージェンスで、プライバシーを守りつつモデルの一貫性を促進\n\nこの研究、データの守り方と性能の両立を目指してる感じでおもしろそう！ちゃんと効果あるって実験結果も出てるから、これからの連合学習での応用が楽しみだね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T13:05:55+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13813",
-    "title": "Differentially Private Substring and Document Counting",
-    "japanese_title": "差分プライバシーを用いた部分文字列と文書のカウント",
-    "authors": [
-      "Giulia Bernardini",
-      "Philip Bille",
-      "Inge Li Gørtz",
-      "Teresa Anna Steiner"
-    ],
-    "categories": [
-      "cs.DS",
-      "cs.CR"
-    ],
-    "comment": "33 pages",
-    "summary": "- 差分プライバシーを活用した部分文字列カウントと文書カウントを理論的に研究\n- 全パターンに対して最適な誤差で問題解決可能なデータ構造を提案\n- ドキュメントカウントは誤差をさらに改善し、データ構造は効率的\n- 提案手法で頻出部分文字列やq-グラムのプライベートマイニングのアルゴリズムを改善\n\n理論的でちょっと難しそうだけど、部分文字列をプライバシー守りながら数えるってすごいね！q-グラムの効率化も興味深くて、いろんな応用が浮かぶ！",
-    "topics": [
-      "差分プライバシー"
-    ],
-    "published": "2024-12-18T13:00:09+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13779",
-    "title": "Rehearsal-Free Continual Federated Learning with Synergistic Regularization",
-    "japanese_title": "リハーサルなし協調正則化による継続的連合学習",
-    "authors": [
-      "Yichen Li",
-      "Yuying Wang",
-      "Tianzhe Xiao",
-      "Haozhao Wang",
-      "Yining Qi",
-      "Ruixuan Li"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.DC"
-    ],
-    "comment": "",
-    "summary": "- 継続的連合学習は、以前のタスクを忘れずに絶えず変化するデータから新たな概念を学ぶ技術である\n- 既存の継続的連合学習はリハーサルによる記憶コストやプライバシー侵害の懸念がある\n- 課題解決のために、サンプルキャッシュが不要な正則化技術を連合学習に適用する\n- FedSSIはデータの異質性を考慮し、計算負担を軽減しつつも高性能を実現する\n\nこの論文面白そう！特にリハーサルを省略しつつ、異質なデータに対応できる新技術って画期的だよね。これが成功すれば、もっと効率的な分散学習が実現しそう！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T12:16:41+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13757",
-    "title": "Federated Source-free Domain Adaptation for Classification: Weighted Cluster Aggregation for Unlabeled Data",
-    "japanese_title": "連合ソースフリードメイン適応による分類：ラベルなしデータのための重み付きクラスター集約",
-    "authors": [
-      "Junki Mori",
-      "Kosuke Kihara",
-      "Taiki Miyagawa",
-      "Akinori F. Ebihara",
-      "Isamu Teranishi",
-      "Hisashi Kashima"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "comment": "Accepted by WACV 2025",
-    "summary": "- 連合学習ではラベル付きデータが前提であるが、実際にはコストとプライバシーの問題がある\n- ソースデータなしでのドメイン適応で、予め訓練されたモデルを用いる手法を提案\n- FedWCAは重み付きクラスター集約でドメインシフトとプライバシー問題を解決\n- 実験結果よりFFREEDAで既存手法を上回る効果を示し、その実効性を証明\n\n連合学習の新しいアプローチだね！ラベルなしデータだけでドメイン適応をするなんて、すごく面白そう。これが実用化されたら、もっと安心してデータを共有できるかもしれないよね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T11:47:54+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13734",
-    "title": "Text2Relight: Creative Portrait Relighting with Text Guidance",
-    "japanese_title": "Text2Relight: テキストガイドによる創造的なポートレート再照明",
-    "authors": [
-      "Junuk Cha",
-      "Mengwei Ren",
-      "Krishna Kumar Singh",
-      "He Zhang",
-      "Yannick Hold-Geoffroy",
-      "Seunghyun Yoon",
-      "HyunJoon Jung",
-      "Jae Shin Yoon",
-      "Seungryul Baek"
+      "Jiacheng Zhang",
+      "Jie Wu",
+      "Weifeng Chen",
+      "Yatai Ji",
+      "Xuefeng Xiao",
+      "Weilin Huang",
+      "Kai Han"
     ],
     "categories": [
       "cs.CV"
     ],
     "comment": "",
-    "summary": "- ポートレート画像とテキストを使用して1枚の画像を再照明する技術を提案\n- テキストの創造性を利用し、光源を温度、感情、匂い、時間によって表現可能\n- 大規模なテキストと再照明のデータがないため、そのようなマッピングのモデル化が難しい\n- 生成モデルを用いて、テキストに基づく多様で創造的な照明画像を自動生成し学習\n\nこの研究、テキストから感覚的なことまで表現できるなんて面白そう！AIがどんな情景を再現するのか想像が膨らむね。また、景色だけじゃなくて感情まで表現に組み込めるなんて、本当に未来的な技術だと思うな。",
+    "summary": "- テキストからビデオ(T2V)生成には課題があり、画像品質の低下やちらつきが問題\n- ビデオ拡散モデル(VDM)のフィードバック学習は有望だが、整合性やスケーラビリティに限界がある\n- OnlineVPOは合成データで訓練されたVQAモデルを報酬として使用し、整合性のあるフィードバックを実現\n- オンラインDPOアルゴリズムで既存の学習フレームワークのオフポリシー最適化とスケーラビリティ問題に対処\n\n新しいビデオ生成の手法にワクワクだよね！この研究が未来のムービー制作にも役立ちそうで楽しみ。どんな進化が待ってるのか期待しちゃう。",
     "topics": [
       "合成データ"
     ],
-    "published": "2024-12-18T11:12:10+00:00"
+    "published": "2024-12-19T18:34:50+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2412.13720",
-    "title": "Federated Learning and RAG Integration: A Scalable Approach for Medical Large Language Models",
-    "japanese_title": "連合学習とRAG統合: 医療向け大規模言語モデルの拡張可能なアプローチ",
+    "url": "http://arxiv.org/abs/2412.15126",
+    "title": "Efficient Ranking, Order Statistics, and Sorting under CKKS",
+    "japanese_title": "CKKSにおける効率的なランキング、順序統計量、ソート",
     "authors": [
-      "Jincheol Jung",
-      "Hongju Jeong",
-      "Eui-Nam Huh"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "comment": "",
-    "summary": "- 医療分野のLLM性能を向上のためにRAGを連合学習へ統合\n- 連合学習によりデータプライバシーと分散コンピュテーションの利点を活用\n- RAG統合で、さまざまなクライアント構成下のモデル性能が向上\n- 結果は非統合モデルよりも一貫して優れた評価指標を示す\n\n連合学習とRAGを組み合わせることで、医療分野の大規模言語モデルがどこまで進化するのかワクワクする！プライバシーを守りつつ、性能向上できるのはまさに未来の技術だね。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T11:00:58+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13618",
-    "title": "NPC: Neural Predictive Control for Fuel-Efficient Autonomous Trucks",
-    "japanese_title": "NPC: 燃料効率の良い自動運転トラックのためのニューラル予測制御",
-    "authors": [
-      "Jiaping Ren",
-      "Jiahao Xiang",
-      "Hongfei Gao",
-      "Jinchuan Zhang",
-      "Yiming Ren",
-      "Yuexin Ma",
-      "Yi Wu",
-      "Ruigang Yang",
-      "Wei Li"
-    ],
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "comment": "7 pages, 6 figures, for associated mpeg file, see   https://www.youtube.com/watch?v=hqgpj7LhiL4",
-    "summary": "- 燃料効率はコスト削減と炭素排出削減に重要である\n- NPCは物理モデルを使わない純粋なデータ駆動型手法である\n- NVFormerは注意メカニズムを用いて関係性をモデル化する\n- NPCは従来手法を上回り、シミュレーションと実地試験で燃料節約を実現\n\n自動運転トラックの燃料効率すごく上がりそう！これで環境にも優しいトラックの未来が期待できるね。実際の道路でのテスト結果が良好ってところもポイント高い！",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-12-18T08:57:05+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13589",
-    "title": "SemiDFL: A Semi-Supervised Paradigm for Decentralized Federated Learning",
-    "japanese_title": "SemiDFL: 分散型連合学習のための半教師ありパラダイム",
-    "authors": [
-      "Xinyang Liu",
-      "Pengchao Han",
-      "Xuan Li",
-      "Bo Liu"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.DC"
-    ],
-    "comment": "Accepted by AAAI 2025",
-    "summary": "- 分散型連合学習(DFL)は、中央サーバーに依存せず、通信のボトルネックと単一障害点を解消する\n- 現実世界の多くのデータがラベルなしであるため、半教師あり学習(SSL)シナリオを考慮\n- SemiDFLは、データとモデル空間でのコンセンサスを確立し、性能を向上させる初の半教師ありDFL方法\n- 提案手法は、擬似ラベル付けと合成データ生成を活用し、適応的な集約により精度を向上\n\nこのアプローチってすごく実用的かも！ラベルなしデータが多い現実のシナリオで重要な役割を果たしそう。未来のAIシステムがもっと賢くなれそうだね！",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T08:12:55+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13551",
-    "title": "Large Language Model Federated Learning with Blockchain and Unlearning for Cross-Organizational Collaboration",
-    "japanese_title": "ブロックチェーンと学習解除を用いたクロスオーガニゼーション協力における大規模言語モデル連合学習",
-    "authors": [
-      "Xuhan Zuo",
-      "Minghao Wang",
-      "Tianqing Zhu",
-      "Shui Yu",
-      "Wanlei Zhou"
+      "Federico Mazzone",
+      "Maarten Everts",
+      "Florian Hahn",
+      "Andreas Peter"
     ],
     "categories": [
       "cs.CR"
     ],
     "comment": "",
-    "summary": "- 異なる組織間での大規模言語モデルの利用が難しく、データ共有にためらいがある\n- 組織間競争が信頼問題を生み、新しいプライバシー法がデータ削除を要求\n- 既存の連合学習は信頼とデータ削除問題に対応しておらず限界がある\n- 公開・個人チェーンを用いたハイブリッド学習で信頼とプライバシーを両立\n\nこれってすごいよね！異なる企業が協力して技術を磨くために、安全にデータを扱えるなんて未来感満載。組織が共有しつつ守られる方法、もっと探ってみたいな。",
-    "topics": [
-      "連合学習"
-    ],
-    "published": "2024-12-18T06:56:09+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13525",
-    "title": "Hybrid Data-Free Knowledge Distillation",
-    "japanese_title": "ハイブリッドデータフリー知識蒸留",
-    "authors": [
-      "Jialiang Tang",
-      "Shuo Chen",
-      "Chen Gong"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "comment": "",
-    "summary": "- データフリー知識蒸留は、元の教師ネットワークのトレーニングデータを使わずに小型の生徒ネットワークを学習する方法である\n- 既存の方法は実際の例を集めるか合成例を生成するが、現実的にはデータ収集やエミュレーションに困難がある\n- HiDFDは少量の収集データと十分な合成データを組み合わせて生徒ネットワークを訓練する\n- HiDFDは教師ガイド生成と生徒蒸留の2つのモジュールで構成され、従来の方法より120倍少ないデータでの性能を実証した\n\nこれって、省エネで効率的なAI教育を目指すストーリーみたいでワクワクするよね！少ないデータで優秀なAIを作るって、ますます未来の技術が身近になりそう。",
-    "topics": [
-      "合成データ"
-    ],
-    "published": "2024-12-18T05:52:16+00:00"
-  },
-  {
-    "url": "http://arxiv.org/abs/2412.13522",
-    "title": "Privacy-Preserving Cyberattack Detection in Blockchain-Based IoT Systems Using AI and Homomorphic Encryption",
-    "japanese_title": "AIと準同型暗号を用いたブロックチェーンIoTシステムにおけるプライバシー保護サイバー攻撃検出",
-    "authors": [
-      "Bui Duc Manh",
-      "Chi-Hieu Nguyen",
-      "Dinh Thai Hoang",
-      "Diep N. Nguyen",
-      "Ming Zeng",
-      "Quoc-Viet Pham"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "comment": "",
-    "summary": "- ブロックチェーンノードにAIを用いた検出モジュールを配置し、リアルタイムでの攻撃検出を実現\n- プライバシー保護のため、準同型暗号を利用してクラウドサービスプロバイダで学習を行う\n- SIMD形式のパッキングアルゴリズムを導入し、効率的に暗号化データでのモデル学習を可能に\n- FedAvgアルゴリズムに基づく分散学習手法を提案し、計算時間を短縮しつつ高精度を維持\n\nこの研究はブロックチェーンとAIの素敵な融合が見どころかも！プライバシーを守りつつ、サイバー攻撃を素早く検出する未来のIoTシステムに大きく貢献しそう！",
+    "summary": "- 完全準同型暗号(FHE)は暗号化データ上での操作を可能にし、プライバシーを保つアプリケーションに有用\n- 暗号化下での要素比較はコストが高く、FHEでのランキングやソートの効率的な実装が困難\n- 従来手法はスワップに基づくが、比較の深さO(log^2(N))が課題である\n- 本提案は比較深さをO(1)にして並行化を実現し、計算オーバーヘッドを最小化\n\nこの研究、暗号化データでもランキングやソートできちゃうんだね！プライバシーに配慮した新たな解決策、未来のデータ処理に役立ちそう！",
     "topics": [
       "準同型暗号"
     ],
-    "published": "2024-12-18T05:46:53+00:00"
+    "published": "2024-12-19T18:06:25+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2412.13495",
-    "title": "Federated t-SNE and UMAP for Distributed Data Visualization",
-    "japanese_title": "連合学習を用いた分散データ可視化のためのt-SNEとUMAP",
+    "url": "http://arxiv.org/abs/2412.15010",
+    "title": "Robust Federated Learning in the Face of Covariate Shift: A Magnitude Pruning with Hybrid Regularization Framework for Enhanced Model Aggregation",
+    "japanese_title": "共変量シフトに対する堅牢な連合学習: モデル集約を強化するためのマグニチュードプルーニングとハイブリッド正則化フレームワーク",
     "authors": [
-      "Dong Qiao",
-      "Xinxian Ma",
-      "Jicong Fan"
+      "Ozgu Goksu",
+      "Nicolas Pugeault"
     ],
     "categories": [
       "cs.LG",
-      "cs.AI"
+      "cs.CV"
     ],
-    "comment": "The paper was accepted by AAAI 2025",
-    "summary": "- 高次元データの可視化はビッグデータ時代において重要だが、データが複数のセンターに分散されていることによるセキュリティとプライバシーの懸念がある\n- 標準的なt-SNEとUMAPを改善するため、連合学習を使ったFed-tSNEとFed-UMAPを提案し、データを交換せずに可視化を実現\n- 更なるプライバシー保護のためにFed-tSNE+とFed-UMAP+を提案し、分散クラスタリングのアルゴリズムも開発\n- 提案手法は最適化の収束や距離・類似度推定、差分プライバシーに関する理論的保証を提供し、実験で精度の低下が少ないことを確認\n\n連合学習とデータ可視化が合わさるなんて、新しいね！プライバシーも守りながら高次元データを可視化できるのは素晴らしい進化だと思うな。",
+    "comment": "",
+    "summary": "- 個人のデータのプライバシー保護をしながら共有モデルを開発するために、連合学習は有望\n- クライアント間のデータ分布の違いは、主に集約プロセスの不安定性によりFL手法に深く影響\n- 個々のパラメータのプルーニングと正則化技術を組み合わせ、共変量シフトへの影響を軽減\n- 提案手法は大規模な共変量シフトやクライアントが少数でも頑強な表現を抽出可能\n\n新しい連合学習の方法で、どんな偏ったデータにも強く立ち向かえるって凄くない？この提案が実際にどんな風に使われていくのか、色んなデータセットを通じて見ていけたら面白そうだね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T16:22:37+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14849",
+    "title": "DS-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+    "japanese_title": "DS$^2$-ABSA: ラベル精緻化によるデュアルストリームデータ合成を用いた少数ショット要素ベース感情分析",
+    "authors": [
+      "Hongling Xu",
+      "Yice Zhang",
+      "Qianlong Wang",
+      "Ruifeng Xu"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- 少数ショットで要素ベースの感情分析を行う際、既存手法は多様性が不足し効果が限定的。\n- LLMを活用したデータ合成技術で、要点駆動とインスタンス駆動の双方向からデータを生成。\n- ラベルの精緻化を行うモジュールを導入し、生成ラベルの品質を向上。\n- 評価実験で、既存の少数ショットABSA手法や他のLLMベースのデータ生成法を大きく上回る性能を示す。\n\nデュアルストリームのアプローチって面白いね！これまでの方法に新しい風を吹き込む感じで、新たなABSA手法のスタンダードになるかも！？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T13:39:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14832",
+    "title": "Federated Heavy Hitter Analytics with Local Differential Privacy",
+    "japanese_title": "連合型ヘビーヒッター分析とローカル差分プライバシー",
+    "authors": [
+      "Yuemin Zhang",
+      "Qingqing Ye",
+      "Haibo Hu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "comment": "Accepted by SIGMOD 2025",
+    "summary": "- 連合型ヘビーヒッター分析は、各主体間の利用者の嗜好理解を高める技術である\n- プライバシー保護の課題を解決する為にローカル差分プライバシー（LDP）を使用\n- LDPのノイズ注入による効用低下や通信コスト増が課題\n- 提案した新機構は、適応的拡張戦略と合意に基づく剪定を活用し課題を解消\n\n連合型のデータ分析って複数の異なるサービスでの利用者データを安全に活用できるから、もっと良いサービスが作れそうでワクワクするね。ようは、使い方次第でお互いにメリットがありそう！",
     "topics": [
       "連合学習",
       "差分プライバシー"
     ],
-    "published": "2024-12-18T04:33:11+00:00"
+    "published": "2024-12-19T13:20:32+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2412.13466",
-    "title": "Federated Unlearning Model Recovery in Data with Skewed Label Distributions",
-    "japanese_title": "データの偏ったラベル分布における連合学習のモデル復元",
+    "url": "http://arxiv.org/abs/2412.14809",
+    "title": "ResoFilter: Rine-grained Synthetic Data Filtering for Large Language Models through Data-Parameter Resonance Analysis",
+    "japanese_title": "ResoFilter: データパラメータ共鳴分析による大規模言語モデルのための精密な合成データフィルタリング",
     "authors": [
-      "Xinrui Yu",
-      "Wenbin Pei",
-      "Bing Xue",
-      "Qiang Zhang"
+      "Zeao Tu",
+      "Xiangdi Meng",
+      "Yu He",
+      "Zihan Yao",
+      "Tianyu Qi",
+      "Jun Liu",
+      "Ming Li"
     ],
     "categories": [
+      "cs.CL"
+    ],
+    "comment": "under review",
+    "summary": "- 大規模言語モデルは様々なドメインで効果的だが、合成データの質が問題\n- ResoFilterを提案し、モデルの重みでデータ特性を表現し、解釈性を向上\n- 実験でResoFilterはデータの半分で全持続的な微調整並みの結果を達成\n- 合成データセット構築と高品質データ評価に有用な知見を提供\n\n新しいフィルタリング技術で合成データの質を保つことができるなんて面白いよね。データの半分でも結果が出るのは効率的だし、活用の幅が広がりそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T12:57:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14771",
+    "title": "ALKAFI-LLAMA3: Fine-Tuning LLMs for Precise Legal Understanding in Palestine",
+    "japanese_title": "ALKAFI-LLAMA3: パレスチナの法的理解のためのLLMの微調整",
+    "authors": [
+      "Rabee Qasem",
+      "Mohannad Hendi",
+      "Banan Tantour"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
       "cs.LG"
     ],
     "comment": "",
-    "summary": "- 連合学習において、データ提供を撤回する連合アンラーニングは重要\n- ラベルが偏ったデータでのアンラーニングは、バイアスがかかりやすくサービスの質を下げる\n- 提案手法は深層学習を用いたオーバーサンプリングでデータセットを補完し、回復を支援\n- ノイズを取り除く密度ベースの手法でデータ品質を向上し、モデル性能回復を実現\n\nこの手法、データの偏りをうまく補正してモデルをちゃんと回復できるとかすごいよね！連合学習の新しい可能性が広がりそうで、いろんな分野で役立ちそうだね。",
+    "summary": "- 大規模言語モデル(LLMs)は多様な分野で有望だが、法曹界、特に低資源環境での適用は限られている\n- 政治的不安定、法律の断片化、AIリソースの制約がパレスチナの法的領域へのLLM適用を妨げている\n- パレスチナの法律テキストから合成データを生成し、Llama-3.2-1B-Instructを微調整したモデルを提案\n- 経済的かつ効果的な法的助言を提供し、クエリのパフォーマンスを評価し改善点も示した\n\nパレスチナの法律の文脈に合ったAIツールを作っているのがいい感じ！限られたリソースで現地にあったソリューションを目指しててすごく応援したくなるね。ローカルにカスタマイズされた技術ってこれからの未来を作りそう。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T11:55:51+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14768",
+    "title": "FLAMe: Federated Learning with Attention Mechanism using Spatio-Temporal Keypoint Transformers for Pedestrian Fall Detection in Smart Cities",
+    "japanese_title": "FLAMe: スマートシティにおける歩行者転倒検知用の時空間キーポイントトランスフォーマによるアテンションメカニズムを用いた連合学習",
+    "authors": [
+      "Byeonghun Kim",
+      "Byeongjoon Noh"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "8 pages, 7 figures, AAAI 2025 FLUID Workshop",
+    "summary": "- スマートシティでの歩行者転倒検知の課題を解決するため、FLAMeシステムを提案\n- FLAMeは重要なキーポイント情報を学習し、通信コスト削減とデータプライバシーを維持\n- 軽量なキーポイントトランスフォーマモデルを連合学習フレームワークに統合し、時空間特徴を効果的に学習\n- 約22,672のビデオサンプルを使った実験で、94.02%の精度を達成し、通信コストを約40%削減\n\nこの論文、すごくワクワクするね！FLAMeを使ってスマートシティの安全を守るなんて、なんだか未来のまちづくりに役立ちそう。通信コストをそんなに削減できるなんて、便利すぎる♡",
     "topics": [
       "連合学習"
     ],
-    "published": "2024-12-18T03:25:11+00:00"
+    "published": "2024-12-19T11:51:45+00:00"
   },
   {
-    "url": "http://arxiv.org/abs/2412.13269",
-    "title": "TETRIS: Composing FHE Techniques for Private Functional Exploration Over Large Datasets",
-    "japanese_title": "TETRIS: 大規模データセットでのプライベート機能探索のためのFHE技術の組み合わせ",
+    "url": "http://arxiv.org/abs/2412.14689",
+    "title": "How to Synthesize Text Data without Model Collapse?",
+    "japanese_title": "モデル崩壊を起こさずにテキストデータを合成する方法",
     "authors": [
-      "Malika Izabachène",
-      "Jean-Philippe Bossuat"
+      "Xuekai Zhu",
+      "Daixuan Cheng",
+      "Hengli Li",
+      "Kaiyan Zhang",
+      "Ermo Hua",
+      "Xingtai Lv",
+      "Ning Ding",
+      "Zhouhan Lin",
+      "Zilong Zheng",
+      "Bowen Zhou"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 合成データにはモデル崩壊を引き起こすリスクがある\n- 合成データと人間作成データの比率が高いほど性能が低下する\n- トークン編集を使った半合成データがモデル崩壊を防ぐ\n- トークン編集によりデータ品質向上とモデル性能改善を実証\n\n人間が作るデータに手を加えて合成データを作るなんて面白い考え方！どんなトークン編集方法がいいのか気になるね。これ、将来のAIモデルにすごく役立ちそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T09:43:39+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14684",
+    "title": "Bel Esprit: Multi-Agent Framework for Building AI Model Pipelines",
+    "japanese_title": "Bel Esprit: 複数エージェントによるAIモデルパイプライン構築フレームワーク",
+    "authors": [
+      "Yunsu Kim",
+      "AhmedElmogtaba Abdelaziz",
+      "Thiago Castro Ferreira",
+      "Mohamed Al-Badrashiny",
+      "Hassan Sawaf"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.MA"
+    ],
+    "comment": "",
+    "summary": "- 単一のAIモデルでは複雑な現実のタスクに対応が難しいため、複数モデルの統合が必要である  \n- Bel Espritはユーザーの要求に基づきAIモデルパイプラインを構築する会話エージェントである  \n- 複数エージェントが協力し、要求の明確化、モデル構築、妥当性検証、パイプライン内モデルの配置を行う  \n- Bel Espritは曖昧なユーザーの問い合わせからパイプラインを生成する効果を示し、詳細なエラー分析も実施  \n\nAIパイプラインを自動で組めるとかすごくない！？曖昧な指示にも対応できるから、初心者でも簡単にパイプラインを使いこなせるかもだね。これ、試してみたいと思わない？",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T09:36:33+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14668",
+    "title": "LoLaFL: Low-Latency Federated Learning via Forward-only Propagation",
+    "japanese_title": "LoLaFL: 順方向のみの伝播による低遅延連合学習",
+    "authors": [
+      "Jierui Zhang",
+      "Jianhao Huang",
+      "Kaibin Huang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.NI"
+    ],
+    "comment": "14 pages, 9 figures",
+    "summary": "- 従来の連合学習はバックプロパゲーションにより低遅延の要求に応えにくい問題がある\n- LoLaFLは最大符号化率を用いて白箱のニューラルネットワークを拡張し低遅延を実現\n- 層ごとの伝送と集約を可能とし通信ラウンド数を大幅に減少させる\n- 非線形集約手法により遅延を91%および98%削減しながら類似の精度を維持\n\n将来のネットワークでさらに速く学習できるのはすごくワクワクするね！また、いろんな方法で遅延を減らすアプローチが面白いなと思った！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T09:20:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14545",
+    "title": "Summary of Point Transformer with Federated Learning for Predicting Breast Cancer HER2 Status from Hematoxylin and Eosin-Stained Whole Slide Images",
+    "japanese_title": "連合学習を用いたHE染色全スライド画像からの乳癌HER2状態予測のためのポイントトランスフォーマーの概要",
+    "authors": [
+      "Kamorudeen A. Amuda",
+      "Almustapha A. Wakili"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- 連合学習でHE染色の全スライド画像からHER2状態を予測し、治療決定速度とコストを改善\n- マルチサイトデータセットのラベル不均衡や特徴表現を解決するためにポイントトランスフォーマーを提案\n- ダイナミックなラベル分布、補助的な分類器、最遠コサインサンプリングを組み合わせて使用\n- 4サイト（2687WSI）での実験で最先端の性能を示し、2つの未見のサイト（229WSI）への一般化も強力\n\n医療画像解析に連合学習を使うなんてすごい！未見データへの強い一般化性能があるなら、現場の負担も減りそうで期待大だね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T05:51:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14495",
+    "title": "FedMUP: Federated Learning driven Malicious User Prediction Model for Secure Data Distribution in Cloud Environments",
+    "japanese_title": "FedMUP: クラウド環境における安全なデータ分配のための連合学習駆動型悪意ユーザ予測モデル",
+    "authors": [
+      "Kishu Gupta",
+      "Deepika Saxena",
+      "Rishabh Gupta",
+      "Jatinder Kumar",
+      "Ashutosh Kumar Singh"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "33 pages, 9 figures",
+    "summary": "- クラウド環境のデータセキュリティ問題の解決を目的とする連合学習モデルを提案\n- ユーザの行動を分析し、複数のセキュリティリスクパラメータを取得する方法を採用\n- 各地でローカルデータセット上で訓練を行い、平均化でグローバルモデルを更新\n- 提案手法は悪意ユーザ予測精度で14%以上の性能向上を示す\n\n既存の技術と比較して、予測精度がかなり上がるのがスゴイね！クラウド利用者にとっては安心できる未来が見えてきた感じ。悪意ユーザーを独自に予測するところが興味深いなぁ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T03:39:47+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14494",
+    "title": "Drive-1-to-3: Enriching Diffusion Priors for Novel View Synthesis of Real Vehicles",
+    "japanese_title": "Drive-1-to-3: 現実の車両の新しいビュー合成のための拡散事前分布の強化",
+    "authors": [
+      "Chuang Lin",
+      "Bingbing Zhuang",
+      "Shanlin Sun",
+      "Ziyu Jiang",
+      "Jianfei Cai",
+      "Manmohan Chandraker"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 合成3Dデータは実世界の画像には性能が低下する問題がある\n- 既存モデルを自動運転向けに調整し車両データを収集する\n- 実走行のデータとの対比でビュー調整や焦点距離を一貫させる\n- 潜在空間での訓練と対称的事前分布利用により精度向上を実現\n\nこの研究、車の視点合成にめっちゃ役立ちそうだね！特に自動運転技術の発展にもつながりそうで、ドライブがもっと楽しく安全になりそうな予感がするよ。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T03:39:13+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14475",
+    "title": "MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval",
+    "japanese_title": "MegaPairs: 普遍的なマルチモーダル検索のための大規模データ合成",
+    "authors": [
+      "Junjie Zhou",
+      "Zheng Liu",
+      "Ze Liu",
+      "Shitao Xiao",
+      "Yueze Wang",
+      "Bo Zhao",
+      "Chen Jason Zhang",
+      "Defu Lian",
+      "Yongping Xiong"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "comment": "",
+    "summary": "- マルチモーダル検索の進展がデータ不足で制約されている\n- MegaPairsは視覚言語モデルとオープンドメイン画像を利用したデータ合成手法\n- マルチモーダル検索性能が従来の70倍のデータより優れている\n- 新しいモデルはゼロショット性能やデータセット全体で最高の成果を達成\n\nデータ合成でここまで成果を出しているってすごい！これからもどんな面白いモデルが登場するのか楽しみだね。マルチモーダル検索が次世代の検索にどう貢献してくるのかが気になる！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-19T02:49:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14424",
+    "title": "FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning",
+    "japanese_title": "FedPIA -- ワッサースタインバリーセンターを活用したアダプタの順列と統合によるマルチモーダル連合学習での基盤モデルの微調整",
+    "authors": [
+      "Pramit Saha",
+      "Divyanshu Mishra",
+      "Felix Wagner",
+      "Konstantinos Kamnitsas",
+      "J. Alison Noble"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "comment": "Accepted for publication in AAAI 2025 (Main Track)",
+    "summary": "- 医療分野では、厳しいプライバシー規制により大規模データ収集が困難である\n- 連合学習とパラメータ効率の良い微調整でプライバシーとリソース制限に対応できる\n- FedPIAはアダプタのデータとタスクの多様性を取り込み、ワッサースタインバリーセンターで知識を融合\n- 2000以上のクライアントレベル実験でFedPIAがPEFT-FLのベースラインを上回るパフォーマンスを示した\n\n大規模なデータがなくても、うまく活用する方法があるなんて、すごくワクワクしてくるね！医療分野でこんな工夫ができるなら、他の分野でも応用できそうだなあ。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T00:24:00+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14396",
+    "title": "Fingerprinting Codes Meet Geometry: Improved Lower Bounds for Private Query Release and Adaptive Data Analysis",
+    "japanese_title": "指紋コードと幾何学の出会い: プライベートクエリと適応的データ分析の改善された下限",
+    "authors": [
+      "Xin Lyu",
+      "Kunal Talwar"
+    ],
+    "categories": [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "Abstract slightly shortened to meet the arXiv requirement; 50 Pages   and 1 Figure",
+    "summary": "- 指紋コードは差分プライバシーにおける下限証明の重要なツールである\n- 提案手法により、クエリ集合の幾何学に基づいた下限証明が可能となる\n- 差分プライバシーに基づく手法が最適であることを証明し、従来の下限を大幅に改善\n- ランダムクエリのサンプル複雑性を特徴付け、新しい上限と下限を提供\n\n指紋コードがこんなに使えるとは驚きだね！差分プライバシーの最適な手法が示されたことで、さらなる技術向上が期待できそう。どんな応用が広がるのかワクワクしちゃう！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-18T23:11:07+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14392",
+    "title": "Nemesis: Noise-randomized Encryption with Modular Efficiency and Secure Integration in Machine Learning Systems",
+    "japanese_title": "Nemesis: ノイズランダム化暗号によるモジュラー効率と機械学習システムへの安全な統合",
+    "authors": [
+      "Dongfang Zhao"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "summary": "- プライバシーを保証する機械学習システムは、準同型暗号に依存している\n- 準同型暗号は計算効率が低く、大規模な応用に不向き\n- NemesisはRacheのキャッシング技術を拡張し、計算効率を改善\n- 実験により、Nemesisは計算負荷を大幅に軽減できることを示す\n\n難しい準同型暗号を効率化するなんてすごいじゃん！これでプライバシー考慮した技術の普及が、もっと進むといいね。みんなが安心して新技術を使えるようになったら最高だね！",
+    "topics": [
+      "準同型暗号"
+    ],
+    "published": "2024-12-18T22:52:12+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14326",
+    "title": "Covariances for Free: Exploiting Mean Distributions for Federated Learning with Pre-Trained Models",
+    "japanese_title": "無料の共分散: 事前学習済みモデルを用いた連合学習における平均分布の活用",
+    "authors": [
+      "Dipam Goswami",
+      "Simone Magistri",
+      "Kai Wang",
+      "Bartłomiej Twardowski",
+      "Andrew D. Bagdanov",
+      "Joost van de Weijer"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 事前学習モデルはデータ異質性を低減し連合学習の速度を向上させる\n- 提案手法はクラスの共分散行列を推定し、統計量の通信コストを削減\n- クラス平均のみを用いて線形分類器を初期化し、共分散を活用\n- 提案手法は他の最先端手法に比べ通信コストは同じで性能が向上\n\nこの方法って、通信コストが少なくてパフォーマンス向上なんて、魔法みたいで面白いよね。クラスター間で共有せずに情報活用できるのは未来の技術って感じ！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-18T20:40:14+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14226",
+    "title": "FedSTaS: Client Stratification and Client Level Sampling for Efficient Federated Learning",
+    "japanese_title": "FedSTaS: 効率的な連合学習のためのクライアント階層化とクライアントレベルサンプリング",
+    "authors": [
+      "Jordan Slessor",
+      "Dezheng Kong",
+      "Xiaofen Tang",
+      "Zheng En Than",
+      "Linglong Kong"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML",
+      "68T05 (Primary) 62H30, 62J05 (Secondary)"
+    ],
+    "comment": "6 pages, 3 figures, to be submitted to ICML",
+    "summary": "- 連合学習は複数の分散クライアントでグローバルモデルを共同訓練する手法\n- 通信効率を改善するFL方法は存在するが、クライアント選定方法は不十分\n- FedSTaSはクライアントを圧縮勾配に基づき階層化し、最適なサンプリングを行う\n- 実験でFedSTSより高い精度を固定ラウンド数内で達成\n\n「特にクライアントの層化ってめっちゃ新しい発想で面白そう！しかも、精度が上がるなんて実用性もバッチリだね！未来の連合学習技術に期待したいな〜！」",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-18T16:31:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.13770",
+    "title": "Data sharing in the metaverse with key abuse resistance based on decentralized CP-ABE",
+    "japanese_title": "分散型CP-ABEに基づくキー乱用耐性を備えたメタバースでのデータ共有",
+    "authors": [
+      "Liang Zhang",
+      "Zhanrong Ou",
+      "Changhui Hu",
+      "Haibin Kan",
+      "Jiheng Zhang"
     ],
     "categories": [
       "cs.CR"
     ],
     "comment": "",
-    "summary": "- 大規模なデータセットを対象に効率的なプライベート解析手法を設計する問題に取り組む。\n- 準同型暗号の技術を組み合わせることで、プライベートな機能評価としきい値処理を実現。\n- 患者記録を保持するサーバーに対し、統計基準を非公開にしたまま探索できるシステムTETRISを設計。\n- 1スレッドで数十万のデータを数分で解析し、1データあたりの所要時間は2ms未満を実現。\n\nTETRISってシステム名がゲームみたいでおしゃれ！秘密を守りながらデータを分析するなんて、すごく未来的だね。これからの医療研究に役立ちそうで楽しみ！",
+    "summary": "- メタバースではデータ共有が普及し、ブロックチェーン技術が基盤として利用されている\n- CP-ABEは機密性と細かいアクセス制御を提供するが、キー乱用と権限の説明責任が課題\n- 非対話型ゼロ知識証明をCP-ABEキーに統合し、検証をスマートコントラクトで行う手法を提案\n- 提案手法は公平なデータ共有を促進し、ゲームファイにおける実例にも活用される\n\n提案手法、めっちゃおもしろいじゃん！ゼロ知識証明を使ってキー乱用を防ぐから、安全性もバッチリだね。メタバースのゲームで遊んで稼ぐ未来、早く来て欲しい！",
     "topics": [
-      "準同型暗号"
+      "ゼロ知識証明"
     ],
-    "published": "2024-12-17T19:04:51+00:00"
+    "published": "2024-12-18T12:06:56+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.14207",
+    "title": "A Comprehensive Review on Traffic Datasets and Simulators for Autonomous Vehicles",
+    "japanese_title": "自動運転車のための交通データセットとシミュレータに関する包括的レビュー",
+    "authors": [
+      "Supriya Sarker",
+      "Brent Maples",
+      "Weizi Li"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "comment": "",
+    "summary": "- 高品質なデータセットは信頼性のある自動運転アルゴリズムの開発に不可欠である\n- アノテーションプロセスやツールを分析し、標準的なアノテーションパイプラインの重要性を示す\n- 地理的・敵対的環境条件が自動運転システム性能に与える影響を分析\n- シミュレータの現状と合成データ生成の重要性を議論し、自動運転データの課題と将来展望を示す\n\n自動運転の進化を支える影の立役者って、やっぱりデータだよね！シミュレータの話もだけど、次世代の車がどう変わるのかワクワクしちゃうな～。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-17T07:43:23+00:00"
   }
 ]

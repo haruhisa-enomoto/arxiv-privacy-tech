@@ -1,5 +1,302 @@
 [
   {
+    "url": "http://arxiv.org/abs/2412.16156",
+    "title": "Personalized Representation from Personalized Generation",
+    "japanese_title": "個別生成からの個別表現の取得",
+    "authors": [
+      "Shobhita Sundaram",
+      "Julia Chae",
+      "Yonglong Tian",
+      "Sara Beery",
+      "Phillip Isola"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "comment": "S.S. and J.C contributed equally; S.B. and P.I. co-supervised.   Project page: https://personalized-rep.github.io/",
+    "summary": "- 現在の視覚モデルは一般的な下流タスクは得意だが、個別の視覚タスクは不得意\n- 合成データを用いた一般的な表現学習やT2I拡散モデルの進展で個別画像生成が可能に\n- 個別合成データを用いて個別表現を学習する課題を定式化し、新しい評価スイートを提案\n- 提案手法は様々な下流タスクにおける個別表現学習を改善し、画像生成手法の特性を分析\n\n個別にカスタマイズされたデータで表現を学ぶなんてワクワクするね！下流タスクに柔軟に対応できるのも魅力的だし、もっといろんな用途が出てきそうだよね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-20T18:59:03+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.16083",
+    "title": "Differentially Private Federated Learning of Diffusion Models for Synthetic Tabular Data Generation",
+    "japanese_title": "差分プライバシーを備えた拡散モデルの連合学習による合成表データ生成",
+    "authors": [
+      "Timur Sattarov",
+      "Marco Schreyer",
+      "Damian Borth"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-fin.ST"
+    ],
+    "comment": "9 pages, 9 figures, preprint version, currently under review",
+    "summary": "- 財務分野でのプライバシー保護データ分析の需要が増えている\n- DP-Fed-FinDiffフレームワークは差分プライバシーと連合学習を組み合わせたもの\n- 厳しいプライバシー規制を遵守しつつ高品質な合成表データを生成する\n- 実証評価でプライバシーとデータ品質のバランスを最適化 \n\n差分プライバシーと拡散モデルの組み合わせが面白そうで、しっかりデータ品質を保っているのが魅力的！金融業界でも安全にデータをシェアする未来がすぐそこに感じるね。",
+    "topics": [
+      "連合学習",
+      "合成データ",
+      "差分プライバシー"
+    ],
+    "published": "2024-12-20T17:30:58+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.16064",
+    "title": "VaulTor: Putting the TEE in Tor",
+    "japanese_title": "VaulTor: TorにおけるTEEの実装",
+    "authors": [
+      "Humza Ikram",
+      "Rumaisa Habib",
+      "Muaz Ali",
+      "Zartash Afzal Uzmi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "comment": "12 pages, 5 figures",
+    "summary": "- Torネットワークの隠しサービスは匿名性を求められるが、特定攻撃の脅威がある\n- VaulTorという新しいアーキテクチャが特定攻撃に対する追加セキュリティを提供\n- ボランティアがTEEでウェブアプリをホストし、隠しサービスプロバイダの負担を軽減\n- VaulTorはコンテンツアクセス時の性能低下を2.6-5.5%に抑える\n\nTorの匿名性をさらに強化するアイデアはすごく興味深いね！しかも性能がほとんど変わらないなんて、将来的にもっと広まるかもしれないよね。",
+    "topics": [
+      "TEE"
+    ],
+    "published": "2024-12-20T17:06:55+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15728",
+    "title": "fluke: Federated Learning Utility frameworK for Experimentation and research",
+    "japanese_title": "fluke: 実験と研究のための連合学習ユーティリティフレームワーク",
+    "authors": [
+      "Mirko Polato"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "comment": "Accepted at FLUID workshop (AAAI 2025) [4 pages (+2 references), 2   figures, 1 algorithm]",
+    "summary": "- 連合学習は2016年から人気が高まり、さまざまなフレームワークが提案されている\n- 既存フレームワークは柔軟性が不足しており、学習曲線が急であるため独自実装が多い\n- flukeはPythonで構築された新アルゴリズム開発を簡素化するためのオープンソースのパッケージ\n- デフォルトで使用可能で、少ない手間で新アルゴリズムを拡張できる\n\nflukeってめっちゃ便利そう！新しいアルゴリズムがどんどん生まれちゃうかもね。Pythonで使いやすいし、研究者にぴったりかも。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-20T09:51:23+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15704",
+    "title": "PoisonCatcher: Revealing and Identifying LDP Poisoning Attacks in IIoT",
+    "japanese_title": "PoisonCatcher: IIoTにおけるLDPポイズニング攻撃の明確化と特定",
+    "authors": [
+      "Lisha Shuai",
+      "Shaofeng Tan",
+      "Nan Zhang",
+      "Jiamin Zhang",
+      "Min Zhang",
+      "Xiaolong Yang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "12 pages,5 figures, 3 tables",
+    "summary": "- LDPはIIoTで広く採用されるが、データの汚染を見分けにくくポイズニング攻撃を招く\n- LDPの欠点は動的ネットワークやリアルタイムデータフローに弱く有効対策が未発達\n- この研究では新たな脅威とルールポイズニング攻撃の発見、総合的な攻撃形成を示す\n- PoisonCatcherで攻撃検出し特定。機械学習で微細な汚染シグネチャも識別可能に\n\nIIoTの安全性向上に繋がりそうでわくわく！実験結果もすごく良さそうで興味津々。PoisonCatcherの精度がさらに向上したらバッチリだね。",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-20T09:26:50+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15676",
+    "title": "Code Review Automation Via Multi-task Federated LLM -- An Empirical Study",
+    "japanese_title": "連合学習によるマルチタスク型大規模言語モデルを用いたコードレビュー自動化の実証研究",
+    "authors": [
+      "Jahnavi Kumar",
+      "Sridhar Chimalakonda"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "comment": "",
+    "summary": "- コードレビュー自動化は重要だが、通常の手法は3つの独立したサブタスクとして扱われている\n- 研究は、サブタスクの関係を利用しマルチタスクモデルで統合的に解決することを目指す\n- 連合学習を用いることで、プロプライエタリコードの秘密保持と未知データへのモデルの頑健性を向上させる\n- 累積的ファインチューニングが個別タスクモデルより効果的であることが示された\n\nこの研究、なんか新しい視点で興味深い感じ！連合学習活用で、セキュリティも保てて効率的に進化できるとか、もっと別の分野にも応用できそうだよね。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-20T08:46:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15657",
+    "title": "Synthetic Tabular Data Generation for Imbalanced Classification: The Surprising Effectiveness of an Overlap Class",
+    "japanese_title": "不均衡分類のための合成表形式データ生成：重なりクラスの驚くべき効果",
+    "authors": [
+      "Annie D'souza",
+      "Swetha M",
+      "Sunita Sarawagi"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "comment": "AAAI Conference 2025",
+    "summary": "- 不均衡なクラス分布での分類子構築において、合成データ生成が注目されている\n- 最先端の深層生成モデルは、マイノリティデータの品質が低い問題がある\n- クラスラベルを三進化し、マイノリティとマジョリティの重なりを導入する手法を提案\n- 提案手法により、合成データと分類器の性能が向上し、実験での有効性を示した\n\nこの新提案、意外にすごいかも？重なりクラスなんて面白い発想！分類器の精度も上がるなんて、一石二鳥だね。実社会のデータでも試してみた結果があるのも信頼できそう！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-20T08:15:20+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15606",
+    "title": "Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage",
+    "japanese_title": "マルチモーダルエージェント・チューニング: 効率的なツール使用のためのVLM駆動エージェント構築",
+    "authors": [
+      "Zhi Gao",
+      "Bofei Zhang",
+      "Pengxiang Li",
+      "Xiaojian Ma",
+      "Tao Yuan",
+      "Yue Fan",
+      "Yuwei Wu",
+      "Yunde Jia",
+      "Song-Chun Zhu",
+      "Qing Li"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- 大規模言語モデルの進歩がマルチモーダルエージェントの開発を促進\n- 提案手法はビジョン言語モデルをコントローラーとして自動ツール使用データを生成\n- データ品質を保つためGPT-4oを用い、クエリやトラジェクトリを生成し検証\n- 評価では未調整のVLMと比較して20%の性能向上を達成\n\nこれって、未来のAIがいろんなツールをうまく使いこなせるようになるってことだよね！特に20%の改善ってすごくない？これからのAIがどんな風に進化するのか楽しみだね～。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-20T07:00:46+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15590",
+    "title": "SemDP: Semantic-level Differential Privacy Protection for Face Datasets",
+    "japanese_title": "SemDP: 顔データセットのためのセマンティックレベル差分プライバシー保護",
+    "authors": [
+      "Xiaoting Zhang",
+      "Tao Wang",
+      "Junhao Ji"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "comment": "",
+    "summary": "- 大規模な顔データセットは深層学習を進展させる一方で、個人情報のプライバシー問題も提起\n- 従来の差分プライバシー手法は画像を個別データベースとみなすが、要求を完全に満たさない\n- 提案手法は、顔データセット全体にセマンティックレベルの差分プライバシーを適用する\n- 提案手法は視覚的自然さを維持し、プライバシーと利用性のバランスを実現\n\nこの研究、画期的なことしてるよね！プライバシー保護しながらもデータの有用性キープとか、新しい時代の必要な解決策じゃない？どんな未来が見えるんだろうね、楽しみだね！",
+    "topics": [
+      "差分プライバシー"
+    ],
+    "published": "2024-12-20T06:00:59+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15553",
+    "title": "AutoRank: MCDA Based Rank Personalization for LoRA-Enabled Distributed Learning",
+    "japanese_title": "AutoRank: LoRA対応分散学習のためのMCDAベースのランク個別化",
+    "authors": [
+      "Shuaijun Chen",
+      "Omid Tavallaie",
+      "Niousha Nazemi",
+      "Xin Chen",
+      "Albert Y. Zomaya"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC"
+    ],
+    "comment": "",
+    "summary": "- 分散学習は非独立同分布(Non-IID)データでのモデル学習が難しい問題に直面\n- LoRAは低ランクの更新を個別化し計算を最小化するが初期ランク設定が難題\n- AutoRankはデータの複雑性に基づいて動的にローカルランクを割り当てるアルゴリズム\n- AutoRankにより計算負担を削減し、モデル性能を向上させ、収束を加速させることに成功\n\nデータの複雑さに応じて適応するAutoRankは、分散学習における重要な進化だね。ランクを自動設定するって、たくさんの参加者がいる場合にも効率的で嬉しい！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-20T04:27:45+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15541",
+    "title": "ChangeDiff: A Multi-Temporal Change Detection Data Generator with Flexible Text Prompts via Diffusion Model",
+    "japanese_title": "ChangeDiff: 柔軟なテキストプロンプトによる多時期変化検出データ生成機",
+    "authors": [
+      "Qi Zang",
+      "Jiayi Yang",
+      "Shuang Wang",
+      "Dong Zhao",
+      "Wenjun Yi",
+      "Zhun Zhong"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "comment": "",
+    "summary": "- 現在の生成手法には変化イベントの柔軟な制御が難しいという課題がある\n- ChangeDiffはテキストプロンプトとテキストからレイアウトモデルを用いて連続的なレイアウトを生成する\n- 複数のクラス分布に基づくテキストプロンプトで柔軟な生成を可能にする提案がある\n- 生成データは時間の連続性、空間の多様性、リアルな品質を向上させる\n\nデータ生成でこんなに柔軟なコントロールができるなんて、本当にワクワクする。将来もっと多様でリアルなシミュレーションができそうで楽しみだね。",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-20T03:58:28+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15536",
+    "title": "The Impact of Cut Layer Selection in Split Federated Learning",
+    "japanese_title": "スプリット連合学習におけるカット層選択の影響",
+    "authors": [
+      "Justin Dachille",
+      "Chao Huang",
+      "Xin Liu"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.LG"
+    ],
+    "comment": "16 pages, 1 figure, AAAI FLUID Workshop 2025",
+    "summary": "- スプリット連合学習（SFL）は連合学習とスプリット学習を組み合わせた分散学習パラダイムである\n- カット層選択がモデル性能に与える影響の定量分析が重要だとわかった\n- SFL-V1はカット層の選択に対して性能が比較的一定である\n- SFL-V2はカット層選択により性能が大きく変わり、適切な選択でFedAvgより高性能\n\nカット層の選び方で性能が変わるなんて面白いよね。SFLは複雑なデータセットに強そうなので、もっと研究が進むといいな。",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-20T03:52:54+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15492",
+    "title": "DualGFL: Federated Learning with a Dual-Level Coalition-Auction Game",
+    "japanese_title": "DualGFL: 二重レベル連合学習フレームワークによる連合学習",
+    "authors": [
+      "Xiaobing Chen",
+      "Xiangwei Zhou",
+      "Songyang Zhang",
+      "Mingxuan Sun"
+    ],
+    "categories": [
+      "cs.GT",
+      "cs.LG",
+      "I.2.6; I.2.11"
+    ],
+    "comment": "12 pages, 6 figures. Accepted by AAAI25",
+    "summary": "- 従来の連合学習では単一レベルのゲーム理論を使い、複雑な参加者間の動態を捉えるのが難しかった\n- DualGFLは、協力と競争を兼ね備えた二重レベルのゲームを用いて、これを改善する新しいフレームワーク\n- 下位レベルでは、クライアントの意思による最適な分割を見つけるため、オークションを意識した効用関数とパレート最適な分割アルゴリズムを提案\n- 上位レベルでは、資源制約付きの多属性オークションゲームを設計し、クライアントとサーバー双方の利得を最大化する\n\nDualGFLって、連合学習の協力と競争のバランスをうまく取ってて面白そうだね！これでどんな成果が上がるのか、早く知りたいなぁ。結果が出次第、最新のアプローチとして注目集めそう！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-20T02:13:27+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15486",
+    "title": "Toward Appearance-based Autonomous Landing Site Identification for Multirotor Drones in Unstructured Environments",
+    "japanese_title": "外観に基づくマルチロータードローンの非構造化環境での自律着陸地点識別に向けて",
+    "authors": [
+      "Joshua Springer",
+      "Gylfi Þór Guðmundsson",
+      "Marcel Kyas"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "comment": "14 pages, 5 figures",
+    "summary": "- マルチロータードローンの課題は、非構造化環境での自律的な安全着陸地点の特定\n- 外観ベースの軽量な地形分類器が画像を安全・不安全に分割するがデータ収集が高コスト\n- 提案手法は合成データの自動生成で、ドローンによる地形調査と安全マスク計算を利用\n- 合成データでU-Netをトレーニングし、実世界データで検証し、リアルタイムで効果を実証\n\nドローンが自動で着陸場所を見つけられるなんて！映画っぽい未来がもうすぐそこに来てるかも。データセットの自動生成も画期的で、もっと自由にドローンが飛び回れる期待感があるね！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-20T01:48:37+00:00"
+  },
+  {
     "url": "http://arxiv.org/abs/2412.15159",
     "title": "OnlineVPO: Align Video Diffusion Model with Online Video-Centric Preference Optimization",
     "japanese_title": "オンラインVPO: オンラインビデオ中心の嗜好最適化によるビデオ拡散モデルの整列",
@@ -101,6 +398,27 @@
       "差分プライバシー"
     ],
     "published": "2024-12-19T13:20:32+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15307",
+    "title": "Federated Learning for Coronary Artery Plaque Detection in Atherosclerosis Using IVUS Imaging: A Multi-Hospital Collaboration",
+    "japanese_title": "アテローム性動脈硬化における冠動脈プラーク検出のための心血管内超音波画像を用いた連合学習：複数病院の協力",
+    "authors": [
+      "Chiu-Han Hsiao",
+      "Kai Chen",
+      "Tsung-Yu Peng",
+      "Wei-Chieh Huang"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "comment": "",
+    "summary": "- IVUS画像の従来解釈は時間がかかり、一貫性がない\n- 規制とプライバシー問題がデータ統合と分析を難しくしている\n- 連合学習を使い、プライバシーを守りながらデータ分析を可能にするモデルを開発\n- モデルは現実的なプラーク検出を可能にし、医療画像の改善を目指す\n\nこれは病院間で安全にデータを分析できるってすごくない？未来の医療は、こんな風にプライバシーもちゃんと守りながら質の高い治療が受けられるようになるんだね！",
+    "topics": [
+      "連合学習"
+    ],
+    "published": "2024-12-19T13:06:28+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.14809",
@@ -477,6 +795,33 @@
       "連合学習"
     ],
     "published": "2024-12-18T16:31:34+00:00"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.15282",
+    "title": "A Systematic Examination of Preference Learning through the Lens of Instruction-Following",
+    "japanese_title": "命令に従う能力を通した嗜好学習の体系的検討",
+    "authors": [
+      "Joongwon Kim",
+      "Anirudh Goyal",
+      "Aston Zhang",
+      "Bo Xiong",
+      "Rui Hou",
+      "Melanie Kambadur",
+      "Dhruv Mahajan",
+      "Hannaneh Hajishirzi",
+      "Liang Tan"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "comment": "23 pages",
+    "summary": "- 嗜好学習はLLMを人間の嗜好に合わせる技術で、特定のタスク性能を向上させる\n- 合成データ生成を用いて命令追従プロンプトを生成し、モデルの応答を評価\n- 嗜好データセットの違いがLLMの命令追従に与える影響を調査し改善策を提案\n- 異なる困難度のプロンプトがより良い一般化を達成し、効果的なトレーニングに貢献\n\n命令に従う言語モデルの性能を向上させる工夫って、すごくおもしろそう！実験で全体の安定性が向上するのはいいことだよね。この研究でデータのキュレーションがどんどん進むといいなあ！",
+    "topics": [
+      "合成データ"
+    ],
+    "published": "2024-12-18T15:38:39+00:00"
   },
   {
     "url": "http://arxiv.org/abs/2412.13905",

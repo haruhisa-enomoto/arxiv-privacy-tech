@@ -27,232 +27,270 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2024-12-29T04:20:41.364583
+更新: 2024-12-30T04:22:20.622697
 
 - - -
 
-### [FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis](http://arxiv.org/abs/2412.18557)
+### [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](http://arxiv.org/abs/2412.19723)
 
-**FedVCK: 医学画像解析のための貴重な凝縮知識を活用した非独立同分布に強く通信効率の良い連合学習**
+**OS-Genesis: 逆タスク合成によるGUIエージェント軌跡構築の自動化**
 
-Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu
+Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu
 
-- 医療機関間の連携においてデータは非独立同分布であり、クライアントドリフトや成績低下を招く
-- 提案するFedVCKはモデルが導く最も必要な知識を選び、通信コストを抑えつつ非IID問題を効果的に解決
-- クライアント側で知識を凝縮した小さなデータセットを作成し、不要な通信を最小限に抑える
-- サーバー側での関係的教師付きコントラスト学習により、モデル更新のための監視信号を強化
+- GUIエージェントの軌跡データ収集はリソースがかかるか、データの質を保証できない
+- OS-Genesisは従来のアプローチとは反対に環境を認識し、後から質の高いタスクを生成
+- 軌跡報酬モデルで生成された軌跡の質を確保し、オンラインベンチマークで性能を向上
+- OS-Genesisは従来の合成方法と比べて優れたデータ質と多様性を提供することを示した
 
-貴重な知識を凝縮することで通信頻度を抑えつつ、性能向上を目指すアイデアがすごいね！医療現場でのデータ共有のハードルをうまくクリアしてるのが興味深いなぁ。
+GUIエージェントの学習効率を高める新しい手法って、とても革新的だよね！データの多様性と質を改善する方法がリアルタイムで実用化できたら、アプリ開発の未来がもっと面白くなるかも。
 
-**Comment:** Accepted by AAAI 2025
+**Comment:** Work in progress
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-12-24 17:20
-
-- - -
-
-### [HTR-JAND: Handwritten Text Recognition with Joint Attention Network and Knowledge Distillation](http://arxiv.org/abs/2412.18524)
-
-**HTR-JAND: 手書き文字認識における共同注意ネットワークと知識蒸留**
-
-Mohammed Hamdan, Abderrahmane Rahiche, Mohamed Cheriet
-
-- 手書き文字認識（HTR）は、歴史的文書の多様な書式や劣化した品質に対応するのが難しい。
-- HTR-JANDは、特徴抽出と知識蒸留を組み合わせる効率的なHTRフレームワークを提案。
-- マルチヘッド自己注意とプロクシマ注意が結合した注意メカニズムで強力なシーケンスモデリングを実現。
-- HTR-JANDフレームワークで、モデル圧縮しつつ認識精度を保ち、新たなCERを達成。
-
-手書き文字認識って歴史的文書には結構難しそうだけど、技術進化ってすごいよね！この新しいアーキテクチャで効率性も精度もアップするなんて、未来の研究が楽しみだな！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-12-24 16:08
+**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.CL, cs.CV, cs.HC, **投稿日時:** 2024-12-27 16:21
 
 - - -
 
-### [Subsampling, aligning, and averaging to find circular coordinates in recurrent time series](http://arxiv.org/abs/2412.18515)
+### [Asymmetrical Reciprocity-based Federated Learning for Resolving Disparities in Medical Diagnosis](http://arxiv.org/abs/2412.19654)
 
-**再帰的時系列における円形座標を見つけるための部分サンプリング、整列、平均化**
+**医療診断における格差解消のための非対称相互性に基づく連合学習**
 
-Andrew J. Blumberg, Mathieu Carrière, Jun Hou Fung, Michael A. Mandell
+Jiaqi Wang, Ziyi Yin, Quanzeng You, Lingjuan Lyu, Fenglong Ma
 
-- データの再帰性に基づく円形座標を見つける新アルゴリズムを提案
-- 不均一なサンプリング密度の補正技術を導入し、座標のロバスト性を向上
-- 部分サンプルの整列と平均化により、他の方法より効率的な手法を提供
-- 合成データとニューロン活動の記録を使い技術を検証し、特定の行動に対応する脳状態をモデル化
+- 低・中所得国の地域的な健康格差は、限られたデータと計算資源が原因で悪化
+- FedHelpという新しいフレームワークを提案し、連合学習で地域格差問題に対処
+- 基礎モデルの知識をAPIで利用し、データ不足に苦しむ小規模クライアントを支援
+- 非対称性を克服するため、非対称デュアル知識蒸留モジュールを導入
 
-この研究、めちゃくちゃ面白そう！脳の状態が特定の行動にどうつながっているのか、C. elegansを通じて見える化しちゃうのがすごいよね。再帰データでの新手法が他の分野でも活用できるかも？！
+医療の発展が進む未来が期待できそうだね！テクノロジーで世界中の健康格差を少しでも埋められるなんて、とてもワクワクするね。
 
+**Comment:** Jiaqi Wang and Ziyi Yin equally contributed to this paper. This paper   has been accepted by KDD 2025
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** stat.ML, cs.CG, cs.LG, math.AT, **投稿日時:** 2024-12-24 15:52
-
-- - -
-
-### [FedGIG: Graph Inversion from Gradient in Federated Learning](http://arxiv.org/abs/2412.18513)
-
-**FedGIG: 連合学習における勾配からのグラフ逆推論**
-
-Tianzhe Xiao, Yichen Li, Yining Qi, Haozhao Wang, Ruixuan Li
-
-- 連合学習は勾配逆推論攻撃に脆弱で、プライベートデータが漏れる可能性がある
-- 従来の手法は画像やテキスト向けで、グラフデータには直接適用できない
-- FedGIGはグラフ構造データに特化した新しい逆推論手法である
-- テストではFedGIGが既存の手法よりも高い精度を持つことを確認した
-
-連合学習でのグラフデータのプライバシーを守るための技術なんて新鮮！グラフ構造特有のデータ扱いに特化しているところが特に興味深いなぁ。どんな応用ができるのかワクワクするね。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, **投稿日時:** 2024-12-24 15:52
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2024-12-27 13:59
 
 - - -
 
-### [An Empirical Analysis of Federated Learning Models Subject to Label-Flipping Adversarial Attack](http://arxiv.org/abs/2412.18507)
+### [TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](http://arxiv.org/abs/2412.19544)
 
-**ラベルフリップ攻撃を受ける連合学習モデルの実証的分析**
+**ターゲット合成データ生成による構造化データの実用的推論**
 
-Kunal Bhatnagar, Sagana Chattanathan, Angela Dang, Bhargav Eranki, Ronnit Rana, Charan Sridhar, Siddharth Vedam, Angie Yao, Mark Stamp
+Xiang Huang, Jiayu Shen, Shanshan Huang, Sitao Cheng, Xiaxia Wang, Yuzhong Qu
 
-- 連合学習モデルに対するラベルフリップ攻撃を実証的に分析
-- MLR、SVC、MLP、CNN、RNN、ランダムフォレスト、XGBoost、LSTMを用いて実験
-- 10から100の連合クライアント、ラベルの変更率10%から100%で攻撃をシミュレート
-- モデルによって対抗能力が異なり実用的な影響を考察
+- セマンティックパーシングは、自然言語を論理形式に変換する技術だが、手動アノテーションが必要
+- TARGAは手動アノテ不要で、高関連性の合成データを動的生成する新しいフレームワーク
+- TARGAは、データセットGraiqQAとKBQA-Agentで大幅な精度向上を達成し、効率も良い
+- 非独立同一分布（non-I.I.D.）でも、TARGAは高いサンプル効率と頑健性、一般化能力を持つ
 
-ラベルフリップ攻撃がどのモデルにどんな影響を与えるのか、リアルに分析しているのが面白いね。同じアルゴリズムでもこれだけ違いがあるのなら、攻撃対策もさらに必要だなって思う！
+論文の手動アノテationが要らないというのは、すごく便利そう！知識ベースの質問応答で成果が出てるのも好印象。やっぱり次世代の学習プロセスの進展にとてもワクワクしちゃうね！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-12-24 15:47
-
-- - -
-
-### [GeFL: Model-Agnostic Federated Learning with Generative Models](http://arxiv.org/abs/2412.18460)
-
-**GeFL: ジェネレーティブモデルを用いたモデルアグノスティックな連合学習**
-
-Honggu Kang, Seohyeon Cha, Joonhyuk Kang
-
-- 連合学習はユーザープライバシーを守る分散学習の有望な手法
-- 大規模モデルは一部のユーザーには負担で、異なる計算能力のために異種モデルが必要
-- ジェネレーティブモデルを用いるGeFLは異種モデル間の知識統合を図る
-- GeFL-Fは特徴生成モデルでプライバシーとスケーラビリティを改善する
-
-連合学習って未来的だよね！いろんな能力のデバイスが一緒に学習できるって、まるでチームプレイみたいでおもしろいなぁ。技術がもっと進むと、セキュリティもさらに向上して安心かな。
-
-**Comment:** 20 pages
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2024-12-24 14:39
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2024-12-27 09:16
 
 - - -
 
-### [GUI Testing Arena: A Unified Benchmark for Advancing Autonomous GUI Testing Agent](http://arxiv.org/abs/2412.18426)
+### [Learning Radiance Fields from a Single Snapshot Compressive Image](http://arxiv.org/abs/2412.19483)
 
-**GUIテストアリーナ: 自律的GUIテストエージェントを進化させるための統一ベンチマーク**
+**単一ショット圧縮画像からの放射フィールド学習**
 
-Kangjia Zhao, Jiahui Song, Leigang Sha, Haozhan Shen, Zhi Chen, Tiancheng Zhao, Xiubo Liang, Jianwei Yin
+Yunhao Li, Xiang Liu, Xiaodong Wang, Xin Yuan, Peidong Liu
 
-- 現状のGUIエージェント研究は自動化に焦点を当て、様々なGUIシナリオで制限がある
-- GUI自動テスト環境GTArenaを提案し、一貫した操作を可能にする標準化された環境を提供
-- テストを3つのサブタスクに分け、実際のアプリや合成データを用いて包括的評価を実施
-- 現存の先進的モデルでも全サブタスクで高性能を発揮できず、実用性に大きなギャップがある
+- 単一の圧縮画像から3Dシーン構造を復元するために、Snapshot Compressive Imaging（SCI）の技術を探る
+- 低コストな2Dイメージングセンサーを用いて高次元データを1枚の画像に記録し、効率的でプライバシー保護も可能
+- 神経放射フィールド（NeRF）の力を活用し、3Dシーン情報を復元する新手法SCINeRFを提案
+- SCINeRFと3D Gaussian Splattingフレームワークを組み合わせるSCISplatで、シーンの再構築品質と速度を向上
 
-新しいGUIエージェントの開発に向けての基準ができる感じがするよね！特に、今後の技術の進化がどこに向かうのか見える指針になるのがワクワクする♪
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, **投稿日時:** 2024-12-24 13:41
-
-- - -
-
-### [Addressing Spatial-Temporal Data Heterogeneity in Federated Continual Learning via Tail Anchor](http://arxiv.org/abs/2412.18355)
-
-**連合継続学習における時空間データの不均一性への対応**
-
-Hao Yu, Xin Yang, Le Zhang, Hanlin Gu, Tianrui Li, Lixin Fan, Qiang Yang
-
-- 連合継続学習は、各クライアントがタスクストリームから知識を継続的に更新する手法
-- クライアント間の空間データの不均一性とタスク間の時間データの不均一性が課題
-- Federated Tail Anchor (FedTA)を提案し、モデルのパラメータと出力の忘却を克服
-- 入力強化や選択的入力知識融合などを含むFedTAが、既存手法より優れた性能を実証
-
-連合学習の課題を解決する新しい手法が提案されてて面白そう！時空間の不均一性をどう克服するのかっていう技術が、実用に向けた大きな一歩になりそうだね。
+シーン構造を圧縮しながらも、NeRFによって3D情報をうまく復元しちゃうのってなんかすごい！リアルタイムで高フレームレートを維持できるのも、未来の映像技術につながりそうでワクワクするね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.LG, **投稿日時:** 2024-12-24 11:35
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-12-27 06:40
 
 - - -
 
-### [Efficient Long Context Language Model Retrieval with Compression](http://arxiv.org/abs/2412.18232)
+### [Federated Hybrid Training and Self-Adversarial Distillation: Towards Robust Edge Networks](http://arxiv.org/abs/2412.19354)
 
-**効率的な長文コンテキスト言語モデルの圧縮による情報検索**
+**連合ハイブリッド学習と自己対抗蒸留：堅牢なエッジネットワークを目指して**
 
-Minju Seo, Jinheon Baek, Seongyun Lee, Sung Ju Hwang
+Yu Qiao, Apurba Adhikary, Kitae Kim, Eui-Nam Huh, Zhu Han, Choong Seon Hong
 
-- 長文コンテキスト言語モデル（LCLM）は、多量の情報を一度に処理し、伝統的な検索手法を超える可能性を持つ
-- 多数のパッセージを処理するには計算コストが高く、推論時も時間がかかる
-- パッセージを圧縮する新手法を提案し、検索性能を最大化しつつ長さを削減
-- 9つのデータセット実験で、圧縮サイズを1.91倍にしながら検索性能を6%向上
+- 連合学習は、データの生データを送信せずにプライバシーを向上させる技術である
+- データの不均一性や敵対的攻撃が、エッジでのモデル執行に難しさをもたらす
+- FedBATを提案し、ハイブリッド対抗学習と自己対抗蒸留を統合して堅牢性を向上
+- 多様なデータセットで実験し、正確さを保ちつつロバスト性を強化した成果を示す
 
-データを圧縮しても情報がしっかり取り出せるってすごいね！これからは、もっと早く情報が見つかるようになるかな？圧縮の技術がこんなに効くとは思わなかった！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.IR, **投稿日時:** 2024-12-24 07:30
-
-- - -
-
-### [KunServe: Elastic and Efficient Large Language Model Serving with Parameter-centric Memory Management](http://arxiv.org/abs/2412.18169)
-
-**KunServe: パラメータ中心メモリ管理による弾性で効率的な大規模言語モデルのサービス提供**
-
-Rongxin Cheng, Yifan Peng, Yuxin Lai, Xingda Wei, Rong Chen, Haibo Chen
-
-- 大規模言語モデルの状態保持は、高負荷時にGPUメモリを圧迫し、遅延を引き起こす
-- 既存のKVCache中心のアプローチは、リクエストの性能とのトレードオフがあり、SLOの違反を招く
-- パラメータを選択的に削除し、リクエスト用のメモリを確保する方法を提案
-- 新しいリモートアテンションメカニズムで、他のGPUからメモリを借りることで高効率なサービスを実現
-
-このアプローチは、メモリ管理を効果的にしながらも、リクエストの処理をスムーズにするなんて、すごいね！これからの多様なリクエストに対しても強力な武器になりそうだなぁ。
+このFedBATって面白そうね！敵対的攻撃から守りつつ、みんなのデータに偏りが出ないようにするなんて、本当にエッジネットワークにうってつけだと思う。これが広まったら、もっと安全なネット社会になりそうだよね。
 
 
 
-**トピック:** [TEE](tee), **カテゴリ:** cs.DC, cs.AI, **投稿日時:** 2024-12-24 05:07
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.LG, **投稿日時:** 2024-12-26 21:32
 
 - - -
 
-### [AIGT: AI Generative Table Based on Prompt](http://arxiv.org/abs/2412.18111)
+### [Swarm Contract: A Multi-Sovereign Agent Consensus Mechanism](http://arxiv.org/abs/2412.19256)
 
-**AIGT: プロンプトに基づくAI生成表**
+**スウォームコントラクト: マルチ・ソブリンエージェントによる合意形成メカニズム**
 
-Mingming Zhang, Zhiqing Xiao, Guoshan Lu, Sai Wu, Weiqiang Wang, Xing Fu, Can Yi, Junbo Zhao
+Haowei Yang
 
-- 企業データ資産の80%以上を占める表形式データは重要で、プライバシーの懸念が高まっている。
-- 大規模言語モデル（LLMs）は高次元データの課題を克服しつつ、リアルな合成データ生成に有効。
-- 新たなAIGTアプローチは、テーブルのメタデータ情報をプロンプトとして利用し、超高品質なデータを生成。
-- 長トークン分割アルゴリズムにより、LLMsのトークン制約を克服し、様々なスケールのテーブルをモデル化。
+- 従来のスマートコントラクトはオンチェーンでの決定論的なロジック実行に優れているが、オフチェーンでの大規模データ処理や動的なワークフローには課題がある。
+- スウォームコントラクトは、複数のデジタルライフフォームまたはソブリンエージェントが、信頼された実行環境で複雑なタスクを処理する新たなメカニズム。
+- 多重署名によるオンチェーンウォレットを活用することで、論理をオフチェーンに移動し、中央集権的コントロールを回避。
+- この方法はDAOガバナンスやクロスチェーン互換性の向上、マルチモーダルデータ処理の支援に貢献できる可能性がある。
 
-合成データ生成の最先端を行ってる感じでワクワクしちゃう！プライバシー守りながら分析できるのって、未来のデータサイエンスの革命になりそうだよね。
+分散型で信頼が不要な仕組みが増えるなんてワクワクしちゃうね！DAOとかNFTにもっと応用できたら、未来の可能性は無限大だよね。
 
+**Comment:** 7 pages, 1 figure
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, **投稿日時:** 2024-12-24 02:51
+**トピック:** [TEE](tee), **カテゴリ:** cs.CR, C.2.4; D.4.6, **投稿日時:** 2024-12-26 15:46
 
 - - -
 
-### [Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner](http://arxiv.org/abs/2412.18086)
+### [Mask Factory: Towards High-quality Synthetic Data Generation for Dichotomous Image Segmentation](http://arxiv.org/abs/2412.19080)
 
-**コンテキスト学習による交通シナリオ生成でより良いモーションプランナーを学習**
+**マスクファクトリー: 2値画像セグメンテーションのための高品質な合成データ生成に向けて**
 
-Aizierjiang Aiersilan
+Haotian Qian, YD Chen, Shengtao Lou, Fahad Shahbaz Khan, Xiaogang Jin, Deng-Ping Fan
 
-- 自動運転のモーションプランニングでは、希少なシナリオの対応が課題。
-- 手動でのシナリオ作成はコストが高く、効率的でない。
-- 大規模言語モデルを用いてテキストからシナリオを生成する方法を提案。
-- 合成データを使うことで、モーションプランナーの性能が向上することを実証。
+- 2値画像セグメンテーションは精密な注釈が必要で、従来のデータセット作成は大変で専門知識が必要
+- 合成データを用いるとこれらの課題を解決できるが、既存の生成モデルではシーンのずれやノイズ、サンプルの多様性に課題がある
+- 新手法\ourmodel{}は多様で精密なデータセットを低コストで生成し、準備時間を大幅に短縮
+- 実験では、DIS5Kデータセットベンチマークで既存手法より高品質で効率的な性能を示す
 
-わたし、この研究めっちゃおもしろいと思った！合成データでモーションプランナーがもっと安全になったら、未来の交通ってもっと平和でスムーズになりそうだね。
+このアプローチめちゃ賢そうじゃない？合成データ生成がもっと簡単にできたら、画像解析の未来がさらに広がる予感☆
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, cs.AI, cs.CL, cs.GR, cs.LG, **投稿日時:** 2024-12-24 01:52
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2024-12-26 06:37
+
+- - -
+
+### [Effective and secure federated online learning to rank](http://arxiv.org/abs/2412.19069)
+
+**効果的かつ安全な連合オンラインランク学習**
+
+Shuyi Wang
+
+- OLTRはクリックなどのユーザーフィードバックを用いてランキングモデルを最適化
+- 人間の注釈コストやユーザープリファレンスと人間の判断のミスマッチを解消
+- OLTRはユーザーデータの収集が必要でプライバシーの懸念がある
+- FOLTRは連合学習を活用しプライバシーを強化するが、ランキングの効果やセキュリティが課題
+
+連合学習を使ってみんなのデータを安全に守りながら効率的にランキングを最適化するなんて、未来の技術って感じがするよね！なのに今のFOLTRにはまだまだ課題があるみたい。改善されたらもっとすごいことに使えるかも〜。
+
+**Comment:** PhD Thesis
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.CR, cs.IR, **投稿日時:** 2024-12-26 05:53
+
+- - -
+
+### [Optimal Federated Learning for Functional Mean Estimation under Heterogeneous Privacy Constraints](http://arxiv.org/abs/2412.18992)
+
+**異なるプライバシー制約下での機能平均推定のための最適な連合学習**
+
+Tony Cai, Abhinav Chakraborty, Lasse Vuursteen
+
+- 連合学習はデータプライバシーを保つための分散機械学習技術である
+- 人数や測定数、プライバシーパラメータが異なる環境で平均推定誤差を解析
+- 共通設計と個別設計の設定で、設計点の違いによる推定誤差の境界を確立
+- プライバシーと精度の最適なバランスを実現するアルゴリズムを提案
+
+この論文、異なるプライバシー条件での最適性とか、共通設計と個別設計の違いが興味深いよね！プライバシーと精度のバランスをどうやって取ってるのか、実際に応用されたらめっちゃ便利そう～。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** math.ST, cs.LG, stat.TH, 62G08, 62G20, **投稿日時:** 2024-12-25 22:06
+
+- - -
+
+### [FedCFA: Alleviating Simpson's Paradox in Model Aggregation with Counterfactual Federated Learning](http://arxiv.org/abs/2412.18904)
+
+**FedCFA: 反事実連合学習によるモデル集約のシンプソンのパラドックス緩和**
+
+Zhonghua Jiang, Jimin Xu, Shengyu Zhang, Tao Shen, Jiwei Li, Kun Kuang, Haibin Cai, Fei Wu
+
+- 連合学習はデータの不均衡と異質性に苦しむ
+- シンプソンのパラドックスでのパフォーマンスが課題
+- FedCFAは反事実学習を用いてパラドックスを緩和
+- 要因をデコレートするFDC損失でサンプルの品質を改善
+
+連合学習に新たな視点を持ち込んで、パラドックス問題を解決しようとしているところが面白いね。効率よく精度を上げる手法が見つかると、実用化も夢じゃないかも！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2024-12-25 13:35
+
+- - -
+
+### [Bootstrap Your Own Context Length](http://arxiv.org/abs/2412.18860)
+
+**自身のコンテキスト長をブートストラップする**
+
+Liang Wang, Nan Yang, Xingxing Zhang, Xiaolong Huang, Furu Wei
+
+- 短いコンテキスト能力を使い、長コンテキスト言語モデルを訓練するブートストラップ法を紹介
+- 手動のデータ収集・注釈を排除し、合成データで多様な長コンテキストの指示チューニングを可能に
+- データの合成は短コンテキストの言語モデル、テキストリトリーバー、文書コレクションで実現
+- Llama-3モデルを用い、コンテキスト長を1Mトークンまで拡張し高性能を達成
+
+長コンテキスト化がめっちゃ面白そう！どんどん便利になっていくLanguage Modelの未来が楽しみだね。特に手作業がいらないの、まさにAIの進化って感じ！
+
+**Comment:** 18 pages
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.IR, **投稿日時:** 2024-12-25 10:08
+
+- - -
+
+### [Federated Learning with Partially Labeled Data: A Conditional Distillation Approach](http://arxiv.org/abs/2412.18833)
+
+**部分ラベルデータを用いた連合学習：条件付き蒸留アプローチ**
+
+Pochuan Wang, Chen Shen, Masahiro Oda, Chiou-Shann Fuh, Kensaku Mori, Weichung Wang, Holger R. Roth
+
+- 医療画像の汎用的なセグメンテーションモデルにおいて重要なのは、多数の器官と病変に対応することである。
+- 既存の連合学習は部分ラベルに弱く、モデルの分岐や忘却が問題となる。
+- ConDistFLは条件付き蒸留を組み込むことで、部分ラベルデータから効果的な学習を可能にする。
+- 実験でConDistFLは一般化能力を発揮し、見たことのないコントラスト位相にも適応可能と示された。
+
+この研究、医療の分野でプライバシーを守りつつも画像技術を進化させる感じがするね。未来の病気診断が迅速かつ確実になるなんて、なんだかワクワクしちゃうな！
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, **投稿日時:** 2024-12-25 08:40
+
+- - -
+
+### [The Impact of Input Order Bias on Large Language Models for Software Fault Localization](http://arxiv.org/abs/2412.18750)
+
+**ソフトウェア障害の局所化における大規模言語モデルへの入力順序バイアスの影響**
+
+Md Nakhla Rafi, Dong Jae Kim, Tse-Hsun Chen, Shaowei Wang
+
+- 大規模言語モデルはソフトウェア障害の局所化や自動プログラム修正で有望
+- 入力順とコンテキストサイズが性能に与える影響を調査
+- コード順を逆にするとTop-1精度が57%から20%に減少
+- 小さなコンテキストに分けることでバイアスを軽減しパフォーマンス差を1%に縮小
+
+入力順序がこんなに重要なんだー！学習の工夫次第でパフォーマンスが大きく変わりそうで面白いね。これ、具体的な障害箇所特定にめっちゃ役立ちそうじゃない？
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.SE, cs.AI, cs.LG, **投稿日時:** 2024-12-25 02:48
+
+- - -
+
+### [Edge-AI for Agriculture: Lightweight Vision Models for Disease Detection in Resource-Limited Settings](http://arxiv.org/abs/2412.18635)
+
+**農業のためのエッジAI: 資源制限環境における病気検出のための軽量ビジョンモデル**
+
+Harsh Joshi
+
+- 軽量かつ効率的なコンピュータビジョンのパイプラインを開発し、農家がオレンジの病気を検出できるように支援。
+- リソース制限環境での動作を保証するために、エッジデバイスに最適化されたオブジェクト検出、分類、セグメンテーションモデルを統合。
+- 最新のビジョントランスフォーマーモデルはオレンジの分類で96の精度を達成し、YOLOv8-Sは低計算負荷で優れた物体検出性能を示した。
+- モデルの複雑さと実用性のバランスが重要で、多様な農業コンテクストでの適用を広げるためにデータセット拡大やモデル圧縮、連合学習を探求予定。
+
+エッジAIを使って農業がより効率化されるなんて、未来の農業っぽくてワクワクしちゃう！これで持続可能な農業がもっと身近になるといいなー。
+
+
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CV, cs.AI, cs.CY, **投稿日時:** 2024-12-23 06:48

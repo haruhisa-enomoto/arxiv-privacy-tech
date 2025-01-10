@@ -27,327 +27,137 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2025-01-09T04:22:56.719060
+更新: 2025-01-10T04:21:46.348301
 
 - - -
 
-### [URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics](http://arxiv.org/abs/2501.04686)
+### [Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance](http://arxiv.org/abs/2501.05379)
 
-**URSA: マルチモーダル数学における思考過程推論の理解と検証**
+**Arc2Avatar: IDガイダンスを用いた単一画像からの表現豊かな3Dアバター生成**
 
-Ruilin Luo, Zhuofan Zheng, Yifan Wang, Yiyao Yu, Xinzhe Ni, Zicheng Lin, Jin Zeng, Yujiu Yang
+Dimitrios Gerogiannis, Foivos Paraperas Papantoniou, Rolandos Alexandros Potamias, Alexandros Lattas, Stefanos Zafeiriou
 
-- マルチモーダル数学の推論で、高品質な思考過程データの不足が課題
-- 三つのモジュールを統合した戦略で高品質データセットMMathCoT-1Mを作成
-- 新たなデータ合成戦略でDualMath-1.1Mを生成し、解釈と論理に注力
-- URSA-RM-7BがURSA-7Bのテスト時パフォーマンスを向上させOの一般化も実現
+- 3D Gaussian Splattingに着想を得て、単一画像から3Dアバターを再構築
+- 合成データを用いてファインチューニングし、見下ろし人間の頭部を多様に生成
+- 人間の顔メッシュテンプレートと密接に対応し、表情生成に展開
+- スタートアップ戦略やアイデンティティ保存により色問題を解決しつつ高詳細を維持
 
-思考過程推論の話って新しい感じでめちゃ興味があるなあ。マルチモーダルでの解析でどんな応用が見つかるのかな、ちょっとわくわくしてくる！
-
-**Comment:** 27 pages, 10 tables, 17 figures. The training data has been released.   The code and model are currently undergoing internal review. They will be   made available soon. Project url: https://ursa-math.github.io
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2025-01-08 18:49
-
-- - -
-
-### [Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Though](http://arxiv.org/abs/2501.04682)
-
-**連合学習におけるムラエレクトロンのプライバシー強化**
-
-Violet Xiang, Charlie Snell, Kanishk Gandhi, Alon Albalak, Anikait Singh, Chase Blagden, Duy Phung, Rafael Rafailov, Nathan Lile, Dakota Mahan, Louis Castricato, Jan-Philipp Franken, Nick Haber, Chelsea Finn
-
-- Meta-CoTは伝統的なChain-of-Thoughtを拡張し、推論プロセスを明示的にモデル化
-- 基礎モデルの行動を観察し、コンテキスト内検索との一貫性を示す
-- Meta-CoTの生成にはプロセス監視、合成データ生成、探索アルゴリズムを活用
-- 線形検索トレースと強化学習の後処理を組み込み、モデル訓練パイプラインを具体化
-
-この方式で、AIにもっと賢くて人間っぽい考え方を身につけさせるんだって。Meta-CoTを使うと、新しい推論アルゴリズムが見つかりそうでワクワクする～！
+3D技術って本当にすごい！一枚の写真から表情豊かなアバターを作るなんて、まるで魔法みたいだね。これからいろんな分野で使われそうだから楽しみだなぁ！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.CL, **投稿日時:** 2025-01-08 18:42
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2025-01-09 17:04
 
 - - -
 
-### [Enhancing Virtual Try-On with Synthetic Pairs and Error-Aware Noise Scheduling](http://arxiv.org/abs/2501.04666)
+### [Validation of GPU Computation in Decentralized, Trustless Networks](http://arxiv.org/abs/2501.05374)
 
-**合成ペアとエラー対応型ノイズスケジューリングによるバーチャル試着の強化**
+**分散型、信頼のないネットワークにおけるGPU計算の検証**
 
-Nannan Li, Kevin J. Shih, Bryan A. Plummer
+Eric Boniardi, Stanley Bishop, Alison Haire
 
-- バーチャル試着には、ペアデータの少なさとテクスチャの歪みの課題がある
-- 合成ペアを生成し、トレーニングデータを増強することで課題を改善
-- エラー認識型の改良モデルで生成エラーを局所的に修正
-- 合成データと新手法で従来の手法を上回る成果を実証し、ユーザー評価でも向上
+- GPU計算の検証は、非決定性のため正確な再計算が難しい
+- Trusted Execution Environmentsは特別なハードウェアが必要である
+- 準同型暗号は計算コストが高く現実的でない
+- バイナリ参照モデルと三者合意フレームワークを用いて信頼不要なネットワークを実現
 
-バーチャル試着の精度がこんなに上がるんだって！今度、気になる洋服を以前より正確に試着できるかもね。ユーザーからも好評だから、いつか実装されたらワクワクするね！
-
-
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2025-01-08 18:25
-
-- - -
-
-### [MedCoDi-M: A Multi-Prompt Foundation Model for Multimodal Medical Data Generation](http://arxiv.org/abs/2501.04614)
-
-**MedCoDi-M: マルチモーダル医療データ生成のための多プロンプト基盤モデル**
-
-Daniele Molino, Francesco Di Feola, Eliodoro Faiella, Deborah Fazzini, Domiziana Santucci, Linlin Shen, Valerio Guarrasi, Paolo Soda
-
-- AIは医療の診断精度と提供を向上させるが、データの不足とプライバシーの制約が課題
-- 合成データはプライバシーを守りつつデータ不足を緩和する有力な解決策である
-- MedCoDi-Mはマルチモーダル医療データ生成モデルで、対比学習と多量データでラテント空間を構築
-- 医療の匿名化やデータ不足問題の解決において、MedCoDi-Mの有効性を実証済み
-
-この研究、マルチモーダルデータを一括で生成できるなんてすごく画期的だよね！プライバシーを守りつつデータを有効活用できるなら、医療現場でもっと革新が起きそう！
+未来志向で分散型ネットワークの面白さを感じるね！GPUの計算って本当に重要になってくるし、この方法でさらに安全性が高まるのってワクワクするね。新しい技術で私たちの未来がますます便利になりそう！
 
 
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.LG, **投稿日時:** 2025-01-08 16:53
+**トピック:** [準同型暗号](he), [TEE](tee), **カテゴリ:** cs.ET, cs.DC, **投稿日時:** 2025-01-09 16:58
 
 - - -
 
-### [MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data](http://arxiv.org/abs/2501.04595)
+### [Biomedical Relation Extraction via Adaptive Document-Relation Cross-Mapping and Concept Unique Identifier](http://arxiv.org/abs/2501.05155)
 
-**モバイルH2R: スケーラブルかつ多様な合成データのみから学習する、汎用的な人からモバイルロボットへの受け渡し**
+**適応型ドキュメント関係クロスマッピングと概念ユニーク識別子による生物医薬品関係抽出**
 
-Zifan Wang, Ziqing Chen, Junyu Chen, Jilong Wang, Yuxin Yang, Yunze Liu, Xueyi Liu, He Wang, Li Yi
+Yufei Shang, Yanrong Guo, Shijie Hao, Richang Hong
 
-- 合成データを用いることで、実世界のデモに依存せずに汎用的な受け渡しスキルをシミュレーターで開発
-- 多様な合成人体動作データ生成のためのスケーラブルなパイプラインを提案し、安全かつ模倣しやすいデモを実現
-- 大規模なデモを基にした4次元模倣学習により、基底とアームの協調による閉ループポリシー生成を効率化
-- 実験では、ベースラインに対し少なくとも15%の成功率向上、合成データの効果を実証
+- 生物医薬品関係抽出(Bio-RE)は長文内の関係を特定するが、文を跨ぐ推論が難しい
+- 従来の方法は外部知識の統合が不足し、ドキュメントの文脈が貧弱になる
+- ChatGPTを用いた合成データ生成手法でデータ不足を解決する
+- 新しいCUI RAGアプローチにより、生物医薬品関連の文脈を充実させることができる
 
-モバイルロボットがこんなにスムーズに物を受け取れるなんて、未来感が強すぎる！合成データだけでこんなに進化できるのが信じられないけど、ほんとにロボ研究の最前線って感じだね！
+新しいアプローチが生物医薬品テキストの関係抽出をグッと進化させているのが面白いね！大きなデータがなくてもChatGPTで解決できるって、かなり革新的かも！
 
+**Comment:** 13 pages, 6 figures
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.RO, **投稿日時:** 2025-01-08 16:23
-
-- - -
-
-### [Gradient Purification: Defense Against Poisoning Attack in Decentralized Federated Learning](http://arxiv.org/abs/2501.04453)
-
-**勾配浄化: 分散型連合学習における毒攻撃防御**
-
-Bin Li, Xiaoye Miao, Yongheng Shang, Xinkui Zhao, Shuiguang Deng, Jianwei Yin
-
-- 分散型連合学習は毒攻撃の影響を受けやすく、悪意のあるクライアントからの勾配が問題。
-- 提案する勾配浄化技術は、既存の連合学習と統合して毒攻撃を防ぐ新しい手法。
-- 悪意のある隣接クライアントを検出し、悪影響を歴史的に一貫したチェックで軽減する。
-- 3つのデータセットでの実験結果、提案手法は最先端よりも高い精度で毒攻撃を防ぐ。
-
-勾配浄化っていう新しいアプローチで、従来捨てられてた有用な部分を活かせるようにしてるんだね！これで毒攻撃への対策がさらに進んだら、もっと安全なモデルができて、連合学習の未来はもっと明るくなりそうだよね！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2025-01-08 12:14
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2025-01-09 11:19
 
 - - -
 
-### [Revisiting LocalSGD and SCAFFOLD: Improved Rates and Missing Analysis](http://arxiv.org/abs/2501.04443)
+### [TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated Learning](http://arxiv.org/abs/2501.05053)
 
-**LocalSGDとSCAFFOLDの再検討: 改善された速度と不足していた分析**
+**TAPFed: プライバシー保護型連合学習のための閾値安全集約**
 
-Ruichen Luo, Sebastian U Stich, Samuel Horváth, Martin Takáč
+Runhua Xu, Bo Li, Chao Li, James B. D. Joshi, Shuai Ma, Jianxin Li
 
-- LocalSGDとSCAFFOLDは連合学習で広く使用されるが、理論的優位性の証明が難しい
-- LocalSGDは弱凸関数においてMbSGDより速い収束を示し、強い勾配類似の仮定が不要
-- LocalSGDは高次の類似性と滑らかさから大きな利益を得る
-- SCAFFOLDは非二次関数の広範なクラスでMbSGDよりも速い収束を実現する
+- 連合学習は個人データを明示せずにモデルを共同訓練するプライバシー保護手法
+- 既存の連合学習には勾配交換によるプライバシー漏洩の問題がある
+- TAPFedは、悪意ある集約者を考慮したプライバシー保護手法を提案
+- TAPFedは新しい推論攻撃に耐えつつ、通信オーバーヘッドを減少させる成果を示す
 
-LocalSGDとSCAFFOLDの利点が明確に示されてて、この技術を使った新しいことができそう！効果的な分散最適化の可能性がありそうでワクワクする！
+TAPFedってすごく未来を感じるよね！悪意ある存在にも対応できるなんて、これからのプライバシー保護にとても頼もしい武器になりそう！🥰
 
+**Comment:** The paper has been published in IEEE TDSC
 
-
-**トピック:** [連合学習](fl), **カテゴリ:** math.OC, cs.DC, cs.LG, **投稿日時:** 2025-01-08 11:52
-
-- - -
-
-### [Federated Fine-Tuning of LLMs: Framework Comparison and Research Directions](http://arxiv.org/abs/2501.04436)
-
-**LLMの連合微調整：フレームワーク比較と研究の方向性**
-
-Na Yan, Yang Su, Yansha Deng, Robert Schober
-
-- 連合学習により、データプライバシーを保ちながらLLMをタスクに特化させる
-- LLMの微調整は通信と計算コストが高く、リソース制約のある環境で困難
-- 各フレームワークの評価はモデル精度、通信負荷、クライアント側の計算負荷に基づく
-- フレームワークごとの最適化の機会や実世界への適用における課題を示す
-
-これって、連合学習を活用してデータを守りながらも、モデルを上手く調整するための研究なんだね。高性能ながら省エネな方法が大事だから、これからの技術進化が楽しみ！みんなで効率よくAIを使える未来が来るかも！
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2025-01-08 11:37
+**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2025-01-09 08:24
 
 - - -
 
-### [User Simulation in the Era of Generative AI: User Modeling, Synthetic Data Generation, and System Evaluation](http://arxiv.org/abs/2501.04410)
+### [MORDA: A Synthetic Dataset to Facilitate Adaptation of Object Detectors to Unseen Real-target Domain While Preserving Performance on Real-source Domain](http://arxiv.org/abs/2501.04950)
 
-**生成AI時代におけるユーザーシミュレーション: ユーザーモデリング、合成データ生成、システム評価**
+**MORDA: 未知の実世界ターゲット領域に適応しつつ実世界ソース領域の性能を維持するための合成データセット**
 
-Krisztian Balog, ChengXiang Zhai
+Hojun Lim, Heecheol Yoo, Jinwoo Lee, Seungmin Jeon, Hyeongseok Jeon
 
-- ユーザーシミュレーションは、ユーザーの行動を模倣する知能エージェントを創造する技術である。
-- 合成データ生成のためにユーザー行動をモデリングし、AIシステムを効果的に評価する。
-- 多様な分野に影響を与え、汎用人工知能の追求において重要な役割を担う。
-- 重要性が増すこの技術の応用や学際的な関連を概観し、未来の研究方向性を示す。
+- 自動運転車のための深層神経ネットワークモデルは、大量で高品質なデータ依存に課題がある
+- 新しい地域でのデータセット収集には時間とコストがかかるためソースドメイン外のデータ適応が必要
+- 合成環境を補助ドメインとして利用し、リアルドメインの特性を再現するアプローチを提案
+- MORDAを使用し、South Koreaのリアルデータセットで検出器の精度mAPが向上し、nuScenesもわずかに改善
 
-ユーザーシミュレーションなんて未来っぽくてワクワクするね！これが進化したら、AIはもっと人間らしくなって、私たちと感情を持って接してくれるようになるのかな？それに、いろんな分野に応用できそうで夢が膨らむね！
+新しい環境でも性能発揮できるのってすごいよね！合成データとリアルデータの融合が未来の鍵になりそう！
 
+**Comment:** 7 pages, 6 figures, 4 tables, This work has been submitted to the   IEEE for possible publication (the paper is submitted to the conference   ICRA2025 and is under review)
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.AI, cs.HC, cs.IR, cs.LG, **投稿日時:** 2025-01-08 10:49
-
-- - -
-
-### [Lossless Privacy-Preserving Aggregation for Decentralized Federated Learning](http://arxiv.org/abs/2501.04409)
-
-**分散型連合学習のための無損失プライバシー保護集約法**
-
-Xiaoye Miao, Bin Li, Yangyang Wu, Meng Xi, Xinkui Zhao, Jianwei Yin
-
-- 連合学習は勾配を集約するが、依然としてデータ漏洩のリスクがある
-- 提案手法LPPAは、勾配にノイズ差を注入しプライバシーを守る
-- ノイズフロー保存理論を用いて、ノイズの影響を無効化する
-- LPPAは従来法より精度を13%改善し、データ保護を実現
-
-この研究、すごく面白そう！データ保護しながらも精度を上げるなんて素敵すぎる。このアイデアが進化したら、もっと安心して連合学習を活用できそうだよね。
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2025-01-08 10:49
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2025-01-09 03:58
 
 - - -
 
-### [AutoDFL: A Scalable and Automated Reputation-Aware Decentralized Federated Learning](http://arxiv.org/abs/2501.04331)
+### [A New Perspective on Privacy Protection in Federated Learning with Granular-Ball Computing](http://arxiv.org/abs/2501.04940)
 
-**AutoDFL: スケーラブルで自動化された評判対応型分散連合学習**
+**連合学習における粒状ボール計算によるプライバシー保護の新しい視点**
 
-Meryem Malak Dif, Mouhamed Amine Bouchiha, Mourad Rabah, Yacine Ghamri-Doudane
+Guannan Lai, Yihui Feng, Xin Yang, Xiaoyu Deng, Hao Yu, Shuyin Xia, Guoyin Wang, Tianrui Li
 
-- 連合学習とブロックチェーンを組み合わせてプライバシーとセキュリティを強化するBFLは、スケーラビリティとコストの問題がある
-- 評判を考慮したBFLではブロックチェーンの混雑と性能低下が起こりやすく、これがさらに複雑さを増す
-- AutoDFLはzk-Rollupsを活用し、スケーラビリティを改善しつつレイヤー1と同等のセキュリティを維持
-- 平均3000TPSを超えるスループットを達成し、最大20倍のガス削減を実現
+- 連合学習は直接データ共有せず協調的にモデルを訓練しつつプライバシーを強調
+- 従来の手法はモデルの内部パラメータに注目、入力レベルの課題は未解決
+- 粒状ボール連合学習（GrBFL）は画像を最適な粗さで分割し、グラフ構造に再構築
+- GrBFLはプライバシー保護、効率向上を実現しつつ、他の最先端手法を上回る性能を示す
 
-AutoDFLってすごいじゃない？スケーラビリティも改善しちゃうなんて夢のようだよね！ブロックチェーンの混雑を避けつつ、高速な処理を目指すこの技術、ちょっと目が離せないね！
+画像データを上手に加工してプライバシーを守るって面白いね！連合学習の新しいアプローチって、未来のデータ共有の形を変えちゃいそうでワクワクする！
 
-**Comment:** Paper accepted at NOMS'2025 (pages 9, figures 5)
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, cs.CR, cs.ET, cs.LG, **投稿日時:** 2025-01-08 08:05
 
-- - -
-
-### [VerifBFL: Leveraging zk-SNARKs for A Verifiable Blockchained Federated Learning](http://arxiv.org/abs/2501.04319)
-
-**VerifBFL: zk-SNARKsを活用した検証可能なブロックチェーン連合学習**
-
-Ahmed Ayoub Bellachia, Mouhamed Amine Bouchiha, Yacine Ghamri-Doudane, Mourad Rabah
-
-- 連合学習は中央サーバーを必要とせず、プライバシーを保護するが、攻撃の脆弱性がある
-- VerifBFLはブロックチェーンと暗号技術を組み合わせた、信頼不要の検証可能な連合学習
-- zk-SNARKsにより、ローカルトレーニングと集約の検証性を確保し、オンチェーンで監査可能にする
-- 差分プライバシーを用いて学習データを保護し、プロトタイプで効率を実証
-
-ブロックチェーンと連合学習の組み合わせ、めっちゃ革新的じゃない！検証も速くて、実用化が楽しみだね。
-
-**Comment:** Paper accepted at NOMS'25 (9 pages, 6 Figures)
-
-**トピック:** [連合学習](fl), [差分プライバシー](dp), [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, cs.DC, cs.ET, cs.LG, **投稿日時:** 2025-01-08 07:32
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2025-01-09 03:14
 
 - - -
 
-### [HiCoCS: High Concurrency Cross-Sharding on Permissioned Blockchains](http://arxiv.org/abs/2501.04265)
+### [Decentralised Resource Sharing in TinyML: Wireless Bilayer Gossip Parallel SGD for Collaborative Learning](http://arxiv.org/abs/2501.04817)
 
-**HiCoCS: 許可型ブロックチェーンにおける高並行クロスシャーディング**
+**TinyMLにおける分散リソース共有：協調学習のための無線二層ゴシップ並列SGD**
 
-Lingxiao Yang, Xuewen Dong, Zhiguo Wan, Di Lu, Yushu Zhang, Yulong Shen
+Ziyuan Bao, Eiman Kanjo, Soumya Banerjee, Hasib-Al Rashid, Tinoosh Mohsenin
 
-- ブロックチェーンのスケーラビリティに対する需要が増加している
-- 高並行クロスシャード取引が今まで十分に解決されていない課題である
-- 独自のバーチャルサブブローカーにより競合のない取引処理が可能
-- 準同型暗号を用いてプライバシー保護を強化し、スループットを大幅に改善
+- マイクロコントローラーの性能向上に伴い、エッジデバイスで機械学習が可能になっている
+- ただし、分散連合学習に関する通信の制約とネットワーク変動を克服する必要がある
+- 提案手法は二層ゴシップの分散パラレルSGDで、効率的なモデル統合を実現
+- 提案手法はCFLに近い精度を保ちながら、エッジデバイスでの学習を可能にしている
 
-この論文、シャーディングとか仮想ブローカーとか、新しい技術アイデアがいっぱいでワクワクするね！特に、プライバシーを守りつつ効率化するってところがすごく魅力的だと思ったな～。これからのブロックチェーン技術の進化が楽しみだな！
-
-**Comment:** Major Revised in IEEE TC
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.DC, **投稿日時:** 2025-01-08 04:19
-
-- - -
-
-### [Splicer: Secure Hub Placement and Deadlock-Free Routing for Payment Channel Network Scalability](http://arxiv.org/abs/2501.04236)
-
-**Splicer$^{+}$: 支払いチャネルネットワークのスケーラビリティのための安全なハブ配置とデッドロックフリールーティング**
-
-Lingxiao Yang, Xuewen Dong, Wei Wang, Sheng Gao, Qiang Qu, Wensheng Tian, Yulong Shen
-
-- 現行の支払いチャネルハブは要求分布を考慮せず負荷不均衡を生む
-- Splicer$^{+}$は信頼実行環境を用いて高スケーラビリティを実現する
-- デッドロックを回避するためのルーティングプロトコルを設計
-- トランザクション成功率やスループットで従来技術を大幅に上回る効果を示す
-
-支払いチャネルの効率をこんなに改善できるなんてスゴイね！未来の支払いシステムがもっと使いやすくなるのかなってワクワクしちゃう。
-
-**Comment:** Extended version of ICDCS 2023 (arXiv:2305.19182)
-
-**トピック:** [TEE](tee), **カテゴリ:** cs.DC, **投稿日時:** 2025-01-08 02:30
-
-- - -
-
-### [Privacy-Preserving Distributed Online Mirror Descent for Nonconvex Optimization](http://arxiv.org/abs/2501.04222)
-
-**プライバシー保護分散オンラインミラーディセントによる非凸最適化**
-
-Yingjie Zhou, Tao Li
-
-- 非凸関数の最適化問題を差分プライバシーで分散的に解く手法を検討
-- ミラーディセントとラプラス差分プライバシー機構を使用してプライバシーを保護
-- 非凸のコスト関数を許容し、適切なステップサイズで$\epsilon$-差分プライバシーを保証
-- 局所コスト関数が滑らかであれば、後悔が時間の平方根に比例して増加
-
-新しいプライバシー保護の最適化手法、すごい！未来の分散ネットワークの問題解決にもつながりそうでワクワクするね。実際の数値シミュレーションも効果的だったみたい！
+提案手法の通信階層とゴシッププロトコルを組み合わせたアプローチが面白そう！リソースの限られたデバイスが持つ小さな力を合わせて大きな力に変えるなんて、まさに「塵も積もれば山となる」だね。
 
 
 
-**トピック:** [差分プライバシー](dp), **カテゴリ:** eess.SY, cs.SY, **投稿日時:** 2025-01-08 01:39
-
-- - -
-
-### [FedKD-hybrid: Federated Hybrid Knowledge Distillation for Lithography Hotspot Detection](http://arxiv.org/abs/2501.04066)
-
-**FedKD-hybrid: リソグラフィーホットスポット検出のための連合ハイブリッド知識蒸留**
-
-Yuqi Li, Xingyou Lin, Kai Zhang, Chuanguang Yang, Zhongliang Guo, Jianping Gou, Yanli Li
-
-- 連合学習は分散環境でリソグラフィーホットスポット検出に新たな解決策を提供する
-- 現在の方法は情報の完全な活用と転送がされておらず、潜在力が十分に探索されていない
-- FedKD-hybridは、複数クライアントが公開データセットを使用しグローバルな合意を達成する手法を提案
-- 実験結果ではFedKD-hybridが最新手法より優れた性能を示す
-
-リソグラフィーって、私もちょっと気になる！FedKD-hybridで性能がアップするなんて面白そう！これから技術が進んでくのに役立ちそう♪
-
-
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AR, **投稿日時:** 2025-01-07 12:12
-
-- - -
-
-### [Homomorphic Encryption in Healthcare Industry Applications for Protecting Data Privacy](http://arxiv.org/abs/2501.04058)
-
-**医療産業におけるデータプライバシー保護のための準同型暗号応用**
-
-J. S. Rauthan
-
-- 医療診断におけるニューラルネットワークと品質管理手法に準同型暗号を適用
-- 準同型暗号のツールの進歩と実用アプリケーション間のギャップを検討
-- 具体的なケーススタディと信頼モデルを基にリソースとパフォーマンス要件を評価
-- 複雑なニューラルネットワークモデルと単純な品質管理アルゴリズムでの効果とリソース消費を示す
-
-準同型暗号の医療分野への応用って新しい！理論から実践への進展がもっと加速するかもね。これからの医療データの安全な利用に期待大だよ！
-
-
-
-**トピック:** [準同型暗号](he), **カテゴリ:** cs.DC, cs.CR, **投稿日時:** 2025-01-07 07:42
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2025-01-08 20:14

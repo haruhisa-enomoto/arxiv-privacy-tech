@@ -27,137 +27,232 @@ author_profile: false
 
 ## 最新更新分
 
-更新: 2025-01-12T04:20:40.574545
+更新: 2025-01-13T04:23:21.396095
 
 - - -
 
-### [Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance](http://arxiv.org/abs/2501.05379)
+### [Explainable Federated Bayesian Causal Inference and Its Application in Advanced Manufacturing](http://arxiv.org/abs/2501.06077)
 
-**Arc2Avatar: IDガイダンスを用いた単一画像からの表現豊かな3Dアバター生成**
+**説明可能な連合ベイジアン因果推論とその高度製造における応用**
 
-Dimitrios Gerogiannis, Foivos Paraperas Papantoniou, Rolandos Alexandros Potamias, Alexandros Lattas, Stefanos Zafeiriou
+Xiaofeng Xiao, Khawlah Alharbi, Pengyu Zhang, Hantang Qin, Xubo Yue
 
-- 3D Gaussian Splattingに着想を得て、単一画像から3Dアバターを再構築
-- 合成データを用いてファインチューニングし、見下ろし人間の頭部を多様に生成
-- 人間の顔メッシュテンプレートと密接に対応し、表情生成に展開
-- スタートアップ戦略やアイデンティティ保存により色問題を解決しつつ高詳細を維持
+- 因果推論はxAIシステムで注目されているが、製造システムでの応用はまだ十分でない。
+- 提案する連合ベイジアン学習フレームワークxFBCIは製造システムでの因果関係探求を目的とする。
+- xFBCIはローカルのプライベートデータにアクセスせず、傾向スコアを推定し治療効果を見積もる。
+- 実際のEHD印刷データを用いた実験で、既存手法よりも優れた性能を示した。
 
-3D技術って本当にすごい！一枚の写真から表情豊かなアバターを作るなんて、まるで魔法みたいだね。これからいろんな分野で使われそうだから楽しみだなぁ！
+因果関係を解明するための新しい手法って、すごく革新的に感じるよね。製造業でも人工知能がもっと活用されていく未来が楽しみだな！
 
+**Comment:** 26 pages
 
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2025-01-09 17:04
-
-- - -
-
-### [Validation of GPU Computation in Decentralized, Trustless Networks](http://arxiv.org/abs/2501.05374)
-
-**分散型、信頼のないネットワークにおけるGPU計算の検証**
-
-Eric Boniardi, Stanley Bishop, Alison Haire
-
-- GPU計算の検証は、非決定性のため正確な再計算が難しい
-- Trusted Execution Environmentsは特別なハードウェアが必要である
-- 準同型暗号は計算コストが高く現実的でない
-- バイナリ参照モデルと三者合意フレームワークを用いて信頼不要なネットワークを実現
-
-未来志向で分散型ネットワークの面白さを感じるね！GPUの計算って本当に重要になってくるし、この方法でさらに安全性が高まるのってワクワクするね。新しい技術で私たちの未来がますます便利になりそう！
-
-
-
-**トピック:** [準同型暗号](he), [TEE](tee), **カテゴリ:** cs.ET, cs.DC, **投稿日時:** 2025-01-09 16:58
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, stat.AP, **投稿日時:** 2025-01-10 16:14
 
 - - -
 
-### [Biomedical Relation Extraction via Adaptive Document-Relation Cross-Mapping and Concept Unique Identifier](http://arxiv.org/abs/2501.05155)
+### [Encoded Spatial Attribute in Multi-Tier Federated Learning](http://arxiv.org/abs/2501.05934)
 
-**適応型ドキュメント関係クロスマッピングと概念ユニーク識別子による生物医薬品関係抽出**
+**多層連合学習における空間属性のエンコード**
 
-Yufei Shang, Yanrong Guo, Shijie Hao, Richang Hong
+Asfia Kawnine, Francis Palma, Seyed Alireza Rahimi Azghadi, Hung Cao
 
-- 生物医薬品関係抽出(Bio-RE)は長文内の関係を特定するが、文を跨ぐ推論が難しい
-- 従来の方法は外部知識の統合が不足し、ドキュメントの文脈が貧弱になる
-- ChatGPTを用いた合成データ生成手法でデータ不足を解決する
-- 新しいCUI RAGアプローチにより、生物医薬品関連の文脈を充実させることができる
+- 地理空間データの集約モデルを多層連合学習で評価するアプローチを提案
+- クライアント層で空間情報をエンコードすることで、ターゲット結果の予測精度を向上
+- 75.62%と89.52%の精度を達成し、異なる空間データ粒度を予測する複数のモデルを取得
+- リアルタイムアプリケーションでの重要性とさらなる予測精度向上の必要性を強調
 
-新しいアプローチが生物医薬品テキストの関係抽出をグッと進化させているのが面白いね！大きなデータがなくてもChatGPTで解決できるって、かなり革新的かも！
+空間データの粒度をエンコードするなんて、なんだか未来的でわくわくする！今後の応用が楽しみだね！
 
-**Comment:** 13 pages, 6 figures
+**Comment:** IEEE ICCE 2025
 
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2025-01-09 11:19
-
-- - -
-
-### [TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated Learning](http://arxiv.org/abs/2501.05053)
-
-**TAPFed: プライバシー保護型連合学習のための閾値安全集約**
-
-Runhua Xu, Bo Li, Chao Li, James B. D. Joshi, Shuai Ma, Jianxin Li
-
-- 連合学習は個人データを明示せずにモデルを共同訓練するプライバシー保護手法
-- 既存の連合学習には勾配交換によるプライバシー漏洩の問題がある
-- TAPFedは、悪意ある集約者を考慮したプライバシー保護手法を提案
-- TAPFedは新しい推論攻撃に耐えつつ、通信オーバーヘッドを減少させる成果を示す
-
-TAPFedってすごく未来を感じるよね！悪意ある存在にも対応できるなんて、これからのプライバシー保護にとても頼もしい武器になりそう！🥰
-
-**Comment:** The paper has been published in IEEE TDSC
-
-**トピック:** [連合学習](fl), **カテゴリ:** cs.CR, cs.AI, **投稿日時:** 2025-01-09 08:24
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2025-01-10 12:56
 
 - - -
 
-### [MORDA: A Synthetic Dataset to Facilitate Adaptation of Object Detectors to Unseen Real-target Domain While Preserving Performance on Real-source Domain](http://arxiv.org/abs/2501.04950)
+### [Collaborative Content Moderation in the Fediverse](http://arxiv.org/abs/2501.05871)
 
-**MORDA: 未知の実世界ターゲット領域に適応しつつ実世界ソース領域の性能を維持するための合成データセット**
+**フェディバースにおける協調的コンテンツモデレーション**
 
-Hojun Lim, Heecheol Yoo, Jinwoo Lee, Seungmin Jeon, Hyeongseok Jeon
+Haris Bin Zia, Aravindh Raman, Ignacio Castro, Gareth Tyson
 
-- 自動運転車のための深層神経ネットワークモデルは、大量で高品質なデータ依存に課題がある
-- 新しい地域でのデータセット収集には時間とコストがかかるためソースドメイン外のデータ適応が必要
-- 合成環境を補助ドメインとして利用し、リアルドメインの特性を再現するアプローチを提案
-- MORDAを使用し、South Koreaのリアルデータセットで検出器の精度mAPが向上し、nuScenesもわずかに改善
+- フェディバースは急速に人気になり、コンテンツモデレーションが課題として浮上している
+- 中央集権的なプラットフォームとは異なり、フェディバースはラベル付きデータセットとインフラが不十分
+- 本研究は連合学習に基づく協調的なコンテンツモデレーションシステム「FedMod」を設計・評価
+- FedModは3つのタスクで堅牢な性能を示し、平均マクロF1スコア0.58〜0.73を達成
 
-新しい環境でも性能発揮できるのってすごいよね！合成データとリアルデータの融合が未来の鍵になりそう！
-
-**Comment:** 7 pages, 6 figures, 4 tables, This work has been submitted to the   IEEE for possible publication (the paper is submitted to the conference   ICRA2025 and is under review)
-
-**トピック:** [合成データ](sd), **カテゴリ:** cs.CV, **投稿日時:** 2025-01-09 03:58
-
-- - -
-
-### [A New Perspective on Privacy Protection in Federated Learning with Granular-Ball Computing](http://arxiv.org/abs/2501.04940)
-
-**連合学習における粒状ボール計算によるプライバシー保護の新しい視点**
-
-Guannan Lai, Yihui Feng, Xin Yang, Xiaoyu Deng, Hao Yu, Shuyin Xia, Guoyin Wang, Tianrui Li
-
-- 連合学習は直接データ共有せず協調的にモデルを訓練しつつプライバシーを強調
-- 従来の手法はモデルの内部パラメータに注目、入力レベルの課題は未解決
-- 粒状ボール連合学習（GrBFL）は画像を最適な粗さで分割し、グラフ構造に再構築
-- GrBFLはプライバシー保護、効率向上を実現しつつ、他の最先端手法を上回る性能を示す
-
-画像データを上手に加工してプライバシーを守るって面白いね！連合学習の新しいアプローチって、未来のデータ共有の形を変えちゃいそうでワクワクする！
+フェディバースって、あの分散型のSNSだよね。難しい課題も多いけど、連合学習でうまくやっちゃうなんてすごい！未来のSNSがワクワクしちゃうね。
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, **投稿日時:** 2025-01-09 03:14
+**トピック:** [連合学習](fl), **カテゴリ:** cs.SI, cs.LG, cs.NI, **投稿日時:** 2025-01-10 11:12
 
 - - -
 
-### [Decentralised Resource Sharing in TinyML: Wireless Bilayer Gossip Parallel SGD for Collaborative Learning](http://arxiv.org/abs/2501.04817)
+### [STHFL: Spatio-Temporal Heterogeneous Federated Learning](http://arxiv.org/abs/2501.05775)
 
-**TinyMLにおける分散リソース共有：協調学習のための無線二層ゴシップ並列SGD**
+**STHFL: 時空間異質性連合学習**
 
-Ziyuan Bao, Eiman Kanjo, Soumya Banerjee, Hasib-Al Rashid, Tinoosh Mohsenin
+Shunxin Guo, Hongsong Wang, Shuxia Lin, Xu Yang, Xin Geng
 
-- マイクロコントローラーの性能向上に伴い、エッジデバイスで機械学習が可能になっている
-- ただし、分散連合学習に関する通信の制約とネットワーク変動を克服する必要がある
-- 提案手法は二層ゴシップの分散パラレルSGDで、効率的なモデル統合を実現
-- 提案手法はCFLに近い精度を保ちながら、エッジデバイスでの学習を可能にしている
+- 異なるデータ分布による時空間異質性を考慮し、連合学習での課題に対応する新設定を提案
+- 新たなGLDPフレームワークは、動的適応を可能にする個別のレイヤーを含む
+- 長い尾を持つデータ分布のクラスに対し、プライバシーを漏らさずに補完的知識を提供
+- 各クライアントの過去タスクの知識を活用し、学習時の忘却現象を解決
 
-提案手法の通信階層とゴシッププロトコルを組み合わせたアプローチが面白そう！リソースの限られたデバイスが持つ小さな力を合わせて大きな力に変えるなんて、まさに「塵も積もれば山となる」だね。
+新しい学習方法って本当にすごいね！プライバシーを守りながら、前の知識を忘れないで次のステップに進めるって最高じゃん！じわじわ変化に対応できるのって未来的でワクワクするね！
 
 
 
-**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2025-01-08 20:14
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.DC, **投稿日時:** 2025-01-10 08:15
+
+- - -
+
+### [Enabling Scalable Oversight via Self-Evolving Critic](http://arxiv.org/abs/2501.05727)
+
+**自己進化型評価者による拡張可能な監視の実現**
+
+Zhengyang Tang, Ziniu Li, Zhenyang Xiao, Tian Ding, Ruoyu Sun, Benyou Wang, Dayiheng Liu, Fei Huang, Tianyu Liu, Bowen Yu, Junyang Lin
+
+- 大規模言語モデルは人間評価が難しいタスクで、効果的なフィードバックが課題である
+- SCRITは人間や他のモデルに頼らず自己進化できる批評フレームワークを提案する
+- 合成データを活用し、自己批評と自己評価メカニズムで品質を保証する
+- 実装モデルで批評能力が10.3%向上し、データやモデルサイズに比例して性能が向上する
+
+この論文のアプローチ、まるでAIが自分自身を鍛えて強くなる感じね！自己進化って、究極のAIの夢みたいでワクワクする！モデルがどんどん成長していく未来が楽しみだなぁ。
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2025-01-10 05:51
+
+- - -
+
+### [Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains](http://arxiv.org/abs/2501.05707)
+
+**マルチエージェント微調整: 多様な推論チェーンによる自己改善**
+
+Vighnesh Subramaniam, Yilun Du, Joshua B. Tenenbaum, Antonio Torralba, Shuang Li, Igor Mordatch
+
+- 大規模言語モデルの性能は優れているが、基盤となるトレーニングデータに限界がある。
+- 合成データによる自己改善は限界が訪れることがある。
+- マルチエージェント社会における微調整が、多様化を通じて自己改善を促進する。
+- 提案手法は、多様な推論タスクを通じてその有効性を示している。
+
+マルチエージェントなアプローチでモデルが賢くなるなんて、ちょっとRPGみたいでワクワクするね！いっぱいのエージェントが協力して進化していく姿が、これからどんな成果を生むのか楽しみだなぁ。
+
+**Comment:** 22 pages, 13 figures, 7 tables; Project page at   https://llm-multiagent-ft.github.io/
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, cs.LG, **投稿日時:** 2025-01-10 04:35
+
+- - -
+
+### [Cascaded Self-Evaluation Augmented Training for Efficient Multimodal Large Language Models](http://arxiv.org/abs/2501.05662)
+
+**効率的なマルチモーダル大規模言語モデルのためのカスケード自己評価強化トレーニング**
+
+Zheqi Lv, Wenkai Wang, Jiawei Wang, Shengyu Zhang, Fei Wu
+
+- 連鎖的な思考推論と自己評価で効率的な大規模言語モデルの性能は向上
+- 制約あるパラメータが自己評価を難しくしている課題を解決するためSEATを提案
+- SEATを改良し長いプロンプトを分割するCas-SEATを導入してリソース削減を達成
+- 実験によりMathVistaなどで19.68%の性能向上を記録し、後続研究のリソースを提供
+
+なんか、長い説明がスッキリ短くしてもちゃんとした結果を出すなんて使えそうじゃない？コスト削減で学習をアップグレードできるのはポイント高いよね！
+
+
+
+**トピック:** [合成データ](sd), **カテゴリ:** cs.CL, cs.AI, **投稿日時:** 2025-01-10 02:28
+
+- - -
+
+### [Constrained Over-the-Air Model Updating for Wireless Online Federated Learning with Delayed Information](http://arxiv.org/abs/2501.05637)
+
+**遅延情報を考慮したワイヤレスオンラインフェデレーテッドラーニングにおける制約付きOTAモデル更新**
+
+Juncheng Wang, Yituo Liu, Ben Liang, Min Dong
+
+- ワイヤレスネットワーク上でオンラインなフェデレーテッドラーニングを研究
+- 遅延した情報と時間変動する電力制約下でモデル更新手法COMUDOを提案
+- COMUDOは動的後悔、静的後悔、制約違反の境界を提供
+- シミュレーションでCOMUDOが低電力領域で高精度を達成
+
+この研究って、電力が限られてる時でも高精度な学習ができるのがポイントだよね！遅延があってもこれだけ精度をあげられる技術があるなら、未来の通信にも色々活用できそうってワクワクしちゃう！
+
+**Comment:** To appear in INFOCOM 2025
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.DC, **投稿日時:** 2025-01-10 00:50
+
+- - -
+
+### [Kite: How to Delegate Voting Power Privately](http://arxiv.org/abs/2501.05626)
+
+**Kite: 投票権をプライベートに委任する方法**
+
+Kamilla Nazirkhanova, Vrushank Gunjur, X. Pilli Cruz-De Jesus, Dan Boneh
+
+- 選挙の投票プライバシーは民主主義のプロセスにおいて重要だが、従来は公開の委任しか対応していない
+- KiteはDAOにおける投票権のプライベートな委任を可能にする新しいプロトコルを提案
+- プロトコルはUniversal Composabilityフレームワークで設計・検証され、Ethereum上の拡張として実装
+- 委任にはゼロ知識証明が必要で、消費者向けラップトップで7から167秒かかる
+
+投票をもっとプライベートにできるってすごい！DAOでも使えるようにして、これからの民主主義が安全に進むといいなって思ったよ。自分の投票行動がバレず、しかもお手軽に運用できる未来が楽しみ！
+
+
+
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.CR, **投稿日時:** 2025-01-09 23:49
+
+- - -
+
+### [On Fair Ordering and Differential Privacy](http://arxiv.org/abs/2501.05535)
+
+**公正な取引順序と差分プライバシーについて**
+
+Shir Cohen, Neel Basu, Soumya Basu, Lorenzo Alvisi
+
+- ブロックチェーンでは公正な取引順序が信頼性と規制準拠に重要である
+- 関連機能だけで取引の順序を決定し、平等な順番を保証する枠組を提案
+- State Machine Replicationと差分プライバシーの意外な関連性を発見
+- 差分プライバシー技術を使った新しい公正な分散プロトコル設計の可能性を示唆
+
+ブロックチェーンの取引順序にまで差分プライバシーが応用できるなんてすごいね！新しい公正なプロトコル設計の未来が楽しみだなー。
+
+
+
+**トピック:** [差分プライバシー](dp), **カテゴリ:** cs.CR, cs.DC, **投稿日時:** 2025-01-09 19:17
+
+- - -
+
+### [A Survey of Interactive Verifiable Computing: Utilizing Low-degree Polynomials](http://arxiv.org/abs/2501.05500)
+
+**インタラクティブな検証可能計算の調査：低次多項式の利用**
+
+Angold Wang
+
+- 検証可能計算の進化を基礎理論からZK-SNARKsまで追跡
+- 低次多項式を用いて誤り検出と検証効率を強化するプロトコルを探究
+- 伝統的なNPベースの証明システムの限界を克服する新たな手法を提示
+- GKRプロトコルを中心に現代の検証可能計算モデルの基礎を解説
+
+この論文では、計算の検証を効率的かつ安全に行うための最先端技術が詳しく解説されていて、これからのコンピュータサイエンスの理解に役立ちそう！特に低次多項式を使ったアプローチが気になるなぁ。検証のスピードアップにつながる技術、ますます研究が進むといいね！
+
+**Comment:** 29 pages
+
+**トピック:** [ゼロ知識証明](zkp), **カテゴリ:** cs.LO, cs.CR, **投稿日時:** 2025-01-09 18:42
+
+- - -
+
+### [FedSA: A Unified Representation Learning via Semantic Anchors for Prototype-based Federated Learning](http://arxiv.org/abs/2501.05496)
+
+**FedSA: プロトタイプベースの連合学習のためのセマンティックアンカーによる統一表現学習**
+
+Yanbing Zhou, Xiangmou Qu, Chenlong You, Jiyang Zhou, Jingyue Tang, Xin Zheng, Chunmao Cai, Yingbo Wu
+
+- プロトタイプベースの連合学習は、軽量なプロトタイプを用いて異種データを持つクライアント間で知識を共有する。
+- 従来の手法ではローカルモデルから直接プロトタイプを集めるため、表現学習に不整合が生じやすい。
+- FedSAは、セマンティックアンカーを使ってプロトタイプ生成とローカル表現学習を分離し一貫した表現を学習させる。
+- 同手法により、クライアント間でのプロトタイプの一貫性と判別力を高めることで、表現学習の一般化を向上させる。
+
+「セマンティックアンカー」って新鮮な響き！これでデータの違いも気にせずに連合学習できるなんて、未来の協力体制がどんどん進化していくね。ワクワクする！
+
+**Comment:** Accepted by AAAI2025
+
+**トピック:** [連合学習](fl), **カテゴリ:** cs.LG, cs.AI, **投稿日時:** 2025-01-09 16:10
